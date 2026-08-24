@@ -7,9 +7,16 @@ name: aggiorna
 
 on:
   schedule:
-    # ogni due ore. Le probabili si muovono poco in settimana e molto nelle
-    # ultime ore prima del calcio d'inizio: due ore prende quasi tutto.
+    # In settimana le probabili si muovono poco: due ore bastano.
     - cron: "17 */2 * * *"
+    # Nei giorni di gara si muovono fino a un'ora dal calcio d'inizio, ed e'
+    # lì che una formazione vecchia di due ore fa schierare un infortunato.
+    # Venerdì-lunedì, dalle 12 alle 23 italiane, ogni quarto d'ora.
+    #
+    # I cron di GitHub sono a discrezione: sotto carico partono anche con
+    # dieci minuti di ritardo, e non c'e' modo di pretenderne di più. E' il
+    # motivo per cui la scheda «Probabili» ha comunque il tira-giù.
+    - cron: "*/15 10-21 * * 5,6,0,1"
   workflow_dispatch: {}
 
 permissions:
