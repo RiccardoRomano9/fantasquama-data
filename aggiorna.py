@@ -28,10 +28,15 @@ from fantasquama import lineups
 from fantasquama.scoring import EVENTS
 
 
-def scarica(destinazione: Path) -> Path:
-    """Le probabili del momento, con lo scraper che sta accanto a questo file."""
-    script = Path(__file__).resolve().parent / "fetch_lineups.py"
-    subprocess.run([sys.executable, str(script), "-o", str(destinazione)], check=True)
+def scarica(script: str, destinazione: Path, obbligatorio: bool = True) -> Path | None:
+    """Esegue uno degli `fetch_*` che stanno accanto a questo file."""
+    percorso = Path(__file__).resolve().parent / script
+    esito = subprocess.run([sys.executable, str(percorso), "-o", str(destinazione)])
+    if esito.returncode != 0:
+        if obbligatorio:
+            raise SystemExit(f"{script} non e' riuscito: nessun aggiornamento")
+        print(f"  {script} non e' riuscito: si tiene quello che c'era")
+        return None
     return destinazione
 
 
@@ -102,13 +107,20 @@ def main() -> None:
     parser.add_argument("--out", type=Path, default=qui / "serieA.json")
     args = parser.parse_args()
 
-    probabili = args.probabili or scarica(qui / "probabili.json")
+    probabili = args.probabili or scarica("fetch_lineups.py", qui / "probabili.json")
+    # Le notizie non sono obbligatorie: un giornale che non risponde non deve
+    # poter impedire di aggiornare chi gioca, che e' il motivo per cui l'app
+    # esiste. Se saltano, restano quelle del giro precedente.
+    notizie = scarica("fetch_news.py", qui / "news.json", obbligatorio=False)
+
     base = json.loads(args.base.read_text())
     base.setdefault("baseNote", base.get("note", ""))
     aggiornato = aggiorna(base, probabili)
+    if notizie is not None:
+        aggiornato["news"] = json.loads(notizie.read_text())
     args.out.write_text(json.dumps(aggiornato, ensure_ascii=False, indent=1))
     print(f"{args.out}: {len(aggiornato['players'])} giocatori, "
-          f"{args.out.stat().st_size:,} byte")
+          f"{len(aggiornato.get('news', []))} notizie, {args.out.stat().st_size:,} byte")
 
 
 if __name__ == "__main__":
