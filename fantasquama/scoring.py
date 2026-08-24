@@ -11,7 +11,7 @@ numpy, niente stato.
 from collections.abc import Mapping
 from dataclasses import dataclass
 
-EVENTS: tuple[str, ...] = ("gf", "rf", "rs", "rp", "gs", "au", "amm", "esp", "ass")
+EVENTS: tuple[str, ...] = ("gf", "rf", "rs", "rp", "gs", "au", "amm", "esp", "ass", "cs")
 
 
 @dataclass(frozen=True)
@@ -27,6 +27,7 @@ class Rules:
     amm: float = -0.5  # ammonizione
     esp: float = -1.0  # espulsione
     ass: float = 1.0   # assist
+    cs: float = 1.0    # porta inviolata, solo portieri
     sv: float = 0.0    # valore d'ufficio quando il giocatore non prende voto
 
 
