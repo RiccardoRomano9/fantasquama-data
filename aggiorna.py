@@ -75,7 +75,6 @@ def aggiorna(base: dict, probabili: Path) -> dict:
         giocatore["lineupSlot"] = riga.slot if riga is not None else None
         giocatore["startingProbability"] = float(riga.titolarita) if riga is not None else None
         giocatore["status"] = (riga.stato or None) if riga is not None else None
-        giocatore["statusNote"] = (riga.nota or None) if riga is not None else None
         # La stima imparata non conosce le formazioni: se restasse quella di
         # prima, l'app ne farebbe la media con una che sa che il giocatore e'
         # infortunato, e il risultato non sarebbe ne' l'una ne' l'altra.

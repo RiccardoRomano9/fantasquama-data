@@ -71,8 +71,12 @@ def load_probabili(path: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Il JSON di `fetch_lineups.py`, in due tabelle.
 
     La prima ha una riga per giocatore: squadra, slot, percentuale della
-    fonte, e per gli indisponibili lo stato e la nota. La seconda ha una riga
-    per squadra col modulo.
+    fonte, e per gli indisponibili lo stato. La seconda ha una riga per
+    squadra col modulo.
+
+    Il referto che la fonte scrive accanto a ogni infortunio non entra: e'
+    testo della loro redazione, e quello che cambia il consiglio e' che il
+    giocatore non giochi -- per dirlo basta la parola.
     """
     data = json.loads(Path(path).read_text())
     giocatori: list[dict] = []
@@ -97,7 +101,6 @@ def load_probabili(path: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
                         "slot": slot,
                         "titolarita": float(riga.get("titolarita_pct") or 0),
                         "stato": "",
-                        "nota": "",
                     })
             for riga in parte.get("indisponibili", []):
                 giocatori.append({
@@ -107,7 +110,6 @@ def load_probabili(path: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
                     # chi non c'e' non gioca: la percentuale non serve
                     "titolarita": 0.0,
                     "stato": riga.get("stato") or "indisponibile",
-                    "nota": riga.get("nota") or "",
                 })
 
     if len({s["squadra"] for s in squadre}) < MIN_TEAMS:
