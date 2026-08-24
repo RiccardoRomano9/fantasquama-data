@@ -38,7 +38,11 @@ jobs:
 
       - name: Committa, ma solo se e' cambiato qualcosa
         run: |
-          if git diff --quiet -- serieA.json; then
+          # `git status` e non `git diff`: su un file non ancora tracciato
+          # `git diff` non vede nessuna differenza e ritorna zero, quindi alla
+          # prima esecuzione il file non verrebbe committato -- e restando non
+          # tracciato non lo sarebbe piu' a nessuna esecuzione successiva.
+          if [ -z "$(git status --porcelain -- serieA.json)" ]; then
             echo "niente di nuovo: nessun commit"
             exit 0
           fi
