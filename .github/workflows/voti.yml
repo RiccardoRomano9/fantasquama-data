@@ -5,7 +5,7 @@ name: importa voti
 
 on:
   schedule:
-    # 07:20 e 15:20 italiane in ora solare (un'ora prima con l'ora legale).
+    # 06:20 e 14:20 italiane d'inverno; 07:20 e 15:20 con l'ora legale.
     # E' volutamente ripetuto: lo script non riscarica mai una giornata gia'
     # archiviata, quindi entrambe le esecuzioni sono sicure.
     - cron: "20 5,13 * * *"
