@@ -2,9 +2,11 @@
 
 I dati che l'app [FantaSquama](https://github.com/RiccardoRomano9/FantaSquama) legge.
 
-`serieA.json` si aggiorna da solo ogni due ore: un lavoro schedulato scarica
-le probabili formazioni e le applica al file base. L'indirizzo che l'app
-interroga è
+`serieA.json` si aggiorna da solo: un lavoro schedulato scarica le probabili
+formazioni e le applica al file base. Un secondo lavoro controlla due volte al
+giorno i voti Excel di Fanta.Soccer: quando trova una giornata nuova, la
+archivia in un repository privato e rigenera il bundle per la giornata
+successiva. L'indirizzo che l'app interroga è
 
 ```
 https://raw.githubusercontent.com/RiccardoRomano9/fantasquama-data/main/serieA.json
@@ -58,5 +60,7 @@ gh run watch
 Il passo 3 è l'unico che si dimentica: senza, il lavoro gira, produce il file
 e poi fallisce al `git push`.
 
-Da lì in poi non serve toccarlo. Il passo 1 si ripete solo quando arrivano
-voti nuovi e il modello cambia — non ogni settimana.
+Da lì in poi non serve toccarlo per le probabili. Per automatizzare anche i
+voti bisogna configurare una sola volta l'archivio privato e la sua chiave di
+deploy: le istruzioni sono nella guida del repository principale, perché la
+chiave privata non deve mai comparire in questo repository pubblico.

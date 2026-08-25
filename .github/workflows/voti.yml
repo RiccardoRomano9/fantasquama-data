@@ -1,0 +1,84 @@
+# Controlla Fanta.Soccer e pubblica la nuova giornata appena sono disponibili
+# i voti Excel. I file grezzi restano nel repository privato configurato con
+# la chiave di deploy; in questo repository arrivano solo stime e metadati.
+name: importa voti
+
+on:
+  schedule:
+    # 07:20 e 15:20 italiane in ora solare (un'ora prima con l'ora legale).
+    # E' volutamente ripetuto: lo script non riscarica mai una giornata gia'
+    # archiviata, quindi entrambe le esecuzioni sono sicure.
+    - cron: "20 5,13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: importa-voti
+  cancel-in-progress: false
+
+jobs:
+  importa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Accedi all'archivio voti privato
+        uses: actions/checkout@v4
+        with:
+          repository: RiccardoRomano9/fantasquama-archive
+          path: archive
+          ssh-key: ${{ secrets.FANTASQUAMA_ARCHIVE_DEPLOY_KEY }}
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Scarica solo i voti mancanti
+        run: python fetch_votes.py --season 2026-2027 --out archive/data
+
+      - name: Verifica se c'e' una nuova giornata
+        id: voti
+        run: |
+          if [ -z "$(git -C archive status --porcelain -- data/2026-27)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          GIORNATA="$(find archive/data/2026-27 -maxdepth 1 -name 'Voti_*a_SerieA.xls' -printf '%f\n' | sed -E 's/Voti_([0-9]+)a_SerieA.xls/\1/' | sort -n | tail -1)"
+          echo "gameweek=$((GIORNATA + 1))" >> "$GITHUB_OUTPUT"
+
+      - name: Rigenera i dati pubblici per la prossima giornata
+        if: steps.voti.outputs.changed == 'true'
+        env:
+          GIORNATA: ${{ steps.voti.outputs.gameweek }}
+        run: |
+          python fetch_lineups.py -o probabili.json
+          python export_app_data.py \
+            --data archive/data --season 2026-27 --gameweek "$GIORNATA" \
+            --roster-snapshot serieA-base.json --probabili probabili.json \
+            --without-recent-form --out serieA-base.json
+          python aggiorna.py --base serieA-base.json --probabili probabili.json --out serieA.json
+
+      - name: Salva i voti nell'archivio privato
+        if: steps.voti.outputs.changed == 'true'
+        run: |
+          git -C archive config user.name "github-actions[bot]"
+          git -C archive config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C archive add data/2026-27
+          git -C archive commit -m "Voti Serie A 2026-27"
+          git -C archive push
+
+      - name: Pubblica il bundle aggiornato
+        if: steps.voti.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add serieA-base.json serieA.json crests
+          git commit -m "Aggiorna dati alla giornata ${{ steps.voti.outputs.gameweek }}"
+          git push
