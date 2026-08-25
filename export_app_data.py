@@ -22,7 +22,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from fantasquama import calibrate, learned, lineups, roster
+from fantasquama import calibrate, fantaplayer, learned, lineups, roster
 from fantasquama.estimate import (
     _previous_label,
     apply_match_context,
@@ -74,6 +74,11 @@ def main() -> None:
         help="dal listone_id al nome per esteso: il listone scrive «Martinez L.» "
              "e nessuno cerca cosi'",
     )
+    parser.add_argument(
+        "--fantaplayer", type=Path, default=Path("data/fantaplayer"),
+        help="cartella con gli storici stagionali FantaPlayer; rafforza il prior "
+             "personale senza duplicare l'archivio giornata per giornata",
+    )
     args = parser.parse_args()
     if args.listone and args.roster_snapshot:
         raise SystemExit("usa --listone oppure --roster-snapshot, non entrambi")
@@ -105,6 +110,8 @@ def main() -> None:
     ).to_numpy()
 
     previous = previous_season(archive)
+    if rosa is not None and args.fantaplayer.exists():
+        previous = fantaplayer.enrich_previous(previous, archive, rosa, args.fantaplayer)
     blended = blended_history(history, previous)
     models = calibrate.fit(
         blended.iloc[train], archive["role"].iloc[train], archive["voto"].iloc[train]
@@ -160,6 +167,7 @@ def main() -> None:
             "opponent": _clean(context["opponent"].iloc[i]),
             "home": bool(context["home"].iloc[i]) if pd.notna(context["home"].iloc[i]) else None,
             "winProbability": _round(context["p_win"].iloc[i], 3),
+            "drawProbability": _round(context["p_draw"].iloc[i], 3),
             "appearances": int(storia["apps_before"] or 0),
             "gameweeksElapsed": int(storia["gw_elapsed"] or 0),
             "estimatedVote": _round(votes.iloc[i], 2),
@@ -205,7 +213,8 @@ def main() -> None:
             f"{args.gameweek} della stagione {args.season}. Ogni giocatore porta "
             f"due stime indipendenti: una costruita a mano e una imparata dai "
             f"dati. L'app usa la loro media, e il loro disaccordo abbassa la "
-            f"confidenza del consiglio."
+            f"confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, "
+            f"rafforza con peso decrescente il prior personale."
         ),
         "players": players,
         "matches": partite,
