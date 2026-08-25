@@ -87,13 +87,18 @@ def aggiorna(base: dict, probabili: Path) -> dict:
 
     aliases = lineups.roster.TEAM_ALIASES
     base["teams"] = [
-        {"name": aliases.get(str(r.squadra), str(r.squadra)), "formation": str(r.modulo)}
+        {
+            "name": aliases.get(str(r.squadra), str(r.squadra)),
+            "formation": str(r.modulo),
+            "isOfficial": bool(r.ufficiale),
+            "ballottaggi": r.ballottaggi,
+        }
         for r in squadre.itertuples()
     ]
     base["generatedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     base["note"] = (
         base.get("baseNote", base.get("note", ""))
-        + " Titolarita', panchina e indisponibili aggiornati dalle probabili "
+        + " Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili "
         + "formazioni del momento."
     )
     return base

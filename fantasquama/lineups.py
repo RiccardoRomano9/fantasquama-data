@@ -92,6 +92,17 @@ def load_probabili(path: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
                 "squadra": nome,
                 "modulo": parte.get("formazione") or "",
                 "data": partita.get("data") or "",
+                # Nei JSON vecchi il campo non c'e': la stessa regola usata
+                # dallo scraper mantiene l'interpretazione deterministica.
+                "ufficiale": bool(parte.get("ufficiale")) or (
+                    len(parte.get("titolari") or []) == 11
+                    and all(float(r.get("titolarita_pct") or 0) == 100
+                            for r in parte.get("titolari") or [])
+                ),
+                # L'elenco resta separato dai giocatori: sono coppie (o, se
+                # la fonte lo fara', gruppi) e l'associazione e' informazione
+                # utile alla schermata, non un nuovo ruolo del calciatore.
+                "ballottaggi": parte.get("ballottaggi") or [],
             })
             for sezione, slot in (("titolari", "titolare"), ("panchina", "panchina")):
                 for riga in parte.get(sezione, []):

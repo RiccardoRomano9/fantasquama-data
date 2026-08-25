@@ -22,6 +22,7 @@ da cui stimare, e l'app deve saperlo.
 Nessuna rete: il file lo si scarica a mano da Fantacalcio.it.
 """
 
+import json
 import re
 import unicodedata
 from pathlib import Path
@@ -104,6 +105,36 @@ def load_listone(path: Path) -> pd.DataFrame:
     out["team"] = out["team"].astype("string").replace(TEAM_ALIASES)
     out["quotazione"] = pd.to_numeric(out["quotazione"], errors="raise").astype("float32")
     out["fvm"] = pd.to_numeric(out["fvm"], errors="raise").astype("float32")
+    return out.reset_index(drop=True)
+
+
+def load_roster_snapshot(path: Path) -> pd.DataFrame:
+    """Legge la rosa dall'ultimo `serieA.json` esportato.
+
+    Il listone resta la sorgente primaria. Questo ingresso serve quando e'
+    arrivata una nuova giornata di voti ma il suo file non e' piu' a portata:
+    l'export precedente contiene gia' gli stessi id, ruoli, squadre e prezzi
+    necessari per costruire la giornata successiva. Non recupera dati da
+    rete e controlla esplicitamente il contratto invece di indovinare.
+    """
+    data = json.loads(Path(path).read_text())
+    players = pd.DataFrame(data.get("players") or [])
+    source = {"id", "name", "role", "team", "quotazione", "fvm"}
+    missing = source - set(players.columns)
+    if missing:
+        raise ValueError(f"{path} non contiene i campi rosa {sorted(missing)}")
+
+    out = players.rename(columns={"id": "listone_id", "name": "player_name"})[
+        ["listone_id", "role", "player_name", "team", "quotazione", "fvm"]
+    ].copy()
+    out["listone_id"] = out["listone_id"].astype("string")
+    out["role"] = out["role"].astype("string")
+    out["player_name"] = out["player_name"].astype("string")
+    out["team"] = out["team"].astype("string").replace(TEAM_ALIASES)
+    for column in ("quotazione", "fvm"):
+        out[column] = pd.to_numeric(out[column], errors="coerce").fillna(0).astype("float32")
+    if out["listone_id"].isna().any() or out["listone_id"].duplicated().any():
+        raise ValueError(f"{path} porta id del listone mancanti o duplicati")
     return out.reset_index(drop=True)
 
 

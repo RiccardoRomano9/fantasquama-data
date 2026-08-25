@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Probabili formazioni da sosfanta.com: titolari, panchina, indisponibili.
+"""Probabili formazioni da sosfanta.com: titolari, panchina, ballottaggi,
+indisponibili.
 
     python fetch_lineups.py -o data/probabili.json
     python fetch_lineups.py --table
@@ -43,6 +44,14 @@ ROW = re.compile(
 )
 
 
+def is_official(side: dict) -> bool:
+    """La fonte rende ufficiale l'undici quando ogni quota e' al 100%."""
+    starters = side.get("titolari") or []
+    return len(starters) == 11 and all(
+        int(player.get("titolarita_pct") or 0) == 100 for player in starters
+    )
+
+
 def parse(page: str) -> dict:
     out = {
         "fonte": "sosfanta.com — probabili formazioni serie a",
@@ -68,14 +77,16 @@ def parse(page: str) -> dict:
             "data": date_m.group(1) if date_m else None,
             "casa": {"squadra": htmllib.unescape(h2s[0]) if h2s else None,
                      "formazione": forms[0] if len(forms) > 0 else None,
-                     "titolari": [], "panchina": [], "indisponibili": []},
+                     "titolari": [], "panchina": [], "ballottaggi": [],
+                     "indisponibili": []},
             "ospite": {"squadra": htmllib.unescape(h2s[1]) if len(h2s) > 1 else None,
                        "formazione": forms[1] if len(forms) > 1 else None,
-                       "titolari": [], "panchina": [], "indisponibili": []},
+                       "titolari": [], "panchina": [], "ballottaggi": [],
+                       "indisponibili": []},
         }
 
         for h3 in re.finditer(
-            r'<h3[^>]*>\s*(Titolari|Panchina|Indisponibili)\s*</h3>'
+            r'<h3[^>]*>\s*(Titolari|Panchina|Ballottaggi|Indisponibili)\s*</h3>'
             r'(?P<body>.*?)(?=<h3|</article)',
             card,
             re.S,
@@ -103,6 +114,34 @@ def parse(page: str) -> dict:
                         if note_m:
                             out_row["nota"] = htmllib.unescape(note_m.group(1))
                         side["indisponibili"].append(out_row)
+            elif section == "ballottaggi":
+                # Ogni colonna e' una squadra; ciascuna riga contiene le
+                # alternative separate da un trattino e le rispettive quote.
+                # Non sono semplicemente panchinari: e' il raggruppamento
+                # editoriale che rende visibile l'incertezza della scelta.
+                for i, col in enumerate(re.findall(r'<ul.*?</ul>', body, re.S)):
+                    side = partita["casa"] if i == 0 else partita["ospite"]
+                    for item in re.findall(r'<li[^>]*>(.*?)</li>', col, re.S):
+                        name_m = re.search(r'truncate">\s*([^<]+?)\s*</span>', item, re.S)
+                        percentages = re.findall(
+                            r'bg-(?:green|amber|red)-\d+[^>]*>\s*(\d+)\s*%', item, re.S
+                        )
+                        if not name_m or not percentages:
+                            continue
+                        names = [name.strip() for name in
+                                 htmllib.unescape(name_m.group(1)).split(" - ") if name.strip()]
+                        # Se la fonte pubblica una riga non allineata (per
+                        # esempio un trattino in un nome), ignorarla e'
+                        # preferibile a mostrare quote abbinate al giocatore
+                        # sbagliato.
+                        if len(names) != len(percentages):
+                            continue
+                        side["ballottaggi"].append({
+                            "opzioni": [
+                                {"giocatore": name, "titolarita_pct": int(pct)}
+                                for name, pct in zip(names, percentages)
+                            ]
+                        })
             else:
                 # il sito divide casa/ospite in due <ul>: prima colonna = casa
                 cols = re.findall(r'<ul.*?</ul>', body, re.S)
@@ -113,6 +152,8 @@ def parse(page: str) -> dict:
                             "giocatore": htmllib.unescape(rm.group("name")).strip(),
                             "titolarita_pct": int(rm.group("pct")),
                         })
+        for side in (partita["casa"], partita["ospite"]):
+            side["ufficiale"] = is_official(side)
         out["partite"].append(partita)
     return out
 
@@ -126,13 +167,24 @@ def to_table(data: dict) -> str:
         )
         for chi in ("casa", "ospite"):
             s = p[chi]
-            lines.append(f"  {s['squadra']} ({chi.upper()}) — modulo {s['formazione'] or 'n/d'}:")
+            stato = "UFFICIALE" if s.get("ufficiale") else "probabile"
+            lines.append(
+                f"  {s['squadra']} ({chi.upper()}) — modulo {s['formazione'] or 'n/d'} · {stato}:"
+            )
             lines.append(f"    Titolari ({len(s['titolari'])}):")
             for r in s["titolari"]:
                 lines.append(f"      {r['titolarita_pct']:>3}%  {r['giocatore']}")
             lines.append(f"    Panchina ({len(s['panchina'])}):")
             for r in s["panchina"]:
                 lines.append(f"      {r['titolarita_pct']:>3}%  {r['giocatore']}")
+            if s["ballottaggi"]:
+                lines.append(f"    Ballottaggi ({len(s['ballottaggi'])}):")
+                for ballottaggio in s["ballottaggi"]:
+                    opzioni = " — ".join(
+                        f"{r['giocatore']} {r['titolarita_pct']}%"
+                        for r in ballottaggio["opzioni"]
+                    )
+                    lines.append(f"      {opzioni}")
             if s["indisponibili"]:
                 lines.append(f"    Indisponibili ({len(s['indisponibili'])}):")
                 for r in s["indisponibili"]:
