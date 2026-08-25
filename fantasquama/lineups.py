@@ -223,6 +223,67 @@ def attach(lineups: pd.DataFrame, rosa: pd.DataFrame) -> tuple[pd.DataFrame, lis
     return out, persi
 
 
+def enrich_ballottaggi(squadre: pd.DataFrame, rosa: pd.DataFrame) -> pd.DataFrame:
+    """Tiene solo ballottaggi interamente presenti nella rosa dell'app.
+
+    La fonte puo' citare un acquisto, un Primavera o un giocatore ceduto che
+    non compare nel listone su cui si basa l'app. Nei titolari il controllo
+    avveniva gia' in ``attach``; i ballottaggi invece erano testo libero e
+    quel controllo mancava. Mostrare una sola meta' della sfida sarebbe
+    fuorviante, quindi una coppia resta solo se **tutte** le sue opzioni si
+    agganciano a un calciatore unico della stessa squadra. L'uscita porta il
+    nome canonico e il ruolo, cosi' la UI non deve indovinare colori o nomi.
+    """
+    per_squadra: dict[str, list[dict[str, str]]] = {}
+    for row in rosa.itertuples():
+        squadra = roster.TEAM_ALIASES.get(str(row.team), str(row.team))
+        per_squadra.setdefault(squadra, []).append({
+            "name": str(row.player_name),
+            "role": str(row.role),
+            "tokens": roster.name_tokens(row.player_name),
+            "initial": roster.name_initial(row.player_name),
+        })
+
+    def trova(squadra: str, nome: object) -> dict[str, str] | None:
+        tokens = roster.name_tokens(str(nome))
+        initial = roster.name_initial(str(nome))
+        candidati = [
+            player for player in per_squadra.get(squadra, [])
+            if player["tokens"] == tokens and player["initial"] == initial
+        ]
+        if len(candidati) != 1 and tokens:
+            candidati = [
+                player for player in per_squadra.get(squadra, [])
+                if (set(tokens) <= set(player["tokens"]) or set(player["tokens"]) <= set(tokens))
+                and (not initial or not player["initial"]
+                     or player["initial"].startswith(initial[:1]))
+            ]
+        return candidati[0] if len(candidati) == 1 else None
+
+    out = squadre.copy()
+    ballottaggi_puliti: list[list[dict]] = []
+    for team in out.itertuples():
+        squadra = roster.TEAM_ALIASES.get(str(team.squadra), str(team.squadra))
+        sfide: list[dict] = []
+        for sfida in team.ballottaggi or []:
+            opzioni: list[dict] = []
+            for opzione in sfida.get("opzioni", []):
+                player = trova(squadra, opzione.get("giocatore"))
+                if player is None:
+                    opzioni = []
+                    break
+                opzioni.append({
+                    "giocatore": player["name"],
+                    "titolarita_pct": int(opzione.get("titolarita_pct") or 0),
+                    "ruolo": player["role"],
+                })
+            if len(opzioni) >= 2:
+                sfide.append({"opzioni": opzioni})
+        ballottaggi_puliti.append(sfide)
+    out["ballottaggi"] = ballottaggi_puliti
+    return out
+
+
 def play_probability(slot: object, titolarita: float, role: str) -> float:
     """Da «quanto e' probabile che parta» a «quanto e' probabile che prenda voto».
 

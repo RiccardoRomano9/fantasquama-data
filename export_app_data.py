@@ -193,7 +193,7 @@ def main() -> None:
 
     players.sort(key=lambda p: (p["role"], p["name"]))
     partite = _calendario(args.data / "fixtures", args.season)
-    squadre = _squadre(args.probabili)
+    squadre = _squadre(args.probabili, rosa)
     notizie = _notizie(args.data / "news.json")
     _copia_stemmi(args.data / "fixtures" / "crests", args.out.parent / "crests")
     payload = {
@@ -341,11 +341,13 @@ def _formazioni(
     return out
 
 
-def _squadre(path: Path | None) -> list[dict]:
+def _squadre(path: Path | None, rosa: pd.DataFrame | None) -> list[dict]:
     """Modulo e ballottaggi di ogni squadra, per le probabili formazioni."""
     if path is None:
         return []
     _, squadre = lineups.load_probabili(path)
+    if rosa is not None:
+        squadre = lineups.enrich_ballottaggi(squadre, rosa)
     return [
         {
             # stesso alias del calendario: «Como» e «Como 1907» devono essere

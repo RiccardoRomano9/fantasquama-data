@@ -47,12 +47,14 @@ def aggiorna(base: dict, probabili: Path) -> dict:
         "listone_id": [p["id"] for p in giocatori],
         "player_name": [p["name"] for p in giocatori],
         "team": [p["team"] for p in giocatori],
+        "role": [p["role"] for p in giocatori],
     })
 
     formazione, squadre = lineups.load_probabili(probabili)
     agganciata, persi = lineups.attach(formazione, rosa)
     if persi:
         print(f"  {len(persi)} nomi non sono in rosa, ignorati: {', '.join(persi)}")
+    squadre = lineups.enrich_ballottaggi(squadre, rosa)
 
     per_id = {r.listone_id: r for r in agganciata.itertuples() if r.listone_id}
     slot = pd.Series([per_id[p["id"]].slot if p["id"] in per_id else None
