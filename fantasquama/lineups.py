@@ -238,6 +238,7 @@ def enrich_ballottaggi(squadre: pd.DataFrame, rosa: pd.DataFrame) -> pd.DataFram
     for row in rosa.itertuples():
         squadra = roster.TEAM_ALIASES.get(str(row.team), str(row.team))
         per_squadra.setdefault(squadra, []).append({
+            "id": str(getattr(row, "listone_id", "")),
             "name": str(row.player_name),
             "role": str(row.role),
             "tokens": roster.name_tokens(row.player_name),
@@ -273,6 +274,7 @@ def enrich_ballottaggi(squadre: pd.DataFrame, rosa: pd.DataFrame) -> pd.DataFram
                     opzioni = []
                     break
                 opzioni.append({
+                    "player_id": player["id"],
                     "giocatore": player["name"],
                     "titolarita_pct": int(opzione.get("titolarita_pct") or 0),
                     "ruolo": player["role"],
