@@ -18,12 +18,8 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install -r requirements.txt
       - name: Associa e pubblica i ritratti
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
-          # Il piano API-Football gratuito espone lo storico fino al 2024.
-          # Le foto non dipendono dalla giornata: basta per quasi tutta la rosa.
-          python fetch_player_photos.py --base serieA-base.json --season 2024
+          python fetch_player_photos.py --base serieA-base.json
           python aggiorna.py --base serieA-base.json --out serieA.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

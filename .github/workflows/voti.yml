@@ -57,16 +57,13 @@ jobs:
         if: steps.voti.outputs.changed == 'true'
         env:
           GIORNATA: ${{ steps.voti.outputs.gameweek }}
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
           python fetch_lineups.py -o probabili.json
           python export_app_data.py \
             --data archive/data --season 2026-27 --gameweek "$GIORNATA" \
             --roster-snapshot serieA-base.json --probabili probabili.json \
             --without-recent-form --out serieA-base.json
-          if [ -n "${API_FOOTBALL_KEY:-}" ]; then
-            python fetch_player_photos.py --base serieA-base.json --season 2024
-          fi
+          python fetch_player_photos.py --base serieA-base.json
           python aggiorna.py --base serieA-base.json --probabili probabili.json --out serieA.json
 
       - name: Salva i voti nell'archivio privato
