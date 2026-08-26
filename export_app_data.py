@@ -69,6 +69,7 @@ def main() -> None:
         help="non esporta gli ultimi fantavoti reali (per il repository pubblico)",
     )
     parser.add_argument("--piazzati", type=Path, default=Path("set-pieces-2026-27.csv"))
+    parser.add_argument("--mantra-history", type=Path, default=Path("data/mantra/quotazioni-2025-26.xlsx"))
     parser.add_argument(
         "--nomi", type=Path, default=Path("nomi-estesi.csv"),
         help="dal listone_id al nome per esteso: il listone scrive «Martinez L.» "
@@ -84,6 +85,10 @@ def main() -> None:
         raise SystemExit("usa --listone oppure --roster-snapshot, non entrambi")
 
     archive = load_archive(args.data)
+    if args.mantra_history.exists():
+        storico = roster.match(roster.load_listone(args.mantra_history), archive, roster.load_overrides(args.overrides))
+        mantra = storico[storico["player_id"] != ""].set_index("player_id")["mantra_role"]
+        archive["mantra_role"] = archive["player_id"].map(mantra).fillna("")
     rosa = None
     if args.listone:
         rosa = roster.match(
@@ -200,10 +205,11 @@ def main() -> None:
             "status": _clean(formazione["stato"].iloc[i]) or None,
             "penaltyRank": _int(formazione["rigori"].iloc[i]),
             "setPieceRank": _int(formazione["fermo"].iloc[i]),
-            "hasHistory": bool(int(storia["apps_before"] or 0)) or (
-                quotato is not None and quotato.match_kind not in ("absent", "ambiguous")
-                and pid in forma
-            ),
+            # La confidenza deve riflettere tutto lo storico usato davvero
+            # dalla stima, non soltanto le presenze dell'anno in corso o le
+            # cinque gare mostrate nell'interfaccia. `previous` comprende sia
+            # la Serie A precedente sia l'eventuale profilo FantaPlayer.
+            "hasHistory": _has_history(storia["apps_before"], previous["apps_prev"].iloc[i]),
         })
 
     players.sort(key=lambda p: (p["role"], p["name"]))
@@ -406,6 +412,7 @@ def _con_la_rosa(
         ),
         "player_name": rosa["player_name"],
         "role": rosa["role"],
+        "mantra_role": rosa["mantra_role"],
         "team": rosa["team"],
         "played": False,
         "voto": np.nan,   # non ha ancora giocato: non e' un dato mancante, e' il futuro
@@ -441,10 +448,18 @@ def _recent_form(archive: pd.DataFrame, season: str, gameweek: int) -> dict[str,
     la stima.
     """
     rules = Rules()
-    prima = archive[(archive["season"] == season) & (archive["gameweek"] < gameweek)]
-    if prima.empty:
-        prima = archive[archive["season"] == _previous_label(season)]
-    prima = prima[prima["played"]].sort_values("gameweek")
+    # La coda è per giocatore, non per campionato intero. Alla giornata 2 la
+    # presenza di una sola gara corrente faceva scartare globalmente la
+    # stagione precedente: chi non aveva giocato la prima giornata perdeva
+    # così tutta la propria storia e sembrava un esordiente.
+    precedente = _previous_label(season)
+    prima = archive[
+        (archive["season"] == precedente)
+        | ((archive["season"] == season) & (archive["gameweek"] < gameweek))
+    ]
+    prima = prima[prima["played"]].copy()
+    prima["_ordine_stagione"] = (prima["season"] == season).astype(int)
+    prima = prima.sort_values(["_ordine_stagione", "gameweek"])
     out: dict[str, list[float]] = {}
     for pid, gruppo in prima.groupby("player_id", observed=True):
         coda = gruppo.tail(FORM_WINDOW)
@@ -453,6 +468,12 @@ def _recent_form(archive: pd.DataFrame, season: str, gameweek: int) -> dict[str,
             for v, r in zip(coda["voto"], coda[list(EVENTS)].to_dict("records"))
         ]
     return out
+
+
+def _has_history(current_apps: object, previous_apps: object) -> bool:
+    """Vero se la stima dispone di almeno una presenza personale reale."""
+    values = pd.to_numeric(pd.Series([current_apps, previous_apps]), errors="coerce")
+    return bool((values.fillna(0.0) > 0).any())
 
 
 def _int(value):

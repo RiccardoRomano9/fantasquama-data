@@ -23,7 +23,7 @@ from fantasquama.scoring import EVENTS
 
 # Tutto cio' che si sa prima del fischio d'inizio.
 FIXTURE_FEATURES: tuple[str, ...] = ("home", "p_win", "p_draw", "p_lose", "advantage")
-FEATURES: tuple[str, ...] = (*HISTORY_COLUMNS, *FIXTURE_FEATURES, *TEAM_CONTEXT_FEATURES, "role_code")
+FEATURES: tuple[str, ...] = (*HISTORY_COLUMNS, *FIXTURE_FEATURES, *TEAM_CONTEXT_FEATURES, "role_code", "mantra_attack", "mantra_wide")
 
 TARGETS: tuple[str, ...] = ("voto", *EVENTS)
 
@@ -44,6 +44,13 @@ def build_features(history: pd.DataFrame, archive: pd.DataFrame, context: pd.Dat
     out["role_code"] = pd.Series(
         [{"P": 0, "D": 1, "C": 2, "A": 3}.get(r, -1) for r in roles], index=out.index, dtype="float64"
     )
+    mantra = archive.get("mantra_role", pd.Series("", index=archive.index)).fillna("").astype(str)
+    # Il Classic resta la categoria primaria; questa e' solo una misura della
+    # propensione offensiva del profilo Mantra (W/A/T > C/M > difensori).
+    out["mantra_attack"] = mantra.map(lambda x: max([{"Por": -2, "Dc": -1, "Dd": -1, "Ds": -1, "B": 0, "M": 1, "C": 1, "E": 2, "W": 3, "T": 3, "A": 3, "Pc": 3}.get(p, 0) for p in x.split(";")], default=0)).astype(float)
+    # Esterno o trequartista non e' una mezzala: l'ampiezza e la ricezione
+    # alta influenzano soprattutto assist e occasioni create.
+    out["mantra_wide"] = mantra.map(lambda x: max([{"Ds": 1, "Dd": 1, "E": 2, "W": 3, "T": 2, "A": 2}.get(p, 0) for p in x.split(";")], default=0)).astype(float)
     return out[list(FEATURES)]
 
 
