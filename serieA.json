@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26T10:52:13+00:00",
+ "generatedAt": "2026-08-26T13:17:08+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -2317,7 +2317,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.14,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.4574,
     "rf": 0.0059,
@@ -2331,7 +2331,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.82,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0999,
     "rf": 0.0097,
@@ -2347,9 +2347,9 @@
    "teamGoalsRate": 2.0,
    "quotazione": 18.0,
    "fvm": 120.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -31219,6 +31219,96 @@
  ],
  "news": [
   {
+   "title": "Lazio, cosa filtra sul futuro di Nuno Tavares, Luca Pellegrini e Lazzari: gli scenari e cosa può succedere",
+   "summary": "Rush finale di calciomercato anche in casa Lazio, con la posizione di diversi giocatori che rimane in bilico.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-futuro-nuno-tavares-luca-pellegrini-lazzari-scenari-cosa-puo-succedere/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289074142-0eb6018faa49-scaled-e1786898274362.jpg",
+   "date": "2026-08-26T13:00:46+00:00"
+  },
+  {
+   "title": "Napoli, novità Badiashile in gruppo! A disposizione di Allegri per il Como",
+   "summary": "Napoli, novità Badiashile in gruppo! A disposizione di Allegri per il Como",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-novita-badiashile-in-gruppo-a-disposizione-di-allegri-per-il-como/",
+   "image": "https://static.sosfanta.com/2026/07/Badiashile-d26db92b9575.jpg",
+   "date": "2026-08-26T12:30:04+00:00"
+  },
+  {
+   "title": "BREAKING - Bologna, Rowe ha chiesto la cessione! Ecco l’offerta dell’Atalanta sul tavolo",
+   "summary": "L'attaccante del Bologna prova a forzare la mano: ha chiesto di essere ceduto e ha già un accordo con l'Atalanta.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/rowe-chiede-cessione-futuro-offerta-atalanta-cosa-succede/",
+   "image": "https://static.sosfanta.com/202604/64d6a09f8319b3b4ae293ebcfd8e0937-scaled-e1777113962670.jpeg",
+   "date": "2026-08-26T12:07:07+00:00"
+  },
+  {
+   "title": "Cagliari, si torna al lavoro in vista dell'Inter: le ultime su Mina, Romano, Winks, Mendy e Kevin Carlos",
+   "summary": "Dopo la vittoria contro il Parma all'esordio, i sardi si preparano al debutto in casa contro i campioni d'Italia.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/cagliari-ultimi-aggiornamenti-mina-romano-winks-kevin-carlos/",
+   "image": "https://static.sosfanta.com/202603/2b2a9d052f66cbba563c4ea3a1a83fe6.png",
+   "date": "2026-08-26T12:00:46+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Leao, aspettando novità dal mercato c’è il ritorno in gruppo: le sue condizioni",
+   "summary": "Il futuro rimane da definire ma intanto Leao torna a lavorare a pieno regime in gruppo e può puntare alla convocazione per Milan-Venezia.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-leao-condizioni-futuro/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289178375-3318afa1318f-e1786018361554.jpg",
+   "date": "2026-08-26T11:40:07+00:00"
+  },
+  {
+   "title": "Romano - L'agente di Kessie arriva in Italia: ecco la sua priorità per il futuro",
+   "summary": "Con l'eventuale cessione di Miretti al Besiktas si può smuovere la situazione anche in entrata per la Juve e il primo nome resta quello di Kessie per il cent...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/romano-lagente-di-kessie-arriva-in-italia-ecco-la-sua-priorita-per-il-futuro/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2269350427-0fbdee45e5c6.jpg",
+   "date": "2026-08-26T11:30:40+00:00"
+  },
+  {
+   "title": "FLASH - Fiorentina, pugno duro con Kean: multato e convocato per allenarsi da solo nel pomeriggio!",
+   "summary": "Sono ore bollenti in casa Fiorentina per capire il futuro di Kean. L'attaccante è vicino al trasferimento al Como, che nella serata di ieri ha presentato una...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/kean-fiorentina-como/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2169114960-f99dddc1a989-e1784753221259.jpg",
+   "date": "2026-08-26T11:20:12+00:00"
+  },
+  {
+   "title": "BREAKING - Kean in ritardo e non vorrebbe allenarsi con la Fiorentina! Il motivo e le novità sul Como",
+   "summary": "Sono ore calde in casa Fiorentina ed in particolare sull'asse con Como per la trattativa con Moise Kean, entrata nel vivo in questi ultimi giorni.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/kean-como-fiorentina-5/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289959082-4dc21caa37c5-e1787738566499.jpg",
+   "date": "2026-08-26T11:15:53+00:00"
+  },
+  {
+   "title": "Juventus al lavoro alla Continassa in vista del Parma: come stanno Gatti e Ekhator, le ultime",
+   "summary": "Giornata di lavoro per i bianconeri agli ordini di Spalletti in vista dell'esordio casalingo contro il Parma: tutti gli aggiornamenti.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-allenamento-gatti-ekhator-condizioni/",
+   "image": "https://static.sosfanta.com/202511/63fd29ed1819dcc3f97fb5331b1f0777.jpg",
+   "date": "2026-08-26T11:00:04+00:00"
+  },
+  {
+   "title": "NEWS - Agente di Kessie in Italia! Kean, Leao, Zaniolo, Pulisic, Mina, Kristensen e ufficiali Perin e Kambwala",
+   "summary": "È iniziata la stagione 2026/27 per il campionato di Serie A, ma al contempo sta per concludersi il calciomercato estivo. Ecco tutte le ultime novità in ottic...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/kean-kessie-zaniolo-kristensen-leao-pulisic/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2260933272-a3bb161b0784-e1787736477880.jpeg",
+   "date": "2026-08-26T10:45:24+00:00"
+  },
+  {
    "title": "UFFICIALE - In attesa di Kean, il Como annuncia il nuovo acquisto in difesa: il comunicato per Kambwala",
    "summary": "In attesa di Kean, che intanto rifiuta di allenarsi con la Fiorentina, il Como ufficializza l'arrivo in difesa di Willy Kambwala dal Villarreal. Ecco il comu...",
    "author": "Daniele Najjar",
@@ -31226,6 +31316,15 @@
    "url": "https://www.sosfanta.com/news/kambwala-como/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291566002-b081412eaa41-e1787421672791.jpg",
    "date": "2026-08-26T10:30:32+00:00"
+  },
+  {
+   "title": "Romano - Juve, c’è un sondaggio dall’estero per David! Zirkzee e non solo, ecco le ultime",
+   "summary": "Novità di mercato in casa Juve, sia in entrata che in uscita. Il club bianconero si guarda intorno in cerca di una sistemazione per Jonathan David.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/david-juve-zirkzee/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289583351-faf2e68b3400-e1787718341398.jpeg",
+   "date": "2026-08-26T10:15:03+00:00"
   },
   {
    "title": "Leao, dal Galatasaray all'Aston Villa: le ultime novità di Fabrizio Romano e la posizione del Milan",
@@ -31237,31 +31336,13 @@
    "date": "2026-08-26T10:00:01+00:00"
   },
   {
-   "title": "BREAKING - Kean in ritardo e non vorrebbe allenarsi con la Fiorentina! Il motivo e le novità sul Como",
-   "summary": "Sono ore calde in casa Fiorentina ed in particolare sull'asse con Como per la trattativa con Moise Kean, entrata nel vivo in questi ultimi giorni.",
+   "title": "Gazzetta - Yildiz, ecco la decisione sull'operazione e cosa filtra sui lunghi tempi di recupero",
+   "summary": "La decisione era nell'aria ed ora è arrivata: Yildiz deve operarsi a causa dell'infortunio rimediato nella prima gara di campionato vinta dalla Juve contro i...",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kean-como-fiorentina-5/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289959082-4dc21caa37c5-e1787738566499.jpg",
-   "date": "2026-08-26T09:45:53+00:00"
-  },
-  {
-   "title": "NEWS - Agente di Kessie in Italia! Kean, Leao, Zaniolo, Pulisic, Mina, Kristensen e ufficiali Perin e Kambwala",
-   "summary": "È iniziata la stagione 2026/27 per il campionato di Serie A, ma al contempo sta per concludersi il calciomercato estivo. Ecco tutte le ultime novità in ottic...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kean-kessie-zaniolo-kristensen-leao-pulisic/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2260933272-a3bb161b0784-e1787736477880.jpeg",
-   "date": "2026-08-26T09:20:24+00:00"
-  },
-  {
-   "title": "Romano - Juve, c’è un sondaggio dall’estero per David! Zirkzee e non solo, ecco le ultime",
-   "summary": "Novità di mercato in casa Juve, sia in entrata che in uscita. Il club bianconero si guarda intorno in cerca di una sistemazione per Jonathan David.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/david-juve-zirkzee/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289583351-faf2e68b3400-e1787718341398.jpeg",
-   "date": "2026-08-26T09:15:03+00:00"
+   "url": "https://www.sosfanta.com/news/yildiz-infortunio-tempi-di-recupero-operazione/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
+   "date": "2026-08-26T09:45:43+00:00"
   },
   {
    "title": "UFFICIALE - Perin lascia la Juve e il fantacalcio: ecco la formula del trasferimento nel comunicato",
@@ -31271,15 +31352,6 @@
    "url": "https://www.sosfanta.com/news/perin-juve-palermo-2/",
    "image": "https://static.sosfanta.com/202602/54594f1560ea2c3d11c332e14bd04859.jpg",
    "date": "2026-08-26T09:00:28+00:00"
-  },
-  {
-   "title": "Gazzetta - Yildiz, ecco la decisione sull'operazione e cosa filtra sui lunghi tempi di recupero",
-   "summary": "La decisione era nell'aria ed ora è arrivata: Yildiz deve operarsi a causa dell'infortunio rimediato nella prima gara di campionato vinta dalla Juve contro i...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/yildiz-infortunio-tempi-di-recupero-operazione/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
-   "date": "2026-08-26T08:45:43+00:00"
   },
   {
    "title": "Endrick, due club di Serie A ci hanno provato: il retroscena e la risposta di Mourinho e del Real Madrid",
@@ -31505,78 +31577,6 @@
    "url": "https://www.sosfanta.com/squadra/fiorentina/romano-no-fiorentina-poku-firma/",
    "image": "https://static.sosfanta.com/2026/08/IMG_7463-26a319cbcaf7-e1787608390326.jpg",
    "date": "2026-08-25T15:00:38+00:00"
-  },
-  {
-   "title": "FLASH - Sassuolo, ora arrivano gli acquisti: Sebastiano Esposito a un passo e si avvicina Belghali",
-   "summary": "Il Sassuolo, dopo la cessione di Pinamonti alla Lazio, ha già trovato il sostituto per il posto lasciato vuoto in attacco",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-esposito-cagliari-belghali/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2276753940-59581bd755e2.jpg",
-   "date": "2026-08-25T14:45:00+00:00"
-  },
-  {
-   "title": "Elmas: \"L'Atalanta è un top club, posso giocare in tanti ruoli. Ecco cosa mi ha chiesto Sarri...\"",
-   "summary": "Il nuovo acquisto dell'Atalanta si è presentato nel corso di una conferenza stampa che si è svolta in quel di Zingonia: ecco le sue parole.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/atalanta-elmas-conferenza-parole/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291803481-8e81466a3bf9-e1787669985752.jpg",
-   "date": "2026-08-25T14:30:00+00:00"
-  },
-  {
-   "title": "BREAKING - Pinamonti lascia il Sassuolo e resta in Serie A: c'è l'accordo, operazione da 12 milioni",
-   "summary": "Andrea Pinamonti lascia il Sassuolo ma giocherà ancora in Serie A: è stato trovato l'accordo con la Lazio. Dopo alcuni giorni di trattativa, alla fine è arri...",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/breaking-pinamonti-lascia-il-sassuolo-e-resta-in-serie-a-ce-laccordo-operazione-da-14-milioni/",
-   "image": "https://static.sosfanta.com/202604/d9f45cfa034987aca5da04a7cbd7ea90-e1777196205155.jpeg",
-   "date": "2026-08-25T14:15:05+00:00"
-  },
-  {
-   "title": "Napoli, come stanno Beukema e Neres. Le condizioni di Badiashile verso il Como",
-   "summary": "Dopo i due giorni di riposo concessi da Allegri, oggi il Napoli riprenderà la preparazione. Queste le novità sugli acciaccati",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-come-stanno-beukema-neres-badiashile/",
-   "image": "https://static.sosfanta.com/202512/bc734797dc0b902f9f83398a77372522-e1766315519380.jpeg",
-   "date": "2026-08-25T14:00:40+00:00"
-  },
-  {
-   "title": "Nessun espulso alla 1a giornata ma c’è uno squalificato per la 2a: ecco chi è",
-   "summary": "Non ci sono stati cartellini rossi nella prima giornata di Serie A. C'è un giocatore squalificato",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squalificati/serie-a-squalificato-terza-giornata/",
-   "image": "https://static.sosfanta.com/202510/1e01740e6aedabd453c21bd9fec645d9-scaled-e1761326960538.jpg",
-   "date": "2026-08-25T13:30:12+00:00"
-  },
-  {
-   "title": "Romano - Roma, cosa filtra su Fofana: le richieste del Lione e la posizione dei giallorossi",
-   "summary": "Dopo la vittoria contro la Fiorentina, la Roma continua a cercare l'esterno che manca. Le novità su Fofana secondo quanto riportato da Romano",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/romano-fofana-roma-richiesta-lione/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2234312701-ed1491a8c1dc-scaled-e1786706484498.jpg",
-   "date": "2026-08-25T13:00:06+00:00"
-  },
-  {
-   "title": "Inter, Jones può essere subito disponibile. La gara messa nel mirino da Spence",
-   "summary": "In casa Inter non si vede l'ora di testare gli ultimi due arrivati, dopo l'esordio ufficiale di Stones. Ecco le tempistiche per Jones e Spence",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-jones-disponibile-gara-mirino-spence/",
-   "image": "https://static.sosfanta.com/2026/08/Jones-433da2e33326-e1787352444152.jpg",
-   "date": "2026-08-25T12:30:44+00:00"
-  },
-  {
-   "title": "Atalanta, le condizioni di Kristensen e De Ketelaere verso l'Hapoel. Le ultime su Hian, Sulemana e Ahanor",
-   "summary": "Dopo la rifinitura mattutina a Zingonia, mercoledì l’Atalanta partirà per l’Ungheria, dove sfiderà l’Hapoel. Questi gli ultimi aggiornamenti",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-condizioni-kristensen-de-ketelaere-hapoel/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291325192-fba12e0eeb99.jpg",
-   "date": "2026-08-25T12:00:55+00:00"
   }
  ],
  "baseNote": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale."
