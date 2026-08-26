@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26T16:59:58+00:00",
+ "generatedAt": "2026-08-26T20:03:48+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -10787,7 +10787,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.1,
-   "playProbability": 0.831,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0065,
     "rf": 0.0008,
@@ -10801,7 +10801,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.93,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0485,
     "rf": 0.0047,
@@ -10818,7 +10818,7 @@
    "quotazione": 3.0,
    "fvm": 12.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -13474,7 +13474,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.13,
-   "playProbability": 0.044,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.0469,
     "rf": 0.0056,
@@ -13488,7 +13488,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.81,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.0485,
     "rf": 0.0047,
@@ -13505,7 +13505,7 @@
    "quotazione": 7.0,
    "fvm": 23.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": 3,
@@ -31863,6 +31863,22 @@
        "ruolo": "D"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7208",
+       "giocatore": "Miller L.",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "6783",
+       "giocatore": "Unai Gomez",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
     }
    ]
   },
@@ -32609,13 +32625,184 @@
  ],
  "news": [
   {
+   "title": "Lazio, lesione muscolare per Dele-Bashiru: i tempi di recupero! Per gli infortunati Sutalo, Marusic e Cataldi...",
+   "summary": "Fisayo Dele-Bashiru costretto a fermarsi: c'è lesione, ecco i tempi di recupero e le ultime su Marusic, Cataldi e Sutalo in casa Lazio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/lazio-infortunati-lesione-delebashiru-marusic-cataldi-sutalo-tempi-recupero/",
+   "image": "https://static.sosfanta.com/202511/953ee3dea17b46d00b8f2b39c3fef1d8-e1763190009198.jpg",
+   "date": "2026-08-26T20:00:51+00:00"
+  },
+  {
+   "title": "FLASH - Ngonge lascia il Napoli e torna al fantacalcio: operazione chiusa e visite già fissate",
+   "summary": "Cyril Ngonge lascia il Napoli e torna al fantacalcio: operazione chiusa e visite già fissate per le prossime ore.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/monza/ngonge-torna-fantacalcio-operazione-chiusa-monza-visite-dettagli/",
+   "image": "https://static.sosfanta.com/202411/30aac2377d82a30a67e32a1ae871a901-scaled-e1731688756138.jpg",
+   "date": "2026-08-26T19:40:01+00:00"
+  },
+  {
+   "title": "Sky - Pedersen può lasciare il Torino: trattativa avanzata per la cessione, i dettagli",
+   "summary": "Il Torino continua il lavoro sul mercato anche sul fronte delle uscite: è avanzata la trattativa per l'addio di Marcus Pedersen per 8 milioni.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/torino-pedersen-cessione-trattativa-avanzata-dettagli/",
+   "image": "https://static.sosfanta.com/202510/741acae2cd54883e1022662f53a086ba-e1759487077174.jpg",
+   "date": "2026-08-26T19:30:16+00:00"
+  },
+  {
+   "title": "Atalanta, Ahanor verso il Chelsea: le cifre! Sarri: \"Come sta De Ketelaere, sul ballottaggio Scamacca-Krstovic...\"",
+   "summary": "Il tecnico dell'Atalanta ha parlato in conferenza stampa alla vigilia della gara di ritorno dei preliminari di Conference League contro l'Hapoel Tel-Aviv. Ne...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/ahanor-offerta-chelsea-sarri-conferenza-atalanta-hapoel-conference/",
+   "image": "https://static.sosfanta.com/2026/08/Sarri-d012eb8618a8-e1787517716178.jpg",
+   "date": "2026-08-26T19:15:24+00:00"
+  },
+  {
+   "title": "Udinese, la data di rientro di Zaniolo e la possibile mossa a sorpresa di Runjaic per sostituirlo. Su Palma...",
+   "summary": "Nella giornata di ieri è arrivata l'ufficialità degli esiti degli esami per Nicolò Zaniolo, il fantasista rimarrà fuori 3-4 settimane, così come Matteo Palma.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/zaniolo-palma-udinese-infortunio/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2250928179-889eb8881e5a-scaled.jpeg",
+   "date": "2026-08-26T19:00:41+00:00"
+  },
+  {
+   "title": "NEWS - Leao, accordo vicino con il Galatasaray! Dodo, Kean, Morato, Ekhator, Spence, Gatti e Badiashile…",
+   "summary": "La prima giornata della Serie A 2026/27 è andata in archivio: ecco le ultime novità che arrivano dai campi d'allenamento e dal mercato delle squadre di Serie A.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/leao-kean-dodo-morato-gatti-ekhator-spence-tomori-badiashile/",
+   "image": "https://static.sosfanta.com/2026/07/Leao-e6152b5dd290.jpg",
+   "date": "2026-08-26T18:45:16+00:00"
+  },
+  {
+   "title": "Sky - Dodo, è arrivata un'offerta dall'Inghilterra: le cifre sul tavolo e la posizione della Fiorentina",
+   "summary": "Aggiornamenti sul futuro di Dodo, titolare a sorpresa nella Fiorentina alla prima di campionato contro la Roma dopo un'estate ricca di rumors di mercato.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/dodo-offerta-inghilterra-cifra-tavolo-posizione-fiorentina/",
+   "image": "https://static.sosfanta.com/202606/234e54ef67f0856fea51a6a631b4aff8.jpg",
+   "date": "2026-08-26T18:30:05+00:00"
+  },
+  {
+   "title": "La Guida all'asta per il fantacalcio 2026-2027 aggiornata: chi prendere e la divisione fascia per fascia",
+   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/08/Malen-2cbd3cecf5ff-e1787602655247.jpg",
+   "date": "2026-08-26T18:20:56+00:00"
+  },
+  {
+   "title": "HERE WE GO - Sebastiano Esposito lascia il Cagliari e resta in Serie A: accordo raggiunto",
+   "summary": "Intesa raggiunta per il trasferimento dell'attaccante napoletano che lascia il Cagliari ma non il fantacalcio: tutti i dettagli.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/sebastiano-esposito-cagliari-trasferimento-sassuolo-accordo/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2276753940-59581bd755e2.jpg",
+   "date": "2026-08-26T18:15:18+00:00"
+  },
+  {
+   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027 aggiornate: oggi giocherebbero così",
+   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
+   "date": "2026-08-26T18:10:46+00:00"
+  },
+  {
+   "title": "Romano - Galatasaray all'assalto di Leao: accordo vicino col Milan, le cifre dell'operazione",
+   "summary": "Il club turco accelera per arrivare al portoghese del Milan: accordo vicino con i rossoneri in attesa del via libera definitivo del calciatore.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-leao-galatasaray-offerta-accordo-vicino-cifre/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2286982087-94cb96696323-e1785093730904.jpg",
+   "date": "2026-08-26T18:00:37+00:00"
+  },
+  {
+   "title": "Tutti i rigoristi della Serie A per il fantacalcio 2026/27: squadra per squadra, ecco le gerarchie",
+   "summary": "Si avvicina l'asta estiva, ecco tutte le gerarchie della Serie A 2026-27 per i rigoristi: squadra per squadra, chi può calciare per il fantacalcio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/fantacalcio-asta-tutti-rigoristi-seriea-venti-squadre-campionato/",
+   "image": "https://static.sosfanta.com/2026/08/Goncalo-Ramos-bc22dbb87f3d.jpg",
+   "date": "2026-08-26T17:50:22+00:00"
+  },
+  {
+   "title": "Primi, secondi e terzi portieri al fantacalcio: tutte le gerarchie in porta per la Serie A 2026/27",
+   "summary": "Si avvicina l'asta, ecco tutte le gerarchie in porta per la Serie A 2026-27: dal primo al terzo portiere, tutto ciò che c'è da sapere per il fantacalcio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/portieri/fantacalcio-asta-tutti-portieri-gerarchie-seriea-venti-squadre-campionato/",
+   "image": "https://static.sosfanta.com/2026/08/B875FD64-93DE-45D8-8A2F-4F5C73E9C022_1_201_a-2a956d1d814f-scaled-e1787509752730.jpeg",
+   "date": "2026-08-26T17:40:58+00:00"
+  },
+  {
+   "title": "Romano - Offerta del Bologna per Ruben Vargas: lo scenario e la risposta del Siviglia",
+   "summary": "Il Bologna, che potrebbe perdere Rowe, ha sondato il terreno per l'esterno offensivo del Siviglia presentando un'offerta ufficiale.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/bologna-offerta-ruben-vargas-siviglia-risposta/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289617416-1-4527d34207ad-e1787758409981.jpg",
+   "date": "2026-08-26T17:30:12+00:00"
+  },
+  {
+   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per l'asta: da Berardi a Zaniolo",
+   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2250928179-889eb8881e5a-scaled.jpeg",
+   "date": "2026-08-26T17:20:42+00:00"
+  },
+  {
    "title": "ULTIM’ORA - Il Galatasaray avanza per Leao: nuovi contatti e rilancio in arrivo, cosa succede",
    "summary": "Continua a tenere banco il futuro di Rafael Leao: il Galatasaray ora è in pressing per il portoghese, i dettagli.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/milan/leao-futuro-galatasaray-cosa-succede/",
    "image": "https://static.sosfanta.com/2026/07/GettyImages-2274280320-1ac92e70a4a1-scaled-e1784881680875.jpeg",
-   "date": "2026-08-26T16:35:09+00:00"
+   "date": "2026-08-26T17:15:09+00:00"
+  },
+  {
+   "title": "Tutti i tiratori di corner e punizioni in Serie A per il fantacalcio 2026/27: squadra per squadra, gli specialisti",
+   "summary": "Tutti i tiratori di punizioni e corner in Serie A, squadra per squadra: gerarchie, novità e possibili bonus in chiave fantacalcio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/serie-a-2026-2027-tiratori-punizioni-corner-specialisti-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/08/Maldini-ed4a04513b2e-e1787767742999.jpg",
+   "date": "2026-08-26T17:10:55+00:00"
+  },
+  {
+   "title": "Fiorentina, tensione altissima con Kean: dura presa di posizione del club! E il Como...",
+   "summary": "Momento delicatissimo tra la Fiorentina e il suo attaccante dopo l'arrivo in ritardo per l'allenamento di oggi. Sullo sfondo regge la posizione del Como che...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-kean-alta-tensione-cosa-succede-posizione-como/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289944534-949f915c8fc1-e1786912728534.jpg",
+   "date": "2026-08-26T17:00:11+00:00"
+  },
+  {
+   "title": "Tutte le novità di FantaLab per il 2026/27: nuovi tool, asta più veloce e videochiamata integrata",
+   "summary": "Dal draft ultra veloce alla videochiamata integrata, ecco tutte le funzioni in arrivo per la nuova stagione di fantacalcio.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/fantalab-novita-2026-27-asta-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/9D675728-FA88-498A-AAC5-49B798008AE6_1_201_a-2105bca3ba57-e1787044943774.jpeg",
+   "date": "2026-08-26T16:55:56+00:00"
+  },
+  {
+   "title": "FLASH - Inter, è fatta per la cessione di Asllani: le cifre! Accordo per il rinnovo di Pio Esposito, tutti i dettagli",
+   "summary": "Tutto fatto per la cessione del centrocampista albanese e, intanto, i campioni d'Italia hanno raggiunto l'accordo per il rinnovo di Pio Esposito.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-asllani-cessione-al-jazira-cifre-pio-esposito-contratto-rinnovo-accordo-raggiunto-scadenza/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291573562-5d9032efbe15-scaled-e1787422577109.jpeg",
+   "date": "2026-08-26T16:45:17+00:00"
   },
   {
    "title": "Mercato Roma: dalla cessione di Ziolkowski all'interesse per Morato. E su Oosterwolde...",
@@ -32627,13 +32814,13 @@
    "date": "2026-08-26T16:30:59+00:00"
   },
   {
-   "title": "FLASH - Inter, è fatta per la cessione di Asllani: le cifre! Accordo per il rinnovo di Pio Esposito, tutti i dettagli",
-   "summary": "Tutto fatto per la cessione del centrocampista albanese e, intanto, i campioni d'Italia hanno raggiunto l'accordo per il rinnovo di Pio Esposito.",
-   "author": "Michael Di Chiaro",
+   "title": "Ecco sei sorprese dopo la 1a giornata al fantacalcio: le novità sulla gestione all’asta, da Cisse a Milla",
+   "summary": "Dopo la prima giornata campionato di campionato sono arrivati i primi segnali al fantacalcio: ecco sei sorprese e come gestirle all'asta.",
+   "author": "Daniele Burigana",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-asllani-cessione-al-jazira-cifre-pio-esposito-contratto-rinnovo-accordo-raggiunto-scadenza/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291573562-5d9032efbe15-scaled-e1787422577109.jpeg",
-   "date": "2026-08-26T16:15:17+00:00"
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/sei-sorprese-fantacalcio-1a-giornata-asta/",
+   "image": "https://static.sosfanta.com/2026/08/milla-a50041647a1f-e1787670554216.jpeg",
+   "date": "2026-08-26T16:15:44+00:00"
   },
   {
    "title": "Nicolussi Caviglia deve operarsi: il motivo, il comunicato del Parma e i tempi di recupero",
@@ -32645,13 +32832,22 @@
    "date": "2026-08-26T16:00:57+00:00"
   },
   {
-   "title": "Ecco sei sorprese dopo la 1a giornata al fantacalcio: le novità sulla gestione all’asta, da Cisse a Milla",
-   "summary": "Dopo la prima giornata campionato di campionato sono arrivati i primi segnali al fantacalcio: ecco sei sorprese e come gestirle all'asta.",
-   "author": "Daniele Burigana",
+   "title": "Torna FantaLab Manager, ecco come funziona e cosa cambia quest'anno: dai clan ai boss e la Master League",
+   "summary": "Torna anche quest'anno FantaLab Manager, l'esclusivo gioco manageriale di FantaLab. È un nuovo modo nuovo di giocare al fantacalcio: ecco come funziona.",
+   "author": "Tommaso Lerro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/sei-sorprese-fantacalcio-1a-giornata-asta/",
-   "image": "https://static.sosfanta.com/2026/08/milla-a50041647a1f-e1787670554216.jpeg",
-   "date": "2026-08-26T15:45:44+00:00"
+   "url": "https://www.sosfanta.com/news/fantalab-manager-novita/",
+   "image": "https://static.sosfanta.com/2026/08/PHOTO-2026-08-21-13-24-35-3a8b02f7091d-e1787311634236.jpg",
+   "date": "2026-08-26T15:55:15+00:00"
+  },
+  {
+   "title": "BREAKING - Bologna, Rowe ha chiesto la cessione! Ecco l’offerta dell’Atalanta sul tavolo",
+   "summary": "L'attaccante del Bologna prova a forzare la mano: ha chiesto di essere ceduto e ha già un accordo con l'Atalanta.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/rowe-chiede-cessione-futuro-offerta-atalanta-cosa-succede/",
+   "image": "https://static.sosfanta.com/202604/64d6a09f8319b3b4ae293ebcfd8e0937-scaled-e1777113962670.jpeg",
+   "date": "2026-08-26T15:45:07+00:00"
   },
   {
    "title": "Diego Carlos aspetta: il motivo per cui si è bloccata la trattativa e l'ultimatum dato al Como",
@@ -32670,24 +32866,6 @@
    "url": "https://www.sosfanta.com/video/top-11-talenti-italiani-seriea-non-solo-cisse-tutti-nomi/",
    "image": "https://static.sosfanta.com/2026/08/Cisse-898cf886f8af-e1787516833742.jpg",
    "date": "2026-08-26T15:21:44+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per l'asta: da Berardi a Zaniolo",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2250928179-889eb8881e5a-scaled.jpeg",
-   "date": "2026-08-26T15:15:42+00:00"
-  },
-  {
-   "title": "BREAKING - Bologna, Rowe ha chiesto la cessione! Ecco l’offerta dell’Atalanta sul tavolo",
-   "summary": "L'attaccante del Bologna prova a forzare la mano: ha chiesto di essere ceduto e ha già un accordo con l'Atalanta.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/rowe-chiede-cessione-futuro-offerta-atalanta-cosa-succede/",
-   "image": "https://static.sosfanta.com/202604/64d6a09f8319b3b4ae293ebcfd8e0937-scaled-e1777113962670.jpeg",
-   "date": "2026-08-26T15:15:07+00:00"
   },
   {
    "title": "Milan, scatta l'ora di Pulisic: il programma di Amorim per il suo esordio in campionato",
@@ -32805,168 +32983,6 @@
    "url": "https://www.sosfanta.com/news/kean-kessie-zaniolo-kristensen-leao-pulisic/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2260933272-a3bb161b0784-e1787736477880.jpeg",
    "date": "2026-08-26T10:45:24+00:00"
-  },
-  {
-   "title": "UFFICIALE - In attesa di Kean, il Como annuncia il nuovo acquisto in difesa: il comunicato per Kambwala",
-   "summary": "In attesa di Kean, che intanto rifiuta di allenarsi con la Fiorentina, il Como ufficializza l'arrivo in difesa di Willy Kambwala dal Villarreal. Ecco il comu...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kambwala-como/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291566002-b081412eaa41-e1787421672791.jpg",
-   "date": "2026-08-26T10:30:32+00:00"
-  },
-  {
-   "title": "Romano - Juve, c’è un sondaggio dall’estero per David! Zirkzee e non solo, ecco le ultime",
-   "summary": "Novità di mercato in casa Juve, sia in entrata che in uscita. Il club bianconero si guarda intorno in cerca di una sistemazione per Jonathan David.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/david-juve-zirkzee/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289583351-faf2e68b3400-e1787718341398.jpeg",
-   "date": "2026-08-26T10:15:03+00:00"
-  },
-  {
-   "title": "Leao, dal Galatasaray all'Aston Villa: le ultime novità di Fabrizio Romano e la posizione del Milan",
-   "summary": "Il Milan si muove ancora sul mercato, ma prima di pensare alle possibili nuove entrate il club rossonero dovrà provare a centrare delle uscite, a partire da...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/leao-galatasaray-milan-aston-villa/",
-   "image": "https://static.sosfanta.com/2026/08/Leao-dab7e0578c26-e1787598018119.jpg",
-   "date": "2026-08-26T10:00:01+00:00"
-  },
-  {
-   "title": "Gazzetta - Yildiz, ecco la decisione sull'operazione e cosa filtra sui lunghi tempi di recupero",
-   "summary": "La decisione era nell'aria ed ora è arrivata: Yildiz deve operarsi a causa dell'infortunio rimediato nella prima gara di campionato vinta dalla Juve contro i...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/yildiz-infortunio-tempi-di-recupero-operazione/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
-   "date": "2026-08-26T09:45:43+00:00"
-  },
-  {
-   "title": "UFFICIALE - Perin lascia la Juve e il fantacalcio: ecco la formula del trasferimento nel comunicato",
-   "summary": "Mattia Perin lascia la Juve e anche il fantacalcio: l'estremo difensore saluta i bianconeri e la Serie A per trasferirsi al Palermo di Filippo Inzaghi.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/perin-juve-palermo-2/",
-   "image": "https://static.sosfanta.com/202602/54594f1560ea2c3d11c332e14bd04859.jpg",
-   "date": "2026-08-26T09:00:28+00:00"
-  },
-  {
-   "title": "Endrick, due club di Serie A ci hanno provato: il retroscena e la risposta di Mourinho e del Real Madrid",
-   "summary": "Endrick, due club di Serie A ci hanno provato: il retroscena e la risposta di Mourinho e del Real Madrid",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/endrick-due-club-di-serie-a-ci-hanno-provato-il-retroscena-e-la-risposta-di-mourinho-e-del-real-madrid/",
-   "image": "https://static.sosfanta.com/202606/3583ed7d0b7a7278c1070414863c7977.jpg",
-   "date": "2026-08-26T08:00:14+00:00"
-  },
-  {
-   "title": "HERE WE GO - Miretti lascia la Juventus e va al Besiktas: accordo raggiunto, i dettagli dell'operazione",
-   "summary": "Il centrocampista classe 2003 lascia il club piemontese e raggiunge Vlahovic alla corte di Italiano: i dettagli.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/miretti-besiktas-accordo-mercato-dettagli-cifre/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289587737-7136dcb26c9f-e1787694315938.jpg",
-   "date": "2026-08-26T07:15:01+00:00"
-  },
-  {
-   "title": "UFFICIALE - Tchato al Frosinone: il comunicato e i dettagli dell'operazione",
-   "summary": "Il Frosinone ufficializza l'arrivo del difensore classe 2002: la nota del club ciociaro.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/frosinone/ufficiale-tchato-frosinone-comunicato-dettagli/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-1247322783-285680796c6d-scaled-e1787304135419.jpg",
-   "date": "2026-08-26T07:00:24+00:00"
-  },
-  {
-   "title": "Mercato Juventus, Kessie e non solo: i bianconeri cercano anche un terzino. E su Zirkzee...",
-   "summary": "Ultimi giorni di mercato e la Juventus studia gli ultimi colpi di mercato da regalare a Spalletti: tutti gli aggiornamenti.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juventus-mercato-kessie-terzino-zirkzee-la-situazione/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288841668-e92a1171ddb7-e1786562670643.jpg",
-   "date": "2026-08-26T06:00:29+00:00"
-  },
-  {
-   "title": "BREAKING - Atalanta all’assalto di Rowe: agenti a Bologna e volontà chiara, ecco le novità",
-   "summary": "Base d'accordo tra le parti: la Dea insiste per un pacchetto complessivo che supera i 40 milioni di euro.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/rowe-atalanta-bologna-mercato-assalto-fantacalcio/",
-   "image": "https://static.sosfanta.com/202605/70b1f6e974539d5706c91031d0ad07fb-scaled-e1777759258245.jpeg",
-   "date": "2026-08-26T04:45:35+00:00"
-  },
-  {
-   "title": "Romano - Roma, frenata per il trasferimento di Oosterwolde: lo scenario e cosa sta succedendo",
-   "summary": "La trattativa per il difensore del Fenerbahce ha subito un brusco rallentamento e ora è in dubbio: la situazione.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/roma-oosterwolde-trasferimento-problemi-cosa-succede/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2274391288-a9e3156185e0-e1787435269690.jpg",
-   "date": "2026-08-25T21:30:48+00:00"
-  },
-  {
-   "title": "Sky - La Juve insiste per Kessié ma servono uscite: c'è un inserimento a sorpresa dalla Serie A",
-   "summary": "Clamoroso inserimento sul centrocampista ivoriano che da diverse settimane è nel mirino dei bianconeri: cosa sta succedendo.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juventus-kessie-inserimento-roma-serie-a-cosa-succede/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2230776724-b30a60398a69-scaled-e1784089419524.jpeg",
-   "date": "2026-08-25T21:15:30+00:00"
-  },
-  {
-   "title": "Milan, gli aggiornamenti su Pulisic, Modric e Rabiot. Ecco quando sarà disponibile Moreira",
-   "summary": "Ruben Amorim deve preparare la prossima sfida contro il Venezia, venerdì sera nell’anticipo della seconda giornata di Serie A",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/milan-quando-moreira-ultime-pulisic/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290988629-8e7366df3030-scaled-e1787080032853.jpg",
-   "date": "2026-08-25T21:00:31+00:00"
-  },
-  {
-   "title": "Romano - Una squadra di Serie A in pole per Ziolkowski: la preferenza della Roma",
-   "summary": "Il Monza si porta in pole per Ziolkowski: trattativa avanzata per il prestito dalla Roma.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/ziolkowski-monza-roma-prestito-mercato-fantacalcio/",
-   "image": "https://static.sosfanta.com/202512/96094f27ddee39cd497d42cf9f0261d8.jpg",
-   "date": "2026-08-25T20:30:07+00:00"
-  },
-  {
-   "title": "ULTIM’ORA - Como, nuova offerta alla Fiorentina per Kean: ecco le cifre! E il giocatore…",
-   "summary": "Il club lariano mette sul piatto una nuova e importante proposta economica per strappare il sì del club viola.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/como-offerta-kean-fiorentina-dettagli-cosa-succede/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289944534-949f915c8fc1-e1786912728534.jpg",
-   "date": "2026-08-25T20:15:49+00:00"
-  },
-  {
-   "title": "Lazio, quando sarà schierabile al fanta Sutalo. Le ultime su Pellegrini, Dele-Bashiru e Cataldi",
-   "summary": "Vittoria importante per la Lazio in casa del Bologna. Ora Gattuso spera di recuperare i vari acciaccati",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-sutalo-pellegrini-cataldi-condizioni/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2237299293-7ec3f28387b1-scaled-e1787132918899.jpg",
-   "date": "2026-08-25T20:00:20+00:00"
-  },
-  {
-   "title": "La Guida all'asta per il fantacalcio 2026-2027 aggiornata: chi prendere e la divisione fascia per fascia",
-   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/08/Malen-2cbd3cecf5ff-e1787602655247.jpg",
-   "date": "2026-08-25T19:45:56+00:00"
-  },
-  {
-   "title": "UFFICIALE - Maye dall'Inter al Monza: il comunicato e i dettagli dell'operazione",
-   "summary": "Arriva l'annuncio del club brianzolo che conferma l'ingaggio del difensore proveniente dall'Inter.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/ufficiale-maye-monza-comunicato-dettagli-operazione/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291717101-288a04b1ba64-e1787685188510.jpg",
-   "date": "2026-08-25T19:30:05+00:00"
   }
  ],
  "baseNote": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale."
