@@ -39,6 +39,7 @@ MAX_IMAGE_BYTES = 2_000_000
 FOOTBALLER_QIDS = {"Q937857"}
 FOOTBALL_WORDS = ("calciator", "footballer", "football player", "futbolista", "futebolista")
 TRANSIENT_HTTP = {408, 425, 429, 500, 502, 503, 504}
+IDENTITY_STRATEGY_VERSION = 2
 TRANSLITERATION = str.maketrans({
     "ø": "o", "Ø": "O", "đ": "d", "Đ": "D", "ð": "d", "Ð": "D",
     "ł": "l", "Ł": "L", "ı": "i", "æ": "ae", "Æ": "AE",
@@ -78,6 +79,37 @@ def normalized_name(value: object) -> str:
 
 def name_tokens(value: object) -> tuple[str, ...]:
     return tuple(normalized_name(value).split())
+
+
+def identity_query_variants(player: dict[str, Any]) -> list[str]:
+    """Return conservative Wikipedia titles anchored to the list display name.
+
+    The list sometimes appends legal surnames or middle names which are absent
+    from Wikipedia.  We never try arbitrary first/last-name combinations: the
+    shortened title must retain the meaningful short-name token(s), otherwise
+    names such as David Kaiki Flores da Silva could incorrectly become the
+    unrelated footballer David Silva.
+    """
+    full = " ".join(str(player.get("fullName") or "").split()).strip(" -")
+    words = full.split()
+    short = {token for token in name_tokens(player.get("name")) if len(token) > 1}
+    if len(words) < 2 or not short:
+        return []
+
+    matched = [
+        index for index, word in enumerate(words)
+        if set(name_tokens(word)) & short
+    ]
+    if not matched:
+        return []
+
+    variants: list[str] = []
+    anchored = " ".join([words[0], *(words[index] for index in matched if index != 0)])
+    prefix = " ".join(words[:max(matched) + 1])
+    for value in (anchored, prefix):
+        if value and normalized_name(value) != normalized_name(full) and value not in variants:
+            variants.append(value)
+    return variants
 
 
 def gazzetta_slug(value: object) -> str:
@@ -474,6 +506,7 @@ def cache_entry(player: dict[str, Any], override: dict[str, Any], status: str,
                 now: datetime, **extra: Any) -> dict[str, Any]:
     retry_days = 30 if status in {"not_found", "ambiguous", "gazzetta_404", "image_invalid"} else None
     entry: dict[str, Any] = {"inputHash": fingerprint(player, override), "status": status,
+                             "identityStrategyVersion": IDENTITY_STRATEGY_VERSION,
                              "checkedAt": iso(now)}
     if retry_days:
         entry["retryAfter"] = iso(now + timedelta(days=retry_days))
@@ -544,6 +577,9 @@ def fresh(entry: dict[str, Any] | None, wanted_hash: str, now: datetime,
         return bool(checked and checked + timedelta(days=refresh_valid_days) > now)
     if entry.get("status") == "manual_fallback":
         return True
+    if (entry.get("status") in {"not_found", "ambiguous"}
+            and entry.get("identityStrategyVersion") != IDENTITY_STRATEGY_VERSION):
+        return False
     retry_after = parse_time(entry.get("retryAfter"))
     return bool(retry_after and retry_after > now)
 
@@ -638,6 +674,32 @@ def resolve_players(players: list[dict[str, Any]], due: list[dict[str, Any]],
             context["resolved"] = result
         else:
             unresolved.append(context)
+
+    # A second exact-title pass handles legal names longer than the sporting
+    # name (for example Jurgen Peter Ekkelenkamp -> Jurgen Ekkelenkamp).  It is
+    # performed only after the original title failed, so refresh-all remains
+    # polite, and variants are anchored to the list's short name to avoid
+    # guessing a different person.
+    alternate_titles: list[str] = []
+    for context in unresolved:
+        context["alternateTitles"] = identity_query_variants(context["player"])
+        alternate_titles.extend(context["alternateTitles"])
+    alternate_qids = wikimedia.page_qids(alternate_titles) if alternate_titles else {}
+    if alternate_qids:
+        entities.update(wikimedia.entities(alternate_qids.values()))
+    still_unresolved: list[dict[str, Any]] = []
+    for context in unresolved:
+        context["candidates"].extend(
+            (alternate_qids[title], title) for title in context.get("alternateTitles", [])
+            if title in alternate_qids
+        )
+        result = choose_entity(context["player"], context["candidates"], entities,
+                               context.get("forced"))
+        if result["status"] == "resolved":
+            context["resolved"] = result
+        else:
+            still_unresolved.append(context)
+    unresolved = still_unresolved
 
     # Search is the expensive fallback and runs only for exact-title misses.
     search_titles: list[str] = []

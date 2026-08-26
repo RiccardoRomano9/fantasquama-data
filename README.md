@@ -51,6 +51,12 @@ prossimo aggiornamento del modello.
 4. genera le varianti conservative del nome e verifica con `GET` ogni URL
    Gazzetta prima di pubblicarlo.
 
+Se il nome anagrafico completo non ha una pagina esatta, viene provato in un
+secondo batch un titolo più corto ancorato al nome del listone (per esempio
+`Jurgen Peter Ekkelenkamp` → `Jurgen Ekkelenkamp`). Non vengono mai create
+combinazioni arbitrarie nome/cognome: il candidato deve restare univoco e
+superare gli stessi controlli Wikidata.
+
 Per i cognomi composti prova prima lo slug con il trattino conservato (per
 esempio `loftus-cheek`) e poi la variante storica con underscore. Questo evita
 falsi 404 senza rendere meno rigorosa la validazione dell'immagine.

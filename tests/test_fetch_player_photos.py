@@ -16,6 +16,7 @@ from fetch_player_photos import (
     fresh,
     gazzetta_slug,
     gazzetta_slug_with_hyphens,
+    identity_query_variants,
     parse_png,
     photo_url,
     photo_urls,
@@ -71,6 +72,19 @@ class NamesTests(unittest.TestCase):
             photo_url("Nikola Krstović", "2000-04-05"),
             "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nikola_krstovic_05042000.png",
         )
+
+    def test_identity_variants_are_anchored_to_the_short_name(self):
+        self.assertEqual(identity_query_variants({
+            "name": "Ekkelenkamp", "fullName": "Jurgen Peter Ekkelenkamp",
+        }), ["Jurgen Ekkelenkamp"])
+        self.assertEqual(identity_query_variants({
+            "name": "Kossounou", "fullName": "Odilon Kossounou Kouakou",
+        }), ["Odilon Kossounou"])
+        variants = identity_query_variants({
+            "name": "Kaiki", "fullName": "David Kaiki Flores da Silva",
+        })
+        self.assertEqual(variants, ["David Kaiki"])
+        self.assertNotIn("David Silva", variants)
 
 
 class WikidataTests(unittest.TestCase):
@@ -135,6 +149,13 @@ class CacheAndOverridesTests(unittest.TestCase):
                                datetime(2026, 10, 1, tzinfo=timezone.utc), 90, False))
         self.assertTrue(fresh(manual, manual["inputHash"],
                               datetime(2030, 1, 1, tzinfo=timezone.utc), 90, False))
+
+    def test_old_negative_cache_retries_after_identity_strategy_change(self):
+        now = datetime(2026, 8, 26, tzinfo=timezone.utc)
+        player = {"id": "1", "name": "Rossi", "team": "Roma", "role": "D"}
+        old = cache_entry(player, {}, "not_found", now)
+        old.pop("identityStrategyVersion")
+        self.assertFalse(fresh(old, old["inputHash"], now, 90, False))
 
     def test_discovered_name_advances_fingerprint(self):
         now = datetime(2026, 8, 26, tzinfo=timezone.utc)
