@@ -63,7 +63,7 @@ jobs:
             --data archive/data --season 2026-27 --gameweek "$GIORNATA" \
             --roster-snapshot serieA-base.json --probabili probabili.json \
             --without-recent-form --out serieA-base.json
-          python fetch_player_photos.py --base serieA-base.json
+          python fetch_player_photos.py --base serieA-base.json --cache player-birthdates.json
           python aggiorna.py --base serieA-base.json --probabili probabili.json --out serieA.json
 
       - name: Salva i voti nell'archivio privato
@@ -80,6 +80,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add serieA-base.json serieA.json crests
+          git add serieA-base.json serieA.json player-birthdates.json crests
           git commit -m "Aggiorna dati alla giornata ${{ steps.voti.outputs.gameweek }}"
           git push

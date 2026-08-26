@@ -33,10 +33,11 @@ import pandas as pd
 HEADER_ROW: int = 1
 
 # Dalle intestazioni del listone ai nomi canonici. Il resto delle colonne
-# (Mantra, quotazioni iniziali, differenze) non serve a niente qui.
+# Il Mantra non sostituisce `R`: aggiunge la posizione reale al modello.
 LISTONE_COLUMNS: dict[str, str] = {
     "Id": "listone_id",
     "R": "role",
+    "RM": "mantra_role",
     "Nome": "player_name",
     "Squadra": "team",
     "Qt.A": "quotazione",
@@ -101,6 +102,7 @@ def load_listone(path: Path) -> pd.DataFrame:
     out = raw[list(LISTONE_COLUMNS)].rename(columns=LISTONE_COLUMNS)
     out["listone_id"] = out["listone_id"].astype("int64").astype("string")
     out["role"] = out["role"].astype("string")
+    out["mantra_role"] = out["mantra_role"].astype("string")
     out["player_name"] = out["player_name"].astype("string")
     out["team"] = out["team"].astype("string").replace(TEAM_ALIASES)
     out["quotazione"] = pd.to_numeric(out["quotazione"], errors="raise").astype("float32")
@@ -124,11 +126,13 @@ def load_roster_snapshot(path: Path) -> pd.DataFrame:
     if missing:
         raise ValueError(f"{path} non contiene i campi rosa {sorted(missing)}")
 
-    out = players.rename(columns={"id": "listone_id", "name": "player_name"})[
-        ["listone_id", "role", "player_name", "team", "quotazione", "fvm"]
+    if "mantraRole" not in players: players["mantraRole"] = pd.NA
+    out = players.rename(columns={"id": "listone_id", "name": "player_name", "mantraRole": "mantra_role"})[
+        ["listone_id", "role", "mantra_role", "player_name", "team", "quotazione", "fvm"]
     ].copy()
     out["listone_id"] = out["listone_id"].astype("string")
     out["role"] = out["role"].astype("string")
+    out["mantra_role"] = out["mantra_role"].astype("string")
     out["player_name"] = out["player_name"].astype("string")
     out["team"] = out["team"].astype("string").replace(TEAM_ALIASES)
     for column in ("quotazione", "fvm"):

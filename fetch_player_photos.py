@@ -1,72 +1,73 @@
 #!/usr/bin/env python3
-"""Associa URL dei ritratti Gazzetta usando nome e nascita da Wikidata.
-
-Nessuna chiave, piano a pagamento o foto viene scaricata: Wikidata serve solo
-per la data di nascita, Gazzetta resta la sorgente remota del ritratto.
-"""
+"""Trova la nascita in Wikidata, la cachea, e costruisce gli URL Gazzetta."""
 import argparse, json, re, time, unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode
-from urllib.error import URLError
 from urllib.request import Request, urlopen
 
 from fantasquama.roster import name_tokens
 
-WIKIDATA = "https://query.wikidata.org/sparql"
+WIKIDATA = "https://www.wikidata.org/w/api.php"
 GAZZETTA = "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori"
 
 def norm(value): return " ".join(name_tokens(value))
-
 def slug(value):
-    plain = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]+", "_", plain).strip("_")
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "_", value).strip("_")
 
-def query(names):
-    values = " ".join(json.dumps(name) for name in names)
-    sparql = f'''SELECT ?label ?birth WHERE {{
-      VALUES ?wanted {{ {values} }}
-      ?person rdfs:label ?label; wdt:P569 ?birth.
-      FILTER(LANG(?label) IN ("it", "en"))
-      FILTER(LCASE(STR(?label)) = LCASE(?wanted))
-    }}'''
-    url = f"{WIKIDATA}?{urlencode({'query': sparql, 'format': 'json'})}"
-    request = Request(url, headers={"Accept": "application/sparql-results+json", "User-Agent": "FantaSquama/1.0"})
-    for attempt in range(3):
+def api(**params):
+    params.update(format="json", origin="*")
+    request = Request(f"{WIKIDATA}?{urlencode(params)}", headers={"User-Agent": "FantaSquama/1.0"})
+    for attempt in range(4):
         try:
-            with urlopen(request, timeout=75) as response: return json.load(response)["results"]["bindings"]
-        except (TimeoutError, URLError):
-            if attempt == 2: raise
-            time.sleep(3 * (attempt + 1))
+            with urlopen(request, timeout=25) as response: return json.load(response)
+        except Exception:
+            if attempt == 3: return {}
+            time.sleep(1.5 * (attempt + 1))
 
-def dates(players):
-    names = sorted({p.get("fullName") or p.get("name", "") for p in players if p.get("fullName") or p.get("name")})
-    out = {}
-    # Query in gruppi piccoli: più gentile con il servizio pubblico e facilmente
-    # diagnosticabile se un nome contiene caratteri insoliti.
-    for start in range(0, len(names), 10):
-        for row in query(names[start:start + 10]):
-            key, date = norm(row["label"]["value"]), row["birth"]["value"][:10]
-            out.setdefault(key, set()).add(date)
-    return {key: next(iter(value)) for key, value in out.items() if len(value) == 1}
+def birthdate(name):
+    # Una ricerca piccola per nome evita timeout SPARQL. Conserviamo il QID e
+    # la data nel file cache, quindi questo costo esiste solo al primo giro.
+    found = api(action="wbsearchentities", search=name, language="it", uselang="it", type="item", limit=5)
+    ids = [row["id"] for row in found.get("search", []) if "football" in row.get("description", "").lower() or "calciatore" in row.get("description", "").lower()]
+    if not ids: ids = [row["id"] for row in found.get("search", [])[:1]]
+    if not ids: return None
+    entities = api(action="wbgetentities", ids="|".join(ids), props="claims").get("entities", {})
+    dates = []
+    for qid in ids:
+        claims = entities.get(qid, {}).get("claims", {}).get("P569", [])
+        if claims:
+            value = claims[0].get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("time", "")
+            if len(value) >= 11: dates.append((qid, value[1:11]))
+    return dates[0] if len(dates) == 1 else None
 
 def gazzetta_url(name, date):
     year, month, day = date.split("-")
-    return f"{GAZZETTA}/{slug(name.replace(' ', '_'))}_{day}{month}{year}.png"
+    return f"{GAZZETTA}/{slug(name)}_{day}{month}{year}.png"
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base", type=Path, required=True)
+    parser.add_argument("--cache", type=Path, default=Path("player-birthdates.json"))
     args = parser.parse_args(); base = json.loads(args.base.read_text())
-    known, changed, missing = dates(base.get("players", [])), 0, []
+    cache = json.loads(args.cache.read_text()) if args.cache.exists() else {}
+    changed, missing = 0, []
     for player in base.get("players", []):
-        name = player.get("fullName") or player.get("name", "")
-        date = known.get(norm(name))
-        if not date: missing.append(player.get("name", "")); continue
-        player["photoURL"], player["photoProviderID"] = gazzetta_url(name, date), f"gazzetta:{date}"
+        name, key = player.get("fullName") or player.get("name", ""), norm(player.get("fullName") or player.get("name", ""))
+        entry = cache.get(key)
+        if entry is None:
+            result = birthdate(name)
+            entry = {"qid": result[0], "birthDate": result[1]} if result else False
+            cache[key] = entry
+            time.sleep(0.18)
+        if not entry: missing.append(player.get("name", "")); continue
+        player["photoURL"] = gazzetta_url(name, entry["birthDate"])
+        player["photoProviderID"] = f"gazzetta:{entry['qid']}"
         changed += 1
+    args.cache.write_text(json.dumps(cache, ensure_ascii=False, indent=1))
     base["photosUpdatedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     args.base.write_text(json.dumps(base, ensure_ascii=False, indent=1))
-    print(f"{changed} URL Gazzetta associati; {len(missing)} fallback: {', '.join(missing[:12])}")
+    print(f"{changed} URL Gazzetta associati; {len(missing)} fallback")
 
 if __name__ == "__main__": main()

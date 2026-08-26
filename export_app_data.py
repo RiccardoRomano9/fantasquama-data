@@ -169,6 +169,7 @@ def main() -> None:
             "name": str(riga["player_name"]),
             "fullName": estesi.get(str(quotato.listone_id)) if quotato else None,
             "role": str(riga["role"]),
+            "mantraRole": str(quotato.mantra_role) if quotato is not None and pd.notna(quotato.mantra_role) else None,
             "team": str(riga["team"]),
             "opponent": _clean(context["opponent"].iloc[i]),
             "home": bool(context["home"].iloc[i]) if pd.notna(context["home"].iloc[i]) else None,

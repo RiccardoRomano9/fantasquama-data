@@ -19,10 +19,10 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Associa e pubblica i ritratti
         run: |
-          python fetch_player_photos.py --base serieA-base.json
+          python fetch_player_photos.py --base serieA-base.json --cache player-birthdates.json
           python aggiorna.py --base serieA-base.json --out serieA.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add serieA-base.json serieA.json
+          git add serieA-base.json serieA.json player-birthdates.json
           git commit -m "Aggiorna foto giocatori" || exit 0
           git push
