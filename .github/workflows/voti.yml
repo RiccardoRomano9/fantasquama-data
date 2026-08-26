@@ -22,17 +22,17 @@ jobs:
   importa:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Accedi all'archivio voti privato
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: RiccardoRomano9/fantasquama-archive
           path: archive
           ssh-key: ${{ secrets.FANTASQUAMA_ARCHIVE_DEPLOY_KEY }}
           persist-credentials: true
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
