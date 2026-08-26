@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26T16:22:27Z",
+ "generatedAt": "2026-08-26T16:59:58+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -953,6 +953,7 @@
   {
    "id": "7568",
    "name": "De Martis",
+   "fullName": null,
    "role": "A",
    "mantraRole": null,
    "team": "Parma",
@@ -2530,6 +2531,7 @@
   {
    "id": "7561",
    "name": "Lontani",
+   "fullName": null,
    "role": "A",
    "mantraRole": null,
    "team": "Parma",
@@ -4209,6 +4211,7 @@
   {
    "id": "7317",
    "name": "Trepy",
+   "fullName": null,
    "role": "A",
    "mantraRole": null,
    "team": "Cagliari",
@@ -8781,6 +8784,7 @@
   {
    "id": "7248",
    "name": "Gorter",
+   "fullName": null,
    "role": "C",
    "mantraRole": null,
    "team": "Lecce",
@@ -9777,6 +9781,7 @@
   {
    "id": "7571",
    "name": "Laerke",
+   "fullName": null,
    "role": "C",
    "mantraRole": null,
    "team": "Lecce",
@@ -9982,6 +9987,7 @@
   {
    "id": "7165",
    "name": "Liteta",
+   "fullName": null,
    "role": "C",
    "mantraRole": null,
    "team": "Cagliari",
@@ -14566,6 +14572,7 @@
   {
    "id": "7312",
    "name": "Arizala",
+   "fullName": null,
    "role": "D",
    "mantraRole": null,
    "team": "Udinese",
@@ -14722,6 +14729,7 @@
   {
    "id": "7476",
    "name": "Bakoune",
+   "fullName": null,
    "role": "D",
    "mantraRole": null,
    "team": "Monza",
@@ -16040,6 +16048,7 @@
   {
    "id": "7573",
    "name": "Cinquegrano",
+   "fullName": null,
    "role": "D",
    "mantraRole": null,
    "team": "Sassuolo",
@@ -21511,6 +21520,7 @@
   {
    "id": "7413",
    "name": "Puczka",
+   "fullName": null,
    "role": "D",
    "mantraRole": null,
    "team": "Genoa",
@@ -22878,6 +22888,7 @@
   {
    "id": "7294",
    "name": "Valdepenas",
+   "fullName": null,
    "role": "D",
    "mantraRole": null,
    "team": "Fiorentina",
@@ -23246,6 +23257,7 @@
   {
    "id": "7410",
    "name": "Viery",
+   "fullName": null,
    "role": "D",
    "mantraRole": null,
    "team": "Fiorentina",
@@ -24352,6 +24364,7 @@
   {
    "id": "7048",
    "name": "De Marzi",
+   "fullName": null,
    "role": "P",
    "mantraRole": null,
    "team": "Roma",
@@ -24718,6 +24731,7 @@
   {
    "id": "7533",
    "name": "Happonen",
+   "fullName": null,
    "role": "P",
    "mantraRole": null,
    "team": "Bologna",
@@ -25557,6 +25571,7 @@
   {
    "id": "7557",
    "name": "Penev",
+   "fullName": null,
    "role": "P",
    "mantraRole": null,
    "team": "Lecce",
@@ -25711,6 +25726,7 @@
   {
    "id": "5707",
    "name": "Piana",
+   "fullName": null,
    "role": "P",
    "mantraRole": null,
    "team": "Udinese",
@@ -25920,6 +25936,7 @@
   {
    "id": "7531",
    "name": "Pozzi",
+   "fullName": null,
    "role": "P",
    "mantraRole": null,
    "team": "Venezia",
@@ -26076,6 +26093,7 @@
   {
    "id": "7534",
    "name": "Renzetti",
+   "fullName": null,
    "role": "P",
    "mantraRole": null,
    "team": "Lazio",
@@ -26281,6 +26299,7 @@
   {
    "id": "7363",
    "name": "Siviero",
+   "fullName": null,
    "role": "P",
    "mantraRole": null,
    "team": "Torino",
@@ -26592,6 +26611,7 @@
   {
    "id": "7475",
    "name": "Strajnar",
+   "fullName": null,
    "role": "P",
    "mantraRole": null,
    "team": "Monza",
@@ -27062,6 +27082,7 @@
   {
    "id": "7545",
    "name": "Vismara",
+   "fullName": null,
    "role": "P",
    "mantraRole": null,
    "team": "Atalanta",
@@ -32588,13 +32609,49 @@
  ],
  "news": [
   {
+   "title": "ULTIM’ORA - Il Galatasaray avanza per Leao: nuovi contatti e rilancio in arrivo, cosa succede",
+   "summary": "Continua a tenere banco il futuro di Rafael Leao: il Galatasaray ora è in pressing per il portoghese, i dettagli.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/leao-futuro-galatasaray-cosa-succede/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2274280320-1ac92e70a4a1-scaled-e1784881680875.jpeg",
+   "date": "2026-08-26T16:35:09+00:00"
+  },
+  {
+   "title": "Mercato Roma: dalla cessione di Ziolkowski all'interesse per Morato. E su Oosterwolde...",
+   "summary": "Intesa vicina tra i due club per il trasferimento del difensore polacco, destinato a rimanere sul palcoscenico della Serie A. Nel frattempo i giallorossi lav...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/monza/monza-ziolkowski-accordo-roma-dettagli/",
+   "image": "https://static.sosfanta.com/202512/96094f27ddee39cd497d42cf9f0261d8.jpg",
+   "date": "2026-08-26T16:30:59+00:00"
+  },
+  {
+   "title": "FLASH - Inter, è fatta per la cessione di Asllani: le cifre! Accordo per il rinnovo di Pio Esposito, tutti i dettagli",
+   "summary": "Tutto fatto per la cessione del centrocampista albanese e, intanto, i campioni d'Italia hanno raggiunto l'accordo per il rinnovo di Pio Esposito.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-asllani-cessione-al-jazira-cifre-pio-esposito-contratto-rinnovo-accordo-raggiunto-scadenza/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291573562-5d9032efbe15-scaled-e1787422577109.jpeg",
+   "date": "2026-08-26T16:15:17+00:00"
+  },
+  {
    "title": "Nicolussi Caviglia deve operarsi: il motivo, il comunicato del Parma e i tempi di recupero",
    "summary": "Confermati i timori per le condizioni di Hans Nicolussi Caviglia: il Parma ha comunicato la necessità di operare il ragazzo per risolvere la sindrome pubalgica.",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/nicolussi-caviglia-parma/",
-   "image": "",
+   "image": "https://static.sosfanta.com/202602/d9206f7b8e0a34b11539bb5be9a4bb46-scaled-e1770557992766.jpg",
    "date": "2026-08-26T16:00:57+00:00"
+  },
+  {
+   "title": "Ecco sei sorprese dopo la 1a giornata al fantacalcio: le novità sulla gestione all’asta, da Cisse a Milla",
+   "summary": "Dopo la prima giornata campionato di campionato sono arrivati i primi segnali al fantacalcio: ecco sei sorprese e come gestirle all'asta.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/sei-sorprese-fantacalcio-1a-giornata-asta/",
+   "image": "https://static.sosfanta.com/2026/08/milla-a50041647a1f-e1787670554216.jpeg",
+   "date": "2026-08-26T15:45:44+00:00"
   },
   {
    "title": "Diego Carlos aspetta: il motivo per cui si è bloccata la trattativa e l'ultimatum dato al Como",
@@ -32624,6 +32681,15 @@
    "date": "2026-08-26T15:15:42+00:00"
   },
   {
+   "title": "BREAKING - Bologna, Rowe ha chiesto la cessione! Ecco l’offerta dell’Atalanta sul tavolo",
+   "summary": "L'attaccante del Bologna prova a forzare la mano: ha chiesto di essere ceduto e ha già un accordo con l'Atalanta.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/rowe-chiede-cessione-futuro-offerta-atalanta-cosa-succede/",
+   "image": "https://static.sosfanta.com/202604/64d6a09f8319b3b4ae293ebcfd8e0937-scaled-e1777113962670.jpeg",
+   "date": "2026-08-26T15:15:07+00:00"
+  },
+  {
    "title": "Milan, scatta l'ora di Pulisic: il programma di Amorim per il suo esordio in campionato",
    "summary": "Dalla panchina contro il Torino al debutto con il Venezia, a San Siro: Christian Pulisic corre verso il recupero della miglior forma e Amorim può premiarlo.",
    "author": "Daniele Najjar",
@@ -32633,22 +32699,13 @@
    "date": "2026-08-26T15:00:32+00:00"
   },
   {
-   "title": "FLASH - Inter, è fatta per la cessione di Asllani: le cifre! Accordo per il rinnovo di Pio Esposito, tutti i dettagli",
-   "summary": "Tutto fatto per la cessione del centrocampista albanese e, intanto, i campioni d'Italia hanno raggiunto l'accordo per il rinnovo di Pio Esposito.",
+   "title": "ULTIM’ORA - Leao, aspettando novità dal mercato c’è il ritorno in gruppo: le sue condizioni",
+   "summary": "Il futuro rimane da definire ma intanto Leao torna a lavorare a pieno regime in gruppo e può puntare alla convocazione per Milan-Venezia.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-asllani-cessione-al-jazira-cifre-pio-esposito-contratto-rinnovo-accordo-raggiunto-scadenza/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291573562-5d9032efbe15-scaled-e1787422577109.jpeg",
-   "date": "2026-08-26T15:00:17+00:00"
-  },
-  {
-   "title": "Ecco sei sorprese dopo la 1a giornata al fantacalcio: le novità sulla gestione all’asta, da Cisse a Milla",
-   "summary": "Dopo la prima giornata campionato di campionato sono arrivati i primi segnali al fantacalcio: ecco sei sorprese e come gestirle all'asta.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/sei-sorprese-fantacalcio-1a-giornata-asta/",
-   "image": "https://static.sosfanta.com/2026/08/milla-a50041647a1f-e1787670554216.jpeg",
-   "date": "2026-08-26T14:45:44+00:00"
+   "url": "https://www.sosfanta.com/squadra/milan/milan-leao-condizioni-futuro/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289178375-3318afa1318f-e1786018361554.jpg",
+   "date": "2026-08-26T14:45:07+00:00"
   },
   {
    "title": "Moretto - Zirkzee apre al ritorno in Serie A: la posizione della Juve e cosa risulta sulla Fiorentina",
@@ -32660,13 +32717,13 @@
    "date": "2026-08-26T14:30:18+00:00"
   },
   {
-   "title": "BREAKING - Bologna, Rowe ha chiesto la cessione! Ecco l’offerta dell’Atalanta sul tavolo",
-   "summary": "L'attaccante del Bologna prova a forzare la mano: ha chiesto di essere ceduto e ha già un accordo con l'Atalanta.",
-   "author": "Michael Di Chiaro",
+   "title": "FLASH - Fiorentina, pugno duro con Kean: multato e convocato per allenarsi da solo nel pomeriggio!",
+   "summary": "Sono ore bollenti in casa Fiorentina per capire il futuro di Kean. L'attaccante è vicino al trasferimento al Como, che nella serata di ieri ha presentato una...",
+   "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/rowe-chiede-cessione-futuro-offerta-atalanta-cosa-succede/",
-   "image": "https://static.sosfanta.com/202604/64d6a09f8319b3b4ae293ebcfd8e0937-scaled-e1777113962670.jpeg",
-   "date": "2026-08-26T14:15:07+00:00"
+   "url": "https://www.sosfanta.com/news/kean-fiorentina-como/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2169114960-f99dddc1a989-e1784753221259.jpg",
+   "date": "2026-08-26T14:15:12+00:00"
   },
   {
    "title": "Napoli, dalle novità su Guiu e Zeballos alla verità su Martinelli: le ultime di mercato",
@@ -32678,15 +32735,6 @@
    "date": "2026-08-26T14:00:45+00:00"
   },
   {
-   "title": "ULTIM’ORA - Leao, aspettando novità dal mercato c’è il ritorno in gruppo: le sue condizioni",
-   "summary": "Il futuro rimane da definire ma intanto Leao torna a lavorare a pieno regime in gruppo e può puntare alla convocazione per Milan-Venezia.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/milan-leao-condizioni-futuro/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289178375-3318afa1318f-e1786018361554.jpg",
-   "date": "2026-08-26T13:45:07+00:00"
-  },
-  {
    "title": "I convocati dell'Atalanta per il playoff di Conference: la scelta su Kristensen, su Elmas, Ahanor, Hien...",
    "summary": "Dea in Ungheria per la gara di ritorno, e decisiva, dei preliminari di Conference League contro l'Hapoel Tel-Aviv.",
    "author": "Michael Di Chiaro",
@@ -32694,15 +32742,6 @@
    "url": "https://www.sosfanta.com/news/atalanta-conference-hapoel-condizioni-elmas-kristensen-ahanor-hien/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291803481-8e81466a3bf9-e1787669985752.jpg",
    "date": "2026-08-26T13:30:04+00:00"
-  },
-  {
-   "title": "FLASH - Fiorentina, pugno duro con Kean: multato e convocato per allenarsi da solo nel pomeriggio!",
-   "summary": "Sono ore bollenti in casa Fiorentina per capire il futuro di Kean. L'attaccante è vicino al trasferimento al Como, che nella serata di ieri ha presentato una...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kean-fiorentina-como/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2169114960-f99dddc1a989-e1784753221259.jpg",
-   "date": "2026-08-26T13:15:12+00:00"
   },
   {
    "title": "Lazio, cosa filtra sul futuro di Nuno Tavares, Luca Pellegrini e Lazzari: gli scenari e cosa può succedere",
@@ -32928,24 +32967,6 @@
    "url": "https://www.sosfanta.com/squadra/monza/ufficiale-maye-monza-comunicato-dettagli-operazione/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291717101-288a04b1ba64-e1787685188510.jpg",
    "date": "2026-08-25T19:30:05+00:00"
-  },
-  {
-   "title": "Novità dai campi e dal mercato: attenzione a Gudmundsson! Kean, Traorè, Berardi, Asllani, Neres, Badiashile...",
-   "summary": "È iniziata la stagione 2026/27 per il campionato di Serie A e di conseguenza il fantacalcio: ecco tutte le ultime novità da campo e mercato con la prima gior...",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-2/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289942106-0c3d93d79b99-e1787673603693.jpg",
-   "date": "2026-08-25T19:15:38+00:00"
-  },
-  {
-   "title": "UFFICIALE - Grabara nuovo portiere della Juventus! Comunicato, cifre e dettagli dell'operazione",
-   "summary": "Dopo l'addio di Perin e Di Gregorio, il club bianconero ha ufficializzato l'arrivo del vice Vicario.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juventus-grabara-ufficiale-comunicato-cifre-dettagli/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2275977862-406f80565937.jpg",
-   "date": "2026-08-25T19:00:39+00:00"
   }
  ],
  "baseNote": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale."
