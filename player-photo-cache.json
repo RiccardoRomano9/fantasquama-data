@@ -8319,11 +8319,29 @@
       }
     },
     "5578": {
-      "inputHash": "9abc964708a66f5ecb9b",
-      "status": "not_found",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "candidates": []
+      "inputHash": "d87af9968a33d26f17e3",
+      "status": "valid",
+      "checkedAt": "2026-08-26T15:46:12Z",
+      "fullName": "Odilon Kossounou",
+      "birthDate": "2001-01-04",
+      "wikidataID": "Q64009388",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/odilon_kossounou_04012001.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "note": "Il listone aggiunge Kouakou; Wikipedia e il CDN usano Odilon Kossounou",
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/odilon_kossounou_04012001.png",
+      "photoProviderID": "gazzetta:odilon_kossounou_04012001",
+      "image": {
+        "sha256": "015942e852765fc95795498b9283778a759925271683b41452a2a90384e697ca",
+        "width": 180,
+        "height": 180,
+        "bytes": 14420,
+        "contentType": "image/png"
+      }
     },
     "7238": {
       "inputHash": "62f2c2fa384b768cb7b1",
