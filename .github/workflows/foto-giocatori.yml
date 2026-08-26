@@ -1,28 +1,61 @@
 name: aggiorna foto giocatori
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      refresh_all:
+        description: "Ignora le scadenze della cache e ricontrolla tutto"
+        required: false
+        type: boolean
+        default: false
   schedule:
-    # Una volta al mese basta: i ritratti cambiano raramente.
+    # I ritratti cambiano raramente; gli esiti negativi scadono dopo 30 giorni.
     - cron: "30 4 1 * *"
 
 permissions:
   contents: write
 
+concurrency:
+  # Usare lo stesso gruppo in ogni workflow che scrive fantasquama-data.
+  group: fantasquama-data-writer
+  cancel-in-progress: false
+
 jobs:
   foto:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - run: pip install -r requirements.txt
-      - name: Associa e pubblica i ritratti
+        with:
+          python-version: "3.12"
+
+      - name: Test della pipeline foto
+        run: python -m unittest discover -s tests -p 'test_fetch_player_photos.py' -v
+
+      - name: Risolvi identità e verifica i PNG
+        env:
+          REFRESH_ALL: ${{ inputs.refresh_all && '--refresh-all' || '' }}
+          PLAYER_PHOTO_USER_AGENT: >-
+            FantaSquamaPhotoBot/1.0
+            (https://github.com/RiccardoRomano9/fantasquama-data; contact via GitHub)
+        run: >-
+          python fetch_player_photos.py
+          --base serieA-base.json
+          --derived serieA.json
+          --cache player-photo-cache.json
+          --overrides player-photo-overrides.json
+          $REFRESH_ALL
+
+      - name: Committa solo file realmente cambiati
         run: |
-          python fetch_player_photos.py --base serieA-base.json --cache player-birthdates.json
-          python aggiorna.py --base serieA-base.json --out serieA.json
+          if [ -z "$(git status --porcelain -- serieA-base.json serieA.json player-photo-cache.json)" ]; then
+            echo "niente di nuovo: nessun commit"
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add serieA-base.json serieA.json player-birthdates.json
-          git commit -m "Aggiorna foto giocatori" || exit 0
+          git add serieA-base.json serieA.json player-photo-cache.json
+          git commit -m "Aggiorna foto giocatori"
           git push

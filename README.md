@@ -34,6 +34,137 @@ prossimo aggiornamento del modello.
 - Probabili formazioni: [sosfanta.com](https://www.sosfanta.com)
 - Calendario e stemmi: [football-data.org](https://www.football-data.org)
 - Ruoli e quotazioni: listone ufficiale di Fantacalcio.it
+- Identità e date di nascita: Wikipedia in italiano e Wikidata
+- URL dei ritratti: CDN di Gazzetta (nel repository restano solo gli URL)
+
+## Foto dei giocatori
+
+`fetch_player_photos.py` tratta separatamente identità e immagine:
+
+1. prova i titoli Wikipedia esatti in batch da 20;
+2. recupera entità Wikidata in batch da 40 e accetta solo esseri umani con
+   occupazione/descrizione da calciatore e data di nascita con precisione al
+   giorno;
+3. usa la ricerca Wikipedia, una persona alla volta, soltanto per i titoli
+   esatti non risolti; se non esiste una pagina italiana, prova la ricerca
+   entità Wikidata;
+4. genera le varianti conservative del nome e verifica con `GET` ogni URL
+   Gazzetta prima di pubblicarlo.
+
+Non viene fatta alcuna query SPARQL e non serve una API key. Se due candidati
+hanno la stessa confidenza, oppure il confronto del nome non supera la soglia,
+il giocatore resta senza URL. L'app mostra in quel caso il fallback locale.
+
+Esecuzione locale equivalente al workflow:
+
+```bash
+python -m unittest discover -s tests -p 'test_fetch_player_photos.py' -v
+python fetch_player_photos.py \
+  --base serieA-base.json \
+  --derived serieA.json \
+  --cache player-photo-cache.json \
+  --overrides player-photo-overrides.json
+```
+
+Il file derivato viene sincronizzato soltanto nei campi `fullName`, `photoURL`
+e `photoProviderID`: titolarità, notizie e altri dati live già presenti non
+vengono alterati. Se almeno uno di questi campi cambia, viene avanzato anche
+`generatedAt`, così un'app che ha già il JSON in cache adotta l'aggiornamento.
+
+### Cache
+
+`player-photo-cache.json` è versionato e indicizzato per l'`id` stabile del
+listone. Una voce tipica è:
+
+```json
+{
+  "version": 1,
+  "players": {
+    "1234": {
+      "inputHash": "92cfe58c3a9cd70ac985",
+      "status": "valid",
+      "checkedAt": "2026-08-26T10:00:00Z",
+      "fullName": "Nikola Krstović",
+      "birthDate": "2000-04-05",
+      "wikidataID": "Q123456",
+      "wikipediaTitle": "Nikola Krstović",
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nikola_krstovic_05042000.png",
+      "photoProviderID": "gazzetta:nikola_krstovic_05042000",
+      "image": {
+        "sha256": "...",
+        "width": 370,
+        "height": 444,
+        "bytes": 85431,
+        "contentType": "image/png"
+      },
+      "attempts": []
+    }
+  }
+}
+```
+
+Gli stati negativi (`not_found`, `ambiguous`, `gazzetta_404`,
+`image_invalid`) vengono riprovati dopo 30 giorni; i positivi dopo 90. Un
+cambio di nome, squadra, ruolo o override invalida subito la singola voce.
+Gli errori transitori non sostituiscono mai una voce valida.
+
+### Override manuali
+
+`player-photo-overrides.json` è anch'esso versionato. Le chiavi sono sempre
+gli ID del listone, mai i nomi. Gli ID di rose passate possono restare nel
+file: vengono validati ma ignorati finché non sono nella rosa corrente. Sono
+supportati questi casi:
+
+```json
+{
+  "version": 1,
+  "players": {
+    "1234": {
+      "wikidataID": "Q123456",
+      "gazzettaName": "Nikola Krstovic",
+      "note": "QID verificato manualmente"
+    },
+    "2345": {
+      "fullName": "Nome Cognome",
+      "birthDate": "2001-12-31"
+    },
+    "3456": {
+      "photoURL": "https://images2.gazzettaobjects.it/.../file.png",
+      "photoProviderID": "gazzetta:file"
+    },
+    "4567": {
+      "skip": true,
+      "note": "due omonimi non separabili"
+    }
+  },
+  "invalidImageSHA256": [
+    "hash_sha256_di_un_placeholder_confermato"
+  ]
+}
+```
+
+Anche un `photoURL` manuale viene scaricato e validato: l'override decide
+l'identità, non aggira i controlli del contenuto.
+
+### Rate limit e validazione
+
+Il client invia uno User-Agent identificabile, attende almeno 250 ms fra le
+richieste Wikimedia e 350 ms fra quelle al CDN, usa timeout di 25 secondi e
+fino a tre retry con backoff esponenziale, jitter e rispetto di `Retry-After`.
+Le chiamate MediaWiki portano anche `maxlag=15`, così il bot cede il passo
+quando le repliche sono troppo indietro. Dopo tre fallimenti transitori
+consecutivi apre un circuit breaker per quella fonte e completa il report
+senza fallire l'intero job.
+
+Un'immagine è valida soltanto se la risposta è `image/png` (o `image/x-png`),
+resta sotto 2 MB, porta firma PNG, chunk `IHDR`, dimensioni fra 80 e 4000 px e
+chunk finale `IEND`. Sono inoltre rifiutati gli hash nella denylist e lo stesso
+identico file servito da URL di giocatori diversi, perché è un forte segnale di
+placeholder. Una pagina HTML con status 200 non supera questi controlli.
+
+Il report completo finisce nel log e nel Job Summary di GitHub Actions: totale
+valido/fallback, ambigui, non trovati, immagini non valide, errori transitori e
+tutti gli URL che hanno risposto 404.
 
 ## Impostarlo, una volta sola
 

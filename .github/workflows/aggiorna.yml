@@ -24,7 +24,7 @@ permissions:
 
 concurrency:
   # due esecuzioni sovrapposte si contenderebbero lo stesso commit
-  group: aggiorna
+  group: fantasquama-data-writer
   cancel-in-progress: false
 
 jobs:
