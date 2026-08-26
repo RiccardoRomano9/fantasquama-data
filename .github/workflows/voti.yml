@@ -65,7 +65,7 @@ jobs:
             --roster-snapshot serieA-base.json --probabili probabili.json \
             --without-recent-form --out serieA-base.json
           if [ -n "${API_FOOTBALL_KEY:-}" ]; then
-            python fetch_player_photos.py --base serieA-base.json --season 2026
+            python fetch_player_photos.py --base serieA-base.json --season 2024
           fi
           python aggiorna.py --base serieA-base.json --probabili probabili.json --out serieA.json
 

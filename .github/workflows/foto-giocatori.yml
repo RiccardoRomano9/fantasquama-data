@@ -21,7 +21,9 @@ jobs:
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
-          python fetch_player_photos.py --base serieA-base.json --season 2026
+          # Il piano API-Football gratuito espone lo storico fino al 2024.
+          # Le foto non dipendono dalla giornata: basta per quasi tutta la rosa.
+          python fetch_player_photos.py --base serieA-base.json --season 2024
           python aggiorna.py --base serieA-base.json --out serieA.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

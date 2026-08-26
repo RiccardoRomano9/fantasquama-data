@@ -28,16 +28,23 @@ def load_all(key, season):
         page += 1
 
 def assign(base, records):
-    candidates = {}
+    candidates, by_name = {}, {}
     for record in records:
         player = record.get("player", {})
         for stats in record.get("statistics", []):
             key = (team_key(stats.get("team", {}).get("name", "")), name_tokens(player.get("name", "")))
-            if all(key) and player.get("photo"): candidates.setdefault(key, []).append(player)
+            if all(key) and player.get("photo"):
+                candidates.setdefault(key, []).append(player)
+                by_name.setdefault(key[1], []).append(player)
     changed, missing = 0, []
     for target in base.get("players", []):
         team, tokens = team_key(target.get("team", "")), name_tokens(target.get("fullName") or target.get("name", ""))
         options = candidates.get((team, tokens), [])
+        # Con il piano gratuito la stagione più recente disponibile è la
+        # 2024: chi nel frattempo ha cambiato squadra non va perso se il suo
+        # nome nell'archivio è univoco.
+        if not options:
+            options = by_name.get(tokens, [])
         if not options:
             options = [p for (candidate_team, candidate_tokens), values in candidates.items()
                        if candidate_team == team and (set(tokens) <= set(candidate_tokens) or set(candidate_tokens) <= set(tokens)) for p in values]
@@ -50,7 +57,7 @@ def assign(base, records):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--base", type=Path, required=True); parser.add_argument("--season", type=int, default=2026)
+    parser.add_argument("--base", type=Path, required=True); parser.add_argument("--season", type=int, default=2024)
     args = parser.parse_args(); key = os.environ.get("API_FOOTBALL_KEY", "").strip()
     if not key: raise SystemExit("manca API_FOOTBALL_KEY: aggiungila come GitHub Secret, non nel repository")
     base = json.loads(args.base.read_text()); changed, missing = assign(base, load_all(key, args.season))
