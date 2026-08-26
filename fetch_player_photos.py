@@ -36,7 +36,10 @@ def load_all(key, season):
         while True:
             payload = request(key, "players", team=team_id, season=season, page=page)
             out.extend(payload.get("response", []))
-            if page >= int(payload.get("paging", {}).get("total", page)): break
+            # API-Football Free non autorizza mai `page=4`, neppure per le
+            # rose più grandi. Le prime tre contengono comunque la rosa
+            # principale; gli eventuali assenti useranno il fallback.
+            if page >= min(3, int(payload.get("paging", {}).get("total", page))): break
             page += 1
     return out
 """  # codice storico mantenuto fuori dal modulo per documentare il limite Free
