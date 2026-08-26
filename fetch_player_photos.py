@@ -8,7 +8,7 @@ from urllib.request import Request, urlopen
 
 from fantasquama.roster import name_tokens
 
-ENDPOINT, SERIE_A = "https://v3.football.api-sports.io/players", 135
+ENDPOINT, SERIE_A = "https://v3.football.api-sports.io", 135
 TEAM_WORDS = {"ac", "as", "fc", "ssc", "us", "calcio", "football", "club", "1919"}
 TEAM_ALIASES = {"hellas verona": "verona", "inter milan": "inter", "ac milan": "milan"}
 
@@ -16,16 +16,40 @@ def team_key(name):
     key = " ".join(w for w in name_tokens(name) if w not in TEAM_WORDS)
     return TEAM_ALIASES.get(key, key)
 
+def request(key, path, **params):
+    url = f"{ENDPOINT}/{path}?{urlencode(params)}"
+    with urlopen(Request(url, headers={"x-apisports-key": key, "User-Agent": "FantaSquama/1.0"}), timeout=30) as response:
+        payload = json.load(response)
+    if payload.get("errors"): raise SystemExit(f"API-Football: {payload['errors']}")
+    return payload
+
 def load_all(key, season):
+    # L'account Free blocca la quarta pagina della lega. La rosa di una
+    # singola squadra sta invece nelle prime pagine: 20 piccole richieste
+    # sono più affidabili e restano sotto le 100 richieste/giorno gratuite.
+    teams = request(key, "teams", league=SERIE_A, season=season).get("response", [])
+    out = []
+    for entry in teams:
+        team_id = entry.get("team", {}).get("id")
+        if not team_id: continue
+        page = 1
+        while True:
+            payload = request(key, "players", team=team_id, season=season, page=page)
+            out.extend(payload.get("response", []))
+            if page >= int(payload.get("paging", {}).get("total", page)): break
+            page += 1
+    return out
+"""  # codice storico mantenuto fuori dal modulo per documentare il limite Free
     out, page = [], 1
     while True:
-        url = f"{ENDPOINT}?{urlencode({'league': SERIE_A, 'season': season, 'page': page})}"
+        url = f"{ENDPOINT}/players?{urlencode({'league': SERIE_A, 'season': season, 'page': page})}"
         with urlopen(Request(url, headers={"x-apisports-key": key, "User-Agent": "FantaSquama/1.0"}), timeout=30) as response:
             payload = json.load(response)
         if payload.get("errors"): raise SystemExit(f"API-Football: {payload['errors']}")
         out.extend(payload.get("response", []))
         if page >= int(payload.get("paging", {}).get("total", page)): return out
         page += 1
+"""
 
 def assign(base, records):
     candidates, by_name = {}, {}
