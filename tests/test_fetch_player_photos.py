@@ -15,8 +15,10 @@ from fetch_player_photos import (
     choose_entity,
     fresh,
     gazzetta_slug,
+    gazzetta_slug_with_hyphens,
     parse_png,
     photo_url,
+    photo_urls,
     resolve_players,
     sync_derived,
     validate_overrides,
@@ -55,6 +57,14 @@ class NamesTests(unittest.TestCase):
     def test_slug_handles_accents_apostrophes_hyphens_and_special_letters(self):
         self.assertEqual(gazzetta_slug("M'Bala N'Zola"), "mbala_nzola")
         self.assertEqual(gazzetta_slug("Rasmus Højlund-García"), "rasmus_hojlund_garcia")
+        self.assertEqual(gazzetta_slug_with_hyphens("Rasmus Højlund-García"),
+                         "rasmus_hojlund-garcia")
+
+    def test_hyphenated_cdn_variant_is_tried_first(self):
+        self.assertEqual(photo_urls("Ruben Loftus-Cheek", "1996-01-23"), [
+            "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ruben_loftus-cheek_23011996.png",
+            "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ruben_loftus_cheek_23011996.png",
+        ])
 
     def test_url_uses_gazzetta_date_order(self):
         self.assertEqual(

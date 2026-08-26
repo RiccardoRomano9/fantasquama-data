@@ -87,9 +87,24 @@ def gazzetta_slug(value: object) -> str:
     return re.sub(r"[^a-z0-9]+", "_", text).strip("_")
 
 
+def gazzetta_slug_with_hyphens(value: object) -> str:
+    """CDN spelling used for compound surnames such as Loftus-Cheek."""
+    text = ascii_text(value).lower().replace("'", "").replace("’", "")
+    text = re.sub(r"[^a-z0-9-]+", "_", text)
+    return re.sub(r"-+", "-", text).strip("_-")
+
+
 def photo_url(name: str, birth_date: str) -> str:
     year, month, day = birth_date.split("-")
     return f"{GAZZETTA_ROOT}/{gazzetta_slug(name)}_{day}{month}{year}.png"
+
+
+def photo_urls(name: str, birth_date: str) -> list[str]:
+    """Try the CDN's preserved-hyphen spelling before the legacy normalized one."""
+    year, month, day = birth_date.split("-")
+    slugs = [gazzetta_slug_with_hyphens(name), gazzetta_slug(name)]
+    return [f"{GAZZETTA_ROOT}/{slug}_{day}{month}{year}.png"
+            for slug in dict.fromkeys(slugs)]
 
 
 def provider_id(url: str) -> str:
@@ -102,6 +117,13 @@ def fingerprint(player: dict[str, Any], override: dict[str, Any] | None) -> str:
         "fullName": player.get("fullName"), "team": player.get("team"),
         "role": player.get("role"), "override": override or {},
     }
+    # Invalidate only affected cache entries when the hyphen-preserving URL
+    # strategy changes; the other hundreds of verified portraits stay hot.
+    if any("-" in str(value or "") for value in (
+        player.get("name"), player.get("fullName"),
+        (override or {}).get("fullName"), (override or {}).get("gazzettaName"),
+    )):
+        relevant["hyphenSlugVersion"] = 2
     raw = json.dumps(relevant, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(raw.encode()).hexdigest()[:20]
 
@@ -655,8 +677,8 @@ def resolve_players(players: list[dict[str, Any]], due: list[dict[str, Any]],
             continue
 
         urls = context.get("urls") or [
-            photo_url(name, resolved["birthDate"])
-            for name in candidate_names(player, resolved, override)
+            url for name in candidate_names(player, resolved, override)
+            for url in photo_urls(name, resolved["birthDate"])
         ]
         urls = list(dict.fromkeys(urls))
         attempts: list[dict[str, Any]] = []

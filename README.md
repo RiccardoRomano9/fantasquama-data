@@ -51,6 +51,10 @@ prossimo aggiornamento del modello.
 4. genera le varianti conservative del nome e verifica con `GET` ogni URL
    Gazzetta prima di pubblicarlo.
 
+Per i cognomi composti prova prima lo slug con il trattino conservato (per
+esempio `loftus-cheek`) e poi la variante storica con underscore. Questo evita
+falsi 404 senza rendere meno rigorosa la validazione dell'immagine.
+
 Non viene fatta alcuna query SPARQL e non serve una API key. Se due candidati
 hanno la stessa confidenza, oppure il confronto del nome non supera la soglia,
 il giocatore resta senza URL. L'app mostra in quel caso il fallback locale.
