@@ -27,7 +27,7 @@ from fantasquama.estimate import (
     previous_season,
     score_probabilities,
 )
-from fantasquama.fixtures import attach, fit_difficulty, load_fixtures
+from fantasquama.fixtures import attach, fit_difficulty, load_fixtures, team_factors
 from fantasquama.features import rolling_history
 from fantasquama.ingest import load_archive
 from fantasquama.scoring import EVENTS, Rules, fantavoto
@@ -277,7 +277,11 @@ def run(
         fixtures = load_fixtures(fixtures_root)
         context = attach(archive, fixtures)
         advantage = (context["p_win"] - context["p_lose"]).to_numpy(np.float64)
-        attack, defense = fit_difficulty(fixtures, train_seasons).factors(advantage)
+        market_attack, market_defense = fit_difficulty(fixtures, train_seasons).factors(advantage)
+        squad_attack, squad_defense = team_factors(context)
+        has_market = np.isfinite(advantage)
+        attack = market_attack * np.where(has_market, squad_attack ** 0.20, squad_attack)
+        defense = market_defense * np.where(has_market, squad_defense ** 0.20, squad_defense)
         probabilities = apply_match_context(probabilities, attack, defense)
 
     scores = score_probabilities(probabilities, archive["role"], votes, rules)

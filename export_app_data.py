@@ -31,7 +31,7 @@ from fantasquama.estimate import (
     previous_season,
 )
 from fantasquama.features import rolling_history
-from fantasquama.fixtures import TEAM_ALIASES, attach, fit_difficulty, load_fixtures
+from fantasquama.fixtures import TEAM_ALIASES, attach, fit_difficulty, load_fixtures, team_factors
 from fantasquama.ingest import CANONICAL_COLUMNS, load_archive
 from fantasquama.scoring import EVENTS, Rules, fantavoto
 
@@ -130,7 +130,13 @@ def main() -> None:
 
     context = attach(archive, fixtures)
     advantage = (context["p_win"] - context["p_lose"]).to_numpy(np.float64)
-    attack, defense = fit_difficulty(fixtures, sorted(archive["season"].unique())).factors(advantage)
+    market_attack, market_defense = fit_difficulty(fixtures, sorted(archive["season"].unique())).factors(advantage)
+    squad_attack, squad_defense = team_factors(context)
+    has_market = np.isfinite(advantage)
+    # Le quote restano il segnale principale. Senza quote, il profilo squadra
+    # diventa il contesto della partita; con quote lo rifinisce appena.
+    attack = market_attack * np.where(has_market, squad_attack ** 0.20, squad_attack)
+    defense = market_defense * np.where(has_market, squad_defense ** 0.20, squad_defense)
     probabilities = apply_match_context(probabilities, attack, defense)
 
     # Secondo parere: lo stesso output, imparato dai dati invece che costruito

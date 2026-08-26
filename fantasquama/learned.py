@@ -18,11 +18,12 @@ import pandas as pd
 from sklearn.ensemble import HistGradientBoostingClassifier, HistGradientBoostingRegressor
 
 from fantasquama.features import HISTORY_COLUMNS
+from fantasquama.fixtures import TEAM_CONTEXT_DEFAULTS, TEAM_CONTEXT_FEATURES
 from fantasquama.scoring import EVENTS
 
 # Tutto cio' che si sa prima del fischio d'inizio.
 FIXTURE_FEATURES: tuple[str, ...] = ("home", "p_win", "p_draw", "p_lose", "advantage")
-FEATURES: tuple[str, ...] = (*HISTORY_COLUMNS, *FIXTURE_FEATURES, "role_code")
+FEATURES: tuple[str, ...] = (*HISTORY_COLUMNS, *FIXTURE_FEATURES, *TEAM_CONTEXT_FEATURES, "role_code")
 
 TARGETS: tuple[str, ...] = ("voto", *EVENTS)
 
@@ -34,6 +35,11 @@ def build_features(history: pd.DataFrame, archive: pd.DataFrame, context: pd.Dat
     for name in ("p_win", "p_draw", "p_lose"):
         out[name] = pd.to_numeric(context[name], errors="coerce")
     out["advantage"] = out["p_win"] - out["p_lose"]
+    # Le feature sono facoltative per mantenere leggibili anche vecchi bundle e
+    # piccoli dataset di test; HistGradientBoosting gestisce i NaN nativamente.
+    for name in TEAM_CONTEXT_FEATURES:
+        values = pd.to_numeric(context[name], errors="coerce") if name in context else np.nan
+        out[name] = values.fillna(TEAM_CONTEXT_DEFAULTS[name]) if isinstance(values, pd.Series) else TEAM_CONTEXT_DEFAULTS[name]
     roles = archive["role"].fillna("").astype(str).to_numpy()
     out["role_code"] = pd.Series(
         [{"P": 0, "D": 1, "C": 2, "A": 3}.get(r, -1) for r in roles], index=out.index, dtype="float64"

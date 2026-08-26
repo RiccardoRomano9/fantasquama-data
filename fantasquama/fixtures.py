@@ -42,6 +42,39 @@ FIXTURE_COLUMNS: tuple[str, ...] = (
     "goals_for", "goals_against", "p_win", "p_draw", "p_lose",
 )
 
+# Fotografia della squadra calcolata *prima* di quella giornata. Queste
+# grandezze entrano nel modello appreso; i fattori sintetici in `team_factors`
+# danno al modello a regole un fallback sensato quando le quote non ci sono.
+TEAM_CONTEXT_FEATURES: tuple[str, ...] = (
+    "team_games_before", "team_points_per_game", "team_goal_difference_per_game",
+    "team_goals_for_rate", "team_goals_against_rate", "team_form_points_per_game",
+    "team_home_points_per_game", "team_away_points_per_game", "team_rank_before",
+    "team_schedule_strength",
+    "team_prior_points_per_game", "team_prior_goals_for_rate",
+    "team_prior_goals_against_rate", "team_prior_rank",
+    "opponent_points_per_game", "opponent_goal_difference_per_game",
+    "opponent_goals_for_rate", "opponent_goals_against_rate",
+    "opponent_form_points_per_game", "opponent_rank_before",
+    "opponent_schedule_strength",
+    "opponent_prior_points_per_game", "opponent_prior_goals_for_rate",
+    "opponent_prior_goals_against_rate", "opponent_prior_rank",
+)
+
+
+def _team_default(name: str) -> float:
+    if "rank" in name:
+        return 10.5
+    if "games" in name:
+        return 0.0
+    if "goal_difference" in name:
+        return 0.0
+    if "goals_for" in name or "goals_against" in name:
+        return 1.30
+    return 1.35  # punti e forma: media teorica di una gara equilibrata
+
+
+TEAM_CONTEXT_DEFAULTS: dict[str, float] = {name: _team_default(name) for name in TEAM_CONTEXT_FEATURES}
+
 # Sotto questa quota di accordo fra calendario e archivio la mappatura dei nomi
 # o l'abbinamento delle giornate si e' rotto, e proseguire vorrebbe dire
 # attribuire a meta' campionato l'avversario sbagliato.
@@ -118,6 +151,177 @@ def _load_odds(path: Path) -> dict[tuple[str, str], tuple[float, float, float]]:
     }
 
 
+def team_context(fixtures: pd.DataFrame) -> pd.DataFrame:
+    """Aggiunge situazione e forma squadra note prima di ogni partita.
+
+    Il calendario contiene anche le giornate future, ma ogni cumulato esclude
+    la riga corrente e conta solo risultati conclusi. In questo modo punti,
+    classifica e forma sono utilizzabili nel backtest senza guardare il futuro.
+    """
+    required = set(FIXTURE_COLUMNS)
+    missing = required - set(fixtures.columns)
+    if missing:
+        raise ValueError(f"fixture senza colonne richieste: {sorted(missing)}")
+
+    out = fixtures.copy().sort_values(["season", "team", "gameweek"])
+    keys = [out["season"], out["team"]]
+    gf = pd.to_numeric(out["goals_for"], errors="coerce")
+    ga = pd.to_numeric(out["goals_against"], errors="coerce")
+    finished = gf.notna() & ga.notna()
+    points = pd.Series(np.select([gf > ga, gf == ga], [3.0, 1.0], default=0.0), index=out.index)
+    points = points.where(finished)
+
+    def before(values: pd.Series) -> pd.Series:
+        """Cumulato stagionale esclusa la giornata della riga."""
+        known = values.fillna(0.0)
+        return known.groupby(keys).cumsum() - known
+
+    games = before(finished.astype(float))
+    points_before = before(points)
+    gf_before = before(gf.where(finished))
+    ga_before = before(ga.where(finished))
+    gd_before = gf_before - ga_before
+
+    out["team_games_before"] = games
+    out["team_points_per_game"] = points_before / games.replace(0.0, np.nan)
+    out["team_goal_difference_per_game"] = gd_before / games.replace(0.0, np.nan)
+    out["team_goals_for_rate"] = gf_before / games.replace(0.0, np.nan)
+    out["team_goals_against_rate"] = ga_before / games.replace(0.0, np.nan)
+
+    # Forma su cinque risultati effettivamente conclusi, sempre sfalsata.
+    out["team_form_points_per_game"] = points.groupby(keys, group_keys=False).transform(
+        lambda values: values.shift(1).rolling(5, min_periods=1).mean()
+    )
+
+    home = out["home"].fillna(False).astype(bool)
+    for label, mask in (("home", home), ("away", ~home)):
+        local_games = before((finished & mask).astype(float))
+        local_points = before(points.where(mask))
+        out[f"team_{label}_points_per_game"] = local_points / local_games.replace(0.0, np.nan)
+
+    # Posizione ad apertura della giornata: punti, differenza reti, gol fatti.
+    standings = out[["season", "gameweek", "team"]].copy()
+    standings["points"] = points_before.to_numpy()
+    standings["difference"] = gd_before.to_numpy()
+    standings["goals_for"] = gf_before.to_numpy()
+    standings = standings.sort_values(
+        ["season", "gameweek", "points", "difference", "goals_for", "team"],
+        ascending=[True, True, False, False, False, True],
+    )
+    standings["team_rank_before"] = standings.groupby(["season", "gameweek"]).cumcount() + 1
+    out = out.merge(
+        standings[["season", "gameweek", "team", "team_rank_before"]],
+        on=["season", "gameweek", "team"], how="left", validate="one_to_one",
+    )
+    out.loc[out["team_games_before"] == 0, "team_rank_before"] = np.nan
+
+    # Difficoltà del cammino già percorso: per ogni gara passata conserva la
+    # forza che l'avversaria aveva *prima* di quel fischio d'inizio, poi ne fa
+    # la media. Non usa la sua classifica maturata dopo averla affrontata.
+    opponent_snapshot = out[["season", "gameweek", "team", "team_points_per_game"]].rename(columns={
+        "team": "opponent", "team_points_per_game": "_opponent_points_at_match",
+    })
+    out = out.merge(opponent_snapshot, on=["season", "gameweek", "opponent"], how="left", validate="many_to_one")
+    opponent_strength = out["_opponent_points_at_match"].fillna(1.35)
+    schedule_keys = [out["season"], out["team"]]
+    out["team_schedule_strength"] = opponent_strength.groupby(schedule_keys, group_keys=False).transform(
+        lambda values: values.shift(1).expanding(min_periods=1).mean()
+    )
+    out = out.drop(columns="_opponent_points_at_match")
+
+    out = _attach_previous_season_strength(out, finished, points, gf, ga)
+    return _attach_opponent_context(out)
+
+
+def _attach_previous_season_strength(
+    out: pd.DataFrame, finished: pd.Series, points: pd.Series, gf: pd.Series, ga: pd.Series
+) -> pd.DataFrame:
+    source = out.assign(
+        _finished=finished.to_numpy(float), _points=points.fillna(0.0).to_numpy(),
+        _gf=gf.where(finished).fillna(0.0).to_numpy(), _ga=ga.where(finished).fillna(0.0).to_numpy(),
+    )
+    summary = source.groupby(["season", "team"], as_index=False, observed=True).agg(
+        games=("_finished", "sum"), points=("_points", "sum"),
+        goals_for=("_gf", "sum"), goals_against=("_ga", "sum"),
+    )
+    summary["difference"] = summary["goals_for"] - summary["goals_against"]
+    summary = summary.sort_values(
+        ["season", "points", "difference", "goals_for", "team"],
+        ascending=[True, False, False, False, True],
+    )
+    summary["rank"] = summary.groupby("season").cumcount() + 1
+    summary["season"] = summary["season"].map(_next_season)
+    summary["prior_points_per_game"] = summary["points"] / summary["games"].replace(0.0, np.nan)
+    summary["prior_goals_for_rate"] = summary["goals_for"] / summary["games"].replace(0.0, np.nan)
+    summary["prior_goals_against_rate"] = summary["goals_against"] / summary["games"].replace(0.0, np.nan)
+    summary = summary.rename(columns={"rank": "prior_rank"})
+    return out.merge(
+        summary[["season", "team", "prior_points_per_game", "prior_goals_for_rate", "prior_goals_against_rate", "prior_rank"]],
+        on=["season", "team"], how="left", validate="many_to_one",
+    ).rename(columns={
+        "prior_points_per_game": "team_prior_points_per_game",
+        "prior_goals_for_rate": "team_prior_goals_for_rate",
+        "prior_goals_against_rate": "team_prior_goals_against_rate",
+        "prior_rank": "team_prior_rank",
+    })
+
+
+def _next_season(label: str) -> str:
+    year = int(str(label)[:4]) + 1
+    return f"{year}-{str(year + 1)[2:]}"
+
+
+def _attach_opponent_context(out: pd.DataFrame) -> pd.DataFrame:
+    own = [name for name in TEAM_CONTEXT_FEATURES if name.startswith("team_")]
+    other = out[["season", "gameweek", "team", *own]].rename(columns={
+        "team": "opponent",
+        **{name: name.replace("team_", "opponent_", 1) for name in own},
+    })
+    return out.merge(other, on=["season", "gameweek", "opponent"], how="left", validate="many_to_one")
+
+
+def team_factors(context: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
+    """Fattori squadra per il modello a regole, utili senza quote di mercato.
+
+    Il presente pesa gradualmente (al massimo 70%) e il passato stagione
+    precedente fa da ancora. Così un 3-0 della prima giornata non trasforma da
+    solo una squadra in un super-attacco né un pareggio in una difesa perfetta.
+    """
+    def values(name: str) -> np.ndarray:
+        if name not in context:
+            return np.full(len(context), np.nan)
+        return pd.to_numeric(context[name], errors="coerce").to_numpy(np.float64)
+
+    def blended_rate(now: str, prior: str, games: str, default: float) -> np.ndarray:
+        current = values(now)
+        old = values(prior)
+        count = values(games)
+        weight = np.clip(np.nan_to_num(count, nan=0.0) / 8.0, 0.0, 0.70)
+        anchor = np.where(np.isfinite(old), old, default)
+        return np.where(np.isfinite(current), weight * current + (1.0 - weight) * anchor, anchor)
+
+    own_attack = blended_rate("team_goals_for_rate", "team_prior_goals_for_rate", "team_games_before", 1.30)
+    opponent_defense = blended_rate(
+        "opponent_goals_against_rate", "opponent_prior_goals_against_rate", "opponent_games_before", 1.30
+    )
+    own_defense = blended_rate("team_goals_against_rate", "team_prior_goals_against_rate", "team_games_before", 1.30)
+    opponent_attack = blended_rate(
+        "opponent_goals_for_rate", "opponent_prior_goals_for_rate", "opponent_games_before", 1.30
+    )
+
+    own_points = blended_rate("team_points_per_game", "team_prior_points_per_game", "team_games_before", 1.35)
+    opponent_points = blended_rate(
+        "opponent_points_per_game", "opponent_prior_points_per_game", "opponent_games_before", 1.35
+    )
+    # Gol sono il segnale principale; rendimento in punti aggiunge una piccola
+    # correzione di solidità senza contare due volte la differenza reti.
+    attack = np.sqrt((own_attack / 1.30) * (opponent_defense / 1.30))
+    attack *= np.clip((own_points / 1.35) ** 0.12, 0.90, 1.10)
+    defense = np.sqrt((own_defense / 1.30) * (opponent_attack / 1.30))
+    defense *= np.clip((opponent_points / 1.35) ** 0.10, 0.90, 1.10)
+    return np.clip(attack, 0.65, 1.55), np.clip(defense, 0.65, 1.55)
+
+
 def agreement(fixtures: pd.DataFrame, archive: pd.DataFrame) -> float:
     """Quota di righe dove i gol subiti dell'archivio confermano il calendario.
 
@@ -152,9 +356,10 @@ def attach(archive: pd.DataFrame, fixtures: pd.DataFrame) -> pd.DataFrame:
             f"(minimo {MIN_AGREEMENT:.0%}). Controllare TEAM_ALIASES: attribuire "
             f"l'avversario sbagliato falserebbe ogni consiglio senza dare segnale."
         )
-    colonne = ["season", "team", "gameweek", "opponent", "home", "p_win", "p_draw", "p_lose"]
+    enriched = team_context(fixtures)
+    colonne = ["season", "team", "gameweek", "opponent", "home", "p_win", "p_draw", "p_lose", *TEAM_CONTEXT_FEATURES]
     merged = archive[["season", "team", "gameweek"]].merge(
-        fixtures[colonne], on=["season", "team", "gameweek"], how="left"
+        enriched[colonne], on=["season", "team", "gameweek"], how="left"
     )
     # il merge azzera l'indice: lo rimettiamo posizionalmente, come ovunque
     merged.index = archive.index
