@@ -1846,32 +1846,26 @@
       ]
     },
     "7351": {
-      "inputHash": "dbddd38e155ad768f475",
+      "inputHash": "2e24118ca391b278359b",
       "status": "valid",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "fullName": "César Falletti",
-      "birthDate": "1992-12-02",
-      "wikidataID": "Q2672517",
-      "wikipediaTitle": "César Falletti",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-08-26T16:22:27Z",
+      "fullName": "Alisson de Almeida Santos",
       "attempts": [
         {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/cesar_falletti_02121992.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/cesar_alejandro_falletti_dos_santos_02121992.png",
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/alisson_de_almeida_santos_27092002.png",
           "status": "valid",
           "detail": null
         }
       ],
-      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/cesar_alejandro_falletti_dos_santos_02121992.png",
-      "photoProviderID": "gazzetta:cesar_alejandro_falletti_dos_santos_02121992",
+      "note": "Il dataset EA FC lo confondeva con César Falletti; il calciatore del Napoli è Alisson Santos",
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/alisson_de_almeida_santos_27092002.png",
+      "photoProviderID": "gazzetta:alisson_de_almeida_santos_27092002",
       "image": {
-        "sha256": "2aa21431f0d75033ab242972b69d86b0e15f884ae0e6a03e91f9409f27994dad",
-        "width": 600,
-        "height": 600,
-        "bytes": 500772,
+        "sha256": "294cf655680176e5c81bd19b3dadc95e100e3ec822aa7f76426b0572c848166d",
+        "width": 180,
+        "height": 180,
+        "bytes": 15340,
         "contentType": "image/png"
       }
     },

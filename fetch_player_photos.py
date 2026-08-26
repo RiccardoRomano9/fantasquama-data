@@ -146,7 +146,11 @@ def provider_id(url: str) -> str:
 def fingerprint(player: dict[str, Any], override: dict[str, Any] | None) -> str:
     relevant = {
         "id": str(player.get("id", "")), "name": player.get("name"),
-        "fullName": player.get("fullName"), "team": player.get("team"),
+        # Un nome imposto manualmente è l'identità canonica: un valore errato
+        # proveniente dal dataset automatico non deve invalidare la cache a
+        # ogni export né riaprire lo stesso falso abbinamento.
+        "fullName": (override or {}).get("fullName") or player.get("fullName"),
+        "team": player.get("team"),
         "role": player.get("role"), "override": override or {},
     }
     # Invalidate only affected cache entries when the hyphen-preserving URL
@@ -811,10 +815,13 @@ def apply_cache(players: list[dict[str, Any]], cache: dict[str, Any],
         pid = str(player["id"])
         entry = cache["players"].get(pid)
         matches = bool(entry and entry.get("inputHash") == fingerprint(player, overrides.get(pid)))
-        if matches and entry.get("fullName") and not player.get("fullName"):
-            player["fullName"] = entry["fullName"]
-            # Adding the discovered name changes the input by design. Advance
-            # the fingerprint with it so the next run is still a cache hit.
+        forced_name = (overrides.get(pid) or {}).get("fullName")
+        discovered_name = entry.get("fullName") if not player.get("fullName") else None
+        canonical_name = forced_name or discovered_name
+        if matches and canonical_name and player.get("fullName") != canonical_name:
+            player["fullName"] = canonical_name
+            # Adding or correcting the canonical name changes the input by
+            # design. Advance the fingerprint so the next run remains a hit.
             entry["inputHash"] = fingerprint(player, overrides.get(pid))
         if matches and entry.get("status") == "valid":
             player["photoURL"] = entry["photoURL"]

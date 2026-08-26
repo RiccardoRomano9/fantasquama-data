@@ -169,6 +169,24 @@ class CacheAndOverridesTests(unittest.TestCase):
         self.assertEqual(player["fullName"], "Mario Rossi")
         self.assertTrue(fresh(entry, entry["inputHash"], now, 90, False))
 
+    def test_manual_name_replaces_an_incorrect_existing_match(self):
+        now = datetime(2026, 8, 26, tzinfo=timezone.utc)
+        player = {"id": "7351", "name": "Santos A.",
+                  "fullName": "César Alejandro Falletti dos Santos",
+                  "team": "Napoli", "role": "A"}
+        override = {"fullName": "Alisson de Almeida Santos",
+                    "photoURL": "https://example.test/alisson.png"}
+        entry = cache_entry(
+            player, override, "valid", now, fullName="Alisson de Almeida Santos",
+            photoURL="https://example.test/alisson.png",
+            photoProviderID="gazzetta:alisson",
+        )
+        cache = {"version": 1, "players": {"7351": entry}}
+
+        self.assertEqual(apply_cache([player], cache, {"7351": override}), (1, 0))
+        self.assertEqual(player["fullName"], "Alisson de Almeida Santos")
+        self.assertTrue(fresh(entry, entry["inputHash"], now, 90, False))
+
     def test_old_override_id_is_validated_then_ignored(self):
         overrides, _ = validate_overrides(
             {"version": 1, "players": {"999": {"skip": True}}}, {"1"}
