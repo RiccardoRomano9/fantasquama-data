@@ -32,7 +32,8 @@ prossimo aggiornamento del modello.
 ## Fonti
 
 - Probabili formazioni: [sosfanta.com](https://www.sosfanta.com)
-- Quote 1X2 pre-match/live: [The Odds API](https://the-odds-api.com)
+- Quote 1X2, player props e mercati partita pre-match/live:
+  [The Odds API](https://the-odds-api.com)
 - Calendario e stemmi: [football-data.org](https://www.football-data.org)
 - Ruoli e quotazioni: listone ufficiale di Fantacalcio.it
 - Identità e date di nascita: Wikipedia in italiano e Wikidata
@@ -198,6 +199,26 @@ gh api -X PUT repos/RiccardoRomano9/fantasquama-data/actions/permissions/workflo
 gh workflow run aggiorna
 gh run watch
 ```
+
+## Quote e piano gratuito
+
+Il lavoro schedulato separa tre ritmi diversi:
+
+- le probabili formazioni si aggiornano spesso, soprattutto nei giorni di gara;
+- le quote 1X2 si riscaricano al massimo una volta ogni 24 ore;
+- player props e mercati avanzati si provano solo in due finestre per giornata:
+  tra quattro e due giorni dal primo calcio d'inizio, e poi nelle ultime trenta
+  ore prima della prima partita.
+
+Questa scansione fa trovare al modello i segnali bookmaker già pronti quando si
+studia la formazione, ma impedisce ai cron ravvicinati del weekend di consumare
+il piano gratuito. I props usati sono `player_goal_scorer_anytime`,
+`player_assists`, `player_to_receive_card` e `btts`; vengono salvati dentro
+`serieA.json` e riusati finché la giornata resta la stessa.
+
+Il budget ha anche un tetto interno: i props si fermano a 420 crediti stimati
+nel mese, lasciando margine ai 31 crediti circa delle quote 1X2 giornaliere
+rispetto ai 500 crediti mensili del piano free.
 
 Il passo 3 è l'unico che si dimentica: senza, il lavoro gira, produce il file
 e poi fallisce al `git push`.
