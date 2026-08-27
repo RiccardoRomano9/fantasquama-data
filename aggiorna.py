@@ -599,7 +599,7 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
         return None
     now = now or datetime.now(timezone.utc)
     payload_consigli = _payload_consigli(base)
-    if not payload_consigli["top3"] or len(payload_consigli["xi"]) < 11:
+    if any(len(players) < 3 for players in payload_consigli["top3"].values()) or len(payload_consigli["xi"]) < 11:
         print("  consigli insufficienti per generare la spiegazione Coach Squama")
         return None
 
