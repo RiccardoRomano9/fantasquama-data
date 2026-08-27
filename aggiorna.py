@@ -28,6 +28,11 @@ from fantasquama import fixtures
 from fantasquama import lineups
 from fantasquama.scoring import EVENTS
 
+ODDS_STALE_DISTANT_HOURS = 24
+ODDS_STALE_NEAR_HOURS = 12
+ODDS_STALE_MATCHDAY_HOURS = 3
+ODDS_STALE_LIVE_HOURS = 2
+
 
 def scarica(
     script: str, destinazione: Path, obbligatorio: bool = True, extra: list[str] | None = None
@@ -43,8 +48,11 @@ def scarica(
     return destinazione
 
 
-def aggiorna(base: dict, probabili: Path, quote: Path | None = None) -> dict:
+def aggiorna(
+    base: dict, probabili: Path, quote: Path | None = None, now: datetime | None = None
+) -> dict:
     """Il file base con la titolarita' rifatta secondo le probabili."""
+    now = now or datetime.now(timezone.utc)
     giocatori = base["players"]
     rosa = pd.DataFrame({
         "listone_id": [p["id"] for p in giocatori],
@@ -104,8 +112,10 @@ def aggiorna(base: dict, probabili: Path, quote: Path | None = None) -> dict:
     if quote is not None:
         aggiornate = aggiorna_quote(base, quote)
         if aggiornate:
+            base["oddsUpdatedAt"] = now.isoformat(timespec="seconds")
+            base["oddsSource"] = "the-odds-api"
             quote_note = f" Probabilita' partita aggiornate con le quote 1X2 ({aggiornate} partite)."
-    base["generatedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    base["generatedAt"] = now.isoformat(timespec="seconds")
     base["note"] = (
         base.get("baseNote", base.get("note", ""))
         + " Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili "
@@ -113,6 +123,40 @@ def aggiorna(base: dict, probabili: Path, quote: Path | None = None) -> dict:
         + quote_note
     )
     return base
+
+
+def riusa_quote(base: dict, precedente: dict | None) -> int:
+    """Porta avanti le quote gia' scaricate per la stessa giornata."""
+    if not precedente:
+        return 0
+    if base.get("season") != precedente.get("season") or base.get("gameweek") != precedente.get("gameweek"):
+        return 0
+
+    per_id = {
+        player.get("id"): player
+        for player in precedente.get("players", [])
+        if player.get("id") is not None
+    }
+    riusate = 0
+    for player in base["players"]:
+        old = per_id.get(player.get("id"))
+        if not old:
+            continue
+        stessa_partita = (
+            player.get("team") == old.get("team")
+            and player.get("opponent") == old.get("opponent")
+            and player.get("home") == old.get("home")
+        )
+        if not stessa_partita or old.get("winProbability") is None:
+            continue
+        player["winProbability"] = old.get("winProbability")
+        player["drawProbability"] = old.get("drawProbability")
+        riusate += 1
+
+    if riusate:
+        base["oddsUpdatedAt"] = precedente.get("oddsUpdatedAt") or precedente.get("generatedAt")
+        base["oddsSource"] = precedente.get("oddsSource", "the-odds-api")
+    return riusate
 
 
 def aggiorna_quote(base: dict, quote: Path) -> int:
@@ -141,6 +185,50 @@ def aggiorna_quote(base: dict, quote: Path) -> int:
     return len(updated_matches)
 
 
+def deve_scaricare_quote(base: dict, now: datetime | None = None) -> bool:
+    now = now or datetime.now(timezone.utc)
+    if not base.get("oddsUpdatedAt"):
+        return True
+    if not any(p.get("winProbability") is not None for p in base.get("players", [])):
+        return True
+
+    updated = _parse_time(base.get("oddsUpdatedAt"))
+    if updated is None:
+        return True
+    hours = (now - updated).total_seconds() / 3600
+    return hours >= _odds_stale_after_hours(base, now)
+
+
+def _odds_stale_after_hours(base: dict, now: datetime) -> int:
+    matches = [m for m in base.get("matches", []) if m.get("matchday") == base.get("gameweek")]
+    if any(m.get("status") in {"IN_PLAY", "PAUSED", "LIVE"} for m in matches):
+        return ODDS_STALE_LIVE_HOURS
+
+    upcoming = [
+        date for date in (_parse_time(m.get("date")) for m in matches)
+        if date is not None and date >= now
+    ]
+    if not upcoming:
+        return sys.maxsize
+
+    next_match_hours = (min(upcoming) - now).total_seconds() / 3600
+    if next_match_hours <= 12:
+        return ODDS_STALE_MATCHDAY_HOURS
+    if next_match_hours <= 72:
+        return ODDS_STALE_NEAR_HOURS
+    return ODDS_STALE_DISTANT_HOURS
+
+
+def _parse_time(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc)
+
+
 def main() -> None:
     qui = Path(__file__).resolve().parent
     parser = argparse.ArgumentParser(description=__doc__)
@@ -150,11 +238,8 @@ def main() -> None:
     parser.add_argument("--out", type=Path, default=qui / "serieA.json")
     args = parser.parse_args()
 
+    now = datetime.now(timezone.utc)
     probabili = args.probabili or scarica("fetch_lineups.py", qui / "probabili.json")
-    quote = args.odds or scarica(
-        "fetch_odds.py", qui / "odds-current.csv", obbligatorio=False,
-        extra=["--base", str(args.base)],
-    )
     # Le notizie non sono obbligatorie: un giornale che non risponde non deve
     # poter impedire di aggiornare chi gioca, che e' il motivo per cui l'app
     # esiste. Se saltano, restano quelle del giro precedente.
@@ -162,7 +247,21 @@ def main() -> None:
 
     base = json.loads(args.base.read_text())
     base.setdefault("baseNote", base.get("note", ""))
-    aggiornato = aggiorna(base, probabili, quote)
+    precedente = json.loads(args.out.read_text()) if args.out.exists() else None
+    riusate = riusa_quote(base, precedente)
+    if riusate:
+        print(f"  quote precedenti riusate per {riusate} giocatori")
+    quote = args.odds
+    if quote is None:
+        if deve_scaricare_quote(base, now):
+            quote = scarica(
+                "fetch_odds.py", qui / "odds-current.csv", obbligatorio=False,
+                extra=["--base", str(args.base)],
+            )
+        else:
+            print(f"  quote ancora fresche ({base.get('oddsUpdatedAt')}): niente chiamata a The Odds API")
+
+    aggiornato = aggiorna(base, probabili, quote, now)
     if notizie is not None:
         aggiornato["news"] = json.loads(notizie.read_text())
     args.out.write_text(json.dumps(aggiornato, ensure_ascii=False, indent=1))
