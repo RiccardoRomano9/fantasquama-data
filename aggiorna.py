@@ -17,17 +17,20 @@ il modo piu' sicuro di farle divergere proprio mentre nessuno guarda.
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib import error, request
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 
 from fantasquama import fixtures
 from fantasquama import lineups
 from fantasquama import roster
-from fantasquama.scoring import EVENTS
+from fantasquama.scoring import EVENTS, Rules, expected_points
 
 ODDS_STALE_HOURS = 24
 TEAM_SCALED_EVENTS = ("gf", "rf", "ass")
@@ -42,6 +45,22 @@ PROP_MONTHLY_CREDIT_CAP = 420
 PROP_EARLY_MIN_HOURS = 48
 PROP_EARLY_MAX_HOURS = 96
 PROP_DAY_BEFORE_MAX_HOURS = 30
+ITALY_TZ = ZoneInfo("Europe/Rome")
+DEEPSEEK_ENV_KEY = "DEEPSEEK_API_KEY"
+DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
+DEEPSEEK_MODEL = "deepseek-chat"
+TIPS_ROLE_LABELS = {
+    "P": "POR",
+    "D": "DIF",
+    "C": "CEN",
+    "A": "ATT",
+}
+TIPS_XI_SHAPE = {
+    "P": 1,
+    "D": 3,
+    "C": 4,
+    "A": 3,
+}
 
 
 def scarica(
@@ -153,6 +172,7 @@ def riusa_quote(base: dict, precedente: dict | None) -> int:
         return 0
     if base.get("season") != precedente.get("season") or base.get("gameweek") != precedente.get("gameweek"):
         return 0
+    _riusa_spiegazione_consigli(base, precedente)
     if _base_has_fresher_odds(base, precedente):
         _riusa_prop_quote(base, precedente)
         return 0
@@ -192,6 +212,12 @@ def _riusa_prop_quote(base: dict, precedente: dict) -> None:
     ):
         if campo in precedente:
             base[campo] = precedente[campo]
+
+
+def _riusa_spiegazione_consigli(base: dict, precedente: dict) -> None:
+    spiegazione = precedente.get("tipsExplanation")
+    if isinstance(spiegazione, dict):
+        base["tipsExplanation"] = spiegazione
 
 
 def _base_has_fresher_odds(base: dict, precedente: dict) -> bool:
@@ -541,6 +567,204 @@ def _prop_credit_estimate(base: dict, now: datetime) -> int:
     return len(upcoming) * len(PROP_ODDS_MARKETS)
 
 
+def deve_generare_spiegazione_consigli(base: dict, now: datetime | None = None) -> bool:
+    """True solo dopo le 10 italiane del giorno della prima partita."""
+    now = now or datetime.now(timezone.utc)
+    esistente = base.get("tipsExplanation")
+    if (
+        isinstance(esistente, dict)
+        and esistente.get("season") == base.get("season")
+        and esistente.get("gameweek") == base.get("gameweek")
+        and str(esistente.get("text") or "").strip()
+    ):
+        return False
+
+    kickoff = _first_match(base)
+    if kickoff is None:
+        return False
+    local_now = now.astimezone(ITALY_TZ)
+    local_kickoff = kickoff.astimezone(ITALY_TZ)
+    if local_now.date() != local_kickoff.date():
+        return False
+    if local_now.hour < 10:
+        return False
+    return now < kickoff
+
+
+def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None = None) -> dict | None:
+    """Chiede a DeepSeek una nota editoriale compatta, poi la cachea nel JSON."""
+    api_key = api_key.strip()
+    if not api_key:
+        print(f"  {DEEPSEEK_ENV_KEY} assente: niente spiegazione Coach Squama")
+        return None
+    now = now or datetime.now(timezone.utc)
+    payload_consigli = _payload_consigli(base)
+    if not payload_consigli["top3"] or len(payload_consigli["xi"]) < 11:
+        print("  consigli insufficienti per generare la spiegazione Coach Squama")
+        return None
+
+    richiesta = {
+        "model": DEEPSEEK_MODEL,
+        "temperature": 0.25,
+        "max_tokens": 900,
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "Sei Coach Squama, assistente fantacalcio italiano. "
+                    "Scrivi in modo concreto, brillante e prudente: niente quote promozionali, "
+                    "niente inviti a scommettere, solo motivazioni tecniche per schierare giocatori."
+                ),
+            },
+            {
+                "role": "user",
+                "content": (
+                    "Genera la spiegazione dei consigli della giornata. "
+                    "Usa massimo 260 parole. Struttura: un paragrafo sulle top 3 per ruolo "
+                    "e un paragrafo sugli 11 Squamati in modulo 3-4-3. "
+                    "Cita i nomi piu' importanti e spiega perche' emergono usando punti attesi, "
+                    "probabilita' voto, matchup e segnali bookmaker quando disponibili. "
+                    "Non inventare infortuni o notizie non presenti.\n\n"
+                    + json.dumps(payload_consigli, ensure_ascii=False, separators=(",", ":"))
+                ),
+            },
+        ],
+    }
+    body = json.dumps(richiesta).encode("utf-8")
+    req = request.Request(
+        DEEPSEEK_ENDPOINT,
+        data=body,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with request.urlopen(req, timeout=25) as response:
+            data = json.loads(response.read().decode("utf-8"))
+    except (OSError, error.HTTPError, json.JSONDecodeError) as exc:
+        print(f"  DeepSeek non ha generato la spiegazione: {exc}")
+        return None
+
+    text = (
+        data.get("choices", [{}])[0]
+        .get("message", {})
+        .get("content", "")
+        .strip()
+    )
+    if not text:
+        print("  DeepSeek ha risposto senza testo: spiegazione non salvata")
+        return None
+    return {
+        "version": 1,
+        "season": base.get("season"),
+        "gameweek": base.get("gameweek"),
+        "generatedAt": now.isoformat(timespec="seconds"),
+        "source": "deepseek",
+        "model": DEEPSEEK_MODEL,
+        "text": text,
+    }
+
+
+def _payload_consigli(base: dict) -> dict:
+    top3 = {
+        label: [_player_tip_payload(player) for player in _migliori(base, role, limit=3)]
+        for role, label in TIPS_ROLE_LABELS.items()
+    }
+    xi: list[dict] = []
+    for role, limit in TIPS_XI_SHAPE.items():
+        xi.extend(_player_tip_payload(player) for player in _migliori(base, role, limit=limit))
+    return {
+        "season": base.get("season"),
+        "gameweek": base.get("gameweek"),
+        "rules": "Classic",
+        "top3": top3,
+        "xiModule": "3-4-3",
+        "xi": xi,
+    }
+
+
+def _migliori(base: dict, role: str, limit: int) -> list[dict]:
+    candidates = [
+        player for player in base.get("players", [])
+        if player.get("role") == role
+        and player.get("lineupSlot") != "indisponibile"
+        and _expected_play_probability(player) >= 0.35
+    ]
+    return sorted(candidates, key=lambda p: (-_expected_player_points(p), str(p.get("name", ""))))[:limit]
+
+
+def _player_tip_payload(player: dict) -> dict:
+    props = player.get("marketProps") if isinstance(player.get("marketProps"), dict) else {}
+    return {
+        "name": player.get("name"),
+        "team": player.get("team"),
+        "role": player.get("role"),
+        "opponent": player.get("opponent"),
+        "home": player.get("home"),
+        "expectedPoints": round(_expected_player_points(player), 2),
+        "playProbability": round(_expected_play_probability(player), 2),
+        "winProbability": player.get("winProbability"),
+        "drawProbability": player.get("drawProbability"),
+        "lineupSlot": player.get("lineupSlot"),
+        "startingProbability": player.get("startingProbability"),
+        "marketProps": {
+            key: round(float(value), 3)
+            for key, value in props.items()
+            if _as_float(value) is not None
+        },
+    }
+
+
+def _expected_player_points(player: dict) -> float:
+    rules = Rules()
+    hand = expected_points(
+        float(player.get("estimatedVote") or 0.0),
+        _events_for_role(player.get("events") or {}, str(player.get("role") or "")),
+        rules,
+        min(max(float(player.get("playProbability") or 0.0), 0.0), 1.0),
+    )
+    if player.get("learnedVote") is None or player.get("learnedPlayProbability") is None:
+        return hand
+    learned_events = player.get("learnedEvents")
+    if not isinstance(learned_events, dict):
+        return hand
+    learned = expected_points(
+        float(player.get("learnedVote") or 0.0),
+        _events_for_role(learned_events, str(player.get("role") or "")),
+        rules,
+        min(max(float(player.get("learnedPlayProbability") or 0.0), 0.0), 1.0),
+    )
+    return (hand + learned) / 2
+
+
+def _expected_play_probability(player: dict) -> float:
+    play = float(player.get("playProbability") or 0.0)
+    learned = player.get("learnedPlayProbability")
+    if learned is None:
+        return play
+    return (play + float(learned or 0.0)) / 2
+
+
+def _events_for_role(events: dict, role: str) -> dict:
+    out = {key: float(events.get(key) or 0.0) for key in EVENTS}
+    if role != "P":
+        out["rp"] = 0.0
+        out["gs"] = 0.0
+        out["cs"] = 0.0
+    return out
+
+
+def _first_match(base: dict) -> datetime | None:
+    matches = [m for m in base.get("matches", []) if m.get("matchday") == base.get("gameweek")]
+    dates = [
+        date for date in (_parse_time(m.get("date")) for m in matches)
+        if date is not None
+    ]
+    return min(dates) if dates else None
+
+
 def _parse_time(value: str | None) -> datetime | None:
     if not value:
         return None
@@ -609,6 +833,15 @@ def main() -> None:
     aggiornato = aggiorna(base, probabili, quote, prop_quote, now)
     if notizie is not None:
         aggiornato["news"] = json.loads(notizie.read_text())
+    if deve_generare_spiegazione_consigli(aggiornato, now):
+        spiegazione = genera_spiegazione_consigli(
+            aggiornato, os.environ.get(DEEPSEEK_ENV_KEY, ""), now
+        )
+        if spiegazione is not None:
+            aggiornato["tipsExplanation"] = spiegazione
+            print("  spiegazione Coach Squama generata e salvata")
+    elif not aggiornato.get("tipsExplanation"):
+        print("  spiegazione Coach Squama fuori finestra: nessuna chiamata a DeepSeek")
     args.out.write_text(json.dumps(aggiornato, ensure_ascii=False, indent=1))
     print(f"{args.out}: {len(aggiornato['players'])} giocatori, "
           f"{len(aggiornato.get('news', []))} notizie, {args.out.stat().st_size:,} byte")

@@ -234,6 +234,23 @@ Il lavoro riusa le quote già pubblicate per la stessa giornata e richiama
 The Odds API al massimo una volta ogni 24 ore. Il job può quindi continuare a
 girare spesso per le probabili senza consumare crediti odds a ogni passaggio.
 
+## Spiegazione Coach Squama
+
+La scheda Consigli puo' ricevere una nota generata da DeepSeek. Anche questa
+viene prodotta dal job pubblico, non dall'app: il telefono legge solo il testo
+gia' salvato in `serieA.json`.
+
+La chiamata parte una volta sola per giornata, solo nel giorno della prima
+partita, dopo le 10:00 italiane e prima del calcio d'inizio. Se il campo
+`tipsExplanation` esiste gia' per quella stagione/giornata, il job non richiama
+DeepSeek e riusa il testo. Se manca la secret, salta la generazione.
+
+Per abilitarla:
+
+```bash
+gh secret set DEEPSEEK_API_KEY --repo RiccardoRomano9/fantasquama-data
+```
+
 Da lì in poi non serve toccarlo per le probabili. Per automatizzare anche i
 voti bisogna configurare una sola volta l'archivio privato e la sua chiave di
 deploy: le istruzioni sono nella guida del repository principale, perché la

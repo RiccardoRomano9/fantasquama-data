@@ -7,6 +7,11 @@ name: aggiorna
 
 on:
   schedule:
+    # DeepSeek genera la nota dei Consigli solo se e' il giorno della prima
+    # partita e sono passate le 10 italiane. Due orari coprono ora legale e
+    # solare senza sprecare token: se la nota esiste gia', non richiama nulla.
+    - cron: "5 8 * * *"
+    - cron: "5 9 * * *"
     # In settimana le probabili si muovono poco: due ore bastano.
     - cron: "17 */2 * * *"
     # Nei giorni di gara si muovono fino a un'ora dal calcio d'inizio, ed e'
@@ -43,6 +48,7 @@ jobs:
       - name: Scarica le probabili e aggiorna
         env:
           THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python aggiorna.py
 
       - name: Committa, ma solo se e' cambiato qualcosa
