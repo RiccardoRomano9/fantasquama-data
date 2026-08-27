@@ -35,6 +35,26 @@ TEAM_ALIASES: dict[str, str] = {
     "AC Pisa": "Pisa",
     # football-data.co.uk -> archivio
     "Como": "Como 1907",
+    # The Odds API -> archivio
+    "AC Milan": "Milan",
+    "Inter Milan": "Inter",
+    "Internazionale": "Inter",
+    "SSC Napoli": "Napoli",
+    "AS Roma": "Roma",
+    "Atalanta BC": "Atalanta",
+    "Bologna FC": "Bologna",
+    "SS Lazio": "Lazio",
+    "US Lecce": "Lecce",
+    "Torino FC": "Torino",
+    "Hellas Verona": "Verona",
+    "Genoa CFC": "Genoa",
+    "Parma Calcio 1913": "Parma",
+    "Cagliari Calcio": "Cagliari",
+    "ACF Fiorentina": "Fiorentina",
+    "US Sassuolo": "Sassuolo",
+    "Udinese Calcio": "Udinese",
+    "Pisa SC": "Pisa",
+    "AC Monza": "Monza",
 }
 
 FIXTURE_COLUMNS: tuple[str, ...] = (

@@ -24,14 +24,17 @@ from pathlib import Path
 
 import pandas as pd
 
+from fantasquama import fixtures
 from fantasquama import lineups
 from fantasquama.scoring import EVENTS
 
 
-def scarica(script: str, destinazione: Path, obbligatorio: bool = True) -> Path | None:
+def scarica(
+    script: str, destinazione: Path, obbligatorio: bool = True, extra: list[str] | None = None
+) -> Path | None:
     """Esegue uno degli `fetch_*` che stanno accanto a questo file."""
     percorso = Path(__file__).resolve().parent / script
-    esito = subprocess.run([sys.executable, str(percorso), "-o", str(destinazione)])
+    esito = subprocess.run([sys.executable, str(percorso), "-o", str(destinazione), *(extra or [])])
     if esito.returncode != 0:
         if obbligatorio:
             raise SystemExit(f"{script} non e' riuscito: nessun aggiornamento")
@@ -40,7 +43,7 @@ def scarica(script: str, destinazione: Path, obbligatorio: bool = True) -> Path 
     return destinazione
 
 
-def aggiorna(base: dict, probabili: Path) -> dict:
+def aggiorna(base: dict, probabili: Path, quote: Path | None = None) -> dict:
     """Il file base con la titolarita' rifatta secondo le probabili."""
     giocatori = base["players"]
     rosa = pd.DataFrame({
@@ -97,13 +100,45 @@ def aggiorna(base: dict, probabili: Path) -> dict:
         }
         for r in squadre.itertuples()
     ]
+    quote_note = ""
+    if quote is not None:
+        aggiornate = aggiorna_quote(base, quote)
+        if aggiornate:
+            quote_note = f" Probabilita' partita aggiornate con le quote 1X2 ({aggiornate} partite)."
     base["generatedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     base["note"] = (
         base.get("baseNote", base.get("note", ""))
         + " Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili "
         + "formazioni del momento."
+        + quote_note
     )
     return base
+
+
+def aggiorna_quote(base: dict, quote: Path) -> int:
+    """Aggiorna le probabilita' partita dei giocatori dal CSV quote."""
+    odds = fixtures._load_odds(quote)
+    updated_matches: set[tuple[str, str]] = set()
+
+    for player in base["players"]:
+        team = fixtures._canonical(player.get("team", ""))
+        opponent = fixtures._canonical(player.get("opponent", ""))
+        if not opponent:
+            continue
+        if player.get("home") is True:
+            key = (team, opponent)
+            values = odds.get(key)
+            win_index = 0
+        else:
+            key = (opponent, team)
+            values = odds.get(key)
+            win_index = 2
+        if values is None:
+            continue
+        player["winProbability"] = round(float(values[win_index]), 3)
+        player["drawProbability"] = round(float(values[1]), 3)
+        updated_matches.add(key)
+    return len(updated_matches)
 
 
 def main() -> None:
@@ -111,10 +146,15 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base", type=Path, default=qui / "serieA-base.json")
     parser.add_argument("--probabili", type=Path, help="un file gia' scaricato")
+    parser.add_argument("--odds", type=Path, help="un CSV quote gia' scaricato")
     parser.add_argument("--out", type=Path, default=qui / "serieA.json")
     args = parser.parse_args()
 
     probabili = args.probabili or scarica("fetch_lineups.py", qui / "probabili.json")
+    quote = args.odds or scarica(
+        "fetch_odds.py", qui / "odds-current.csv", obbligatorio=False,
+        extra=["--base", str(args.base)],
+    )
     # Le notizie non sono obbligatorie: un giornale che non risponde non deve
     # poter impedire di aggiornare chi gioca, che e' il motivo per cui l'app
     # esiste. Se saltano, restano quelle del giro precedente.
@@ -122,7 +162,7 @@ def main() -> None:
 
     base = json.loads(args.base.read_text())
     base.setdefault("baseNote", base.get("note", ""))
-    aggiornato = aggiorna(base, probabili)
+    aggiornato = aggiorna(base, probabili, quote)
     if notizie is not None:
         aggiornato["news"] = json.loads(notizie.read_text())
     args.out.write_text(json.dumps(aggiornato, ensure_ascii=False, indent=1))

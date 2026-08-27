@@ -32,6 +32,7 @@ prossimo aggiornamento del modello.
 ## Fonti
 
 - Probabili formazioni: [sosfanta.com](https://www.sosfanta.com)
+- Quote 1X2 pre-match/live: [The Odds API](https://the-odds-api.com)
 - Calendario e stemmi: [football-data.org](https://www.football-data.org)
 - Ruoli e quotazioni: listone ufficiale di Fantacalcio.it
 - Identità e date di nascita: Wikipedia in italiano e Wikidata
@@ -200,6 +201,13 @@ gh run watch
 
 Il passo 3 è l'unico che si dimentica: senza, il lavoro gira, produce il file
 e poi fallisce al `git push`.
+
+Per aggiornare anche le probabilità ricavate dalle quote, aggiungi la chiave di
+The Odds API come secret del repo pubblico:
+
+```bash
+gh secret set THE_ODDS_API_KEY --repo RiccardoRomano9/fantasquama-data
+```
 
 Da lì in poi non serve toccarlo per le probabili. Per automatizzare anche i
 voti bisogna configurare una sola volta l'archivio privato e la sua chiave di

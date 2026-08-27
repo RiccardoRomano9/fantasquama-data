@@ -41,6 +41,8 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Scarica le probabili e aggiorna
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
         run: python aggiorna.py
 
       - name: Committa, ma solo se e' cambiato qualcosa
