@@ -28,10 +28,8 @@ from fantasquama import fixtures
 from fantasquama import lineups
 from fantasquama.scoring import EVENTS
 
-ODDS_STALE_DISTANT_HOURS = 24
-ODDS_STALE_NEAR_HOURS = 12
-ODDS_STALE_MATCHDAY_HOURS = 3
-ODDS_STALE_LIVE_HOURS = 2
+ODDS_STALE_HOURS = 24
+TEAM_SCALED_EVENTS = ("gf", "rf", "ass")
 
 
 def scarica(
@@ -115,6 +113,9 @@ def aggiorna(
             base["oddsUpdatedAt"] = now.isoformat(timespec="seconds")
             base["oddsSource"] = "the-odds-api"
             quote_note = f" Probabilita' partita aggiornate con le quote 1X2 ({aggiornate} partite)."
+    contestualizzati = applica_contesto_quote(base)
+    if contestualizzati:
+        print(f"  quote applicate alle probabilita' evento di {contestualizzati} giocatori")
     base["generatedAt"] = now.isoformat(timespec="seconds")
     base["note"] = (
         base.get("baseNote", base.get("note", ""))
@@ -130,6 +131,8 @@ def riusa_quote(base: dict, precedente: dict | None) -> int:
     if not precedente:
         return 0
     if base.get("season") != precedente.get("season") or base.get("gameweek") != precedente.get("gameweek"):
+        return 0
+    if _base_has_fresher_odds(base, precedente):
         return 0
 
     per_id = {
@@ -159,6 +162,16 @@ def riusa_quote(base: dict, precedente: dict | None) -> int:
     return riusate
 
 
+def _base_has_fresher_odds(base: dict, precedente: dict) -> bool:
+    if not any(player.get("winProbability") is not None for player in base.get("players", [])):
+        return False
+    base_updated = _parse_time(base.get("oddsUpdatedAt"))
+    previous_updated = _parse_time(precedente.get("oddsUpdatedAt") or precedente.get("generatedAt"))
+    if base_updated is None:
+        return False
+    return previous_updated is None or base_updated >= previous_updated
+
+
 def aggiorna_quote(base: dict, quote: Path) -> int:
     """Aggiorna le probabilita' partita dei giocatori dal CSV quote."""
     odds = fixtures._load_odds(quote)
@@ -185,6 +198,68 @@ def aggiorna_quote(base: dict, quote: Path) -> int:
     return len(updated_matches)
 
 
+def applica_contesto_quote(base: dict) -> int:
+    """Scala eventi e gol subiti con le quote nuove della giornata."""
+    difficulty = base.get("marketDifficulty")
+    if not difficulty:
+        return 0
+
+    updated = 0
+    for player in base["players"]:
+        p_win = _as_float(player.get("winProbability"))
+        p_draw = _as_float(player.get("drawProbability"))
+        context = player.get("matchContext") or {}
+        base_attack = _as_float(context.get("attack"))
+        base_defense = _as_float(context.get("defense"))
+        if p_win is None or p_draw is None or base_attack is None or base_defense is None:
+            continue
+        p_lose = max(0.0, 1.0 - p_win - p_draw)
+        advantage = p_win - p_lose
+        market_attack = _difficulty_factor(difficulty, "attack", advantage)
+        market_defense = _difficulty_factor(difficulty, "defense", advantage)
+
+        if context.get("hadMarket"):
+            previous_market_attack = _as_float(context.get("marketAttack")) or 1.0
+            previous_market_defense = _as_float(context.get("marketDefense")) or 1.0
+            new_attack = base_attack * market_attack / previous_market_attack
+            new_defense = base_defense * market_defense / previous_market_defense
+        else:
+            new_attack = market_attack * (base_attack ** 0.20)
+            new_defense = market_defense * (base_defense ** 0.20)
+
+        _scale_player_events(player, "events", new_attack / base_attack, new_defense / base_defense)
+        _scale_player_events(player, "learnedEvents", new_attack / base_attack, new_defense / base_defense)
+        updated += 1
+    return updated
+
+
+def _scale_player_events(player: dict, key: str, attack_ratio: float, defense_ratio: float) -> None:
+    events = player.get(key)
+    if not isinstance(events, dict):
+        return
+    for event in TEAM_SCALED_EVENTS:
+        if events.get(event) is not None:
+            events[event] = round(float(events[event]) * attack_ratio, 4)
+    if events.get("gs") is not None:
+        events["gs"] = round(float(events["gs"]) * defense_ratio, 4)
+
+
+def _difficulty_factor(difficulty: dict, side: str, advantage: float) -> float:
+    params = difficulty[side]
+    expected = float(params["slope"]) * advantage + float(params["intercept"])
+    factor = expected / float(params["mean"])
+    limits = difficulty.get("limits", {})
+    return min(max(factor, float(limits.get("min", fixtures.MATCH_FACTOR_MIN))), float(limits.get("max", fixtures.MATCH_FACTOR_MAX)))
+
+
+def _as_float(value: object) -> float | None:
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return None
+    return number if number == number and number > 0 else None
+
+
 def deve_scaricare_quote(base: dict, now: datetime | None = None) -> bool:
     now = now or datetime.now(timezone.utc)
     if not base.get("oddsUpdatedAt"):
@@ -201,22 +276,13 @@ def deve_scaricare_quote(base: dict, now: datetime | None = None) -> bool:
 
 def _odds_stale_after_hours(base: dict, now: datetime) -> int:
     matches = [m for m in base.get("matches", []) if m.get("matchday") == base.get("gameweek")]
-    if any(m.get("status") in {"IN_PLAY", "PAUSED", "LIVE"} for m in matches):
-        return ODDS_STALE_LIVE_HOURS
-
     upcoming = [
         date for date in (_parse_time(m.get("date")) for m in matches)
         if date is not None and date >= now
     ]
     if not upcoming:
         return sys.maxsize
-
-    next_match_hours = (min(upcoming) - now).total_seconds() / 3600
-    if next_match_hours <= 12:
-        return ODDS_STALE_MATCHDAY_HOURS
-    if next_match_hours <= 72:
-        return ODDS_STALE_NEAR_HOURS
-    return ODDS_STALE_DISTANT_HOURS
+    return ODDS_STALE_HOURS
 
 
 def _parse_time(value: str | None) -> datetime | None:

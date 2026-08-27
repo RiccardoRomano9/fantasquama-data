@@ -209,6 +209,10 @@ The Odds API come secret del repo pubblico:
 gh secret set THE_ODDS_API_KEY --repo RiccardoRomano9/fantasquama-data
 ```
 
+Il lavoro riusa le quote già pubblicate per la stessa giornata e richiama
+The Odds API al massimo una volta ogni 24 ore. Il job può quindi continuare a
+girare spesso per le probabili senza consumare crediti odds a ogni passaggio.
+
 Da lì in poi non serve toccarlo per le probabili. Per automatizzare anche i
 voti bisogna configurare una sola volta l'archivio privato e la sua chiave di
 deploy: le istruzioni sono nella guida del repository principale, perché la

@@ -31,7 +31,15 @@ from fantasquama.estimate import (
     previous_season,
 )
 from fantasquama.features import rolling_history
-from fantasquama.fixtures import TEAM_ALIASES, attach, fit_difficulty, load_fixtures, team_factors
+from fantasquama.fixtures import (
+    MATCH_FACTOR_MAX,
+    MATCH_FACTOR_MIN,
+    TEAM_ALIASES,
+    attach,
+    fit_difficulty,
+    load_fixtures,
+    team_factors,
+)
 from fantasquama.ingest import CANONICAL_COLUMNS, load_archive
 from fantasquama.scoring import EVENTS, Rules, fantavoto
 
@@ -135,7 +143,8 @@ def main() -> None:
 
     context = attach(archive, fixtures)
     advantage = (context["p_win"] - context["p_lose"]).to_numpy(np.float64)
-    market_attack, market_defense = fit_difficulty(fixtures, sorted(archive["season"].unique())).factors(advantage)
+    difficulty = fit_difficulty(fixtures, sorted(archive["season"].unique()))
+    market_attack, market_defense = difficulty.factors(advantage)
     squad_attack, squad_defense = team_factors(context)
     has_market = np.isfinite(advantage)
     # Le quote restano il segnale principale. Senza quote, il profilo squadra
@@ -190,6 +199,13 @@ def main() -> None:
             "learnedEvents": {name: _round(apprese[name].iloc[i], 4) for name in EVENTS},
             "teamGoalsRate": _round(storia["team_goals_rate"], 2),
             "recentForm": forma.get(pid, []),
+            "matchContext": {
+                "attack": _round(attack[i], 5),
+                "defense": _round(defense[i], 5),
+                "marketAttack": _round(market_attack[i], 5),
+                "marketDefense": _round(market_defense[i], 5),
+                "hadMarket": bool(has_market[i]),
+            },
             # Il listone e' la sola fonte del prezzo, e per chi in Serie A non
             # ha mai giocato e' anche la sola informazione che esista: l'app
             # deve poter dire "di questo non so niente" invece di dare una
@@ -216,6 +232,7 @@ def main() -> None:
     partite = _calendario(args.data / "fixtures", args.season)
     squadre = _squadre(args.probabili, rosa)
     notizie = _notizie(args.data / "news.json")
+    odds_updated_at = _odds_updated_at(args.data / "fixtures", args.season)
     _copia_stemmi(args.data / "fixtures" / "crests", args.out.parent / "crests")
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -233,7 +250,24 @@ def main() -> None:
         "matches": partite,
         "teams": squadre,
         "news": notizie,
+        "marketDifficulty": {
+            "version": 1,
+            "attack": {
+                "slope": _round(difficulty.attack[0], 8),
+                "intercept": _round(difficulty.attack[1], 8),
+                "mean": _round(difficulty.mean_attack, 8),
+            },
+            "defense": {
+                "slope": _round(difficulty.defense[0], 8),
+                "intercept": _round(difficulty.defense[1], 8),
+                "mean": _round(difficulty.mean_defense, 8),
+            },
+            "limits": {"min": MATCH_FACTOR_MIN, "max": MATCH_FACTOR_MAX},
+        },
     }
+    if odds_updated_at:
+        payload["oddsUpdatedAt"] = odds_updated_at
+        payload["oddsSource"] = "the-odds-api"
     if args.without_recent_form:
         for player in payload["players"]:
             player.pop("recentForm", None)
@@ -288,6 +322,24 @@ def _notizie(path: Path) -> list[dict]:
     if not path.exists():
         return []
     return json.loads(path.read_text())
+
+
+def _odds_updated_at(root: Path, season: str) -> str | None:
+    path = root / f"odds_{season[:4]}.csv"
+    if not path.exists():
+        return None
+    try:
+        raw = pd.read_csv(path, encoding="utf-8-sig")
+    except Exception:
+        return None
+    if "LastUpdate" not in raw.columns:
+        return None
+    values = [
+        str(value).strip()
+        for value in raw["LastUpdate"].dropna()
+        if str(value).strip()
+    ]
+    return max(values) if values else None
 
 
 def _copia_stemmi(sorgente: Path, destinazione: Path) -> None:
