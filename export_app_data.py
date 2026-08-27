@@ -178,10 +178,11 @@ def main() -> None:
         riga, storia, prob = archive.iloc[i], history.iloc[i], probabilities.iloc[i]
         pid = str(riga["player_id"])
         quotato = listino.get(pid)
+        listone_id = str(quotato.listone_id) if quotato else ""
         players.append({
             "id": quotato.listone_id if quotato else pid,
             "name": str(riga["player_name"]),
-            "fullName": estesi.get(str(quotato.listone_id)) if quotato else None,
+            "fullName": _clean(estesi.get(listone_id) or getattr(quotato, "fullName", None)) if quotato else None,
             "role": str(riga["role"]),
             "mantraRole": str(quotato.mantra_role) if quotato is not None and pd.notna(quotato.mantra_role) else None,
             "team": str(riga["team"]),
@@ -197,6 +198,8 @@ def main() -> None:
             "learnedVote": _round(apprese["voto"].iloc[i], 2),
             "learnedPlayProbability": _round(apprese["p_vote"].iloc[i], 3),
             "learnedEvents": {name: _round(apprese[name].iloc[i], 4) for name in EVENTS},
+            "photoURL": _clean(getattr(quotato, "photoURL", None)) if quotato else None,
+            "photoProviderID": _clean(getattr(quotato, "photoProviderID", None)) if quotato else None,
             "teamGoalsRate": _round(storia["team_goals_rate"], 2),
             "recentForm": forma.get(pid, []),
             "matchContext": {

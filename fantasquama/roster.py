@@ -127,14 +127,22 @@ def load_roster_snapshot(path: Path) -> pd.DataFrame:
         raise ValueError(f"{path} non contiene i campi rosa {sorted(missing)}")
 
     if "mantraRole" not in players: players["mantraRole"] = pd.NA
+    for column in ("fullName", "photoURL", "photoProviderID"):
+        if column not in players:
+            players[column] = pd.NA
     out = players.rename(columns={"id": "listone_id", "name": "player_name", "mantraRole": "mantra_role"})[
-        ["listone_id", "role", "mantra_role", "player_name", "team", "quotazione", "fvm"]
+        [
+            "listone_id", "role", "mantra_role", "player_name", "team",
+            "quotazione", "fvm", "fullName", "photoURL", "photoProviderID",
+        ]
     ].copy()
     out["listone_id"] = out["listone_id"].astype("string")
     out["role"] = out["role"].astype("string")
     out["mantra_role"] = out["mantra_role"].astype("string")
     out["player_name"] = out["player_name"].astype("string")
     out["team"] = out["team"].astype("string").replace(TEAM_ALIASES)
+    for column in ("fullName", "photoURL", "photoProviderID"):
+        out[column] = out[column].astype("string")
     for column in ("quotazione", "fvm"):
         out[column] = pd.to_numeric(out[column], errors="coerce").fillna(0).astype("float32")
     if out["listone_id"].isna().any() or out["listone_id"].duplicated().any():
