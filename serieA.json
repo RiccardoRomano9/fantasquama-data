@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T13:26:54+00:00",
+ "generatedAt": "2026-08-28T13:40:20+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -5658,9 +5658,9 @@
    },
    "quotazione": 6.0,
    "fvm": 16.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -7570,9 +7570,9 @@
    },
    "quotazione": 2.0,
    "fvm": 6.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -7630,9 +7630,9 @@
    },
    "quotazione": 3.0,
    "fvm": 7.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -15743,7 +15743,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.05,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0275,
     "rf": 0.0006,
@@ -15757,7 +15757,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.11,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0427,
     "rf": 0.0047,
@@ -15782,9 +15782,9 @@
    },
    "quotazione": 6.0,
    "fvm": 15.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -37344,6 +37344,15 @@
  ],
  "news": [
   {
+   "title": "Bernabe: \"Sto recuperando la condizione. La verità sul mio ruolo, Cuesta, Lontani...\"",
+   "summary": "Il centrocampista del Parma, Adrian Bernabe, in una intervista rilasciata a Tuttosport ha parlato della nuova stagione e delle sue condizioni",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/parma/bernabe-ruolo-cuesta-parma-lontani/",
+   "image": "https://static.sosfanta.com/202605/680fb123d63c4b92260be65a83277b41.png",
+   "date": "2026-08-28T13:30:10+00:00"
+  },
+  {
    "title": "Abate: \"Mi aspetto innesti! Perri, Adams, Oristanio, Fitz-Jim, il futuro di Njie e come sta Zapata\"",
    "summary": "L'allenatore del Torino, Ignazio Abate, ha parlato in conferenza stampa in vista della gara in programma domani - sabato 29 agosto - contro il Sassuolo.",
    "author": "Daniele Najjar",
@@ -37693,15 +37702,6 @@
    "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
    "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
    "date": "2026-08-27T20:15:46+00:00"
-  },
-  {
-   "title": "Inter, Sucic insidia Zielinski col Cagliari. Le possibili novità in difesa e le condizioni di Thuram",
-   "summary": "Dopo l'esordio vincente col Monza, Chivu ragiona sulla formazione da schierare a Cagliari domenica sera",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-sucic-zielinski-condizioni-thuram/",
-   "image": "https://static.sosfanta.com/202605/b444a16885f7bde4ce21dc217181264f-e1778710918700.jpg",
-   "date": "2026-08-27T20:00:00+00:00"
   }
  ],
  "marketDifficulty": {
