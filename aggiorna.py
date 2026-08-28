@@ -50,7 +50,7 @@ ITALY_TZ = ZoneInfo("Europe/Rome")
 DEEPSEEK_ENV_KEY = "DEEPSEEK_API_KEY"
 DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"
-TIPS_EXPLANATION_VERSION = 6
+TIPS_EXPLANATION_VERSION = 7
 TIPS_MAX_WORDS = 220
 TIPS_FORBIDDEN_TEXT = (
     "punti attesi", "expected", "probabilita'", "probabilità",
@@ -626,7 +626,7 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
             "content": (
                 "Genera la notizia dei consigli della giornata. "
                 "Scrivi un pezzo breve di redazione sportiva: attacco, contesto, pochi nomi "
-                "caldi e chiusura utile al fantallenatore. Massimo 190 parole. "
+                "caldi e chiusura utile al fantallenatore. Massimo 170 parole. "
                 "Usa markdown leggibile con 3 o 4 sezioni brevi: titoletti con ## e paragrafi, "
                 "senza elenchi puntati. Tutti i nomi dei giocatori citati devono essere in "
                 "MAIUSCOLO e in grassetto markdown, per esempio **DIMARCO**. "
@@ -661,7 +661,7 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
                     "Mantieni i nomi principali, ma elimina markdown sporco, percentuali, punti attesi, "
                     "linguaggio da modello e riferimenti a quote/bookmaker. Usa 3 o 4 sezioni "
                     "con titoletti ## e metti ogni nome giocatore in **MAIUSCOLO**. "
-                    "Massimo 180 parole.\n\n"
+                    "Massimo 160 parole.\n\n"
                     + text
                 ),
             },
@@ -745,7 +745,7 @@ def _fallback_articolo_consigli(payload: dict) -> str:
     colpi = _nomi_top(payload.get("xi", []), 7)
     text = (
         "## Top di giornata\n\n"
-        f"In porta meritano fiducia {porta}. Dietro il nome caldo è {difesa}: profili da partita viva, "
+        f"In porta meritano fiducia {porta}. In difesa i nomi caldi sono {difesa}: profili da partita viva, "
         f"con possibilità di incidere anche sui palloni inattivi. In mezzo spiccano {centrocampo}, "
         f"mentre davanti la copertina va a {attacco}, reparto con diversi giocatori pronti a pesare in area.\n\n"
         "## Colpi del Coach\n\n"
