@@ -34,6 +34,9 @@ from fantasquama import roster
 from fantasquama.scoring import EVENTS, Rules, expected_points
 
 ODDS_STALE_HOURS = 24
+LINEUPS_NORMAL_STALE_HOURS = 2
+LINEUPS_HOT_WINDOW_HOURS = 8
+LINEUPS_HOT_STALE_MINUTES = 12
 TEAM_SCALED_EVENTS = ("gf", "rf", "ass")
 PROP_ODDS_MARKETS = (
     "player_goal_scorer_anytime",
@@ -236,6 +239,44 @@ def _base_has_fresher_odds(base: dict, precedente: dict) -> bool:
     if base_updated is None:
         return False
     return previous_updated is None or base_updated >= previous_updated
+
+
+def deve_scaricare_probabili(
+    base: dict, precedente: dict | None, now: datetime | None = None
+) -> tuple[bool, str]:
+    """Decide se il run deve davvero scaricare le probabili.
+
+    Il workflow puo' girare spesso ogni giorno; questa funzione guarda il
+    calendario della giornata e rende frequenti solo i run vicini alle partite.
+    """
+    now = now or datetime.now(timezone.utc)
+    if not precedente:
+        return True, "nessun file precedente"
+    if base.get("season") != precedente.get("season") or base.get("gameweek") != precedente.get("gameweek"):
+        return True, "nuova giornata"
+    if not precedente.get("players") or not precedente.get("teams"):
+        return True, "file precedente incompleto"
+
+    updated = _parse_time(precedente.get("generatedAt"))
+    if updated is None:
+        return True, "data aggiornamento precedente assente"
+    minutes = (now - updated).total_seconds() / 60
+    if minutes < 0:
+        return True, "data aggiornamento precedente nel futuro"
+
+    kickoff = _first_upcoming_match(base, now)
+    if kickoff is not None:
+        hours_to_kickoff = (kickoff - now).total_seconds() / 3600
+        if 0 <= hours_to_kickoff <= LINEUPS_HOT_WINDOW_HOURS:
+            return (
+                minutes >= LINEUPS_HOT_STALE_MINUTES,
+                f"partita tra {hours_to_kickoff:.1f}h, probabili fresche da {minutes:.0f}m",
+            )
+
+    return (
+        minutes >= LINEUPS_NORMAL_STALE_HOURS * 60,
+        f"nessuna partita imminente, probabili fresche da {minutes:.0f}m",
+    )
 
 
 def aggiorna_quote(base: dict, quote: Path) -> int:
@@ -1036,15 +1077,21 @@ def main() -> None:
     args = parser.parse_args()
 
     now = datetime.now(timezone.utc)
+    base = json.loads(args.base.read_text())
+    base.setdefault("baseNote", base.get("note", ""))
+    precedente = json.loads(args.out.read_text()) if args.out.exists() else None
+    if args.probabili is None:
+        scarica_probabili, motivo_probabili = deve_scaricare_probabili(base, precedente, now)
+        if not scarica_probabili:
+            print(f"  {motivo_probabili}: niente refresh probabili")
+            return
+        print(f"  refresh probabili: {motivo_probabili}")
     probabili = args.probabili or scarica("fetch_lineups.py", qui / "probabili.json")
     # Le notizie non sono obbligatorie: un giornale che non risponde non deve
     # poter impedire di aggiornare chi gioca, che e' il motivo per cui l'app
     # esiste. Se saltano, restano quelle del giro precedente.
     notizie = scarica("fetch_news.py", qui / "news.json", obbligatorio=False)
 
-    base = json.loads(args.base.read_text())
-    base.setdefault("baseNote", base.get("note", ""))
-    precedente = json.loads(args.out.read_text()) if args.out.exists() else None
     riusate = riusa_quote(base, precedente)
     if riusate:
         print(f"  quote precedenti riusate per {riusate} giocatori")
