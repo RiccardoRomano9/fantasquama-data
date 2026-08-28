@@ -54,7 +54,7 @@ TIPS_EXPLANATION_VERSION = 6
 TIPS_MAX_WORDS = 220
 TIPS_FORBIDDEN_TEXT = (
     "punti attesi", "expected", "probabilita'", "probabilità",
-    "percentuale", "modello", "algoritmo", "bookmaker", "quote", "tra i pali",
+    "percentuale", "modello", "algoritmo", "bookmaker", "quote",
 )
 TIPS_ROLE_LABELS = {
     "P": "POR",
@@ -752,9 +752,11 @@ def _testo_spiegazione_ok(text: str) -> bool:
     lower = text.lower()
     parole = lower.split()
     has_bullets = any(line.lstrip().startswith(("- ", "* ")) for line in text.splitlines())
+    headings = sum(1 for line in text.splitlines() if line.startswith("## "))
     return (
         len(parole) <= TIPS_MAX_WORDS
         and not has_bullets
+        and headings >= 2
         and not any(vietata in lower for vietata in TIPS_FORBIDDEN_TEXT)
     )
 
@@ -1013,6 +1015,7 @@ def main() -> None:
     if notizie is not None:
         aggiornato["news"] = json.loads(notizie.read_text())
     if deve_generare_spiegazione_consigli(aggiornato, now):
+        aggiornato.pop("tipsExplanation", None)
         spiegazione = genera_spiegazione_consigli(
             aggiornato, os.environ.get(DEEPSEEK_ENV_KEY, ""), now
         )
