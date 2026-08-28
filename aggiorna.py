@@ -50,11 +50,12 @@ ITALY_TZ = ZoneInfo("Europe/Rome")
 DEEPSEEK_ENV_KEY = "DEEPSEEK_API_KEY"
 DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"
-TIPS_EXPLANATION_VERSION = 7
+TIPS_EXPLANATION_VERSION = 8
 TIPS_MAX_WORDS = 220
 TIPS_FORBIDDEN_TEXT = (
     "punti attesi", "expected", "probabilita'", "probabilità",
     "percentuale", "modello", "algoritmo", "bookmaker", "quote",
+    "prima gioia", "gioia stagionale", "piazzamento",
 )
 TIPS_ROLE_LABELS = {
     "P": "POR",
