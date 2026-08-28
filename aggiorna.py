@@ -49,7 +49,8 @@ ITALY_TZ = ZoneInfo("Europe/Rome")
 DEEPSEEK_ENV_KEY = "DEEPSEEK_API_KEY"
 DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"
-TIPS_EXPLANATION_VERSION = 3
+TIPS_EXPLANATION_VERSION = 4
+TIPS_MAX_WORDS = 220
 TIPS_FORBIDDEN_TEXT = (
     "**", "#", "- ", "punti attesi", "expected", "probabilita'", "probabilità",
     "percentuale", "modello", "algoritmo", "bookmaker", "quote",
@@ -623,8 +624,8 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
             "role": "user",
             "content": (
                 "Genera la notizia dei consigli della giornata. "
-                "Scrivi un pezzo breve di redazione sportiva: attacco, contesto, nomi caldi "
-                "e chiusura utile al fantallenatore. Massimo 230 parole. "
+                "Scrivi un pezzo breve di redazione sportiva: attacco, contesto, pochi nomi "
+                "caldi e chiusura utile al fantallenatore. Massimo 190 parole. "
                 "Solo testo semplice: niente markdown, niente titoli con asterischi, niente "
                 "elenchi puntati, niente percentuali, niente 'punti attesi', niente parole "
                 "come modello, algoritmo, bookmaker o quote. "
@@ -633,7 +634,8 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
                 "partita favorevole/dura, bonus possibili. "
                 "Prima racconta le top di giornata per ruolo; poi racconta i Colpi del Coach, "
                 "cioe' Gli 11 del Coach Squama: non sono i migliori assoluti, ma nomi che "
-                "possono sorprendere. Non inventare infortuni, indiscrezioni o dati non "
+                "possono sorprendere. Non devi citare tutti i giocatori: scegli quelli con "
+                "piu' storia calcistica. Non inventare infortuni, indiscrezioni o dati non "
                 "presenti.\n\n"
                 + json.dumps(payload_consigli, ensure_ascii=False, separators=(",", ":"))
             ),
@@ -649,8 +651,8 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
                 "role": "user",
                 "content": (
                     "Riscrivi questo testo come notizia di redazione fantacalcio. "
-                    "Mantieni i nomi, ma elimina markdown, percentuali, punti attesi, "
-                    "linguaggio da modello e riferimenti a quote/bookmaker. Massimo 210 parole.\n\n"
+                    "Mantieni i nomi principali, ma elimina markdown, percentuali, punti attesi, "
+                    "linguaggio da modello e riferimenti a quote/bookmaker. Massimo 180 parole.\n\n"
                     + text
                 ),
             },
@@ -724,7 +726,8 @@ def _ripulisci_spiegazione(text: str) -> str:
 
 def _testo_spiegazione_ok(text: str) -> bool:
     lower = text.lower()
-    return not any(vietata in lower for vietata in TIPS_FORBIDDEN_TEXT)
+    parole = lower.split()
+    return len(parole) <= TIPS_MAX_WORDS and not any(vietata in lower for vietata in TIPS_FORBIDDEN_TEXT)
 
 
 def _payload_consigli(base: dict) -> dict:
