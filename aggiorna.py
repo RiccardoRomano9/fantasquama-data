@@ -49,6 +49,7 @@ ITALY_TZ = ZoneInfo("Europe/Rome")
 DEEPSEEK_ENV_KEY = "DEEPSEEK_API_KEY"
 DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"
+TIPS_EXPLANATION_VERSION = 2
 TIPS_ROLE_LABELS = {
     "P": "POR",
     "D": "DIF",
@@ -573,6 +574,7 @@ def deve_generare_spiegazione_consigli(base: dict, now: datetime | None = None) 
     esistente = base.get("tipsExplanation")
     if (
         isinstance(esistente, dict)
+        and esistente.get("version") == TIPS_EXPLANATION_VERSION
         and esistente.get("season") == base.get("season")
         and esistente.get("gameweek") == base.get("gameweek")
         and str(esistente.get("text") or "").strip()
@@ -663,7 +665,7 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
         print("  DeepSeek ha risposto senza testo: spiegazione non salvata")
         return None
     return {
-        "version": 1,
+        "version": TIPS_EXPLANATION_VERSION,
         "season": base.get("season"),
         "gameweek": base.get("gameweek"),
         "generatedAt": now.isoformat(timespec="seconds"),
