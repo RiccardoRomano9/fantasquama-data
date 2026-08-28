@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T13:22:38+00:00",
+ "generatedAt": "2026-08-28T13:24:48+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -78,7 +78,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.1,
-   "playProbability": 0.175,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.2556,
     "rf": 0.0016,
@@ -92,7 +92,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.175,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.1697,
     "rf": 0.0194,
@@ -118,7 +118,7 @@
    "quotazione": 9.0,
    "fvm": 32.0,
    "lineupSlot": "panchina",
-   "startingProbability": 20.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -7162,7 +7162,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.12,
-   "playProbability": 0.429,
+   "playProbability": 0.285,
    "events": {
     "gf": 0.1166,
     "rf": 0.0006,
@@ -7176,7 +7176,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.07,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.285,
    "learnedEvents": {
     "gf": 0.07,
     "rf": 0.0077,
@@ -7201,8 +7201,8 @@
    },
    "quotazione": 10.0,
    "fvm": 37.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9181,8 +9181,8 @@
    },
    "quotazione": 4.0,
    "fvm": 8.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -19081,7 +19081,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.02,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0211,
     "rf": 0.0003,
@@ -19095,7 +19095,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.91,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0322,
     "rf": 0.0032,
@@ -19121,7 +19121,7 @@
    "quotazione": 4.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -19141,7 +19141,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 5.99,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0224,
     "rf": 0.0,
@@ -19155,7 +19155,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.0,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0322,
     "rf": 0.0032,
@@ -19181,7 +19181,7 @@
    "quotazione": 6.0,
    "fvm": 11.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21553,7 +21553,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 5.98,
-   "playProbability": 0.044,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0049,
     "rf": 0.0,
@@ -21567,7 +21567,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.03,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0386,
     "rf": 0.0038,
@@ -21593,7 +21593,7 @@
    "quotazione": 7.0,
    "fvm": 18.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36476,16 +36476,48 @@
     {
      "opzioni": [
       {
+       "player_id": "6495",
+       "giocatore": "Comuzzo",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "5010",
+       "giocatore": "Ismajli",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7526",
+       "giocatore": "Comert",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "5010",
+       "giocatore": "Ismajli",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "6827",
        "giocatore": "Njie",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "5888",
-       "giocatore": "Casadei",
+       "player_id": "6646",
+       "giocatore": "Adams C.",
        "titolarita_pct": 49,
-       "ruolo": "C"
+       "ruolo": "A"
       }
      ]
     }
@@ -37693,13 +37725,13 @@
  "oddsSource": "the-odds-api",
  "baseNote": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale.",
  "tipsExplanation": {
-  "version": 3,
+  "version": 4,
   "season": "2026-27",
   "gameweek": 2,
-  "generatedAt": "2026-08-28T13:22:38+00:00",
+  "generatedAt": "2026-08-28T13:24:48+00:00",
   "source": "deepseek",
   "model": "deepseek-chat",
-  "text": "La seconda giornata si apre con un quadro chiaro: le grandi cercano continuità e i calendari sorridono a chi deve rilanciarsi. In porta Svilar è la scelta più solida, con la Roma attesa a Lecce in una partita favorevole; Martinez dell’Inter e Maignan del Milan completano il terzetto di giornata, entrambi favoriti dai rispettivi impegni esterni e casalinghi.\n\nIn difesa spicca Dimarco, che contro il Cagliari parte titolare ed è il primo nome per i calci da fermo, con segnali interessanti anche in fase di assist. Bremer, nel derby di Torino contro il Parma, e Mancini, in trasferta a Lecce, offrono garanzie sia in marcatura sia in proiezione offensiva.\n\nA centrocampo Calhanoglu è il riferimento assoluto: rigorista e battitore delle palle inattive, ha il match favorevole contro il Cagliari. Da tenere d’occhio anche Cissè del Milan e Diouf dell’Inter, entrambi titolari e pronti a sfruttare le trame dei rispettivi reparti.\n\nIn attacco Malen è il nome caldo della Roma: rigorista e coinvolto sulle palle ferme, può fare male al Lecce. Dybala è il compagno ideale, con segnali alti sia per il gol sia per l’assist. Lautaro Martinez completa il pacchetto, con il Cagliari che si presenta come avversario abbordabile.\n\nPer i Colpi del Coach, la formazione sorprendente parte da Maignan tra i pali. In difesa Kalulu e Pavlovic possono sporcare il tabellino, mentre Wesley della Roma è una scommessa interessante. A centrocampo Conceicao e Barella hanno licenza di spingere, Locatelli è coinvolto sulle palle ferme e Zaccagni, rigorista della Lazio, può essere decisivo. In attacco Raspadori, Ramos e Kolo Muani completano un undici che punta a stupire."
+  "text": "Seconda giornata di campionato, e il quadro si fa subito interessante. In porta Svilar e Martinez sono le scelte più solide, con Maignan che però gioca in casa contro il Venezia e può regalare una serata tranquilla. In difesa Dimarco è il nome che accende i riflettori: spinge, batte le punizioni e contro il Cagliari può trovare spazio per bonus. Bremer e Mancini offrono solidità e qualche chance sui calci piazzati.\n\nA centrocampo Calhanoglu è il rigorista dell'Inter e gestisce le palle inattive: difficile chiedere di più. Dybala è il faro della Roma contro il Lecce, tra rigori e assist. Malen completa il tridente giallorosso con ottime prospettive.\n\nPer i Colpi del Coach Squama, attenzione a Conceicao e Kolo Muani in casa contro il Parma: la Juventus può scappare e loro sono i principali candidati a colpire. Ramos è il rigorista del Milan e contro il Venezia può sbloccarsi. Zaccagni, tra i pali della Lazio, è una sorpresa possibile. Barella e Locatelli garantiscono corsa e inserimenti. In difesa Kalulu e Wesley possono sorprendere con spinta e cross. Raspadori, infine, è l'uomo di qualità dell'Atalanta in una partita che promette spazi."
  },
  "propOdds": {
   "version": 1,
