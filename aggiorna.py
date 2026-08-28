@@ -620,11 +620,17 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
                 "role": "user",
                 "content": (
                     "Genera la spiegazione dei consigli della giornata. "
-                    "Usa massimo 260 parole. Struttura: un paragrafo sulle top 3 per ruolo "
-                    "e un paragrafo sugli 11 Squamati in modulo 3-4-3. "
-                    "Cita i nomi piu' importanti e spiega perche' emergono usando punti attesi, "
-                    "probabilita' voto, matchup e segnali bookmaker quando disponibili. "
-                    "Non inventare infortuni o notizie non presenti.\n\n"
+                    "Scrivi come una breve notizia di redazione sportiva, con attacco, "
+                    "contesto della giornata e chiusura utile al fantallenatore. "
+                    "Usa massimo 260 parole, solo testo semplice: niente markdown, niente "
+                    "titoli con asterischi, niente elenchi puntati. "
+                    "Prima racconta le top 3 per ruolo, poi racconta Gli 11 del Coach Squama "
+                    "in modulo 3-4-3: non presentarli come i migliori assoluti, ma come nomi "
+                    "che possono sorprendere per partita, ruolo, forma del modello o segnali "
+                    "bookmaker quando disponibili. "
+                    "Cita i nomi piu' importanti e spiega in termini calcistici, senza "
+                    "tecnicismi analitici o informatici. Non inventare infortuni o notizie "
+                    "non presenti.\n\n"
                     + json.dumps(payload_consigli, ensure_ascii=False, separators=(",", ":"))
                 ),
             },
@@ -674,13 +680,14 @@ def _payload_consigli(base: dict) -> dict:
     }
     xi: list[dict] = []
     for role, limit in TIPS_XI_SHAPE.items():
-        xi.extend(_player_tip_payload(player) for player in _migliori(base, role, limit=limit))
+        xi.extend(_player_tip_payload(player) for player in _coach_picks(base, role, limit=limit))
     return {
         "season": base.get("season"),
         "gameweek": base.get("gameweek"),
         "rules": "Classic",
         "top3": top3,
         "xiModule": "3-4-3",
+        "xiLabel": "Gli 11 del Coach Squama",
         "xi": xi,
     }
 
@@ -693,6 +700,49 @@ def _migliori(base: dict, role: str, limit: int) -> list[dict]:
         and _expected_play_probability(player) >= 0.35
     ]
     return sorted(candidates, key=lambda p: (-_expected_player_points(p), str(p.get("name", ""))))[:limit]
+
+
+def _coach_picks(base: dict, role: str, limit: int) -> list[dict]:
+    reparto = [
+        player for player in base.get("players", [])
+        if player.get("role") == role
+        and player.get("lineupSlot") != "indisponibile"
+        and _expected_play_probability(player) >= 0.48
+    ]
+    if not reparto:
+        return []
+    top_ids = {str(player.get("id")) for player in _migliori(base, role, limit)}
+    media = sum(_expected_player_points(player) for player in reparto) / len(reparto)
+    candidati = [player for player in reparto if str(player.get("id")) not in top_ids]
+    if len(candidati) < limit:
+        candidati = reparto
+    return sorted(
+        candidati,
+        key=lambda p: (-_surprise_score(p, media), -_expected_player_points(p), str(p.get("name", ""))),
+    )[:limit]
+
+
+def _surprise_score(player: dict, role_average: float) -> float:
+    points = _expected_player_points(player)
+    play = min(max(_expected_play_probability(player), 0.0), 1.0)
+    matchup = _as_float(player.get("matchupAdjustment"))
+    if matchup is None:
+        win = _as_float(player.get("winProbability"))
+        field = 0.04 if player.get("home") is True else (-0.04 if player.get("home") is False else 0.0)
+        matchup = min(max(((win or 0.42) - 0.42) * 1.55 + field, -0.55), 0.55)
+    props = player.get("marketProps") if isinstance(player.get("marketProps"), dict) else {}
+    market = 0.0
+    for key in ("player_goal_scorer_anytime", "player_assists"):
+        value = _as_float(props.get(key))
+        if value is not None:
+            market += min(max(value, 0.0), 1.0) * 0.16
+    piazzati = 0.0
+    if player.get("penaltyRank") == 1:
+        piazzati += 0.32
+    if player.get("setPieceRank") == 1:
+        piazzati += 0.18
+    rischio = -0.45 if play < 0.62 else (-0.12 if play < 0.78 else 0.10)
+    return max(0.0, points - role_average) * 1.35 + matchup * 0.85 + market + piazzati + rischio
 
 
 def _player_tip_payload(player: dict) -> dict:

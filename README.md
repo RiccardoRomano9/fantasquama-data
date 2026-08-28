@@ -236,14 +236,18 @@ girare spesso per le probabili senza consumare crediti odds a ogni passaggio.
 
 ## Spiegazione Coach Squama
 
-La scheda Consigli puo' ricevere una nota generata da DeepSeek. Anche questa
-viene prodotta dal job pubblico, non dall'app: il telefono legge solo il testo
-gia' salvato in `serieA.json`.
+La scheda Consigli puo' ricevere una nota generata da DeepSeek in stile notizia
+di redazione, senza markdown. Anche questa viene prodotta dal job pubblico, non
+dall'app: il telefono legge solo il testo gia' salvato in `serieA.json`.
 
 La chiamata parte una volta sola per giornata, solo nel giorno della prima
 partita, dopo le 10:00 italiane e prima del calcio d'inizio. Se il campo
 `tipsExplanation` esiste gia' per quella stagione/giornata, il job non richiama
 DeepSeek e riusa il testo. Se manca la secret, salta la generazione.
+
+Le top 3 restano ordinate per rendimento atteso nel ruolo. Gli 11 del Coach
+Squama, invece, sono una selezione diversa: cercano giocatori che possono
+sorprendere per matchup, probabilita' di voto, piazzati e segnali bookmaker.
 
 Per abilitarla:
 
