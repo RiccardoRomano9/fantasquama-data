@@ -49,7 +49,11 @@ ITALY_TZ = ZoneInfo("Europe/Rome")
 DEEPSEEK_ENV_KEY = "DEEPSEEK_API_KEY"
 DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"
-TIPS_EXPLANATION_VERSION = 2
+TIPS_EXPLANATION_VERSION = 3
+TIPS_FORBIDDEN_TEXT = (
+    "**", "#", "- ", "punti attesi", "expected", "probabilita'", "probabilità",
+    "percentuale", "modello", "algoritmo", "bookmaker", "quote",
+)
 TIPS_ROLE_LABELS = {
     "P": "POR",
     "D": "DIF",
@@ -605,38 +609,77 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
         print("  consigli insufficienti per generare la spiegazione Coach Squama")
         return None
 
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "Sei Coach Squama, una firma di redazione fantacalcio italiana. "
+                "Scrivi come un giornalista informato: concreto, calcistico, prudente. "
+                "Niente markdown, niente gergo tecnico, niente numeri da modello, niente "
+                "inviti a scommettere."
+            ),
+        },
+        {
+            "role": "user",
+            "content": (
+                "Genera la notizia dei consigli della giornata. "
+                "Scrivi un pezzo breve di redazione sportiva: attacco, contesto, nomi caldi "
+                "e chiusura utile al fantallenatore. Massimo 230 parole. "
+                "Solo testo semplice: niente markdown, niente titoli con asterischi, niente "
+                "elenchi puntati, niente percentuali, niente 'punti attesi', niente parole "
+                "come modello, algoritmo, bookmaker o quote. "
+                "Puoi citare solo questi elementi se presenti nel payload: casa/trasferta, "
+                "avversario, titolarita' o ballottaggio, rigorista, calci da fermo, "
+                "partita favorevole/dura, bonus possibili. "
+                "Prima racconta le top di giornata per ruolo; poi racconta i Colpi del Coach, "
+                "cioe' Gli 11 del Coach Squama: non sono i migliori assoluti, ma nomi che "
+                "possono sorprendere. Non inventare infortuni, indiscrezioni o dati non "
+                "presenti.\n\n"
+                + json.dumps(payload_consigli, ensure_ascii=False, separators=(",", ":"))
+            ),
+        },
+    ]
+    text = _deepseek_text(messages, api_key)
+    if not text:
+        return None
+    if not _testo_spiegazione_ok(text):
+        rewrite_messages = [
+            messages[0],
+            {
+                "role": "user",
+                "content": (
+                    "Riscrivi questo testo come notizia di redazione fantacalcio. "
+                    "Mantieni i nomi, ma elimina markdown, percentuali, punti attesi, "
+                    "linguaggio da modello e riferimenti a quote/bookmaker. Massimo 210 parole.\n\n"
+                    + text
+                ),
+            },
+        ]
+        text = _deepseek_text(rewrite_messages, api_key) or text
+    text = _ripulisci_spiegazione(text)
+    if not text:
+        print("  DeepSeek ha risposto senza testo: spiegazione non salvata")
+        return None
+    if not _testo_spiegazione_ok(text):
+        print("  DeepSeek ha generato una spiegazione fuori stile: non salvata")
+        return None
+    return {
+        "version": TIPS_EXPLANATION_VERSION,
+        "season": base.get("season"),
+        "gameweek": base.get("gameweek"),
+        "generatedAt": now.isoformat(timespec="seconds"),
+        "source": "deepseek",
+        "model": DEEPSEEK_MODEL,
+        "text": text,
+    }
+
+
+def _deepseek_text(messages: list[dict], api_key: str) -> str | None:
     richiesta = {
         "model": DEEPSEEK_MODEL,
         "temperature": 0.25,
         "max_tokens": 900,
-        "messages": [
-            {
-                "role": "system",
-                "content": (
-                    "Sei Coach Squama, assistente fantacalcio italiano. "
-                    "Scrivi in modo concreto, brillante e prudente: niente quote promozionali, "
-                    "niente inviti a scommettere, solo motivazioni tecniche per schierare giocatori."
-                ),
-            },
-            {
-                "role": "user",
-                "content": (
-                    "Genera la spiegazione dei consigli della giornata. "
-                    "Scrivi come una breve notizia di redazione sportiva, con attacco, "
-                    "contesto della giornata e chiusura utile al fantallenatore. "
-                    "Usa massimo 260 parole, solo testo semplice: niente markdown, niente "
-                    "titoli con asterischi, niente elenchi puntati. "
-                    "Prima racconta le top 3 per ruolo, poi racconta Gli 11 del Coach Squama "
-                    "in modulo 3-4-3: non presentarli come i migliori assoluti, ma come nomi "
-                    "che possono sorprendere per partita, ruolo, forma del modello o segnali "
-                    "bookmaker quando disponibili. "
-                    "Cita i nomi piu' importanti e spiega in termini calcistici, senza "
-                    "tecnicismi analitici o informatici. Non inventare infortuni o notizie "
-                    "non presenti.\n\n"
-                    + json.dumps(payload_consigli, ensure_ascii=False, separators=(",", ":"))
-                ),
-            },
-        ],
+        "messages": messages,
     }
     body = json.dumps(richiesta).encode("utf-8")
     req = request.Request(
@@ -664,15 +707,24 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
     if not text:
         print("  DeepSeek ha risposto senza testo: spiegazione non salvata")
         return None
-    return {
-        "version": TIPS_EXPLANATION_VERSION,
-        "season": base.get("season"),
-        "gameweek": base.get("gameweek"),
-        "generatedAt": now.isoformat(timespec="seconds"),
-        "source": "deepseek",
-        "model": DEEPSEEK_MODEL,
-        "text": text,
-    }
+    return text
+
+
+def _ripulisci_spiegazione(text: str) -> str:
+    pulito = text.replace("**", "").replace("__", "").replace("`", "")
+    righe = []
+    for line in pulito.splitlines():
+        line = line.strip()
+        if line.startswith(("- ", "* ", "#")):
+            line = line.lstrip("-*# ").strip()
+        if line:
+            righe.append(line)
+    return "\n\n".join(righe).strip()
+
+
+def _testo_spiegazione_ok(text: str) -> bool:
+    lower = text.lower()
+    return not any(vietata in lower for vietata in TIPS_FORBIDDEN_TEXT)
 
 
 def _payload_consigli(base: dict) -> dict:
@@ -690,6 +742,7 @@ def _payload_consigli(base: dict) -> dict:
         "top3": top3,
         "xiModule": "3-4-3",
         "xiLabel": "Gli 11 del Coach Squama",
+        "xiKind": "colpi, non migliori assoluti",
         "xi": xi,
     }
 
@@ -755,18 +808,50 @@ def _player_tip_payload(player: dict) -> dict:
         "role": player.get("role"),
         "opponent": player.get("opponent"),
         "home": player.get("home"),
-        "expectedPoints": round(_expected_player_points(player), 2),
-        "playProbability": round(_expected_play_probability(player), 2),
-        "winProbability": player.get("winProbability"),
-        "drawProbability": player.get("drawProbability"),
+        "presence": _presence_label(_expected_play_probability(player)),
+        "matchup": _matchup_label(player),
         "lineupSlot": player.get("lineupSlot"),
-        "startingProbability": player.get("startingProbability"),
+        "penaltyRank": player.get("penaltyRank"),
+        "setPieceRank": player.get("setPieceRank"),
         "marketProps": {
-            key: round(float(value), 3)
+            key: _market_label(float(value))
             for key, value in props.items()
             if _as_float(value) is not None
         },
     }
+
+
+def _presence_label(value: float) -> str:
+    if value >= 0.88:
+        return "molto probabile"
+    if value >= 0.70:
+        return "probabile"
+    if value >= 0.50:
+        return "in ballottaggio"
+    return "incerta"
+
+
+def _matchup_label(player: dict) -> str:
+    win = _as_float(player.get("winProbability"))
+    if win is None:
+        return "da valutare"
+    if win >= 0.60:
+        return "favorevole"
+    if win >= 0.48:
+        return "buona"
+    if win >= 0.36:
+        return "equilibrata"
+    if win >= 0.24:
+        return "difficile"
+    return "molto dura"
+
+
+def _market_label(value: float) -> str:
+    if value >= 0.30:
+        return "segnale alto"
+    if value >= 0.16:
+        return "segnale interessante"
+    return "segnale leggero"
 
 
 def _expected_player_points(player: dict) -> float:

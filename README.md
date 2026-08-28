@@ -247,7 +247,7 @@ DeepSeek e riusa il testo. Se manca la secret, salta la generazione.
 
 Le top 3 restano ordinate per rendimento atteso nel ruolo. Gli 11 del Coach
 Squama, invece, sono una selezione diversa: cercano giocatori che possono
-sorprendere per matchup, probabilita' di voto, piazzati e segnali bookmaker.
+sorprendere per matchup, probabilita' di voto, piazzati e bonus possibili.
 
 Per abilitarla:
 
