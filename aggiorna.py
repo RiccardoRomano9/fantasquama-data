@@ -49,11 +49,11 @@ ITALY_TZ = ZoneInfo("Europe/Rome")
 DEEPSEEK_ENV_KEY = "DEEPSEEK_API_KEY"
 DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"
-TIPS_EXPLANATION_VERSION = 4
+TIPS_EXPLANATION_VERSION = 5
 TIPS_MAX_WORDS = 220
 TIPS_FORBIDDEN_TEXT = (
     "**", "#", "- ", "punti attesi", "expected", "probabilita'", "probabilità",
-    "percentuale", "modello", "algoritmo", "bookmaker", "quote",
+    "percentuale", "modello", "algoritmo", "bookmaker", "quote", "tra i pali",
 )
 TIPS_ROLE_LABELS = {
     "P": "POR",
@@ -632,6 +632,8 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
                 "Puoi citare solo questi elementi se presenti nel payload: casa/trasferta, "
                 "avversario, titolarita' o ballottaggio, rigorista, calci da fermo, "
                 "partita favorevole/dura, bonus possibili. "
+                "Rispetta sempre roleLabel: non spostare un giocatore in un reparto diverso "
+                "e non descrivere come portiere chi non ha roleLabel Portiere. "
                 "Prima racconta le top di giornata per ruolo; poi racconta i Colpi del Coach, "
                 "cioe' Gli 11 del Coach Squama: non sono i migliori assoluti, ma nomi che "
                 "possono sorprendere. Non devi citare tutti i giocatori: scegli quelli con "
@@ -809,6 +811,7 @@ def _player_tip_payload(player: dict) -> dict:
         "name": player.get("name"),
         "team": player.get("team"),
         "role": player.get("role"),
+        "roleLabel": _role_label(player.get("role")),
         "opponent": player.get("opponent"),
         "home": player.get("home"),
         "presence": _presence_label(_expected_play_probability(player)),
@@ -832,6 +835,15 @@ def _presence_label(value: float) -> str:
     if value >= 0.50:
         return "in ballottaggio"
     return "incerta"
+
+
+def _role_label(role: str | None) -> str:
+    return {
+        "P": "Portiere",
+        "D": "Difensore",
+        "C": "Centrocampista",
+        "A": "Attaccante",
+    }.get(role or "", "Giocatore")
 
 
 def _matchup_label(player: dict) -> str:
