@@ -236,9 +236,11 @@ girare spesso per le probabili senza consumare crediti odds a ogni passaggio.
 
 ## Spiegazione Coach Squama
 
-La scheda Consigli puo' ricevere una nota generata da DeepSeek in stile notizia
-di redazione, senza markdown. Anche questa viene prodotta dal job pubblico, non
-dall'app: il telefono legge solo il testo gia' salvato in `serieA.json`.
+La scheda Consigli puo' ricevere una nota generata da DeepSeek in stile articolo
+di redazione. Il testo usa markdown controllato: titoletti, paragrafi brevi e
+nomi dei giocatori in maiuscolo/grassetto. Anche questa viene prodotta dal job
+pubblico, non dall'app: il telefono legge solo il testo gia' salvato in
+`serieA.json` e lo renderizza senza mostrare gli asterischi.
 
 La chiamata parte una volta sola per giornata, solo nel giorno della prima
 partita, dopo le 10:00 italiane e prima del calcio d'inizio. Se il campo

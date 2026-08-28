@@ -18,6 +18,7 @@ il modo piu' sicuro di farle divergere proprio mentre nessuno guarda.
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -49,10 +50,10 @@ ITALY_TZ = ZoneInfo("Europe/Rome")
 DEEPSEEK_ENV_KEY = "DEEPSEEK_API_KEY"
 DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"
-TIPS_EXPLANATION_VERSION = 5
+TIPS_EXPLANATION_VERSION = 6
 TIPS_MAX_WORDS = 220
 TIPS_FORBIDDEN_TEXT = (
-    "**", "#", "- ", "punti attesi", "expected", "probabilita'", "probabilità",
+    "punti attesi", "expected", "probabilita'", "probabilità",
     "percentuale", "modello", "algoritmo", "bookmaker", "quote", "tra i pali",
 )
 TIPS_ROLE_LABELS = {
@@ -616,8 +617,8 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
             "content": (
                 "Sei Coach Squama, una firma di redazione fantacalcio italiana. "
                 "Scrivi come un giornalista informato: concreto, calcistico, prudente. "
-                "Niente markdown, niente gergo tecnico, niente numeri da modello, niente "
-                "inviti a scommettere."
+                "Usa solo markdown editoriale semplice: titoletti e grassetto sui nomi. "
+                "Niente gergo tecnico, niente numeri da modello, niente inviti a scommettere."
             ),
         },
         {
@@ -626,8 +627,10 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
                 "Genera la notizia dei consigli della giornata. "
                 "Scrivi un pezzo breve di redazione sportiva: attacco, contesto, pochi nomi "
                 "caldi e chiusura utile al fantallenatore. Massimo 190 parole. "
-                "Solo testo semplice: niente markdown, niente titoli con asterischi, niente "
-                "elenchi puntati, niente percentuali, niente 'punti attesi', niente parole "
+                "Usa markdown leggibile con 3 o 4 sezioni brevi: titoletti con ## e paragrafi, "
+                "senza elenchi puntati. Tutti i nomi dei giocatori citati devono essere in "
+                "MAIUSCOLO e in grassetto markdown, per esempio **DIMARCO**. "
+                "Niente percentuali, niente 'punti attesi', niente parole "
                 "come modello, algoritmo, bookmaker o quote. "
                 "Puoi citare solo questi elementi se presenti nel payload: casa/trasferta, "
                 "avversario, titolarita' o ballottaggio, rigorista, calci da fermo, "
@@ -653,14 +656,17 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
                 "role": "user",
                 "content": (
                     "Riscrivi questo testo come notizia di redazione fantacalcio. "
-                    "Mantieni i nomi principali, ma elimina markdown, percentuali, punti attesi, "
-                    "linguaggio da modello e riferimenti a quote/bookmaker. Massimo 180 parole.\n\n"
+                    "Mantieni i nomi principali, ma elimina markdown sporco, percentuali, punti attesi, "
+                    "linguaggio da modello e riferimenti a quote/bookmaker. Usa 3 o 4 sezioni "
+                    "con titoletti ## e metti ogni nome giocatore in **MAIUSCOLO**. "
+                    "Massimo 180 parole.\n\n"
                     + text
                 ),
             },
         ]
         text = _deepseek_text(rewrite_messages, api_key) or text
     text = _ripulisci_spiegazione(text)
+    text = _evidenzia_nomi_giocatori(text, payload_consigli)
     if not text:
         print("  DeepSeek ha risposto senza testo: spiegazione non salvata")
         return None
@@ -715,21 +721,42 @@ def _deepseek_text(messages: list[dict], api_key: str) -> str | None:
 
 
 def _ripulisci_spiegazione(text: str) -> str:
-    pulito = text.replace("**", "").replace("__", "").replace("`", "")
+    pulito = text.replace("__", "**").replace("`", "")
     righe = []
     for line in pulito.splitlines():
         line = line.strip()
-        if line.startswith(("- ", "* ", "#")):
-            line = line.lstrip("-*# ").strip()
+        if line.startswith(("- ", "* ")):
+            line = line.lstrip("-* ").strip()
         if line:
             righe.append(line)
     return "\n\n".join(righe).strip()
 
 
+def _evidenzia_nomi_giocatori(text: str, payload: dict) -> str:
+    names = {
+        player.get("name", "").strip()
+        for players in payload.get("top3", {}).values()
+        for player in players
+    }
+    names.update(player.get("name", "").strip() for player in payload.get("xi", []))
+    for name in sorted((n for n in names if n), key=len, reverse=True):
+        upper = name.upper()
+        bold_pattern = re.compile(rf"\*\*\s*{re.escape(name)}\s*\*\*", re.IGNORECASE)
+        text = bold_pattern.sub(f"**{upper}**", text)
+        plain_pattern = re.compile(rf"(?<![\w*]){re.escape(name)}(?![\w*])", re.IGNORECASE)
+        text = plain_pattern.sub(f"**{upper}**", text)
+    return text
+
+
 def _testo_spiegazione_ok(text: str) -> bool:
     lower = text.lower()
     parole = lower.split()
-    return len(parole) <= TIPS_MAX_WORDS and not any(vietata in lower for vietata in TIPS_FORBIDDEN_TEXT)
+    has_bullets = any(line.lstrip().startswith(("- ", "* ")) for line in text.splitlines())
+    return (
+        len(parole) <= TIPS_MAX_WORDS
+        and not has_bullets
+        and not any(vietata in lower for vietata in TIPS_FORBIDDEN_TEXT)
+    )
 
 
 def _payload_consigli(base: dict) -> dict:
