@@ -16,12 +16,15 @@ on:
     - cron: "17 */2 * * *"
     # Nei giorni di gara si muovono fino a un'ora dal calcio d'inizio, ed e'
     # lì che una formazione vecchia di due ore fa schierare un infortunato.
-    # Venerdì-lunedì, dalle 12 alle 23 italiane, ogni quarto d'ora.
+    # Venerdì-lunedì, ogni quarto d'ora nella fascia calda delle formazioni.
+    # GitHub cron usa UTC: 10-22 UTC copre le 12-23 in ora legale e include
+    # anche le 23 in ora solare. C'e' una piccola ora extra in inverno, ma
+    # meglio una lettura in piu' che saltare l'ultima finestra pre-gara.
     #
     # I cron di GitHub sono a discrezione: sotto carico partono anche con
     # dieci minuti di ritardo, e non c'e' modo di pretenderne di più. E' il
     # motivo per cui la scheda «Probabili» ha comunque il tira-giù.
-    - cron: "*/15 10-21 * * 5,6,0,1"
+    - cron: "*/15 10-22 * * 5,6,0,1"
   workflow_dispatch: {}
 
 permissions:
