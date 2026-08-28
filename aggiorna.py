@@ -648,9 +648,10 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
     ]
     text = _deepseek_text(messages, api_key)
     if not text:
-        return None
+        return _spiegazione_da_testo(_fallback_articolo_consigli(payload_consigli), base, now, "fallback")
     text = _prepara_articolo_consigli(text, payload_consigli)
     if not _testo_spiegazione_ok(text):
+        print(f"  spiegazione DeepSeek da riscrivere: {', '.join(_motivi_spiegazione_non_ok(text))}")
         rewrite_messages = [
             messages[0],
             {
@@ -668,16 +669,25 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
         text = _prepara_articolo_consigli(_deepseek_text(rewrite_messages, api_key) or text, payload_consigli)
     if not text:
         print("  DeepSeek ha risposto senza testo: spiegazione non salvata")
-        return None
+        return _spiegazione_da_testo(_fallback_articolo_consigli(payload_consigli), base, now, "fallback")
     if not _testo_spiegazione_ok(text):
-        print("  DeepSeek ha generato una spiegazione fuori stile: non salvata")
+        print(f"  DeepSeek ha generato una spiegazione fuori stile: {', '.join(_motivi_spiegazione_non_ok(text))}")
+        fallback = _fallback_articolo_consigli(payload_consigli)
+        if _testo_spiegazione_ok(fallback):
+            print("  uso fallback editoriale locale per la nota consigli")
+            return _spiegazione_da_testo(fallback, base, now, "fallback")
+        print("  fallback editoriale non valido: spiegazione non salvata")
         return None
+    return _spiegazione_da_testo(text, base, now, "deepseek")
+
+
+def _spiegazione_da_testo(text: str, base: dict, now: datetime, source: str) -> dict:
     return {
         "version": TIPS_EXPLANATION_VERSION,
         "season": base.get("season"),
         "gameweek": base.get("gameweek"),
         "generatedAt": now.isoformat(timespec="seconds"),
-        "source": "deepseek",
+        "source": source,
         "model": DEEPSEEK_MODEL,
         "text": text,
     }
@@ -726,6 +736,34 @@ def _prepara_articolo_consigli(text: str, payload: dict) -> str:
     return text
 
 
+def _fallback_articolo_consigli(payload: dict) -> str:
+    top = payload.get("top3", {})
+    porta = _nomi_top(top.get("POR", []), 2)
+    difesa = _nomi_top(top.get("DIF", []), 3)
+    centrocampo = _nomi_top(top.get("CEN", []), 3)
+    attacco = _nomi_top(top.get("ATT", []), 3)
+    colpi = _nomi_top(payload.get("xi", []), 7)
+    text = (
+        "## Top di giornata\n\n"
+        f"In porta meritano fiducia {porta}. Dietro il nome caldo è {difesa}: profili da partita viva, "
+        f"con possibilità di incidere anche sui palloni inattivi. In mezzo spiccano {centrocampo}, "
+        f"mentre davanti la copertina va a {attacco}, reparto con diversi giocatori pronti a pesare in area.\n\n"
+        "## Colpi del Coach\n\n"
+        f"Negli 11 del Coach Squama entrano {colpi}. Non sono scelte da classifica secca, ma nomi da fiuto: "
+        "partita, ruolo e situazione possono trasformarli nelle sorprese utili della giornata."
+    )
+    return _evidenzia_nomi_giocatori(text, payload)
+
+
+def _nomi_top(players: list[dict], limit: int) -> str:
+    names = [player.get("name", "").strip() for player in players[:limit] if player.get("name")]
+    if not names:
+        return "i profili più affidabili del reparto"
+    if len(names) == 1:
+        return names[0]
+    return ", ".join(names[:-1]) + " e " + names[-1]
+
+
 def _ripulisci_spiegazione(text: str) -> str:
     pulito = text.replace("__", "**").replace("`", "")
     righe = []
@@ -770,16 +808,25 @@ def _evidenzia_nomi_giocatori(text: str, payload: dict) -> str:
 
 
 def _testo_spiegazione_ok(text: str) -> bool:
+    return not _motivi_spiegazione_non_ok(text)
+
+
+def _motivi_spiegazione_non_ok(text: str) -> list[str]:
     lower = text.lower()
     parole = lower.split()
     has_bullets = any(line.lstrip().startswith(("- ", "* ")) for line in text.splitlines())
     headings = sum(1 for line in text.splitlines() if line.startswith("## "))
-    return (
-        len(parole) <= TIPS_MAX_WORDS
-        and not has_bullets
-        and headings >= 2
-        and not any(vietata in lower for vietata in TIPS_FORBIDDEN_TEXT)
-    )
+    motivi = []
+    if len(parole) > TIPS_MAX_WORDS:
+        motivi.append(f"troppo lunga ({len(parole)} parole)")
+    if has_bullets:
+        motivi.append("elenchi puntati")
+    if headings < 2:
+        motivi.append(f"sezioni insufficienti ({headings})")
+    vietate = [vietata for vietata in TIPS_FORBIDDEN_TEXT if vietata in lower]
+    if vietate:
+        motivi.append("parole vietate: " + ", ".join(vietate))
+    return motivi
 
 
 def _payload_consigli(base: dict) -> dict:
