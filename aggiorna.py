@@ -649,6 +649,7 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
     text = _deepseek_text(messages, api_key)
     if not text:
         return None
+    text = _prepara_articolo_consigli(text, payload_consigli)
     if not _testo_spiegazione_ok(text):
         rewrite_messages = [
             messages[0],
@@ -664,9 +665,7 @@ def genera_spiegazione_consigli(base: dict, api_key: str, now: datetime | None =
                 ),
             },
         ]
-        text = _deepseek_text(rewrite_messages, api_key) or text
-    text = _ripulisci_spiegazione(text)
-    text = _evidenzia_nomi_giocatori(text, payload_consigli)
+        text = _prepara_articolo_consigli(_deepseek_text(rewrite_messages, api_key) or text, payload_consigli)
     if not text:
         print("  DeepSeek ha risposto senza testo: spiegazione non salvata")
         return None
@@ -720,6 +719,13 @@ def _deepseek_text(messages: list[dict], api_key: str) -> str | None:
     return text
 
 
+def _prepara_articolo_consigli(text: str, payload: dict) -> str:
+    text = _ripulisci_spiegazione(text)
+    text = _assicura_sezioni_markdown(text)
+    text = _evidenzia_nomi_giocatori(text, payload)
+    return text
+
+
 def _ripulisci_spiegazione(text: str) -> str:
     pulito = text.replace("__", "**").replace("`", "")
     righe = []
@@ -730,6 +736,21 @@ def _ripulisci_spiegazione(text: str) -> str:
         if line:
             righe.append(line)
     return "\n\n".join(righe).strip()
+
+
+def _assicura_sezioni_markdown(text: str) -> str:
+    if sum(1 for line in text.splitlines() if line.startswith("## ")) >= 2:
+        return text
+    paragrafi = [
+        line.lstrip("# ").strip()
+        for line in text.split("\n\n")
+        if line.strip()
+    ]
+    if len(paragrafi) >= 2:
+        return "## Top di giornata\n\n" + paragrafi[0] + "\n\n## Colpi del Coach\n\n" + "\n\n".join(paragrafi[1:])
+    if paragrafi:
+        return "## Top di giornata\n\n" + paragrafi[0] + "\n\n## Colpi del Coach\n\nOcchio ai nomi caldi indicati dal Coach per completare la formazione."
+    return text
 
 
 def _evidenzia_nomi_giocatori(text: str, payload: dict) -> str:
