@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-29T01:44:07+00:00",
+ "generatedAt": "2026-08-29T11:05:46+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -942,7 +942,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.06,
-   "playProbability": 0.044,
+   "playProbability": 0.445,
    "events": {
     "gf": 0.3235,
     "rf": 0.0079,
@@ -956,7 +956,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.445,
    "learnedEvents": {
     "gf": 0.2759,
     "rf": 0.0149,
@@ -981,8 +981,8 @@
    },
    "quotazione": 9.0,
    "fvm": 40.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -5679,7 +5679,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.13,
-   "playProbability": 0.429,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0856,
     "rf": 0.0057,
@@ -5693,7 +5693,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.09,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0626,
     "rf": 0.0047,
@@ -5719,7 +5719,7 @@
    "quotazione": 12.0,
    "fvm": 56.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9797,8 +9797,8 @@
    },
    "quotazione": 4.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -11369,7 +11369,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.06,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.0529,
     "rf": 0.01,
@@ -11383,7 +11383,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.21,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1096,
     "rf": 0.0082,
@@ -11408,8 +11408,8 @@
    },
    "quotazione": 5.0,
    "fvm": 14.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12781,8 +12781,8 @@
    },
    "quotazione": 3.0,
    "fvm": 11.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36511,14 +36511,14 @@
     {
      "opzioni": [
       {
-       "player_id": "5685",
-       "giocatore": "Koopmeiners",
+       "player_id": "5544",
+       "giocatore": "David",
        "titolarita_pct": 51,
-       "ruolo": "C"
+       "ruolo": "A"
       },
       {
-       "player_id": "7436",
-       "giocatore": "Alajbegovic",
+       "player_id": "5685",
+       "giocatore": "Koopmeiners",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -37198,13 +37198,103 @@
  ],
  "news": [
   {
+   "title": "Juventus, Spalletti cambia ruolo a David contro il Parma: le ultime su Alajbegovic, Conceicao e Kolo Muani",
+   "summary": "Spalletti chiamato a sciogliere gli ultimi dubbi di formazione in vista dell'esordio casalingo contro il Parma di Cuesta.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-david-ruolo-frosinone-alajbegovic-kolo-muani-conceicao/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289583351-faf2e68b3400-e1787718341398.jpeg",
+   "date": "2026-08-29T11:00:27+00:00"
+  },
+  {
+   "title": "NEWS - Spence, si allungano i tempi! David, Pavard, Sucic, Badiashile, Vergara, Molina, Oulai, Njie, Davis...",
+   "summary": "E' iniziata la seconda giornata del campionato di Serie A 2026/27: tutte le ultime novità dai campi e le probabili formazioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-spence-si-allungano-i-tempi-david-pavard-sucic-badiashile-vergara-molina-oulai-njie-davis/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290713788-88b168a9dd55-e1787141338838.jpg",
+   "date": "2026-08-29T10:30:47+00:00"
+  },
+  {
+   "title": "Moretto - Il Cagliari ci ha provato per Vitinha: la posizione del giocatore e il retroscena su Camarda",
+   "summary": "Il club sardo ha provato a regalare un attaccante a Pisacane negli ultimi giorni di mercato: ecco che cosa è successo.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/cagliari-vitinha-camarda-retroscena/",
+   "image": "https://static.sosfanta.com/202603/de8c4ff61692480567e4f3c303cfa735-scaled-e1772978363135.jpg",
+   "date": "2026-08-29T10:00:37+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Il figlio di Robinho arriva in Italia: operazione chiusa per il talento brasiliano",
+   "summary": "Colpo a sorpresa del Grifone: è fatta per l'arrivo dell'ex attaccante di Milan, Real Madrid e Manchester City.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/genoa/genoa-robinho-figlio-trasferimento/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2246380086-ab5ca9e10e53-e1787995831584.jpg",
+   "date": "2026-08-29T09:30:36+00:00"
+  },
+  {
+   "title": "BREAKING - Juve, brutte notizie per Kessié: è arrivata la comunicazione del giocatore",
+   "summary": "Al culmine di una trattativa estenuante è arrivata la decisione dell'ivoriano sul suo possibile approdo in bianconero.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juventus-kessie-decisione/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2226692793-288c2ab26d74.jpg",
+   "date": "2026-08-29T09:15:42+00:00"
+  },
+  {
+   "title": "Mercato Roma, da Fofana a Bynoe-Gittens: la situazione e cosa risulta a Fabrizio Romano",
+   "summary": "Roma attiva sul mercato nei giorni finali di trattative: riflettori su un potenziale rinforzo offensivo da regalare a Gasperini.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/mercato-roma-fofana-bynoe-gittens-cosa-succede/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2234312701-ed1491a8c1dc-scaled-e1786706484498.jpg",
+   "date": "2026-08-29T09:00:32+00:00"
+  },
+  {
+   "title": "Amorim: \"Ecco perché Pulisic sta fuori! Ramos pagato tanto ma pressa per due, il ruolo di Saelemaekers...\"",
+   "summary": "Il tecnico Ruben Amorim ha rilasciato alcune dichiarazioni al termine di Milan-Venezia, match vinto ieri dai rossoneri per 2-0. Le sue parole.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/amorim-ecco-perche-pulisic-sta-fuori-ramos-pagato-tanto-ma-pressa-per-due-il-ruolo-di-saelemaekers/",
+   "image": "https://static.sosfanta.com/2026/08/IMG_7983-96ba9e4429cd-e1787951326784.jpg",
+   "date": "2026-08-29T08:45:40+00:00"
+  },
+  {
+   "title": "Zirkzee, cosa filtra tra Fiorentina e Juve. E occhio a David-Atletico: il punto di Fabrizio Romano",
+   "summary": "La Juventus pensa ancora alla possibilità di inserire un attaccante: se David parte, i bianconeri potrebbero tornare forte su Zirkzee, ma sullo sfondo c'è se...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/zirkzee-david-juventus-fiorentina-atletico-madrid-cosa-succede/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289583351-faf2e68b3400-e1787718341398.jpeg",
+   "date": "2026-08-29T08:15:58+00:00"
+  },
+  {
+   "title": "Moretto - Milan, ecco la situazione per Hutchinson del Nottingham Forest: cosa filtra",
+   "summary": "Il fantasista classe 2003 del Nottingham Forest Omari Hutchinson è un nome valutato dal Milan, come riporta Matteo Moretto su Youtube.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/moretto-milan-ecco-la-situazione-per-hutchinson-del-nottingham-forest-cosa-filtra/",
+   "image": "https://static.sosfanta.com/2026/08/IMG_8006-8fadbdb106d5-e1787955279451.jpg",
+   "date": "2026-08-29T08:00:41+00:00"
+  },
+  {
    "title": "Romano - Inter, in chiusura l’addio in prestito di Massolin! Ecco cosa risulta su Chiesa",
    "summary": "Novità di mercato in casa Inter, c'è il Cagliari in chiusura per il Massolin. Tutti i dettagli, per quanto riguardo Chiesa...",
    "author": "Tommaso Lerro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/inter/romano-inter-massolin-cagliari/",
    "image": "https://static.sosfanta.com/2026/08/IMG_7996-b527a72a3b90-e1787954102120.jpg",
-   "date": "2026-08-28T22:16:59+00:00"
+   "date": "2026-08-29T07:15:59+00:00"
+  },
+  {
+   "title": "Ramos: \"Avrei segnato anche più di un gol! Vogliamo divertirci e vincere, sono molto felice\"",
+   "summary": "Ramos: \"Avrei segnato anche più di un gol! Vogliamo divertirci e vincere, sono molto felice\"",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/ramos-avrei-segnato-anche-piu-di-un-gol-vogliamo-divertirci-e-vincere-sono-molto-felice/",
+   "image": "https://static.sosfanta.com/2026/08/IMG_7985-8708646bd1f0-e1787951988274.jpg",
+   "date": "2026-08-29T07:00:55+00:00"
   },
   {
    "title": "Leao: \"Avrei voluto salutare in campo! Il mio amore per il Milan non finirà mai, sono nella storia del club\"",
@@ -37213,7 +37303,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/milan/leao-milan-addio/",
    "image": "https://static.sosfanta.com/2026/08/IMG_7988-e764fae6ba4c-e1787952449738.jpg",
-   "date": "2026-08-28T22:15:17+00:00"
+   "date": "2026-08-29T06:45:17+00:00"
   },
   {
    "title": "Venezia, preso un talento dal Barcellona! Stroppa: \"Una cosa mi fa girare le scatole. Perché Correia fuori\"",
@@ -37222,7 +37312,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/venezia/stroppa-venezia/",
    "image": "https://static.sosfanta.com/2026/08/IMG_7982-b20a205781f5-e1787951332751.jpg",
-   "date": "2026-08-28T22:00:41+00:00"
+   "date": "2026-08-29T06:00:41+00:00"
   },
   {
    "title": "Sky - Sorpresa Mbangula: c'è stato un sondaggio per un suo ritorno in Serie A",
@@ -37466,96 +37556,6 @@
    "url": "https://www.sosfanta.com/news/probabili-formazioni-sassuolo-torino-berardi-fantacalcio/",
    "image": "https://static.sosfanta.com/202605/46dea53defa2abf8be5bd409d03a5c8b-scaled-e1778243784444.jpeg",
    "date": "2026-08-28T15:30:23+00:00"
-  },
-  {
-   "title": "Spalletti: \"McKennie out: il motivo! Kessié possibile, vi spiego su Muani, Yildiz, Alajbegovic, Nico, Thuram…\"",
-   "summary": "Alla vigilia della sfida tra Juve e Parma, il tecnico dei bianconeri Luciano Spalletti ha parlato in conferenza stampa",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-mckennie-out-il-motivo-kessie-possibile-vi-spiego-su-muani-yildiz-alajbegovic-nico-thuram/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291715863-43d61addc3f4.jpg",
-   "date": "2026-08-28T15:15:08+00:00"
-  },
-  {
-   "title": "Moretto - Tutto congelato per Pedersen: ora l’Olympiacos vuole fare un'offerta ufficiale per Dodo",
-   "summary": "Dall'ultimo video su Youtube, Matteo Moretto ha fatto il punto sul caso che riguarda Dodo e Pedersen.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/moretto-tutto-congelato-per-pedersen-ora-lolympiacos-vuole-fare-unofferta-ufficiale-per-dodo/",
-   "image": "https://static.sosfanta.com/202603/80897b6ef9169caeb6cc18565efee9ff.png",
-   "date": "2026-08-28T15:05:20+00:00"
-  },
-  {
-   "title": "Le probabili formazioni di Napoli-Como: da De Bruyne a Baturina, Vergara, Liberali, Anguissa e Diao, le ultime",
-   "summary": "Ultimi dubbi di formazione per Massimiliano Allegri e Cesc Fabregas per il big match fra Napoli e Como. Le ultime dai campi sulle scelte dei due tecnici.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/probabili-formazioni-napoli-como-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290862834-a43c5f8f91a8-e1787408045742.jpg",
-   "date": "2026-08-28T15:00:54+00:00"
-  },
-  {
-   "title": "Milan, il rito di iniziazione di Diego Moreira è uno spasso e Amorim... guarda qui!",
-   "summary": "Balletto come rito di iniziazione anche per il nuovo giocatore del Milan Diego Moreira: guarda qui cos'ha fatto.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/moreira-rito-iniziazione-spasso-amorim-video/",
-   "image": "https://static.sosfanta.com/2026/08/Moreira-91265e870244-e1787245377185.jpg",
-   "date": "2026-08-28T14:59:43+00:00"
-  },
-  {
-   "title": "UFFICIALE - Yildiz si opera! Chiellini: “Starà fuori qualche mese ma poi tornerà al 100%: vi spiego”",
-   "summary": "Arriva la conferma di Giorgio Chiellini in merito alla notizia che il fantasista della Juve, Kenan Yildiz, sia prossimo ad operarsi: le parole del dirigente.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/yildiz-juve-chiellini/",
-   "image": "https://static.sosfanta.com/202604/8948619e59cfb2b3840449c1ce0fd908-e1777236829420.jpg",
-   "date": "2026-08-28T14:50:12+00:00"
-  },
-  {
-   "title": "UFFICIALE - Ngonge è un nuovo giocatore del Monza: il comunicato. E cambia tutto al fantacalcio",
-   "summary": "Cyril Ngonge lascia il Napoli: è ufficialmente un nuovo giocatore del Monza e cambia tutto al fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/ngonge-ufficiale-monza-cambia-tutto-fantacalcio/",
-   "image": "https://static.sosfanta.com/202404/45216e368978a912684c896fe5f214a4-e1713649300230.jpg",
-   "date": "2026-08-28T14:45:14+00:00"
-  },
-  {
-   "title": "Aquilani: \"Novità su Berardi! Come giocherà Esposito, su Thorstvedt, Bowie, Lipani, Obrador e Walukiewicz...\"",
-   "summary": "Dopo il ko per 2-1 contro l'Atalanta, il Sassuolo si prepara alla sfida contro il Torino. Il tecnico neroverde, Alberto Aquilani, ha parlato in conferenza st...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/aquilani-sassuolo-torino-berardi/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290882735-b54e884a81be-e1787912237522.jpg",
-   "date": "2026-08-28T14:40:39+00:00"
-  },
-  {
-   "title": "Fabregas: \"Kaiki mi piace molto: sulla fascia ammazza tutti! Su Morata, Liberali, Audero, Kambwala, Caqueret e Ricci...\"",
-   "summary": "In vista della tra Napoli e Como, il tecnico dei lariani Ces Fabregas ha parlato in conferenza stampa",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/fabregas-kaiki-mi-piace-molto-sulla-fascia-ammazza-tutti-su-morata-liberali-audero-kambwala-caqueret-e-ricci/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290767234-b374c5afd54b.jpg",
-   "date": "2026-08-28T14:30:09+00:00"
-  },
-  {
-   "title": "Fantacalcio Mantra: ecco i consigli fascia per fascia per la 2a giornata 2026-2027",
-   "summary": "Prima giornata di Serie A e fantacalcio, non possono mancare i consigli anche per il Mantra: questi sono i consigli fascia per fascia.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fantacalcio-mantra-ecco-i-consigli-fascia-per-fascia-per-la-2a-giornata-2026-2027/",
-   "image": "https://static.sosfanta.com/202605/2fd2cf8c1f42ff4b48e3df209b9a2d67.jpg",
-   "date": "2026-08-28T14:15:59+00:00"
-  },
-  {
-   "title": "Atalanta-Bologna, le probabili formazioni: le chance di De Ketelaere e Bernardeschi, in pole Pasalic e Piccoli",
-   "summary": "Atalanta e Bologna si affrontano per la 2a giornata di Serie A: ecco le probabili formazioni delle due squadre.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-bologna-probabili-formazioni-fantacalcio/",
-   "image": "https://static.sosfanta.com/202602/1e7ef7a1a93781ade375ba70c33add96.png",
-   "date": "2026-08-28T14:00:23+00:00"
   }
  ],
  "marketDifficulty": {
