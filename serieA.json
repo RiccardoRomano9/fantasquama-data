@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-29T11:05:46+00:00",
+ "generatedAt": "2026-08-29T13:48:09+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -15679,7 +15679,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.15,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.1549,
     "rf": 0.0013,
@@ -15693,7 +15693,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.09,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1056,
     "rf": 0.0079,
@@ -15718,9 +15718,9 @@
    },
    "quotazione": 10.0,
    "fvm": 41.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -37198,6 +37198,87 @@
  ],
  "news": [
   {
+   "title": "Zhegrova non convocato contro il Frosinone: il motivo! Ma attenzione al mercato, tra Arabia e Serie A...",
+   "summary": "Zhegrova non è stato convocato nella Juve per il match contro il Parma, ecco il motivo ufficiale. E attenzione al mercato...",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/zhegrova-juve-non-convocato-mercato/",
+   "image": "https://static.sosfanta.com/202510/355674a38dcc56f205a1b8eeb9724544-scaled-e1760184301848.jpg",
+   "date": "2026-08-29T13:30:10+00:00"
+  },
+  {
+   "title": "Le scelte probabili nella Fiorentina: Gudmundsson, Mastantuono, Atta, Valdepenas e Jimenez...",
+   "summary": "La Fiorentina scenderà in campo contro il Frosinone, ecco le probabili scelte del tecnico Fabio Grosso: da Gudmundsson e Mastantuono alla difesa.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-formazione-gudmundsson-mastantuono-atta/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289958651-6c47f034f75b-scaled-e1787226776498.jpeg",
+   "date": "2026-08-29T13:00:19+00:00"
+  },
+  {
+   "title": "Romano - Balerdi alla Roma, è fatta: accordo raggiunto, i dettagli dell'operazione. E spunta un nuovo esterno...",
+   "summary": "La Roma ha chiuso per Balerdi: il club giallorosso regala un nuovo difensore a Gian Piero Gasperini.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/balerdi-roma-accordo-raggiunto-luiz-henrique/",
+   "image": "https://static.sosfanta.com/2026/08/Leonardo-Balerdi-ee518e48b857-e1787952965500.jpeg",
+   "date": "2026-08-29T12:45:55+00:00"
+  },
+  {
+   "title": "Allegri: “Le condizioni di Badiashile, Beukema e Neres! Lang, Hojlund, Lucca, De Bruyne, Vergara…”",
+   "summary": "Massimiliano Allegri ha parlato in conferenza stampa alla vigilia di Napoli-Como. Di seguito ecco le sue dichiarazioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/allegri-conferenza-napoli/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291407139-f9487c4134b9.jpg",
+   "date": "2026-08-29T12:45:20+00:00"
+  },
+  {
+   "title": "Sassuolo, arriva un difensore dal Lione: è fatta, i dettagli",
+   "summary": "Il Sassuolo regala un nuovo innesto ad Aquilani per il reparto difensivo: trattativa ormai in chiusura.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-caleta-car-accordo-vicino/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2271965968-f029803777a5-e1788003841357.jpg",
+   "date": "2026-08-29T12:30:45+00:00"
+  },
+  {
+   "title": "BREAKING - Massolin lascia l'Inter in prestito e resta ancora in Serie A: è fatta",
+   "summary": "Il centrocampista ex Modena lascia il club nerazzurro ma rimane al fantacalcio: i dettagli dell'accordo.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/inter-massolin-cagliari-accordo/",
+   "image": "https://static.sosfanta.com/2026/08/IMG_7996-b527a72a3b90-e1787954102120.jpg",
+   "date": "2026-08-29T12:20:26+00:00"
+  },
+  {
+   "title": "UFFICIALE - Como, annunciato l'arrivo di Ricci dal Milan: il comunicato del club e la formula",
+   "summary": "Il Como ha ufficializzato l'ingaggio di Ricci. Il centrocampista arriva dal Milan, ecco comunicato e formula del trasferimento.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/ufficiale-como-annunciato-larrivo-di-ricci-dal-milan-il-comunicato-del-club-e-la-formula/",
+   "image": "https://static.sosfanta.com/202506/d0d8b61d74c0508f5ef0907070016b06.jpg",
+   "date": "2026-08-29T12:10:00+00:00"
+  },
+  {
+   "title": "Pisacane: \"Con l'Inter servirà una ferocia diversa, su Fadera, Mendy, Mina, Ciervo, Zappa e Trepy...\"",
+   "summary": "Le parole in conferenza stampa dell'allenatore del Cagliari alla vigilia della sfida con l'Inter.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/pisacane-cagliari-conferenza/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291584001-7dc4983e149d-e1787432834167.jpg",
+   "date": "2026-08-29T12:00:54+00:00"
+  },
+  {
+   "title": "FLASH - Attenzione a Khephren Thuram: non convocato per il Parma, farà un consulto specialistico. E Zhegrova...",
+   "summary": "Il centrocampista francese sarà indisponibile anche per la seconda giornata di campionato: nei prossimi giorni è previsto un consulto medico sulle sue condiz...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/flash-attenzione-a-khephren-thuram-non-convocato-per-il-parma-fara-un-consulto-specialistico/",
+   "image": "https://static.sosfanta.com/202605/8eaf6283db4045d24963cbee7a5eef2f-scaled-e1779463855318.jpg",
+   "date": "2026-08-29T11:30:41+00:00"
+  },
+  {
    "title": "Juventus, Spalletti cambia ruolo a David contro il Parma: le ultime su Alajbegovic, Conceicao e Kolo Muani",
    "summary": "Spalletti chiamato a sciogliere gli ultimi dubbi di formazione in vista dell'esordio casalingo contro il Parma di Cuesta.",
    "author": "Michael Di Chiaro",
@@ -37216,6 +37297,15 @@
    "date": "2026-08-29T10:30:47+00:00"
   },
   {
+   "title": "ULTIM’ORA - Il figlio di Robinho arriva in Italia: operazione chiusa per il talento brasiliano",
+   "summary": "Colpo a sorpresa del Grifone: è fatta per l'arrivo dell'ex attaccante di Milan, Real Madrid e Manchester City.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/genoa/genoa-robinho-figlio-trasferimento/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2246380086-ab5ca9e10e53-e1787995831584.jpg",
+   "date": "2026-08-29T10:15:36+00:00"
+  },
+  {
    "title": "Moretto - Il Cagliari ci ha provato per Vitinha: la posizione del giocatore e il retroscena su Camarda",
    "summary": "Il club sardo ha provato a regalare un attaccante a Pisacane negli ultimi giorni di mercato: ecco che cosa è successo.",
    "author": "Michael Di Chiaro",
@@ -37225,22 +37315,22 @@
    "date": "2026-08-29T10:00:37+00:00"
   },
   {
-   "title": "ULTIM’ORA - Il figlio di Robinho arriva in Italia: operazione chiusa per il talento brasiliano",
-   "summary": "Colpo a sorpresa del Grifone: è fatta per l'arrivo dell'ex attaccante di Milan, Real Madrid e Manchester City.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/genoa/genoa-robinho-figlio-trasferimento/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2246380086-ab5ca9e10e53-e1787995831584.jpg",
-   "date": "2026-08-29T09:30:36+00:00"
-  },
-  {
    "title": "BREAKING - Juve, brutte notizie per Kessié: è arrivata la comunicazione del giocatore",
    "summary": "Al culmine di una trattativa estenuante è arrivata la decisione dell'ivoriano sul suo possibile approdo in bianconero.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/juventus-kessie-decisione/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2226692793-288c2ab26d74.jpg",
-   "date": "2026-08-29T09:15:42+00:00"
+   "date": "2026-08-29T09:45:42+00:00"
+  },
+  {
+   "title": "Amorim: \"Ecco perché Pulisic sta fuori! Ramos pagato tanto ma pressa per due, il ruolo di Saelemaekers...\"",
+   "summary": "Il tecnico Ruben Amorim ha rilasciato alcune dichiarazioni al termine di Milan-Venezia, match vinto ieri dai rossoneri per 2-0. Le sue parole.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/amorim-ecco-perche-pulisic-sta-fuori-ramos-pagato-tanto-ma-pressa-per-due-il-ruolo-di-saelemaekers/",
+   "image": "https://static.sosfanta.com/2026/08/IMG_7983-96ba9e4429cd-e1787951326784.jpg",
+   "date": "2026-08-29T09:15:40+00:00"
   },
   {
    "title": "Mercato Roma, da Fofana a Bynoe-Gittens: la situazione e cosa risulta a Fabrizio Romano",
@@ -37250,15 +37340,6 @@
    "url": "https://www.sosfanta.com/squadra/roma/mercato-roma-fofana-bynoe-gittens-cosa-succede/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2234312701-ed1491a8c1dc-scaled-e1786706484498.jpg",
    "date": "2026-08-29T09:00:32+00:00"
-  },
-  {
-   "title": "Amorim: \"Ecco perché Pulisic sta fuori! Ramos pagato tanto ma pressa per due, il ruolo di Saelemaekers...\"",
-   "summary": "Il tecnico Ruben Amorim ha rilasciato alcune dichiarazioni al termine di Milan-Venezia, match vinto ieri dai rossoneri per 2-0. Le sue parole.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/amorim-ecco-perche-pulisic-sta-fuori-ramos-pagato-tanto-ma-pressa-per-due-il-ruolo-di-saelemaekers/",
-   "image": "https://static.sosfanta.com/2026/08/IMG_7983-96ba9e4429cd-e1787951326784.jpg",
-   "date": "2026-08-29T08:45:40+00:00"
   },
   {
    "title": "Zirkzee, cosa filtra tra Fiorentina e Juve. E occhio a David-Atletico: il punto di Fabrizio Romano",
@@ -37475,87 +37556,6 @@
    "url": "https://www.sosfanta.com/news/preview-fantacalcio-2a-giornata-chi-schierare-tutte-partite-consigli/",
    "image": "https://static.sosfanta.com/2026/08/pio-esposito-5db5da751d9e-e1787872703562.jpeg",
    "date": "2026-08-28T17:15:09+00:00"
-  },
-  {
-   "title": "Juve-Parma, le probabili formazioni: dalle ultime su Lucumi a Koopmeiners, Boga, Sorensen e Romero",
-   "summary": "Oltre alla lunga assenza per Yildiz, Spalletti deve fare i conti con McKennie in dubbio per affaticamento muscolare",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juve-parma-probabili-formazioni-lucumi-mckennie-fantacalcio/",
-   "image": "https://static.sosfanta.com/202606/064b5a89381dc7c4dc6f26e0771ad348.jpg",
-   "date": "2026-08-28T17:00:12+00:00"
-  },
-  {
-   "title": "Chi schierare in attacco alla seconda giornata al fantacalcio: la divisione fascia per fascia",
-   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/attaccanti/chi-schierare-attacco-seconda-giornata-fantacalcio-consigli/",
-   "image": "https://static.sosfanta.com/2026/08/Kolo-Muani-743f7597b5de-e1787850801975.jpg",
-   "date": "2026-08-28T16:50:41+00:00"
-  },
-  {
-   "title": "Chi schierare in porta alla seconda giornata al fantacalcio: la divisione fascia per fascia",
-   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i portieri: ecco le nostre fasce e chi schierare tra i pali.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/portieri/chi-schierare-porta-seconda-giornata-fantacalcio-seriea-portieri/",
-   "image": "https://static.sosfanta.com/2026/08/Okoye-59cb6a64ccf2-e1787848834324.jpg",
-   "date": "2026-08-28T16:40:43+00:00"
-  },
-  {
-   "title": "Juric: \"L'emergenza continua ed è totale. Su Akinsanmiro, Maye, Mout, Touré e Varela\"",
-   "summary": "Le parole dell'allenatore del Monza in conferenza stampa alla vigilia del match di campionato contro l'Udinese.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juric-conferenza-monza-udinese/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291565153-b465ee16d346-scaled-e1787426845597.jpg",
-   "date": "2026-08-28T16:30:14+00:00"
-  },
-  {
-   "title": "FLASH - Milan, finisce la telenovela Leao: ecco la sua decisione tra Aston Villa e Galatasaray, è fatta!",
-   "summary": "Leao ha rotto gli indugi sul proprio futuro: ecco dove giocherà il portoghese nella prossima stagione.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/milan-leao-futuro-galatasaray-decisione/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288548848-3e22c90ab6dc.jpg",
-   "date": "2026-08-28T16:20:17+00:00"
-  },
-  {
-   "title": "Bologna a sorpresa, è fatta per un attaccante dalla Stella Rossa: cifre e dettagli dell'operazione",
-   "summary": "Il Bologna regala un rinforzo in attacco a Tedesco nel segmento finale di mercato: tutti i dettagli.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/bologna-attaccante-preso-stella-rossa-cifre-dettagli/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2287142495-a03e0cc20ba9-e1787935180125.jpg",
-   "date": "2026-08-28T16:10:25+00:00"
-  },
-  {
-   "title": "Fiorentina-Frosinone, le probabili formazioni: le ultime su Pellegrino, Gud, Oulai e la scelta su Ghedjemis",
-   "summary": "La Fiorentina cerca riscatto dopo il tonfo in casa della Roma ospitando il Frosinone: le ultime sulle probabili scelte di formazione di Grosso e Alvini.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-frosinone-probabili-formazioni-pellegrino-gudmundsson-oulai-ghedjemis/",
-   "image": "https://static.sosfanta.com/2026/08/pellegrino-nuovi-f3b5c7022e18-e1786734404868.webp",
-   "date": "2026-08-28T16:00:26+00:00"
-  },
-  {
-   "title": "BREAKING - Il Como saluta Van der Brempt: operazione da 6 milioni, rimane in Serie A",
-   "summary": "L'esterno belga lascia il club lariano ma approda in un altro club della massima serie: cifre e dettagli dell'operazione.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/van-der-brempt-sassuolo-accordo-como-cifre-dettagli/",
-   "image": "https://static.sosfanta.com/202509/d063e935f874bfae07c237f2b09898e7-e1757003005225.jpg",
-   "date": "2026-08-28T15:45:04+00:00"
-  },
-  {
-   "title": "Sassuolo-Torino, dubbi e scelte di formazione: le ultime su Berardi! Vlasic, Adzic, C. Adams e Bowie...",
-   "summary": "La grande novità in casa Sassuolo è Mimmo Berardi: è in ballottaggio con Volpato ed è sfavorito. Le probabili formazioni per la sfida al Torino.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/probabili-formazioni-sassuolo-torino-berardi-fantacalcio/",
-   "image": "https://static.sosfanta.com/202605/46dea53defa2abf8be5bd409d03a5c8b-scaled-e1778243784444.jpeg",
-   "date": "2026-08-28T15:30:23+00:00"
   }
  ],
  "marketDifficulty": {
