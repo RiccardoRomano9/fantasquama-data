@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-30T13:46:07+00:00",
+ "generatedAt": "2026-08-30T14:19:22+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -25088,7 +25088,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 5.99,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0468,
     "rf": 0.0001,
@@ -25102,7 +25102,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0474,
     "rf": 0.0036,
@@ -25127,9 +25127,9 @@
    },
    "quotazione": 2.0,
    "fvm": 5.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -25693,8 +25693,8 @@
    },
    "quotazione": 7.0,
    "fvm": 24.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -26509,8 +26509,8 @@
    },
    "quotazione": 7.0,
    "fvm": 19.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36710,6 +36710,15 @@
  ],
  "news": [
   {
+   "title": "Gazzetta demolisce David: \"Bocciato senza appello e per l’ennesima volta\". Il voto è horror",
+   "summary": "4 in pagella da La Gazzetta dello Sport a Jonathan David dopo l'ennesima pessima prestazione ieri sera contro il Parma in casa.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/gazzetta-demolisce-david-bocciato-senza-appello/",
+   "image": "https://static.sosfanta.com/202602/52344545e015639d578db43259e08e49-e1771672554115.jpg",
+   "date": "2026-08-30T14:00:26+00:00"
+  },
+  {
    "title": "Inter, piccolo infortunio per Spence: ecco quando potrebbe rientrare in campo",
    "summary": "Niente Cagliari per Spence che non è partito per via di un piccolo infortunio. Queste le ultime secondo Tuttosport",
    "author": "Andrea Della Sala",
@@ -37059,15 +37068,6 @@
    "url": "https://www.sosfanta.com/squadra/milan/milan-cessione-gimenez-vicina-ultimissime/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2288302749-78e91de5ac50.jpg",
    "date": "2026-08-29T20:15:19+00:00"
-  },
-  {
-   "title": "FLASH - Fiorentina, è fatta per Njie: i dettagli! Grosso: “Come ho visto Mastantuono e oggi avrei messo Kean\"",
-   "summary": "Il clamoroso ko con il Frosinone, ma anche il mercato e le parole di Fabio Grosso: come riportato da Fabrizio Romano, la Fiorentina ha preso Alieu Njie dal T...",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/flash-fiorentina-e-fatta-per-njie-i-dettagli-grosso-come-ho-visto-mastantuono-e-oggi-avrei-messo-kean/",
-   "image": "https://static.sosfanta.com/2026/08/Njie-4176633a82bb-e1788032527155.jpg",
-   "date": "2026-08-29T20:10:03+00:00"
   }
  ],
  "marketDifficulty": {
