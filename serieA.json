@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-30T14:32:42+00:00",
+ "generatedAt": "2026-08-30T14:52:44+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -4636,7 +4636,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.04,
-   "playProbability": 0.445,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.3848,
     "rf": 0.0042,
@@ -4650,7 +4650,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.18,
-   "learnedPlayProbability": 0.445,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.1826,
     "rf": 0.0143,
@@ -4675,8 +4675,8 @@
    },
    "quotazione": 12.0,
    "fvm": 53.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12935,7 +12935,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.05,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.1548,
     "rf": 0.0059,
@@ -12949,7 +12949,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.67,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0809,
     "rf": 0.0047,
@@ -12974,8 +12974,8 @@
    },
    "quotazione": 19.0,
    "fvm": 101.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36534,16 +36534,16 @@
     {
      "opzioni": [
       {
-       "player_id": "5734",
-       "giocatore": "Soulè",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
        "player_id": "7556",
        "giocatore": "Mora",
-       "titolarita_pct": 49,
+       "titolarita_pct": 51,
        "ruolo": "C"
+      },
+      {
+       "player_id": "5734",
+       "giocatore": "Soulè",
+       "titolarita_pct": 49,
+       "ruolo": "A"
       }
      ]
     }
@@ -36710,6 +36710,24 @@
  ],
  "news": [
   {
+   "title": "BREAKING - Ratkov lascia la Lazio e la Serie A, è fatta: ecco cifre e formula del trasferimento",
+   "summary": "Petar Ratkov lascia la Lazio: è fatta per la sua cessione, come spiega Fabrizio Romano sul suo canale WhatSapp, è stato trovato l'accordo verbale col Levante.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/breaking-ratkov-lascia-lazio-cifre-formula/",
+   "image": "https://static.sosfanta.com/2026/08/PHOTO-2026-08-30-16-31-25-7b8fe5e60b75-e1788100385955.jpg",
+   "date": "2026-08-30T14:25:56+00:00"
+  },
+  {
+   "title": "UFFICIALE - Cagliari, i convocati per l'Inter: out Mina per infortunio, le sue condizioni",
+   "summary": "Sono ventiquattro i calciatori a disposizione di mister Pisacane per la gara di stasera contro l’Inter all’Unipol Domus. Non convocato Yerry Mina.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/ufficiale-cagliari-convocati-out-mina-condizioni/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2215763501-4a0782355411-e1788092677656.jpg",
+   "date": "2026-08-30T14:15:57+00:00"
+  },
+  {
    "title": "Gazzetta demolisce David: \"Bocciato senza appello e per l’ennesima volta\". Il voto è horror",
    "summary": "4 in pagella da La Gazzetta dello Sport a Jonathan David dopo l'ennesima pessima prestazione ieri sera contro il Parma in casa.",
    "author": "Marco Astori",
@@ -36717,6 +36735,15 @@
    "url": "https://www.sosfanta.com/voti-fantacalcio/gazzetta-demolisce-david-bocciato-senza-appello/",
    "image": "https://static.sosfanta.com/202602/52344545e015639d578db43259e08e49-e1771672554115.jpg",
    "date": "2026-08-30T14:00:26+00:00"
+  },
+  {
+   "title": "Gasperini: \"Rispondo su Soulé, domani gioca! Balerdi, De Roon, Molina e quando tornano Pellegrini e Rensch\"",
+   "summary": "Impegno sul campo del Lecce domani sera per la Roma di Gian Piero Gasperini: ecco le dichiarazioni dell'allenatore giallorosso oggi in conferenza stampa.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/gasperini-rispondo-soule-domani-gioca-balerdi-de-roon-molina-quando-tornano-pellegrini-rensch/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291535160-a415910280ad-e1788075989823.jpg",
+   "date": "2026-08-30T13:45:31+00:00"
   },
   {
    "title": "Inter, piccolo infortunio per Spence: ecco quando potrebbe rientrare in campo",
@@ -36744,24 +36771,6 @@
    "url": "https://www.sosfanta.com/squadra/lecce/lecce-di-francesco-stuling-tiago-gabriel-roma/",
    "image": "https://static.sosfanta.com/202605/6e735f9ac526e9a2f1ce81cb48de71ed-e1779049145217.jpg",
    "date": "2026-08-30T12:30:42+00:00"
-  },
-  {
-   "title": "UFFICIALE - Cagliari, i convocati per l'Inter: out Mina per infortunio, le sue condizioni",
-   "summary": "Sono ventiquattro i calciatori a disposizione di mister Pisacane per la gara di stasera contro l’Inter all’Unipol Domus. Non convocato Yerry Mina.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/cagliari/ufficiale-cagliari-convocati-out-mina-condizioni/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2215763501-4a0782355411-e1788092677656.jpg",
-   "date": "2026-08-30T12:25:57+00:00"
-  },
-  {
-   "title": "Gasperini: \"Rispondo su Soulé, domani gioca! Balerdi, De Roon, Molina e quando tornano Pellegrini e Rensch\"",
-   "summary": "Impegno sul campo del Lecce domani sera per la Roma di Gian Piero Gasperini: ecco le dichiarazioni dell'allenatore giallorosso oggi in conferenza stampa.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/gasperini-rispondo-soule-domani-gioca-balerdi-de-roon-molina-quando-tornano-pellegrini-rensch/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291535160-a415910280ad-e1788075989823.jpg",
-   "date": "2026-08-30T12:15:31+00:00"
   },
   {
    "title": "Romano - Napoli, le novità sull'uscita di Lang, l'interesse dell'Ajax e le possibili opzioni in entrata",
@@ -37059,15 +37068,6 @@
    "url": "https://www.sosfanta.com/squadra/venezia/breaking-sorpresa-juan-jesus-resta-serie-a-accordo-raggiunto/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2257116717-06fc1b6cc329-e1788033230410.jpg",
    "date": "2026-08-29T20:20:43+00:00"
-  },
-  {
-   "title": "Romano - Milan, si avvicina la cessione di Gimenez! Lui in pressing e contatti per arrivare a chiudere",
-   "summary": "Santi Gimenez sempre più vicino a lasciare il Milan: ecco le ultimissime sul futuro dell'attaccante messicano dal canale WhatsApp di Fabrizio Romano.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/milan-cessione-gimenez-vicina-ultimissime/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288302749-78e91de5ac50.jpg",
-   "date": "2026-08-29T20:15:19+00:00"
   }
  ],
  "marketDifficulty": {
