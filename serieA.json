@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-31T05:35:31+00:00",
+ "generatedAt": "2026-08-31T13:51:05+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -6546,7 +6546,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.16,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.0469,
     "rf": 0.0555,
@@ -6560,7 +6560,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.0672,
     "rf": 0.0082,
@@ -6585,8 +6585,8 @@
    },
    "quotazione": 9.0,
    "fvm": 21.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": 2,
    "setPieceRank": 2,
@@ -8250,8 +8250,8 @@
    },
    "quotazione": 4.0,
    "fvm": 12.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -10310,7 +10310,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.15,
-   "playProbability": 0.831,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.109,
     "rf": 0.002,
@@ -10324,7 +10324,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.07,
     "rf": 0.012,
@@ -10349,8 +10349,8 @@
    },
    "quotazione": 1.0,
    "fvm": 3.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12057,7 +12057,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.06,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0406,
     "rf": 0.0009,
@@ -12071,7 +12071,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.12,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0487,
     "rf": 0.0054,
@@ -12096,8 +12096,8 @@
    },
    "quotazione": 2.0,
    "fvm": 5.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -13055,7 +13055,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.09,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0413,
     "rf": 0.0005,
@@ -13069,7 +13069,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.87,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.051,
     "rf": 0.0062,
@@ -13094,8 +13094,8 @@
    },
    "quotazione": 4.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -13616,7 +13616,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.26,
-   "playProbability": 0.831,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0672,
     "rf": 0.1082,
@@ -13630,7 +13630,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0672,
     "rf": 0.0082,
@@ -13656,7 +13656,7 @@
    "quotazione": 26.0,
    "fvm": 200.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": 1,
    "setPieceRank": 1,
@@ -13740,7 +13740,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.14,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.181,
     "rf": 0.0009,
@@ -13754,7 +13754,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.15,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.0959,
     "rf": 0.0076,
@@ -13779,8 +13779,8 @@
    },
    "quotazione": 9.0,
    "fvm": 32.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -14304,7 +14304,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.13,
-   "playProbability": 0.446,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.0706,
     "rf": 0.0008,
@@ -14318,7 +14318,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.87,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.0633,
     "rf": 0.0078,
@@ -14344,7 +14344,7 @@
    "quotazione": 6.0,
    "fvm": 14.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -15063,7 +15063,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.11,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.1853,
     "rf": 0.0165,
@@ -15077,7 +15077,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0947,
     "rf": 0.0082,
@@ -15102,8 +15102,8 @@
    },
    "quotazione": 12.0,
    "fvm": 42.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": 3,
    "setPieceRank": 2,
@@ -20497,7 +20497,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.02,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0028,
     "rf": 0.0,
@@ -20511,7 +20511,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.93,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0312,
     "rf": 0.0032,
@@ -20536,8 +20536,8 @@
    },
    "quotazione": 6.0,
    "fvm": 13.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": 3,
@@ -21117,7 +21117,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 5.96,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0021,
     "rf": 0.0,
@@ -21131,7 +21131,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.84,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0349,
     "rf": 0.0036,
@@ -21157,7 +21157,7 @@
    "quotazione": 6.0,
    "fvm": 15.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21181,7 +21181,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 5.96,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0034,
     "rf": 0.0001,
@@ -21195,7 +21195,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.84,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0313,
     "rf": 0.0032,
@@ -21220,8 +21220,8 @@
    },
    "quotazione": 2.0,
    "fvm": 5.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23656,7 +23656,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.15,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.275,
     "rf": 0.0005,
@@ -23670,7 +23670,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0452,
     "rf": 0.0032,
@@ -23695,8 +23695,8 @@
    },
    "quotazione": 18.0,
    "fvm": 87.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23900,7 +23900,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 5.97,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0082,
     "rf": 0.0002,
@@ -23914,7 +23914,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.93,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0331,
     "rf": 0.0034,
@@ -23939,8 +23939,8 @@
    },
    "quotazione": 1.0,
    "fvm": 4.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36169,16 +36169,32 @@
     {
      "opzioni": [
       {
-       "player_id": "4502",
-       "giocatore": "Gallo",
+       "player_id": "7182",
+       "giocatore": "Ndaba",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "7182",
-       "giocatore": "Ndaba",
+       "player_id": "4502",
+       "giocatore": "Gallo",
        "titolarita_pct": 49,
        "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5457",
+       "giocatore": "Maleh",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "7248",
+       "giocatore": "Gorter",
+       "titolarita_pct": 49,
+       "ruolo": "C"
       }
      ]
     },
@@ -36263,14 +36279,14 @@
     {
      "opzioni": [
       {
-       "player_id": "2077",
-       "giocatore": "Pasalic",
+       "player_id": "5119",
+       "giocatore": "Samardzic",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "5119",
-       "giocatore": "Samardzic",
+       "player_id": "2077",
+       "giocatore": "Pasalic",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -36334,14 +36350,14 @@
     {
      "opzioni": [
       {
-       "player_id": "7326",
-       "giocatore": "Helland",
+       "player_id": "7212",
+       "giocatore": "Heggem",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "7068",
-       "giocatore": "Vitik",
+       "player_id": "7326",
+       "giocatore": "Helland",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -36350,8 +36366,8 @@
     {
      "opzioni": [
       {
-       "player_id": "184",
-       "giocatore": "Bernardeschi",
+       "player_id": "6054",
+       "giocatore": "Moro N.",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
@@ -36366,14 +36382,14 @@
     {
      "opzioni": [
       {
-       "player_id": "5298",
-       "giocatore": "Pobega",
+       "player_id": "2167",
+       "giocatore": "Orsolini",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "6054",
-       "giocatore": "Moro N.",
+       "player_id": "184",
+       "giocatore": "Bernardeschi",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -36399,6 +36415,267 @@
   }
  ],
  "news": [
+  {
+   "title": "Atalanta-Bologna, dubbi e scelte di formazione: da Scamacca a Orsolini, CDK, Odgaard, Samardzic e Zalewski",
+   "summary": "Si chiude la seconda giornata di Serie A: oltre a Lecce-Roma (ore 18.30) stasera si gioca anche Atalanta-Bologna (ore 20.45). Le ultime di formazione.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/atalanta-bologna-probabili-formazioni-orsolini-scamacca/",
+   "image": "https://static.sosfanta.com/202606/35a3dd8025fdb7f4b18e64b115ec8dc1-e1781512880461.jpg",
+   "date": "2026-08-31T13:30:57+00:00"
+  },
+  {
+   "title": "BREAKING - Rowe all'Atalanta è ad un passo! E il Bologna è pronto a chiudere per il sostituto",
+   "summary": "Ore decisive per il futuro di Jonathan Rowe: in questi minuti si sta infatti sbloccando la trattativa tra Bologna e Atalanta per la cessione dell'esterno.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/breaking-rowe-atalanta-bologna-sostituto/",
+   "image": "https://static.sosfanta.com/2026/08/PHOTO-2026-08-31-14-57-01-e2ef5dc6b57b-e1788181040713.jpg",
+   "date": "2026-08-31T13:15:33+00:00"
+  },
+  {
+   "title": "FLASH - Juve, intesa con Woltemade: di cosa discutono ora i due club e la formula! Zirkzee…",
+   "summary": "Salutato Jonathan David, ora la Juventus è al lavoro per regalare un nuovo attaccante a Luciano Spalletti: ecco le ultime novità su Woltemade.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-intesa-woltemade-formula-zirkzee/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2277972046-017b7f6f5627-e1788178915931.jpg",
+   "date": "2026-08-31T12:45:19+00:00"
+  },
+  {
+   "title": "Roma, offerta scritta per Leweling dello Stoccarda: le cifre! La decisione su Luiz Henrique",
+   "summary": "Novità di mercato dalla Roma, ecco le ultime dal canale WhatsApp di Fabrizio Romano: da Luiz Henrique a Leweling.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-leweling-mercato-luiz-henrique/",
+   "image": "https://static.sosfanta.com/2026/08/IMG_8348-468b1d71441d-e1788178714447.jpg",
+   "date": "2026-08-31T12:30:34+00:00"
+  },
+  {
+   "title": "HERE WE GO - È fatta per David all'Atletico Madrid: ecco le condizioni dell'operazione con la Juventus",
+   "summary": "Jonathan David saluta la Juventus dopo una sola stagione: è stata chiusa infatti in questi minuti l'operazione con l'Atletico Madrid, prossima squadra del ca...",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/here-we-go-fatta-david-atletico-juve/",
+   "image": "https://static.sosfanta.com/2026/08/PHOTO-2026-08-31-14-11-18-f3719303a1bb-e1788178306539.jpg",
+   "date": "2026-08-31T12:15:35+00:00"
+  },
+  {
+   "title": "Da Icardi a Mahrez: chi prende questi svincolati? Guarda che nomi clamorosi a 0",
+   "summary": "L'elenco dei calciatori svincolati è lungo e ricco di nomi interessanti: chissà che qualche club di Serie A non ci faccia un pensierino...",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/video/svincolati-icardi-mahrez-nomi-clamorosi-elenco/",
+   "image": "https://static.sosfanta.com/2026/07/598236F1-CF17-4D67-AE22-4E91790527F6_1_201_a-fcc2504b209f-e1784147128460.jpeg",
+   "date": "2026-08-31T12:10:03+00:00"
+  },
+  {
+   "title": "UFFICIALE - Massolin ha firmato con il Cagliari, ecco l'annuncio del club e la formula del trasferimento",
+   "summary": "Massolin firma da nuovo giocatore del Cagliari, ecco l'annuncio del club rossoblù con la formula del trasferimento.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/ufficiale-massolin-cagliari-inter/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291012416-a6a92537c4b0-e1787933921436.jpg",
+   "date": "2026-08-31T12:00:21+00:00"
+  },
+  {
+   "title": "Gattuso: “Tavares da Real Madrid! Le condizioni di Rovella, Marusic e non ci sono soldi per il mercato\"",
+   "summary": "Il tecnico della Lazio, Gennaro Gattuso, al termine della sfida vinta dai suoi contro il Genoa ha parlato ai microfoni di Dazn e in conferenza stampa.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/gattuso-lazio-rovella-nuno-tavares-cataldi-marusic-mercato/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291858526-24e952dd2ace-e1788130401646.jpg",
+   "date": "2026-08-31T11:45:05+00:00"
+  },
+  {
+   "title": "Cambio di orari nella 4a giornata: spostate le partite di Milan, Juve, Lazio e Roma",
+   "summary": "Alcuni cambiamenti di orario nelle partite della 4a giornata. Ecco le modifiche.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/serie-a-orari/",
+   "image": "https://static.sosfanta.com/202604/4fc11c4d816aa8e83c56990c23c93d2e-e1776949965569.jpg",
+   "date": "2026-08-31T11:30:15+00:00"
+  },
+  {
+   "title": "Le probabili formazioni dei posticipi: da Gallo e Soulé a Molina, Scamacca, Samardzic, Piccoli e Orsolini",
+   "summary": "Si chiude oggi la seconda giornata di campionato con due partite: Lecce-Roma e Atalanta-Bologna. Ecco le ultimissime sulle probabili formazioni.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/probabili-formazioni-posticipi-gallo-soule-molina-scamacca-samardzic-piccoli-orsolini/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291852222-936a0e7b20db-e1788164007232.jpg",
+   "date": "2026-08-31T11:15:10+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - David, accordo totale con l'Atletico Madrid: trattativa in chiusura con la Juve, le ultime",
+   "summary": "Jonathan David è sempre più vicino a lasciare la Juventus in queste ultime ore di calciomercato: lo aspetta l'Atletico Madrid, con cui il giocatore ha già un...",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/ultimora-david-accordo-totale-atletico-ultime/",
+   "image": "https://static.sosfanta.com/2026/08/PHOTO-2026-08-31-14-02-02-e1080e139a93-e1788177751401.jpg",
+   "date": "2026-08-31T11:05:14+00:00"
+  },
+  {
+   "title": "Parma, Oliver Sorensen va al Celtic: ecco la formula dell'operazione con gli scozzesi",
+   "summary": "Parma, saluta il centrocampista Oliver Sorensen destinazione Celtic: ecco dove andrà.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/parma-oliver-sorensen-celtic/",
+   "image": "https://static.sosfanta.com/202508/c55a697aa7a051a6708fc7c7dc92bf62.png",
+   "date": "2026-08-31T11:00:40+00:00"
+  },
+  {
+   "title": "HERE WE GO - È fatta per l'arrivo di Gnonto in Serie A! Operazione chiusa, ecco la formula e dove giocherà",
+   "summary": "La Fiorentina chiude un altro colpo in entrata in questa sessione di mercato scoppiettante: è fatta infatti per l'arrivo in Toscana di Willy Gnonto dal Leeds.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/here-we-go-fiorentina-gnonto-fatta/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2270102044-ebbf863ed364-e1788169057814.jpg",
+   "date": "2026-08-31T10:45:22+00:00"
+  },
+  {
+   "title": "Napoli, occhio alle condizioni di McTominay: cosa può succedere nella prossima sosta nazionali",
+   "summary": "In casa Napoli a preoccupare sono le parole di Max Allegri su Scott McTominay: «Soffre per delle vesciche che non lo fanno allenare bene\".",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-mctominay-cosa-puo-succedere-sosta/",
+   "image": "https://static.sosfanta.com/202602/3d3da5a8878dd01f4c601f25f8b7ffb7-e1771081523539.jpg",
+   "date": "2026-08-31T10:30:20+00:00"
+  },
+  {
+   "title": "Finalmente Kean: arriva l'ok della Fiorentina per il trasferimento al Como, le cifre finali",
+   "summary": "Finalmente ci siamo per il trasferimento di Moise Kean. L'attaccante della Fiorentina autorizzato a viaggiare a Como per visite mediche e firme.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/kean-como-fiorentina-beto/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2268610232-01663cca4d42-scaled-e1787561410379.jpg",
+   "date": "2026-08-31T10:00:05+00:00"
+  },
+  {
+   "title": "UFFICIALE - Jan Ziolkowski è un nuovo calciatore del Monza: il comunicato del club",
+   "summary": "Jan Ziolkowski è ufficialmente un nuovo calciatore del Monza. Lo annuncia il club brianzolo con questo comunicato del club.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ufficiale-jan-ziolkowski-monza/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2287718088-e163889f04e4-e1787918730908.jpeg",
+   "date": "2026-08-31T09:30:37+00:00"
+  },
+  {
+   "title": "NEWS - Solet, Yildiz, K. Thuram, Kean, Zirkzee, Cambiaso, McTominay, Varela preoccupa e fatta per Mazzocchi",
+   "summary": "Oggi si chiude la seconda giornata di campionato ma è il penultimo giorno di calciomercato: ecco tutte le ultimissime novità dal campo e fuori.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/calciomercato/news-solet-yildiz-k-thuram-kean-zirkzee-cambiaso-mctominay-varela-preoccupa-fatta-mazzocchi/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292601458-e4f55dd64f98-e1788164583672.jpg",
+   "date": "2026-08-31T09:20:31+00:00"
+  },
+  {
+   "title": "UFFICIALE - Lecce, preso Joël Monteiro per l'attacco dallo Young Boys: oggi le visite mediche",
+   "summary": "L’esterno offensivo Joël Monteiro, di proprietà dello Young Boys, oggi alle ore 11:30 atterrerà a Brindisi e successivamente si sottoporrà alle visite.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ufficiale-lecce-preso-joel-monteiro/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2248763647-0e786c23983b-e1788167950236.jpg",
+   "date": "2026-08-31T09:15:15+00:00"
+  },
+  {
+   "title": "Le probabili formazioni di Lecce-Roma: chi è avanti fra Mora e Soulé, su Gallo, Molina, Geubbels, Hermoso...",
+   "summary": "Si chiude la seconda giornata del campionato di Serie A 2026/27. Alle 18.30 il primo dei due posticipi del lunedì fra Lecce e Roma.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/lecce-roma-probabili-formazioni-mora-soule/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2273721804-f43a0624b0f2-scaled-e1783798212433.jpg",
+   "date": "2026-08-31T09:00:54+00:00"
+  },
+  {
+   "title": "Milan, Hutchinson si presenta così: stiloso come Leao e tre van a sua disposizione",
+   "summary": "Omar Hutchinson si appresta a diventare un nuovo giocatore del Milan: arriva in prestito con diritto di riscatto dal Nottingham.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/video/milan-hutchinson-si-presenta-cosi-stiloso-come-leao-e-tre-van-a-sua-disposizione/",
+   "image": "https://static.sosfanta.com/2026/08/IMG_8006-8fadbdb106d5-e1787955279451.jpg",
+   "date": "2026-08-31T08:52:48+00:00"
+  },
+  {
+   "title": "BREAKING - È fatta, Zeballos arriva in Serie A ma non al Napoli: affare fatto, tutti i dettagli dell'operazione",
+   "summary": "Colpo a sorpresa del Monza: preso Exequiel dal Boca Juniors: operazione chiusa ora da 4.5 milioni di euro più il 45% per la futura rivendita dell’argentino.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/monza/breaking-fatta-zeballos-arriva-serie-a-fatta/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2277997911-668508de1611-e1788159651984.jpg",
+   "date": "2026-08-31T08:45:00+00:00"
+  },
+  {
+   "title": "Venezia, non solo Juan Jesus: chiuso Mazzocchi dal Napoli, i dettagli e la formula",
+   "summary": "Venezia molto attivo anche in queste ultime ore di mercato: non solo Juan Jesus, gli arancioneroverdi hanno chiuso per Mazzocchi.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/mazzocchi-napoli-venezia/",
+   "image": "https://static.sosfanta.com/202502/0b5705e76b2b63b0e0c4ad304c84dea2-e1740132715837.jpg",
+   "date": "2026-08-31T08:30:56+00:00"
+  },
+  {
+   "title": "HERE WE GO - È fatta per Pape Sarr alla Juve: c’è l'accordo! Ecco le cifre e la formula col Tottenham",
+   "summary": "La Juve centra il rinforzo a centrocampo dopo che è tramontata la trattativa per arrivare a Franck Kessie, accasatosi all'Atalanta. È fatta per l'arrivo di S...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/here-we-go-e-fatta-per-pape-sarr-alla-juve-ce-laccordo-ecco-le-cifre-e-la-formula-col-tottenham/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2265054286-b67bb0eb84f4-e1788113157184.jpg",
+   "date": "2026-08-31T08:15:04+00:00"
+  },
+  {
+   "title": "Le due strade per l'attacco della Juve: da Zirkzee a Woltemade, le ultime di Fabrizio Romano",
+   "summary": "La Juve ha due strade per l’attacco in questo finale di mercato: secondo Fabrizio Romano, una porta a Joshua Zirkzee e l’altra a Nick Woltemade.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juve-zirkzee-woltemade/",
+   "image": "https://static.sosfanta.com/2026/07/Zirkzee-39bb80da1570.jpg",
+   "date": "2026-08-31T08:00:44+00:00"
+  },
+  {
+   "title": "Milan, Fofana ha scelto il Lione: affare è in chiusura, ecco la formula con cui si sta definendo",
+   "summary": "Youssouf Fofana, escluso dal progetto del Milan, ha scelto di andare al Lione: adesso il club francese è in trattative col club rossonero per definire ogni d...",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-fofana-scelto-lione-chisura/",
+   "image": "https://static.sosfanta.com/202412/caf788e8171b5eb8c5058594f0625da7-scaled-e1734725040737.jpg",
+   "date": "2026-08-31T07:30:02+00:00"
+  },
+  {
+   "title": "Hojlund: \"L'anno scorso Conte era fissato, quest'anno sono molto più libero! Sulla fase difensiva...\"",
+   "summary": "Rasmus Hojlund analizza il momento del Napoli, indicando gli aspetti da migliorare e rilanciando la corsa verso i primi posti.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/hojlund-anno-scorso-conte-era-fissato-questanno-sono-molto-libero-fase-difensiva/",
+   "image": "https://static.sosfanta.com/202605/62168866ac283d4cd690854dcee2f4fd-scaled-e1779099632212.jpeg",
+   "date": "2026-08-31T07:00:48+00:00"
+  },
+  {
+   "title": "HERE WE GO - Belghali torna in Serie A e al fantacalcio: operazione chiusa, ecco cifre e dettagli",
+   "summary": "Nuova esperienza in Serie A per Rafik Belghali: il terzino algerino classe 2002 lascia il Verona dopo l’ultima stagione in gialloblù.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/here-we-go-belghali-torna-serie-af/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2268227712-b31457a2ab9b-e1788120976227.jpg",
+   "date": "2026-08-31T06:45:35+00:00"
+  },
+  {
+   "title": "FLASH - Robinio Vaz lascia la Roma, è fatta: i dettagli dell'operazione e dove andrà a giocare",
+   "summary": "Robinio Vaz lascia la Roma, è fatta: è stato trovato l'accordo di massima tra tutte le parti tra la Roma e l’Hull City per il trasferimento.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/flash-robinio-vaz-lascia-roma-fatta-dettagli/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292175647-ea59b769f6b1-e1788157514530.jpg",
+   "date": "2026-08-31T06:30:51+00:00"
+  },
+  {
+   "title": "De Rossi: \"Se non tiri non porti a casa punti, dal mercato mi aspetto questo. Su Cancellieri e Baldanzi...\"",
+   "summary": "Daniele De Rossi, allenatore del Genoa, ha parlato in conferenza stampa e su Dazn della sconfitta con la Lazio. Ecco le sue dichiarazioni.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/de-rossi-se-non-tiri-non-porti-casa-punti-mercatoaspetto-questo-cancellieri-baldanzi/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291583676-c1bda63a0452-e1787432857581.jpg",
+   "date": "2026-08-31T06:00:38+00:00"
+  },
   {
    "title": "BREAKING - Beto torna a giocare in Serie A: operazione chiusa a sorpresa, è fatta!",
    "summary": "Niente ritorno in Serie A per Joshua Zirkzee, la Fiorentina ha trovato l'accordo per il nuovo attaccante che sarà una vecchia conoscenza della Serie A: Beto.",
@@ -36497,267 +36774,6 @@
    "url": "https://www.sosfanta.com/news/allegri-napoli-mctominay-lang-de-bruyne/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2292718624-e072a8102fef-e1788118896631.jpeg",
    "date": "2026-08-30T20:45:41+00:00"
-  },
-  {
-   "title": "Fabregas: \"Così gestirò Douvikas con il nuovo attaccante! Milla sottovalutato, Baturina e Chalobah...\"",
-   "summary": "Il Como strappa una grande vittoria sul campo del Napoli, per 2-1 (qui i voti al fantacalcio). Al termine della sfida il tecnico Cesc Fabregas ha parlato in...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fabregas-como-milla-douvikas-baturina/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288559483-0a94c451d802-e1787212500305.jpg",
-   "date": "2026-08-30T20:30:44+00:00"
-  },
-  {
-   "title": "I voti di Napoli-Como al fantacalcio: super Baturina! Bocciati Anguissa e Butez, KDB più di Nico Paz, Lang...",
-   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni sui voti con il tabel...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-napoli-como-butez-baturina/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292719457-280228037c53-e1788115628230.jpeg",
-   "date": "2026-08-30T20:15:11+00:00"
-  },
-  {
-   "title": "UFFICIALE - Van Der Brempt è un nuovo giocatore del Sassuolo: la formula e le cifre dell'affare con il Como",
-   "summary": "Il Sassuolo rinforza la fascia destra con Ignace Van der Brempt: il terzino belga classe 2002 arriva dal Como per circa 6,5 milioni.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/ufficiale-van-der-brempt-e-un-nuovo-giocatore-del-sassuolo-la-formula-e-le-cifre-dellaffare-con-il-como/",
-   "image": "https://static.sosfanta.com/202509/d063e935f874bfae07c237f2b09898e7-e1757003005225.jpg",
-   "date": "2026-08-30T20:00:12+00:00"
-  },
-  {
-   "title": "Lazio, Rovella costretto al cambio contro il Genoa: ecco cos'è successo",
-   "summary": "Tegola in casa Lazio: Nicolò Rovella è costretto ad abbandonare il campo al 37’ della prima frazione di gioco a causa di un fastidio al polpaccio destro.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/lazio-rovella-costretto-al-cambio-contro-il-genoa-ecco-cose-successo/",
-   "image": "https://static.sosfanta.com/202511/48f172aee0e17c73c3471177d9f9fd8f-scaled-e1763288116310.jpg",
-   "date": "2026-08-30T19:30:41+00:00"
-  },
-  {
-   "title": "Asta, cosa fare con i nuovi: Kessié, Theate, Njie, de Roon, Perri, Fabbian, Bobcek, Folorunsho, Ricci, Ngonge…",
-   "summary": "Kessié, Theate, Njie, de Roon, Perri, Fabbian, Bobcek, Folorunsho, Ricci, Ngonge e non solo: cosa fare all'asta",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/asta-cosa-fare-con-i-nuovi-kessie-theate-njie-de-roon-perri-fabbian-bobcek-folorunsho-ricci-ngonge/",
-   "image": "https://static.sosfanta.com/2026/08/Kessie-76ae9a778654-e1788028665966.jpeg",
-   "date": "2026-08-30T19:15:57+00:00"
-  },
-  {
-   "title": "Romano - Juve, è arrivata un'offerta ufficiale per Jonathan David: chi lo vuole e la formula dell'affare",
-   "summary": "Il futuro di Jonathan David potrebbe presto entrare nel vivo. Dal canale WhatsApp di Fabrizio Romano arrivano nuovi aggiornamenti.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/romano-juve-arrivata-offerta-ufficiale-jonathan-david-chi-lo-vuole-formula-affare/",
-   "image": "https://static.sosfanta.com/202604/f03790c7ba53d12f15ae278435d2aa42-scaled-e1776195602977.jpg",
-   "date": "2026-08-30T19:00:00+00:00"
-  },
-  {
-   "title": "Chivu: \"Vi spiego perché Pavard e Luis Henrique titolari! Come sta Thuram, su Jones, Lautaro e Pio...\"",
-   "summary": "Alle 20.45 la sfida fra Cagliari ed Inter. Il tecnico nerazzurro, Cristian Chivu, ha regalato qualche sorpresa nella scelta per gli undici titolari che vanno...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/chivu-inter-thuram-pavard-luis-henrique/",
-   "image": "https://static.sosfanta.com/202604/7501b3effde2a47a175d74b8d5a0270c-e1777219979409.jpg",
-   "date": "2026-08-30T18:30:39+00:00"
-  },
-  {
-   "title": "FORMAZIONI UFFICIALI - La scelta su Zielinski, Pinamonti, Diouf, Tavares, Thuram, Isaksen, Bisseck e Fazzini",
-   "summary": "Alle 20.45 si conclude la domenica della seconda giornata di Serie A con le sfide Cagliari-Inter e Lazio-Genoa. Sono state diramate le formazioni ufficiali.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/formazioni-ufficiali-zielinski-pinamonti-diouf-tavares-thuram-isaksen-bisseck-fazzini/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291571876-dab48f390493-e1788108960996.jpeg",
-   "date": "2026-08-30T18:15:38+00:00"
-  },
-  {
-   "title": "Fantacalcio Mantra, ecco la Guida all’asta 2026-27: la divisione ruolo per ruolo",
-   "summary": "È online anche la Guida all'asta per il Mantra, per chi usa questa modalità. I consigli sono sempre ruolo per ruolo, dai Dd fino alle Pc",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/fantacalcio-mantra-ecco-la-guida-allasta-2026-27-la-divisione-ruolo-per-ruolo/",
-   "image": "https://static.sosfanta.com/2026/07/Atta-94ec50f0f6c1.png",
-   "date": "2026-08-30T18:10:53+00:00"
-  },
-  {
-   "title": "Lazio-Genoa, le formazioni ufficiali: da Pinamonti e Frattesi a Sow e Mitaj, le scelte dei due allenatori",
-   "summary": "Prosegue il programma della Serie A: ecco le formazioni ufficiali di Lazio-Genoa e tutte le scelte dal primo minuto di Gattuso e De Rossi.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-genoa-formazioni-ufficiali-pinamonti-frattesi-sow-mitaj-scelte-dei-due-allenatori/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292478309-244f498559a6-e1788109741838.jpeg",
-   "date": "2026-08-30T18:00:39+00:00"
-  },
-  {
-   "title": "Cagliari-Inter, le formazioni ufficiali: da Esposito e Diouf a Bisseck e Borrelli, tutte le scelte",
-   "summary": "Prosegue la Serie A, ecco le formazioni ufficiali di Inter-Cagliari, non mancano le soprese in casa nerazzurra.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-inter-le-formazioni-ufficiali-da-esposito-e-diouf-a-bisseck-e-borrelli-tutte-le-scelte/",
-   "image": "https://static.sosfanta.com/202604/461e3ea2c681b740ba60b83aba6afa79.jpg",
-   "date": "2026-08-30T17:45:40+00:00"
-  },
-  {
-   "title": "Fiorentina, ecco le novità su Gudmundsson e Dodo in uscita. Spunta Balogun",
-   "summary": "Fabrizio Romano e Matteo Moretto hanno analizzato le principali strategie della Fiorentina e gli ultimi sviluppi del mercato viola.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-ecco-novita-su-gudmundsson-dodo-in-uscita-spunta-balogun/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289942106-0c3d93d79b99-e1787673603693.jpg",
-   "date": "2026-08-30T17:30:08+00:00"
-  },
-  {
-   "title": "Non solo Darmian, occhio ad Acerbi: contatti in corso per restare in Serie A",
-   "summary": "Matteo Moretto, sul canale YouTube di Fabrizio Romano, ha fatto il punto sul futuro di Francesco Acerbi. Ecco le sue dichiarazioni.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/parma/non-solo-darmian-occhio-acerbi-contatti-corso-per-restare-seriea/",
-   "image": "https://static.sosfanta.com/202508/d51247bbdce13c2a6b3bd0e2ee8af801.jpg",
-   "date": "2026-08-30T17:00:41+00:00"
-  },
-  {
-   "title": "UFFICIALE - Njie lascia il Torino e firma con la Fiorentina: l'annuncio, la formula e le cifre finali",
-   "summary": "UFFICIALE - Njie lascia il Torino e firma con la Fiorentina: l'annuncio, la formula e le cifre finali",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ufficiale-njie-lascia-il-torino-e-firma-con-la-fiorentina-lannuncio-la-formula-e-le-cifre-finali/",
-   "image": "https://static.sosfanta.com/202502/7398955e1a6ccf46af14a1833ae677be-scaled-e1738576634455.jpg",
-   "date": "2026-08-30T16:30:29+00:00"
-  },
-  {
-   "title": "ULTIM’ORA - Belghali è a un passo dal ritorno in Serie A: operazione da 7 milioni",
-   "summary": "Rafik Belghali si prepara a salutare il Verona. Il difensore algerino classe 2002 è pronto per una nuova avventura in Serie A.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/torino/ultimora-belghali-passo-ritorno-in-seriea-operazione-da-7-milioni/",
-   "image": "https://static.sosfanta.com/202603/c5dd2f302b4caa950142f3c1de9815d3-e1773570283630.jpeg",
-   "date": "2026-08-30T16:15:59+00:00"
-  },
-  {
-   "title": "BREAKING - Juve, l'esito degli esami di Cambiaso e i tempi di recupero! E si ferma anche Ekhator",
-   "summary": "E' arrivato l'esito degli esami strumentali a cui si è sottoposto Andrea Cambiaso dopo il problema alla caviglia accusato ieri sera contro il Parma.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/breaking-juve-lesito-degli-esami-di-cambiaso-e-i-tempi-di-recupero-e-si-ferma-anche-ekhator/",
-   "image": "https://static.sosfanta.com/2026/08/PHOTO-2026-08-30-15-21-49-19eb68f6f250-e1788096123315.jpg",
-   "date": "2026-08-30T16:15:23+00:00"
-  },
-  {
-   "title": "Romano - Luiz Henrique è la priorità della Roma e ha dato apertura: le novità",
-   "summary": "Fabrizio Romano ha fornito nuovi aggiornamenti sulla situazione di Luiz Henrique e sulle mosse della Roma. Ecco le sue parole.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/romano-luiz-henrique-priorita-della-roma-dato-apertura-novita/",
-   "image": "https://static.sosfanta.com/202501/cdc4c4999a7a7a5fad38699720aef6f3.jpg",
-   "date": "2026-08-30T16:00:28+00:00"
-  },
-  {
-   "title": "Napoli-Como, le formazioni ufficiali: la scelta su De Bruyne, Vergara, Diao, Lang, Anguissa e Da Cunha",
-   "summary": "Alle ore 18.30 allo stadio Maradona scenderanno in campo Napoli e Como. Le formazioni ufficiali di Allegri e Fabregas",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-como-formazioni-ufficiali-debruyne-vergara-diao-lang-anguissa-dacunha/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291067147-9c030939c4a8.jpg",
-   "date": "2026-08-30T15:45:01+00:00"
-  },
-  {
-   "title": "BREAKING - Ratkov lascia la Lazio e la Serie A, è fatta: ecco cifre e formula del trasferimento",
-   "summary": "Petar Ratkov lascia la Lazio: è fatta per la sua cessione, come spiega Fabrizio Romano sul suo canale WhatSapp, è stato trovato l'accordo verbale col Levante.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/breaking-ratkov-lascia-lazio-cifre-formula/",
-   "image": "https://static.sosfanta.com/2026/08/PHOTO-2026-08-30-16-31-25-7b8fe5e60b75-e1788100385955.jpg",
-   "date": "2026-08-30T15:30:56+00:00"
-  },
-  {
-   "title": "Da Isaksen e Pinamonti a Sow, Norton-Cuffy e Frattesi: le probabili formazioni di Lazio-Genoa",
-   "summary": "Possibile chance per Isaksen oggi nella Lazio: ecco i possibili 22 che scenderanno in campo tra i biancocelesti e il Genoa.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/da-isaksen-e-pinamonti-a-sow-norton-cuffy-e-frattesi-le-probabili-formazioni-di-lazio-genoa/",
-   "image": "https://static.sosfanta.com/202601/9cadc73b43f842d2e3664ce0782c5c10-scaled-e1769280002408.jpeg",
-   "date": "2026-08-30T15:00:28+00:00"
-  },
-  {
-   "title": "UFFICIALE - Cagliari, i convocati per l'Inter: out Mina per infortunio, le sue condizioni",
-   "summary": "Sono ventiquattro i calciatori a disposizione di mister Pisacane per la gara di stasera contro l’Inter all’Unipol Domus. Non convocato Yerry Mina.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/cagliari/ufficiale-cagliari-convocati-out-mina-condizioni/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2215763501-4a0782355411-e1788092677656.jpg",
-   "date": "2026-08-30T14:45:57+00:00"
-  },
-  {
-   "title": "Gasperini: \"Rispondo su Soulé, domani gioca! Balerdi, De Roon, Molina e quando tornano Pellegrini e Rensch\"",
-   "summary": "Impegno sul campo del Lecce domani sera per la Roma di Gian Piero Gasperini: ecco le dichiarazioni dell'allenatore giallorosso oggi in conferenza stampa.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/gasperini-rispondo-soule-domani-gioca-balerdi-de-roon-molina-quando-tornano-pellegrini-rensch/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291535160-a415910280ad-e1788075989823.jpg",
-   "date": "2026-08-30T14:30:31+00:00"
-  },
-  {
-   "title": "Gazzetta demolisce David: \"Bocciato senza appello e per l’ennesima volta\". Il voto è horror",
-   "summary": "4 in pagella da La Gazzetta dello Sport a Jonathan David dopo l'ennesima pessima prestazione ieri sera contro il Parma in casa.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/gazzetta-demolisce-david-bocciato-senza-appello/",
-   "image": "https://static.sosfanta.com/202602/52344545e015639d578db43259e08e49-e1771672554115.jpg",
-   "date": "2026-08-30T14:00:26+00:00"
-  },
-  {
-   "title": "Inter, Spence è infortunato: ecco quando potrebbe rientrare in campo",
-   "summary": "Niente Cagliari per Spence che non è partito per via di un piccolo infortunio. Queste le ultime secondo Tuttosport",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-spence-infortunio-quando-rientra/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290713788-88b168a9dd55-e1787141338838.jpg",
-   "date": "2026-08-30T13:30:15+00:00"
-  },
-  {
-   "title": "Thuram, non funziona la terapia conservativa: cosa filtra sulla possibile operazione al ginocchio",
-   "summary": "Non si è ancora risolta la questione legata a Khephren Thuram in casa Juve: ora il francese, alle prese con una sidrome femoro-rotulea, rischia l'operazione.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/thuram-cosa-filtra-operazione-ginocchio/",
-   "image": "https://static.sosfanta.com/202603/9ee22d6547b15101b571093d2f671bbd-e1773653147417.jpg",
-   "date": "2026-08-30T13:00:33+00:00"
-  },
-  {
-   "title": "Di Francesco: \"Gallo in dubbio, il motivo! Su Tiago Gabriel, Falcone, Stulic, Ilic e il ruolo di Pierotti...\"",
-   "summary": "Alla vigilia della sfida contro la Roma, il tecnico del Lecce Eusebio Di Francesco ha parlato in conferenza stampa",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lecce/lecce-di-francesco-stuling-tiago-gabriel-roma/",
-   "image": "https://static.sosfanta.com/202605/6e735f9ac526e9a2f1ce81cb48de71ed-e1779049145217.jpg",
-   "date": "2026-08-30T12:30:42+00:00"
-  },
-  {
-   "title": "Romano - Napoli, le novità sull'uscita di Lang, l'interesse dell'Ajax e le possibili opzioni in entrata",
-   "summary": "Del mercato del Napoli e del futuro di Noa Lang ha parlato Fabrizio Romano sul suo canale YouTube",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/romano-napoli-lang-ajax-opzioni/",
-   "image": "https://static.sosfanta.com/202601/08c759d7ec262524e8f2c369c537e137-e1768761989920.jpg",
-   "date": "2026-08-30T12:00:02+00:00"
-  },
-  {
-   "title": "FLASH - Gagliardini torna in Serie A e al fantacalcio: intesa totale con questo club, è fatta",
-   "summary": "Dopo la parentesi col Verona nella scorsa stagione, Roberto Gagliardini torna in Serie A: è infatti chiusa per il suo arrivo al Cagliari.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/cagliari/breaking-gagliardini-torna-serie-a-intesa-totale/",
-   "image": "https://static.sosfanta.com/2026/08/PHOTO-2026-08-30-13-45-25-43da3b2bc249-e1788090352201.jpg",
-   "date": "2026-08-30T11:45:42+00:00"
-  },
-  {
-   "title": "Romano: \"Scambio Dimarco-Balde? Ecco come stanno le cose tra Inter e Barcellona\"",
-   "summary": "Nelle ultime ore dalla Spagna sono rimbalzate voci di un possibile scambio tra Inter e Barcellona, protagonisti Dimarco e Balde",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/romano-dimarco-inter-barcellona-balde/",
-   "image": "https://static.sosfanta.com/2026/08/Dimarco-e4b8a3d36421.jpg",
-   "date": "2026-08-30T11:30:52+00:00"
   }
  ],
  "marketDifficulty": {
