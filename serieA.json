@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-31T16:06:46+00:00",
+ "generatedAt": "2026-08-31T16:50:08+00:00",
  "season": "2026-27",
  "gameweek": 2,
  "note": "Stime calcolate con la sola storia precedente alla giornata 2 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -1510,7 +1510,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 5.94,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.1441,
     "rf": 0.0036,
@@ -1524,7 +1524,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1669,
     "rf": 0.009,
@@ -1549,9 +1549,9 @@
    },
    "quotazione": 3.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -2122,7 +2122,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.04,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0538,
     "rf": 0.0047,
@@ -2136,7 +2136,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.73,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0828,
     "rf": 0.0108,
@@ -2161,9 +2161,9 @@
    },
    "quotazione": 4.0,
    "fvm": 9.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -5923,7 +5923,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.05,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0187,
     "rf": 0.0023,
@@ -5937,7 +5937,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0747,
     "rf": 0.0082,
@@ -5962,9 +5962,9 @@
    },
    "quotazione": 1.0,
    "fvm": 4.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -6355,7 +6355,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.15,
-   "playProbability": 0.044,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0282,
     "rf": 0.0033,
@@ -6369,7 +6369,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0608,
     "rf": 0.0053,
@@ -6394,8 +6394,8 @@
    },
    "quotazione": 1.0,
    "fvm": 5.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -7570,9 +7570,9 @@
    },
    "quotazione": 2.0,
    "fvm": 6.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -7591,7 +7591,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.13,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0448,
     "rf": 0.0053,
@@ -7605,7 +7605,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.99,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0428,
     "rf": 0.0047,
@@ -7630,8 +7630,8 @@
    },
    "quotazione": 3.0,
    "fvm": 7.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -14870,7 +14870,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.09,
-   "playProbability": 0.875,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0254,
     "rf": 0.0021,
@@ -14884,7 +14884,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.23,
-   "learnedPlayProbability": 0.875,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0748,
     "rf": 0.0052,
@@ -14909,9 +14909,9 @@
    },
    "quotazione": 6.0,
    "fvm": 16.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 100.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": 1,
    "hasHistory": true,
@@ -15782,9 +15782,9 @@
    },
    "quotazione": 6.0,
    "fvm": 15.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -18402,7 +18402,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.06,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0958,
     "rf": 0.0,
@@ -18416,7 +18416,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.23,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0706,
     "rf": 0.0044,
@@ -18441,9 +18441,9 @@
    },
    "quotazione": 9.0,
    "fvm": 27.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": 3,
    "hasHistory": true,
@@ -20689,7 +20689,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 5.97,
-   "playProbability": 0.044,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0268,
     "rf": 0.0003,
@@ -20703,7 +20703,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.11,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.057,
     "rf": 0.004,
@@ -20728,8 +20728,8 @@
    },
    "quotazione": 4.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21801,7 +21801,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.04,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.086,
     "rf": 0.0,
@@ -21815,7 +21815,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.81,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.041,
     "rf": 0.0032,
@@ -21840,9 +21840,9 @@
    },
    "quotazione": 4.0,
    "fvm": 9.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "squalificato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -23836,7 +23836,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.02,
-   "playProbability": 0.874,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.1546,
     "rf": 0.0001,
@@ -23850,7 +23850,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.48,
-   "learnedPlayProbability": 0.874,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0679,
     "rf": 0.004,
@@ -23875,9 +23875,9 @@
    },
    "quotazione": 13.0,
    "fvm": 44.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 100.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -25088,7 +25088,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 5.99,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0468,
     "rf": 0.0001,
@@ -25102,7 +25102,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0474,
     "rf": 0.0036,
@@ -25127,9 +25127,9 @@
    },
    "quotazione": 2.0,
    "fvm": 5.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -36318,6 +36318,24 @@
  ],
  "news": [
   {
+   "title": "Juve, finito il consulto a Lione per il ginocchio destro di K. Thuram: le ultimissime",
+   "summary": "Non solo l'operazione di Kenan Yildiz in casa Juventus: Khéphren Thuram ha effettuato, come da programma, un consulto specialistico a Lione.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-thuram-consulto-lione-infortunio-ginocchio-destro-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/202605/b35acb7f89768b6b392a222f59ea164c.jpg",
+   "date": "2026-08-31T16:30:00+00:00"
+  },
+  {
+   "title": "BREAKING - Roma, stop per Ndicka nel riscaldamento e niente maglia da titolare! Al suo posto gioca...",
+   "summary": "Notizia dell'ultima ora in casa Roma: si è fermato Evan Ndicka nel riscaldamento, per lui un fastidio all'adduttore e niente maglia da titolare a Lecce.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/lecce-roma-stop-riscaldamento-ndicka-chi-gioca-al-suo-posto/",
+   "image": "https://static.sosfanta.com/202605/de526588bbce55830a661686d087f63b-scaled-e1779015004625.jpg",
+   "date": "2026-08-31T16:15:12+00:00"
+  },
+  {
    "title": "\"È fuori fase, commette imperfezioni\": c'è un solo bocciato nell'Inter per Gazzetta, ecco chi è",
    "summary": "5 in pagella a Manuel Akanji da La Gazzetta dello Sport: altra prova deludente del centrale svizzero dopo la sbandata contro il Monza sabato scorso.",
    "author": "Marco Astori",
@@ -36658,24 +36676,6 @@
    "url": "https://www.sosfanta.com/news/de-rossi-se-non-tiri-non-porti-casa-punti-mercatoaspetto-questo-cancellieri-baldanzi/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291583676-c1bda63a0452-e1787432857581.jpg",
    "date": "2026-08-31T06:00:38+00:00"
-  },
-  {
-   "title": "BREAKING - Beto torna a giocare in Serie A: operazione chiusa a sorpresa, è fatta!",
-   "summary": "Niente ritorno in Serie A per Joshua Zirkzee, la Fiorentina ha trovato l'accordo per il nuovo attaccante che sarà una vecchia conoscenza della Serie A: Beto.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/beto-fiorentina-como-kean/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291649737-b037f53b712c-e1788129224807.jpg",
-   "date": "2026-08-30T22:30:36+00:00"
-  },
-  {
-   "title": "ULTIM’ORA - Diego Carlos ha scelto: giocherà ancora in Serie A, accordo raggiunto",
-   "summary": "Diego Carlos è pronto a tornare a giocare nella Serie A italiana e dunque anche al fantacalcio. Niente rientro al Como di Fabregas però: le ultime.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/diego-carlos-como-parma/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2276667495-61b8b08eb993-e1788127484521.jpeg",
-   "date": "2026-08-30T22:15:18+00:00"
   }
  ],
  "marketDifficulty": {
