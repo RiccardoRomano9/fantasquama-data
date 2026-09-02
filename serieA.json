@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-02T12:44:09+00:00",
+ "generatedAt": "2026-09-02T16:35:06+00:00",
  "season": "2026-27",
  "gameweek": 3,
  "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -1846,7 +1846,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.04,
-   "playProbability": 0.044,
+   "playProbability": 0.445,
    "events": {
     "gf": 0.1723,
     "rf": 0.0056,
@@ -1860,7 +1860,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.79,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.445,
    "learnedEvents": {
     "gf": 0.1246,
     "rf": 0.0106,
@@ -1885,8 +1885,8 @@
    },
    "quotazione": 8.0,
    "fvm": 23.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": 3,
@@ -3330,8 +3330,8 @@
    },
    "quotazione": 6.0,
    "fvm": 7.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -3596,7 +3596,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.13,
-   "playProbability": 0.044,
+   "playProbability": 0.087,
    "events": {
     "gf": 0.128,
     "rf": 0.0064,
@@ -3610,7 +3610,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.087,
    "learnedEvents": {
     "gf": 0.1324,
     "rf": 0.0122,
@@ -3634,7 +3634,7 @@
    "quotazione": 4.0,
    "fvm": 10.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 10.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -4905,9 +4905,9 @@
    },
    "quotazione": 7.0,
    "fvm": 40.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -5287,7 +5287,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.03,
-   "playProbability": 0.35,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0133,
     "rf": 0.0018,
@@ -5301,7 +5301,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.12,
-   "learnedPlayProbability": 0.35,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1119,
     "rf": 0.0075,
@@ -5327,7 +5327,7 @@
    "quotazione": 3.0,
    "fvm": 5.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -7007,7 +7007,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.1,
-   "playProbability": 0.394,
+   "playProbability": 0.087,
    "events": {
     "gf": 0.121,
     "rf": 0.0007,
@@ -7021,7 +7021,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.26,
-   "learnedPlayProbability": 0.394,
+   "learnedPlayProbability": 0.087,
    "learnedEvents": {
     "gf": 0.1197,
     "rf": 0.0098,
@@ -7047,7 +7047,7 @@
    "quotazione": 9.0,
    "fvm": 25.0,
    "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "startingProbability": 10.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9505,7 +9505,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.05,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.0384,
     "rf": 0.0041,
@@ -9519,7 +9519,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.0,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.0903,
     "rf": 0.0056,
@@ -9542,8 +9542,8 @@
    },
    "quotazione": 4.0,
    "fvm": 13.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -10289,7 +10289,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.16,
-   "playProbability": 0.525,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.0051,
     "rf": 0.0005,
@@ -10303,7 +10303,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.18,
-   "learnedPlayProbability": 0.525,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.0617,
     "rf": 0.0078,
@@ -10328,8 +10328,8 @@
    },
    "quotazione": 5.0,
    "fvm": 12.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": 3,
@@ -10592,7 +10592,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.19,
-   "playProbability": 0.044,
+   "playProbability": 0.394,
    "events": {
     "gf": 0.0439,
     "rf": 0.006,
@@ -10606,7 +10606,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.16,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.394,
    "learnedEvents": {
     "gf": 0.0942,
     "rf": 0.006,
@@ -10630,7 +10630,7 @@
    "quotazione": 12.0,
    "fvm": 40.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -10884,7 +10884,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.12,
-   "playProbability": 0.35,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.045,
     "rf": 0.001,
@@ -10898,7 +10898,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.35,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0625,
     "rf": 0.0085,
@@ -10924,7 +10924,7 @@
    "quotazione": 4.0,
    "fvm": 8.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12365,7 +12365,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.15,
-   "playProbability": 0.044,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0906,
     "rf": 0.0079,
@@ -12379,7 +12379,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.21,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0721,
     "rf": 0.0098,
@@ -12404,8 +12404,8 @@
    },
    "quotazione": 8.0,
    "fvm": 23.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -16833,7 +16833,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.08,
-   "playProbability": 0.429,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0056,
     "rf": 0.0006,
@@ -16847,7 +16847,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.93,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0903,
     "rf": 0.0056,
@@ -16873,7 +16873,7 @@
    "quotazione": 6.0,
    "fvm": 12.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -17800,7 +17800,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.02,
-   "playProbability": 0.393,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0421,
     "rf": 0.0,
@@ -17814,7 +17814,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.08,
-   "learnedPlayProbability": 0.393,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0334,
     "rf": 0.0047,
@@ -17838,7 +17838,7 @@
    "quotazione": 7.0,
    "fvm": 20.0,
    "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -20785,7 +20785,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.481,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0023,
     "rf": 0.0,
@@ -20799,7 +20799,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.15,
-   "learnedPlayProbability": 0.481,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0334,
     "rf": 0.0047,
@@ -20825,7 +20825,7 @@
    "quotazione": 6.0,
    "fvm": 12.0,
    "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24699,7 +24699,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.83,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0096,
     "rf": 0.0,
@@ -24713,7 +24713,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.78,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0391,
     "rf": 0.0055,
@@ -24738,8 +24738,8 @@
    },
    "quotazione": 5.0,
    "fvm": 13.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -25368,7 +25368,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.393,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0169,
     "rf": 0.0002,
@@ -25382,7 +25382,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.393,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0374,
     "rf": 0.005,
@@ -25408,7 +25408,7 @@
    "quotazione": 6.0,
    "fvm": 14.0,
    "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -26605,7 +26605,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.02,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.088,
     "rf": 0.0008,
@@ -26619,7 +26619,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.05,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.042,
     "rf": 0.0049,
@@ -26644,9 +26644,9 @@
    },
    "quotazione": 11.0,
    "fvm": 37.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -26665,7 +26665,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.06,
-   "playProbability": 0.044,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0499,
     "rf": 0.0,
@@ -26679,7 +26679,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.88,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0382,
     "rf": 0.0054,
@@ -26704,8 +26704,8 @@
    },
    "quotazione": 8.0,
    "fvm": 25.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -26969,7 +26969,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.07,
-   "playProbability": 0.481,
+   "playProbability": 0.83,
    "events": {
     "gf": 0.0047,
     "rf": 0.0,
@@ -26983,7 +26983,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.22,
-   "learnedPlayProbability": 0.481,
+   "learnedPlayProbability": 0.83,
    "learnedEvents": {
     "gf": 0.0552,
     "rf": 0.0066,
@@ -27009,7 +27009,7 @@
    "quotazione": 7.0,
    "fvm": 25.0,
    "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -28627,7 +28627,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.33,
-   "playProbability": 0.913,
+   "playProbability": 0.529,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -28641,7 +28641,7 @@
     "cs": 0.3212
    },
    "learnedVote": 6.57,
-   "learnedPlayProbability": 0.913,
+   "learnedPlayProbability": 0.529,
    "learnedEvents": {
     "gf": 0.0261,
     "rf": 0.0047,
@@ -28667,7 +28667,7 @@
    "quotazione": 15.0,
    "fvm": 50.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -31233,7 +31233,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.28,
-   "playProbability": 0.048,
+   "playProbability": 0.432,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -31247,7 +31247,7 @@
     "cs": 0.3089
    },
    "learnedVote": 6.46,
-   "learnedPlayProbability": 0.048,
+   "learnedPlayProbability": 0.432,
    "learnedEvents": {
     "gf": 0.0261,
     "rf": 0.0047,
@@ -31271,7 +31271,7 @@
    "quotazione": 8.0,
    "fvm": 25.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36498,6 +36498,22 @@
     {
      "opzioni": [
       {
+       "player_id": "6966",
+       "giocatore": "Butez",
+       "titolarita_pct": 55,
+       "ruolo": "P"
+      },
+      {
+       "player_id": "6344",
+       "giocatore": "Sanchez Ro.",
+       "titolarita_pct": 45,
+       "ruolo": "P"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "6727",
        "giocatore": "Couto",
        "titolarita_pct": 60,
@@ -36722,13 +36738,13 @@
       {
        "player_id": "7069",
        "giocatore": "Fortini",
-       "titolarita_pct": 55,
+       "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
        "player_id": "7220",
        "giocatore": "Belghali",
-       "titolarita_pct": 45,
+       "titolarita_pct": 49,
        "ruolo": "D"
       }
      ]
@@ -36736,15 +36752,15 @@
     {
      "opzioni": [
       {
-       "player_id": "6170",
-       "giocatore": "Gineitis",
-       "titolarita_pct": 60,
+       "player_id": "1933",
+       "giocatore": "Mandragora",
+       "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "6005",
-       "giocatore": "Ilkhan",
-       "titolarita_pct": 40,
+       "player_id": "6170",
+       "giocatore": "Gineitis",
+       "titolarita_pct": 49,
        "ruolo": "C"
       }
      ]
@@ -36827,6 +36843,22 @@
    "formation": "4-3-3",
    "isOfficial": false,
    "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "1852",
+       "giocatore": "Spinazzola",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "5840",
+       "giocatore": "Olivera",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
     {
      "opzioni": [
       {
@@ -37169,14 +37201,14 @@
     {
      "opzioni": [
       {
-       "player_id": "6506",
-       "giocatore": "Fini ",
+       "player_id": "6530",
+       "giocatore": "Ghedjemis",
        "titolarita_pct": 51,
-       "ruolo": "C"
+       "ruolo": "A"
       },
       {
-       "player_id": "5998",
-       "giocatore": "Zerbin",
+       "player_id": "6506",
+       "giocatore": "Fini ",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -37647,30 +37679,14 @@
     {
      "opzioni": [
       {
-       "player_id": "5620",
-       "giocatore": "Tavares N.",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "4817",
-       "giocatore": "Pedraza",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "6398",
        "giocatore": "Isaksen",
        "titolarita_pct": 55,
        "ruolo": "C"
       },
       {
-       "player_id": "5500",
-       "giocatore": "Cancellieri",
+       "player_id": "5800",
+       "giocatore": "Gudmundsson A.",
        "titolarita_pct": 45,
        "ruolo": "C"
       }
@@ -37681,13 +37697,166 @@
  ],
  "news": [
   {
+   "title": "Tutti i rigoristi della Serie A per il fantacalcio 2026-27: squadra per squadra, le gerarchie a mercato chiuso",
+   "summary": "Si avvicina l'asta estiva, ecco tutte le gerarchie della Serie A 2026-27 per i rigoristi: squadra per squadra, chi può calciare per il fantacalcio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/fantacalcio-asta-tutti-rigoristi-seriea-venti-squadre-campionato/",
+   "image": "https://static.sosfanta.com/2026/09/Woltemade-0c99023ea011-e1788357293195.jpg",
+   "date": "2026-09-02T16:31:22+00:00"
+  },
+  {
+   "title": "UFFICIALE - Di Lorenzo rinnova con il Napoli: i dettagli e quando scade il nuovo contratto",
+   "summary": "Il capitano del Napoli ha firmato il rinnovo: è arrivato l'annuncio ufficiale del club campione d'Italia.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/di-lorenzo-ufficiale-rinnovo-contratto/",
+   "image": "https://static.sosfanta.com/202605/35a0b0d04e7a379bdffcc7701c2483cd-scaled-e1778870365310.jpeg",
+   "date": "2026-09-02T16:30:34+00:00"
+  },
+  {
+   "title": "La divisione del budget all'asta del fantacalcio: ecco quanto spendere per ogni ruolo",
+   "summary": "Questa è la divisione del budget per l'asta del fantacalcio: ruolo per ruolo, ecco quanto spendere e come muoversi nei vari casi.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/consigli-fantacalcio-asta-budget-come-dividere-crediti-quanto-spendere-ruoli/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292489893-d244d7ab794a-e1787951485349.jpg",
+   "date": "2026-09-02T16:15:17+00:00"
+  },
+  {
+   "title": "Romano - Juve, Zhegrova non è più parte del progetto: può restare fuori dalla lista UEFA",
+   "summary": "La Juventus può escludere Edon Zhegrova dalla lista UEFA: l’ala kosovara non è più parte del progetto: lo riporta Fabrizio Romano dal proprio canale Whatsapp.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/romano-juve-zhegrova-non-e-piu-parte-del-progetto-puo-restare-fuori-dalla-lista-uefa/",
+   "image": "https://static.sosfanta.com/202510/355674a38dcc56f205a1b8eeb9724544-scaled-e1760184301848.jpg",
+   "date": "2026-09-02T16:00:52+00:00"
+  },
+  {
+   "title": "UFFICIALE - Inter, arriva la risoluzione con Ausilio. E c'è già l'annuncio del nuovo direttore sportivo",
+   "summary": "L'Inter saluta ufficialmente il ds Piero Ausilio e promuove Dario Baccin al suo posto. Ora c'è anche il comunicato ufficiale da parte del club nerazzurro.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ausilio-inter-baccin/",
+   "image": "https://static.sosfanta.com/202407/7a42525d9b5605e583989b58ac8245bd-e1721318618741.jpg",
+   "date": "2026-09-02T15:50:18+00:00"
+  },
+  {
+   "title": "Fabregas: \"Kean era la prima scelta: rispondo su lui e Douvikas! Sanchez e Butez, vi spiego. Addai…”",
+   "summary": "L'allenatore del Como è intervenuto in conferenza stampa a due giorni dalla sfida di campionato con il Genoa: ecco le sue dichiarazioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/fabregas-conferenza-como-kean-sanchez-douvikas-butez-addai/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290767234-b374c5afd54b.jpg",
+   "date": "2026-09-02T15:40:02+00:00"
+  },
+  {
+   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per l'asta: da Yildiz a McTominay",
+   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+   "image": "https://static.sosfanta.com/202604/a52c8c8d0a33d80e749ebde4970453ce-e1777463751783.jpg",
+   "date": "2026-09-02T15:30:42+00:00"
+  },
+  {
+   "title": "BREAKING - Ricardo Rodriguez torna al fantacalcio: è fatta, firma con questo club",
+   "summary": "L'esterno svizzero, che era svincolato, fa ritorno in Serie A dopo due stagioni nella Liga: ecco dove giocherà.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/ricardo-rodriguez-torino-accordo-mercato-asta-fantacalcio/",
+   "image": "https://static.sosfanta.com/202402/702d953a51ae3ecda04b4dd97ed59500-e1707894615862.jpg",
+   "date": "2026-09-02T15:15:55+00:00"
+  },
+  {
+   "title": "Napoli, le ultime su McTominay dopo il comunicato. Le gare che dovrebbe saltare",
+   "summary": "Ieri a sorpresa il comunicato del Napoli sull'aritmia di McTominay e l'operazione. Queste le ultime sul centrocampista",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-mctominay-gare-out-operazione/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291597536-f63bb4d4cd85.jpg",
+   "date": "2026-09-02T15:00:00+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Ausilio lascia l'Inter con effetto immediato: il motivo e chi può prendere il suo posto",
+   "summary": "Il club nerazzurro e lo storico direttore sportivo si separano dopo 28 anni: cosa è successo e da chi verrà sostituito.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/ausilio-inter-risoluzione-contratto-motivo-sostituto-baccin/",
+   "image": "https://static.sosfanta.com/202507/5e255a0895a12495c19a577fb0cbb80f-e1752867375666.jpeg",
+   "date": "2026-09-02T14:45:09+00:00"
+  },
+  {
+   "title": "Tutti i tiratori di corner e punizioni in Serie A per il fantacalcio 2026-27: squadra per squadra, gli specialisti",
+   "summary": "Tutti i tiratori di punizioni e corner in Serie A, squadra per squadra: gerarchie, novità e possibili bonus in chiave fantacalcio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/serie-a-2026-2027-tiratori-punizioni-corner-specialisti-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/08/Mandragora-d938a1d6411f-e1788363534658.jpg",
+   "date": "2026-09-02T14:30:55+00:00"
+  },
+  {
+   "title": "Juve, da Cambiaso a McKennie e Zhegrova: le novità dal campo. Tempi lunghi per Yildiz e Thuram",
+   "summary": "Il punto sugli infortuni della Juventus in vista della sfida contro il Milan domenica alle 20:45",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-infortuni-thuram-yildiz-mckennie-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/202602/03e213306dbf5a5423f12b6c425a59ab.png",
+   "date": "2026-09-02T14:00:20+00:00"
+  },
+  {
+   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità post mercato",
+   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/09/Goncalves-2559429f5d6c-e1788357523625.jpeg",
+   "date": "2026-09-02T13:45:56+00:00"
+  },
+  {
+   "title": "Sono rimasti! Cosa succede ora e cosa fare: da Dodo a Lang, Soulé, Ghedjemis, Tomori, T. Gabriel e Zhegrova",
+   "summary": "Il calciomercato si è chiuso e ci sono dei giocatori che sono rimasti nonostante le voci: ecco cosa fare al fantacalcio.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/sono-rimasti-cosa-succede-ora-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/WhatsApp-Image-2026-09-02-at-12.34.37-491a6c240716-e1788353622962.jpeg",
+   "date": "2026-09-02T13:30:24+00:00"
+  },
+  {
    "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: oggi giocano così, le novità dopo il mercato",
    "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
    "image": "https://static.sosfanta.com/2026/09/WhatsApp-Image-2026-09-02-at-12.04.34-9c22dccaa738-e1788343685917.jpeg",
-   "date": "2026-09-02T12:15:46+00:00"
+   "date": "2026-09-02T13:15:46+00:00"
+  },
+  {
+   "title": "Inter, il ds Piero Ausilio verso l'addio: ecco quando può lasciare il club e le motivazioni",
+   "summary": "Il direttore sportivo ha fatto sapere che mancano le condizioni per proseguire insieme al club nerazzurro.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/ausilio-inter-addio-2027-mercato-fantacalcio/",
+   "image": "https://static.sosfanta.com/202605/c58fdaf454436005b49a43aafa80669b-scaled-e1777876357342.jpg",
+   "date": "2026-09-02T13:00:03+00:00"
+  },
+  {
+   "title": "HERE WE GO - El Shaarawy firma da svincolato e resta in Serie A: ecco dove giocherà",
+   "summary": "Dopo l'addio alla Roma, il centrocampista sceglie il progetto rossoblù e si riunisce al suo ex allenatore.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/genoa/el-shaarawy-genoa-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/202606/25c440a228979efcac1fbb62bf04cc7c-e1780437043752.jpg",
+   "date": "2026-09-02T12:45:56+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Romagnoli, si chiude la telenovela con l’Al Sadd: accordo raggiunto",
+   "summary": "Dopo l'operazione saltata a giugno, ora l'accordo è confermato: pronto un contratto quadriennale in Qatar.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/romagnoli-al-sadd-mercato-qatar-fantacalcio/",
+   "image": "https://static.sosfanta.com/202601/1e015fbadbff5af36c483826106fc397-e1769776331167.jpeg",
+   "date": "2026-09-02T12:15:03+00:00"
   },
   {
    "title": "Da McKennie e Moreira a Ilic e Chukwueze: ecco i nuovi cambi ruolo al Mantra",
@@ -37697,15 +37866,6 @@
    "url": "https://www.sosfanta.com/news/cambi-ruolo-mantra-mckennie-chukwueze-fantacalcio-asta/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291826944-d568876f5219-e1787900785378.jpg",
    "date": "2026-09-02T12:00:39+00:00"
-  },
-  {
-   "title": "HERE WE GO - El Shaarawy firma da svincolato e resta in Serie A: ecco dove giocherà",
-   "summary": "Dopo l'addio alla Roma, il centrocampista sceglie il progetto rossoblù e si riunisce al suo ex allenatore.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/genoa/el-shaarawy-genoa-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/202606/25c440a228979efcac1fbb62bf04cc7c-e1780437043752.jpg",
-   "date": "2026-09-02T11:45:56+00:00"
   },
   {
    "title": "Juventus, respinte diverse offerte per Gatti: la volontà del giocatore e i club ancora in corsa",
@@ -37733,15 +37893,6 @@
    "url": "https://www.sosfanta.com/squadra/lazio/lazio-rovella-out-quando-rientra/",
    "image": "https://static.sosfanta.com/202602/9b4e02146fc0040e4d1e6be41cf72386-scaled-e1771708159198.jpeg",
    "date": "2026-09-02T11:00:17+00:00"
-  },
-  {
-   "title": "ULTIM'ORA - Romagnoli, si chiude la telenovela con l’Al Sadd: accordo raggiunto",
-   "summary": "Dopo l'operazione saltata a giugno, ora l'accordo è confermato: pronto un contratto quadriennale in Qatar.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/romagnoli-al-sadd-mercato-qatar-fantacalcio/",
-   "image": "https://static.sosfanta.com/202601/1e015fbadbff5af36c483826106fc397-e1769776331167.jpeg",
-   "date": "2026-09-02T10:45:03+00:00"
   },
   {
    "title": "Agente Kessie risponde a Carnevali: “Ha aspettato la Juve, vi spiego cos’è successo”",
@@ -37904,141 +38055,6 @@
    "url": "https://www.sosfanta.com/squadra/como/la-gestione-di-kean-al-como-ecco-cosa-fare-al-fantacalcio-i-numeri-e-il-dualismo-con-douvikas/",
    "image": "https://static.sosfanta.com/2026/07/GettyImages-2268603938-5c132b4c1554-scaled-e1784561409323.jpg",
    "date": "2026-09-01T20:30:07+00:00"
-  },
-  {
-   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità post mercato",
-   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/08/Malen-2cbd3cecf5ff-e1787602655247.jpg",
-   "date": "2026-09-01T20:15:56+00:00"
-  },
-  {
-   "title": "Inter, le novità su Spence. Le condizioni di Thuram: ecco quando potrebbe tornare dal 1'",
-   "summary": "In attesa di poter contare anche su Djed Spence, la buona notizia è poter fare affidamento su tutto il resto del gruppo",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-novita-spence-thuram-titolare/",
-   "image": "https://static.sosfanta.com/202605/d65c0e74595f2464172f158693a62cdb-e1777840680478.jpg",
-   "date": "2026-09-01T20:00:48+00:00"
-  },
-  {
-   "title": "MERCATO - Nzola e non solo: ecco tutte le ufficialità di oggi! Ufficiali gli addii di Norton-Cuffy e Vaz",
-   "summary": "Ultime ore della sessione di calciomercato estiva: tutti gli affari in corso e le possibili sorprese dell'ultimo giorno",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/mercato-live-nuovo-acquisto-per-il-torino-dia-ceduto-cabal-bonazzoli-e-ufficiali-belghali-e-ahanor/",
-   "image": "https://static.sosfanta.com/202601/5925fe98d01b7b933b11ad3f36e6e437-e1769442013312.jpeg",
-   "date": "2026-09-01T19:45:39+00:00"
-  },
-  {
-   "title": "Milan, problemi per Gabbia in allenamento: le sue condizioni e cosa filtra in vista della Juventus",
-   "summary": "Piccolo allarme in casa Milan per Matteo Gabbia, alle prese con un fastidio alla caviglia a pochi giorni dalla sfida contro la Juventus.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/milan-problemi-per-gabbia-allenamento-condizioni-cosa-filtra-vista-juventus/",
-   "image": "https://static.sosfanta.com/202410/9de0e34666250e5fd3d80a2810c6d200-scaled-e1730037742780.jpg",
-   "date": "2026-09-01T19:30:21+00:00"
-  },
-  {
-   "title": "UFFICIALE - Jonathan David saluta la Juve e firma con l'Atletico Madrid: il comunicato e la formula dell'affare",
-   "summary": "La Juventus cede Jonathan David all’Atletico Madrid fino al 2027: prestito gratuito con diritto di riscatto fissato a 25 milioni.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/ufficiale-jonathan-david-saluta-juve-firma-atletico-madrid-comunicato-formula-affare/",
-   "image": "https://static.sosfanta.com/202604/0fa006b6fa46c6c0e9ebdb33a1d824a6-e1775487179653.jpeg",
-   "date": "2026-09-01T19:00:36+00:00"
-  },
-  {
-   "title": "Sky - Milan, saltato clamorosamente il trasferimento di Fofana al Lione: il motivo e i possibili scenari",
-   "summary": "Cambia improvvisamente il futuro di Fofana: sfuma il passaggio dal Milan al Lione e ora si attendono sviluppi nelle prossime ore.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/sky-milan-saltato-clamorosamente-il-trasferimento-di-fofana-al-lione-il-motivo-e-i-possibili-scenari/",
-   "image": "https://static.sosfanta.com/202508/1c4eebbacd21417d33752662ecf81f50-e1755946283696.jpeg",
-   "date": "2026-09-01T18:30:18+00:00"
-  },
-  {
-   "title": "UFFICIALE - Nzola lascia la Fiorentina sul gong e firma con il Cagliari: i dettagli",
-   "summary": "Il Cagliari ufficializza Nzola: depositato sul gong il contratto dell’attaccante angolano classe 1996, in arrivo dalla Fiorentina.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/cagliari/ufficiale-nzola-lascia-la-fiorentina-sul-gong-e-firma-con-il-cagliari-i-dettagli/",
-   "image": "https://static.sosfanta.com/202507/02b1da1bf972f71bd4b52ddbb80bb3c4-e1753908720981.jpg",
-   "date": "2026-09-01T18:15:14+00:00"
-  },
-  {
-   "title": "UFFICIALE - Gnonto è un nuovo giocatore della Fiorentina: i dettagli e la formula dell'operazione con il Leeds",
-   "summary": "Wilfried Gnonto è ufficialmente un nuovo giocatore della Fiorentina: il classe 2003 arriva dal Leeds in prestito con diritto di riscatto.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/ufficiale-gnonto-nuovo-giocatore-fiorentina-dettagli-formula-operazione-leeds/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2270102044-ebbf863ed364-e1788169057814.jpg",
-   "date": "2026-09-01T18:00:09+00:00"
-  },
-  {
-   "title": "UFFICIALE - Gudmundsson lascia la Fiorentina e firma con la Lazio: i dettagli dell'affare",
-   "summary": "La Lazio ufficializza Gudmundsson: il centrocampista classe 1997 lascia la Fiorentina e approda in biancoceleste in prestito con diritto di riscatto.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/ufficiale-gudmundsson-lascia-fiorentina-firma-lazio-dettagli-affare/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289942106-0c3d93d79b99-e1787673603693.jpg",
-   "date": "2026-09-01T17:45:15+00:00"
-  },
-  {
-   "title": "UFFICIALE - Woltemade è un nuovo giocatore della Juventus: i dettagli e le cifre dell'affare con il Newcastle",
-   "summary": "La Juventus ufficializza Woltemade: l’attaccante tedesco classe 2002 arriva in prestito senza diritto o obbligo di riscatto.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/ufficiale-woltemade-nuovo-giocatore-juventus-dettagli-cifre-affare-newcastle/",
-   "image": "https://static.sosfanta.com/2026/09/7323857d-3cab-48a1-a312-2856642ae2e0-faa70439eb43-e1788284809394.jpg",
-   "date": "2026-09-01T17:30:03+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Stop per Gabbia, Bernabé e Schmid, l'esito degli esami per Geubbels! McKennie e Cambiaso...",
-   "summary": "Le ultime dai campi e dalle infermerie di Serie A in vista del prossimo turno. Le novità sui rientri e sulle assenza delle squadre di Serie A.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-stop-per-gabbia-bernabe-schmid-esito-esami-geubbels-mckennie-cambiaso/",
-   "image": "https://static.sosfanta.com/2026/09/c2985585-1852-4521-99cc-6b6769a393a4-7845d0a771f3-e1788281666941.jpg",
-   "date": "2026-09-01T17:15:22+00:00"
-  },
-  {
-   "title": "UFFICIALE - Rowe è un nuovo giocatore dell'Atalanta e Mbangula sarà il suo erede al Bologna: le cifre",
-   "summary": "Doppio affare ufficiale in Serie A: l’Atalanta accoglie Rowe per 40 milioni complessivi, il Bologna chiude per Mbangula.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/ufficiale-rowe-nuovo-giocatore-atalanta-mbanngula-sara-suo-erede-bologna/",
-   "image": "https://static.sosfanta.com/2026/09/63509b1e-364b-431f-b105-ce9a787df04d-43470df8cd32-e1788283342828.jpg",
-   "date": "2026-09-01T17:00:52+00:00"
-  },
-  {
-   "title": "UFFICIALE - Il Como ha depositato il contratto di Kean, Beto alla Fiorentina: concluso l'incastro tra attaccanti",
-   "summary": "Il Como deposita il contratto di Kean, mentre Beto approda alla Fiorentina: si chiude così l’incastro tra i due attaccanti.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/ufficiale-icomo-depositato-contratto-kean-beto-afiorentina-concluso-incastro-attaccanti/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2169114960-f99dddc1a989-e1784753221259.jpg",
-   "date": "2026-09-01T16:45:32+00:00"
-  },
-  {
-   "title": "UFFICIALE - Ekuban trova una nuova squadra dopo l'esperienza al Genoa: ecco dove giocherà",
-   "summary": "Nuova avventura per Caleb Ekuban dopo l’addio al Genoa: l’attaccante, rimasto svincolato, ha sottoscritto un biennale.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ufficiale-ekuban-trova-nuova-squadra-dopo-esperienza-genoa-ecco-dove-giochera/",
-   "image": "https://static.sosfanta.com/202406/a6461e4b4ec73604814f1b568912ef5f.jpg",
-   "date": "2026-09-01T16:30:34+00:00"
-  },
-  {
-   "title": "Chi sale dopo l’ultima giornata e cosa cambia per l’asta: da Tavares e Samardzic a Colpani, ecco otto nomi",
-   "summary": "Dall’ultima giornata sono arrivati segnali importanti verso l’asta, da Nuno Tavares fino a Samardzic.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/chi-sale-dopo-lultima-giornata-e-cosa-cambia-per-lasta-da-tavares-e-samardzic-a-colpani-ecco-otto-nomi/",
-   "image": "https://static.sosfanta.com/2026/09/tavares-a69981da5601-e1788271209994.jpeg",
-   "date": "2026-09-01T16:15:03+00:00"
   }
  ],
  "marketDifficulty": {
