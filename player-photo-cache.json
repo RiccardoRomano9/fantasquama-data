@@ -1,78 +1,6 @@
 {
   "version": 1,
   "players": {
-    "7484": {
-      "inputHash": "989868efb1d4291608f8",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "7484",
-        "6646"
-      ]
-    },
-    "6646": {
-      "inputHash": "9ad40f5e1891880da0e8",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "7484",
-        "6646"
-      ]
-    },
-    "5918": {
-      "inputHash": "09447af0f861c7c80152",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "5918",
-        "6024"
-      ]
-    },
-    "7456": {
-      "inputHash": "25138606a2f0283ba5dc",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "7456",
-        "6225"
-      ]
-    },
-    "6225": {
-      "inputHash": "c34ece4bafa11dbf69a0",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "7456",
-        "6225"
-      ]
-    },
-    "7319": {
-      "inputHash": "de44fb646f744beb8872",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "7319",
-        "4686"
-      ]
-    },
     "4686": {
       "inputHash": "2b599d84f2e0d84a9111",
       "status": "ambiguous",
@@ -83,107 +11,6 @@
       "candidates": [
         "7319",
         "4686"
-      ]
-    },
-    "4364": {
-      "inputHash": "214761e3f17472f4319c",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "4364",
-        "6218"
-      ]
-    },
-    "6218": {
-      "inputHash": "ee2829cb7cb080643b1d",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "4364",
-        "6218"
-      ]
-    },
-    "7311": {
-      "inputHash": "59a58e2fd2bab148fdde",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "7311",
-        "7131"
-      ]
-    },
-    "6024": {
-      "inputHash": "bad73c71ac15c1d8530e",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "5918",
-        "6024"
-      ]
-    },
-    "7131": {
-      "inputHash": "98ac2b94923d5892b647",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "7311",
-        "7131"
-      ]
-    },
-    "6638": {
-      "inputHash": "c40f2677df2a5d3cb33a",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "6638",
-        "5603"
-      ]
-    },
-    "5603": {
-      "inputHash": "4dd59ca10b57cbd81a12",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "reason": "fullName duplicato nel listone",
-      "candidates": [
-        "6638",
-        "5603"
-      ]
-    },
-    "4387": {
-      "inputHash": "c665b7d1b7eef7f851a8",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Andrea Adorante",
-      "birthDate": "2000-02-05",
-      "wikidataID": "Q66382854",
-      "wikipediaTitle": "Andrea Adorante",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andrea_adorante_05022000.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
       ]
     },
     "7338": {
@@ -568,16 +395,6 @@
         "contentType": "image/png"
       }
     },
-    "7568": {
-      "inputHash": "10b3711665a648a2f95d",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q3851233"
-      ]
-    },
     "5672": {
       "inputHash": "a74b15785d2c500fafae",
       "status": "valid",
@@ -909,40 +726,6 @@
         "contentType": "image/png"
       }
     },
-    "7162": {
-      "inputHash": "9342388af6d25e10cb68",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Giovane",
-      "birthDate": "2003-11-24",
-      "wikidataID": "Q111944826",
-      "wikipediaTitle": "Giovane (calciatore)",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/giovane_24112003.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/giovane_santana_24112003.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7272": {
-      "inputHash": "8698568e843b93169723",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q122874530",
-        "Q132135133",
-        "Q46679"
-      ]
-    },
     "7453": {
       "inputHash": "c4c7040d472d2ea19c72",
       "status": "valid",
@@ -1018,33 +801,6 @@
         "bytes": 16059,
         "contentType": "image/png"
       }
-    },
-    "7547": {
-      "inputHash": "e500aec3d553bd37d3f2",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Kevin Carlos",
-      "birthDate": "2001-04-10",
-      "wikidataID": "Q110114075",
-      "wikipediaTitle": "Kevin Carlos",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kevin_carlos_10042001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kevin_carlos_omoruyi_benjamin_10042001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kevin_benjamin_10042001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "5951": {
       "inputHash": "a119ef760c403395ccfc",
@@ -1146,23 +902,6 @@
         "contentType": "image/png"
       }
     },
-    "6204": {
-      "inputHash": "299f2917f29c75d84a18",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Giorgi Kvernadze",
-      "birthDate": "2003-02-07",
-      "wikidataID": "Q121778208",
-      "wikipediaTitle": "Giorgi Kvernadze",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/giorgi_kvernadze_07022003.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "7120": {
       "inputHash": "cb12f8c73e5c0672e6d8",
       "status": "valid",
@@ -1263,33 +1002,6 @@
         "contentType": "image/png"
       }
     },
-    "7408": {
-      "inputHash": "b6d75f07696d328185ba",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Kornel Lisman",
-      "birthDate": "2006-02-20",
-      "wikidataID": "Q133801107",
-      "wikipediaTitle": "Kornel Lisman",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kornel_lisman_20022006.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7561": {
-      "inputHash": "5d6e1407fe695705a1c9",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q559474"
-      ]
-    },
     "6215": {
       "inputHash": "fffa02b1a83a166d5727",
       "status": "valid",
@@ -1389,23 +1101,6 @@
         "bytes": 13724,
         "contentType": "image/png"
       }
-    },
-    "7374": {
-      "inputHash": "123ba70d6947450dfef2",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Alexandre Mendy",
-      "birthDate": "1983-12-14",
-      "wikidataID": "Q717213",
-      "wikipediaTitle": "Alexandre Mendy",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/alexandre_mendy_14121983.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "2012": {
       "inputHash": "b9c343b55e76de406424",
@@ -1511,28 +1206,6 @@
         "bytes": 13077,
         "contentType": "image/png"
       }
-    },
-    "7001": {
-      "inputHash": "51461f48c60224543047",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Konan N'Dri",
-      "birthDate": "2000-10-27",
-      "wikidataID": "Q62056421",
-      "wikipediaTitle": "Konan Ignace Jocelyn N'Dri",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/konan_ndri_27102000.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/konan_ignace_jocelyn_ndri_27102000.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "6831": {
       "inputHash": "c6f27a0f74a5cd8e7bab",
@@ -1685,23 +1358,6 @@
         "contentType": "image/png"
       }
     },
-    "5436": {
-      "inputHash": "fca17ba8bd70166dabca",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Antonio Raimondo",
-      "birthDate": "2004-03-18",
-      "wikidataID": "Q107999124",
-      "wikipediaTitle": "Antonio Raimondo",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/antonio_raimondo_18032004.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "6397": {
       "inputHash": "fe6c1c65ace7f5279ca7",
       "status": "valid",
@@ -1781,72 +1437,6 @@
         "bytes": 13099,
         "contentType": "image/png"
       }
-    },
-    "7546": {
-      "inputHash": "4cd03ed6ef299a329687",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Callum Robinson",
-      "birthDate": "1995-02-02",
-      "wikidataID": "Q15063206",
-      "wikipediaTitle": "Callum Jack Robinson",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/callum_robinson_02021995.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/callum_jack_robinson_02021995.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7554": {
-      "inputHash": "8ff64a7dfa5cead61c0a",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Iván Romero",
-      "birthDate": "2001-04-10",
-      "wikidataID": "Q108112656",
-      "wikipediaTitle": "Iván Romero",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ivan_romero_10042001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ivan_romero_de_avila_araque_10042001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ivan_araque_10042001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7449": {
-      "inputHash": "910040a261c4d59622da",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Albion Rrahmani",
-      "birthDate": "2000-08-31",
-      "wikidataID": "Q121271905",
-      "wikipediaTitle": "Albion Rrahmani",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/albion_rrahmani_31082000.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "7351": {
       "inputHash": "2e24118ca391b278359b",
@@ -2021,17 +1611,6 @@
         "bytes": 13342,
         "contentType": "image/png"
       }
-    },
-    "7317": {
-      "inputHash": "fe253bdc0a39bb870390",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q137767362",
-        "Q84247209"
-      ]
     },
     "7523": {
       "inputHash": "ca88872e7c929baf62e4",
@@ -2364,49 +1943,6 @@
         "bytes": 11511,
         "contentType": "image/png"
       }
-    },
-    "7528": {
-      "inputHash": "3b2b4d23c84d5379002e",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Mikel Amondarain",
-      "birthDate": "2005-01-06",
-      "wikidataID": "Q135479094",
-      "wikipediaTitle": "Mikel Amondarain",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mikel_amondarain_06012005.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7341": {
-      "inputHash": "c22cd8af540006bfc2b0",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Fábio Samuel Amorim Silva",
-      "birthDate": "1996-04-21",
-      "wikidataID": "Q19344500",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/fabio_samuel_amorim_silva_21041996.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/fabio_silva_21041996.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/fabio_samuel_amorim_da_silva_21041996.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "6889": {
       "inputHash": "0a5a5eb95185d6c275d5",
@@ -2758,14 +2294,6 @@
         "contentType": "image/png"
       }
     },
-    "7060": {
-      "inputHash": "c79a2fd06dd3b9d70d83",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "2194": {
       "inputHash": "a57d779a4c969b5595d2",
       "status": "valid",
@@ -2991,31 +2519,6 @@
         "contentType": "image/png"
       }
     },
-    "7473": {
-      "inputHash": "b3be25424f39dec24b51",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Matteo Cichella",
-      "birthDate": "2005-10-04",
-      "wikidataID": "Q137605956",
-      "wikipediaTitle": "Matteo Cichella",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/matteo_cichella_04102005.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "6618": {
-      "inputHash": "866172b9514489cc69b2",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "5880": {
       "inputHash": "25175f48861f94c82a5c",
       "status": "valid",
@@ -3041,14 +2544,6 @@
         "contentType": "image/png"
       }
     },
-    "7477": {
-      "inputHash": "a6390a3590ba1b1ae025",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "5878": {
       "inputHash": "2f3cf4ce4e591590d3ba",
       "status": "valid",
@@ -3073,17 +2568,6 @@
         "bytes": 97786,
         "contentType": "image/png"
       }
-    },
-    "7572": {
-      "inputHash": "53aea5e9b813aff339a0",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q182451",
-        "Q1873302"
-      ]
     },
     "6884": {
       "inputHash": "7b769e8746ba2a05626e",
@@ -3185,38 +2669,6 @@
         "contentType": "image/png"
       }
     },
-    "5559": {
-      "inputHash": "34f66f8cfcabda916e50",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Lucas Da Cunha",
-      "birthDate": "2001-07-09",
-      "wikidataID": "Q79058092",
-      "wikipediaTitle": "Lucas Da Cunha",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/lucas_da_cunha_09072001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/lucas_cunha_09072001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7481": {
-      "inputHash": "b8b8c3db53bae2b0a696",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q3960825"
-      ]
-    },
     "2517": {
       "inputHash": "6886eb0b75aa051cb7e2",
       "status": "valid",
@@ -3292,43 +2744,6 @@
         "bytes": 12761,
         "contentType": "image/png"
       }
-    },
-    "6629": {
-      "inputHash": "689fc47eb24450203fee",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q98959093"
-      ]
-    },
-    "7536": {
-      "inputHash": "c48b966507c1d3615bc4",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Amad Diallo",
-      "birthDate": "2002-07-11",
-      "wikidataID": "Q72603655",
-      "wikipediaTitle": "Amad Diallo",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amad_diallo_11072002.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amad_diallo_traore_11072002.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amad_traore_11072002.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "6274": {
       "inputHash": "b7412da631bf6a7e832f",
@@ -3722,17 +3137,6 @@
         "contentType": "image/png"
       }
     },
-    "6506": {
-      "inputHash": "cb24708925b8621a27bc",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q3660380",
-        "Q3960825"
-      ]
-    },
     "7535": {
       "inputHash": "06aef1084a828f9c2b71",
       "status": "valid",
@@ -3959,18 +3363,6 @@
         "contentType": "image/png"
       }
     },
-    "7248": {
-      "inputHash": "b8cab16022a675406873",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q152799",
-        "Q74363809",
-        "Q931795"
-      ]
-    },
     "7550": {
       "inputHash": "f0e2e630606a4f994a9a",
       "status": "valid",
@@ -3995,40 +3387,6 @@
         "bytes": 57744,
         "contentType": "image/png"
       }
-    },
-    "5800": {
-      "inputHash": "fcb27461ddfe6b87a495",
-      "status": "gazzetta_404",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "fullName": "Albert Guðmundsson",
-      "birthDate": "1923-10-05",
-      "wikidataID": "Q1397070",
-      "wikipediaTitle": "Albert Guðmundsson",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/albert_gudmundsson_05101923.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "6903": {
-      "inputHash": "97090f979002332cf67a",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
-    "5872": {
-      "inputHash": "f3067eb9b632ff1cb5cc",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "7157": {
       "inputHash": "1de6645d616f6f513610",
@@ -4266,38 +3624,6 @@
         "contentType": "image/png"
       }
     },
-    "5725": {
-      "inputHash": "dd064e3c7d898f1498b9",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Ben Lhassine Kone",
-      "birthDate": "2000-03-14",
-      "wikidataID": "Q59914746",
-      "wikipediaTitle": "Ben Lhassine Kone",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ben_lhassine_kone_14032000.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ben_kone_14032000.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/benjamin_lhassine_kone_14032000.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/benjamin_kone_14032000.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "6717": {
       "inputHash": "6d0e2a65673a1bdc6ad4",
       "status": "valid",
@@ -4398,39 +3724,6 @@
         "contentType": "image/png"
       }
     },
-    "7571": {
-      "inputHash": "87db094fc96c9ccb239f",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
-    "7357": {
-      "inputHash": "02b1b5f188e9566370ab",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Mayckel Lahdo",
-      "birthDate": "2002-12-30",
-      "wikidataID": "Q105620373",
-      "wikipediaTitle": "Mayckel Lahdo",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mayckel_lahdo_30122002.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "6678": {
-      "inputHash": "0eb6f9ab98c5c3f9be71",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "6246": {
       "inputHash": "a79b4403970fa0261151",
       "status": "valid",
@@ -4455,16 +3748,6 @@
         "bytes": 11607,
         "contentType": "image/png"
       }
-    },
-    "7165": {
-      "inputHash": "44302d317a9f9f262346",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q136654968"
-      ]
     },
     "4287": {
       "inputHash": "09f4854f3df089736ff8",
@@ -4747,28 +4030,6 @@
         "contentType": "image/png"
       }
     },
-    "7409": {
-      "inputHash": "54b785a7235ff4469240",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T15:39:05Z",
-      "retryAfter": "2026-09-25T15:39:05Z",
-      "fullName": "Franz-Ethan Meichtry",
-      "birthDate": "2005-07-08",
-      "wikidataID": "Q138328477",
-      "wikipediaTitle": "Franz-Ethan Meichtry",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franz-ethan_meichtry_08072005.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franz_ethan_meichtry_08072005.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "4970": {
       "inputHash": "9f400f528857573c8839",
       "status": "valid",
@@ -4793,28 +4054,6 @@
         "bytes": 63275,
         "contentType": "image/png"
       }
-    },
-    "7412": {
-      "inputHash": "e95ac06a4b4055f6d521",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Luis Milla Manzanares",
-      "birthDate": "1994-10-07",
-      "wikidataID": "Q47477260",
-      "wikipediaTitle": "Luis Milla Manzanares",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/luis_milla_manzanares_07101994.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/luis_manzanares_07101994.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "7208": {
       "inputHash": "3865592b9980abd2f46e",
@@ -4951,33 +4190,6 @@
         "contentType": "image/png"
       }
     },
-    "6372": {
-      "inputHash": "3aaa69536ecbb0319376",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Junior Sornoza",
-      "birthDate": "1994-01-28",
-      "wikidataID": "Q11091630",
-      "wikipediaTitle": "Júnior Nazareno Sornoza Moreira",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/junior_sornoza_28011994.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/junior_nazareno_sornoza_moreira_28011994.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/junior_moreira_28011994.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "6054": {
       "inputHash": "0c28921f92f214fe0862",
       "status": "valid",
@@ -5052,28 +4264,6 @@
         "bytes": 17973,
         "contentType": "image/png"
       }
-    },
-    "7322": {
-      "inputHash": "ac1910225635e08177ba",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Jerome Ngom Mbekeli",
-      "birthDate": "1998-09-30",
-      "wikidataID": "Q62035857",
-      "wikipediaTitle": "Jerome Ngom Mbekeli",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/jerome_ngom_mbekeli_30091998.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/jerome_mbekeli_30091998.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "4349": {
       "inputHash": "c2536ed65613bebe6adb",
@@ -5300,33 +4490,6 @@
         "bytes": 13430,
         "contentType": "image/png"
       }
-    },
-    "6994": {
-      "inputHash": "7decce38cecc6f5ac22f",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Kike Pérez",
-      "birthDate": "1997-02-14",
-      "wikidataID": "Q42909631",
-      "wikipediaTitle": "Kike Pérez",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kike_perez_14021997.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/enrique_perez_munoz_14021997.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/enrique_munoz_14021997.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "6151": {
       "inputHash": "ca093498bd04c00dc3e7",
@@ -5628,28 +4791,6 @@
         "bytes": 11692,
         "contentType": "image/png"
       }
-    },
-    "7129": {
-      "inputHash": "a15b7ce4043c6923ec05",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Jesús Rodríguez Caraballo",
-      "birthDate": "2005-11-21",
-      "wikidataID": "Q128809546",
-      "wikipediaTitle": "Jesús Rodríguez Caraballo",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/jesus_rodriguez_caraballo_21112005.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/jesus_caraballo_21112005.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "4459": {
       "inputHash": "73395c7efddeee94f97c",
@@ -6003,16 +5144,6 @@
         "contentType": "image/png"
       }
     },
-    "2857": {
-      "inputHash": "fc50a29c4e709ef53912",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q123701208"
-      ]
-    },
     "6783": {
       "inputHash": "854194fa8b4d586b9ea1",
       "status": "valid",
@@ -6212,38 +5343,6 @@
         "bytes": 12700,
         "contentType": "image/png"
       }
-    },
-    "4220": {
-      "inputHash": "58b60eb2fc929a772f85",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T15:39:05Z",
-      "retryAfter": "2026-09-25T15:39:05Z",
-      "fullName": "André-Frank Zambo Anguissa",
-      "birthDate": "1995-11-16",
-      "wikidataID": "Q21039587",
-      "wikipediaTitle": "André-Frank Anguissa",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andre-frank_zambo_anguissa_16111995.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andre_frank_zambo_anguissa_16111995.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andre-frank_anguissa_16111995.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andre_frank_anguissa_16111995.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "2766": {
       "inputHash": "4b354c9789ba50d2b5c0",
@@ -6495,27 +5594,6 @@
         "contentType": "image/png"
       }
     },
-    "5424": {
-      "inputHash": "4e317df0c122e78229c7",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Amey Ranawade",
-      "birthDate": "1998-03-07",
-      "wikidataID": "Q55356821",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amey_ranawade_07031998.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amey_ganesh_ranawade_07031998.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "5399": {
       "inputHash": "bf97d53e3d7f0dcc2638",
       "status": "valid",
@@ -6540,17 +5618,6 @@
         "bytes": 71352,
         "contentType": "image/png"
       }
-    },
-    "7312": {
-      "inputHash": "09d1401fcd14a931c2eb",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q2083806",
-        "Q2707437"
-      ]
     },
     "7548": {
       "inputHash": "e6ff712b2a4463b279c1",
@@ -6602,14 +5669,6 @@
         "bytes": 49931,
         "contentType": "image/png"
       }
-    },
-    "7476": {
-      "inputHash": "4fc687d41567c141d148",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "6496": {
       "inputHash": "6ae603ceef7a99aea781",
@@ -6866,23 +5925,6 @@
         "contentType": "image/png"
       }
     },
-    "7469": {
-      "inputHash": "fba85f6daa9f0da64ad9",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Gabriele Bracaglia",
-      "birthDate": "2003-07-19",
-      "wikidataID": "Q131357489",
-      "wikipediaTitle": "Gabriele Bracaglia",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/gabriele_bracaglia_19072003.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "2788": {
       "inputHash": "7b26caa4ea089d957503",
       "status": "valid",
@@ -6992,23 +6034,6 @@
         "bytes": 12041,
         "contentType": "image/png"
       }
-    },
-    "7467": {
-      "inputHash": "9b20accd6b050900107d",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Gabriele Calvani",
-      "birthDate": "2004-01-12",
-      "wikidataID": "Q137598926",
-      "wikipediaTitle": "Gabriele Calvani",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/gabriele_calvani_12012004.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "5520": {
       "inputHash": "b58d9ebcd461b18cccec",
@@ -7209,14 +6234,6 @@
         "bytes": 40432,
         "contentType": "image/png"
       }
-    },
-    "7573": {
-      "inputHash": "af5d6fef8dac15797cb5",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "5757": {
       "inputHash": "610aa07de50f5789fc6c",
@@ -7528,14 +6545,6 @@
         "contentType": "image/png"
       }
     },
-    "7525": {
-      "inputHash": "0b7bc4e47629f7230394",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "254": {
       "inputHash": "ffb6bff8ac6c3551115b",
       "status": "valid",
@@ -7836,14 +6845,6 @@
         "contentType": "image/png"
       }
     },
-    "6632": {
-      "inputHash": "e8627bbd02cc6ea5c523",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "5831": {
       "inputHash": "7f4fc870e0be8a3e1fcb",
       "status": "valid",
@@ -7954,62 +6955,6 @@
         "contentType": "image/png"
       }
     },
-    "7454": {
-      "inputHash": "e33521607757bd2a9812",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Nuno Santos",
-      "birthDate": "1995-02-13",
-      "wikidataID": "Q18127780",
-      "wikipediaTitle": "Nuno Miguel Gomes dos Santos",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nuno_santos_13021995.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nuno_miguel_gomes_dos_santos_13021995.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "6821": {
-      "inputHash": "bb0ad5dfbe99830370df",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Antoine Hainaut",
-      "birthDate": "2002-02-18",
-      "wikidataID": "Q125885075",
-      "wikipediaTitle": "Antoine Hainaut",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/antoine_hainaut_18022002.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7538": {
-      "inputHash": "67408b661bb342c9f4fe",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Redouane Halhal",
-      "birthDate": "2003-03-05",
-      "wikidataID": "Q120389429",
-      "wikipediaTitle": "Redouane Halhal",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/redouane_halhal_05032003.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "5695": {
       "inputHash": "941c7cbe07e23966bf54",
       "status": "valid",
@@ -8060,28 +7005,6 @@
         "bytes": 182659,
         "contentType": "image/png"
       }
-    },
-    "7326": {
-      "inputHash": "719035b830eac8fd5513",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Viljar Vevatne",
-      "birthDate": "1994-12-07",
-      "wikidataID": "Q25429887",
-      "wikipediaTitle": "Viljar Vevatne",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/viljar_vevatne_07121994.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/viljar_helland_vevatne_07121994.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "4807": {
       "inputHash": "259eb188e78063047040",
@@ -8336,14 +7259,6 @@
         "bytes": 12327,
         "contentType": "image/png"
       }
-    },
-    "7414": {
-      "inputHash": "652e7e395ece751ac3a9",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "4976": {
       "inputHash": "5dcd2404f30ad3b946f3",
@@ -8624,23 +7539,6 @@
         "bytes": 12046,
         "contentType": "image/png"
       }
-    },
-    "7564": {
-      "inputHash": "1b85cc83c4b4418c7a78",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Fedde Leysen",
-      "birthDate": "2003-07-09",
-      "wikidataID": "Q102179091",
-      "wikipediaTitle": "Fedde Leysen",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/fedde_leysen_09072003.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "6659": {
       "inputHash": "049f3c32e1a47a7ec917",
@@ -9020,28 +7918,6 @@
         "contentType": "image/png"
       }
     },
-    "4998": {
-      "inputHash": "2dd07cfd963582c076b9",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Salvatore Molina",
-      "birthDate": "1992-01-01",
-      "wikidataID": "Q7406674",
-      "wikipediaTitle": "Salvatore Andrea Molina",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/salvatore_molina_01011992.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/salvatore_andrea_molina_01011992.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "4952": {
       "inputHash": "f5ef9ba4bf0a545ab698",
       "status": "valid",
@@ -9066,28 +7942,6 @@
         "bytes": 55038,
         "contentType": "image/png"
       }
-    },
-    "6890": {
-      "inputHash": "e6101f4c1f7d8f762311",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Alberto Moreno Pérez",
-      "birthDate": "1992-07-05",
-      "wikidataID": "Q4712133",
-      "wikipediaTitle": "Alberto Moreno Pérez",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/alberto_moreno_perez_05071992.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/alberto_perez_05071992.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "4317": {
       "inputHash": "5c093745849e685bbf1b",
@@ -9214,33 +8068,6 @@
         "contentType": "image/png"
       }
     },
-    "7329": {
-      "inputHash": "2157c63a5784ffe6a736",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Rafael Obrador",
-      "birthDate": "2004-02-24",
-      "wikidataID": "Q97570439",
-      "wikipediaTitle": "Rafael Obrador",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafael_obrador_24022004.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafael_obrador_burguera_24022004.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafael_burguera_24022004.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "7154": {
       "inputHash": "800e7aea71baad11e949",
       "status": "valid",
@@ -9290,23 +8117,6 @@
         "bytes": 79898,
         "contentType": "image/png"
       }
-    },
-    "7553": {
-      "inputHash": "547d709743e4c8e383b2",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Omar Fayed",
-      "birthDate": "2003-07-04",
-      "wikidataID": "Q121509768",
-      "wikipediaTitle": "Omar Fayed",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/omar_fayed_04072003.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "5750": {
       "inputHash": "4ee25cac4604aca13c4c",
@@ -9466,23 +8276,6 @@
         "contentType": "image/png"
       }
     },
-    "327": {
-      "inputHash": "4f2cb2df7fe5544417b6",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Patric Pfeiffer",
-      "birthDate": "1999-08-20",
-      "wikidataID": "Q57609066",
-      "wikipediaTitle": "Patric Pfeiffer",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/patric_pfeiffer_20081999.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "4177": {
       "inputHash": "5f307a7740768baadfa9",
       "status": "valid",
@@ -9588,17 +8381,6 @@
         "contentType": "image/png"
       }
     },
-    "2728": {
-      "inputHash": "9b3af89f3019ad287583",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q1337445",
-        "Q56754409"
-      ]
-    },
     "7156": {
       "inputHash": "4dfdc967c009b9756e29",
       "status": "valid",
@@ -9648,16 +8430,6 @@
         "bytes": 14546,
         "contentType": "image/png"
       }
-    },
-    "7413": {
-      "inputHash": "c50ce61837d1498e9091",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q3961232"
-      ]
     },
     "6869": {
       "inputHash": "715b4026ec86e992e991",
@@ -9859,33 +8631,6 @@
         "contentType": "image/png"
       }
     },
-    "6681": {
-      "inputHash": "0be4c5c82fd5ab23ad98",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Richie Sagrado",
-      "birthDate": "2004-01-30",
-      "wikidataID": "Q105955048",
-      "wikipediaTitle": "Richie Sagrado Sebastiao",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/richie_sagrado_30012004.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/richie_sagrado_sebastiao_30012004.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/richie_sebastiao_30012004.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "5526": {
       "inputHash": "bbfd9761777f138ebcae",
       "status": "valid",
@@ -9910,28 +8655,6 @@
         "bytes": 16977,
         "contentType": "image/png"
       }
-    },
-    "6892": {
-      "inputHash": "50d0d0fb4b196e690a18",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Joël Schingtienne",
-      "birthDate": "2002-08-14",
-      "wikidataID": "Q117730926",
-      "wikipediaTitle": "Joël Schingtienne",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joel_schingtienne_14082002.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joel_marcel_schingtienne_14082002.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
     },
     "7240": {
       "inputHash": "c51953affec5b5b016c3",
@@ -10107,23 +8830,6 @@
         "contentType": "image/png"
       }
     },
-    "6673": {
-      "inputHash": "03f4b38c59f242a35232",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Marin Šverko",
-      "birthDate": "1998-02-04",
-      "wikidataID": "Q27921588",
-      "wikipediaTitle": "Marin Šverko",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/marin_sverko_04021998.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "5620": {
       "inputHash": "51dc8cc0e160d0f40c21",
       "status": "valid",
@@ -10253,40 +8959,6 @@
         "bytes": 15557,
         "contentType": "image/png"
       }
-    },
-    "7235": {
-      "inputHash": "6bb33d6d90d0eb5419ab",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Mariano Troilo",
-      "birthDate": "2003-06-22",
-      "wikidataID": "Q124021747",
-      "wikipediaTitle": "Mariano Troilo",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mariano_troilo_22062003.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mariano_emir_troilo_22062003.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7294": {
-      "inputHash": "262a6817391b92a6cca8",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q2010100",
-        "Q2332106",
-        "Q4886381"
-      ]
     },
     "5307": {
       "inputHash": "ce2a08004f25aa62b459",
@@ -10437,16 +9109,6 @@
         "bytes": 208048,
         "contentType": "image/png"
       }
-    },
-    "7410": {
-      "inputHash": "e8c49415f356b089f5ff",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q133801098"
-      ]
     },
     "7068": {
       "inputHash": "35cc2f8c133b9ce7fcb8",
@@ -10734,23 +9396,6 @@
         "contentType": "image/png"
       }
     },
-    "4468": {
-      "inputHash": "c827351afba099491be0",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Marco Bleve",
-      "birthDate": "1995-08-17",
-      "wikidataID": "Q31762810",
-      "wikipediaTitle": "Marco Bleve",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/marco_bleve_17081995.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "6966": {
       "inputHash": "b9c37272722db04cecf7",
       "status": "valid",
@@ -10902,16 +9547,6 @@
         "contentType": "image/png"
       }
     },
-    "7411": {
-      "inputHash": "95fa7a36e35a0c9416ec",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q106885947"
-      ]
-    },
     "2521": {
       "inputHash": "911afdab1878934606da",
       "status": "valid",
@@ -10936,14 +9571,6 @@
         "bytes": 13070,
         "contentType": "image/png"
       }
-    },
-    "7048": {
-      "inputHash": "5b7429b86045a5e806bc",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "7463": {
       "inputHash": "8dbd2567d49c411a9041",
@@ -11070,31 +9697,6 @@
         "contentType": "image/png"
       }
     },
-    "6671": {
-      "inputHash": "b85b75796be910873530",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Matteo Grandi",
-      "birthDate": "1992-10-12",
-      "wikidataID": "Q29001672",
-      "wikipediaTitle": "Matteo Grandi",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/matteo_grandi_12101992.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7533": {
-      "inputHash": "64f35634b583452f86bd",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "158": {
       "inputHash": "5c32ed9d8806425e135f",
       "status": "valid",
@@ -11119,14 +9721,6 @@
         "bytes": 12892,
         "contentType": "image/png"
       }
-    },
-    "7466": {
-      "inputHash": "7fdb95a41cfd08e925b3",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "4312": {
       "inputHash": "243fb99af35d5473e9a7",
@@ -11202,14 +9796,6 @@
         "bytes": 12475,
         "contentType": "image/png"
       }
-    },
-    "7457": {
-      "inputHash": "2ada8e06d742081f866c",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "572": {
       "inputHash": "013704978cffb09257a2",
@@ -11415,27 +10001,6 @@
         "contentType": "image/png"
       }
     },
-    "6415": {
-      "inputHash": "d1cb289195a4d2582ee6",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q20641475"
-      ]
-    },
-    "7557": {
-      "inputHash": "ced3a10edd27ea453f47",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q322073",
-        "Q562386"
-      ]
-    },
     "218": {
       "inputHash": "eafc20e3a2b69be27e6b",
       "status": "valid",
@@ -11460,22 +10025,6 @@
         "bytes": 15194,
         "contentType": "image/png"
       }
-    },
-    "7172": {
-      "inputHash": "80d12d51f0ca5cce22bb",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
-    "5707": {
-      "inputHash": "fea451cac1de38b54338",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "1930": {
       "inputHash": "57ce27179d0fc6ae84dc",
@@ -11552,14 +10101,6 @@
         "contentType": "image/png"
       }
     },
-    "7531": {
-      "inputHash": "220f3d2e3cb644de7d16",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "2814": {
       "inputHash": "e103e6a84e104a18e9a1",
       "status": "valid",
@@ -11610,32 +10151,6 @@
         "contentType": "image/png"
       }
     },
-    "7534": {
-      "inputHash": "ee6d86d54340ef298737",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q3750531"
-      ]
-    },
-    "4518": {
-      "inputHash": "449335e85e2c2c5de6fa",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
-    "2127": {
-      "inputHash": "dea6f30a39b92b11d42b",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "6650": {
       "inputHash": "59944816416bf083af2f",
       "status": "valid",
@@ -11661,18 +10176,6 @@
         "contentType": "image/png"
       }
     },
-    "7363": {
-      "inputHash": "c9a0060ca176ce3a5299",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": [
-        "Q3183851",
-        "Q3750675",
-        "Q3824776"
-      ]
-    },
     "133": {
       "inputHash": "5a90668a0c3430fa8de8",
       "status": "valid",
@@ -11697,14 +10200,6 @@
         "bytes": 12805,
         "contentType": "image/png"
       }
-    },
-    "219": {
-      "inputHash": "8d7efc5a6f788c64c8af",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "4": {
       "inputHash": "1f24e28fc33de81f5344",
@@ -11756,35 +10251,6 @@
         "contentType": "image/png"
       }
     },
-    "6569": {
-      "inputHash": "5b7ed67bf21340486756",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Franz Stolz",
-      "birthDate": "2001-02-14",
-      "wikidataID": "Q64224732",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franz_stolz_14022001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franz_valentin_stolz_14022001.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "7475": {
-      "inputHash": "0be18b6c6e5bc770b80b",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
-    },
     "5841": {
       "inputHash": "d4e67fcb1c6fc2316dd3",
       "status": "valid",
@@ -11835,33 +10301,6 @@
         "contentType": "image/png"
       }
     },
-    "4485": {
-      "inputHash": "9c782f3f5d591fada979",
-      "status": "gazzetta_404",
-      "checkedAt": "2026-08-26T13:38:34Z",
-      "retryAfter": "2026-09-25T13:38:34Z",
-      "fullName": "Demba Thiam",
-      "birthDate": "1998-03-09",
-      "wikidataID": "Q59914667",
-      "wikipediaTitle": "Demba Thiam",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/demba_thiam_09031998.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/demba_thiam_ngagne_09031998.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        },
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/demba_ngagne_09031998.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
     "7301": {
       "inputHash": "504fed0c702fcde48e2a",
       "status": "valid",
@@ -11887,14 +10326,6 @@
         "bytes": 17768,
         "contentType": "image/png"
       }
-    },
-    "6813": {
-      "inputHash": "721b7de20b365f516fc4",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-08-26T15:50:20Z",
-      "retryAfter": "2026-09-25T15:50:20Z",
-      "candidates": []
     },
     "4867": {
       "inputHash": "95e76208b3eeeb91568c",
@@ -11979,330 +10410,6 @@
       "retryAfter": "2026-09-25T15:50:20Z",
       "candidates": []
     },
-    "5694": {
-      "inputHash": "bd777e86ea3968a3b756",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q16300369",
-        "Q313955",
-        "Q66363735"
-      ]
-    },
-    "7610": {
-      "inputHash": "3121bd221bc583da4292",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q106542058"
-      ]
-    },
-    "7612": {
-      "inputHash": "0282aff4db0ea8b0c414",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q1341515",
-        "Q3565339",
-        "Q5042296",
-        "Q64929968"
-      ]
-    },
-    "7602": {
-      "inputHash": "bae556915ea6cc2fa939",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q3067151",
-        "Q5437265"
-      ]
-    },
-    "7623": {
-      "inputHash": "5b53c88c0ce1d4479453",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q100792975",
-        "Q1756602",
-        "Q3417332",
-        "Q3660380"
-      ]
-    },
-    "6145": {
-      "inputHash": "65870c3c8053e836d75e",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q4815842",
-        "Q59352209"
-      ]
-    },
-    "5336": {
-      "inputHash": "e608b91d102446fc9413",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q30474499"
-      ]
-    },
-    "7600": {
-      "inputHash": "0f397fb6a83b08e7ff5d",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q57315517"
-      ]
-    },
-    "7622": {
-      "inputHash": "2b5e2bc987ac9236b211",
-      "status": "gazzetta_404",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "fullName": "Robinho Júnior",
-      "birthDate": "2007-12-17",
-      "wikidataID": "Q131693296",
-      "wikipediaTitle": "Robinho Junior",
-      "attempts": [
-        {
-          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/robinho_junior_17122007.png",
-          "status": "404",
-          "detail": "HTTP 404"
-        }
-      ]
-    },
-    "6752": {
-      "inputHash": "b0ac9e155066cc437395",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q62162",
-        "Q674656",
-        "Q824102",
-        "Q84158344",
-        "Q961209"
-      ]
-    },
-    "7620": {
-      "inputHash": "27e9548f7fd3c9a0fc9e",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q1356652",
-        "Q17123029",
-        "Q21033095",
-        "Q71735627"
-      ]
-    },
-    "7624": {
-      "inputHash": "aa18b8108f2b13dfe2a3",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q4716434",
-        "Q48851834",
-        "Q611923",
-        "Q61978222"
-      ]
-    },
-    "5462": {
-      "inputHash": "e2c8f3a76b8b5ba99465",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q108669013"
-      ]
-    },
-    "7232": {
-      "inputHash": "2bb95d94da22142f9e1d",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": []
-    },
-    "7574": {
-      "inputHash": "935dfabd1d7ed8d27408",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": []
-    },
-    "801": {
-      "inputHash": "b3e348a538b984a007ee",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q15964494"
-      ]
-    },
-    "7625": {
-      "inputHash": "b2de4dc05d6b90703e95",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": []
-    },
-    "4179": {
-      "inputHash": "e8ac8cec6f23eaa6e1a4",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": []
-    },
-    "7618": {
-      "inputHash": "0a39b2b5e1599f56f070",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q312980",
-        "Q439030",
-        "Q44225",
-        "Q7490887"
-      ]
-    },
-    "7092": {
-      "inputHash": "580a7a11119157f306d2",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q1394308",
-        "Q16234675",
-        "Q17496615",
-        "Q2497787"
-      ]
-    },
-    "1850": {
-      "inputHash": "e2be254d2ae7c40ae271",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q18044401"
-      ]
-    },
-    "7579": {
-      "inputHash": "6b28336c3bbfaf7aab3c",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q114840161",
-        "Q1609068",
-        "Q5479611"
-      ]
-    },
-    "6833": {
-      "inputHash": "0272a02a7d09f254726f",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q105955422",
-        "Q39498277",
-        "Q4712133"
-      ]
-    },
-    "7619": {
-      "inputHash": "6fbcd330f31f047c0e25",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": []
-    },
-    "7575": {
-      "inputHash": "00e859c6f7831ea91562",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": []
-    },
-    "5680": {
-      "inputHash": "75a59804ad0e12100f3d",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": []
-    },
-    "4705": {
-      "inputHash": "8ccab11d9fc96b300204",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q50233588"
-      ]
-    },
-    "7220": {
-      "inputHash": "b76c1a7a96bc3413d483",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q106030853",
-        "Q106030853",
-        "Q8338725"
-      ]
-    },
-    "4147": {
-      "inputHash": "89aa4b2b9bdfbc647c64",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q17612806"
-      ]
-    },
-    "6826": {
-      "inputHash": "79e215612495a3b310f5",
-      "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": []
-    },
     "4137": {
       "inputHash": "937a5c4e95a5ca48eaec",
       "status": "valid",
@@ -12329,41 +10436,1689 @@
         "contentType": "image/png"
       }
     },
-    "5742": {
-      "inputHash": "5786719a89b14f74195e",
+    "7484": {
+      "inputHash": "989868efb1d4291608f8",
       "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
       "candidates": [
-        "Q98815258"
+        "7484",
+        "6646"
+      ]
+    },
+    "6646": {
+      "inputHash": "9ad40f5e1891880da0e8",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "7484",
+        "6646"
+      ]
+    },
+    "5918": {
+      "inputHash": "09447af0f861c7c80152",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "5918",
+        "6024"
+      ]
+    },
+    "7456": {
+      "inputHash": "25138606a2f0283ba5dc",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "7456",
+        "6225"
+      ]
+    },
+    "6225": {
+      "inputHash": "c34ece4bafa11dbf69a0",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "7456",
+        "6225"
+      ]
+    },
+    "4364": {
+      "inputHash": "214761e3f17472f4319c",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "4364",
+        "6218"
+      ]
+    },
+    "6218": {
+      "inputHash": "ee2829cb7cb080643b1d",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "4364",
+        "6218"
+      ]
+    },
+    "7311": {
+      "inputHash": "59a58e2fd2bab148fdde",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "7311",
+        "7131"
+      ]
+    },
+    "6024": {
+      "inputHash": "bad73c71ac15c1d8530e",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "5918",
+        "6024"
+      ]
+    },
+    "7131": {
+      "inputHash": "98ac2b94923d5892b647",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "7311",
+        "7131"
+      ]
+    },
+    "6638": {
+      "inputHash": "c40f2677df2a5d3cb33a",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "6638",
+        "5603"
+      ]
+    },
+    "5603": {
+      "inputHash": "4dd59ca10b57cbd81a12",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "reason": "fullName duplicato nel listone",
+      "candidates": [
+        "6638",
+        "5603"
+      ]
+    },
+    "4387": {
+      "inputHash": "c665b7d1b7eef7f851a8",
+      "status": "valid",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "fullName": "Andrea Adorante",
+      "birthDate": "2000-02-05",
+      "wikidataID": "Q66382854",
+      "wikipediaTitle": "Andrea Adorante",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andrea_adorante_05022000.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andrea_adorante_05022000.png",
+      "photoProviderID": "gazzetta:andrea_adorante_05022000",
+      "image": {
+        "sha256": "b6341d893694b88fdf83ae7c7e6f9b4ce017f8259baaa28bb9c237487ecbaa99",
+        "width": 180,
+        "height": 180,
+        "bytes": 50838,
+        "contentType": "image/png"
+      }
+    },
+    "5694": {
+      "inputHash": "bd777e86ea3968a3b756",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q313955",
+        "Q66363735",
+        "Q16300369"
+      ]
+    },
+    "7610": {
+      "inputHash": "2ba4a09f04f39650c3bb",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Daniel Birligea",
+      "birthDate": "2000-04-19",
+      "wikidataID": "Q106542058",
+      "wikipediaTitle": "Daniel Bîrligea",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/daniel_birligea_19042000.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7612": {
+      "inputHash": "63ea7190204bb1c04a91",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Tomáš Bobček",
+      "birthDate": "2001-09-08",
+      "wikidataID": "Q64929968",
+      "wikipediaTitle": "Tomáš Bobček",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/tomas_bobcek_08092001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7568": {
+      "inputHash": "10b3711665a648a2f95d",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q3851233"
+      ]
+    },
+    "7602": {
+      "inputHash": "bae556915ea6cc2fa939",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q3067151",
+        "Q5437265"
+      ]
+    },
+    "7162": {
+      "inputHash": "9342388af6d25e10cb68",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Giovane",
+      "birthDate": "2003-11-24",
+      "wikidataID": "Q111944826",
+      "wikipediaTitle": "Giovane (calciatore)",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/giovane_24112003.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/giovane_santana_24112003.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7623": {
+      "inputHash": "df7e89f4f831f32c4365",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Wilfried Gnonto",
+      "birthDate": "2003-11-05",
+      "wikidataID": "Q100792975",
+      "wikipediaTitle": "Wilfried Gnonto",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/wilfried_gnonto_05112003.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7272": {
+      "inputHash": "8698568e843b93169723",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q122874530",
+        "Q132135133",
+        "Q46679"
+      ]
+    },
+    "7547": {
+      "inputHash": "e500aec3d553bd37d3f2",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Kevin Carlos",
+      "birthDate": "2001-04-10",
+      "wikidataID": "Q110114075",
+      "wikipediaTitle": "Kevin Carlos",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kevin_carlos_10042001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kevin_carlos_omoruyi_benjamin_10042001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kevin_benjamin_10042001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6204": {
+      "inputHash": "299f2917f29c75d84a18",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Giorgi Kvernadze",
+      "birthDate": "2003-02-07",
+      "wikidataID": "Q121778208",
+      "wikipediaTitle": "Giorgi Kvernadze",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/giorgi_kvernadze_07022003.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7408": {
+      "inputHash": "b6d75f07696d328185ba",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Kornel Lisman",
+      "birthDate": "2006-02-20",
+      "wikidataID": "Q133801107",
+      "wikipediaTitle": "Kornel Lisman",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kornel_lisman_20022006.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7561": {
+      "inputHash": "5d6e1407fe695705a1c9",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q559474"
+      ]
+    },
+    "7374": {
+      "inputHash": "123ba70d6947450dfef2",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Alexandre Mendy",
+      "birthDate": "1983-12-14",
+      "wikidataID": "Q717213",
+      "wikipediaTitle": "Alexandre Mendy",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/alexandre_mendy_14121983.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7001": {
+      "inputHash": "51461f48c60224543047",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Konan N'Dri",
+      "birthDate": "2000-10-27",
+      "wikidataID": "Q62056421",
+      "wikipediaTitle": "Konan Ignace Jocelyn N'Dri",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/konan_ndri_27102000.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/konan_ignace_jocelyn_ndri_27102000.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6145": {
+      "inputHash": "65870c3c8053e836d75e",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q4815842",
+        "Q59352209"
+      ]
+    },
+    "5336": {
+      "inputHash": "28304e320b933246158e",
+      "status": "valid",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "fullName": "Mbala Nzola",
+      "birthDate": "1996-08-18",
+      "wikidataID": "Q30474499",
+      "wikipediaTitle": "M'Bala Nzola",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mbala_nzola_18081996.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mbala_nzola_18081996.png",
+      "photoProviderID": "gazzetta:mbala_nzola_18081996",
+      "image": {
+        "sha256": "f5d79b2790d99710128cc3fc2dee012dd1933edb0f64009f64d1e88c09313890",
+        "width": 250,
+        "height": 250,
+        "bytes": 76636,
+        "contentType": "image/png"
+      }
+    },
+    "7600": {
+      "inputHash": "a336f07e96516081a215",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Milutin Osmajić",
+      "birthDate": "1999-07-25",
+      "wikidataID": "Q57315517",
+      "wikipediaTitle": "Milutin Osmajić",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/milutin_osmajic_25071999.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "5436": {
+      "inputHash": "fca17ba8bd70166dabca",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Antonio Raimondo",
+      "birthDate": "2004-03-18",
+      "wikidataID": "Q107999124",
+      "wikipediaTitle": "Antonio Raimondo",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/antonio_raimondo_18032004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7622": {
+      "inputHash": "2b5e2bc987ac9236b211",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Robinho Júnior",
+      "birthDate": "2007-12-17",
+      "wikidataID": "Q131693296",
+      "wikipediaTitle": "Robinho Júnior",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/robinho_junior_17122007.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7546": {
+      "inputHash": "4cd03ed6ef299a329687",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Callum Robinson",
+      "birthDate": "1995-02-02",
+      "wikidataID": "Q15063206",
+      "wikipediaTitle": "Callum Jack Robinson",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/callum_robinson_02021995.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/callum_jack_robinson_02021995.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7554": {
+      "inputHash": "8ff64a7dfa5cead61c0a",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Iván Romero",
+      "birthDate": "2001-04-10",
+      "wikidataID": "Q108112656",
+      "wikipediaTitle": "Iván Romero",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ivan_romero_10042001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ivan_romero_de_avila_araque_10042001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ivan_araque_10042001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7449": {
+      "inputHash": "910040a261c4d59622da",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Albion Rrahmani",
+      "birthDate": "2000-08-31",
+      "wikidataID": "Q121271905",
+      "wikipediaTitle": "Albion Rrahmani",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/albion_rrahmani_31082000.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7317": {
+      "inputHash": "d953448debb6d7b2bfa5",
+      "status": "valid",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "fullName": "Yael Trepy",
+      "birthDate": "2006-05-20",
+      "wikidataID": "Q137767362",
+      "wikipediaTitle": "Yael Trepy",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/yael_trepy_20052006.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/yael_trepy_20052006.png",
+      "photoProviderID": "gazzetta:yael_trepy_20052006",
+      "image": {
+        "sha256": "1fa583266c01b62e6fc93e68f69ecf5741af7c1efbbadaec9015c8206e1fafdb",
+        "width": 180,
+        "height": 180,
+        "bytes": 13233,
+        "contentType": "image/png"
+      }
+    },
+    "6752": {
+      "inputHash": "0eb509e1789872e0db8d",
+      "status": "valid",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "fullName": "Nick Woltemade",
+      "birthDate": "2002-02-14",
+      "wikidataID": "Q84158344",
+      "wikipediaTitle": "Nick Woltemade",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nick_woltemade_14022002.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nick_woltemade_14022002.png",
+      "photoProviderID": "gazzetta:nick_woltemade_14022002",
+      "image": {
+        "sha256": "2cf72c70a1b835ace121bd47fc646279999185ec02d07790fd1fafd91e8fa41c",
+        "width": 180,
+        "height": 180,
+        "bytes": 52622,
+        "contentType": "image/png"
+      }
+    },
+    "7620": {
+      "inputHash": "27e9548f7fd3c9a0fc9e",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q1356652",
+        "Q17123029",
+        "Q21033095",
+        "Q71735627"
+      ]
+    },
+    "7528": {
+      "inputHash": "3b2b4d23c84d5379002e",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Mikel Amondarain",
+      "birthDate": "2005-01-06",
+      "wikidataID": "Q135479094",
+      "wikipediaTitle": "Mikel Amondarain",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mikel_amondarain_06012005.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7341": {
+      "inputHash": "c22cd8af540006bfc2b0",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Fábio Samuel Amorim Silva",
+      "birthDate": "1996-04-21",
+      "wikidataID": "Q19344500",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/fabio_samuel_amorim_silva_21041996.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/fabio_silva_21041996.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/fabio_samuel_amorim_da_silva_21041996.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7624": {
+      "inputHash": "1000d5b29cbd089196f3",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Daniel Bragança",
+      "birthDate": "1999-05-27",
+      "wikidataID": "Q61978222",
+      "wikipediaTitle": "Daniel Bragança",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/daniel_braganca_27051999.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7060": {
+      "inputHash": "c79a2fd06dd3b9d70d83",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7473": {
+      "inputHash": "b3be25424f39dec24b51",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Matteo Cichella",
+      "birthDate": "2005-10-04",
+      "wikidataID": "Q137605956",
+      "wikipediaTitle": "Matteo Cichella",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/matteo_cichella_04102005.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "5462": {
+      "inputHash": "b36c4d913c359934a59f",
+      "status": "valid",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "fullName": "Riccardo Ciervo",
+      "birthDate": "2002-04-01",
+      "wikidataID": "Q108669013",
+      "wikipediaTitle": "Riccardo Ciervo",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/riccardo_ciervo_01042002.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/riccardo_ciervo_01042002.png",
+      "photoProviderID": "gazzetta:riccardo_ciervo_01042002",
+      "image": {
+        "sha256": "9dafeaf3626280b62d9cafc722c941c81088fb08bbb105b1c049503f73ba8095",
+        "width": 180,
+        "height": 180,
+        "bytes": 58196,
+        "contentType": "image/png"
+      }
+    },
+    "6618": {
+      "inputHash": "866172b9514489cc69b2",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7477": {
+      "inputHash": "a6390a3590ba1b1ae025",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7572": {
+      "inputHash": "53aea5e9b813aff339a0",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Gianluca Comotto",
+      "birthDate": "1978-10-16",
+      "wikidataID": "Q1873302",
+      "wikipediaTitle": "Gianluca Comotto",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/gianluca_comotto_16101978.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/christian_comotto_16101978.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "5559": {
+      "inputHash": "34f66f8cfcabda916e50",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Lucas Da Cunha",
+      "birthDate": "2001-07-09",
+      "wikidataID": "Q79058092",
+      "wikipediaTitle": "Lucas Da Cunha",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/lucas_da_cunha_09072001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/lucas_cunha_09072001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7481": {
+      "inputHash": "b8b8c3db53bae2b0a696",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q3960825"
+      ]
+    },
+    "6629": {
+      "inputHash": "689fc47eb24450203fee",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q98959093"
+      ]
+    },
+    "7536": {
+      "inputHash": "c48b966507c1d3615bc4",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Amad Diallo",
+      "birthDate": "2002-07-11",
+      "wikidataID": "Q72603655",
+      "wikipediaTitle": "Amad Diallo",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amad_diallo_11072002.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amad_diallo_traore_11072002.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amad_traore_11072002.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7232": {
+      "inputHash": "2bb95d94da22142f9e1d",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "6506": {
+      "inputHash": "cb24708925b8621a27bc",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q3660380",
+        "Q3960825"
+      ]
+    },
+    "7574": {
+      "inputHash": "935dfabd1d7ed8d27408",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7319": {
+      "inputHash": "de44fb646f744beb8872",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q330949",
+        "Q56282611"
+      ]
+    },
+    "801": {
+      "inputHash": "6ce0af44eda064358938",
+      "status": "valid",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "fullName": "Roberto Gagliardini",
+      "birthDate": "1994-04-07",
+      "wikidataID": "Q15964494",
+      "wikipediaTitle": "Roberto Gagliardini",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/roberto_gagliardini_07041994.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/roberto_gagliardini_07041994.png",
+      "photoProviderID": "gazzetta:roberto_gagliardini_07041994",
+      "image": {
+        "sha256": "a198612b54d69bc7d123ecc64f07d393d6ae70541c79a6e82384c02af2bafbf5",
+        "width": 250,
+        "height": 250,
+        "bytes": 61836,
+        "contentType": "image/png"
+      }
+    },
+    "7625": {
+      "inputHash": "b2de4dc05d6b90703e95",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "4179": {
+      "inputHash": "e8ac8cec6f23eaa6e1a4",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7248": {
+      "inputHash": "b8cab16022a675406873",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q152799",
+        "Q74363809",
+        "Q931795"
+      ]
+    },
+    "5800": {
+      "inputHash": "fcb27461ddfe6b87a495",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Albert Guðmundsson",
+      "birthDate": "1923-10-05",
+      "wikidataID": "Q1397070",
+      "wikipediaTitle": "Albert Guðmundsson",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/albert_gudmundsson_05101923.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6903": {
+      "inputHash": "97090f979002332cf67a",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "5872": {
+      "inputHash": "f3067eb9b632ff1cb5cc",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7618": {
+      "inputHash": "0a39b2b5e1599f56f070",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q312980",
+        "Q439030",
+        "Q44225",
+        "Q7490887"
+      ]
+    },
+    "7092": {
+      "inputHash": "580a7a11119157f306d2",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q1394308",
+        "Q16234675",
+        "Q17496615",
+        "Q2497787"
+      ]
+    },
+    "1850": {
+      "inputHash": "da8fc078a28ab4acf5a6",
+      "status": "valid",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "fullName": "Franck Kessié",
+      "birthDate": "1996-12-19",
+      "wikidataID": "Q18044401",
+      "wikipediaTitle": "Franck Kessié",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franck_kessie_19121996.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franck_kessie_19121996.png",
+      "photoProviderID": "gazzetta:franck_kessie_19121996",
+      "image": {
+        "sha256": "064fbe3544a0e4e8a1d2fc54ea27c116f7804fdf7a689efd0132226fecd0d024",
+        "width": 250,
+        "height": 250,
+        "bytes": 61553,
+        "contentType": "image/png"
+      }
+    },
+    "5725": {
+      "inputHash": "dd064e3c7d898f1498b9",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Ben Lhassine Kone",
+      "birthDate": "2000-03-14",
+      "wikidataID": "Q59914746",
+      "wikipediaTitle": "Ben Lhassine Kone",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ben_lhassine_kone_14032000.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/ben_kone_14032000.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/benjamin_lhassine_kone_14032000.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/benjamin_kone_14032000.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7571": {
+      "inputHash": "87db094fc96c9ccb239f",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7357": {
+      "inputHash": "02b1b5f188e9566370ab",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Mayckel Lahdo",
+      "birthDate": "2002-12-30",
+      "wikidataID": "Q105620373",
+      "wikipediaTitle": "Mayckel Lahdo",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mayckel_lahdo_30122002.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6678": {
+      "inputHash": "0eb6f9ab98c5c3f9be71",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7165": {
+      "inputHash": "1d4dc82ab3097d45a9b7",
+      "status": "valid",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "fullName": "Joseph Liteta",
+      "birthDate": "2006-02-22",
+      "wikidataID": "Q136654968",
+      "wikipediaTitle": "Joseph Liteta",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joseph_liteta_22022006.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joseph_liteta_22022006.png",
+      "photoProviderID": "gazzetta:joseph_liteta_22022006",
+      "image": {
+        "sha256": "1a07828e9bdbab4bf0aafbd979ecb55b7411835398edc2460e21f06f7ad03438",
+        "width": 180,
+        "height": 180,
+        "bytes": 13306,
+        "contentType": "image/png"
+      }
+    },
+    "7579": {
+      "inputHash": "6517ea6dc05df46323b8",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Yanis Massolin",
+      "birthDate": "2002-09-20",
+      "wikidataID": "Q114840161",
+      "wikipediaTitle": "Yanis Massolin",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/yanis_massolin_20092002.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6833": {
+      "inputHash": "c2f05570b912f14452af",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Samuel Mbangula",
+      "birthDate": "2004-01-16",
+      "wikidataID": "Q105955422",
+      "wikipediaTitle": "Samuel Mbangula",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/samuel_mbangula_16012004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7409": {
+      "inputHash": "54b785a7235ff4469240",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Franz-Ethan Meichtry",
+      "birthDate": "2005-07-08",
+      "wikidataID": "Q138328477",
+      "wikipediaTitle": "Franz-Ethan Meichtry",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franz-ethan_meichtry_08072005.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franz_ethan_meichtry_08072005.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7412": {
+      "inputHash": "e95ac06a4b4055f6d521",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Luis Milla Manzanares",
+      "birthDate": "1994-10-07",
+      "wikidataID": "Q47477260",
+      "wikipediaTitle": "Luis Milla Manzanares",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/luis_milla_manzanares_07101994.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/luis_manzanares_07101994.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7619": {
+      "inputHash": "6fbcd330f31f047c0e25",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "6372": {
+      "inputHash": "3aaa69536ecbb0319376",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Junior Sornoza",
+      "birthDate": "1994-01-28",
+      "wikidataID": "Q11091630",
+      "wikipediaTitle": "Júnior Nazareno Sornoza Moreira",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/junior_sornoza_28011994.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/junior_nazareno_sornoza_moreira_28011994.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/junior_moreira_28011994.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7575": {
+      "inputHash": "00e859c6f7831ea91562",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7322": {
+      "inputHash": "ac1910225635e08177ba",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Jerome Ngom Mbekeli",
+      "birthDate": "1998-09-30",
+      "wikidataID": "Q62035857",
+      "wikipediaTitle": "Jerome Ngom Mbekeli",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/jerome_ngom_mbekeli_30091998.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/jerome_mbekeli_30091998.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6994": {
+      "inputHash": "7decce38cecc6f5ac22f",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Enrique Pérez",
+      "birthDate": "1988-10-13",
+      "wikidataID": "Q2071448",
+      "wikipediaTitle": "Enrique Pérez",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/enrique_perez_13101988.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/enrique_perez_munoz_13101988.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/enrique_munoz_13101988.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7129": {
+      "inputHash": "a15b7ce4043c6923ec05",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Jesús Rodríguez Caraballo",
+      "birthDate": "2005-11-21",
+      "wikidataID": "Q128809546",
+      "wikipediaTitle": "Jesús Rodríguez Caraballo",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/jesus_rodriguez_caraballo_21112005.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/jesus_caraballo_21112005.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "5680": {
+      "inputHash": "75a59804ad0e12100f3d",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "2857": {
+      "inputHash": "fc50a29c4e709ef53912",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q123701208"
+      ]
+    },
+    "4220": {
+      "inputHash": "58b60eb2fc929a772f85",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "André-Frank Zambo Anguissa",
+      "birthDate": "1995-11-16",
+      "wikidataID": "Q21039587",
+      "wikipediaTitle": "André-Frank Anguissa",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andre-frank_zambo_anguissa_16111995.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andre_frank_zambo_anguissa_16111995.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andre-frank_anguissa_16111995.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andre_frank_anguissa_16111995.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "5424": {
+      "inputHash": "4e317df0c122e78229c7",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Amey Ranawade",
+      "birthDate": "1998-03-07",
+      "wikidataID": "Q55356821",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amey_ranawade_07031998.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/amey_ganesh_ranawade_07031998.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7312": {
+      "inputHash": "09d1401fcd14a931c2eb",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q2083806",
+        "Q2707437"
+      ]
+    },
+    "7476": {
+      "inputHash": "4fc687d41567c141d148",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "4705": {
+      "inputHash": "ea092a6da079dc4672ab",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Leonardo Balerdi",
+      "birthDate": "1999-01-26",
+      "wikidataID": "Q50233588",
+      "wikipediaTitle": "Leonardo Balerdi",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/leonardo_balerdi_26011999.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7220": {
+      "inputHash": "0caa57743000d1100d83",
+      "status": "valid",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "fullName": "Rafik Belghali",
+      "birthDate": "2002-06-07",
+      "wikidataID": "Q106030853",
+      "wikipediaTitle": "Belghali",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafik_belghali_07062002.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafik_belghali_07062002.png",
+      "photoProviderID": "gazzetta:rafik_belghali_07062002",
+      "image": {
+        "sha256": "9c88498ec12c3f6bdb9d580e6fef894a5fa66d5189b326d5c5a35ccd7fb97b8a",
+        "width": 977,
+        "height": 977,
+        "bytes": 218719,
+        "contentType": "image/png"
+      }
+    },
+    "7469": {
+      "inputHash": "fba85f6daa9f0da64ad9",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Gabriele Bracaglia",
+      "birthDate": "2003-07-19",
+      "wikidataID": "Q131357489",
+      "wikipediaTitle": "Gabriele Bracaglia",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/gabriele_bracaglia_19072003.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "4147": {
+      "inputHash": "89aa4b2b9bdfbc647c64",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q17612806"
+      ]
+    },
+    "7467": {
+      "inputHash": "9b20accd6b050900107d",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Gabriele Calvani",
+      "birthDate": "2004-01-12",
+      "wikidataID": "Q137598926",
+      "wikipediaTitle": "Gabriele Calvani",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/gabriele_calvani_12012004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7573": {
+      "inputHash": "af5d6fef8dac15797cb5",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "6826": {
+      "inputHash": "79e215612495a3b310f5",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7525": {
+      "inputHash": "0b7bc4e47629f7230394",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "5742": {
+      "inputHash": "a7d0c569a144c170619e",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Cody Drameh",
+      "birthDate": "2001-12-08",
+      "wikidataID": "Q98815258",
+      "wikipediaTitle": "Cody Drameh",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/cody_drameh_08122001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
       ]
     },
     "7615": {
       "inputHash": "25c5a0ba8448b1322ed5",
       "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "6632": {
+      "inputHash": "e8627bbd02cc6ea5c523",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
       "candidates": []
     },
     "6537": {
       "inputHash": "8e4471b097911220b55f",
       "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
       "candidates": [
         "Q113414679",
         "Q19957915"
+      ]
+    },
+    "7454": {
+      "inputHash": "e33521607757bd2a9812",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Nuno Santos",
+      "birthDate": "1995-02-13",
+      "wikidataID": "Q18127780",
+      "wikipediaTitle": "Nuno Miguel Gomes dos Santos",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nuno_santos_13021995.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nuno_miguel_gomes_dos_santos_13021995.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6821": {
+      "inputHash": "bb0ad5dfbe99830370df",
+      "status": "valid",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "fullName": "Antoine Hainaut",
+      "birthDate": "2002-02-18",
+      "wikidataID": "Q125885075",
+      "wikipediaTitle": "Antoine Hainaut",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/antoine_hainaut_18022002.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/antoine_hainaut_18022002.png",
+      "photoProviderID": "gazzetta:antoine_hainaut_18022002",
+      "image": {
+        "sha256": "90e569dfc33ce03f51cc0af1731615fd12860dfca1ae8c9665ebc65c6a774ed9",
+        "width": 180,
+        "height": 180,
+        "bytes": 53230,
+        "contentType": "image/png"
+      }
+    },
+    "7538": {
+      "inputHash": "67408b661bb342c9f4fe",
+      "status": "valid",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "fullName": "Redouane Halhal",
+      "birthDate": "2003-03-05",
+      "wikidataID": "Q120389429",
+      "wikipediaTitle": "Redouane Halhal",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/redouane_halhal_05032003.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/redouane_halhal_05032003.png",
+      "photoProviderID": "gazzetta:redouane_halhal_05032003",
+      "image": {
+        "sha256": "8f4ea4c1b20e357ccce31a2b7412b7e4ca96535883144a3bc6df78d04e4cc08d",
+        "width": 180,
+        "height": 180,
+        "bytes": 64404,
+        "contentType": "image/png"
+      }
+    },
+    "7326": {
+      "inputHash": "719035b830eac8fd5513",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Viljar Vevatne",
+      "birthDate": "1994-12-07",
+      "wikidataID": "Q25429887",
+      "wikipediaTitle": "Viljar Vevatne",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/viljar_vevatne_07121994.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/viljar_helland_vevatne_07121994.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
       ]
     },
     "256": {
       "inputHash": "26907f590da12ee003fe",
       "status": "gazzetta_404",
       "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
       "fullName": "Juan Jesus",
       "birthDate": "1991-06-10",
       "wikidataID": "Q454910",
@@ -12376,124 +12131,716 @@
         }
       ]
     },
+    "7414": {
+      "inputHash": "652e7e395ece751ac3a9",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
     "6601": {
-      "inputHash": "6f6c758efb31ddbbf8de",
-      "status": "ambiguous",
+      "inputHash": "528f0ba5f1ae7849d469",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Willy Kambwala",
+      "birthDate": "2004-08-25",
+      "wikidataID": "Q116821409",
+      "wikipediaTitle": "Willy Kambwala",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/willy_kambwala_25082004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7564": {
+      "inputHash": "1b85cc83c4b4418c7a78",
+      "status": "gazzetta_404",
       "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q116821409"
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Fedde Leysen",
+      "birthDate": "2003-07-09",
+      "wikidataID": "Q102179091",
+      "wikipediaTitle": "Fedde Leysen",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/fedde_leysen_09072003.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
       ]
     },
     "7599": {
       "inputHash": "6fd30963d7574a464cfb",
       "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
       "candidates": []
     },
     "7604": {
-      "inputHash": "097b9d42240e2028bb52",
-      "status": "ambiguous",
+      "inputHash": "349f17a25173baf3e4a3",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Miguel Ángel Mayé",
+      "birthDate": "1990-12-08",
+      "wikidataID": "Q18920915",
+      "wikipediaTitle": "Miguel Ángel Mayé",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/miguel_angel_maye_08121990.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/miguel_maye_08121990.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "4998": {
+      "inputHash": "2dd07cfd963582c076b9",
+      "status": "gazzetta_404",
       "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q18920915"
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Salvatore Molina",
+      "birthDate": "1992-01-01",
+      "wikidataID": "Q7406674",
+      "wikipediaTitle": "Salvatore Andrea Molina",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/salvatore_molina_01011992.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/salvatore_andrea_molina_01011992.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6890": {
+      "inputHash": "e6101f4c1f7d8f762311",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Alberto Moreno Pérez",
+      "birthDate": "1992-07-05",
+      "wikidataID": "Q4712133",
+      "wikipediaTitle": "Alberto Moreno Pérez",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/alberto_moreno_perez_05071992.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/alberto_perez_05071992.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7329": {
+      "inputHash": "2157c63a5784ffe6a736",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Rafael Obrador",
+      "birthDate": "2004-02-24",
+      "wikidataID": "Q97570439",
+      "wikipediaTitle": "Rafael Obrador",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafael_obrador_24022004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafael_obrador_burguera_24022004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafael_burguera_24022004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7553": {
+      "inputHash": "547d709743e4c8e383b2",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Omar Fayed",
+      "birthDate": "2003-07-04",
+      "wikidataID": "Q121509768",
+      "wikipediaTitle": "Omar Fayed",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/omar_fayed_04072003.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "327": {
+      "inputHash": "4f2cb2df7fe5544417b6",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Patric Pfeiffer",
+      "birthDate": "1999-08-20",
+      "wikidataID": "Q57609066",
+      "wikipediaTitle": "Patric Pfeiffer",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/patric_pfeiffer_20081999.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
       ]
     },
     "5751": {
       "inputHash": "ecbeb8ef3c7192d937bc",
       "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
       "candidates": [
         "Q20994240",
-        "Q21207742",
         "Q2438626",
-        "Q83264648"
+        "Q83264648",
+        "Q21207742"
       ]
+    },
+    "2728": {
+      "inputHash": "9b3af89f3019ad287583",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q1337445",
+        "Q56754409"
+      ]
+    },
+    "7413": {
+      "inputHash": "c50ce61837d1498e9091",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q3961232"
+      ]
+    },
+    "6681": {
+      "inputHash": "0be4c5c82fd5ab23ad98",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Richie Sagrado",
+      "birthDate": "2004-01-30",
+      "wikidataID": "Q105955048",
+      "wikipediaTitle": "Richie Sagrado Sebastiao",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/richie_sagrado_30012004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/richie_sagrado_sebastiao_30012004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/richie_sebastiao_30012004.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6892": {
+      "inputHash": "50d0d0fb4b196e690a18",
+      "status": "valid",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "fullName": "Joël Schingtienne",
+      "birthDate": "2002-08-14",
+      "wikidataID": "Q117730926",
+      "wikipediaTitle": "Joël Schingtienne",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joel_schingtienne_14082002.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joel_schingtienne_14082002.png",
+      "photoProviderID": "gazzetta:joel_schingtienne_14082002",
+      "image": {
+        "sha256": "e251375dc4bde3d09e75877ee88e180f65f7beeeb24a330570c9d97b0b9ac9c0",
+        "width": 180,
+        "height": 180,
+        "bytes": 58480,
+        "contentType": "image/png"
+      }
     },
     "7621": {
       "inputHash": "1d64980f006a8aa829ff",
       "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
       "candidates": [
         "Q275836",
         "Q50073536"
       ]
     },
+    "6673": {
+      "inputHash": "03f4b38c59f242a35232",
+      "status": "valid",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "fullName": "Marin Šverko",
+      "birthDate": "1998-02-04",
+      "wikidataID": "Q27921588",
+      "wikipediaTitle": "Marin Šverko",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/marin_sverko_04021998.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/marin_sverko_04021998.png",
+      "photoProviderID": "gazzetta:marin_sverko_04021998",
+      "image": {
+        "sha256": "1c3215a7a43c0fc8ba091f57a4b9de4fdd4accff34e1734bfec13612f246fb6d",
+        "width": 180,
+        "height": 180,
+        "bytes": 52500,
+        "contentType": "image/png"
+      }
+    },
     "7605": {
       "inputHash": "733d4b7e7c9b6aacdb28",
       "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
       "candidates": [
         "Q113469390",
         "Q368635"
       ]
     },
     "5675": {
-      "inputHash": "15f52d8c9ed0c18c5f19",
-      "status": "ambiguous",
+      "inputHash": "b31de83d9a9927e8eea8",
+      "status": "valid",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "fullName": "Arthur Theate",
+      "birthDate": "2000-05-25",
+      "wikidataID": "Q97724521",
+      "wikipediaTitle": "Arthur Theate",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/arthur_theate_25052000.png",
+          "status": "valid",
+          "detail": null
+        }
+      ],
+      "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/arthur_theate_25052000.png",
+      "photoProviderID": "gazzetta:arthur_theate_25052000",
+      "image": {
+        "sha256": "a5c9d589de1ff1f4d560a2243533d390115e99e10ac20d505ae682294fa1abdd",
+        "width": 250,
+        "height": 250,
+        "bytes": 83878,
+        "contentType": "image/png"
+      }
+    },
+    "7235": {
+      "inputHash": "6bb33d6d90d0eb5419ab",
+      "status": "gazzetta_404",
       "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q97724521"
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Mariano Troilo",
+      "birthDate": "2003-06-22",
+      "wikidataID": "Q124021747",
+      "wikipediaTitle": "Mariano Troilo",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mariano_troilo_22062003.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mariano_emir_troilo_22062003.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
       ]
+    },
+    "7294": {
+      "inputHash": "262a6817391b92a6cca8",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q2010100",
+        "Q2332106"
+      ]
+    },
+    "7410": {
+      "inputHash": "72eed9085d6bb07f9720",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Viery",
+      "birthDate": "2005-01-02",
+      "wikidataID": "Q133801098",
+      "wikipediaTitle": "Viery",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/viery_02012005.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "4468": {
+      "inputHash": "c827351afba099491be0",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Marco Bleve",
+      "birthDate": "1995-08-17",
+      "wikidataID": "Q31762810",
+      "wikipediaTitle": "Marco Bleve",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/marco_bleve_17081995.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7411": {
+      "inputHash": "95fa7a36e35a0c9416ec",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q106885947"
+      ]
+    },
+    "7048": {
+      "inputHash": "5b7429b86045a5e806bc",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
     },
     "2874": {
       "inputHash": "1e5a1036724360758199",
       "status": "not_found",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
       "candidates": []
     },
     "7603": {
-      "inputHash": "11bd406c55cd0a79b87d",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q18423342",
-        "Q56441182"
+      "inputHash": "747f109eab60a0e2a657",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Kamil Grabara",
+      "birthDate": "1999-01-08",
+      "wikidataID": "Q56441182",
+      "wikipediaTitle": "Kamil Grabara",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/kamil_grabara_08011999.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
       ]
     },
-    "7611": {
-      "inputHash": "be4653f5770ff409b6df",
-      "status": "ambiguous",
+    "6671": {
+      "inputHash": "b85b75796be910873530",
+      "status": "gazzetta_404",
       "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Matteo Grandi",
+      "birthDate": "1992-10-12",
+      "wikidataID": "Q29001672",
+      "wikipediaTitle": "Matteo Grandi",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/matteo_grandi_12101992.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7533": {
+      "inputHash": "64f35634b583452f86bd",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7466": {
+      "inputHash": "7fdb95a41cfd08e925b3",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7457": {
+      "inputHash": "2ada8e06d742081f866c",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7611": {
+      "inputHash": "7858affbc26d567befc9",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Bartosz Mrozek",
+      "birthDate": "2000-02-23",
+      "wikidataID": "Q113170833",
+      "wikipediaTitle": "Bartosz Mrozek",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/bartosz_mrozek_23022000.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6415": {
+      "inputHash": "d1cb289195a4d2582ee6",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
       "candidates": [
-        "Q113170833"
+        "Q20641475"
+      ]
+    },
+    "7557": {
+      "inputHash": "ced3a10edd27ea453f47",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q322073",
+        "Q562386"
       ]
     },
     "6534": {
-      "inputHash": "c98493ad9501dc8206c1",
-      "status": "ambiguous",
-      "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
-      "candidates": [
-        "Q23893097"
+      "inputHash": "221ca3de147646c036fc",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Lucas Perri",
+      "birthDate": "1997-12-10",
+      "wikidataID": "Q23893097",
+      "wikipediaTitle": "Lucas Perri",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/lucas_perri_10121997.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
       ]
+    },
+    "7172": {
+      "inputHash": "80d12d51f0ca5cce22bb",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "5707": {
+      "inputHash": "fea451cac1de38b54338",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7531": {
+      "inputHash": "220f3d2e3cb644de7d16",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7534": {
+      "inputHash": "62b3973c2cc75cdbdb14",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "fullName": "Francesco Renzetti",
+      "birthDate": "1988-01-22",
+      "wikidataID": "Q3750531",
+      "wikipediaTitle": "Francesco Renzetti",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/francesco_renzetti_22011988.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "4518": {
+      "inputHash": "449335e85e2c2c5de6fa",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
     },
     "6344": {
       "inputHash": "6302a846e3b1adae0b1d",
       "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "2127": {
+      "inputHash": "dea6f30a39b92b11d42b",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "7363": {
+      "inputHash": "c9a0060ca176ce3a5299",
+      "status": "ambiguous",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": [
+        "Q3183851",
+        "Q3750675",
+        "Q3824776"
+      ]
+    },
+    "219": {
+      "inputHash": "8d7efc5a6f788c64c8af",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "6569": {
+      "inputHash": "5b7ed67bf21340486756",
+      "status": "gazzetta_404",
       "identityStrategyVersion": 2,
-      "checkedAt": "2026-09-02T09:37:15Z",
-      "retryAfter": "2026-10-02T09:37:15Z",
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Franz Stolz",
+      "birthDate": "2001-02-14",
+      "wikidataID": "Q64224732",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franz_stolz_14022001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franz_valentin_stolz_14022001.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "7475": {
+      "inputHash": "0be18b6c6e5bc770b80b",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
+      "candidates": []
+    },
+    "4485": {
+      "inputHash": "9c782f3f5d591fada979",
+      "status": "gazzetta_404",
+      "identityStrategyVersion": 2,
+      "checkedAt": "2026-09-02T10:17:32Z",
+      "retryAfter": "2026-10-02T10:17:32Z",
+      "fullName": "Demba Thiam",
+      "birthDate": "1998-03-09",
+      "wikidataID": "Q59914667",
+      "wikipediaTitle": "Demba Thiam",
+      "attempts": [
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/demba_thiam_09031998.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/demba_thiam_ngagne_09031998.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        },
+        {
+          "url": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/demba_ngagne_09031998.png",
+          "status": "404",
+          "detail": "HTTP 404"
+        }
+      ]
+    },
+    "6813": {
+      "inputHash": "721b7de20b365f516fc4",
+      "status": "not_found",
+      "identityStrategyVersion": 3,
+      "checkedAt": "2026-09-02T10:22:20Z",
+      "retryAfter": "2026-10-02T10:22:20Z",
       "candidates": []
     }
   }

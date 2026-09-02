@@ -39,7 +39,7 @@ MAX_IMAGE_BYTES = 2_000_000
 FOOTBALLER_QIDS = {"Q937857"}
 FOOTBALL_WORDS = ("calciator", "footballer", "football player", "futbolista", "futebolista")
 TRANSIENT_HTTP = {408, 425, 429, 500, 502, 503, 504}
-IDENTITY_STRATEGY_VERSION = 2
+IDENTITY_STRATEGY_VERSION = 3
 TRANSLITERATION = str.maketrans({
     "ø": "o", "Ø": "O", "đ": "d", "Đ": "D", "ð": "d", "Ð": "D",
     "ł": "l", "Ł": "L", "ı": "i", "æ": "ae", "Æ": "AE",
@@ -422,6 +422,16 @@ def name_score(player: dict[str, Any], candidate_names: list[str]) -> int:
             best = max(best, 82)
         elif short and len(short) >= 2 and set(short).issubset(candidate):
             best = max(best, 78)
+        # Il listone segna molti giocatori con un solo cognome (Kessiè,
+        # Gnonto, Balerdi...), di solito perché sono trasferimenti recenti
+        # senza ancora un fullName nel dataset EA FC. Senza questo ramo
+        # nessuno dei precedenti si applica mai (richiedono full o almeno due
+        # token), e un candidato corretto -- anche l'unico trovato -- resta
+        # "ambiguous" per sempre. Il cognome deve combaciare esattamente con
+        # l'ultimo token del candidato (tipicamente il cognome anche li'):
+        # comparirebbe in mezzo al nome di troppe persone diverse altrimenti.
+        elif short and len(short) == 1 and candidate and candidate[-1] == short[0]:
+            best = max(best, 80)
         initial = re.search(r"\b([A-Za-z]{1,4})\.\s*$", str(player.get("name", "")))
         if initial and short and short[0] in candidate and any(
             token.startswith(initial.group(1).lower()) for token in candidate

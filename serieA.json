@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-02T09:37:15Z",
+ "generatedAt": "2026-09-02T10:22:20Z",
  "season": "2026-27",
  "gameweek": 3,
  "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
@@ -179,7 +179,9 @@
    "status": "infortunato",
    "penaltyRank": 3,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/andrea_adorante_05022000.png",
+   "photoProviderID": "gazzetta:andrea_adorante_05022000"
   },
   {
    "id": "7161",
@@ -419,7 +421,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Daniel Birligea"
   },
   {
    "id": "7612",
@@ -476,7 +479,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Tomáš Bobček"
   },
   {
    "id": "2832",
@@ -2001,7 +2005,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Wilfried Gnonto"
   },
   {
    "id": "7272",
@@ -3627,7 +3632,10 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "fullName": "Mbala Nzola",
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mbala_nzola_18081996.png",
+   "photoProviderID": "gazzetta:mbala_nzola_18081996"
   },
   {
    "id": "7600",
@@ -3687,7 +3695,8 @@
    "hasHistory": false,
    "marketProps": {
     "player_goal_scorer_anytime": 0.217
-   }
+   },
+   "fullName": "Milutin Osmajić"
   },
   {
    "id": "7023",
@@ -4833,7 +4842,10 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "fullName": "Yael Trepy",
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/yael_trepy_20052006.png",
+   "photoProviderID": "gazzetta:yael_trepy_20052006"
   },
   {
    "id": "7523",
@@ -5010,7 +5022,10 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Nick Woltemade",
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nick_woltemade_14022002.png",
+   "photoProviderID": "gazzetta:nick_woltemade_14022002"
   },
   {
    "id": "6904",
@@ -6602,7 +6617,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Daniel Bragança"
   },
   {
    "id": "4947",
@@ -7456,7 +7472,10 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "fullName": "Riccardo Ciervo",
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/riccardo_ciervo_01042002.png",
+   "photoProviderID": "gazzetta:riccardo_ciervo_01042002"
   },
   {
    "id": "6618",
@@ -10060,7 +10079,10 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "fullName": "Roberto Gagliardini",
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/roberto_gagliardini_07041994.png",
+   "photoProviderID": "gazzetta:roberto_gagliardini_07041994"
   },
   {
    "id": "7318",
@@ -11389,7 +11411,10 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "fullName": "Franck Kessié",
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franck_kessie_19121996.png",
+   "photoProviderID": "gazzetta:franck_kessie_19121996"
   },
   {
    "id": "5725",
@@ -11992,7 +12017,10 @@
    "hasHistory": true,
    "marketProps": {
     "player_goal_scorer_anytime": 0.1
-   }
+   },
+   "fullName": "Joseph Liteta",
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joseph_liteta_22022006.png",
+   "photoProviderID": "gazzetta:joseph_liteta_22022006"
   },
   {
    "id": "4287",
@@ -12487,7 +12515,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Yanis Massolin"
   },
   {
    "id": "7078",
@@ -12667,7 +12696,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Samuel Mbangula"
   },
   {
    "id": "4973",
@@ -17608,7 +17638,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Leonardo Balerdi"
   },
   {
    "id": "6496",
@@ -17791,7 +17822,10 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "fullName": "Rafik Belghali",
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafik_belghali_07062002.png",
+   "photoProviderID": "gazzetta:rafik_belghali_07062002"
   },
   {
    "id": "7253",
@@ -20413,7 +20447,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Cody Drameh"
   },
   {
    "id": "7615",
@@ -21440,7 +21475,9 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/antoine_hainaut_18022002.png",
+   "photoProviderID": "gazzetta:antoine_hainaut_18022002"
   },
   {
    "id": "7538",
@@ -21498,7 +21535,9 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/redouane_halhal_05032003.png",
+   "photoProviderID": "gazzetta:redouane_halhal_05032003"
   },
   {
    "id": "5695",
@@ -22599,7 +22638,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Willy Kambwala"
   },
   {
    "id": "6766",
@@ -23816,7 +23856,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Miguel Ángel Mayé"
   },
   {
    "id": "5481",
@@ -26330,7 +26371,9 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joel_schingtienne_14082002.png",
+   "photoProviderID": "gazzetta:joel_schingtienne_14082002"
   },
   {
    "id": "7240",
@@ -26880,7 +26923,9 @@
    "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/marin_sverko_04021998.png",
+   "photoProviderID": "gazzetta:marin_sverko_04021998"
   },
   {
    "id": "5620",
@@ -27177,7 +27222,10 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": true
+   "hasHistory": true,
+   "fullName": "Arthur Theate",
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/arthur_theate_25052000.png",
+   "photoProviderID": "gazzetta:arthur_theate_25052000"
   },
   {
    "id": "6989",
@@ -27856,7 +27904,8 @@
    "hasHistory": true,
    "marketProps": {
     "player_goal_scorer_anytime": 0.091
-   }
+   },
+   "fullName": "Viery"
   },
   {
    "id": "7068",
@@ -29421,7 +29470,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Kamil Grabara"
   },
   {
    "id": "6671",
@@ -30189,7 +30239,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Bartosz Mrozek"
   },
   {
    "id": "4236",
@@ -30601,7 +30652,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Lucas Perri"
   },
   {
    "id": "7172",
@@ -31070,7 +31122,8 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false
+   "hasHistory": false,
+   "fullName": "Francesco Renzetti"
   },
   {
    "id": "4518",
