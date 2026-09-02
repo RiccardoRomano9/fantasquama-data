@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-02T10:22:20Z",
+ "generatedAt": "2026-09-02T12:44:09+00:00",
  "season": "2026-27",
  "gameweek": 3,
- "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -312,6 +312,7 @@
   {
    "id": "5694",
    "name": "Beto",
+   "fullName": null,
    "role": "A",
    "mantraRole": "Pc",
    "team": "Fiorentina",
@@ -369,6 +370,7 @@
   {
    "id": "7610",
    "name": "Birligea",
+   "fullName": "Daniel Birligea",
    "role": "A",
    "mantraRole": "Pc",
    "team": "Frosinone",
@@ -421,12 +423,12 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Daniel Birligea"
+   "hasHistory": false
   },
   {
    "id": "7612",
    "name": "Bobcek",
+   "fullName": "Tomáš Bobček",
    "role": "A",
    "mantraRole": "Pc",
    "team": "Frosinone",
@@ -479,8 +481,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Tomáš Bobček"
+   "hasHistory": false
   },
   {
    "id": "2832",
@@ -1103,6 +1104,7 @@
   {
    "id": "7568",
    "name": "De Martis",
+   "fullName": null,
    "role": "A",
    "mantraRole": "Pc",
    "team": "Parma",
@@ -1652,6 +1654,7 @@
   {
    "id": "7602",
    "name": "Fatah",
+   "fullName": null,
    "role": "A",
    "mantraRole": "W;A",
    "team": "Lecce",
@@ -1953,6 +1956,7 @@
   {
    "id": "7623",
    "name": "Gnonto",
+   "fullName": "Wilfried Gnonto",
    "role": "A",
    "mantraRole": "W;A",
    "team": "Fiorentina",
@@ -2005,8 +2009,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Wilfried Gnonto"
+   "hasHistory": false
   },
   {
    "id": "7272",
@@ -2798,6 +2801,7 @@
   {
    "id": "7561",
    "name": "Lontani",
+   "fullName": null,
    "role": "A",
    "mantraRole": "A",
    "team": "Parma",
@@ -3460,6 +3464,7 @@
   {
    "id": "6145",
    "name": "Ngonge",
+   "fullName": null,
    "role": "A",
    "mantraRole": "A",
    "team": "Monza",
@@ -3580,6 +3585,7 @@
   {
    "id": "5336",
    "name": "Nzola",
+   "fullName": "Mbala Nzola",
    "role": "A",
    "mantraRole": "Pc",
    "team": "Cagliari",
@@ -3633,13 +3639,13 @@
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
-   "fullName": "Mbala Nzola",
    "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/mbala_nzola_18081996.png",
    "photoProviderID": "gazzetta:mbala_nzola_18081996"
   },
   {
    "id": "7600",
    "name": "Osmajic",
+   "fullName": "Milutin Osmajić",
    "role": "A",
    "mantraRole": "Pc",
    "team": "Genoa",
@@ -3695,8 +3701,7 @@
    "hasHistory": false,
    "marketProps": {
     "player_goal_scorer_anytime": 0.217
-   },
-   "fullName": "Milutin Osmajić"
+   }
   },
   {
    "id": "7023",
@@ -4790,6 +4795,7 @@
   {
    "id": "7317",
    "name": "Trepy",
+   "fullName": "Yael Trepy",
    "role": "A",
    "mantraRole": "Pc",
    "team": "Cagliari",
@@ -4843,7 +4849,6 @@
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
-   "fullName": "Yael Trepy",
    "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/yael_trepy_20052006.png",
    "photoProviderID": "gazzetta:yael_trepy_20052006"
   },
@@ -4970,6 +4975,7 @@
   {
    "id": "6752",
    "name": "Woltemade",
+   "fullName": "Nick Woltemade",
    "role": "A",
    "mantraRole": "A",
    "team": "Juventus",
@@ -5023,7 +5029,6 @@
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false,
-   "fullName": "Nick Woltemade",
    "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/nick_woltemade_14022002.png",
    "photoProviderID": "gazzetta:nick_woltemade_14022002"
   },
@@ -5213,6 +5218,7 @@
   {
    "id": "7620",
    "name": "Zeballos",
+   "fullName": null,
    "role": "A",
    "mantraRole": "A",
    "team": "Monza",
@@ -6565,6 +6571,7 @@
   {
    "id": "7624",
    "name": "Braganca",
+   "fullName": "Daniel Bragança",
    "role": "C",
    "mantraRole": "C",
    "team": "Torino",
@@ -6617,8 +6624,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Daniel Bragança"
+   "hasHistory": false
   },
   {
    "id": "4947",
@@ -7420,6 +7426,7 @@
   {
    "id": "5462",
    "name": "Ciervo",
+   "fullName": "Riccardo Ciervo",
    "role": "C",
    "mantraRole": "W",
    "team": "Cagliari",
@@ -7473,7 +7480,6 @@
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
-   "fullName": "Riccardo Ciervo",
    "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/riccardo_ciervo_01042002.png",
    "photoProviderID": "gazzetta:riccardo_ciervo_01042002"
   },
@@ -9430,6 +9436,7 @@
   {
    "id": "7232",
    "name": "Fernandez T.",
+   "fullName": null,
    "role": "C",
    "mantraRole": "T;A",
    "team": "Venezia",
@@ -9608,6 +9615,7 @@
   {
    "id": "7574",
    "name": "Foe Ondoa",
+   "fullName": null,
    "role": "C",
    "mantraRole": "C",
    "team": "Monza",
@@ -10027,6 +10035,7 @@
   {
    "id": "801",
    "name": "Gagliardini",
+   "fullName": "Roberto Gagliardini",
    "role": "C",
    "mantraRole": "M;C",
    "team": "Cagliari",
@@ -10080,7 +10089,6 @@
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
-   "fullName": "Roberto Gagliardini",
    "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/roberto_gagliardini_07041994.png",
    "photoProviderID": "gazzetta:roberto_gagliardini_07041994"
   },
@@ -10333,6 +10341,7 @@
   {
    "id": "7625",
    "name": "Goncalves P.",
+   "fullName": null,
    "role": "C",
    "mantraRole": "W;T",
    "team": "Fiorentina",
@@ -10390,6 +10399,7 @@
   {
    "id": "4179",
    "name": "Gonzalez N.",
+   "fullName": null,
    "role": "C",
    "mantraRole": "W;A",
    "team": "Juventus",
@@ -10450,6 +10460,7 @@
   {
    "id": "7248",
    "name": "Gorter",
+   "fullName": null,
    "role": "C",
    "mantraRole": "M;C",
    "team": "Lecce",
@@ -10744,6 +10755,7 @@
   {
    "id": "7618",
    "name": "Hutchinson",
+   "fullName": null,
    "role": "C",
    "mantraRole": "W;A",
    "team": "Milan",
@@ -11113,6 +11125,7 @@
   {
    "id": "7092",
    "name": "Jovanovic",
+   "fullName": null,
    "role": "C",
    "mantraRole": "W;T",
    "team": "Udinese",
@@ -11359,6 +11372,7 @@
   {
    "id": "1850",
    "name": "Kessiè",
+   "fullName": "Franck Kessié",
    "role": "C",
    "mantraRole": "C",
    "team": "Atalanta",
@@ -11412,7 +11426,6 @@
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
-   "fullName": "Franck Kessié",
    "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/franck_kessie_19121996.png",
    "photoProviderID": "gazzetta:franck_kessie_19121996"
   },
@@ -11723,6 +11736,7 @@
   {
    "id": "7571",
    "name": "Laerke",
+   "fullName": null,
    "role": "C",
    "mantraRole": "W;A",
    "team": "Lecce",
@@ -11962,6 +11976,7 @@
   {
    "id": "7165",
    "name": "Liteta",
+   "fullName": "Joseph Liteta",
    "role": "C",
    "mantraRole": "M;C",
    "team": "Cagliari",
@@ -12015,12 +12030,11 @@
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
+   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joseph_liteta_22022006.png",
+   "photoProviderID": "gazzetta:joseph_liteta_22022006",
    "marketProps": {
     "player_goal_scorer_anytime": 0.1
-   },
-   "fullName": "Joseph Liteta",
-   "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/joseph_liteta_22022006.png",
-   "photoProviderID": "gazzetta:joseph_liteta_22022006"
+   }
   },
   {
    "id": "4287",
@@ -12463,6 +12477,7 @@
   {
    "id": "7579",
    "name": "Massolin",
+   "fullName": "Yanis Massolin",
    "role": "C",
    "mantraRole": "C;T",
    "team": "Cagliari",
@@ -12515,8 +12530,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Yanis Massolin"
+   "hasHistory": false
   },
   {
    "id": "7078",
@@ -12644,6 +12658,7 @@
   {
    "id": "6833",
    "name": "Mbangula",
+   "fullName": "Samuel Mbangula",
    "role": "C",
    "mantraRole": "W;A",
    "team": "Bologna",
@@ -12696,8 +12711,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Samuel Mbangula"
+   "hasHistory": false
   },
   {
    "id": "4973",
@@ -13199,6 +13213,7 @@
   {
    "id": "7619",
    "name": "Monteiro J.",
+   "fullName": null,
    "role": "C",
    "mantraRole": "W;A",
    "team": "Lecce",
@@ -13440,6 +13455,7 @@
   {
    "id": "7575",
    "name": "Mout",
+   "fullName": null,
    "role": "C",
    "mantraRole": "C",
    "team": "Monza",
@@ -15404,6 +15420,7 @@
   {
    "id": "5680",
    "name": "Sarr P.",
+   "fullName": null,
    "role": "C",
    "mantraRole": "M;C",
    "team": "Juventus",
@@ -17352,6 +17369,7 @@
   {
    "id": "7312",
    "name": "Arizala",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Ds;E",
    "team": "Udinese",
@@ -17529,6 +17547,7 @@
   {
    "id": "7476",
    "name": "Bakoune",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Dd;E",
    "team": "Monza",
@@ -17586,6 +17605,7 @@
   {
    "id": "4705",
    "name": "Balerdi",
+   "fullName": "Leonardo Balerdi",
    "role": "D",
    "mantraRole": "Dc",
    "team": "Roma",
@@ -17638,8 +17658,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Leonardo Balerdi"
+   "hasHistory": false
   },
   {
    "id": "6496",
@@ -17770,6 +17789,7 @@
   {
    "id": "7220",
    "name": "Belghali",
+   "fullName": "Rafik Belghali",
    "role": "D",
    "mantraRole": "Dd;E",
    "team": "Torino",
@@ -17823,7 +17843,6 @@
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
-   "fullName": "Rafik Belghali",
    "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/rafik_belghali_07062002.png",
    "photoProviderID": "gazzetta:rafik_belghali_07062002"
   },
@@ -18629,6 +18648,7 @@
   {
    "id": "4147",
    "name": "Caleta-Car",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Dc",
    "team": "Sassuolo",
@@ -19236,6 +19256,7 @@
   {
    "id": "7573",
    "name": "Cinquegrano",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Dd;E",
    "team": "Sassuolo",
@@ -19848,6 +19869,7 @@
   {
    "id": "6826",
    "name": "Dembelè A.",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Dd;E",
    "team": "Lecce",
@@ -20395,6 +20417,7 @@
   {
    "id": "5742",
    "name": "Drameh",
+   "fullName": "Cody Drameh",
    "role": "D",
    "mantraRole": "Dd;Ds;E",
    "team": "Genoa",
@@ -20447,12 +20470,12 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Cody Drameh"
+   "hasHistory": false
   },
   {
    "id": "7615",
    "name": "Drobnic",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Dc",
    "team": "Parma",
@@ -21244,6 +21267,7 @@
   {
    "id": "6537",
    "name": "Goglichidze",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Dd;Dc",
    "team": "Monza",
@@ -22586,6 +22610,7 @@
   {
    "id": "6601",
    "name": "Kambwala",
+   "fullName": "Willy Kambwala",
    "role": "D",
    "mantraRole": "Dd;Dc",
    "team": "Como 1907",
@@ -22638,8 +22663,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Willy Kambwala"
+   "hasHistory": false
   },
   {
    "id": "6766",
@@ -23380,6 +23404,7 @@
   {
    "id": "7599",
    "name": "Lulli",
+   "fullName": null,
    "role": "D",
    "mantraRole": "E",
    "team": "Roma",
@@ -23804,6 +23829,7 @@
   {
    "id": "7604",
    "name": "Maye",
+   "fullName": "Miguel Ángel Mayé",
    "role": "D",
    "mantraRole": "Ds;Dc",
    "team": "Monza",
@@ -23856,8 +23882,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Miguel Ángel Mayé"
+   "hasHistory": false
   },
   {
    "id": "5481",
@@ -25148,6 +25173,7 @@
   {
    "id": "5751",
    "name": "Patterson",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Dd;E",
    "team": "Torino",
@@ -25636,6 +25662,7 @@
   {
    "id": "7413",
    "name": "Puczka",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Ds;E",
    "team": "Genoa",
@@ -26753,6 +26780,7 @@
   {
    "id": "7621",
    "name": "Sugawara",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Dd;E",
    "team": "Cagliari",
@@ -26993,6 +27021,7 @@
   {
    "id": "7605",
    "name": "Tchato",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Dd;E",
    "team": "Frosinone",
@@ -27170,6 +27199,7 @@
   {
    "id": "5675",
    "name": "Theate",
+   "fullName": "Arthur Theate",
    "role": "D",
    "mantraRole": "Ds;Dc",
    "team": "Bologna",
@@ -27223,7 +27253,6 @@
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
-   "fullName": "Arthur Theate",
    "photoURL": "https://images2.gazzettaobjects.it/assets-mc/calcio/giocatori/arthur_theate_25052000.png",
    "photoProviderID": "gazzetta:arthur_theate_25052000"
   },
@@ -27417,6 +27446,7 @@
   {
    "id": "7294",
    "name": "Valdepenas",
+   "fullName": null,
    "role": "D",
    "mantraRole": "Ds;Dc",
    "team": "Fiorentina",
@@ -27849,6 +27879,7 @@
   {
    "id": "7410",
    "name": "Viery",
+   "fullName": "Viery",
    "role": "D",
    "mantraRole": "Ds;Dc",
    "team": "Fiorentina",
@@ -27904,8 +27935,7 @@
    "hasHistory": true,
    "marketProps": {
     "player_goal_scorer_anytime": 0.091
-   },
-   "fullName": "Viery"
+   }
   },
   {
    "id": "7068",
@@ -29064,6 +29094,7 @@
   {
    "id": "7048",
    "name": "De Marzi",
+   "fullName": null,
    "role": "P",
    "mantraRole": "Por",
    "team": "Roma",
@@ -29301,6 +29332,7 @@
   {
    "id": "2874",
    "name": "Ghidotti",
+   "fullName": null,
    "role": "P",
    "mantraRole": "Por",
    "team": "Parma",
@@ -29418,6 +29450,7 @@
   {
    "id": "7603",
    "name": "Grabara",
+   "fullName": "Kamil Grabara",
    "role": "P",
    "mantraRole": "Por",
    "team": "Juventus",
@@ -29470,8 +29503,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Kamil Grabara"
+   "hasHistory": false
   },
   {
    "id": "6671",
@@ -29534,6 +29566,7 @@
   {
    "id": "7533",
    "name": "Happonen",
+   "fullName": null,
    "role": "P",
    "mantraRole": "Por",
    "team": "Bologna",
@@ -30187,6 +30220,7 @@
   {
    "id": "7611",
    "name": "Mrozek",
+   "fullName": "Bartosz Mrozek",
    "role": "P",
    "mantraRole": "Por",
    "team": "Udinese",
@@ -30239,8 +30273,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Bartosz Mrozek"
+   "hasHistory": false
   },
   {
    "id": "4236",
@@ -30543,6 +30576,7 @@
   {
    "id": "7557",
    "name": "Penev",
+   "fullName": null,
    "role": "P",
    "mantraRole": "Por",
    "team": "Lecce",
@@ -30600,6 +30634,7 @@
   {
    "id": "6534",
    "name": "Perri",
+   "fullName": "Lucas Perri",
    "role": "P",
    "mantraRole": "Por",
    "team": "Torino",
@@ -30652,8 +30687,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Lucas Perri"
+   "hasHistory": false
   },
   {
    "id": "7172",
@@ -30716,6 +30750,7 @@
   {
    "id": "5707",
    "name": "Piana",
+   "fullName": null,
    "role": "P",
    "mantraRole": "Por",
    "team": "Udinese",
@@ -30893,6 +30928,7 @@
   {
    "id": "7531",
    "name": "Pozzi",
+   "fullName": null,
    "role": "P",
    "mantraRole": "Por",
    "team": "Venezia",
@@ -31070,6 +31106,7 @@
   {
    "id": "7534",
    "name": "Renzetti",
+   "fullName": "Francesco Renzetti",
    "role": "P",
    "mantraRole": "Por",
    "team": "Lazio",
@@ -31122,8 +31159,7 @@
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
-   "hasHistory": false,
-   "fullName": "Francesco Renzetti"
+   "hasHistory": false
   },
   {
    "id": "4518",
@@ -31186,6 +31222,7 @@
   {
    "id": "6344",
    "name": "Sanchez Ro.",
+   "fullName": null,
    "role": "P",
    "mantraRole": "Por",
    "team": "Como 1907",
@@ -31361,6 +31398,7 @@
   {
    "id": "7363",
    "name": "Siviero",
+   "fullName": null,
    "role": "P",
    "mantraRole": "Por",
    "team": "Torino",
@@ -31714,6 +31752,7 @@
   {
    "id": "7475",
    "name": "Strajnar",
+   "fullName": null,
    "role": "P",
    "mantraRole": "Por",
    "team": "Monza",
@@ -37642,13 +37681,94 @@
  ],
  "news": [
   {
-   "title": "Bologna, attesa per Orsolini: le gare che potrebbe saltare. Da valutare anche Holm",
-   "summary": "Brutte notizie per il Bologna di Tedesco che non avrà Orsolini nelle prossime gare. Oggi l'esito degli esami",
+   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: oggi giocano così, le novità dopo il mercato",
+   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/09/WhatsApp-Image-2026-09-02-at-12.04.34-9c22dccaa738-e1788343685917.jpeg",
+   "date": "2026-09-02T12:15:46+00:00"
+  },
+  {
+   "title": "Da McKennie e Moreira a Ilic e Chukwueze: ecco i nuovi cambi ruolo al Mantra",
+   "summary": "McKennie, Ilic, Jashari, Chukwueze, Moreira e Correia: ecco le nuove espansioni di ruolo per le rose Mantra.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/cambi-ruolo-mantra-mckennie-chukwueze-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291826944-d568876f5219-e1787900785378.jpg",
+   "date": "2026-09-02T12:00:39+00:00"
+  },
+  {
+   "title": "HERE WE GO - El Shaarawy firma da svincolato e resta in Serie A: ecco dove giocherà",
+   "summary": "Dopo l'addio alla Roma, il centrocampista sceglie il progetto rossoblù e si riunisce al suo ex allenatore.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/genoa/el-shaarawy-genoa-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/202606/25c440a228979efcac1fbb62bf04cc7c-e1780437043752.jpg",
+   "date": "2026-09-02T11:45:56+00:00"
+  },
+  {
+   "title": "Juventus, respinte diverse offerte per Gatti: la volontà del giocatore e i club ancora in corsa",
+   "summary": "Il difensore ha già detto no a un club inglese: sullo sfondo restano Galatasaray e un club arabo.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/gatti-juventus-porto-mercato-galatasaray-fantacalcio/",
+   "image": "https://static.sosfanta.com/202511/63fd29ed1819dcc3f97fb5331b1f0777.jpg",
+   "date": "2026-09-02T11:30:15+00:00"
+  },
+  {
+   "title": "Fantacalcio Mantra, ecco la Guida all’asta 2026-27: la divisione ruolo per ruolo e le novità dopo il mercato",
+   "summary": "È online anche la Guida all'asta per il Mantra, per chi usa questa modalità. I consigli sono sempre ruolo per ruolo, dai Dd fino alle Pc",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/fantacalcio-mantra-ecco-la-guida-allasta-2026-27-la-divisione-ruolo-per-ruolo/",
+   "image": "https://static.sosfanta.com/2026/08/belghali-3934f2cd3a85-e1788348461948.jpg",
+   "date": "2026-09-02T11:15:53+00:00"
+  },
+  {
+   "title": "Lazio, gli aggiornamenti sulle condizioni di Rovella e la gara in cui potrebbe rientrare",
+   "summary": "Out Rovella per un problema muscolare, queste le novità in casa Lazio e i tempi di recupero",
    "author": "Andrea Della Sala",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/bologna-attesa-per-orsolini-le-gare-che-potrebbe-saltare-da-valutare-anche-holm/",
-   "image": "https://static.sosfanta.com/2026/08/Orsolini-eb9bd309c6ea-e1788197567960.jpg",
-   "date": "2026-09-02T09:00:42+00:00"
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-rovella-out-quando-rientra/",
+   "image": "https://static.sosfanta.com/202602/9b4e02146fc0040e4d1e6be41cf72386-scaled-e1771708159198.jpeg",
+   "date": "2026-09-02T11:00:17+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Romagnoli, si chiude la telenovela con l’Al Sadd: accordo raggiunto",
+   "summary": "Dopo l'operazione saltata a giugno, ora l'accordo è confermato: pronto un contratto quadriennale in Qatar.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/romagnoli-al-sadd-mercato-qatar-fantacalcio/",
+   "image": "https://static.sosfanta.com/202601/1e015fbadbff5af36c483826106fc397-e1769776331167.jpeg",
+   "date": "2026-09-02T10:45:03+00:00"
+  },
+  {
+   "title": "Agente Kessie risponde a Carnevali: “Ha aspettato la Juve, vi spiego cos’è successo”",
+   "summary": "L’agente di Franck Kessie ha parlato della trattativa che lo ha portato all’Atalanta dopo i sondaggi della Juve.",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/kessie-juve-atalanta-convinzione/",
+   "image": "https://static.sosfanta.com/2026/08/Kessie-76ae9a778654-e1788028665966.jpeg",
+   "date": "2026-09-02T10:30:34+00:00"
+  },
+  {
+   "title": "Non solo El Shaarawy, occhio agli svincolati: Brozovic valuta questa proposta, Darmian, Acerbi, Icardi...",
+   "summary": "Il mercato è finito ma in realtà non si ferma mai: resta aperto per gli svincolati. E ci sono diversi nomi interessanti per chi deve fare ancora l’asta",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/el-shaarawy-mercato-brozovic-icardi-asta-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2273875411-373b5a96d554.jpg",
+   "date": "2026-09-02T10:15:07+00:00"
+  },
+  {
+   "title": "Juve, le condizioni di McKennie in vista del Milan. Le ultime su Zhegrova e Cambiaso",
+   "summary": "Problemi dall'infermeria in casa Juve. Oltre alla situazione Thuram, Spalletti deve monitorare le condizioni di altri giocatori",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-mckennie-milan-cambiaso-zhegrova-condizioni/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290381533-f93bdcb017bb-e1786999332926.jpeg",
+   "date": "2026-09-02T10:00:16+00:00"
   },
   {
    "title": "McTominay: “Se Mou mi chiama ci penserei! Ecco come sto, sarò più forte. Chi toglierei all’Inter, su Allegri…”",
@@ -37657,7 +37777,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/napoli/mctominay-se-mou-mi-chiama-ci-penserei-ecco-come-sto-saro-piu-forte-chi-toglierei-allinter-su-allegri/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2292724915-b56f787452b6.jpg",
-   "date": "2026-09-02T09:00:25+00:00"
+   "date": "2026-09-02T09:45:25+00:00"
   },
   {
    "title": "NEWS - McKennie, Gabbia, Cambiaso, Orsolini, Zhegrova, Holm, McTominay e quanto sta fuori Rovella",
@@ -37666,7 +37786,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/news-mckennie-gabbia-cambiaso-orsolini-zhegrova-holm-mctominay-e-quanto-sta-fuori-rovella/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2290822260-5aa24ea04083.jpg",
-   "date": "2026-09-02T08:45:59+00:00"
+   "date": "2026-09-02T09:30:59+00:00"
+  },
+  {
+   "title": "Bologna, attesa per Orsolini: le gare che potrebbe saltare. Da valutare anche Holm",
+   "summary": "Brutte notizie per il Bologna di Tedesco che non avrà Orsolini nelle prossime gare. Oggi l'esito degli esami",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/bologna-attesa-per-orsolini-le-gare-che-potrebbe-saltare-da-valutare-anche-holm/",
+   "image": "https://static.sosfanta.com/2026/08/Orsolini-eb9bd309c6ea-e1788197567960.jpg",
+   "date": "2026-09-02T09:00:42+00:00"
   },
   {
    "title": "Sky - Mercato chiuso, ma El Shaarawy è pronto a firmare in Serie A da svincolato: sempre più vicino!",
@@ -37748,15 +37877,6 @@
    "url": "https://www.sosfanta.com/squadra/monza/monza-juric-ecco-quale-giocatore-ha-un-grande-potenziale-su-lucchesi-folorunsho-ngonge-vi-dico/",
    "image": "https://static.sosfanta.com/202511/d9a5468e782a793289b06baa24accf0d-scaled-e1762697473814.jpg",
    "date": "2026-09-01T21:30:24+00:00"
-  },
-  {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027 aggiornate: oggi giocherebbero così",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
-   "date": "2026-09-01T21:15:46+00:00"
   },
   {
    "title": "Juve, Woltemade arriva al fantacalcio: ecco cosa fare all'asta, le sue statistiche e il duello con Kolo Muani",
@@ -37919,87 +38039,6 @@
    "url": "https://www.sosfanta.com/consigli-fantacalcio/chi-sale-dopo-lultima-giornata-e-cosa-cambia-per-lasta-da-tavares-e-samardzic-a-colpani-ecco-otto-nomi/",
    "image": "https://static.sosfanta.com/2026/09/tavares-a69981da5601-e1788271209994.jpeg",
    "date": "2026-09-01T16:15:03+00:00"
-  },
-  {
-   "title": "Romano - Sfumati Leweling e Bynoe-Gittens per la Roma: i motivi dei mancati arrivi in giallorosso",
-   "summary": "La Roma vede sfumare due piste seguite per rinforzare l’attacco: Fabrizio Romano chiarisce i motivi dei mancati arrivi.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/romano-sfumati-leweling-bynoe-gittens-roma-motivi-mancati-arrivi-giallorosso/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2273215106-3ca5c02617a8-e1788268458311.jpg",
-   "date": "2026-09-01T16:00:00+00:00"
-  },
-  {
-   "title": "ULTIM'ORA - Mandragora lascia la Fiorentina e resta ancora in Serie A: accordo raggiunto!",
-   "summary": "Rolando Mandragora lascia la Fiorentina ma resta in Serie A: il centrocampista è pronto a iniziare una nuova avventura dopo il via libera viola.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/torino/ultimora-mandragora-lascia-fiorentina-resta-seriea-accordo-raggiunto/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2271086723-ba58fdaf7cc2-e1788271542240.jpg",
-   "date": "2026-09-01T15:45:13+00:00"
-  },
-  {
-   "title": "Parma, stop per Bernabé che salta la Coppa Italia contro la Cremonese: le sue condizioni e cosa filtra",
-   "summary": "Il Parma rinuncia ad Adrián Bernabé contro la Cremonese: nessun rischio per il centrocampista, che potrebbe tornare a disposizione con il Monza.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/parma/parma-stop-bernabe-salta-coppa-italia-contro-cremonese-condizioni-cosa-filtra/",
-   "image": "https://static.sosfanta.com/202605/d8b7379071190bbd231dc90e7a12a727-e1778265609333.jpg",
-   "date": "2026-09-01T15:30:43+00:00"
-  },
-  {
-   "title": "UFFICIALE - Napoli, intervento per McTominay: i dettagli! Quando torna e quante gare salterà",
-   "summary": "Brutte notizie per il Napoli e per Massimiliano Allegri che perde una pedina fondamentale nello scacchiere del tecnico",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-intervento-mctominay-quando-rientra/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291597536-f63bb4d4cd85.jpg",
-   "date": "2026-09-01T15:15:11+00:00"
-  },
-  {
-   "title": "Lecce, infortunio per Geubbels: l'esito degli esami e le condizioni dell'attaccante",
-   "summary": "L'attaccante del Lecce è finito ko contro la Roma: è arrivato l'esito degli esami.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lecce-geubbels-infortunio-esami-condizioni/",
-   "image": "https://static.sosfanta.com/2026/08/Geubbels-ddaff9866be6-e1788199169428.jpg",
-   "date": "2026-09-01T15:00:55+00:00"
-  },
-  {
-   "title": "HERE WE GO - Gudmundsson alla Lazio, è fatta: ecco le cifre e la formula dell’operazione",
-   "summary": "Il club biancoceleste ha definito l'arrivo dell'attaccante islandese dalla Fiorentina: ecco tutti i dettagli.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/gudmundsson-lazio-accordo-cifre-dettagli/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292049708-1-12399a097c23.jpg",
-   "date": "2026-09-01T14:45:22+00:00"
-  },
-  {
-   "title": "Romano - Fofana lascia il Milan dopo due stagioni: ecco dove giocherà e i dettagli dell'operazione",
-   "summary": "Si chiude dopo due stagioni l’avventura di Youssouf Fofana al Milan: il centrocampista saluta la Serie A e torna a giocare in Francia.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/romano-fofana-lascia-milan-dopo-due-stagioni-ecco-dove-giochera-dettagli-operazione/",
-   "image": "https://static.sosfanta.com/202604/ed3ce66226265c8b79fe5fb3e01bd77a-scaled-e1776615132159.jpeg",
-   "date": "2026-09-01T14:30:22+00:00"
-  },
-  {
-   "title": "UFFICIALE - Sarr è un nuovo giocatore della Juve: il comunicato e le cifre dell'accordo con il Tottenham",
-   "summary": "Dopo il mancato arrivo di Kessié, la Juventus rinforza il centrocampo con Pape Sarr: il classe 2002 arriva dal Tottenham.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/ufficiale-sarr-nuovo-giocatore-della-juve-comunicato-cifre-accordo-tottenham/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2265054286-b67bb0eb84f4-e1788113157184.jpg",
-   "date": "2026-09-01T14:15:50+00:00"
-  },
-  {
-   "title": "Juventus al lavoro verso il Milan: le ultime dalla Continassa e come stanno Cambiaso, Zhegrova e McKennie",
-   "summary": "Bianconeri al lavoro in vista della sfida col Milan in programma domenica sera: il punto su Cambiaso, Zhegrova e McKennie.",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juventus-cambiaso-zhegrova-mckennie-condizioni/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290381533-f93bdcb017bb-e1786999332926.jpeg",
-   "date": "2026-09-01T14:00:40+00:00"
   }
  ],
  "marketDifficulty": {
@@ -38022,14 +38061,6 @@
  "oddsUpdatedAt": "2026-09-02T09:28:41+00:00",
  "oddsSource": "the-odds-api",
  "baseNote": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale.",
- "propOddsStages": {
-  "early": "2026-09-02T09:28:41+00:00"
- },
- "propOddsCheckedAt": "2026-09-02T09:28:41+00:00",
- "propOddsUsage": {
-  "month": "2026-09",
-  "estimatedCredits": 40
- },
  "propOdds": {
   "version": 1,
   "source": "the-odds-api",
@@ -39605,5 +39636,13 @@
   "errors": []
  },
  "propOddsUpdatedAt": "2026-09-02T09:28:47+00:00",
- "propOddsSource": "the-odds-api"
+ "propOddsSource": "the-odds-api",
+ "propOddsCheckedAt": "2026-09-02T09:28:41+00:00",
+ "propOddsStages": {
+  "early": "2026-09-02T09:28:41+00:00"
+ },
+ "propOddsUsage": {
+  "month": "2026-09",
+  "estimatedCredits": 40
+ }
 }
