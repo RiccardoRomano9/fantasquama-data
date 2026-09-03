@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T16:25:52+00:00",
+ "generatedAt": "2026-09-03T19:59:58+00:00",
  "season": "2026-27",
  "gameweek": 3,
  "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -8216,7 +8216,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.45,
-   "playProbability": 0.831,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.128,
     "rf": 0.061,
@@ -8230,7 +8230,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.19,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.1087,
     "rf": 0.0069,
@@ -8256,7 +8256,7 @@
    "quotazione": 17.0,
    "fvm": 108.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": 1,
    "setPieceRank": 1,
@@ -23108,7 +23108,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.0,
-   "playProbability": 0.83,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.0325,
     "rf": 0.0,
@@ -23122,7 +23122,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.0318,
     "rf": 0.0044,
@@ -23148,7 +23148,7 @@
    "quotazione": 4.0,
    "fvm": 12.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23296,7 +23296,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.02,
-   "playProbability": 0.0,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.0527,
     "rf": 0.0,
@@ -23310,7 +23310,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.87,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.0293,
     "rf": 0.0041,
@@ -23335,9 +23335,9 @@
    },
    "quotazione": 6.0,
    "fvm": 20.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 45.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -37109,6 +37109,22 @@
     {
      "opzioni": [
       {
+       "player_id": "2517",
+       "giocatore": "De Bruyne",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "7223",
+       "giocatore": "Vergara",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "536",
        "giocatore": "Politano",
        "titolarita_pct": 51,
@@ -37200,6 +37216,22 @@
    "formation": "4-3-3",
    "isOfficial": false,
    "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "5578",
+       "giocatore": "Kossounou",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6485",
+       "giocatore": "Kristensen T.",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
     {
      "opzioni": [
       {
@@ -38025,6 +38057,168 @@
  ],
  "news": [
   {
+   "title": "UFFICIALE - Romagnoli lascia la Lazio e il fantacalcio: c’è l’annuncio dell’Al-Sadd",
+   "summary": "Alessio Romagnoli lascia la Lazio e vola in Qatar: il difensore ha firmato con l’Al-Sadd un contratto triennale fino al 2029.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/ufficiale-romagnoli-lascia-lazio-fantacalcio-annuncio-alsadd-asta/",
+   "image": "https://static.sosfanta.com/202601/aafb955f4ee965acf01977cced43fffb-scaled-e1769864825897.jpeg",
+   "date": "2026-09-03T19:46:41+00:00"
+  },
+  {
+   "title": "Chi schierare in attacco alla terza giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/attaccanti/chi-schierare-fantacalcio-attaccanti-3a-giornata-consigli/",
+   "image": "https://static.sosfanta.com/2026/08/Dybala-8ece77454c6c-e1787602240495.jpg",
+   "date": "2026-09-03T19:45:14+00:00"
+  },
+  {
+   "title": "UFFICIALE - Ehizibue è un nuovo giocatore del Genoa: il comunicato e le prime parole del difensore",
+   "summary": "Il Genoa rinforza la fascia con Kingsley Ehizibue: contratto pluriennale per il classe 1995, reduce da 32 presenze e 2 gol con l’Udinese.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/genoa/ufficiale-ehizibue-nuovo-giocatore-genoa-comunicato-parole-difensore-asta-fantacalcio/",
+   "image": "https://static.sosfanta.com/202410/4ee75a6a971907cbc53950de1c5bab27-scaled-e1729848213806.jpg",
+   "date": "2026-09-03T19:30:47+00:00"
+  },
+  {
+   "title": "Sottovalutati nelle aste del fantacalcio: ecco cinque nomi per il vostro centrocampo",
+   "summary": "Ecco alcuni centrocampisti sottovalutati verso l'asta del fantacalcio: tra il loro prezzo medio e il nostro prezzo consigliato.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/centrocampisti-sottovalutati-asta-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/milla-a50041647a1f-e1787670554216.jpeg",
+   "date": "2026-09-03T19:20:19+00:00"
+  },
+  {
+   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità post mercato",
+   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/09/Goncalves-2559429f5d6c-e1788357523625.jpeg",
+   "date": "2026-09-03T19:15:56+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Kristensen, Pellegrini e Rensch in gruppo! Ndicka, El Sha, Traoré, Pulisic, Bernabé e ceduto Borrelli",
+   "summary": "Tutte gli aggiornamenti e le ultime novità dai campi della Serie A in vista della terza giornata di campionato.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/campi-pellegrini-rensch-gruppo-ndicka-geubbels-el-shaarawy-traore-pulisic-bernabe-ceduto-borrelli/",
+   "image": "https://static.sosfanta.com/2026/09/pellegrini-campi-3f02c198b4c8-e1788453003219.jpg",
+   "date": "2026-09-03T19:10:01+00:00"
+  },
+  {
+   "title": "Lucumi: \"Litigio con Conceicao? Vi spiego! In guerra per Spalletti e cosa penso della concorrenza in difesa\"",
+   "summary": "Il difensore della Juve, Jhon Lucumi, ha rilasciato una intervista a Tuttosport nel corso della quale ha anche spiegato un episodio legato alla passata stagi...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/lucumi-litigio-conceicao-spalletti/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290243405-9d0c57d47b92.jpg",
+   "date": "2026-09-03T19:00:28+00:00"
+  },
+  {
+   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: oggi giocano così, le novità dopo il mercato",
+   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/09/WhatsApp-Image-2026-09-02-at-12.04.34-9c22dccaa738-e1788343685917.jpeg",
+   "date": "2026-09-03T18:45:46+00:00"
+  },
+  {
+   "title": "Gudmundsson: \"Gattuso mi vede in questi 4 ruoli, anche centravanti! Sugli infortuni e i fatti extra-campo...\"",
+   "summary": "Albert Gudmundsson si presenta alla Lazio: alla Fiorentina non è andata come sperava, nella Capitale il fantasista spera di toccare il picco avuto a Genova.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/gudmundsson-lazio-ruolo/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293326941-25294c8c6118-e1788441671616.jpg",
+   "date": "2026-09-03T18:30:22+00:00"
+  },
+  {
+   "title": "Sottovalutati nelle aste del fantacalcio: ecco cinque nomi possibili dagli attaccanti",
+   "summary": "Per motivi di concorrenza o recenti infortuni, ci sono cinque attaccanti che potreste riuscire ad assicurarvi a prezzo di saldo al fantacalcio.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/sottovalutati-fantacalcio-attacco-asta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292680122-744f23ac60de-e1788431830999.jpeg",
+   "date": "2026-09-03T18:20:36+00:00"
+  },
+  {
+   "title": "Kit per l’asta al fantacalcio 2026-27: dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo",
+   "summary": "Ecco il nostro kit per l'asta: tutto ciò che ti serve per il fantacalcio 2026-2027, dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/kit-asta-fantacalcio-guida-formazioni-tipo-rigoristi-tiratori-portieri-budget/",
+   "image": "https://static.sosfanta.com/2026/08/Jones-918c2f55f0bf-e1788364515443.jpg",
+   "date": "2026-09-03T18:15:37+00:00"
+  },
+  {
+   "title": "Non solo Yildiz e Orsolini, occhio a questi 10 infortunati: tempi di recupero e gestione per asta e fantacalcio",
+   "summary": "Attenzione a questi dieci infortunati in chiave asta e fantacalcio: i tempi di recupero e come gestirli, ecco le ultimissime.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/infortunati-fantacalcio-tempi-recupero-asta-yildiz-thuram-orsolini-zaniolo-mctominay-spence-hien-pessina-buongiorno/",
+   "image": "https://static.sosfanta.com/2026/09/Yildiz-83bb109e4b0c-e1788366138992.jpg",
+   "date": "2026-09-03T18:10:38+00:00"
+  },
+  {
+   "title": "Parma, le novità sull'infortunio di Bernabé e cosa filtra in vista della partita con il Monza: le ultime",
+   "summary": "Dopo il forfait di ieri in Coppa Italia per un lieve problema fisico, ParmaLive aggiorna sulle condizioni di Adrian Bernabé verso il Monza.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/parma/parma-novita-infortunio-bernabe-cosa-filtra-fantacalcio-asta-ultime-campi-monza/",
+   "image": "https://static.sosfanta.com/202605/680fb123d63c4b92260be65a83277b41.png",
+   "date": "2026-09-03T18:00:14+00:00"
+  },
+  {
+   "title": "Atalanta, novità verso la Roma: torna in gruppo Kristensen! I tempi di recupero per Hien e K. Sulemana",
+   "summary": "Riecco Thomas Kristensen in casa Atalanta: tutte le novità dall'infermeria dopo l'allenamento odierno diretto da Sarri.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-kristensen-gruppo-tempi-recupero-hien-sulemana/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291325192-fba12e0eeb99.jpg",
+   "date": "2026-09-03T17:45:14+00:00"
+  },
+  {
+   "title": "Malen: \"La mia miglior partenza di sempre. Gli obiettivi con la Roma? Rispondo così!",
+   "summary": "Il bomber giallorosso ha parlato in occasione del Gran Galà del calcio italiano: ecco le sue parole. Sul palco con lui anche Svilar.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-malen-svilar/",
+   "image": "https://static.sosfanta.com/2026/08/Malen-2cbd3cecf5ff-e1787602655247.jpg",
+   "date": "2026-09-03T17:30:12+00:00"
+  },
+  {
+   "title": "Chi schierare in porta alla terza giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i portieri: ecco le nostre fasce e chi schierare tra i pali.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/portieri/chi-schierare-porta-terza-giornata-fantacalcio-consigli-portieri/",
+   "image": "https://static.sosfanta.com/2026/09/Caprile-5d4bd1a5fbd9-e1788438759928.jpg",
+   "date": "2026-09-03T17:15:58+00:00"
+  },
+  {
+   "title": "Romano - Juve, la verità su Gatti al Porto. E c'è una squadra sulle tracce di Zhegrova",
+   "summary": "Dal canale YouTube di Fabrizio Romano, Matteo Moretto e Fabrizio Romano hanno fatto il punto su due giocatori chiacchierati in uscita dalla Juve: Edon Zhegro...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/gatti-zhegrova-juve-mercato-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/202503/684b78956d1e0960dde5eb8cea98cee0-scaled-e1743419090494.jpg",
+   "date": "2026-09-03T17:00:55+00:00"
+  },
+  {
+   "title": "Lazio, Luca Pellegrini escluso dalla lista Serie A: il motivo. La decisione su Patric e Cancellieri",
+   "summary": "Il club biancoceleste ha deciso di escludere l'esterno dalla lista Serie A: decisione presa anche su Patric e Cancellieri.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-luca-pellegrini-escluso-lista-serie-a-motivo-patric-cancellieri/",
+   "image": "https://static.sosfanta.com/202412/b89b7afb27bfa52381923bcde4b014db-e1734039141839.jpg",
+   "date": "2026-09-03T16:30:53+00:00"
+  },
+  {
    "title": "Inter, Marotta: \"Ausilio professionista vero, vi spiego perché la scelta Baccin\"",
    "summary": "Il presidente dell'Inter al Gran Galà del Calcio è tornato sull'addio di Piero Ausilio e ha spiegato la scelta del successore.",
    "author": "Alessandro Cosattini",
@@ -38070,22 +38264,13 @@
    "date": "2026-09-03T15:56:17+00:00"
   },
   {
-   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità post mercato",
-   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
-   "author": "Guglielmo Cannavale",
+   "title": "BREAKING – Lo svincolato Ehizibue torna al fantacalcio: è fatta con questa squadra di Serie A",
+   "summary": "Kingsley Ehizibue, svincolato dopo l’esperienza all’Udinese, è pronto per una nuova avventura. Per l’esterno del 1995 si avvicina la firma.",
+   "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/09/Goncalves-2559429f5d6c-e1788357523625.jpeg",
-   "date": "2026-09-03T15:50:56+00:00"
-  },
-  {
-   "title": "Sottovalutati nelle aste del fantacalcio: ecco cinque nomi possibili dagli attaccanti",
-   "summary": "Per motivi di concorrenza o recenti infortuni, ci sono cinque attaccanti che potreste riuscire ad assicurarvi a prezzo di saldo al fantacalcio.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/sottovalutati-fantacalcio-attacco-asta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292680122-744f23ac60de-e1788431830999.jpeg",
-   "date": "2026-09-03T15:40:36+00:00"
+   "url": "https://www.sosfanta.com/squadra/genoa/ezhibue-svincolato-fatta-seriea-udinese-genoa-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/202501/c27cd4c47fecc81cc7f0ad172d7ce5f5-scaled-e1736775354881.jpg",
+   "date": "2026-09-03T15:50:31+00:00"
   },
   {
    "title": "Napoli, novità su Beukema: le ultime sulle sue condizioni e come Allegri ha in mente di usarlo",
@@ -38097,24 +38282,6 @@
    "date": "2026-09-03T15:30:44+00:00"
   },
   {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: oggi giocano così, le novità dopo il mercato",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/09/WhatsApp-Image-2026-09-02-at-12.04.34-9c22dccaa738-e1788343685917.jpeg",
-   "date": "2026-09-03T15:20:46+00:00"
-  },
-  {
-   "title": "BREAKING – Lo svincolato Ehizibue torna al fantacalcio: è fatta con questa squadra di Serie A",
-   "summary": "Kingsley Ehizibue, svincolato dopo l’esperienza all’Udinese, è pronto per una nuova avventura. Per l’esterno del 1995 si avvicina la firma.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/genoa/ezhibue-svincolato-fatta-seriea-udinese-genoa-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/202501/c27cd4c47fecc81cc7f0ad172d7ce5f5-scaled-e1736775354881.jpg",
-   "date": "2026-09-03T15:10:31+00:00"
-  },
-  {
    "title": "Tomori, dal rientro in gruppo con il Millan al futuro e la verità sul rinnovo. Gli scenari per Bondo",
    "summary": "Fabrizio Romano e Matteo Moretto hanno parlato di due giocatori rimasti in uscita a lungo dal Milan ed ora rimasti in rossonero: Tomori e Bondo.",
    "author": "Daniele Najjar",
@@ -38124,22 +38291,13 @@
    "date": "2026-09-03T15:00:15+00:00"
   },
   {
-   "title": "Kit per l’asta al fantacalcio 2026-27: dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo",
-   "summary": "Ecco il nostro kit per l'asta: tutto ciò che ti serve per il fantacalcio 2026-2027, dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/kit-asta-fantacalcio-guida-formazioni-tipo-rigoristi-tiratori-portieri-budget/",
-   "image": "https://static.sosfanta.com/2026/08/Jones-918c2f55f0bf-e1788364515443.jpg",
-   "date": "2026-09-03T14:50:37+00:00"
-  },
-  {
    "title": "FLASH - Serie A, gli orari ufficiali dalla 6a alla 12a giornata: Milan-Inter e non solo, il calendario completo",
    "summary": "La Lega Serie A ha pubblicato oggi gli orari ufficiali del campionato dalla 6a alla 12a giornata: ecco tutte le partite in programma.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/serie-a-calendario-anticipi-posticipi-6a-12a-giornata-programma-completo/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2289181913-6c2f114d2c0c.jpg",
-   "date": "2026-09-03T14:40:24+00:00"
+   "date": "2026-09-03T14:45:24+00:00"
   },
   {
    "title": "Roma al lavoro a Trigoria in vista dell'Atalanta: Pellegrini in gruppo! Novità anche per Ndicka e Rensch",
@@ -38151,13 +38309,13 @@
    "date": "2026-09-03T14:30:57+00:00"
   },
   {
-   "title": "Non solo Yildiz e Orsolini, occhio a questi 10 infortunati: tempi di recupero e gestione per asta e fantacalcio",
-   "summary": "Attenzione a questi dieci infortunati in chiave asta e fantacalcio: i tempi di recupero e come gestirli, ecco le ultimissime.",
+   "title": "Nuovi arrivi al fantacalcio: cosa fare all’asta con El Shaarawy e Ricardo Rodriguez e cosa cambia",
+   "summary": "Nuovi arrivi al fantacalcio: Stephan El Shaarawy è un nuovo giocatore del Genoa e Ricardo Rodriguez torna a vestire la maglia del Torino.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/infortunati-fantacalcio-tempi-recupero-asta-yildiz-thuram-orsolini-zaniolo-mctominay-spence-hien-pessina-buongiorno/",
-   "image": "https://static.sosfanta.com/2026/09/Yildiz-83bb109e4b0c-e1788366138992.jpg",
-   "date": "2026-09-03T14:15:38+00:00"
+   "url": "https://www.sosfanta.com/news/el-shaarawy-ricardo-rodriguez-nuovi-arrivi-fantacalcio-cosa-fare-asta/",
+   "image": "https://static.sosfanta.com/2026/09/El-Shaarawy-6b768d2c02a5-e1788431094518.png",
+   "date": "2026-09-03T14:15:20+00:00"
   },
   {
    "title": "Ad Bologna: \"La cessione di Rowe? C'era nervosismo! Su Orsolini, Castro, Lucumì, Cassa, Emen e Mbangula...\"",
@@ -38169,13 +38327,22 @@
    "date": "2026-09-03T14:00:04+00:00"
   },
   {
-   "title": "Nuovi arrivi al fantacalcio: cosa fare all’asta con El Shaarawy e Ricardo Rodriguez e cosa cambia",
-   "summary": "Nuovi arrivi al fantacalcio: Stephan El Shaarawy è un nuovo giocatore del Genoa e Ricardo Rodriguez torna a vestire la maglia del Torino.",
+   "title": "Vlahovic: \"Bugie per 3 anni sul rinnovo con la Juve! In panchina per il contratto, sui fischi e Spalletti...\"",
+   "summary": "Torna a parlare Dusan Vlahovic. L'ex attaccante della Juve, subito protagonista in Turchia con la maglia del Besiktas di Vincenzo Italiano, ha detto la sua.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/vlahovic-juve-spalletti-rinnovo/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291320353-c3e8a3564254-e1788439378891.jpeg",
+   "date": "2026-09-03T13:50:33+00:00"
+  },
+  {
+   "title": "Tutti i rigoristi della Serie A per il fantacalcio 2026-27: squadra per squadra, le gerarchie a mercato chiuso",
+   "summary": "Si avvicina l'asta estiva, ecco tutte le gerarchie della Serie A 2026-27 per i rigoristi: squadra per squadra, chi può calciare per il fantacalcio.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/el-shaarawy-ricardo-rodriguez-nuovi-arrivi-fantacalcio-cosa-fare-asta/",
-   "image": "https://static.sosfanta.com/2026/09/El-Shaarawy-6b768d2c02a5-e1788431094518.png",
-   "date": "2026-09-03T13:45:20+00:00"
+   "url": "https://www.sosfanta.com/asta-fantacalcio/fantacalcio-asta-tutti-rigoristi-seriea-venti-squadre-campionato/",
+   "image": "https://static.sosfanta.com/2026/09/Woltemade-0c99023ea011-e1788357293195.jpg",
+   "date": "2026-09-03T13:40:22+00:00"
   },
   {
    "title": "De Rossi: \"Traoré è forte da morire: ecco come sta! Su El Shaarawy, Venturino, Baldanzi, Sow e Drameh...\"",
@@ -38185,24 +38352,6 @@
    "url": "https://www.sosfanta.com/squadra/genoa/de-rossi-conferenza-genoa/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291583676-c1bda63a0452-e1787432857581.jpg",
    "date": "2026-09-03T13:30:20+00:00"
-  },
-  {
-   "title": "Vlahovic: \"Bugie per 3 anni sul rinnovo con la Juve! In panchina per il contratto, sui fischi e Spalletti...\"",
-   "summary": "Torna a parlare Dusan Vlahovic. L'ex attaccante della Juve, subito protagonista in Turchia con la maglia del Besiktas di Vincenzo Italiano, ha detto la sua.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/vlahovic-juve-spalletti-rinnovo/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291320353-c3e8a3564254-e1788439378891.jpeg",
-   "date": "2026-09-03T13:20:33+00:00"
-  },
-  {
-   "title": "Tutti i rigoristi della Serie A per il fantacalcio 2026-27: squadra per squadra, le gerarchie a mercato chiuso",
-   "summary": "Si avvicina l'asta estiva, ecco tutte le gerarchie della Serie A 2026-27 per i rigoristi: squadra per squadra, chi può calciare per il fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/fantacalcio-asta-tutti-rigoristi-seriea-venti-squadre-campionato/",
-   "image": "https://static.sosfanta.com/2026/09/Woltemade-0c99023ea011-e1788357293195.jpg",
-   "date": "2026-09-03T13:10:22+00:00"
   },
   {
    "title": "Sky - Lo svincolato Ehizibue può tornare in Serie A: contatti in corso per l'acquisto a zero",
@@ -38266,123 +38415,6 @@
    "url": "https://www.sosfanta.com/news/juve-thuram-cabal-tempi-di-recupero-infortunio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2285292458-1bd55789a1bd-e1788429361453.jpeg",
    "date": "2026-09-03T11:15:00+00:00"
-  },
-  {
-   "title": "Juventus, Thuram si è operato: come cambiano le gerarchie di Spalletti a centrocampo",
-   "summary": "Il centrocampista francese si è operato per risolvere il problema al ginocchio: lo attende un lungo stop.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juventus-thuram-operazione-tempi-di-recupero-spalletti-centrocampo/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291715704-6f5fffe63840.jpg",
-   "date": "2026-09-03T11:00:40+00:00"
-  },
-  {
-   "title": "La divisione del budget all'asta del fantacalcio: ecco quanto spendere per ogni ruolo",
-   "summary": "Questa è la divisione del budget per l'asta del fantacalcio: ruolo per ruolo, ecco quanto spendere e come muoversi nei vari casi.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/consigli-fantacalcio-asta-budget-come-dividere-crediti-quanto-spendere-ruoli/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292489893-d244d7ab794a-e1787951485349.jpg",
-   "date": "2026-09-03T10:45:17+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per l'asta: da Yildiz a McTominay",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/202604/a52c8c8d0a33d80e749ebde4970453ce-e1777463751783.jpg",
-   "date": "2026-09-03T10:30:42+00:00"
-  },
-  {
-   "title": "ULTIM’ORA - Como, caso Caqueret: fuori dalla lista Champions e può partire, chi lo vuole! Gli altri esclusi…",
-   "summary": "Fuori Caqueret e Kambwala, c'è invece Smolcic. Il Como ha presentato la lista per la sua prima partecipazione in Champions League della storia.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/caqueret-como/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2288558510-ab1ab145ea1c-e1788424146104.jpeg",
-   "date": "2026-09-03T10:15:14+00:00"
-  },
-  {
-   "title": "Roma, le condizioni di Ndicka verso l'Atalanta: come sta e chi potrebbe giocare al suo posto",
-   "summary": "Tutti gli aggiornamenti sulle condizioni del difensore giallorosso in vista del confronto di campionato contro l'Atalanta.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ndicka-infortunio-esito-esami-condizioni-quando-torna-asta-fantacalcio/",
-   "image": "https://static.sosfanta.com/202605/de526588bbce55830a661686d087f63b-scaled-e1779015004625.jpg",
-   "date": "2026-09-03T10:00:06+00:00"
-  },
-  {
-   "title": "NEWS - Orsolini, Pulisic, Ndicka, Tavares, Zhegrova, Tomori, Malen, Hojlund, K. Thuram e ufficiale El Shaarawy",
-   "summary": "Le ultime dai campi delle squadre di Serie A, tra infortuni, stop e possibili rientri in vista del prossimo turno di campionato e non solo, in ottica fantaca...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/orsolini-el-shaarawy-hojlund-tomori/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2270752285-a83252b9ef2e-e1788422032776.jpeg",
-   "date": "2026-09-03T09:45:45+00:00"
-  },
-  {
-   "title": "Tutti i tiratori di corner e punizioni in Serie A per il fantacalcio 2026-27: squadra per squadra, gli specialisti",
-   "summary": "Tutti i tiratori di punizioni e corner in Serie A, squadra per squadra: gerarchie, novità e possibili bonus in chiave fantacalcio.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/serie-a-2026-2027-tiratori-punizioni-corner-specialisti-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/08/Mandragora-d938a1d6411f-e1788363534658.jpg",
-   "date": "2026-09-03T09:30:55+00:00"
-  },
-  {
-   "title": "Spalletti: \"Yildiz è il più forte! Il ruolo di Sarr, Woltemade, Thuram, Luiz, Nico e Koop che va aiutato...\"",
-   "summary": "Il tecnico della Juve, Luciano Spalletti, ha parlato a Sky di molti dei giocatori che ha in rosa, dalle certezze dello scorso anno, agli infortunati e i nuov...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/spalletti-yildiz-thuram-woltemade-sarr/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291716362-14f8fe7ad7b1-e1788415093776.jpeg",
-   "date": "2026-09-03T09:15:23+00:00"
-  },
-  {
-   "title": "Attesa per Orsolini: l'ultima risonanza e la possibile data di rientro dall'infortunio, cosa filtra",
-   "summary": "Attesa in casa Bologna per l'esito degli esami di Orsolini. Il Corriere dello Sport spiega i prossimi passaggi con gli ultimi controlli previsti in data odie...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/orsolini-infortunio-quando-rientra/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291852222-936a0e7b20db-e1788164007232.jpg",
-   "date": "2026-09-03T09:00:37+00:00"
-  },
-  {
-   "title": "Griglia portieri al fantacalcio: le alternanze per l’asta con coppie low cost, terzetti e chi prendere coi top",
-   "summary": "Queste sono le migliori coppie di portieri in base all'alternanza tra partite facili e difficili su FantaLab: ecco chi prendere al fantacalcio.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/griglia-portieri-seriea-fantacalcio-alternanze-asta-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/08/Mandas-9f8b6dd50367-e1788364445667.jpg",
-   "date": "2026-09-03T08:30:24+00:00"
-  },
-  {
-   "title": "Douvikas, Isaksen, Muani, Fortini, Pellegrino, Cambiaghi, Butez, Atta e Raspadori: cosa cambia ora al fanta",
-   "summary": "Due giornate già giocate, ma il calciomercato si è chiuso soltanto ieri: per qualcuno la concorrenza nel ruolo è cambiata. Vediamo caso per caso come gestirl...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/douvikas-atta-pellegrino-muani-cosa-cambia-al-fanta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2288558412-1f7dcdba50d1-e1788384453214.jpeg",
-   "date": "2026-09-03T08:15:12+00:00"
-  },
-  {
-   "title": "Ds Roma: \"La verità su Kone-Chelsea e i no di Summerville e Luiz Henrique. Per Celik era fatta, su Castro...\"",
-   "summary": "Il direttore sportivo della Roma, Tony D'Amico, ha parlato in conferenza stampa delle operazioni di mercato fatte nel corso della sua prima finestra di mercato.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/damico-roma-kone-chelsea-summerville-luiz-henrique/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2277701628-a8620fe0807a-scaled-e1785082164879.jpg",
-   "date": "2026-09-03T08:00:41+00:00"
-  },
-  {
-   "title": "Como, con Kean aumenta la concorrenza in attacco: cosa cambia per Douvikas al fantacalcio, le gerarchie",
-   "summary": "L'arrivo di Kean incrementa le soluzioni offensive per Fabregas: ecco come cambiano le gerarchie.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/como-kean-douvikas-chi-gioca-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/08/Douvikas-6e253c39ce29-e1787338505500.jpg",
-   "date": "2026-09-03T07:00:33+00:00"
   }
  ],
  "marketDifficulty": {
