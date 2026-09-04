@@ -1,0 +1,36 @@
+# GitHub puo' non solo ritardare ma anche saltare del tutto un'esecuzione
+# schedulata quando i suoi runner sono sotto carico (succede spesso proprio
+# nella fascia 10-22 UTC di `aggiorna.yml`, quando ogni repo del mondo ha
+# un cron ogni quarto d'ora). Non c'e' modo di evitarlo dal nostro lato:
+# l'unica difesa e' un secondo orologio indipendente, su minuti diversi, che
+# controlla se `aggiorna` gira ancora e lo rilancia se e' rimasto silenzioso
+# troppo a lungo. Se non c'e' una partita vicina `aggiorna.py` non scarica
+# nulla comunque, quindi rilanciarlo "a vuoto" non costa quote ne' tempo.
+name: verifica aggiorna
+
+on:
+  schedule:
+    - cron: "14,44 10-22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  controlla:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rilancia aggiorna se non gira da troppo
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          ULTIMA=$(gh run list --repo "$REPO" --workflow aggiorna.yml -L 1 \
+            --json createdAt --jq '.[0].createdAt')
+          ETA_MIN=$(( ( $(date -u +%s) - $(date -u -d "$ULTIMA" +%s) ) / 60 ))
+          echo "ultima esecuzione di aggiorna: $ETA_MIN minuti fa ($ULTIMA)"
+          if [ "$ETA_MIN" -gt 25 ]; then
+            echo "troppo silenzioso: rilancio aggiorna"
+            gh workflow run aggiorna.yml --repo "$REPO"
+          fi
