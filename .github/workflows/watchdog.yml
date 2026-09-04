@@ -27,7 +27,12 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           ULTIMA=$(gh run list --repo "$REPO" --workflow aggiorna.yml -L 1 \
-            --json createdAt --jq '.[0].createdAt')
+            --json createdAt --jq '.[0].createdAt // empty')
+          if [ -z "$ULTIMA" ]; then
+            echo "aggiorna non ha mai girato: lo lancio"
+            gh workflow run aggiorna.yml --repo "$REPO"
+            exit 0
+          fi
           ETA_MIN=$(( ( $(date -u +%s) - $(date -u -d "$ULTIMA" +%s) ) / 60 ))
           echo "ultima esecuzione di aggiorna: $ETA_MIN minuti fa ($ULTIMA)"
           if [ "$ETA_MIN" -gt 25 ]; then
