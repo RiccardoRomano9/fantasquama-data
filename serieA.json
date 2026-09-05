@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T12:38:49+00:00",
+ "generatedAt": "2026-09-05T13:23:43+00:00",
  "season": "2026-27",
  "gameweek": 3,
  "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -19222,7 +19222,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.98,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0123,
     "rf": 0.0002,
@@ -19236,7 +19236,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.17,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0467,
     "rf": 0.0055,
@@ -19261,9 +19261,9 @@
    },
    "quotazione": 3.0,
    "fvm": 5.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -20517,7 +20517,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.96,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0152,
     "rf": 0.0003,
@@ -20531,7 +20531,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.15,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0514,
     "rf": 0.0059,
@@ -20557,7 +20557,7 @@
    "quotazione": 7.0,
    "fvm": 20.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24890,7 +24890,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.428,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.0093,
     "rf": 0.0,
@@ -24904,7 +24904,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.78,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.0327,
     "rf": 0.0045,
@@ -24930,7 +24930,7 @@
    "quotazione": 5.0,
    "fvm": 13.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36697,7 +36697,7 @@
   {
    "name": "Fiorentina",
    "formation": "4-3-2-1",
-   "isOfficial": false,
+   "isOfficial": true,
    "ballottaggi": []
   },
   {
@@ -36825,7 +36825,7 @@
       {
        "player_id": "5840",
        "giocatore": "Olivera",
-       "titolarita_pct": 49,
+       "titolarita_pct": 45,
        "ruolo": "D"
       }
      ]
@@ -37781,6 +37781,24 @@
  ],
  "news": [
   {
+   "title": "Roma-Atalanta, le probabili formazioni: da Dybala a Raspadori, Soulé, Elmas, Kessie, Lulli e Ndicka",
+   "summary": "Il grande dubbio di Gasperini è relativo a Paulo Dybala. In casa Atalanta Sari pensa a chi schierare nel tridente offensivo",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/roma-atalanta-probabili-test-dybala/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293202949-d847856b7ec9-e1788502618258.jpeg",
+   "date": "2026-09-05T13:00:22+00:00"
+  },
+  {
+   "title": "Amorim: \"Le ultime su Gabbia e il reintegro di Tomori! Camarda, il ruolo di Moreira e le parole di Chivu...\"",
+   "summary": "Il tecnico del Milan, Ruben Amorim, ha parlato in conferenza stampa in vista del big match contro la Juventus",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-amorim-reintegro-tomori-camarda-moreira/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292818111-60dd6826602a.jpg",
+   "date": "2026-09-05T12:43:19+00:00"
+  },
+  {
    "title": "Cuesta: \"Bernabé e Diallo a rischio forfait. Chi gioca in porta? Dubbi fino alla fine tra Corvi, Daffara e Ghidotti\"",
    "summary": "Il tecnico del Parma Carlos Cuesta ha parlato in conferenza stampa in vista della sfida di domani contro il Monza",
    "author": "Andrea Della Sala",
@@ -37788,6 +37806,15 @@
    "url": "https://www.sosfanta.com/squadra/parma/cuesta-bernabe-e-diallo-a-rischio-forfait-chi-gioca-in-porta-dubbi-fino-alla-fine-tra-corvi-daffara-e-ghidotti/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293031028-204483ce03df.jpg",
    "date": "2026-09-05T12:30:05+00:00"
+  },
+  {
+   "title": "Tedesco: \"Holm e Zortea ok, come vedo Mbangula e Theate! Ferguson, Orsolini e Skorupski…”",
+   "summary": "Il tecnico del Bologna, Domenico Tedesco, ha parlato in conferenza stampa in vista della gara di domani contro il Sassuolo",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/tedesco-holm-come-vedo-mbangula-e-theate/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293036169-d179ec73439e.jpg",
+   "date": "2026-09-05T12:15:16+00:00"
   },
   {
    "title": "Fiorentina-Torino, le formazioni ufficiali: la decisione su Atta, fuori Simeone! La scelta su Ndour, Njie e Adams",
@@ -37808,6 +37835,15 @@
    "date": "2026-09-05T12:00:08+00:00"
   },
   {
+   "title": "BREAKING - Lazio, è fatta per Diogo Leite: già domani a Roma per le visite, ecco i dettagli",
+   "summary": "La Lazio pesca dal mercato degli svincolati per completare la rosa di Gattuso. Nuovo giocatore in arrivo per il reparto arretrato",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-fatta-diogo-leite-accordo/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2255685799-ef55151d7928.jpg",
+   "date": "2026-09-05T11:45:52+00:00"
+  },
+  {
    "title": "Stroppa: \"Come stanno Juan Jesus e Mazzocchi. Sohm, Fernandez, Dagasso, Halhal, Franjic...\"",
    "summary": "Il tecnico del Venezia Stroppa ha parlato in conferenza stampa in vista della sfida di domani contro il Frosinone",
    "author": "Andrea Della Sala",
@@ -37815,24 +37851,6 @@
    "url": "https://www.sosfanta.com/squadra/venezia/stroppa-franjic-come-sta-juan-jesus-mazzocchi/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2291708187-20e7cb8d6301.jpg",
    "date": "2026-09-05T11:30:05+00:00"
-  },
-  {
-   "title": "Tedesco: \"Holm e Zortea ok, come vedo Mbangula e Theate! Ferguson, Orsolini e Skorupski…”",
-   "summary": "Il tecnico del Bologna, Domenico Tedesco, ha parlato in conferenza stampa in vista della gara di domani contro il Sassuolo",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/tedesco-holm-come-vedo-mbangula-e-theate/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293036169-d179ec73439e.jpg",
-   "date": "2026-09-05T11:20:16+00:00"
-  },
-  {
-   "title": "BREAKING - Lazio, è fatta per Diogo Leite: già domani a Roma per le visite, ecco i dettagli",
-   "summary": "La Lazio pesca dal mercato degli svincolati per completare la rosa di Gattuso. Nuovo giocatore in arrivo per il reparto arretrato",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/lazio-fatta-diogo-leite-accordo/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2255685799-ef55151d7928.jpg",
-   "date": "2026-09-05T11:15:52+00:00"
   },
   {
    "title": "Inter-Napoli, le ultimissime sulle formazioni: Bisseck, Stones, De Bruyne, Jones, Vergara, Thuram...",
@@ -38121,24 +38139,6 @@
    "url": "https://www.sosfanta.com/squadra/napoli/napoli-allegri-inter-de-bruyne-vergara/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2292559716-3a1633b5c8b9.jpg",
    "date": "2026-09-04T13:15:53+00:00"
-  },
-  {
-   "title": "Cagliari-Lecce, le ultime di formazione: dubbio Mina, su Tiago Gabriel, Moreiro e chi fra Fazzini e Fadera...",
-   "summary": "Fra i posticipi del lunedì della terza giornata di Serie A ci sarà Cagliari-Lecce: ecco le ultime notizie sulle probabili formazioni.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/probabili-formazioni-cagliari-lecce-moreiro-mina/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291593271-12609d9fcb4b-e1788514797814.jpeg",
-   "date": "2026-09-04T13:00:20+00:00"
-  },
-  {
-   "title": "Gasperini: “Come sta Dybala, deve sentirsi tranquillo! Le ultime su Ndicka, Soulé e per rivedere Pellegrini…”",
-   "summary": "Il tecnico della Roma, Gian Piero Gasperini, ha parlato in conferenza stampa della sfida in programma contro la sua ex squadra, l'Atalanta.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/gasperini-roma-atalanta-dybala-come-sta-ndicka/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292683374-68655baf791a-e1788507078608.jpeg",
-   "date": "2026-09-04T12:45:18+00:00"
   }
  ],
  "marketDifficulty": {
