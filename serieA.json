@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T10:45:40+00:00",
+ "generatedAt": "2026-09-05T11:49:55+00:00",
  "season": "2026-27",
  "gameweek": 3,
  "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -622,7 +622,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.1325,
     "rf": 0.0028,
@@ -636,7 +636,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.2013,
     "rf": 0.0159,
@@ -661,9 +661,9 @@
    },
    "quotazione": 4.0,
    "fvm": 9.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "indisponibile",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -5879,7 +5879,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.05,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0159,
     "rf": 0.0019,
@@ -5893,7 +5893,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0968,
     "rf": 0.0074,
@@ -5918,9 +5918,9 @@
    },
    "quotazione": 1.0,
    "fvm": 4.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "indisponibile",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -6445,7 +6445,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.1,
-   "playProbability": 0.446,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0532,
     "rf": 0.0005,
@@ -6459,7 +6459,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0763,
     "rf": 0.0084,
@@ -6484,9 +6484,9 @@
    },
    "quotazione": 7.0,
    "fvm": 34.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": 1,
    "hasHistory": true,
@@ -8465,7 +8465,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.05,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0242,
     "rf": 0.0032,
@@ -8479,7 +8479,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.23,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0988,
     "rf": 0.0048,
@@ -8502,9 +8502,9 @@
    },
    "quotazione": 3.0,
    "fvm": 12.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -9145,7 +9145,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.09,
-   "playProbability": 0.429,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.041,
     "rf": 0.0006,
@@ -9159,7 +9159,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.27,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.1126,
     "rf": 0.0048,
@@ -9184,8 +9184,8 @@
    },
    "quotazione": 4.0,
    "fvm": 8.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -14368,7 +14368,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.25,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.2414,
     "rf": 0.0062,
@@ -14382,7 +14382,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.16,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1072,
     "rf": 0.006,
@@ -14407,9 +14407,9 @@
    },
    "quotazione": 9.0,
    "fvm": 20.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": 3,
    "hasHistory": true
@@ -18304,7 +18304,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.01,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.023,
     "rf": 0.0079,
@@ -18318,7 +18318,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0416,
     "rf": 0.0058,
@@ -18343,9 +18343,9 @@
    },
    "quotazione": 2.0,
    "fvm": 5.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "indisponibile",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -30723,8 +30723,8 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -37176,22 +37176,6 @@
     {
      "opzioni": [
       {
-       "player_id": "6666",
-       "giocatore": "Bernabè",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6206",
-       "giocatore": "Fabbian",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "6229",
        "giocatore": "Tourè E.",
        "titolarita_pct": 60,
@@ -37943,13 +37927,40 @@
  ],
  "news": [
   {
+   "title": "Stroppa: \"Come stanno Juan Jesus e Mazzocchi. Sohm, Fernandez, Dagasso, Halhal, Franjic...\"",
+   "summary": "Il tecnico del Venezia Stroppa ha parlato in conferenza stampa in vista della sfida di domani contro il Frosinone",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/venezia/stroppa-franjic-come-sta-juan-jesus-mazzocchi/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291708187-20e7cb8d6301.jpg",
+   "date": "2026-09-05T11:30:05+00:00"
+  },
+  {
+   "title": "Tedesco: \"Holm e Zortea ok, come vedo Mbangula e Theate! Ferguson, Orsolini e Skorupski…”",
+   "summary": "Il tecnico del Bologna, Domenico Tedesco, ha parlato in conferenza stampa in vista della gara di domani contro il Sassuolo",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/tedesco-holm-come-vedo-mbangula-e-theate/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293036169-d179ec73439e.jpg",
+   "date": "2026-09-05T11:20:16+00:00"
+  },
+  {
    "title": "BREAKING - Lazio, è fatta per Diogo Leite: già domani a Roma per le visite, ecco i dettagli",
    "summary": "La Lazio pesca dal mercato degli svincolati per completare la rosa di Gattuso. Nuovo giocatore in arrivo per il reparto arretrato",
    "author": "Andrea Della Sala",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/lazio/lazio-fatta-diogo-leite-accordo/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2255685799-ef55151d7928.jpg",
-   "date": "2026-09-05T10:32:52+00:00"
+   "date": "2026-09-05T11:15:52+00:00"
+  },
+  {
+   "title": "Inter-Napoli, le ultimissime sulle formazioni: Bisseck, Stones, De Bruyne, Jones, Vergara, Thuram...",
+   "summary": "Il tecnico dell'Inter cambia qualcosa anche in vista della sfida col Real. Allegri nel Napoli deve fare i conti con le assenze",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/inter-napoli-ultime-formazioni-de-bruyne-thuram/",
+   "image": "https://static.sosfanta.com/2026/08/Stones-27881f3b485a.jpg",
+   "date": "2026-09-05T11:00:13+00:00"
   },
   {
    "title": "NEWS - Dybala, Pulisic, Gnonto, Adams, Gabbia, Varela, Stones, De Bruyne, Pinamonti, McKennie: le novità",
@@ -37958,7 +37969,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/news-dybala-pulisic-gnonto-adams-gabbia-varela-stones-de-bruyne-pinamonti-mckennie-le-novita/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293203946-8aa78483a79c.jpg",
-   "date": "2026-09-05T10:15:45+00:00"
+   "date": "2026-09-05T10:45:45+00:00"
   },
   {
    "title": "Milan, ecco quando dovrebbe rientrare Gabbia. Gli ultimi aggiornamenti su Pulisic",
@@ -38274,33 +38285,6 @@
    "url": "https://www.sosfanta.com/squadra/fiorentina/grosso-fiorentina-torino-dodo-atta-problemi-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2289952741-c0f489bf1518-e1788507101479.jpeg",
    "date": "2026-09-04T11:45:45+00:00"
-  },
-  {
-   "title": "Le probabili formazioni di Genoa-Como: da Kean a El Shaarawy, Diao, Baldanzi, Kaiki, Milla e Vitinha in dubbio",
-   "summary": "Da El Shaarawy a Kean e Vitinha: dubbi e possibili scelte per la sfida fra Genoa e Como, ecco le probabili formazioni dell'anticipo del venerdì.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/probabili-formazioni-genoa-como-el-shaawawy-kean/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2208974777-91b284f71b9f-e1788512493232.jpg",
-   "date": "2026-09-04T11:00:09+00:00"
-  },
-  {
-   "title": "Napoli, dalle condizioni di Badiashile a Spinazzola, Olivera, Alisson e Lang, le idee di Allegri per l'Inter",
-   "summary": "Napoli, dalle condizioni di Badiashile a Spinazzola, Olivera, Alisson e Lang, le idee di Allegri per l'Inter",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-inter-probabili-formazioni-badiashile-alisson/",
-   "image": "https://static.sosfanta.com/2026/08/Alisson-Santos-997234787ac7-e1787935183924.jpg",
-   "date": "2026-09-04T10:30:32+00:00"
-  },
-  {
-   "title": "Cagliari, Kevin Carlos in dubbio: è ancora in Spagna, il motivo. Cosa filtra sul rientro di Mina, Sugawara...",
-   "summary": "Il Cagliasi si prepara in vista della sfida contro il Lecce dopo essere uscito a sorpresa dalla Coppa Italia in virtù del ko rimediato con l'Hellas Verona ai...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-kevin-carlos-mina-sugawara-lecce/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2215763501-4a0782355411-e1788092677656.jpg",
-   "date": "2026-09-04T10:00:10+00:00"
   }
  ],
  "marketDifficulty": {
