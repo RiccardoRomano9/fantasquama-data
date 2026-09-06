@@ -77,6 +77,16 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add serieA.json probabili-archivio
+          git add serieA.json
+          # La cartella dell'archivio non esiste finche' non c'e' la prima
+          # giornata da archiviare, e `git add` su un percorso che non esiste
+          # non e' un silenzio: e' `fatal: pathspec did not match any files`,
+          # che con `bash -e` fa fallire il passo e quindi non committa NEMMENO
+          # serieA.json. Non e' un caso di bordo che si risolve da solo: finche'
+          # nessuna giornata e' archiviabile il passo fallisce sempre, e l'app
+          # resta ferma sull'ultimo file buono senza che nessuno se ne accorga.
+          if [ -d probabili-archivio ]; then
+            git add probabili-archivio
+          fi
           git commit -m "Probabili formazioni al $(date -u '+%Y-%m-%d %H:%M') UTC"
           git push
