@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-06T12:08:04+00:00",
+ "generatedAt": "2026-09-06T12:51:47+00:00",
  "season": "2026-27",
  "gameweek": 3,
  "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -18,7 +18,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.88,
-   "playProbability": 0.829,
+   "playProbability": 0.873,
    "events": {
     "gf": 0.0496,
     "rf": 0.0318,
@@ -32,7 +32,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.873,
    "learnedEvents": {
     "gf": 0.1544,
     "rf": 0.0112,
@@ -56,7 +56,7 @@
    "quotazione": 11.0,
    "fvm": 35.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": 2,
    "setPieceRank": null,
@@ -933,7 +933,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.91,
-   "playProbability": 0.829,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0652,
     "rf": 0.0401,
@@ -947,7 +947,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.94,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.2159,
     "rf": 0.0132,
@@ -972,9 +972,9 @@
    },
    "quotazione": 9.0,
    "fvm": 23.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": 2,
    "setPieceRank": null,
    "hasHistory": true
@@ -1490,7 +1490,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.05,
-   "playProbability": 0.349,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0844,
     "rf": 0.0036,
@@ -1504,7 +1504,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.349,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1237,
     "rf": 0.0096,
@@ -1530,7 +1530,7 @@
    "quotazione": 3.0,
    "fvm": 11.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -1855,7 +1855,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.04,
-   "playProbability": 0.428,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.1723,
     "rf": 0.0056,
@@ -1869,7 +1869,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.79,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1246,
     "rf": 0.0106,
@@ -1895,7 +1895,7 @@
    "quotazione": 8.0,
    "fvm": 23.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": 3,
@@ -2530,7 +2530,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.19,
-   "playProbability": 0.829,
+   "playProbability": 0.873,
    "events": {
     "gf": 0.1148,
     "rf": 0.0056,
@@ -2544,7 +2544,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.11,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.873,
    "learnedEvents": {
     "gf": 0.1935,
     "rf": 0.0106,
@@ -2568,7 +2568,7 @@
    "quotazione": 6.0,
    "fvm": 24.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -2833,7 +2833,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.88,
-   "playProbability": 0.349,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.048,
     "rf": 0.005,
@@ -2847,7 +2847,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.14,
-   "learnedPlayProbability": 0.349,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1383,
     "rf": 0.0096,
@@ -2871,7 +2871,7 @@
    "quotazione": 3.0,
    "fvm": 11.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -3261,7 +3261,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.02,
-   "playProbability": 0.829,
+   "playProbability": 0.873,
    "events": {
     "gf": 0.1793,
     "rf": 0.0058,
@@ -3275,7 +3275,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.87,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.873,
    "learnedEvents": {
     "gf": 0.1673,
     "rf": 0.0132,
@@ -3301,7 +3301,7 @@
    "quotazione": 4.0,
    "fvm": 8.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": 3,
@@ -3933,7 +3933,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.44,
-   "playProbability": 0.829,
+   "playProbability": 0.873,
    "events": {
     "gf": 0.5047,
     "rf": 0.0056,
@@ -3947,7 +3947,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.873,
    "learnedEvents": {
     "gf": 0.1764,
     "rf": 0.0246,
@@ -3971,7 +3971,7 @@
    "quotazione": 9.0,
    "fvm": 27.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -4173,7 +4173,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.04,
-   "playProbability": 0.044,
+   "playProbability": 0.873,
    "events": {
     "gf": 0.1675,
     "rf": 0.0058,
@@ -4187,7 +4187,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.87,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.873,
    "learnedEvents": {
     "gf": 0.1673,
     "rf": 0.0132,
@@ -4210,8 +4210,8 @@
    },
    "quotazione": 4.0,
    "fvm": 5.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -4231,7 +4231,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.04,
-   "playProbability": 0.524,
+   "playProbability": 0.873,
    "events": {
     "gf": 0.0721,
     "rf": 0.0271,
@@ -4245,7 +4245,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.524,
+   "learnedPlayProbability": 0.873,
    "learnedEvents": {
     "gf": 0.1194,
     "rf": 0.0096,
@@ -4269,7 +4269,7 @@
    "quotazione": 10.0,
    "fvm": 37.0,
    "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": 2,
    "setPieceRank": null,
@@ -4289,7 +4289,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.04,
-   "playProbability": 0.445,
+   "playProbability": 0.873,
    "events": {
     "gf": 0.0744,
     "rf": 0.0059,
@@ -4303,7 +4303,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.445,
+   "learnedPlayProbability": 0.873,
    "learnedEvents": {
     "gf": 0.1319,
     "rf": 0.0112,
@@ -4327,7 +4327,7 @@
    "quotazione": 7.0,
    "fvm": 13.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -4785,7 +4785,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.88,
-   "playProbability": 0.524,
+   "playProbability": 0.873,
    "events": {
     "gf": 0.048,
     "rf": 0.0676,
@@ -4799,7 +4799,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.14,
-   "learnedPlayProbability": 0.524,
+   "learnedPlayProbability": 0.873,
    "learnedEvents": {
     "gf": 0.1484,
     "rf": 0.0096,
@@ -4825,7 +4825,7 @@
    "quotazione": 10.0,
    "fvm": 37.0,
    "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": 1,
    "setPieceRank": null,
@@ -5088,7 +5088,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.88,
-   "playProbability": 0.428,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0496,
     "rf": 0.0059,
@@ -5102,7 +5102,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1424,
     "rf": 0.0112,
@@ -5128,7 +5128,7 @@
    "quotazione": 9.0,
    "fvm": 27.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": 2,
@@ -5577,7 +5577,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.21,
-   "playProbability": 0.613,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0083,
     "rf": 0.001,
@@ -5591,7 +5591,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.98,
-   "learnedPlayProbability": 0.613,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0585,
     "rf": 0.007,
@@ -5617,7 +5617,7 @@
    "quotazione": 7.0,
    "fvm": 11.0,
    "lineupSlot": "titolare",
-   "startingProbability": 70.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -6486,7 +6486,7 @@
    "fvm": 34.0,
    "lineupSlot": "indisponibile",
    "startingProbability": 0.0,
-   "status": "indisponibile",
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": 1,
    "hasHistory": true,
@@ -6753,7 +6753,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.07,
-   "playProbability": 0.831,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0176,
     "rf": 0.0793,
@@ -6767,7 +6767,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0462,
     "rf": 0.0056,
@@ -6793,7 +6793,7 @@
    "quotazione": 5.0,
    "fvm": 14.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": 1,
    "setPieceRank": 1,
@@ -6935,7 +6935,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.39,
-   "playProbability": 0.831,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.048,
     "rf": 0.0801,
@@ -6949,7 +6949,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0547,
     "rf": 0.0056,
@@ -6975,7 +6975,7 @@
    "quotazione": 8.0,
    "fvm": 27.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": 1,
    "setPieceRank": 1,
@@ -7433,7 +7433,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.05,
-   "playProbability": 0.35,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0575,
     "rf": 0.0056,
@@ -7447,7 +7447,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.83,
-   "learnedPlayProbability": 0.35,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0467,
     "rf": 0.0056,
@@ -7471,7 +7471,7 @@
    "quotazione": 4.0,
    "fvm": 12.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -7727,7 +7727,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.2,
-   "playProbability": 0.831,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.2673,
     "rf": 0.0033,
@@ -7741,7 +7741,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.12,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1239,
     "rf": 0.0075,
@@ -7766,8 +7766,8 @@
    },
    "quotazione": 9.0,
    "fvm": 15.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": 2,
@@ -7972,7 +7972,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.05,
-   "playProbability": 0.35,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0161,
     "rf": 0.0021,
@@ -7986,7 +7986,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.35,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0456,
     "rf": 0.0047,
@@ -8012,7 +8012,7 @@
    "quotazione": 2.0,
    "fvm": 3.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -8158,7 +8158,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.446,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0249,
     "rf": 0.0034,
@@ -8172,7 +8172,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.19,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0462,
     "rf": 0.0056,
@@ -8195,8 +8195,8 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -8504,7 +8504,7 @@
    "fvm": 12.0,
    "lineupSlot": "indisponibile",
    "startingProbability": 0.0,
-   "status": "indisponibile",
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -9145,7 +9145,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.09,
-   "playProbability": 0.525,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0407,
     "rf": 0.0006,
@@ -9159,7 +9159,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.27,
-   "learnedPlayProbability": 0.525,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.1117,
     "rf": 0.0047,
@@ -9185,7 +9185,7 @@
    "quotazione": 4.0,
    "fvm": 8.0,
    "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9573,7 +9573,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.05,
-   "playProbability": 0.446,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0384,
     "rf": 0.0041,
@@ -9587,7 +9587,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.0,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0903,
     "rf": 0.0056,
@@ -9611,7 +9611,7 @@
    "quotazione": 4.0,
    "fvm": 13.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9695,7 +9695,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.05,
-   "playProbability": 0.263,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0466,
     "rf": 0.0053,
@@ -9709,7 +9709,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.263,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0519,
     "rf": 0.007,
@@ -9733,7 +9733,7 @@
    "quotazione": 2.0,
    "fvm": 2.0,
    "lineupSlot": "panchina",
-   "startingProbability": 30.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9811,7 +9811,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.08,
-   "playProbability": 0.613,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.068,
     "rf": 0.0009,
@@ -9825,7 +9825,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.99,
-   "learnedPlayProbability": 0.613,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.1145,
     "rf": 0.007,
@@ -9851,7 +9851,7 @@
    "quotazione": 4.0,
    "fvm": 17.0,
    "lineupSlot": "titolare",
-   "startingProbability": 70.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9871,7 +9871,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.05,
-   "playProbability": 0.044,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0559,
     "rf": 0.0058,
@@ -9885,7 +9885,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.02,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0805,
     "rf": 0.007,
@@ -9910,8 +9910,8 @@
    },
    "quotazione": 2.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -10605,7 +10605,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.13,
-   "playProbability": 0.429,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0719,
     "rf": 0.0131,
@@ -10619,7 +10619,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.88,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0467,
     "rf": 0.0056,
@@ -10645,7 +10645,7 @@
    "quotazione": 4.0,
    "fvm": 10.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": 3,
    "setPieceRank": null,
@@ -11396,7 +11396,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.08,
-   "playProbability": 0.831,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0182,
     "rf": 0.0005,
@@ -11410,7 +11410,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0532,
     "rf": 0.0058,
@@ -11436,7 +11436,7 @@
    "quotazione": 5.0,
    "fvm": 15.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12515,7 +12515,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.06,
-   "playProbability": 0.525,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0071,
     "rf": 0.0007,
@@ -12529,7 +12529,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.525,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0467,
     "rf": 0.0056,
@@ -12555,7 +12555,7 @@
    "quotazione": 3.0,
    "fvm": 8.0,
    "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -13561,7 +13561,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.39,
-   "playProbability": 0.263,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0466,
     "rf": 0.0053,
@@ -13575,7 +13575,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.02,
-   "learnedPlayProbability": 0.263,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0556,
     "rf": 0.007,
@@ -13599,7 +13599,7 @@
    "quotazione": 1.0,
    "fvm": 12.0,
    "lineupSlot": "panchina",
-   "startingProbability": 30.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -13988,7 +13988,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.06,
-   "playProbability": 0.831,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0264,
     "rf": 0.0007,
@@ -14002,7 +14002,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0638,
     "rf": 0.0069,
@@ -14028,7 +14028,7 @@
    "quotazione": 3.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -14428,7 +14428,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.01,
-   "playProbability": 0.831,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0207,
     "rf": 0.0028,
@@ -14442,7 +14442,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.09,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0985,
     "rf": 0.0056,
@@ -14466,7 +14466,7 @@
    "quotazione": 5.0,
    "fvm": 15.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": 3,
@@ -15601,7 +15601,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.01,
-   "playProbability": 0.446,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.048,
     "rf": 0.0321,
@@ -15615,7 +15615,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.84,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0903,
     "rf": 0.0056,
@@ -15641,7 +15641,7 @@
    "quotazione": 8.0,
    "fvm": 25.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": 2,
    "setPieceRank": 2,
@@ -15661,7 +15661,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.07,
-   "playProbability": 0.429,
+   "playProbability": 0.875,
    "events": {
     "gf": 0.0044,
     "rf": 0.0004,
@@ -15675,7 +15675,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.98,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.875,
    "learnedEvents": {
     "gf": 0.0462,
     "rf": 0.0056,
@@ -15700,8 +15700,8 @@
    },
    "quotazione": 5.0,
    "fvm": 11.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -17269,7 +17269,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.02,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0354,
     "rf": 0.0004,
@@ -17283,7 +17283,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.79,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0368,
     "rf": 0.0047,
@@ -17308,9 +17308,9 @@
    },
    "quotazione": 3.0,
    "fvm": 6.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -17989,7 +17989,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.044,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.002,
     "rf": 0.0,
@@ -18003,7 +18003,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0364,
     "rf": 0.0047,
@@ -18028,8 +18028,8 @@
    },
    "quotazione": 5.0,
    "fvm": 13.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18368,7 +18368,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.99,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0134,
     "rf": 0.0003,
@@ -18382,7 +18382,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0421,
     "rf": 0.0059,
@@ -18408,7 +18408,7 @@
    "quotazione": 4.0,
    "fvm": 12.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18492,7 +18492,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.63,
-   "playProbability": 0.524,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.2185,
     "rf": 0.0003,
@@ -18506,7 +18506,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.524,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.1047,
     "rf": 0.0053,
@@ -18530,7 +18530,7 @@
    "quotazione": 7.0,
    "fvm": 15.0,
    "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18614,7 +18614,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.0,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0015,
     "rf": 0.0,
@@ -18628,7 +18628,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.19,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0343,
     "rf": 0.004,
@@ -18654,7 +18654,7 @@
    "quotazione": 3.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18856,7 +18856,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.93,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0236,
     "rf": 0.0003,
@@ -18870,7 +18870,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.87,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0368,
     "rf": 0.0047,
@@ -18894,7 +18894,7 @@
    "quotazione": 5.0,
    "fvm": 13.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -19038,7 +19038,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0137,
     "rf": 0.0003,
@@ -19052,7 +19052,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.92,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0421,
     "rf": 0.0059,
@@ -19078,7 +19078,7 @@
    "quotazione": 3.0,
    "fvm": 9.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -19467,7 +19467,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.044,
+   "playProbability": 0.83,
    "events": {
     "gf": 0.0236,
     "rf": 0.0003,
@@ -19481,7 +19481,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.86,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.83,
    "learnedEvents": {
     "gf": 0.0368,
     "rf": 0.0047,
@@ -19506,8 +19506,8 @@
    },
    "quotazione": 4.0,
    "fvm": 8.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -19715,7 +19715,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.83,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0102,
     "rf": 0.0002,
@@ -19729,7 +19729,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0364,
     "rf": 0.0047,
@@ -19754,8 +19754,8 @@
    },
    "quotazione": 5.0,
    "fvm": 12.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -19966,7 +19966,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.99,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0182,
     "rf": 0.0,
@@ -19980,7 +19980,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.27,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0343,
     "rf": 0.004,
@@ -20006,7 +20006,7 @@
    "quotazione": 8.0,
    "fvm": 21.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -20206,7 +20206,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 5.99,
-   "playProbability": 0.446,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0177,
     "rf": 0.0,
@@ -20220,7 +20220,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.26,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0343,
     "rf": 0.004,
@@ -20246,7 +20246,7 @@
    "quotazione": 8.0,
    "fvm": 26.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -20639,7 +20639,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.428,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0118,
     "rf": 0.0002,
@@ -20653,7 +20653,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.25,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0343,
     "rf": 0.004,
@@ -20677,7 +20677,7 @@
    "quotazione": 2.0,
    "fvm": 1.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21006,7 +21006,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0102,
     "rf": 0.0002,
@@ -21020,7 +21020,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0364,
     "rf": 0.0047,
@@ -21045,9 +21045,9 @@
    },
    "quotazione": 3.0,
    "fvm": 7.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -21442,7 +21442,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.96,
-   "playProbability": 0.393,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0138,
     "rf": 0.0003,
@@ -21456,7 +21456,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.8,
-   "learnedPlayProbability": 0.393,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0421,
     "rf": 0.0059,
@@ -21480,7 +21480,7 @@
    "quotazione": 2.0,
    "fvm": 5.0,
    "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21622,7 +21622,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0102,
     "rf": 0.0002,
@@ -21636,7 +21636,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0364,
     "rf": 0.0047,
@@ -21660,7 +21660,7 @@
    "quotazione": 4.0,
    "fvm": 12.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21682,7 +21682,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0122,
     "rf": 0.0002,
@@ -21696,7 +21696,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.0,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0364,
     "rf": 0.0047,
@@ -21720,7 +21720,7 @@
    "quotazione": 3.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21742,7 +21742,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.99,
-   "playProbability": 0.446,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0113,
     "rf": 0.0001,
@@ -21756,7 +21756,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.09,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0364,
     "rf": 0.0047,
@@ -21782,7 +21782,7 @@
    "quotazione": 5.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23172,7 +23172,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0153,
     "rf": 0.0003,
@@ -23186,7 +23186,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.99,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0421,
     "rf": 0.0059,
@@ -23212,7 +23212,7 @@
    "quotazione": 3.0,
    "fvm": 14.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23477,7 +23477,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.93,
-   "playProbability": 0.481,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0229,
     "rf": 0.0003,
@@ -23491,7 +23491,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.04,
-   "learnedPlayProbability": 0.481,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0421,
     "rf": 0.0059,
@@ -23517,7 +23517,7 @@
    "quotazione": 3.0,
    "fvm": 11.0,
    "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23723,7 +23723,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.29,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0229,
     "rf": 0.0003,
@@ -23737,7 +23737,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.98,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0439,
     "rf": 0.0059,
@@ -23763,7 +23763,7 @@
    "quotazione": 7.0,
    "fvm": 15.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24398,7 +24398,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.83,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0236,
     "rf": 0.0003,
@@ -24412,7 +24412,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.9,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0368,
     "rf": 0.0047,
@@ -24437,8 +24437,8 @@
    },
    "quotazione": 6.0,
    "fvm": 13.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24458,7 +24458,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.02,
-   "playProbability": 0.428,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0153,
     "rf": 0.0003,
@@ -24472,7 +24472,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.98,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0364,
     "rf": 0.0047,
@@ -24496,7 +24496,7 @@
    "quotazione": 4.0,
    "fvm": 6.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -25140,7 +25140,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.446,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0236,
     "rf": 0.0003,
@@ -25154,7 +25154,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.92,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0368,
     "rf": 0.0047,
@@ -25180,7 +25180,7 @@
    "quotazione": 6.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -26560,7 +26560,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.95,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0102,
     "rf": 0.0002,
@@ -26574,7 +26574,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0364,
     "rf": 0.0047,
@@ -26598,7 +26598,7 @@
    "quotazione": 3.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -27243,7 +27243,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.02,
-   "playProbability": 0.428,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0354,
     "rf": 0.0004,
@@ -27257,7 +27257,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.85,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0368,
     "rf": 0.0047,
@@ -27281,7 +27281,7 @@
    "quotazione": 3.0,
    "fvm": 8.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -27361,7 +27361,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.02,
-   "playProbability": 0.35,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0284,
     "rf": 0.0002,
@@ -27375,7 +27375,7 @@
     "cs": 0.0
    },
    "learnedVote": 5.79,
-   "learnedPlayProbability": 0.35,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0368,
     "rf": 0.0047,
@@ -27401,7 +27401,7 @@
    "quotazione": 4.0,
    "fvm": 8.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -27607,7 +27607,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.98,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0266,
     "rf": 0.0,
@@ -27621,7 +27621,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.27,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0413,
     "rf": 0.0048,
@@ -27645,7 +27645,7 @@
    "quotazione": 3.0,
    "fvm": 14.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -27792,7 +27792,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.0,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0042,
     "rf": 0.0192,
@@ -27806,7 +27806,7 @@
     "cs": 0.0
    },
    "learnedVote": 6.26,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0491,
     "rf": 0.0057,
@@ -27832,7 +27832,7 @@
    "quotazione": 8.0,
    "fvm": 22.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": 3,
    "setPieceRank": 3,
@@ -29142,7 +29142,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.29,
-   "playProbability": 0.913,
+   "playProbability": 0.961,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -29156,7 +29156,7 @@
     "cs": 0.2631
    },
    "learnedVote": 6.56,
-   "learnedPlayProbability": 0.913,
+   "learnedPlayProbability": 0.961,
    "learnedEvents": {
     "gf": 0.0222,
     "rf": 0.004,
@@ -29182,7 +29182,7 @@
    "quotazione": 2.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -29734,7 +29734,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.28,
-   "playProbability": 0.048,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -29748,7 +29748,7 @@
     "cs": 0.2832
    },
    "learnedVote": 6.26,
-   "learnedPlayProbability": 0.048,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.025,
     "rf": 0.0047,
@@ -29771,9 +29771,9 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -30744,7 +30744,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.29,
-   "playProbability": 0.913,
+   "playProbability": 0.961,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -30758,7 +30758,7 @@
     "cs": 0.3461
    },
    "learnedVote": 6.19,
-   "learnedPlayProbability": 0.913,
+   "learnedPlayProbability": 0.961,
    "learnedEvents": {
     "gf": 0.0252,
     "rf": 0.0047,
@@ -30782,7 +30782,7 @@
    "quotazione": 5.0,
    "fvm": 12.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -31154,7 +31154,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.28,
-   "playProbability": 0.048,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -31168,7 +31168,7 @@
     "cs": 0.2832
    },
    "learnedVote": 6.26,
-   "learnedPlayProbability": 0.048,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.025,
     "rf": 0.0047,
@@ -31191,9 +31191,9 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -31860,7 +31860,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.29,
-   "playProbability": 0.913,
+   "playProbability": 0.961,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -31874,7 +31874,7 @@
     "cs": 0.1888
    },
    "learnedVote": 6.41,
-   "learnedPlayProbability": 0.913,
+   "learnedPlayProbability": 0.961,
    "learnedEvents": {
     "gf": 0.025,
     "rf": 0.0047,
@@ -31900,7 +31900,7 @@
    "quotazione": 6.0,
    "fvm": 11.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -32156,7 +32156,7 @@
    "appearances": 1,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.29,
-   "playProbability": 0.471,
+   "playProbability": 0.961,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -32170,7 +32170,7 @@
     "cs": 0.2428
    },
    "learnedVote": 6.24,
-   "learnedPlayProbability": 0.471,
+   "learnedPlayProbability": 0.961,
    "learnedEvents": {
     "gf": 0.0291,
     "rf": 0.0059,
@@ -32193,8 +32193,8 @@
    },
    "quotazione": 4.0,
    "fvm": 5.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -32214,7 +32214,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.28,
-   "playProbability": 0.49,
+   "playProbability": 0.048,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -32228,7 +32228,7 @@
     "cs": 0.3034
    },
    "learnedVote": 6.11,
-   "learnedPlayProbability": 0.49,
+   "learnedPlayProbability": 0.048,
    "learnedEvents": {
     "gf": 0.0291,
     "rf": 0.0059,
@@ -32253,8 +32253,8 @@
    },
    "quotazione": 1.0,
    "fvm": 10.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36733,286 +36733,26 @@
   {
    "name": "Parma",
    "formation": "3-5-2",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "4137",
-       "giocatore": "Diego Carlos",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "7615",
-       "giocatore": "Drobnic",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6206",
-       "giocatore": "Fabbian",
-       "titolarita_pct": 60,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7276",
-       "giocatore": "Cremaschi",
-       "titolarita_pct": 40,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6229",
-       "giocatore": "Tourè E.",
-       "titolarita_pct": 60,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "7342",
-       "giocatore": "Elphege",
-       "titolarita_pct": 40,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7554",
-       "giocatore": "Romero D.",
-       "titolarita_pct": 60,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "7561",
-       "giocatore": "Lontani",
-       "titolarita_pct": 40,
-       "ruolo": "A"
-      }
-     ]
-    }
-   ]
+   "isOfficial": true,
+   "ballottaggi": []
   },
   {
    "name": "Monza",
    "formation": "3-4-2-1",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "7301",
-       "giocatore": "Tornqvist",
-       "titolarita_pct": 51,
-       "ruolo": "P"
-      },
-      {
-       "player_id": "4485",
-       "giocatore": "Thiam",
-       "titolarita_pct": 49,
-       "ruolo": "P"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6659",
-       "giocatore": "Lucchesi",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6537",
-       "giocatore": "Goglichidze",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6252",
-       "giocatore": "Folorunsho",
-       "titolarita_pct": 70,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7574",
-       "giocatore": "Foe Ondoa",
-       "titolarita_pct": 30,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6593",
-       "giocatore": "Akinsanmiro",
-       "titolarita_pct": 70,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7575",
-       "giocatore": "Mout",
-       "titolarita_pct": 30,
-       "ruolo": "C"
-      }
-     ]
-    }
-   ]
+   "isOfficial": true,
+   "ballottaggi": []
   },
   {
    "name": "Frosinone",
    "formation": "4-2-3-1",
    "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "6238",
-       "giocatore": "Oyono A.",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "7605",
-       "giocatore": "Tchato",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7469",
-       "giocatore": "Bracaglia",
-       "titolarita_pct": 60,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "4375",
-       "giocatore": "Terzic",
-       "titolarita_pct": 40,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6917",
-       "giocatore": "Masini",
-       "titolarita_pct": 60,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7473",
-       "giocatore": "Cichella",
-       "titolarita_pct": 40,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6506",
-       "giocatore": "Fini ",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6530",
-       "giocatore": "Ghedjemis",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7551",
-       "giocatore": "Schmid",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7550",
-       "giocatore": "Grillitsch",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    }
-   ]
+   "ballottaggi": []
   },
   {
    "name": "Venezia",
    "formation": "3-5-2",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "5695",
-       "giocatore": "Haps",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6890",
-       "giocatore": "Moreno M.",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7481",
-       "giocatore": "Dagasso",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5319",
-       "giocatore": "Sohm",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7449",
-       "giocatore": "Rrahmani Al.",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "6904",
-       "giocatore": "Yeboah J.",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    }
-   ]
+   "isOfficial": true,
+   "ballottaggi": []
   },
   {
    "name": "Bologna",
@@ -37489,13 +37229,49 @@
  ],
  "news": [
   {
+   "title": "Non solo Varela, anche Cutrone in tribuna nel Monza: svelato il motivo, le ultime",
+   "summary": "Sorpresa nelle formazioni ufficiali di Parma-Monza: Patrick Cutrone non figura nella distinta diramata dai due club, né fra gli undici titolari, né in tribuna.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/cutrone-parma-monza-infortunio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290563258-4406410a80fe-e1788699075771.jpeg",
+   "date": "2026-09-06T12:45:02+00:00"
+  },
+  {
+   "title": "Parma-Monza, le formazioni ufficiali: da Touré e Fabbian a Folorunsho e Tornqvist, chi gioca e chi no",
+   "summary": "Alle 15 torna in campo la Serie A e c'è uno scontro diretto per la salvezza: Parma e Monza si affrontano allo stadio Tardini. Ecco le formazioni ufficiali.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/monza/parma-monza-formazioni-ufficiali-toure-fabbian-folorunsho-tornqvist-chi-gioca-chi-no-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292605515-f7cd09e8c781-e1788687907151.jpeg",
+   "date": "2026-09-06T12:30:52+00:00"
+  },
+  {
    "title": "FORMAZIONI UFFICIALI - Cutrone in tribuna! La scelta su Ghedjemis, El Bilal, Yeboah, Folorunsho e Diego Carlos",
    "summary": "Alle ore 15 torna in campo la Serie A con due partite valide per la 3^ giornata: Frosinone-Venezia e Parma-Monza. Sono state diramate le formazioni ufficiali",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/formazioni-ufficiali-parma-monza-frosinone-venezia/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2292673045-16e69750383e-e1788695935470.jpeg",
-   "date": "2026-09-06T12:02:41+00:00"
+   "date": "2026-09-06T12:20:41+00:00"
+  },
+  {
+   "title": "Frosinone-Venezia, le formazioni ufficiali: da Schmid a Calò, Yeboah, Sohm, Kvernadze, Adams: tutte le scelte",
+   "summary": "Alle 15 torna in campo la Serie A e c'è uno scontro diretto per la salvezza: Frosinone e Venezia si affrontano allo stadio Stirpe.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/frosinone-venezia-formazioni-ufficiali-yeboah-ghedjemis-schmid-calo-sohm-kvernadze-adams-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291719709-509ba08f790b-e1788687943590.jpeg",
+   "date": "2026-09-06T12:15:53+00:00"
+  },
+  {
+   "title": "Pisacane: \"La scelta su Mina, Kevin Carlos e Nzola! Massolin ha qualità, su Winks fuori ritmo rispondo così\"",
+   "summary": "Il Cagliari si prepara in vista della sfida contro il Lecce. Il tecnico del club sardo, Fabio Pisacane, ha parlato in conferenza stampa alla vigilia del match.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/box-esclusivo/pisacane-cagliari-lecce-mina-kevin-carlos-nzola-massolin-winks-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291583446-2178753c29ed-e1788686876723.jpeg",
+   "date": "2026-09-06T12:10:46+00:00"
   },
   {
    "title": "Runjaic: \"Davis come Orsolini, ecco perché si è fatto male e come lo gestirò! Su Okoye, Vojvoda e Zaniolo...\"",
@@ -37507,6 +37283,15 @@
    "date": "2026-09-06T12:00:02+00:00"
   },
   {
+   "title": "BREAKING - Dimarco, ecco l'esito degli esami e cosa filtra sulla convocazione con il Real Madrid",
+   "summary": "Notizie confortanti in casa Inter sulle condizioni di Dimarco all'indomani della sfida vinta in rimonta contro il Napoli, con una pazza rimonta nel finale.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-dimarco-esito-esami-infortunio-napoli-real-madrid-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
+   "date": "2026-09-06T11:45:17+00:00"
+  },
+  {
    "title": "Bologna-Sassuolo, le probabili formazioni: da Berardi a Piccoli, Thorstvedt, Volpato, Bowie, Esposito e Doig",
    "summary": "Le novità sulle probabili formazioni di Bologna e Sassuolo: chi può giocare dal primo minuto e quali sono i principali ballottaggi.",
    "author": "Francesco Mangiagli",
@@ -37516,22 +37301,13 @@
    "date": "2026-09-06T11:30:56+00:00"
   },
   {
-   "title": "Pisacane: \"La scelta su Mina, Kevin Carlos e Nzola! Massolin ha qualità, su Winks fuori ritmo rispondo così\"",
-   "summary": "Il Cagliari si prepara in vista della sfida contro il Lecce. Il tecnico del club sardo, Fabio Pisacane, ha parlato in conferenza stampa alla vigilia del match.",
-   "author": "Daniele Najjar",
+   "title": "NEWS - Come sta Dimarco! Oulai, Berardi, Schmid, Moreira, Thorstvedt, Nico, Pulisic e cosa filtra su Grosso",
+   "summary": "Le ultimissime novità tra infortuni e scelte di formazione in vista della terza giornata di Serie A: tutti gli aggiornamenti.",
+   "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/box-esclusivo/pisacane-cagliari-lecce-mina-kevin-carlos-nzola-massolin-winks-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291583446-2178753c29ed-e1788686876723.jpeg",
-   "date": "2026-09-06T11:20:46+00:00"
-  },
-  {
-   "title": "BREAKING - Dimarco, ecco l'esito degli esami e cosa filtra sulla convocazione con il Real Madrid",
-   "summary": "Notizie confortanti in casa Inter sulle condizioni di Dimarco all'indomani della sfida vinta in rimonta contro il Napoli, con una pazza rimonta nel finale.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-dimarco-esito-esami-infortunio-napoli-real-madrid-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
-   "date": "2026-09-06T11:15:17+00:00"
+   "url": "https://www.sosfanta.com/news/news-dimarco-oulai-berardi-schmid-moreira-thorstvedt-nico-pulisic-grosso-cosa-filtra-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/07/Berardi-fcc2ce59190f.png",
+   "date": "2026-09-06T11:15:44+00:00"
   },
   {
    "title": "Juve-Milan, le probabili formazioni: da Nico Gonzalez e Saelemaekers, Lucumi, Moreira, Rabiot, Boga e Woltemade",
@@ -37541,15 +37317,6 @@
    "url": "https://www.sosfanta.com/squadra/milan/juve-milan-probabili-formazioni-nico-gonzalez-saelemaekers-lucumi-moreira-rabiot-boga-woltemade-fantacalcio-asta/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2292615639-21f3ab2dc9a6.jpg",
    "date": "2026-09-06T11:00:19+00:00"
-  },
-  {
-   "title": "NEWS - Come sta Dimarco! Oulai, Berardi, Schmid, Moreira, Thorstvedt, Nico, Pulisic e cosa filtra su Grosso",
-   "summary": "Le ultimissime novità tra infortuni e scelte di formazione in vista della terza giornata di Serie A: tutti gli aggiornamenti.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-dimarco-oulai-berardi-schmid-moreira-thorstvedt-nico-pulisic-grosso-cosa-filtra-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/07/Berardi-fcc2ce59190f.png",
-   "date": "2026-09-06T10:45:44+00:00"
   },
   {
    "title": "Parma-Monza, le probabili formazioni: da Touré a Romero, Fabbian, Corvi, Tornqvist, Mangas e Folorunsho",
@@ -37820,33 +37587,6 @@
    "url": "https://www.sosfanta.com/squadra/inter/inter-napoli-formazioni-ufficiali/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2289181913-6c2f114d2c0c.jpg",
    "date": "2026-09-05T15:45:32+00:00"
-  },
-  {
-   "title": "Pavlovic: \"La verità sul mercato e il rinnovo. Gila, Ramos, Amorim, la sorpresa Cisse e i pericoli nella Juve\"",
-   "summary": "Intervistato da Tuttosport, il difensore del Milan Pavlovic ha parlato di Amorim e della sfida di domani contro la Juve",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/pavlovic-juve-milan-cisse-amorim/",
-   "image": "https://static.sosfanta.com/2026/08/Pavlovic-7049f70654a3-e1787852240531.jpg",
-   "date": "2026-09-05T15:30:51+00:00"
-  },
-  {
-   "title": "Calhanoglu: \"Stagione iniziata bene. Il derby della seconda stella il momento più bello con l'Inter\"",
-   "summary": "Protagonista del matchday programme di Inter-Napoli, Hakan Calhanoglu ha parlato dei suoi idoli e anche dei momenti migliori con la maglia nerazzurra",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/calhanoglu-derby-seconda-stella-stagione/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288649591-d96dafb30a35-scaled.jpg",
-   "date": "2026-09-05T15:00:00+00:00"
-  },
-  {
-   "title": "BREAKING - Monza, la decisione su Varela contro il Parma! Ecco cosa filtra sui tempi di recupero",
-   "summary": "Importanti novità in casa brianzola sulle condizioni dell'attaccante biancorosso già in gol nelle prime due giornate.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/varela-monza-infortunio-condizioni-quando-torna/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290563648-3156905998ad-e1788618216710.jpg",
-   "date": "2026-09-05T14:25:49+00:00"
   }
  ],
  "marketDifficulty": {
