@@ -6,6 +6,23 @@
 # controlla se `aggiorna` gira ancora e lo rilancia se e' rimasto silenzioso
 # troppo a lungo. Se non c'e' una partita vicina `aggiorna.py` non scarica
 # nulla comunque, quindi rilanciarlo "a vuoto" non costa quote ne' tempo.
+#
+# Guarda DUE cose diverse, ed e' la seconda quella che e' costata cara.
+#
+# Un'esecuzione che parte e fallisce, per questo controllo, era identica a una
+# riuscita: leggeva solo `createdAt`. Un `aggiorna` che partiva ogni quarto
+# d'ora e falliva ogni volta risultava perfettamente sano, mentre l'app restava
+# congelata sull'ultimo file buono. E' successo davvero, il 6 settembre 2026:
+# un `git add` su una cartella non ancora esistente faceva morire il passo di
+# commit a ogni esecuzione, e da qui si vedeva tutto verde.
+#
+# Rilanciare un fallimento non e' pero' la risposta giusta da sola. Un guasto
+# deterministico -- una base della stagione sbagliata, un sito che ha cambiato
+# pagina -- rilanciato ogni quarto d'ora e' un ciclo caldo che brucia minuti e
+# non aggiusta niente. Quindi: un fallimento isolato si ritenta (capita: rete,
+# limiti di frequenza, sosfanta giu' per un minuto), due di fila si smette di
+# ritentare e si fa fallire QUESTO workflow, perche' un workflow fallito e'
+# la notifica che GitHub manda gia' da solo, senza inventare altra impalcatura.
 name: verifica aggiorna
 
 on:
@@ -21,18 +38,42 @@ jobs:
   controlla:
     runs-on: ubuntu-latest
     steps:
-      - name: Rilancia aggiorna se non gira da troppo
+      - name: Rilancia aggiorna se non gira da troppo, o se sta fallendo
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          ULTIMA=$(gh run list --repo "$REPO" --workflow aggiorna.yml -L 1 \
-            --json createdAt --jq '.[0].createdAt // empty')
+          STORIA=$(gh run list --repo "$REPO" --workflow aggiorna.yml -L 10 \
+            --json createdAt,status,conclusion)
+
+          ULTIMA=$(echo "$STORIA" | jq -r '.[0].createdAt // empty')
           if [ -z "$ULTIMA" ]; then
             echo "aggiorna non ha mai girato: lo lancio"
             gh workflow run aggiorna.yml --repo "$REPO"
             exit 0
           fi
+
+          # Gli esiti delle ultime due CONCLUSE. Una in corso non ha ancora un
+          # esito e non deve contare ne' come successo ne' come fallimento,
+          # altrimenti il watchdog giudicherebbe una corsa a meta'.
+          ESITI=$(echo "$STORIA" | jq -r \
+            '[.[] | select(.status == "completed") | .conclusion] | .[0:2] | join(" ")')
+          echo "ultimi esiti conclusi: ${ESITI:-nessuno}"
+
+          case "$ESITI" in
+            "failure failure"*)
+              echo "::error::aggiorna e' fallito due volte di fila: non e' un caso"
+              echo "Rilanciarlo ancora non servirebbe: serve guardare i log."
+              echo "https://github.com/$REPO/actions/workflows/aggiorna.yml"
+              exit 1
+              ;;
+            failure*)
+              echo "l'ultima esecuzione e' fallita: ritento una volta"
+              gh workflow run aggiorna.yml --repo "$REPO"
+              exit 0
+              ;;
+          esac
+
           ETA_MIN=$(( ( $(date -u +%s) - $(date -u -d "$ULTIMA" +%s) ) / 60 ))
           echo "ultima esecuzione di aggiorna: $ETA_MIN minuti fa ($ULTIMA)"
           if [ "$ETA_MIN" -gt 25 ]; then

@@ -37,11 +37,53 @@ from fantasquama.ingest import CANONICAL_COLUMNS, load_archive
 from fantasquama.scoring import EVENTS, Rules, fantavoto
 
 
+def _prossima_giornata(
+    archive: pd.DataFrame, season: str | None, gameweek: int | None
+) -> tuple[str, int]:
+    """La stagione piu' recente e la giornata da giocare, dedotte dall'archivio.
+
+    Le etichette di stagione ("2025-26", "2026-27") si ordinano da sole nel
+    modo giusto, quindi la piu' recente e' semplicemente il massimo.
+
+    La giornata e' quella DOPO l'ultima archiviata: e' quella da prevedere, ed
+    e' il motivo per cui esiste questo programma. Per una giornata non ancora
+    giocata l'archivio non ha righe, quindi serve `--listone` o
+    `--roster-snapshot` a fornire la rosa: senza, il controllo piu' sotto si
+    ferma con un messaggio esplicito invece di ripiegare in silenzio su una
+    giornata gia' giocata -- ripiegare e' esattamente il modo in cui un file
+    della stagione sbagliata puo' sembrare giusto.
+    """
+    stagioni = sorted(str(s) for s in archive["season"].dropna().unique())
+    if not stagioni:
+        raise SystemExit("archivio vuoto: nessuna stagione da cui dedurre la giornata")
+    if season is None:
+        season = stagioni[-1]
+    elif season not in stagioni:
+        raise SystemExit(f"stagione {season} assente dall'archivio; ci sono: {stagioni}")
+
+    if gameweek is None:
+        giornate = pd.to_numeric(
+            archive.loc[archive["season"] == season, "gameweek"], errors="coerce"
+        ).dropna()
+        gameweek = int(giornate.max()) + 1 if len(giornate) else 1
+    return season, int(gameweek)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Esporta i dati per l'app iOS")
     parser.add_argument("--data", type=Path, default=Path("data"))
-    parser.add_argument("--season", default="2025-26")
-    parser.add_argument("--gameweek", type=int, default=38)
+    # Senza valore si deducono dall'archivio: la stagione piu' recente e la
+    # giornata dopo l'ultima archiviata, cioe' quella da giocare. Erano cablati
+    # a "2025-26" e 38, e il 6 settembre 2026 e' costato caro: eseguito senza
+    # argomenti l'export non falliva, produceva in silenzio un file della
+    # stagione PRECEDENTE con l'aria di essere perfettamente valido, e quel
+    # file e' finito nel repository pubblico. A fermarlo e' stata la soglia
+    # d'aggancio di `lineups.attach` (51% contro il 92% richiesto), cioe'
+    # l'ultima rete e non la prima. Un default che invecchia da solo e' una
+    # trappola armata: qui non ce ne sono piu'.
+    parser.add_argument("--season", default=None, help="default: la piu' recente in archivio")
+    parser.add_argument("--gameweek", type=int, default=None,
+                        help="default: la giornata dopo l'ultima archiviata")
     parser.add_argument("--out", type=Path, default=Path("../ios/FantaSquama/Resources/serieA.json"))
     parser.add_argument(
         "--listone",
@@ -84,6 +126,9 @@ def main() -> None:
         raise SystemExit("usa --listone oppure --roster-snapshot, non entrambi")
 
     archive = load_archive(args.data)
+    if args.season is None or args.gameweek is None:
+        args.season, args.gameweek = _prossima_giornata(archive, args.season, args.gameweek)
+        print(f"stagione e giornata dedotte dall'archivio: {args.season} giornata {args.gameweek}")
     if args.mantra_history.exists():
         storico = roster.match(roster.load_listone(args.mantra_history), archive, roster.load_overrides(args.overrides))
         mantra = storico[storico["player_id"] != ""].set_index("player_id")["mantra_role"]
@@ -105,7 +150,12 @@ def main() -> None:
 
     target = ((archive["season"] == args.season) & (archive["gameweek"] == args.gameweek)).to_numpy()
     if not target.any():
-        raise SystemExit(f"nessuna riga per {args.season} giornata {args.gameweek}")
+        raise SystemExit(
+            f"nessuna riga per {args.season} giornata {args.gameweek}.\n"
+            "Se e' una giornata non ancora giocata l'archivio non puo' averla: "
+            "serve --listone (il .xlsx di Fantacalcio.it) oppure --roster-snapshot "
+            "(un serieA.json precedente) per sapere chi c'e' in rosa."
+        )
 
     # taratura su tutto cio' che precede la giornata da giocare, mai su di essa
     train = (
