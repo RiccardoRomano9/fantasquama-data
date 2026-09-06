@@ -39,8 +39,12 @@ attenuato verso la media di ruolo in proporzione alle presenze: e' la spec
 stagione non si sa ancora niente. Vedi `previous_season`.
 """
 
+from dataclasses import dataclass
+
 import numpy as np
 import pandas as pd
+from scipy import optimize
+from scipy.special import gammaln
 
 from fantasquama.features import ROLLING_WINDOW
 from fantasquama.scoring import EVENTS, Rules, expected_points
@@ -68,12 +72,199 @@ def shrink(
     observed: pd.Series,
     prior: pd.Series | float,
     n: pd.Series,
-    k: float = K,
+    k: float | np.ndarray | pd.Series = K,
 ) -> pd.Series:
-    """Media pesata fra il valore osservato e il prior, con peso crescente su n."""
+    """Media pesata fra il valore osservato e il prior, con peso crescente su n.
+
+    `k` puo' essere un numero solo o un valore per riga: serve da quando e'
+    stimato per (ruolo, evento) invece di essere una costante -- vedi
+    `fit_shrinkage`.
+    """
     observed = pd.to_numeric(observed, errors="coerce").fillna(0.0)
     n = pd.to_numeric(n, errors="coerce").fillna(0.0)
+    if isinstance(k, pd.Series):
+        k = k.to_numpy()
     return (n * observed + k * prior) / (n + k)
+
+
+# Estremi entro cui puo' finire un k stimato. Servono contro i due modi in cui
+# la stima puo' degenerare su un evento quasi mai osservato: un k prossimo a
+# zero, che promuoverebbe a certezza il singolo cartellino rosso di una
+# carriera, e un k enorme, che renderebbe ogni giocatore identico alla media
+# del suo ruolo per sempre.
+K_MIN: float = 0.5
+K_MAX: float = 500.0
+
+# Il Gamma-Poisson attenua troppo poco, e si vede.
+#
+# La pendenza di calibrazione -- la logistica di cio' che e' avvenuto su
+# logit(previsto), dove 1 significa "il modello si sbilancia quanto deve" --
+# per il gol di attaccanti e centrocampisti valeva 0,768, con errore standard
+# 0,063: 3,7 deviazioni sotto 1, non e' rumore. Tradotto: al quintile piu'
+# basso prometteva il 3,2% di probabilita' di gol e ne usciva il 5,2%, al piu'
+# alto prometteva 21,2% e ne usciva 18,7%. Il livello medio era giusto (0,1010
+# previsto contro 0,0994 reale), la forma no -- ed e' la forma che ordina i
+# giocatori fra loro, cioe' l'unica cosa che il modello serva a fare.
+#
+# IL MECCANISMO, per quanto ne ho verificato. La verosimiglianza binomiale
+# negativa vede solo i totali di stagione, e li spiega con due sorgenti di
+# varianza: la Poisson dentro il giocatore e la Gamma fra giocatori. Se dentro
+# il giocatore c'e' piu' varianza di quanta una Poisson ne preveda, quella in
+# piu' non ha dove andare se non nella Gamma: il modello conclude che i
+# giocatori differiscano fra loro piu' di quanto facciano, alfa esce piccolo,
+# beta con lui, e beta e' proprio `k`. Riprodotto in laboratorio -- vedi
+# `test_la_sovradispersione_dentro_il_giocatore_abbassa_il_k`: a parita' di
+# tassi veri, con sovradispersione il k stimato scende da 14,6 a 12,9.
+#
+# QUELLO CHE IL MECCANISMO NON SPIEGA. Quell'effetto vale l'11%, la correzione
+# che serve e' il 100%. Il prior personale -- attenuare verso la stagione
+# scorsa invece che verso la media di ruolo -- ne spiega un altro pezzo:
+# togliendolo la pendenza sale da 0,768 a 0,815, ma il Brier peggiora, quindi
+# resta. Il resto non l'ho isolato. Il fattore qui sotto e' quindi una
+# costante TARATA, non la conseguenza di un conto: e' onesto chiamarla cosi'.
+#
+# COME E' STATO SCELTO IL 2. Su una validazione interna -- taratura 2023-24,
+# scelta su 2024-25 -- senza mai guardare la stagione di verifica. Due criteri
+# indipendenti danno lo stesso numero:
+#
+#     k x     pendenza (2024-25)   accuratezza decisionale
+#     1.0     0.880  (z = -1.96)               0.6287
+#     1.5     0.955  (z = -0.69)               0.6301
+#     2.0     1.001  (z = +0.02)               0.6328   <-
+#     3.0     1.055  (z = +0.76)               0.6322
+#
+# Vale per tutti gli eventi e non solo per il gol: il difetto e' della
+# verosimiglianza, non di una colonna. Sugli altri la pendenza era gia' entro
+# il rumore di 1 (assist 0,90, ammonizione 0,90, porta inviolata 0,96) e il
+# fattore la lascia li'.
+#
+# QUELLO CHE RESTA. Anche col fattore la pendenza si ferma a 0,864. Il pezzo
+# mancante e' `p_vote`, che e' troppo sicuro dei titolari (promette 96,9%, ne
+# giocano il 90,5%) e percio' gonfia la quota dei migliori nella spartizione
+# dei gol. Misurato con un oracolo -- rimpiazzando p_vote con chi ha giocato
+# davvero -- la pendenza arriva a 0,917, cioe' dentro il rumore di 1. Non e'
+# aggiustabile da qui: serve lo storico delle probabili formazioni, che
+# `probabili-archivio/` sta accumulando una giornata alla volta.
+#
+# ponytail: se un domani la pendenza tornasse lontana da 1, si stima la
+# sovradispersione con un terzo parametro invece di ritoccare questo numero.
+K_INFLATION: float = 2.0
+
+
+@dataclass(frozen=True)
+class Shrinkage:
+    """Quanto fidarsi del giocatore invece che della media, evento per evento.
+
+    Con un `k` unico per tutti gli eventi -- 4, scelto a occhio -- lo stesso
+    peso valeva per il gol di un attaccante (che ne fa 0,35 a presenza) e per
+    l'espulsione (0,003). Ma quanto conviene fidarsi del dato personale
+    dipende dal rapporto fra la varianza *fra* giocatori e quella *dentro* lo
+    stesso giocatore, e quel rapporto cambia di ordini di grandezza fra un
+    evento e l'altro: dopo quattro presenze il tasso di ammonizione di un
+    singolo e' quasi tutto rumore, e con k = 4 quel rumore contava gia' come
+    meta' della stima.
+
+    `k` e prior si stimano per (ruolo, evento) con un Gamma-Poisson: gli
+    eventi sono conteggi e non esiti binari -- un attaccante puo' segnare due
+    gol nella stessa partita -- quindi il coniugato giusto e' la Gamma, non
+    la Beta. La media a posteriori che ne esce e' esattamente
+    `(n*osservato + k*prior)/(n + k)` con `k = beta` e `prior = alfa/beta`,
+    cioe' la stessa formula gia' in uso: cambia solo da dove viene il numero.
+    """
+
+    per_event: dict[tuple[str, str], tuple[float, float]]
+    default_k: float = K
+
+    def k_for(self, roles: np.ndarray, event: str) -> np.ndarray:
+        """Il k di ogni riga, dato il suo ruolo."""
+        return np.array(
+            [self.per_event.get((r, event), (self.default_k, np.nan))[0] for r in roles],
+            dtype=np.float64,
+        )
+
+    def prior_for(self, roles: np.ndarray, event: str) -> np.ndarray:
+        """Il prior di ruolo stimato, NaN dove non c'era abbastanza per stimarlo."""
+        return np.array(
+            [self.per_event.get((r, event), (self.default_k, np.nan))[1] for r in roles],
+            dtype=np.float64,
+        )
+
+
+def _negative_binomial_loglik(parameters: np.ndarray, totals: np.ndarray, exposure: np.ndarray) -> float:
+    """Verosimiglianza marginale di un Gamma-Poisson, cambiata di segno.
+
+    Integrando la Poisson sul prior Gamma(alfa, beta) resta una binomiale
+    negativa, che dipende solo da (alfa, beta) e dai dati: e' il modo di
+    stimare il prior senza dover stimare anche i tassi dei singoli.
+    """
+    alpha, beta = np.exp(parameters)  # esponenziale: restano positivi
+    return -float(
+        (
+            gammaln(totals + alpha) - gammaln(alpha) - gammaln(totals + 1.0)
+            + alpha * np.log(beta / (beta + exposure))
+            + totals * np.log(exposure / (beta + exposure))
+        ).sum()
+    )
+
+
+def fit_shrinkage(
+    archive: pd.DataFrame, mask: np.ndarray, events: tuple[str, ...] = EVENTS
+) -> Shrinkage:
+    """Stima `k` e prior per ogni (ruolo, evento) sulle sole righe di `mask`.
+
+    `mask` e' la stessa popolazione di taratura di tutto il resto: stimare
+    quanto fidarsi del dato personale guardando anche le giornate da
+    prevedere sarebbe una fuga di informazione come le altre.
+
+    L'unita' di osservazione e' il giocatore-stagione, non la riga: quello che
+    si vuole misurare e' quanto i giocatori differiscono fra loro rispetto a
+    quanto oscillano da soli, e per vederlo serve un totale per giocatore.
+    """
+    dati = archive.loc[mask]
+    giocate = dati["played"].to_numpy(bool)
+    per_evento: dict[tuple[str, str], tuple[float, float]] = {}
+
+    chiavi = pd.DataFrame({
+        "role": dati["role"].fillna("").astype(str).to_numpy(),
+        "player_id": dati["player_id"].astype(str).to_numpy(),
+        "season": dati["season"].astype(str).to_numpy(),
+        "apps": giocate.astype(np.float64),
+    })
+
+    for evento in events:
+        valori = pd.to_numeric(dati[evento], errors="coerce").fillna(0.0).to_numpy() * giocate
+        frame = chiavi.assign(total=valori)
+        per_giocatore = frame.groupby(["role", "player_id", "season"], observed=True).agg(
+            total=("total", "sum"), apps=("apps", "sum")
+        ).reset_index()
+        per_giocatore = per_giocatore[per_giocatore["apps"] > 0]
+
+        for role, gruppo in per_giocatore.groupby("role", observed=True):
+            totals = gruppo["total"].to_numpy(np.float64)
+            exposure = gruppo["apps"].to_numpy(np.float64)
+            # Serve almeno un evento osservato: su una colonna tutta a zero la
+            # verosimiglianza e' piatta in alfa e l'ottimizzazione restituisce
+            # il punto di partenza travestito da stima.
+            if len(totals) < 30 or totals.sum() <= 0:
+                continue
+
+            media = max(totals.sum() / exposure.sum(), 1e-6)
+            esito = optimize.minimize(
+                _negative_binomial_loglik,
+                x0=np.log([media * K, K]),  # alfa/beta = media, beta = K
+                args=(totals, exposure),
+                method="Nelder-Mead",
+                options={"xatol": 1e-4, "fatol": 1e-6, "maxiter": 500},
+            )
+            alpha, beta = np.exp(esito.x)
+            if not (np.isfinite(alpha) and np.isfinite(beta)):
+                continue
+            # il gonfiaggio va sul solo k: il prior alfa/beta e' il livello
+            # medio del ruolo, ed era gia' giusto -- vedi K_INFLATION
+            k = float(np.clip(beta * K_INFLATION, K_MIN, K_MAX))
+            per_evento[(str(role), evento)] = (k, float(alpha / beta))
+
+    return Shrinkage(per_event=per_evento)
 
 
 def _role_prior(
@@ -181,7 +372,8 @@ def previous_season(archive: pd.DataFrame) -> pd.DataFrame:
 
 
 def _blend(
-    prior: pd.Series, previous: pd.DataFrame | None, column: str, k: float = K
+    prior: pd.Series, previous: pd.DataFrame | None, column: str,
+    k: float | np.ndarray = K,
 ) -> pd.Series:
     """Attenua il prior di ruolo verso quello che il giocatore ha fatto l'anno prima.
 
@@ -261,6 +453,7 @@ def event_probabilities(
     prior_mask: np.ndarray,
     previous: pd.DataFrame | None = None,
     k: float = K,
+    shrinkage: Shrinkage | None = None,
 ) -> pd.DataFrame:
     """Probabilita' per evento e probabilita' di prendere voto, con prior per ruolo.
 
@@ -302,7 +495,11 @@ def event_probabilities(
         mean_value = pd.to_numeric(column, errors="coerce")[mask].mean()
         default = 0.0 if pd.isna(mean_value) else float(mean_value)
         prior = _role_prior(column, role_values, default, mask)
-        out[name] = shrink(column, _blend(prior, previous, f"{name}_prev"), n, k)
+        # Il peso del prior e' stimato per (ruolo, evento) quando `shrinkage`
+        # c'e': con un k unico, il tasso di espulsione di chi ha quattro
+        # presenze contava gia' per meta' della stima. Vedi `fit_shrinkage`.
+        peso = shrinkage.k_for(role_values, name) if shrinkage is not None else k
+        out[name] = shrink(column, _blend(prior, previous, f"{name}_prev", peso), n, peso)
 
     # p_vote si basa sulle giornate trascorse, non sulle presenze:
     # chi non e' mai sceso in campo ha un'informazione, non un dato mancante.
@@ -439,8 +636,38 @@ def apply_match_context(
     di piu' -- e inventare una correzione dove non si ha motivo di aspettarsela
     aggiunge rumore, non segnale.
 
+    **`cs` non si scala moltiplicando.** Gli altri eventi sono conteggi
+    attesi, e raddoppiare la difficolta' raddoppia il conteggio; la porta
+    inviolata e' invece una probabilita', e una probabilita' moltiplicata per
+    due esce dall'intervallo in cui vive. La relazione giusta e' quella che
+    lega le due cose: con i gol subiti distribuiti come una Poisson di media
+    lambda, `P(cs) = e^-lambda`, quindi se lambda viene scalata di `d` la
+    porta inviolata diventa `e^(-lambda*d)`, cioe' `P(cs)` elevato a `d`.
+    Una partita due volte piu' dura porta la probabilita' da 0,30 a 0,09;
+    una due volte piu' facile la porta a 0,55. Resta in [0, 1] da sola,
+    senza nessun tetto arbitrario.
+
+    Prima questa riga non c'era affatto: `cs` era l'unico evento del portiere
+    che la difficolta' della partita non toccava, quindi un portiere contro
+    la capolista fuori casa e uno contro l'ultima in casa avevano la stessa
+    probabilita' di porta inviolata. Ed e' il bonus piu' grande del ruolo.
+
     Non tocca `p_vote`: chi scende in campo non dipende da chi si affronta,
     dipende dalle scelte dell'allenatore, che sono gia' nella storia.
+
+    **Quando ci sono le quote, `attack` qui non ha alcun effetto.** E' un
+    fattore uguale per tutti i giocatori della stessa squadra nella stessa
+    partita, e subito dopo `odds.allocate_attack` rinormalizza gli stessi tre
+    eventi -- gf, rf, ass -- perche' la loro somma di squadra faccia
+    `lambda_for`: qualunque costante comune si semplifica esattamente.
+    Verificato, non dedotto: con e senza il fattore, le tre colonne
+    coincidono a meno di 2e-16. Lo stesso vale per il fattore di squadra
+    dentro `event_probabilities`.
+
+    Non e' codice morto -- e' la strada di riserva, l'unica che resta quando
+    le quote di quella partita mancano. Ma non va ritarata guardando il
+    backtest con le quote: li' non muove niente, e ogni ora spesa a
+    perfezionarla e' un'ora spesa su una moltiplicazione che si annulla.
     """
     if not (len(probabilities) == len(attack) == len(defense)):
         raise ValueError("probabilita', attacco e difesa devono avere la stessa lunghezza")
@@ -448,4 +675,7 @@ def apply_match_context(
     out = probabilities.copy()
     out[list(TEAM_SCALED_EVENTS)] = out[list(TEAM_SCALED_EVENTS)].to_numpy() * attack[:, None]
     out["gs"] = out["gs"].to_numpy() * defense
+    # il clip protegge l'elevamento a potenza: una base negativa con esponente
+    # frazionario darebbe NaN, e un NaN qui si propaga fino al punteggio
+    out["cs"] = np.clip(out["cs"].to_numpy(np.float64), 0.0, 1.0) ** defense
     return out

@@ -109,6 +109,24 @@ class WikidataTests(unittest.TestCase):
         )
         self.assertEqual(result["status"], "ambiguous")
 
+    def test_single_word_surname_matches_its_unique_candidate(self):
+        # Niente fullName e niente iniziale puntata: e' esattamente il caso
+        # di un trasferimento recente ancora senza dataset EA FC, non
+        # un'invenzione del test.
+        player = {"name": "Kessiè"}
+        result = choose_entity(player, [("Q1", "Franck Kessié")],
+                               {"Q1": footballer("Franck Kessié")})
+        self.assertEqual(result["status"], "resolved")
+        self.assertEqual(result["wikidataID"], "Q1")
+
+    def test_single_word_surname_with_two_candidates_stays_ambiguous(self):
+        player = {"name": "Kessiè"}
+        result = choose_entity(
+            player, [("Q1", "Franck Kessié"), ("Q2", "Amos Kessiè")],
+            {"Q1": footballer("Franck Kessié"), "Q2": footballer("Amos Kessiè")},
+        )
+        self.assertEqual(result["status"], "ambiguous")
+
     def test_non_footballer_is_rejected(self):
         entity = footballer("Mario Rossi")
         entity["claims"]["P106"] = [claim("Q82955")]

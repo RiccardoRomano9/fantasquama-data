@@ -17,20 +17,42 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import HistGradientBoostingClassifier, HistGradientBoostingRegressor
 
+from fantasquama import odds
 from fantasquama.features import HISTORY_COLUMNS
 from fantasquama.fixtures import TEAM_CONTEXT_DEFAULTS, TEAM_CONTEXT_FEATURES
 from fantasquama.scoring import EVENTS
 
 # Tutto cio' che si sa prima del fischio d'inizio.
-FIXTURE_FEATURES: tuple[str, ...] = ("home", "p_win", "p_draw", "p_lose", "advantage")
+# `advantage` riassume le tre quote 1X2 in un numero; le lambda sono la
+# stessa informazione letta meglio, piu
+# il totale di gol atteso, che l'1X2 non contiene affatto -- viene
+# dall'over/under. Correlano col voto piu' della storia del giocatore.
+FIXTURE_FEATURES: tuple[str, ...] = (
+    "home", "p_win", "p_draw", "p_lose", "advantage",
+    "lambda_for", "lambda_against", "lambda_total",
+)
 FEATURES: tuple[str, ...] = (*HISTORY_COLUMNS, *FIXTURE_FEATURES, *TEAM_CONTEXT_FEATURES, "role_code", "mantra_attack", "mantra_wide")
 
 TARGETS: tuple[str, ...] = ("voto", *EVENTS)
 
 
-def build_features(history: pd.DataFrame, archive: pd.DataFrame, context: pd.DataFrame) -> pd.DataFrame:
+def build_features(
+    history: pd.DataFrame, archive: pd.DataFrame, context: pd.DataFrame,
+    lambdas: pd.DataFrame | None = None,
+) -> pd.DataFrame:
     """Matrice delle grandezze note prima della partita."""
     out = history[list(HISTORY_COLUMNS)].copy()
+    # Dove le quote mancano si mette la media del campionato, cioe' una
+    # partita equilibrata: stesso valore neutro del calibratore. Non si
+    # lascia NaN perche' una colonna interamente NaN fa fallire la
+    # discretizzazione degli alberi invece di essere ignorata.
+    for name in ("lambda_for", "lambda_against"):
+        valori = (
+            pd.to_numeric(lambdas[name], errors="coerce")
+            if lambdas is not None else pd.Series(np.nan, index=out.index)
+        )
+        out[name] = pd.Series(valori.to_numpy(), index=out.index).fillna(odds.LEAGUE_GOALS)
+    out["lambda_total"] = out["lambda_for"] + out["lambda_against"]
     out["home"] = pd.to_numeric(context["home"], errors="coerce").astype("float64")
     for name in ("p_win", "p_draw", "p_lose"):
         out[name] = pd.to_numeric(context[name], errors="coerce")

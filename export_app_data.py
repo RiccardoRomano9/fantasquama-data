@@ -22,14 +22,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from fantasquama import calibrate, fantaplayer, learned, lineups, roster
-from fantasquama.estimate import (
-    _previous_label,
-    apply_match_context,
-    blended_history,
-    event_probabilities,
-    previous_season,
-)
+from fantasquama import fantaplayer, learned, lineups, odds, pipeline, roster, simulate
+from fantasquama.estimate import fit_shrinkage, previous_season
 from fantasquama.features import rolling_history
 from fantasquama.fixtures import (
     MATCH_FACTOR_MAX,
@@ -38,12 +32,9 @@ from fantasquama.fixtures import (
     attach,
     fit_difficulty,
     load_fixtures,
-    team_factors,
 )
 from fantasquama.ingest import CANONICAL_COLUMNS, load_archive
 from fantasquama.scoring import EVENTS, Rules, fantavoto
-
-FORM_WINDOW = 5
 
 
 def main() -> None:
@@ -125,39 +116,50 @@ def main() -> None:
     previous = previous_season(archive)
     if rosa is not None and args.fantaplayer.exists():
         previous = fantaplayer.enrich_previous(previous, archive, rosa, args.fantaplayer)
-    blended = blended_history(history, previous)
-    models = calibrate.fit(
-        blended.iloc[train], archive["role"].iloc[train], archive["voto"].iloc[train]
-    )
-    votes = calibrate.predict(models, blended, archive["role"])
-    probabilities = event_probabilities(history, archive["role"], train, previous)
-
-    # Le formazioni entrano PRIMA della difficolta' della partita: i rigori
-    # che assegnano sono quelli di una squadra media, e una squadra favorita
-    # ne ottiene di piu'. Dopo, la correzione non li toccherebbe.
-    formazione = _formazioni(args.probabili, args.piazzati, rosa, archive)
-    probabilities = lineups.apply(
-        probabilities, archive["role"], archive["team"],
-        formazione["slot"], formazione["titolarita"], formazione["rigori"],
-    )
 
     context = attach(archive, fixtures)
-    advantage = (context["p_win"] - context["p_lose"]).to_numpy(np.float64)
+    # Qui, a differenza del backtest, non c'e' nessuna stagione da tenere
+    # fuori: si prevede la prossima giornata e tutto il resto e' gia'
+    # successo, quindi la difficolta' si tara su tutto il passato che c'e'.
     difficulty = fit_difficulty(fixtures, sorted(archive["season"].unique()))
-    market_attack, market_defense = difficulty.factors(advantage)
-    squad_attack, squad_defense = team_factors(context)
-    has_market = np.isfinite(advantage)
-    # Le quote restano il segnale principale. Senza quote, il profilo squadra
-    # diventa il contesto della partita; con quote lo rifinisce appena.
-    attack = market_attack * np.where(has_market, squad_attack ** 0.20, squad_attack)
-    defense = market_defense * np.where(has_market, squad_defense ** 0.20, squad_defense)
-    probabilities = apply_match_context(probabilities, attack, defense)
+    market = odds.fit(args.data / "fixtures", fixtures)
+    formazione = lineups.formazioni(args.probabili, args.piazzati, rosa, archive)
+    lambdas = odds.align(market, archive)
+    # gli stessi fattori che la pipeline applica: l'app li riceve per poter
+    # mostrare quanto di una correzione e' mercato e quanto profilo di squadra
+    fattori = pipeline.match_factors(context, difficulty, lambdas, market.league_goals)
+
+    stima = pipeline.estimate(
+        archive, history, previous, train,
+        context=context, difficulty=difficulty, formazione=formazione,
+        market=market,
+        # quanto fidarsi del dato personale, stimato su tutto cio' che
+        # precede la giornata da giocare: la stessa maschera del calibratore
+        shrinkage=fit_shrinkage(archive, train),
+    )
+    probabilities, votes = stima.probabilities, stima.votes
 
     # Secondo parere: lo stesso output, imparato dai dati invece che costruito
     # a mano. Sul banco di prova l'insieme dei due batte entrambi, e il loro
     # disaccordo e' una misura onesta di incertezza -- l'app la usa.
-    features = learned.build_features(history, archive, context)
+    #
+    # Le feature sono `stima.blended`, le stesse su cui il modello viene
+    # misurato: con la storia grezza, a inizio stagione le medie sono zeri e
+    # il modello addestrato qui non sarebbe quello del banco di prova.
+    features = learned.build_features(stima.blended, archive, context, stima.lambdas)
     apprese = learned.fit(features, archive, train).predict(features)
+
+    # La forbice del fantavoto, sulle sole righe della giornata da giocare:
+    # sull'archivio intero sarebbero tre miliardi di campioni. Il regolamento
+    # e' quello di default -- l'app ricalcola la media coi bonus dell'utente,
+    # ma le probabilita' di sfondare o floppare restano una buona guida anche
+    # con pesi un po' diversi.
+    scelte = np.flatnonzero(target)
+    forbice = simulate.distribution(
+        probabilities.iloc[scelte], archive["role"].iloc[scelte],
+        votes.iloc[scelte], Rules(),
+    )
+    forbice.index = archive.index[scelte]
 
     forma = _recent_form(archive, args.season, args.gameweek)
     estesi = _nomi_estesi(args.nomi)
@@ -195,6 +197,15 @@ def main() -> None:
             "estimatedVote": _round(votes.iloc[i], 2),
             "playProbability": _round(prob["p_vote"], 3),
             "events": {name: _round(prob[name], 4) for name in EVENTS},
+            # Due giocatori con gli stessi punti attesi sono decisioni
+            # diverse se uno e' regolare e l'altro alterna 4,5 e 9,5.
+            "outlook": {
+                "high": _round(forbice["p_high"].loc[archive.index[i]], 3),
+                "low": _round(forbice["p_low"].loc[archive.index[i]], 3),
+                "q10": _round(forbice["q10"].loc[archive.index[i]], 2),
+                "q50": _round(forbice["q50"].loc[archive.index[i]], 2),
+                "q90": _round(forbice["q90"].loc[archive.index[i]], 2),
+            },
             "learnedVote": _round(apprese["voto"].iloc[i], 2),
             "learnedPlayProbability": _round(apprese["p_vote"].iloc[i], 3),
             "learnedEvents": {name: _round(apprese[name].iloc[i], 4) for name in EVENTS},
@@ -203,11 +214,11 @@ def main() -> None:
             "teamGoalsRate": _round(storia["team_goals_rate"], 2),
             "recentForm": forma.get(pid, []),
             "matchContext": {
-                "attack": _round(attack[i], 5),
-                "defense": _round(defense[i], 5),
-                "marketAttack": _round(market_attack[i], 5),
-                "marketDefense": _round(market_defense[i], 5),
-                "hadMarket": bool(has_market[i]),
+                "attack": _round(fattori.attack[i], 5),
+                "defense": _round(fattori.defense[i], 5),
+                "marketAttack": _round(fattori.market_attack[i], 5),
+                "marketDefense": _round(fattori.market_defense[i], 5),
+                "hadMarket": bool(fattori.has_market[i]),
             },
             # Il listone e' la sola fonte del prezzo, e per chi in Serie A non
             # ha mai giocato e' anche la sola informazione che esista: l'app
@@ -358,66 +369,6 @@ def _copia_stemmi(sorgente: Path, destinazione: Path) -> None:
         destinazione.joinpath(stemma.name).write_bytes(stemma.read_bytes())
 
 
-def _formazioni(
-    probabili: Path | None, piazzati: Path | None,
-    rosa: pd.DataFrame | None, archive: pd.DataFrame
-) -> pd.DataFrame:
-    """Le colonne della probabile formazione, allineate all'archivio.
-
-    Senza file, colonne vuote: `lineups.apply` non tocca niente e il modello
-    resta quello di prima. E' la scelta giusta -- una formazione vecchia di
-    una settimana dice meno delle presenze vere.
-
-    Le due fonti hanno cadenze diverse e stanno in due file: titolari,
-    panchina e indisponibili cambiano ogni settimana e li scarica lo scraper;
-    rigoristi e battitori da fermo cambiano una volta a stagione e stanno a
-    mano.
-    """
-    vuoto = pd.DataFrame({
-        "slot": pd.Series([None] * len(archive), index=archive.index, dtype=object),
-        "titolarita": pd.Series(np.nan, index=archive.index, dtype=float),
-        "stato": pd.Series([None] * len(archive), index=archive.index, dtype=object),
-        "rigori": pd.Series(np.nan, index=archive.index, dtype=float),
-        "fermo": pd.Series(np.nan, index=archive.index, dtype=float),
-    })
-    if probabili is None:
-        return vuoto
-    if rosa is None:
-        raise SystemExit("--probabili ha bisogno anche di --listone: i nomi passano di li'")
-
-    giocatori, _ = lineups.load_probabili(probabili)
-    tabelle = [(giocatori, ("slot", "titolarita", "stato"))]
-    if piazzati and piazzati.exists():
-        tabelle.append((lineups.load_set_pieces(piazzati), ("rigori", "fermo")))
-
-    # dal listone_id all'id sintetico che le righe della rosa portano
-    per_listone = {
-        str(r.listone_id): (str(r.player_id) if r.player_id else f"L{r.listone_id}")
-        for r in rosa.itertuples()
-    }
-    valori: dict[str, dict[str, object]] = {}
-    for tabella, colonne in tabelle:
-        agganciata, fuori = lineups.attach(tabella, rosa)
-        if fuori:
-            print(f"  {len(fuori)} nomi non sono nel listone, ignorati: " + ", ".join(fuori))
-        for row in agganciata.itertuples():
-            pid = per_listone.get(str(row.listone_id))
-            if pid is None:
-                continue
-            for colonna in colonne:
-                valore = getattr(row, colonna)
-                if valore is None or (isinstance(valore, float) and pd.isna(valore)):
-                    continue
-                valori.setdefault(colonna, {})[pid] = valore
-
-    ids = archive["player_id"].astype(str)
-    out = vuoto.copy()
-    for colonna, mappa in valori.items():
-        mappato = ids.map(mappa)
-        out[colonna] = mappato.astype(float) if vuoto[colonna].dtype == float else mappato
-    return out
-
-
 def _squadre(path: Path | None, rosa: pd.DataFrame | None) -> list[dict]:
     """Modulo e ballottaggi di ogni squadra, per le probabili formazioni."""
     if path is None:
@@ -494,34 +445,29 @@ def _nomi_estesi(path: Path) -> dict[str, str]:
     }
 
 
-def _recent_form(archive: pd.DataFrame, season: str, gameweek: int) -> dict[str, list[float]]:
-    """Gli ultimi fantavoti presi, dal piu' vecchio al piu' recente.
+def _recent_form(archive: pd.DataFrame, season: str, gameweek: int) -> dict[str, list[float | None]]:
+    """Il fantavoto di ogni giornata di questa stagione, dalla G1 all'ultima
+    gia' giocata: un elemento per giornata, `None` per chi quella giornata
+    non ha preso voto.
 
-    Se della stagione in corso non c'e' ancora niente -- il caso della prima
-    giornata -- si mostrano gli ultimi della stagione scorsa. E' quello che
-    l'utente ha in testa ad agosto, ed e' la stessa informazione da cui parte
-    la stima.
+    La posizione nell'array E' la giornata (indice 0 = G1): niente da
+    dedurre a valle contando quante ne sono passate. E' il motivo per cui non
+    si scarta chi non ha preso voto -- lo si lascia `None` al posto suo --
+    invece di saltarlo: saltarlo sfaserebbe ogni giornata successiva di una
+    posizione.
     """
     rules = Rules()
-    # La coda è per giocatore, non per campionato intero. Alla giornata 2 la
-    # presenza di una sola gara corrente faceva scartare globalmente la
-    # stagione precedente: chi non aveva giocato la prima giornata perdeva
-    # così tutta la propria storia e sembrava un esordiente.
-    precedente = _previous_label(season)
-    prima = archive[
-        (archive["season"] == precedente)
-        | ((archive["season"] == season) & (archive["gameweek"] < gameweek))
-    ]
-    prima = prima[prima["played"]].copy()
-    prima["_ordine_stagione"] = (prima["season"] == season).astype(int)
-    prima = prima.sort_values(["_ordine_stagione", "gameweek"])
-    out: dict[str, list[float]] = {}
-    for pid, gruppo in prima.groupby("player_id", observed=True):
-        coda = gruppo.tail(FORM_WINDOW)
-        out[str(pid)] = [
-            round(fantavoto(float(v), r, rules), 1)
-            for v, r in zip(coda["voto"], coda[list(EVENTS)].to_dict("records"))
-        ]
+    corrente = archive[(archive["season"] == season) & (archive["gameweek"] < gameweek)]
+    out: dict[str, list[float | None]] = {}
+    for pid, gruppo in corrente.groupby("player_id", observed=True):
+        per_giornata = {
+            int(riga.gameweek): (
+                round(fantavoto(float(riga.voto), {e: getattr(riga, e) for e in EVENTS}, rules), 1)
+                if riga.played else None
+            )
+            for riga in gruppo.itertuples()
+        }
+        out[str(pid)] = [per_giornata.get(g) for g in range(1, gameweek)]
     return out
 
 

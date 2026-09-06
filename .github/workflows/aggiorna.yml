@@ -67,12 +67,16 @@ jobs:
           # `git diff` non vede nessuna differenza e ritorna zero, quindi alla
           # prima esecuzione il file non verrebbe committato -- e restando non
           # tracciato non lo sarebbe piu' a nessuna esecuzione successiva.
-          if [ -z "$(git status --porcelain -- serieA.json)" ]; then
+          #
+          # `probabili-archivio/` viaggia insieme a serieA.json: e' l'unico
+          # dato del progetto che non si puo' riscaricare a posteriori, e
+          # dev'essere committato mentre esiste. Vedi `archivia_probabili`.
+          if [ -z "$(git status --porcelain -- serieA.json probabili-archivio)" ]; then
             echo "niente di nuovo: nessun commit"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add serieA.json
+          git add serieA.json probabili-archivio
           git commit -m "Probabili formazioni al $(date -u '+%Y-%m-%d %H:%M') UTC"
           git push

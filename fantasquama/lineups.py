@@ -369,3 +369,67 @@ def apply(
     out["p_vote"] = np.clip(p_vote, 0.0, 1.0)
     out["rf"], out["rs"] = rf, rs
     return out
+
+
+def formazioni(
+    probabili: Path | None, piazzati: Path | None,
+    rosa: pd.DataFrame | None, archive: pd.DataFrame
+) -> pd.DataFrame:
+    """Le colonne della probabile formazione, allineate all'archivio.
+
+    Sta qui e non nell'export perche' e' l'ingresso di `apply`, e serve a
+    entrambi i chiamanti della pipeline: chi produce il file dell'app e chi
+    misura il modello sulle giornate archiviate.
+
+    Senza file, colonne vuote: `apply` non tocca niente e il modello resta
+    quello dedotto dalle presenze. E' la scelta giusta -- una formazione
+    vecchia di una settimana dice meno delle presenze vere.
+
+    Le due fonti hanno cadenze diverse e stanno in due file: titolari,
+    panchina e indisponibili cambiano ogni settimana e li scarica lo scraper;
+    rigoristi e battitori da fermo cambiano una volta a stagione e stanno a
+    mano.
+    """
+    vuoto = pd.DataFrame({
+        "slot": pd.Series([None] * len(archive), index=archive.index, dtype=object),
+        "titolarita": pd.Series(np.nan, index=archive.index, dtype=float),
+        "stato": pd.Series([None] * len(archive), index=archive.index, dtype=object),
+        "rigori": pd.Series(np.nan, index=archive.index, dtype=float),
+        "fermo": pd.Series(np.nan, index=archive.index, dtype=float),
+    })
+    if probabili is None:
+        return vuoto
+    if rosa is None:
+        raise SystemExit("--probabili ha bisogno anche di --listone: i nomi passano di li'")
+
+    giocatori, _ = load_probabili(probabili)
+    tabelle = [(giocatori, ("slot", "titolarita", "stato"))]
+    if piazzati and piazzati.exists():
+        tabelle.append((load_set_pieces(piazzati), ("rigori", "fermo")))
+
+    # dal listone_id all'id sintetico che le righe della rosa portano
+    per_listone = {
+        str(r.listone_id): (str(r.player_id) if r.player_id else f"L{r.listone_id}")
+        for r in rosa.itertuples()
+    }
+    valori: dict[str, dict[str, object]] = {}
+    for tabella, colonne in tabelle:
+        agganciata, fuori = attach(tabella, rosa)
+        if fuori:
+            print(f"  {len(fuori)} nomi non sono nel listone, ignorati: " + ", ".join(fuori))
+        for row in agganciata.itertuples():
+            pid = per_listone.get(str(row.listone_id))
+            if pid is None:
+                continue
+            for colonna in colonne:
+                valore = getattr(row, colonna)
+                if valore is None or (isinstance(valore, float) and pd.isna(valore)):
+                    continue
+                valori.setdefault(colonna, {})[pid] = valore
+
+    ids = archive["player_id"].astype(str)
+    out = vuoto.copy()
+    for colonna, mappa in valori.items():
+        mappato = ids.map(mappa)
+        out[colonna] = mappato.astype(float) if vuoto[colonna].dtype == float else mappato
+    return out

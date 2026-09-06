@@ -13,13 +13,36 @@ from dataclasses import dataclass
 import numpy as np
 import pandas as pd
 
-CALIBRATION_FEATURES: tuple[str, ...] = (
+# Le grandezze storiche del giocatore. Si muovono lentamente: prese da sole
+# danno un voto stimato quasi costante per tutta la stagione.
+PLAYER_FEATURES: tuple[str, ...] = (
+    "voto_mean",
     "gf_mean",
     "rf_mean",
     "ass_mean",
     "amm_mean",
     "esp_mean",
 )
+
+# I gol attesi delle due squadre in QUESTA partita, dal mercato scommesse.
+#
+# Non sono un complemento: sono il predittore piu' forte che esista qui
+# dentro. Misurato sull'archivio, correlazione col voto di quella giornata:
+#
+#     ruolo   voto_mean (storia)   lambda_for (partita)
+#         P               +0.135                 +0.247
+#         D               +0.217                 +0.291
+#         C               +0.230                 +0.286
+#         A               +0.241                 +0.284
+#
+# In ogni ruolo la partita batte la storia personale, e sui portieri quasi
+# la doppia. Ha senso: il voto premia chi vince, e chi vince lo sa il
+# mercato meglio di quanto lo dica la media dei voti presi finora. Senza
+# queste due colonne lo stesso giocatore riceveva lo stesso voto stimato in
+# casa contro l'ultima e fuori contro la capolista.
+MATCH_FEATURES: tuple[str, ...] = ("lambda_for", "lambda_against")
+
+CALIBRATION_FEATURES: tuple[str, ...] = (*PLAYER_FEATURES, *MATCH_FEATURES)
 
 MIN_SAMPLES = 30
 DEFAULT_VOTE = 6.0

@@ -88,6 +88,56 @@ def scarica(
     return destinazione
 
 
+def _istante(testo: str) -> datetime:
+    """Una data ISO, con la Z o con l'offset, in un datetime con fuso."""
+    momento = datetime.fromisoformat(testo.replace("Z", "+00:00"))
+    return momento if momento.tzinfo else momento.replace(tzinfo=timezone.utc)
+
+
+def archivia_probabili(probabili: Path, cartella: Path) -> Path | None:
+    """Conserva l'istantanea delle probabili di questa giornata.
+
+    `titolarita_pct` esiste solo come fotografia del momento: la fonte la
+    riscrive di continuo e non tiene nessuno storico. Finche' non la si
+    archivia, la probabilita' di scendere in campo resta un'euristica che non
+    si puo' tarare -- per addestrarla servirebbe sapere cosa la fonte diceva
+    *prima* che si giocasse, e quel dato, se non lo si salva mentre esiste,
+    non si recupera piu' da nessuna parte. E' l'unico dato del progetto con
+    questa proprieta': i voti, il calendario e le quote restano scaricabili
+    per anni.
+
+    Un file per giornata, riscritto a ogni giro. La cronologia di git tiene
+    da sola tutte le versioni intermedie -- cioe' come le probabilita' si
+    sono mosse durante la settimana -- senza far crescere la cartella.
+
+    Si smette di riscrivere appena la giornata comincia: `giornata` e' l'ora
+    del primo anticipo, quindi il confronto con `scraped_at_utc` dice se
+    siamo ancora prima del via. Dopo, la fonte mescola formazioni ufficiali e
+    partite in corso, e sovrascrivere rimpiazzerebbe il dato che serve --
+    l'ultima previsione prima del fischio -- con uno che ha gia' visto una
+    parte dei risultati. Al giro dopo la fonte passa alla giornata seguente,
+    che ha un nome di file suo, e l'archiviazione riparte da sola.
+    """
+    dati = json.loads(probabili.read_text())
+    inizio, scaricato = dati.get("giornata"), dati.get("scraped_at_utc")
+    if not inizio or not scaricato:
+        print("  probabili senza giornata o senza data di scarico: niente da archiviare")
+        return None
+    # le due date arrivano in due formati diversi -- "…+00:00" lo scarico,
+    # "…Z" la giornata -- quindi si confrontano da datetime e non da stringa:
+    # l'ordine lessicografico fra i due formati e' giusto per caso, e
+    # smetterebbe di esserlo senza dare nessun segnale
+    if _istante(scaricato) >= _istante(inizio):
+        print(f"  giornata del {inizio[:10]} gia' cominciata: archivio invariato")
+        return None
+
+    cartella.mkdir(parents=True, exist_ok=True)
+    destinazione = cartella / f"{inizio[:10]}.json"
+    destinazione.write_text(json.dumps(dati, ensure_ascii=False, indent=1))
+    print(f"  probabili archiviate in {destinazione.name} (scaricate {scaricato})")
+    return destinazione
+
+
 def aggiorna(
     base: dict,
     probabili: Path,
@@ -1074,6 +1124,10 @@ def main() -> None:
     parser.add_argument("--odds", type=Path, help="un CSV quote gia' scaricato")
     parser.add_argument("--prop-odds", type=Path, help="un JSON props gia' scaricato")
     parser.add_argument("--out", type=Path, default=qui / "serieA.json")
+    parser.add_argument(
+        "--archivio", type=Path, default=qui / "probabili-archivio",
+        help="dove conservare l'istantanea delle probabili, una per giornata",
+    )
     args = parser.parse_args()
 
     now = datetime.now(timezone.utc)
@@ -1087,6 +1141,7 @@ def main() -> None:
             return
         print(f"  refresh probabili: {motivo_probabili}")
     probabili = args.probabili or scarica("fetch_lineups.py", qui / "probabili.json")
+    archivia_probabili(probabili, args.archivio)
     # Le notizie non sono obbligatorie: un giornale che non risponde non deve
     # poter impedire di aggiornare chi gioca, che e' il motivo per cui l'app
     # esiste. Se saltano, restano quelle del giro precedente.

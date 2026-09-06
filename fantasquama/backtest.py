@@ -19,23 +19,41 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from fantasquama import calibrate
-from fantasquama.estimate import (
-    apply_match_context,
-    blended_history,
-    event_probabilities,
-    previous_season,
-    score_probabilities,
-)
-from fantasquama.fixtures import attach, fit_difficulty, load_fixtures, team_factors
+from fantasquama import diagnostics, odds, pipeline
+from fantasquama.estimate import fit_shrinkage, previous_season, score_probabilities
+from fantasquama.fixtures import attach, fit_difficulty, load_fixtures
 from fantasquama.features import rolling_history
 from fantasquama.ingest import load_archive
 from fantasquama.scoring import EVENTS, Rules, fantavoto
 
 PAIRS_PER_GAMEWEEK: int = 2000
 FIRST_GAMEWEEK: int = 6
-MARGIN_REQUIRED: float = 0.03
 ROLES: tuple[str, ...] = ("P", "D", "C", "A")
+
+# Sopra questa probabilita' di prendere voto un giocatore e' «uno che gioca»,
+# e il confronto fra due di loro e' la decisione vera dell'utente. Sotto, il
+# confronto lo vince chiunque sappia chi e' titolare -- compresa la baseline.
+DECISION_P_VOTE: float = 0.70
+
+# Il cancello, ruolo per ruolo. Una soglia unica su quattro problemi di
+# difficolta' molto diversa produce un fallimento che non dice niente: e' la
+# stessa richiesta fatta a chi ha 24 punti di spazio davanti e a chi ne ha 10.
+#
+# Le soglie seguono lo spazio misurato fra baseline e soffitto per ruolo:
+#   P  il mercato prezza porta inviolata e gol subiti quasi esattamente,
+#      ed e' il ruolo con lo spazio piu' largo -- si puo' chiedere di piu'
+#   D  spazio ampio ma segnale sottile: il voto e' quasi tutto giudizio
+#   C  spazio piu' stretto di tutti, il voto e' quasi interamente rumore
+#      redazionale e i bonus sono rari
+#   A  gol e rigori sono il segnale piu' forte che esista nei dati
+MARGIN_REQUIRED: dict[str, float] = {"P": 0.05, "D": 0.03, "C": 0.02, "A": 0.04}
+
+# Il confronto con la soglia si fa con una tolleranza, perche' altrimenti la
+# decide la virgola mobile: `0.60 - 0.55` vale 0.04999999999999993, cioe' un
+# modello esattamente sulla soglia verrebbe bocciato per 7e-17. Il rapporto
+# stampa i margini al decimo di punto percentuale, e il cancello deve dire la
+# stessa cosa che si legge.
+MARGIN_TOLERANCE: float = 1e-9
 
 # Sotto questo numero di coppie una sola risposta diversa sposta l'accuratezza
 # di mezzo punto percentuale, un sesto della soglia del cancello: il rapporto
@@ -245,46 +263,51 @@ def run(
     train_mask = archive["season"].isin(train_seasons).to_numpy()
     _require_seasons(train_mask, archive, train_seasons, "taratura")
 
-    # il calibratore legge le medie dritte, quindi gliele si passa gia'
-    # attenuate verso la stagione scorsa: altrimenti a inizio stagione legge
-    # zeri e stima lo stesso voto per tutti
-    previous = previous_season(archive)
-    blended = blended_history(history, previous)
-
-    models = calibrate.fit(
-        blended.iloc[train_mask],
-        archive["role"].iloc[train_mask],
-        archive["voto"].iloc[train_mask],
-    )
-
-    votes = calibrate.predict(models, blended, archive["role"])
-    # stessa maschera del calibratore: i prior dello shrinkage si calcolano
-    # sulle sole stagioni di taratura. Sull'intero archivio, la stima di una
-    # giornata leggerebbe le giornate successive della stagione da giudicare.
     # il prior di ogni riga parte da come quel giocatore ha giocato la
     # stagione PRIMA: e' cio' che rende leggibile l'inizio di stagione, quando
     # di quella in corso non si sa ancora niente. Non serve mascherarlo -- la
     # stagione precedente e' passato per definizione.
-    probabilities = event_probabilities(history, archive["role"], train_mask, previous)
+    previous = previous_season(archive)
 
     # La difficolta' della partita entra fra le probabilita' e il punteggio.
     # Se il calendario non c'e' il modello resta quello di prima: senza
     # avversario non c'e' correzione da applicare, e fermarsi renderebbe il
     # backtest ineseguibile per chi ha solo l'archivio dei voti.
     fixtures_root = archive_root / "fixtures"
-    con_calendario = fixtures_root.exists()
-    if con_calendario:
+    context = difficulty = market = None
+    if fixtures_root.exists():
         fixtures = load_fixtures(fixtures_root)
         context = attach(archive, fixtures)
-        advantage = (context["p_win"] - context["p_lose"]).to_numpy(np.float64)
-        market_attack, market_defense = fit_difficulty(fixtures, train_seasons).factors(advantage)
-        squad_attack, squad_defense = team_factors(context)
-        has_market = np.isfinite(advantage)
-        attack = market_attack * np.where(has_market, squad_attack ** 0.20, squad_attack)
-        defense = market_defense * np.where(has_market, squad_defense ** 0.20, squad_defense)
-        probabilities = apply_match_context(probabilities, attack, defense)
+        # solo le stagioni di taratura: tarare la difficolta' anche su quella
+        # di verifica ne farebbe entrare il futuro in una grandezza usata per
+        # predirla
+        difficulty = fit_difficulty(fixtures, train_seasons)
+        # Le quote di ogni partita sono note prima del fischio d'inizio, e
+        # sono per definizione il presente di quella giornata: non c'e' futuro
+        # da mascherare, come non ce n'e' nel calendario. Il rho di
+        # Dixon-Coles si stima su tutte le partite concluse, ed e' una
+        # proprieta' di come si gioca a calcio, non di chi si affronta.
+        market = odds.fit(fixtures_root, fixtures)
 
-    scores = score_probabilities(probabilities, archive["role"], votes, rules)
+    # stessa maschera ovunque: prior dello shrinkage e taratura del voto si
+    # calcolano sulle sole stagioni di taratura. Sull'intero archivio, la
+    # stima di una giornata leggerebbe le giornate successive della stagione
+    # da giudicare.
+    #
+    # `formazione` resta assente: le probabili di una giornata passata non le
+    # ha conservate nessuno, quindi qui il modello gira senza lo stadio che in
+    # produzione sostituisce p_vote con la titolarita' dichiarata. E' la
+    # differenza che `probabili-archivio/` esiste per chiudere, una giornata
+    # alla volta -- vedi `archivia_probabili` in `aggiorna.py`.
+    stima = pipeline.estimate(
+        archive, history, previous, train_mask,
+        context=context, difficulty=difficulty, market=market,
+        # quanto fidarsi del dato personale, stimato sulle sole stagioni di
+        # taratura come ogni altro prior
+        shrinkage=fit_shrinkage(archive, train_mask),
+    )
+
+    scores = score_probabilities(stima.probabilities, archive["role"], stima.votes, rules)
 
     table = pd.DataFrame({
         "season": archive["season"],
@@ -292,6 +315,9 @@ def run(
         "player_id": archive["player_id"],
         "role": archive["role"],
         "score": scores,
+        # serve al filtro decisionale: la domanda vera del fantallenatore e'
+        # fra due che giocano, non fra un titolare e una riserva
+        "p_vote": stima.probabilities["p_vote"],
         "baseline_apps": history["apps_before"],
         "baseline_last5": history["apps_last5"],
         "actual": actual,
@@ -327,29 +353,56 @@ def run(
     # motivo di sample_pairs, "role_a" ha dtype nullable "string"
     role_a_values = pairs["role_a"].fillna("").astype(str).to_numpy()
 
+    # Il filtro decisionale. La stragrande maggioranza delle coppie estratte
+    # sono confronti banali -- un titolare contro una riserva -- che sia il
+    # modello sia la baseline azzeccano guardando solo chi gioca. La domanda
+    # che il fantallenatore si fa davvero e' fra due che giocano entrambi, e
+    # quelle coppie sono una minoranza: dentro il totale il loro segnale
+    # annega. Da qui la metrica primaria le isola, e quella su tutte le
+    # coppie resta come diagnostica.
+    decisive = (
+        (pairs["p_vote_a"] >= DECISION_P_VOTE) & (pairs["p_vote_b"] >= DECISION_P_VOTE)
+    ).to_numpy() if len(pairs) else np.zeros(0, dtype=bool)
+
     rows = []
     for role in ROLES:
-        subset = pairs.iloc[np.flatnonzero(role_a_values == role)]
+        di_ruolo = role_a_values == role
+        subset = pairs.iloc[np.flatnonzero(di_ruolo)]
+        decisionali = pairs.iloc[np.flatnonzero(di_ruolo & decisive)]
         rows.append({
             "role": role,
-            "model": pairwise_accuracy(subset, "score"),
-            "baseline_apps": pairwise_accuracy(subset, "baseline_apps"),
-            "baseline_last5": pairwise_accuracy(subset, "baseline_last5"),
-            "pairs": len(subset),
+            "model": pairwise_accuracy(decisionali, "score"),
+            "baseline_apps": pairwise_accuracy(decisionali, "baseline_apps"),
+            "baseline_last5": pairwise_accuracy(decisionali, "baseline_last5"),
+            "pairs": len(decisionali),
+            "tutte_model": pairwise_accuracy(subset, "score"),
+            "tutte_baseline_apps": pairwise_accuracy(subset, "baseline_apps"),
+            "tutte_baseline_last5": pairwise_accuracy(subset, "baseline_last5"),
+            "tutte_pairs": len(subset),
         })
     # la riga "tutti" ricompone i ruoli con il peso delle coppie che
     # esistono davvero, non con quello del campione: vedi all_pairs_weights
     weights = all_pairs_weights(table)
     rows.append({
         "role": "tutti",
-        "model": _weighted(rows, "model", weights),
-        "baseline_apps": _weighted(rows, "baseline_apps", weights),
-        "baseline_last5": _weighted(rows, "baseline_last5", weights),
-        "pairs": len(pairs),
+        **{
+            colonna: _weighted(rows, colonna, weights)
+            for colonna in (
+                "model", "baseline_apps", "baseline_last5",
+                "tutte_model", "tutte_baseline_apps", "tutte_baseline_last5",
+            )
+        },
+        "pairs": int(decisive.sum()),
+        "tutte_pairs": len(pairs),
     })
 
     report = pd.DataFrame(rows)
     report.attrs["scope"] = _scope(table, dropped)
+    report.attrs["table"] = table
+    report.attrs["pairs"] = pairs
+    report.attrs["calibration"] = diagnostics.event_calibration(
+        stima.probabilities, archive, test_mask
+    )
     return report
 
 
@@ -377,34 +430,41 @@ def verdict(report: pd.DataFrame) -> tuple[bool, str]:
     if scarse:
         return False, (
             f"Campione troppo piccolo per decidere: servono almeno {MIN_PAIRS} "
-            f"coppie per riga, mancano su {', '.join(scarse)}."
+            f"coppie decisionali per riga, mancano su {', '.join(scarse)}."
         )
 
     # la baseline piu' forte e' quella piu' difficile da battere
     column = max(BASELINES, key=lambda c: (overall[c] if pd.notna(overall[c]) else -1.0))
     named = f"{column} ({BASELINES[column]})"
-    margin = overall["model"] - overall[column]
 
-    weak = [
-        row["role"]
-        for _, row in report[report["role"] != "tutti"].iterrows()
-        if not (row["model"] > row[column])
+    esiti = []
+    for _, row in report[report["role"] != "tutti"].iterrows():
+        richiesta = MARGIN_REQUIRED[row["role"]]
+        margine = row["model"] - row[column]
+        esiti.append((row["role"], margine, richiesta, margine >= richiesta - MARGIN_TOLERANCE))
+
+    bocciati = [
+        f"{role} {margine:+.1%} contro {richiesta:.0%} richiesto"
+        for role, margine, richiesta, passato in esiti
+        if not passato
     ]
+    dettaglio = ", ".join(
+        f"{role} {margine:+.1%}/{richiesta:.0%}" for role, margine, richiesta, _ in esiti
+    )
+    complessivo = overall["model"] - overall[column]
 
-    if not (margin >= MARGIN_REQUIRED):
+    if bocciati:
         return False, (
-            f"Rispetto alla baseline piu' forte, {named}, il modello guadagna "
-            f"{margin:+.1%}: sotto la soglia richiesta del {MARGIN_REQUIRED:.0%}."
-        )
-    if weak:
-        return False, (
-            f"Rispetto alla baseline piu' forte, {named}, il margine "
-            f"complessivo e' {margin:+.1%}, ma non c'e' miglioramento su "
-            f"questi ruoli: {', '.join(weak)}."
+            f"Sulle coppie decisionali (entrambi con p_vote >= {DECISION_P_VOTE:.0%}), "
+            f"rispetto alla baseline piu' forte, {named}, il margine complessivo e' "
+            f"{complessivo:+.1%} ({dettaglio}), ma questi ruoli non arrivano alla "
+            f"loro soglia: {'; '.join(bocciati)}."
         )
     return True, (
-        f"Rispetto alla baseline piu' forte, {named}, il modello guadagna "
-        f"{margin:+.1%} su tutti i ruoli."
+        f"Sulle coppie decisionali (entrambi con p_vote >= {DECISION_P_VOTE:.0%}), "
+        f"rispetto alla baseline piu' forte, {named}, il modello guadagna "
+        f"{complessivo:+.1%} complessivi e supera la soglia su tutti i ruoli "
+        f"({dettaglio})."
     )
 
 
@@ -416,7 +476,38 @@ def main() -> None:
     args = parser.parse_args()
 
     report = run(args.data, Rules(), args.train, args.test)
-    print(report.to_string(index=False, float_format=lambda x: f"{x:.3f}"))
+    decisionali = ["role", "model", "baseline_apps", "baseline_last5", "pairs"]
+
+    print(f"\nCOPPIE DECISIONALI — entrambi con p_vote >= {DECISION_P_VOTE:.0%}")
+    print("la decisione vera dell'utente, ed e' su questa che si applica il cancello")
+    print(report[decisionali].to_string(index=False, float_format=lambda x: f"{x:.3f}"))
+
+    print("\nTUTTE LE COPPIE — diagnostica, non il cancello")
+    print("comprende i confronti banali fra un titolare e una riserva, che")
+    print("chiunque azzecca sapendo solo chi gioca")
+    print(
+        report[["role", "tutte_model", "tutte_baseline_apps", "tutte_baseline_last5", "tutte_pairs"]]
+        .to_string(index=False, float_format=lambda x: f"{x:.3f}")
+    )
+
+    fasce = diagnostics.confidence_buckets(report.attrs["pairs"])
+    print("\nFIDUCIA — l'accuratezza cresce col divario che il modello dichiara?")
+    print(fasce.to_string(index=False, float_format=lambda x: f"{x:.3f}"))
+    print(
+        "  monotona: si'" if diagnostics.is_monotone(fasce)
+        else "  NON monotona: il modello non sa quando e' sicuro (taratura, non segnale)"
+    )
+
+    valore = diagnostics.top_n_value(
+        report.attrs["table"], ["score", "baseline_apps", "baseline_last5"]
+    )
+    print("\nVALORE — fantavoto medio davvero ottenuto dai primi 10 di ogni giornata")
+    print(valore.to_string(index=False, float_format=lambda x: f"{x:.3f}"))
+
+    print("\nCALIBRAZIONE — le probabilita' degli eventi sono probabilita' vere?")
+    print("una che non batte la costante non dice niente di quella riga in particolare")
+    print(report.attrs["calibration"].to_string(index=False, float_format=lambda x: f"{x:.4f}"))
+
     print()
     print(report.attrs["scope"])
     print()
