@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-06T22:54:06+00:00",
+ "generatedAt": "2026-09-07T04:55:49+00:00",
  "season": "2026-27",
  "gameweek": 3,
  "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -8200,7 +8200,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.13,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.082,
     "rf": 0.0064,
@@ -8221,7 +8221,7 @@
     "q90": 6.11
    },
    "learnedVote": 6.0,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0576,
     "rf": 0.0048,
@@ -8246,9 +8246,9 @@
    },
    "quotazione": 2.0,
    "fvm": 6.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
