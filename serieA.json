@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T04:55:49+00:00",
+ "generatedAt": "2026-09-07T12:47:10+00:00",
  "season": "2026-27",
  "gameweek": 3,
  "note": "Stime calcolate con la sola storia precedente alla giornata 3 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -23778,7 +23778,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.02,
-   "playProbability": 0.83,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0322,
     "rf": 0.0004,
@@ -23799,7 +23799,7 @@
     "q90": 6.36
    },
    "learnedVote": 5.96,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0309,
     "rf": 0.0046,
@@ -23824,8 +23824,8 @@
    },
    "quotazione": 5.0,
    "fvm": 12.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -29863,7 +29863,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.95,
-   "playProbability": 0.044,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.038,
     "rf": 0.0005,
@@ -29884,7 +29884,7 @@
     "q90": 6.48
    },
    "learnedVote": 5.99,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0378,
     "rf": 0.0049,
@@ -29909,8 +29909,8 @@
    },
    "quotazione": 4.0,
    "fvm": 12.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -30826,7 +30826,7 @@
    "appearances": 2,
    "gameweeksElapsed": 2,
    "estimatedVote": 5.97,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0469,
     "rf": 0.0004,
@@ -30847,7 +30847,7 @@
     "q90": 6.61
    },
    "learnedVote": 5.94,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.06,
     "rf": 0.0043,
@@ -30873,7 +30873,7 @@
    "quotazione": 8.0,
    "fvm": 20.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -40800,6 +40800,38 @@
     {
      "opzioni": [
       {
+       "player_id": "7240",
+       "giocatore": "Siebert",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6632",
+       "giocatore": "Gaspar K.",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6989",
+       "giocatore": "Tiago Gabriel",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6632",
+       "giocatore": "Gaspar K.",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "5007",
        "giocatore": "Ilic",
        "titolarita_pct": 51,
@@ -40912,13 +40944,121 @@
  ],
  "news": [
   {
+   "title": "Gila, le condizioni dopo il match con la Juventus: cosa filtra verso Lazio-Milan! Su Gabbia...",
+   "summary": "Il centrale rossonero ha lasciato il campo nel finale di partita contro la Juve accusando un problema: ecco cosa filtra sulle sue condizioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-gila-condizioni-cosa-filtra/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2287604098-72fb09ad430b-e1785049968943.jpg",
+   "date": "2026-09-07T12:30:56+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Inter, ecco le condizioni di Dimarco: c’è la scelta sulla trasferta a Madrid",
+   "summary": "Inter, novità sulle condizioni di Dimarco dopo l'allenamento: Sky Sport svela la decisione presa in vista della trasferta a Madrid.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/ultimora-inter-condizioni-dimarco-scelta-sulla-trasferta-madrid-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/202605/979098dd7a826beeca6da34aeedfffab-scaled-e1778335186451.jpeg",
+   "date": "2026-09-07T12:05:26+00:00"
+  },
+  {
+   "title": "Mourinho: \"La sorpresa è che l'Inter non abbia vinto la Champions! Su Chivu...\"",
+   "summary": "Le parole di José Mourinho alla vigilia del confronto di Champions League che vedrà il suo Real Madrid opposto all'Inter, la sua ex squadra dal 2008 al 2010.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/mourinho-inter-champions-league-chivu/",
+   "image": "https://static.sosfanta.com/202601/a9af783c7623171fbf868954218dc377-scaled-e1768938085516.jpg",
+   "date": "2026-09-07T12:00:05+00:00"
+  },
+  {
+   "title": "Le probabili formazioni dei posticipi: da Isaksen e Tavares a Frattesi, Gudmundsson, Kabasele e Tiago Gabriel",
+   "summary": "Si giocano le ultime due gare della terza giornata della Serie A 2026/27: alle 18.30 Cagliari-Lecce, alle 20.45 Udinese-Lazio",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/formazioni-cagliari-lecce-udinese-lazio-isaksen-tavares-kabasele-gudmundsson-gallo-tiagogabriel/",
+   "image": "https://static.sosfanta.com/2026/08/frattesi-4eecbe5af317-e1787657785949.jpeg",
+   "date": "2026-09-07T11:45:52+00:00"
+  },
+  {
+   "title": "Juve, arriva la decisione dell'Al-Ittihad su Zhegrova: la situazione e come cambia il suo futuro",
+   "summary": "Il club saudita ha preso la sua decisione sull'esterno kosovaro della Juventus: lo scenario.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/zhegrova-juventus-al-ittihad-futuro/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291723367-9457bf1bb254-e1788378873634.jpg",
+   "date": "2026-09-07T11:00:00+00:00"
+  },
+  {
+   "title": "NEWS - Dimarco, Gila, Atta, Coco, Sarr, McKennie, Oulai, Cambiaso, Jones, Dodo, Volpato, Britschgi: le novità",
+   "summary": "Le ultimissime novità tra infortuni rientri per la terza giornata che si concluderà questa sera: gli ultimi aggiornamenti",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-dimarco-gila-atta-coco-sarr-mckennie-oulai-cambiaso-jones-dodo-volpato-britschgi-le-novita/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293692431-a17df81c4f00.jpg",
+   "date": "2026-09-07T10:15:51+00:00"
+  },
+  {
+   "title": "Fiorentina, testa al Venezia per ripartire: le condizioni di Oulai e come stanno Dodò e Atta",
+   "summary": "La Fiorentina, reduce da tre sconfitte consecutive, aprirà la quarta giornata di campionato facendo visita al Venezia. Tutti gli aggiornamenti di casa viola.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-venezia-aggiornamenti-oulai-atta-dodo/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2289965411-800549493ba4-e1788615079150.jpg",
+   "date": "2026-09-07T10:00:27+00:00"
+  },
+  {
+   "title": "Spalletti: \"Sono sul carro di Kolo Muani e non scendo: la prossima gioca ancora! Alajbegovic, Woltemade e Nico…”",
+   "summary": "Luciano Spalletti ha parlato in conferenza stampa e ai microfoni di DAZN al termine del match contro il Milan. Le sue dichiarazioni.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/spalletti-2/",
+   "image": "https://static.sosfanta.com/2026/09/IMG_8923-df9197f89c57-e1788728486495.jpg",
+   "date": "2026-09-07T09:45:16+00:00"
+  },
+  {
+   "title": "Juve, il punto sugli infortunati: le condizioni di Sarr, McKennie, Cambiaso, Yildiz, Cabal e Ekhator",
+   "summary": "Dopo il pareggio col Milan, la Juve mette nel mirino il prossimo impegno di campionato contro il Sassuolo: Spalletti spera di recuperare qualche effettivo.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juve-il-punto-sugli-infortunati-le-condizioni-di-sarr-mckennie-cambiaso-yildiz-cabal-e-ekhator/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291826944-d568876f5219-e1787900785378.jpg",
+   "date": "2026-09-07T09:00:58+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Paolo Vanoli torna alla Fiorentina, c’è l’accordo: ecco i dettagli",
+   "summary": "La società viola ha deciso di esonerare il tecnico ex Sassuolo e ha già individuato su chi puntare per ripartire subito",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-ritorno-vanoli-dettagli-accordo/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2272277031-0d5adf966145.jpg",
+   "date": "2026-09-07T08:45:29+00:00"
+  },
+  {
+   "title": "Inter pronta al debutto in Champions col Real: come sta Dimarco e cosa filtra su Jones, Calhanoglu e Mkhitaryan",
+   "summary": "Giornata di vigilia per l'Inter che domani sera al Bernabeu esordisce in Champions League affrontando il Real Madrid. Le ultime sulle possibili scelte di Chivu.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-champions-real-dimarco-calhanoglu-mkhitaryan/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291653854-9829d7738cf0-e1788629212405.jpg",
+   "date": "2026-09-07T08:00:14+00:00"
+  },
+  {
    "title": "FLASH - Fiorentina, c'è un nome che prende quota per la panchina: contatti già in corso",
    "summary": "C'è un nome su tutti che prende quota per la panchina della Fiorentina dopo l'esonero di Fabio Grosso arrivato proprio domenica in serata.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-prende-quota-vanoli-panchina-sostituto-grosso/",
    "image": "https://static.sosfanta.com/2026/09/Paratici-9e2fff217ac2-e1788734441286.jpg",
-   "date": "2026-09-06T22:30:52+00:00"
+   "date": "2026-09-07T07:15:52+00:00"
+  },
+  {
+   "title": "Costacurta duro dopo Juve-Milan: \"La vera debolezza di Kolo Muani è questa\"",
+   "summary": "In studio al Club a Sky Sport, l'ex difensore Alessandro Costacurta ha commentato il pareggio per 1 a 1 fra Juventus e Milan.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/costacurta-vera-debolezza-kolo-muani-juve-milan/",
+   "image": "https://static.sosfanta.com/2019/02/10223510/Costacurta-e1722634285233.jpg",
+   "date": "2026-09-07T07:00:08+00:00"
   },
   {
    "title": "Amorim: \"Perché 0 minuti a Pulisic, la verità! Moreira, Chukwueze, Rabiot e amo Cisse ma ci vuole calma\"",
@@ -40927,7 +41067,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/milan/juvemilan-amorim-parole-pulisic-verita-moreira-rabiot-cisse/",
    "image": "https://static.sosfanta.com/2026/09/Amorim-e781dce19202-e1788726428534.jpg",
-   "date": "2026-09-06T22:15:03+00:00"
+   "date": "2026-09-07T06:15:03+00:00"
+  },
+  {
+   "title": "Milan, Gila svela: \"Ho sentito un fastidio al tendine rotuleo. Gol presi senza di me? Rispondo così\"",
+   "summary": "Mario Gila ha parlato a DAZN al termine di Juventus-Milan: queste le dichiarazioni del difensore spagnolo.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-gila-fastidio-tendine-rotuleo/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2287604098-72fb09ad430b-e1785049968943.jpg",
+   "date": "2026-09-07T06:00:32+00:00"
   },
   {
    "title": "Gatti: “Ci provano in tutti i modi a fermarmi ma non muoio mai: vado contro tutto e tutti”",
@@ -41153,123 +41302,6 @@
    "url": "https://www.sosfanta.com/box-esclusivo/pisacane-cagliari-lecce-mina-kevin-carlos-nzola-massolin-winks-fantacalcio-asta/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2291583446-2178753c29ed-e1788686876723.jpeg",
    "date": "2026-09-06T14:15:46+00:00"
-  },
-  {
-   "title": "Jashari: \"Voglio giocare, mai pensato di lasciare il Milan per la Juve. Amorim, Modric, la Champions...\"",
-   "summary": "Intervistato da La Gazzetta dello Sport, il centrocampista del Milan Ardon Jashari ha parlato di Amorim, della nuova stagione e dei suoi obiettivi",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/jashari-mai-pensato-juve-champions/",
-   "image": "https://static.sosfanta.com/202510/103d9806493c35ea8d47d021b8e9d46e-scaled-e1760175609151.jpg",
-   "date": "2026-09-06T14:00:05+00:00"
-  },
-  {
-   "title": "Venezia, Bella-Kotchap costretto al cambio al 15' contro il Frosinone: il motivo e la scelta sul voto live",
-   "summary": "Venezia, infortunio per Bella-Kotchap: il difensore si è fermato dopo poco più di un quarto d'ora per un problema muscolare.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/venezia/venezia-bella-kotchap-costretto-cambio-15-contro-frosinone-motivo-scelta-voto-live-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/202603/55d5b051f71a02ee6866cf6f6756c912-scaled-e1772561742338.jpeg",
-   "date": "2026-09-06T13:45:18+00:00"
-  },
-  {
-   "title": "Ds Sassuolo: \"Felici di aver tenuto Thorstvedt! Su Pinamonti, Esposito, Bakola, Acerbi e Van der Brempt...\"",
-   "summary": "Il direttore sportivo del Sassuolo è entrato nel dettaglio delle operazioni che hanno visto protagonista il club neroverde in estate.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/ds-sassuolo-felici-di-aver-tenuto-thorstvedt-su-pinamonti-esposito-bakola-acerbie-e-van-der-brempt/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292680216-cebd86b833dc.jpg",
-   "date": "2026-09-06T13:30:48+00:00"
-  },
-  {
-   "title": "Di Francesco: \"Ilic e Monteiro possono giocare dall'inizio. Stulic titolare! Su Gandelman, Esteban e Berisha...\"",
-   "summary": "Il Lecce si prepara in vista della sfida contro il Cagliari. Il tecnico del club salentino, Eusebio Di Francesco, ha parlato in conferenza stampa.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lecce/di-francesco-lecce-cagliari/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290910930-105cc2aba188-e1788686868916.jpeg",
-   "date": "2026-09-06T13:00:55+00:00"
-  },
-  {
-   "title": "FORMAZIONI UFFICIALI - Cutrone in tribuna! La scelta su Ghedjemis, El Bilal, Yeboah, Folorunsho e Diego Carlos",
-   "summary": "Alle ore 15 torna in campo la Serie A con due partite valide per la 3^ giornata: Frosinone-Venezia e Parma-Monza. Sono state diramate le formazioni ufficiali",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/formazioni-ufficiali-parma-monza-frosinone-venezia/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292673045-16e69750383e-e1788695935470.jpeg",
-   "date": "2026-09-06T12:50:41+00:00"
-  },
-  {
-   "title": "Non solo Varela, anche Cutrone in tribuna nel Monza: svelato il motivo, le ultime",
-   "summary": "Sorpresa nelle formazioni ufficiali di Parma-Monza: Patrick Cutrone non figura nella distinta diramata dai due club, né fra gli undici titolari, né in tribuna.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cutrone-parma-monza-infortunio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290563258-4406410a80fe-e1788699075771.jpeg",
-   "date": "2026-09-06T12:45:02+00:00"
-  },
-  {
-   "title": "Parma-Monza, le formazioni ufficiali: da Touré e Fabbian a Folorunsho e Tornqvist, chi gioca e chi no",
-   "summary": "Alle 15 torna in campo la Serie A e c'è uno scontro diretto per la salvezza: Parma e Monza si affrontano allo stadio Tardini. Ecco le formazioni ufficiali.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/parma-monza-formazioni-ufficiali-toure-fabbian-folorunsho-tornqvist-chi-gioca-chi-no-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292605515-f7cd09e8c781-e1788687907151.jpeg",
-   "date": "2026-09-06T12:30:52+00:00"
-  },
-  {
-   "title": "Frosinone-Venezia, le formazioni ufficiali: da Schmid a Calò, Yeboah, Sohm, Kvernadze, Adams: tutte le scelte",
-   "summary": "Alle 15 torna in campo la Serie A e c'è uno scontro diretto per la salvezza: Frosinone e Venezia si affrontano allo stadio Stirpe.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/frosinone-venezia-formazioni-ufficiali-yeboah-ghedjemis-schmid-calo-sohm-kvernadze-adams-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291719709-509ba08f790b-e1788687943590.jpeg",
-   "date": "2026-09-06T12:15:53+00:00"
-  },
-  {
-   "title": "Runjaic: \"Davis come Orsolini, ecco perché si è fatto male e come lo gestirò! Su Okoye, Vojvoda e Zaniolo...\"",
-   "summary": "L'Udinese si prepara in vista della sfida contro la Lazio. Il tecnico del club friulano, Kosta Runjaic, ha parlato in conferenza stampa alla vigilia del match.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/runjaic-udinese-lazio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292672847-aab4d86bf9ea-e1788686860848.jpeg",
-   "date": "2026-09-06T12:00:02+00:00"
-  },
-  {
-   "title": "BREAKING - Dimarco, ecco l'esito degli esami e cosa filtra sulla convocazione con il Real Madrid",
-   "summary": "Notizie confortanti in casa Inter sulle condizioni di Dimarco all'indomani della sfida vinta in rimonta contro il Napoli, con una pazza rimonta nel finale.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-dimarco-esito-esami-infortunio-napoli-real-madrid-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
-   "date": "2026-09-06T11:45:17+00:00"
-  },
-  {
-   "title": "Bologna-Sassuolo, le probabili formazioni: da Berardi a Piccoli, Thorstvedt, Volpato, Bowie, Esposito e Doig",
-   "summary": "Le novità sulle probabili formazioni di Bologna e Sassuolo: chi può giocare dal primo minuto e quali sono i principali ballottaggi.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/probabili-formazioni-bologna-sassuolo-berardi-piccoli-thorstvedt-volpato-bowie-esposito-doig-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/202606/1cba787b12db9666cb944f47c91233e0.jpg",
-   "date": "2026-09-06T11:30:56+00:00"
-  },
-  {
-   "title": "NEWS - Come sta Dimarco! Oulai, Berardi, Schmid, Moreira, Thorstvedt, Nico, Pulisic e cosa filtra su Grosso",
-   "summary": "Le ultimissime novità tra infortuni e scelte di formazione in vista della terza giornata di Serie A: tutti gli aggiornamenti.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-dimarco-oulai-berardi-schmid-moreira-thorstvedt-nico-pulisic-grosso-cosa-filtra-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/07/Berardi-fcc2ce59190f.png",
-   "date": "2026-09-06T11:15:44+00:00"
-  },
-  {
-   "title": "Juve-Milan, le probabili formazioni: da Nico Gonzalez e Saelemaekers, Lucumi, Moreira, Rabiot, Boga e Woltemade",
-   "summary": "Le novità sulle probabili formazioni di Juventus e Milan: chi può partire titolare e quali sono le principali scelte per la sfida.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/juve-milan-probabili-formazioni-nico-gonzalez-saelemaekers-lucumi-moreira-rabiot-boga-woltemade-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292615639-21f3ab2dc9a6.jpg",
-   "date": "2026-09-06T11:00:19+00:00"
   }
  ],
  "marketDifficulty": {
