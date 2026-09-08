@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-09-08T00:28:43+00:00",
+ "scraped_at_utc": "2026-09-08T04:51:32+00:00",
  "giornata": "2026-09-11T18:45:00.000Z",
  "partite": [
   {
@@ -1081,14 +1081,14 @@
      },
      {
       "giocatore": "Pasalic",
+      "titolarita_pct": 55
+     },
+     {
+      "giocatore": "Ederson D.S.",
       "titolarita_pct": 95
      },
      {
       "giocatore": "Samardzic",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Ederson D.S.",
       "titolarita_pct": 95
      },
      {
@@ -1126,6 +1126,10 @@
       "titolarita_pct": 49
      },
      {
+      "giocatore": "Kessiè",
+      "titolarita_pct": 45
+     },
+     {
       "giocatore": "Pompei",
       "titolarita_pct": 5
      },
@@ -1135,10 +1139,6 @@
      },
      {
       "giocatore": "Kristensen T.",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Kessiè",
       "titolarita_pct": 5
      },
      {
@@ -1168,6 +1168,18 @@
        {
         "giocatore": "Bernasconi",
         "titolarita_pct": 40
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Pasalic",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Kessiè",
+        "titolarita_pct": 45
        }
       ]
      },
@@ -1484,10 +1496,6 @@
       "nota": "Affaticamento muscolare, in dubbio per la 3a."
      },
      {
-      "giocatore": "Rodriguez R.",
-      "stato": "indisponibile"
-     },
-     {
       "giocatore": "Coco",
       "stato": "infortunato"
      }
@@ -1639,12 +1647,7 @@
       ]
      }
     ],
-    "indisponibili": [
-     {
-      "giocatore": "Pellegrini Lo.",
-      "stato": "indisponibile"
-     }
-    ],
+    "indisponibili": [],
     "ufficiale": false
    }
   },
@@ -3256,7 +3259,7 @@
      },
      {
       "giocatore": "Abankwah",
-      "titolarita_pct": 95
+      "titolarita_pct": 60
      },
      {
       "giocatore": "Kabasele",
@@ -3284,7 +3287,7 @@
      },
      {
       "giocatore": "Unai Gomez",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Ekkelenkamp",
@@ -3301,6 +3304,10 @@
       "titolarita_pct": 49
      },
      {
+      "giocatore": "Bertola",
+      "titolarita_pct": 40
+     },
+     {
       "giocatore": "Mrozek",
       "titolarita_pct": 5
      },
@@ -3310,10 +3317,6 @@
      },
      {
       "giocatore": "Piana",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Bertola",
       "titolarita_pct": 5
      },
      {
@@ -3341,7 +3344,31 @@
      {
       "opzioni": [
        {
+        "giocatore": "Abankwah",
+        "titolarita_pct": 60
+       },
+       {
+        "giocatore": "Bertola",
+        "titolarita_pct": 40
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
         "giocatore": "Piotrowski",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Miller L.",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Unai Gomez",
         "titolarita_pct": 51
        },
        {
