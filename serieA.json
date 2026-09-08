@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-08T12:51:49+00:00",
+ "generatedAt": "2026-09-08T16:44:29+00:00",
  "season": "2026-27",
  "gameweek": 4,
- "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -9271,7 +9271,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.32,
-   "playProbability": 0.429,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.1765,
     "rf": 0.0092,
@@ -9292,7 +9292,7 @@
     "q90": 6.69
    },
    "learnedVote": 6.35,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.1444,
     "rf": 0.106,
@@ -9317,8 +9317,8 @@
    },
    "quotazione": 17.0,
    "fvm": 108.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -14800,7 +14800,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.06,
-   "playProbability": 0.429,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.0384,
     "rf": 0.0037,
@@ -14821,7 +14821,7 @@
     "q90": 6.33
    },
    "learnedVote": 6.07,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.0448,
     "rf": 0.0033,
@@ -14846,8 +14846,8 @@
    },
    "quotazione": 4.0,
    "fvm": 12.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -16526,7 +16526,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.14,
-   "playProbability": 0.446,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0511,
     "rf": 0.0029,
@@ -16547,7 +16547,7 @@
     "q90": 6.42
    },
    "learnedVote": 6.2,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0559,
     "rf": 0.0034,
@@ -16572,9 +16572,9 @@
    },
    "quotazione": 6.0,
    "fvm": 15.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -18327,7 +18327,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.16,
-   "playProbability": 0.446,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.0544,
     "rf": 0.0042,
@@ -18348,7 +18348,7 @@
     "q90": 6.44
    },
    "learnedVote": 6.17,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.0546,
     "rf": 0.004,
@@ -18374,7 +18374,7 @@
    "quotazione": 7.0,
    "fvm": 16.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18464,7 +18464,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.2,
-   "playProbability": 0.446,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.1803,
     "rf": 0.0086,
@@ -18485,7 +18485,7 @@
     "q90": 6.68
    },
    "learnedVote": 6.05,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.1675,
     "rf": 0.0078,
@@ -18511,7 +18511,7 @@
    "quotazione": 10.0,
    "fvm": 35.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18884,7 +18884,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.17,
-   "playProbability": 0.446,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.1628,
     "rf": 0.0067,
@@ -18905,7 +18905,7 @@
     "q90": 9.53
    },
    "learnedVote": 6.2,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1246,
     "rf": 0.0068,
@@ -18928,9 +18928,9 @@
    },
    "quotazione": 10.0,
    "fvm": 41.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -40772,7 +40772,7 @@
   },
   {
    "name": "Fiorentina",
-   "formation": "4-3-2-1",
+   "formation": "4-1-4-1",
    "isOfficial": false,
    "ballottaggi": [
     {
@@ -40842,22 +40842,6 @@
     {
      "opzioni": [
       {
-       "player_id": "6827",
-       "giocatore": "Njie",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7625",
-       "giocatore": "Goncalves P.",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "7023",
        "giocatore": "Pellegrino M.",
        "titolarita_pct": 60,
@@ -40868,6 +40852,22 @@
        "giocatore": "Beto",
        "titolarita_pct": 40,
        "ruolo": "A"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6827",
+       "giocatore": "Njie",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "7625",
+       "giocatore": "Goncalves P.",
+       "titolarita_pct": 49,
+       "ruolo": "C"
       }
      ]
     }
@@ -41605,38 +41605,6 @@
     {
      "opzioni": [
       {
-       "player_id": "4220",
-       "giocatore": "Zambo Anguissa",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "2517",
-       "giocatore": "De Bruyne",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7223",
-       "giocatore": "Vergara",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "2517",
-       "giocatore": "De Bruyne",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "7120",
        "giocatore": "Lang",
        "titolarita_pct": 51,
@@ -41889,54 +41857,6 @@
     {
      "opzioni": [
       {
-       "player_id": "152",
-       "giocatore": "Zielinski",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "2529",
-       "giocatore": "Mkhitaryan",
-       "titolarita_pct": 45,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "2764",
-       "giocatore": "Martinez L.",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "4871",
-       "giocatore": "Thuram",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7071",
-       "giocatore": "Esposito F.P.",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "4871",
-       "giocatore": "Thuram",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "6217",
        "giocatore": "Bisseck",
        "titolarita_pct": 51,
@@ -42013,6 +41933,54 @@
        "ruolo": "C"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "152",
+       "giocatore": "Zielinski",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "2529",
+       "giocatore": "Mkhitaryan",
+       "titolarita_pct": 45,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "2764",
+       "giocatore": "Martinez L.",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "4871",
+       "giocatore": "Thuram",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7071",
+       "giocatore": "Esposito F.P.",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "4871",
+       "giocatore": "Thuram",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
     }
    ]
   },
@@ -42036,43 +42004,47 @@
        "ruolo": "D"
       }
      ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7198",
-       "giocatore": "Piotrowski",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7208",
-       "giocatore": "Miller L.",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6783",
-       "giocatore": "Unai Gomez",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7208",
-       "giocatore": "Miller L.",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
     }
    ]
   }
  ],
  "news": [
+  {
+   "title": "Fiorentina, scongiurato un lungo stop per Oulai: le sue condizioni verso il Venezia",
+   "summary": "Il centrocampista della Fiorentina ha lavorato a parte: da domani nuova valutazione per capire i tempi di recupero.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/oulai-fiorentina-infortunio-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2289965411-800549493ba4-e1788615079150.jpg",
+   "date": "2026-09-08T16:00:44+00:00"
+  },
+  {
+   "title": "Allegri: \"La scelta su Anguissa e come stanno lui e Neres! Su De Bruyne, Hojlund, Vergara e McTominay...\"",
+   "summary": "Il tecnico del Napoli, Massimiliano Allegri, ha parlato in conferenza stampa ed ai microfoni di Sky Sport alla vigilia della sfida di Champions League della...",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-allegri-de-bruyne-anguissa-neres-vergara/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293976284-d62b8df6ab04-e1788879360311.jpeg",
+   "date": "2026-09-08T15:20:23+00:00"
+  },
+  {
+   "title": "Chi sale per asta e scambi dopo la 3a giornata al fanta: da Raimondo a Diao, ecco sette nomi",
+   "summary": "Da Raimondo a Diao, ecco i sette giocatori che salgono di valore al fantacalcio dopo la terza giornata: attenzione per l'asta e gli scambi.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/fantacalcio-asta-scambi-raimondo-frattesi-diao-3a-giornata/",
+   "image": "https://static.sosfanta.com/2026/09/EA9DB881-8260-4179-9E36-C4DF27F3CCF2_1_201_a-4af558813491-e1788864182829.jpeg",
+   "date": "2026-09-08T15:15:27+00:00"
+  },
+  {
+   "title": "Pallone d'Oro 2026, la scelta su Lautaro Martinez: ecco i 30 candidati, una squadra ne ha 10!",
+   "summary": "C'è anche Lautaro Martinez fra i 30 candidati per il Pallone d'Oro 2026. Il capitano nerazzurro è l'unico a rappresentare la Serie A italiana.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/pallone-doro-30-candidati-lautaro-martinez/",
+   "image": "https://static.sosfanta.com/2026/08/Lautaro-push-2d703faa62d4-scaled-e1787173916292.jpg",
+   "date": "2026-09-08T15:00:20+00:00"
+  },
   {
    "title": "Kit per l’asta al fantacalcio 2026-27: dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo",
    "summary": "Ecco il nostro kit per l'asta: tutto ciò che ti serve per il fantacalcio 2026-2027, dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo.",
@@ -42080,7 +42052,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/guida-asta-fantacalcio/kit-asta-fantacalcio-guida-formazioni-tipo-rigoristi-tiratori-portieri-budget/",
    "image": "https://static.sosfanta.com/2026/09/Cisse-e0b8700d0ff3-e1788870435434.jpg",
-   "date": "2026-09-08T12:35:37+00:00"
+   "date": "2026-09-08T14:45:37+00:00"
   },
   {
    "title": "BREAKING - Napoli, intervento riuscito per McTominay: i tempi ufficiali di recupero. Per Anguissa e Neres...",
@@ -42089,7 +42061,52 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/napoli/napoli-intervento-mctominay-tempi-recupero-anguissa-neres-top/",
    "image": "https://static.sosfanta.com/2026/09/McTominay-d8ccee9587c2-e1788866175182.jpg",
-   "date": "2026-09-08T12:15:00+00:00"
+   "date": "2026-09-08T14:15:00+00:00"
+  },
+  {
+   "title": "UFFICIALE - Udinese, lieve aritmia cardiaca benigna per Piotrowski: si opera, il comunicato e i tempi",
+   "summary": "Si sottoporrà a un intervento Jakub Piotrowski, uscito anzitempo ieri in casa Udinese contro la Lazio: il comunicato ufficiale del club.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/udinese-aritmia-cardiaca-benigna-piotrowski-condizioni-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/202601/abeb64f261b2d2b07895cb3686c953a3-e1768661230173.jpg",
+   "date": "2026-09-08T14:00:29+00:00"
+  },
+  {
+   "title": "UFFICIALE - Diogo Leite è un nuovo giocatore della Lazio: il comunicato del club",
+   "summary": "Il difensore, svincolatosi dall'Union Berlino, ha firmato con il club biancoceleste: il comunicato ufficiale.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/diogo-leite-lazio-ufficiale-tesseramento-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2255685799-ef55151d7928.jpg",
+   "date": "2026-09-08T13:00:28+00:00"
+  },
+  {
+   "title": "Ecco la nuova Fiorentina di Vanoli: il modulo, i punti fermi e chi sale e chi scende per fantacalcio (e asta)",
+   "summary": "Clamoroso ribaltone in casa Fiorentina, è tornato Paolo Vanoli: come cambia la formazione? Dal modulo ai punti fermi e chi sale e chi scende per il fantacalcio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/nuova-fiorentina-vanoli-modulo-probabile-formazione-fantacalcio-sale-scende/",
+   "image": "https://static.sosfanta.com/2026/09/Vanoli-833b5c646463-e1788857433962.jpg",
+   "date": "2026-09-08T12:45:12+00:00"
+  },
+  {
+   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 3 giornate",
+   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/09/Gudmundsson-89284ee20eb5-e1788854602212.jpg",
+   "date": "2026-09-08T12:30:56+00:00"
+  },
+  {
+   "title": "NEWS - Dimarco, McTominay, Sarr, Anguissa, Pellegrini, Gila, McKennie, Neres, Bakola, Gabbia: le novità",
+   "summary": "Terminata la terza giornata di campionato, queste le ultime novità dai campi su infortuni e possibili ritorni in campo",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-dimarco-mctominay-sarr-anguissa-pellegrini-gila-mckennie-neres-bakola-gabbia-le-novita/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293033823-55938227336c.jpg",
+   "date": "2026-09-08T12:15:31+00:00"
   },
   {
    "title": "Milan, le novità sulle condizioni di Gila. Gli aggiornamenti sul ritorno di Gabbia",
@@ -42101,31 +42118,31 @@
    "date": "2026-09-08T12:00:46+00:00"
   },
   {
-   "title": "Ecco la nuova Fiorentina di Vanoli: il modulo, i punti fermi e chi sale e chi scende per fantacalcio (e asta)",
-   "summary": "Clamoroso ribaltone in casa Fiorentina, è tornato Paolo Vanoli: come cambia la formazione? Dal modulo ai punti fermi e chi sale e chi scende per il fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/nuova-fiorentina-vanoli-modulo-probabile-formazione-fantacalcio-sale-scende/",
-   "image": "https://static.sosfanta.com/2026/09/Vanoli-833b5c646463-e1788857433962.jpg",
-   "date": "2026-09-08T11:45:12+00:00"
-  },
-  {
-   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 3 giornate",
-   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/09/Gudmundsson-89284ee20eb5-e1788854602212.jpg",
-   "date": "2026-09-08T11:30:56+00:00"
-  },
-  {
-   "title": "NEWS - Dimarco, McTominay, Sarr, Anguissa, Pellegrini, Gila, McKennie, Neres, Bakola, Gabbia: le novità",
-   "summary": "Terminata la terza giornata di campionato, queste le ultime novità dai campi su infortuni e possibili ritorni in campo",
+   "title": "ULTIM'ORA - Juve, già oggi operazione al menisco per Locatelli! 2026 finito e lungo stop, i tempi di recupero",
+   "summary": "Altra tegola per la Juventus di Spalletti. Il centrocampista bianconero si opera al ginocchio e rimarrà fuori per un lungo periodo",
    "author": "Andrea Della Sala",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-dimarco-mctominay-sarr-anguissa-pellegrini-gila-mckennie-neres-bakola-gabbia-le-novita/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293033823-55938227336c.jpg",
-   "date": "2026-09-08T11:15:31+00:00"
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-locatelli-infortunio-operazione-menisco-tempi-recupero-lungo-stop/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293878385-b73a732196c7.jpg",
+   "date": "2026-09-08T11:45:45+00:00"
+  },
+  {
+   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: oggi giocano così, le novità dopo 3 giornate",
+   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/08/Maldini-ed4a04513b2e-e1787767742999.jpg",
+   "date": "2026-09-08T11:30:46+00:00"
+  },
+  {
+   "title": "FLASH - Juve, è emergenza senza fine: infortunio per Boga! Pronti gli esami, cosa filtra sui tempi di recupero",
+   "summary": "Dopo le operazioni di Yildiz e Thuram, gli infortuni di Ekhator e Cabal e l'attesa per Locatelli che deciderà se operarsi al ginocchio, si ferma anche Boga",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-boga-stop-muscolare-esami-tempi/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293865813-a3b471537174.jpg",
+   "date": "2026-09-08T11:15:34+00:00"
   },
   {
    "title": "Roma, superati i problemi fisici per Pellegrini: ecco quando tornerà a disposizione",
@@ -42164,31 +42181,22 @@
    "date": "2026-09-08T10:47:18+00:00"
   },
   {
-   "title": "ULTIM'ORA - Juve, già oggi operazione al menisco per Locatelli! 2026 finito e lungo stop, i tempi di recupero",
-   "summary": "Altra tegola per la Juventus di Spalletti. Il centrocampista bianconero si opera al ginocchio e rimarrà fuori per un lungo periodo",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-locatelli-infortunio-operazione-menisco-tempi-recupero-lungo-stop/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293878385-b73a732196c7.jpg",
-   "date": "2026-09-08T10:45:45+00:00"
-  },
-  {
    "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per l'asta: da Yildiz a Orsolini",
    "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/202604/a52c8c8d0a33d80e749ebde4970453ce-e1777463751783.jpg",
+   "image": "https://static.sosfanta.com/2026/08/Orsolini-eb9bd309c6ea-e1788197567960.jpg",
    "date": "2026-09-08T10:30:42+00:00"
   },
   {
-   "title": "FLASH - Juve, è emergenza senza fine: infortunio per Boga! Pronti gli esami, cosa filtra sui tempi di recupero",
-   "summary": "Dopo le operazioni di Yildiz e Thuram, gli infortuni di Ekhator e Cabal e l'attesa per Locatelli che deciderà se operarsi al ginocchio, si ferma anche Boga",
-   "author": "Andrea Della Sala",
+   "title": "Lazio, caviglia di Pinamonti da valutare. E Gattuso: “Frattesi era stanco, la verità sul ruolo di Gudmundsson”",
+   "summary": "Gattuso è intervenuto ai microfoni dopo la sfida tra Udinese e Lazio che ha chiuso il terzo turno di campionato.",
+   "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-boga-stop-muscolare-esami-tempi/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293865813-a3b471537174.jpg",
-   "date": "2026-09-08T10:15:34+00:00"
+   "url": "https://www.sosfanta.com/squadra/lazio/gattuso-lazio/",
+   "image": "https://static.sosfanta.com/2026/09/Gattuso-a825c9c983ee-e1788814450981.jpg",
+   "date": "2026-09-08T10:15:15+00:00"
   },
   {
    "title": "Napoli, Anguissa e Neres in dubbio per l'Arsenal: le ultime. Oggi si opera McTominay: i tempi di recupero",
@@ -42198,24 +42206,6 @@
    "url": "https://www.sosfanta.com/squadra/napoli/napoli-operazione-mctominay-anguissa-neres-arsenal/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2291597536-f63bb4d4cd85.jpg",
    "date": "2026-09-08T10:00:41+00:00"
-  },
-  {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: oggi giocano così, le novità dopo 3 giornate",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/08/Maldini-ed4a04513b2e-e1787767742999.jpg",
-   "date": "2026-09-08T09:30:46+00:00"
-  },
-  {
-   "title": "Lazio, caviglia di Pinamonti da valutare. E Gattuso: “Frattesi era stanco, la verità sul ruolo di Gudmundsson”",
-   "summary": "Gattuso è intervenuto ai microfoni dopo la sfida tra Udinese e Lazio che ha chiuso il terzo turno di campionato.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/gattuso-lazio/",
-   "image": "https://static.sosfanta.com/2026/09/Gattuso-a825c9c983ee-e1788814450981.jpg",
-   "date": "2026-09-08T09:15:15+00:00"
   },
   {
    "title": "Juve, Spalletti spera di recuperare Sarr e McKennie: le ultime in vista del Sassuolo",
@@ -42378,60 +42368,6 @@
    "url": "https://www.sosfanta.com/squadra/inter/chivu-inter-conferenza-champions-league-real-madrid/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2290770999-c7823e013620.jpg",
    "date": "2026-09-07T17:45:24+00:00"
-  },
-  {
-   "title": "Lautaro: \"Rispondo così alle parole di Mbappé! Su Dumfries e Mourinho vi dico...\"",
-   "summary": "Le dichiarazioni di Lautaro Martinez alla vigilia di Real Madrid-Inter di Champions League.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/lautaro-martinez-conferenza-inter-champions-league-real-madrid-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Lautaro-push-2d703faa62d4-scaled-e1787173916292.jpg",
-   "date": "2026-09-07T17:30:50+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Le condizioni di Gila! Locatelli, Rodriguez, Traoré, KDB, El Shaarawy, Neres, Orsolini, Zhegrova...",
-   "summary": "Le ultimissime novità tra infortuni e scelte di formazione in ottica fantacalcio in vista della terza giornata di Serie A.",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/campi-condizioni-gila-locatelli-rodriguez-traore-kdb-elshaarawy-neres-orsolini-zhegrova-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292495046-bac0bb04044c-e1788784544995.jpg",
-   "date": "2026-09-07T17:15:07+00:00"
-  },
-  {
-   "title": "Napoli, in 4 ancora out contro l'Arsenal. Le ultime su De Bruyne e Neres per la Champions",
-   "summary": "Dopo la sconfitta col Napoli, Allegri inizia a pensare alla gara di Champions con l'Arsenal",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-4-infortunati-de-bruyne-neres/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291067190-2ff4c10e55f7.jpg",
-   "date": "2026-09-07T17:00:59+00:00"
-  },
-  {
-   "title": "UFFICIALE - Fiorentina, Vanoli è il nuovo allenatore: il comunicato del club",
-   "summary": "Il tecnico ha accettato subito con entusiasmo l'incarico: ecco l'annuncio ufficiale della società.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/vanoli-fiorentina-ufficiale-allenatore-fantacalcio/",
-   "image": "https://static.sosfanta.com/202604/faf9137c8178ce003ba6eb8e1f8a8576-scaled-e1775329921602.jpg",
-   "date": "2026-09-07T16:30:42+00:00"
-  },
-  {
-   "title": "Cagliari-Lecce, le formazioni ufficiali: da Maldini e Fazzini a Tiago Gabriel, Monteiro, Gallo e Ilic, tutte le scelte",
-   "summary": "Le formazioni ufficiali di Cagliari-Lecce: gli undici titolari scelti dai due tecnici per il posticipo del lunedì di campionato.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-lecce-formazioni-ufficiali-maldini-fazzini-a-tiagogabriel-monteiro-gallo-ilic-tutte-scelte-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291587678-de3d1610c955-e1788785668752.jpg",
-   "date": "2026-09-07T16:15:45+00:00"
-  },
-  {
-   "title": "Giuntoli: \"All'Atalanta con Sarri per aprire un nuovo ciclo. Su Kessié, Alajbegovic, Romagnoli, De Roon e Hien...\"",
-   "summary": "Cristiano Giuntoli, direttore sportivo dell'Atalanta, è intervenuto in conferenza stampa - a margine della presentazione di Franck Kessié - per fare il punto...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/giuntoli-atalanta-conferenza-sarri-kessie-alajbegovic-romagnoli-de-roon/",
-   "image": "https://static.sosfanta.com/202605/26b0d51d377b8a1e66220e1e2b5d19e2-scaled-e1778324943956.jpg",
-   "date": "2026-09-07T16:00:57+00:00"
   }
  ],
  "marketDifficulty": {
@@ -42452,14 +42388,6 @@
   }
  },
  "baseNote": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale.",
- "propOddsStages": {
-  "early": "2026-09-08T12:51:49+00:00"
- },
- "propOddsCheckedAt": "2026-09-08T12:51:49+00:00",
- "propOddsUsage": {
-  "month": "2026-09",
-  "estimatedCredits": 40
- },
  "oddsUpdatedAt": "2026-09-08T12:51:49+00:00",
  "oddsSource": "the-odds-api",
  "propOdds": {
@@ -45353,5 +45281,13 @@
   "errors": []
  },
  "propOddsUpdatedAt": "2026-09-08T12:51:54+00:00",
- "propOddsSource": "the-odds-api"
+ "propOddsSource": "the-odds-api",
+ "propOddsCheckedAt": "2026-09-08T12:51:49+00:00",
+ "propOddsStages": {
+  "early": "2026-09-08T12:51:49+00:00"
+ },
+ "propOddsUsage": {
+  "month": "2026-09",
+  "estimatedCredits": 40
+ }
 }
