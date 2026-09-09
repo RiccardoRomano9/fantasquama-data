@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-09T13:40:48+00:00",
+ "generatedAt": "2026-09-09T16:46:15+00:00",
  "season": "2026-27",
  "gameweek": 4,
- "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -361,7 +361,7 @@
    "appearances": 1,
    "gameweeksElapsed": 1,
    "estimatedVote": 5.84,
-   "playProbability": 0.349,
+   "playProbability": 0.445,
    "events": {
     "gf": 0.0764,
     "rf": 0.0063,
@@ -382,7 +382,7 @@
     "q90": 6.02
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.349,
+   "learnedPlayProbability": 0.445,
    "learnedEvents": {
     "gf": 0.1532,
     "rf": 0.0111,
@@ -405,8 +405,8 @@
    },
    "quotazione": 14.0,
    "fvm": 50.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -4222,7 +4222,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.96,
-   "playProbability": 0.524,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.1746,
     "rf": 0.0109,
@@ -4243,7 +4243,7 @@
     "q90": 6.35
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.524,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.3079,
     "rf": 0.032,
@@ -4268,8 +4268,8 @@
    },
    "quotazione": 14.0,
    "fvm": 40.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -6706,7 +6706,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.13,
-   "playProbability": 0.831,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0826,
     "rf": 0.0051,
@@ -6727,7 +6727,7 @@
     "q90": 6.62
    },
    "learnedVote": 6.2,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.1403,
     "rf": 0.0084,
@@ -6753,7 +6753,7 @@
    "quotazione": 15.0,
    "fvm": 78.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -7541,7 +7541,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.11,
-   "playProbability": 0.087,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.0626,
     "rf": 0.0056,
@@ -7562,7 +7562,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.2,
-   "learnedPlayProbability": 0.087,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1105,
     "rf": 0.0069,
@@ -7588,7 +7588,7 @@
    "quotazione": 3.0,
    "fvm": 11.0,
    "lineupSlot": "panchina",
-   "startingProbability": 10.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -11767,7 +11767,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.13,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0572,
     "rf": 0.0077,
@@ -11788,7 +11788,7 @@
     "q90": 6.36
    },
    "learnedVote": 6.11,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.1306,
     "rf": 0.0097,
@@ -11811,8 +11811,8 @@
    },
    "quotazione": 12.0,
    "fvm": 50.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -15629,7 +15629,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.04,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.0593,
     "rf": 0.0063,
@@ -15650,7 +15650,7 @@
     "q90": 6.28
    },
    "learnedVote": 5.99,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1373,
     "rf": 0.0085,
@@ -15675,8 +15675,8 @@
    },
    "quotazione": 4.0,
    "fvm": 28.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -22901,7 +22901,7 @@
    "appearances": 1,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.0,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0275,
     "rf": 0.0003,
@@ -22922,7 +22922,7 @@
     "q90": 6.32
    },
    "learnedVote": 5.87,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0586,
     "rf": 0.0055,
@@ -22947,8 +22947,8 @@
    },
    "quotazione": 9.0,
    "fvm": 20.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23111,7 +23111,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.02,
-   "playProbability": 0.524,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0275,
     "rf": 0.0003,
@@ -23132,7 +23132,7 @@
     "q90": 6.43
    },
    "learnedVote": 6.03,
-   "learnedPlayProbability": 0.524,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.061,
     "rf": 0.0055,
@@ -23157,8 +23157,8 @@
    },
    "quotazione": 7.0,
    "fvm": 20.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -25252,7 +25252,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.97,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0312,
     "rf": 0.0003,
@@ -25273,7 +25273,7 @@
     "q90": 6.32
    },
    "learnedVote": 5.98,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0758,
     "rf": 0.0052,
@@ -25298,8 +25298,8 @@
    },
    "quotazione": 3.0,
    "fvm": 12.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -28989,7 +28989,7 @@
    "appearances": 1,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.94,
-   "playProbability": 0.35,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0215,
     "rf": 0.0003,
@@ -29010,7 +29010,7 @@
     "q90": 6.17
    },
    "learnedVote": 5.85,
-   "learnedPlayProbability": 0.35,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.05,
     "rf": 0.0048,
@@ -29033,8 +29033,8 @@
    },
    "quotazione": 4.0,
    "fvm": 8.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -29262,7 +29262,7 @@
    "appearances": 1,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.97,
-   "playProbability": 0.393,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0284,
     "rf": 0.0003,
@@ -29283,7 +29283,7 @@
     "q90": 6.25
    },
    "learnedVote": 5.85,
-   "learnedPlayProbability": 0.393,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0582,
     "rf": 0.0054,
@@ -29308,8 +29308,8 @@
    },
    "quotazione": 3.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -31614,7 +31614,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.92,
-   "playProbability": 0.481,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0278,
     "rf": 0.0003,
@@ -31635,7 +31635,7 @@
     "q90": 6.26
    },
    "learnedVote": 5.96,
-   "learnedPlayProbability": 0.481,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0527,
     "rf": 0.005,
@@ -31658,8 +31658,8 @@
    },
    "quotazione": 6.0,
    "fvm": 12.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -40778,14 +40778,14 @@
     {
      "opzioni": [
       {
-       "player_id": "7175",
-       "giocatore": "Joao Mario",
+       "player_id": "5885",
+       "giocatore": "Dodò",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "5885",
-       "giocatore": "Dodò",
+       "player_id": "7175",
+       "giocatore": "Joao Mario",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -40794,15 +40794,15 @@
     {
      "opzioni": [
       {
-       "player_id": "5365",
-       "giocatore": "Dragusin",
-       "titolarita_pct": 60,
+       "player_id": "5603",
+       "giocatore": "Pongracic",
+       "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "5603",
-       "giocatore": "Pongracic",
-       "titolarita_pct": 40,
+       "player_id": "5365",
+       "giocatore": "Dragusin",
+       "titolarita_pct": 49,
        "ruolo": "D"
       }
      ]
@@ -40810,15 +40810,15 @@
     {
      "opzioni": [
       {
-       "player_id": "7410",
-       "giocatore": "Viery",
-       "titolarita_pct": 55,
+       "player_id": "4378",
+       "giocatore": "Ranieri L.",
+       "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "4378",
-       "giocatore": "Ranieri L.",
-       "titolarita_pct": 45,
+       "player_id": "7410",
+       "giocatore": "Viery",
+       "titolarita_pct": 49,
        "ruolo": "D"
       }
      ]
@@ -40842,32 +40842,48 @@
     {
      "opzioni": [
       {
-       "player_id": "7023",
-       "giocatore": "Pellegrino M.",
-       "titolarita_pct": 60,
-       "ruolo": "A"
+       "player_id": "6908",
+       "giocatore": "Atta",
+       "titolarita_pct": 51,
+       "ruolo": "C"
       },
       {
-       "player_id": "5694",
-       "giocatore": "Beto",
-       "titolarita_pct": 40,
-       "ruolo": "A"
+       "player_id": "4947",
+       "giocatore": "Brescianini",
+       "titolarita_pct": 49,
+       "ruolo": "C"
       }
      ]
     },
     {
      "opzioni": [
       {
-       "player_id": "6827",
-       "giocatore": "Njie",
+       "player_id": "7625",
+       "giocatore": "Goncalves P.",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "7625",
-       "giocatore": "Goncalves P.",
+       "player_id": "6827",
+       "giocatore": "Njie",
        "titolarita_pct": 49,
        "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5694",
+       "giocatore": "Beto",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "7023",
+       "giocatore": "Pellegrino M.",
+       "titolarita_pct": 49,
+       "ruolo": "A"
       }
      ]
     }
@@ -40968,37 +40984,21 @@
    ]
   },
   {
-   "name": "Sassuolo",
+   "name": "Lazio",
    "formation": "4-3-3",
    "isOfficial": false,
    "ballottaggi": [
     {
      "opzioni": [
       {
-       "player_id": "7573",
-       "giocatore": "Cinquegrano",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6896",
-       "giocatore": "Van Der Brempt",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "5851",
-       "giocatore": "Doig",
+       "player_id": "7131",
+       "giocatore": "Floriani Mussolini",
        "titolarita_pct": 60,
        "ruolo": "D"
       },
       {
-       "player_id": "7329",
-       "giocatore": "Obrador",
+       "player_id": "2263",
+       "giocatore": "Lazzari",
        "titolarita_pct": 40,
        "ruolo": "D"
       }
@@ -41007,47 +41007,47 @@
     {
      "opzioni": [
       {
-       "player_id": "6677",
-       "giocatore": "Adzic",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5844",
-       "giocatore": "Thorstvedt",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6246",
-       "giocatore": "Lipani",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5844",
-       "giocatore": "Thorstvedt",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7347",
-       "giocatore": "Bowie",
+       "player_id": "7012",
+       "giocatore": "Provstgaard",
        "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "7580",
+       "giocatore": "Sutalo J.",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5800",
+       "giocatore": "Gudmundsson A.",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "6398",
+       "giocatore": "Isaksen",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "2038",
+       "giocatore": "Pinamonti",
+       "titolarita_pct": 51,
        "ruolo": "A"
       },
       {
-       "player_id": "4463",
-       "giocatore": "Esposito Se.",
-       "titolarita_pct": 45,
+       "player_id": "6556",
+       "giocatore": "Noslin",
+       "titolarita_pct": 49,
        "ruolo": "A"
       }
      ]
@@ -41055,21 +41055,21 @@
    ]
   },
   {
-   "name": "Juventus",
-   "formation": "4-2-3-1",
+   "name": "Milan",
+   "formation": "3-4-2-1",
    "isOfficial": false,
    "ballottaggi": [
     {
      "opzioni": [
       {
-       "player_id": "6042",
-       "giocatore": "Lucumì",
+       "player_id": "5833",
+       "giocatore": "Gila",
        "titolarita_pct": 60,
        "ruolo": "D"
       },
       {
-       "player_id": "6766",
-       "giocatore": "Kelly L.",
+       "player_id": "4751",
+       "giocatore": "Tomori",
        "titolarita_pct": 40,
        "ruolo": "D"
       }
@@ -41078,16 +41078,48 @@
     {
      "opzioni": [
       {
-       "player_id": "5951",
-       "giocatore": "Kolo Muani",
-       "titolarita_pct": 51,
-       "ruolo": "A"
+       "player_id": "4856",
+       "giocatore": "Chukwueze",
+       "titolarita_pct": 55,
+       "ruolo": "C"
       },
       {
-       "player_id": "6752",
-       "giocatore": "Woltemade",
-       "titolarita_pct": 49,
-       "ruolo": "A"
+       "player_id": "6372",
+       "giocatore": "Moreira",
+       "titolarita_pct": 45,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5273",
+       "giocatore": "Estupinan",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6496",
+       "giocatore": "Bartesaghi",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6618",
+       "giocatore": "Cissè A.",
+       "titolarita_pct": 55,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "4892",
+       "giocatore": "Saelemaekers",
+       "titolarita_pct": 45,
+       "ruolo": "C"
       }
      ]
     }
@@ -41220,116 +41252,6 @@
    ]
   },
   {
-   "name": "Torino",
-   "formation": "3-5-2",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "7624",
-       "giocatore": "Braganca",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6170",
-       "giocatore": "Gineitis",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6646",
-       "giocatore": "Adams C.",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "2061",
-       "giocatore": "Simeone",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Roma",
-   "formation": "3-4-2-1",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "4317",
-       "giocatore": "N'Dicka",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "4705",
-       "giocatore": "Balerdi",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7599",
-       "giocatore": "Lulli",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "4998",
-       "giocatore": "Molina N.",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "309",
-       "giocatore": "Dybala",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "5734",
-       "giocatore": "Soulè",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7556",
-       "giocatore": "Mora",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5734",
-       "giocatore": "Soulè",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "name": "Lecce",
    "formation": "4-3-3",
    "isOfficial": false,
@@ -41402,6 +41324,274 @@
        "giocatore": "Colpani",
        "titolarita_pct": 49,
        "ruolo": "C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Napoli",
+   "formation": "4-3-3",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "6638",
+       "giocatore": "Marin R.",
+       "titolarita_pct": 60,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "4664",
+       "giocatore": "Badiashile",
+       "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "1852",
+       "giocatore": "Spinazzola",
+       "titolarita_pct": 60,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "5840",
+       "giocatore": "Olivera",
+       "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7120",
+       "giocatore": "Lang",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "7351",
+       "giocatore": "Santos A.",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bologna",
+   "formation": "4-2-3-1",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "5678",
+       "giocatore": "Holm",
+       "titolarita_pct": 60,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "4433",
+       "giocatore": "Zortea",
+       "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7483",
+       "giocatore": "Alhassane",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "4734",
+       "giocatore": "Miranda J.",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5298",
+       "giocatore": "Pobega",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "6054",
+       "giocatore": "Moro N.",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "4436",
+       "giocatore": "Cambiaghi",
+       "titolarita_pct": 60,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "6833",
+       "giocatore": "Mbangula",
+       "titolarita_pct": 40,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "4359",
+       "giocatore": "Piccoli",
+       "titolarita_pct": 55,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "6675",
+       "giocatore": "Dovbyk",
+       "titolarita_pct": 45,
+       "ruolo": "A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sassuolo",
+   "formation": "4-3-3",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "7573",
+       "giocatore": "Cinquegrano",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6896",
+       "giocatore": "Van Der Brempt",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5851",
+       "giocatore": "Doig",
+       "titolarita_pct": 60,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "7329",
+       "giocatore": "Obrador",
+       "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6677",
+       "giocatore": "Adzic",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5844",
+       "giocatore": "Thorstvedt",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6246",
+       "giocatore": "Lipani",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5844",
+       "giocatore": "Thorstvedt",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7347",
+       "giocatore": "Bowie",
+       "titolarita_pct": 55,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "4463",
+       "giocatore": "Esposito Se.",
+       "titolarita_pct": 45,
+       "ruolo": "A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Juventus",
+   "formation": "4-2-3-1",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "6042",
+       "giocatore": "Lucumì",
+       "titolarita_pct": 60,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6766",
+       "giocatore": "Kelly L.",
+       "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5951",
+       "giocatore": "Kolo Muani",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "6752",
+       "giocatore": "Woltemade",
+       "titolarita_pct": 49,
+       "ruolo": "A"
       }
      ]
     }
@@ -41582,53 +41772,37 @@
    ]
   },
   {
-   "name": "Napoli",
-   "formation": "4-3-3",
+   "name": "Torino",
+   "formation": "3-5-2",
    "isOfficial": false,
    "ballottaggi": [
     {
      "opzioni": [
       {
-       "player_id": "6638",
-       "giocatore": "Marin R.",
-       "titolarita_pct": 60,
-       "ruolo": "D"
+       "player_id": "7624",
+       "giocatore": "Braganca",
+       "titolarita_pct": 51,
+       "ruolo": "C"
       },
       {
-       "player_id": "4664",
-       "giocatore": "Badiashile",
-       "titolarita_pct": 40,
-       "ruolo": "D"
+       "player_id": "6170",
+       "giocatore": "Gineitis",
+       "titolarita_pct": 49,
+       "ruolo": "C"
       }
      ]
     },
     {
      "opzioni": [
       {
-       "player_id": "1852",
-       "giocatore": "Spinazzola",
-       "titolarita_pct": 60,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "5840",
-       "giocatore": "Olivera",
-       "titolarita_pct": 40,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7120",
-       "giocatore": "Lang",
+       "player_id": "6646",
+       "giocatore": "Adams C.",
        "titolarita_pct": 51,
        "ruolo": "A"
       },
       {
-       "player_id": "7351",
-       "giocatore": "Santos A.",
+       "player_id": "2061",
+       "giocatore": "Simeone",
        "titolarita_pct": 49,
        "ruolo": "A"
       }
@@ -41637,211 +41811,21 @@
    ]
   },
   {
-   "name": "Bologna",
-   "formation": "4-2-3-1",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "5678",
-       "giocatore": "Holm",
-       "titolarita_pct": 60,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "4433",
-       "giocatore": "Zortea",
-       "titolarita_pct": 40,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7483",
-       "giocatore": "Alhassane",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "4734",
-       "giocatore": "Miranda J.",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "5298",
-       "giocatore": "Pobega",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6054",
-       "giocatore": "Moro N.",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "4436",
-       "giocatore": "Cambiaghi",
-       "titolarita_pct": 60,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6833",
-       "giocatore": "Mbangula",
-       "titolarita_pct": 40,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "4359",
-       "giocatore": "Piccoli",
-       "titolarita_pct": 55,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "6675",
-       "giocatore": "Dovbyk",
-       "titolarita_pct": 45,
-       "ruolo": "A"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Lazio",
-   "formation": "4-3-3",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "7131",
-       "giocatore": "Floriani Mussolini",
-       "titolarita_pct": 60,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "2263",
-       "giocatore": "Lazzari",
-       "titolarita_pct": 40,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7012",
-       "giocatore": "Provstgaard",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "7580",
-       "giocatore": "Sutalo J.",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "5800",
-       "giocatore": "Gudmundsson A.",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6398",
-       "giocatore": "Isaksen",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "2038",
-       "giocatore": "Pinamonti",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "6556",
-       "giocatore": "Noslin",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Milan",
+   "name": "Roma",
    "formation": "3-4-2-1",
    "isOfficial": false,
    "ballottaggi": [
     {
      "opzioni": [
       {
-       "player_id": "5833",
-       "giocatore": "Gila",
-       "titolarita_pct": 60,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "4751",
-       "giocatore": "Tomori",
-       "titolarita_pct": 40,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "4856",
-       "giocatore": "Chukwueze",
-       "titolarita_pct": 55,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6372",
-       "giocatore": "Moreira",
-       "titolarita_pct": 45,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "5273",
-       "giocatore": "Estupinan",
+       "player_id": "4317",
+       "giocatore": "N'Dicka",
        "titolarita_pct": 55,
        "ruolo": "D"
       },
       {
-       "player_id": "6496",
-       "giocatore": "Bartesaghi",
+       "player_id": "4705",
+       "giocatore": "Balerdi",
        "titolarita_pct": 45,
        "ruolo": "D"
       }
@@ -41850,16 +41834,48 @@
     {
      "opzioni": [
       {
-       "player_id": "6618",
-       "giocatore": "Cissè A.",
-       "titolarita_pct": 55,
+       "player_id": "7599",
+       "giocatore": "Lulli",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "4998",
+       "giocatore": "Molina N.",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "309",
+       "giocatore": "Dybala",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "5734",
+       "giocatore": "Soulè",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7556",
+       "giocatore": "Mora",
+       "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "4892",
-       "giocatore": "Saelemaekers",
-       "titolarita_pct": 45,
-       "ruolo": "C"
+       "player_id": "5734",
+       "giocatore": "Soulè",
+       "titolarita_pct": 49,
+       "ruolo": "A"
       }
      ]
     }
@@ -42026,13 +42042,22 @@
  ],
  "news": [
   {
-   "title": "Juve, i tempi stimati per il rientro in campo di Locatelli. Stop Boga, quanto dovrebbe rimanere fuori",
-   "summary": "I tempi di recupero per Locatelli, operatosi ieri al menisco, e Boga che ha riportato una lesione di medio grado",
+   "title": "Gasperini: \"Dybala sta bene, con lui e Malen si alza la qualità! Sui tempi di recupero di Pellegrini...\"",
+   "summary": "La Roma esordisce in Champions League sul campo del Fenerbahce: di seguito ecco le dichiarazioni in conferenza stampa di Gian Piero Gasperini.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-gasperini-fenerbahce-dybala-malen-pellegrini/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293493902-bc93d62c178e-e1788957251718.jpg",
+   "date": "2026-09-09T16:40:49+00:00"
+  },
+  {
+   "title": "Napoli, la probabile formazione con l'Arsenal: da Anguissa a Hojlund, Spinazzola e De Bruyne",
+   "summary": "Emergenza a centrocampo per il Napoli di Max Allegri stasera al debutto in Champions League contro l'Arsenal",
    "author": "Andrea Della Sala",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-tempi-locatelli-quanto-fuori-boga/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293865813-a3b471537174.jpg",
-   "date": "2026-09-09T13:00:55+00:00"
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-arsenal-probabile-formazion-de-bruyne-anguissa/",
+   "image": "https://static.sosfanta.com/2026/08/de-bruyne-0d02e2103de6-e1787431975877.jpeg",
+   "date": "2026-09-09T16:30:57+00:00"
   },
   {
    "title": "Casi per l’asta e il fantacalcio, cosa fare: Locatelli, McTominay, Muani, Pulisic, Cambiaso, Varela, Boga...",
@@ -42041,7 +42066,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/casi-asta-fantacalcio-locatelli-mctominay-kolomuani-pulisic-cambiaso-varela/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2289750320-352746456ca1-e1788884848363.jpg",
-   "date": "2026-09-09T13:00:24+00:00"
+   "date": "2026-09-09T16:15:24+00:00"
+  },
+  {
+   "title": "Fabregas: \"Kean o Douvikas? Ho già deciso chi gioca in attacco! Sul Lipsia e la Champions...\"",
+   "summary": "Le parole di Fabregas in conferenza stampa alla vigilia dell'esordio in Champions League del Como contro il Lipsia.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/como-fabregas-conferenza/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293033407-1-12a11a6ccf04-e1788954920932.jpg",
+   "date": "2026-09-09T16:00:41+00:00"
   },
   {
    "title": "\"Chi prendo al fantacalcio tra\": Calò, Thorstvedt, Nico, Davis, Cacciamani, Raimondo, Taylor, Kean e Zaccagni",
@@ -42050,7 +42084,34 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/scambi-fantacalcio/chi-prendo-fantacalcio-calo-thorstvedt-nico-davis-cacciamani-raimondo-taylor-kean-zaccagni-asta-scambi/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2292673341-96e4f6154586-e1788885740906.jpg",
-   "date": "2026-09-09T12:45:11+00:00"
+   "date": "2026-09-09T15:45:11+00:00"
+  },
+  {
+   "title": "Venezia, esami per Bella-Kotchap: arriva l'esito. Franjic si è operato: il comunicato e i tempi di recupero",
+   "summary": "Importanti aggiornamenti in casa Venezia: l'esito degli esami di Bella-Kotchap e intervento chirurgico per Franjic.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/venezia/venezia-bella-kotchap-esami-condizioni-franjic-operazione-tempi-di-recupero/",
+   "image": "https://static.sosfanta.com/202603/55d5b051f71a02ee6866cf6f6756c912-scaled-e1772561742338.jpeg",
+   "date": "2026-09-09T15:00:10+00:00"
+  },
+  {
+   "title": "Milan, come stanno Gila e Gabbia: le condizioni dei difensori e cosa filtra verso la sfida con la Lazio",
+   "summary": "Il difensore spagnolo è uscito anzitempo nel match contro la Juve accusando un problema al tendine rotuleo ma da Milanello filtrano novità positive.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-gila-infortunio-condizioni/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292495046-bac0bb04044c-e1788784544995.jpg",
+   "date": "2026-09-09T14:30:13+00:00"
+  },
+  {
+   "title": "Napoli, ecco la decisione sulla convocazione di David Neres stasera contro l'Arsenal",
+   "summary": "Il Napoli debutta in Champions contro l'Arsenal: è arrivata la decisione di Allegri su Neres.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-neres-arsenal-champions-league/",
+   "image": "https://static.sosfanta.com/2026/08/neres-c529791fad86-e1785862463696.jpeg",
+   "date": "2026-09-09T14:00:41+00:00"
   },
   {
    "title": "NEWS - Dimarco, Spence, Atta, Solet, Boga, McT, Pinamonti, Anguissa, Neres, Oulai, Volpato e crociato per Felici",
@@ -42059,7 +42120,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-dimarco-spence-atta-solet-boga-mct-pinamonti-anguissa-neres-oulai-volpato-e-crociato-per-felici/",
    "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-09-09-51-06-99ce75f415b5-e1788940299900.jpg",
-   "date": "2026-09-09T12:15:59+00:00"
+   "date": "2026-09-09T13:15:59+00:00"
+  },
+  {
+   "title": "Juve, i tempi stimati per il rientro in campo di Locatelli. Stop Boga, quanto dovrebbe rimanere fuori",
+   "summary": "I tempi di recupero per Locatelli, operatosi ieri al menisco, e Boga che ha riportato una lesione di medio grado",
+   "author": "Andrea Della Sala",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-tempi-locatelli-quanto-fuori-boga/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293865813-a3b471537174.jpg",
+   "date": "2026-09-09T13:00:55+00:00"
   },
   {
    "title": "Fiorentina, ottimismo per le condizioni di Oulai. Apprensione per Atta: cosa filtra sul suo stop",
@@ -42330,60 +42400,6 @@
    "url": "https://www.sosfanta.com/squadra/napoli/napoli-intervento-mctominay-tempi-recupero-anguissa-neres-top/",
    "image": "https://static.sosfanta.com/2026/09/McTominay-d8ccee9587c2-e1788866175182.jpg",
    "date": "2026-09-08T14:15:00+00:00"
-  },
-  {
-   "title": "UFFICIALE - Udinese, lieve aritmia cardiaca benigna per Piotrowski: si opera, il comunicato e i tempi",
-   "summary": "Si sottoporrà a un intervento Jakub Piotrowski, uscito anzitempo ieri in casa Udinese contro la Lazio: il comunicato ufficiale del club.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/udinese-aritmia-cardiaca-benigna-piotrowski-condizioni-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/202601/abeb64f261b2d2b07895cb3686c953a3-e1768661230173.jpg",
-   "date": "2026-09-08T14:00:29+00:00"
-  },
-  {
-   "title": "UFFICIALE - Diogo Leite è un nuovo giocatore della Lazio: il comunicato del club",
-   "summary": "Il difensore, svincolatosi dall'Union Berlino, ha firmato con il club biancoceleste: il comunicato ufficiale.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/diogo-leite-lazio-ufficiale-tesseramento-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2255685799-ef55151d7928.jpg",
-   "date": "2026-09-08T13:00:28+00:00"
-  },
-  {
-   "title": "Ecco la nuova Fiorentina di Vanoli: il modulo, i punti fermi e chi sale e chi scende per fantacalcio (e asta)",
-   "summary": "Clamoroso ribaltone in casa Fiorentina, è tornato Paolo Vanoli: come cambia la formazione? Dal modulo ai punti fermi e chi sale e chi scende per il fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/nuova-fiorentina-vanoli-modulo-probabile-formazione-fantacalcio-sale-scende/",
-   "image": "https://static.sosfanta.com/2026/09/Vanoli-833b5c646463-e1788857433962.jpg",
-   "date": "2026-09-08T12:45:12+00:00"
-  },
-  {
-   "title": "NEWS - Dimarco, McTominay, Sarr, Anguissa, Pellegrini, Gila, McKennie, Neres, Bakola, Gabbia: le novità",
-   "summary": "Terminata la terza giornata di campionato, queste le ultime novità dai campi su infortuni e possibili ritorni in campo",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-dimarco-mctominay-sarr-anguissa-pellegrini-gila-mckennie-neres-bakola-gabbia-le-novita/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293033823-55938227336c.jpg",
-   "date": "2026-09-08T12:15:31+00:00"
-  },
-  {
-   "title": "Milan, le novità sulle condizioni di Gila. Gli aggiornamenti sul ritorno di Gabbia",
-   "summary": "Le ultime novità sulla difesa del Milan e sulle condizioni di Gila e Gabbia in vista della prossima partita",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/milan-condizioni-gila-aggiornamenti-gabbia/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292495046-bac0bb04044c-e1788784544995.jpg",
-   "date": "2026-09-08T12:00:46+00:00"
-  },
-  {
-   "title": "ULTIM'ORA - Juve, già oggi operazione al menisco per Locatelli! 2026 finito e lungo stop, i tempi di recupero",
-   "summary": "Altra tegola per la Juventus di Spalletti. Il centrocampista bianconero si opera al ginocchio e rimarrà fuori per un lungo periodo",
-   "author": "Andrea Della Sala",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-locatelli-infortunio-operazione-menisco-tempi-recupero-lungo-stop/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293878385-b73a732196c7.jpg",
-   "date": "2026-09-08T11:45:45+00:00"
   }
  ],
  "marketDifficulty": {
