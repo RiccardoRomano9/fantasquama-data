@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T20:52:35+00:00",
+ "generatedAt": "2026-09-09T23:09:24+00:00",
  "season": "2026-27",
  "gameweek": 4,
  "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -4909,7 +4909,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.1,
-   "playProbability": 0.285,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.3,
     "rf": 0.0067,
@@ -4930,7 +4930,7 @@
     "q90": 8.84
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.2277,
     "rf": 0.0132,
@@ -4955,9 +4955,9 @@
    },
    "quotazione": 14.0,
    "fvm": 61.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -41978,13 +41978,49 @@
  ],
  "news": [
   {
+   "title": "Allegri: \"Alisson Santos lo perdiamo per un po' di tempo! Le sensazioni su Meret e rispondo così su Lang in tribuna”",
+   "summary": "Il Napoli perde 1-0 all'esordio in Champions contro l'Arsenal e Massimiliano Allegri deve fare i conti anche con gli infortuni di Alex Meret e Alisson Santos.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-ko-arsenal-parole-allegri-infortuni-meret-santos/",
+   "image": "https://static.sosfanta.com/2026/09/Allegri-79710fd0b6da-e1788983883627.jpg",
+   "date": "2026-09-09T21:45:07+00:00"
+  },
+  {
+   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Orsolini",
+   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+   "image": "https://static.sosfanta.com/2026/08/Orsolini-eb9bd309c6ea-e1788197567960.jpg",
+   "date": "2026-09-09T21:30:42+00:00"
+  },
+  {
    "title": "BREAKING - Non solo Meret, costretto al cambio anche Alisson Santos: da valutare le sue condizioni",
    "summary": "Un altro stop per il Napoli nella sfida d'esordio di Champions League contro l'Arsenal: si è fermato anche Alisson Santos, infortunio da valutare.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/napoli-infortunio-alisson-santos-arsenal-condizioni-fantacalcio-tempi-recupero/",
    "image": "https://static.sosfanta.com/2026/09/Alisson-Santos-58d8ed387680-e1788985512939.jpg",
-   "date": "2026-09-09T20:45:11+00:00"
+   "date": "2026-09-09T21:15:11+00:00"
+  },
+  {
+   "title": "Monza, cosa filtra sul rientro di Cutrone con il Lecce e sui tempi di recupero di Varela. E Ziolkowski...",
+   "summary": "Da Cutrone a Varela e Ziolkowski: le ultime sugli infortunati in casa del Monza di Ivan Juric, che sta preparando la sfida al Lecce.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/varela-infortunio-tempi-di-recupero-quando-rientra-cutrone-ziolkowski-monza-lecce/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290495994-17d29cbee5fb-scaled-e1786741275266.jpg",
+   "date": "2026-09-09T21:00:42+00:00"
+  },
+  {
+   "title": "FLASH - Napoli, Meret costretto al cambio per infortunio contro l’Arsenal: il motivo dello stop",
+   "summary": "Problemi per il portiere del Napoli, Alex Meret. La squadra di Allegri è impegnata nell'esordio nella League Phase della Champions contro l'Arsenal.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/meret-infortunio-napoli-arsenal/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293976158-76833c254ddc-e1788983086895.jpeg",
+   "date": "2026-09-09T20:45:41+00:00"
   },
   {
    "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 3 giornate",
@@ -41996,15 +42032,6 @@
    "date": "2026-09-09T20:30:56+00:00"
   },
   {
-   "title": "FLASH - Napoli, Meret costretto al cambio per infortunio contro l’Arsenal: il motivo dello stop",
-   "summary": "Problemi per il portiere del Napoli, Alex Meret. La squadra di Allegri è impegnata nell'esordio nella League Phase della Champions contro l'Arsenal.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/meret-infortunio-napoli-arsenal/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293976158-76833c254ddc-e1788983086895.jpeg",
-   "date": "2026-09-09T20:15:41+00:00"
-  },
-  {
    "title": "Parma in campo per preparare il match con il Como: cosa filtra sulle condizioni di Bernabé",
    "summary": "Le condizioni del fantasista del Parma in vista del prossimo match di campionato contro il Como.",
    "author": "Michael Di Chiaro",
@@ -42014,13 +42041,13 @@
    "date": "2026-09-09T20:00:56+00:00"
   },
   {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Orsolini",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
+   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: oggi giocano così, le novità dopo 3 giornate",
+   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/08/Orsolini-eb9bd309c6ea-e1788197567960.jpg",
-   "date": "2026-09-09T19:50:42+00:00"
+   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/08/Maldini-ed4a04513b2e-e1787767742999.jpg",
+   "date": "2026-09-09T19:50:46+00:00"
   },
   {
    "title": "Ds Napoli: \"Lang è in tribuna per motivi comportamentali: cos'è successo! Cosa ci può dare De Bruyne”",
@@ -42057,15 +42084,6 @@
    "url": "https://www.sosfanta.com/news/gazzetta-elogi-diouf-real-inter-voto/",
    "image": "https://static.sosfanta.com/2026/08/Diouf-5a3a903198eb-e1787775088754.jpg",
    "date": "2026-09-09T19:00:21+00:00"
-  },
-  {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: oggi giocano così, le novità dopo 3 giornate",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/08/Maldini-ed4a04513b2e-e1787767742999.jpg",
-   "date": "2026-09-09T18:45:46+00:00"
   },
   {
    "title": "Torino, le ultime su Zapata, Coco e Casadei: come stanno in vista del match con la Roma",
@@ -42318,24 +42336,6 @@
    "url": "https://www.sosfanta.com/guida-asta-fantacalcio/kit-asta-fantacalcio-guida-formazioni-tipo-rigoristi-tiratori-portieri-budget/",
    "image": "https://static.sosfanta.com/2026/09/Cisse-e0b8700d0ff3-e1788870435434.jpg",
    "date": "2026-09-08T21:45:37+00:00"
-  },
-  {
-   "title": "Lautaro: \"Noi in lotta per la Champions come il Real, è il nostro obiettivo! Da migliorare sotto porta\"",
-   "summary": "Lautaro Martinez, capitano dell'Inter, ha parlato ai microfoni di Sky dopo la sconfitta contro il Real Madrid in Champions League.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lautaro-noi-in-lotta-champions/",
-   "image": "https://static.sosfanta.com/2026/08/Lautaro-push-2d703faa62d4-scaled-e1787173916292.jpg",
-   "date": "2026-09-08T21:30:36+00:00"
-  },
-  {
-   "title": "Marotta: \"Lautaro-Barcellona, ecco com'è andata davvero: lui esemplare!\". E per il rinnovo di Dimarco...",
-   "summary": "Arrivano le notti di Champions League e scende in campo l'Inter. Il presidente nerazzurro, Giuseppe Marotta, ha parlato ai microfoni di Sky Sport.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/marotta-inter-dimarco-lautaro-barcellona/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292910590-b600f82f24d4-e1788879477683.jpeg",
-   "date": "2026-09-08T21:15:11+00:00"
   }
  ],
  "marketDifficulty": {
