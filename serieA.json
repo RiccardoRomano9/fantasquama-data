@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-10T16:32:39+00:00",
+ "generatedAt": "2026-09-10T20:05:26+00:00",
  "season": "2026-27",
  "gameweek": 4,
- "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -1543,7 +1543,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.26,
-   "playProbability": 0.445,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.3571,
     "rf": 0.0067,
@@ -1564,7 +1564,7 @@
     "q90": 9.62
    },
    "learnedVote": 6.63,
-   "learnedPlayProbability": 0.445,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.2692,
     "rf": 0.0131,
@@ -1589,8 +1589,8 @@
    },
    "quotazione": 16.0,
    "fvm": 100.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -5143,7 +5143,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.19,
-   "playProbability": 0.428,
+   "playProbability": 0.445,
    "events": {
     "gf": 0.4377,
     "rf": 0.0051,
@@ -5164,7 +5164,7 @@
     "q90": 9.66
    },
    "learnedVote": 6.6,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.445,
    "learnedEvents": {
     "gf": 0.3339,
     "rf": 0.0129,
@@ -5189,8 +5189,8 @@
    },
    "quotazione": 13.0,
    "fvm": 48.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9103,7 +9103,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.17,
-   "playProbability": 0.613,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.1566,
     "rf": 0.0062,
@@ -9124,7 +9124,7 @@
     "q90": 9.64
    },
    "learnedVote": 6.4,
-   "learnedPlayProbability": 0.613,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.099,
     "rf": 0.0073,
@@ -9150,7 +9150,7 @@
    "quotazione": 9.0,
    "fvm": 29.0,
    "lineupSlot": "titolare",
-   "startingProbability": 70.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9310,7 +9310,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.32,
-   "playProbability": 0.831,
+   "playProbability": 0.525,
    "events": {
     "gf": 0.1742,
     "rf": 0.0091,
@@ -9331,7 +9331,7 @@
     "q90": 6.69
    },
    "learnedVote": 6.35,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.525,
    "learnedEvents": {
     "gf": 0.1425,
     "rf": 0.1047,
@@ -9357,7 +9357,7 @@
    "quotazione": 17.0,
    "fvm": 108.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9380,7 +9380,7 @@
    "appearances": 0,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.14,
-   "playProbability": 0.263,
+   "playProbability": 0.35,
    "events": {
     "gf": 0.1145,
     "rf": 0.005,
@@ -9401,7 +9401,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.08,
-   "learnedPlayProbability": 0.263,
+   "learnedPlayProbability": 0.35,
    "learnedEvents": {
     "gf": 0.0768,
     "rf": 0.0056,
@@ -9427,7 +9427,7 @@
    "quotazione": 4.0,
    "fvm": 10.0,
    "lineupSlot": "panchina",
-   "startingProbability": 30.0,
+   "startingProbability": 40.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -13205,7 +13205,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.18,
-   "playProbability": 0.831,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.1545,
     "rf": 0.0057,
@@ -13226,7 +13226,7 @@
     "q90": 9.72
    },
    "learnedVote": 6.44,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1024,
     "rf": 0.0064,
@@ -13251,9 +13251,9 @@
    },
    "quotazione": 10.0,
    "fvm": 42.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -16672,7 +16672,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.2,
-   "playProbability": 0.044,
+   "playProbability": 0.525,
    "events": {
     "gf": 0.2169,
     "rf": 0.0061,
@@ -16693,7 +16693,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.41,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.525,
    "learnedEvents": {
     "gf": 0.1634,
     "rf": 0.0064,
@@ -16718,8 +16718,8 @@
    },
    "quotazione": 7.0,
    "fvm": 19.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18551,7 +18551,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.2,
-   "playProbability": 0.831,
+   "playProbability": 0.525,
    "events": {
     "gf": 0.1789,
     "rf": 0.0086,
@@ -18572,7 +18572,7 @@
     "q90": 6.68
    },
    "learnedVote": 6.05,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.525,
    "learnedEvents": {
     "gf": 0.1663,
     "rf": 0.0077,
@@ -18598,7 +18598,7 @@
    "quotazione": 10.0,
    "fvm": 35.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18974,7 +18974,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.17,
-   "playProbability": 0.0,
+   "playProbability": 0.35,
    "events": {
     "gf": 0.1602,
     "rf": 0.0066,
@@ -18995,7 +18995,7 @@
     "q90": 9.53
    },
    "learnedVote": 6.2,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.35,
    "learnedEvents": {
     "gf": 0.1227,
     "rf": 0.0067,
@@ -19018,9 +19018,9 @@
    },
    "quotazione": 10.0,
    "fvm": 41.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 40.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -41511,6 +41511,38 @@
     {
      "opzioni": [
       {
+       "player_id": "7223",
+       "giocatore": "Vergara",
+       "titolarita_pct": 60,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "4220",
+       "giocatore": "Zambo Anguissa",
+       "titolarita_pct": 40,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "2517",
+       "giocatore": "De Bruyne",
+       "titolarita_pct": 60,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "4220",
+       "giocatore": "Zambo Anguissa",
+       "titolarita_pct": 40,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "7120",
        "giocatore": "Lang",
        "titolarita_pct": 70,
@@ -41976,15 +42008,15 @@
     {
      "opzioni": [
       {
-       "player_id": "779",
-       "giocatore": "Cristante",
-       "titolarita_pct": 70,
+       "player_id": "6190",
+       "giocatore": "Pisilli",
+       "titolarita_pct": 60,
        "ruolo": "C"
       },
       {
        "player_id": "22",
        "giocatore": "De Roon",
-       "titolarita_pct": 30,
+       "titolarita_pct": 40,
        "ruolo": "C"
       }
      ]
@@ -41992,14 +42024,14 @@
     {
      "opzioni": [
       {
-       "player_id": "309",
-       "giocatore": "Dybala",
+       "player_id": "5734",
+       "giocatore": "Soulè",
        "titolarita_pct": 51,
        "ruolo": "A"
       },
       {
-       "player_id": "5734",
-       "giocatore": "Soulè",
+       "player_id": "309",
+       "giocatore": "Dybala",
        "titolarita_pct": 49,
        "ruolo": "A"
       }
@@ -42014,8 +42046,8 @@
        "ruolo": "C"
       },
       {
-       "player_id": "5734",
-       "giocatore": "Soulè",
+       "player_id": "309",
+       "giocatore": "Dybala",
        "titolarita_pct": 49,
        "ruolo": "A"
       }
@@ -42168,6 +42200,114 @@
  ],
  "news": [
   {
+   "title": "Cagliari, buone notizie per Mina: cosa filtra dall’allenamento verso l’Inter e le ultime sulle sue condizioni",
+   "summary": "Buone notizie per il Cagliari: Yerry Mina è tornato ad allenarsi in gruppo e sarà a disposizione per la sfida contro l'Atalanta.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/cagliari-buone-notizie-mina-cosa-filtra-allenamento-verso-inter-ultime-condizioni-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/202601/37dc92fb47b363391ed14e5cd6bf012b-e1768571892958.jpg",
+   "date": "2026-09-10T20:00:56+00:00"
+  },
+  {
+   "title": "Chi schierare in attacco alla quarta giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-fantacalcio-attaccanti-4a-giornata-consigli/",
+   "image": "https://static.sosfanta.com/2026/09/Pio-Esposito-03126acfa0a7-e1789034403736.jpg",
+   "date": "2026-09-10T19:45:16+00:00"
+  },
+  {
+   "title": "FLASH - Stop per Koné! Gasperini: “Fuori per un problema fisico. Crampi per Dybala, Balerdi…”",
+   "summary": "Il tecnico della Roma Gian Piero Gasperini ha analizzato il pareggio di oggi di Champions League contro il Fenerbahce ai microfoni di Sky e in conferenza.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/flash-stop-kone-gasperini-fuori-problema-fisico-crampi-dybala-balerdi-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294541643-37f4871ee0eb-e1789065127131.jpg",
+   "date": "2026-09-10T19:45:07+00:00"
+  },
+  {
+   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 3 giornate",
+   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
+   "date": "2026-09-10T19:15:56+00:00"
+  },
+  {
+   "title": "Sassuolo, Berardi scalda i motori per la Juve: le ultime su Volpato, Bakola, Bowie, Esposito e Adzic",
+   "summary": "Verso Sassuolo-Juventus, Berardi può tornare titolare. Volpato sarà assente per infortunio: le ultime di formazione dall'ANSA.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-berardi-scalda-motori-juve-ultime-volpato-bakola-bowie-esposito-adzic-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/08/image-11-cd25850d9530-e1788028597396.jpg",
+   "date": "2026-09-10T19:00:19+00:00"
+  },
+  {
+   "title": "Kit per l’asta al fantacalcio 2026-27: dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo",
+   "summary": "Ecco il nostro kit per l'asta: tutto ciò che ti serve per il fantacalcio 2026-2027, dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/kit-asta-fantacalcio-guida-formazioni-tipo-rigoristi-tiratori-portieri-budget/",
+   "image": "https://static.sosfanta.com/2026/09/Cisse-e0b8700d0ff3-e1788870435434.jpg",
+   "date": "2026-09-10T18:45:37+00:00"
+  },
+  {
+   "title": "Como, la formazione ufficiale con il Lipsia: la scelta su Kean, Douvikas, Perrone, Milla, Diao, Valle e Couto",
+   "summary": "Esordio storico per il Como: la squadra di Cesc Fabregas comincia la sua Champions League contro il Lipsia. Ecco le scelte ufficiali del tecnico dei lariani.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/como-formazione-ufficiale-lipsia-kean-douvikas-perrone-milla-diao-valle-couto/",
+   "image": "https://static.sosfanta.com/2026/09/image-26-6f909c96b9a6-e1789047181533.jpg",
+   "date": "2026-09-10T18:15:53+00:00"
+  },
+  {
+   "title": "Lazio, Gudmundsson può cambiare ruolo contro il Milan: l'idea di Gattuso e le ultime su Pinamonti",
+   "summary": "L'allenatore della Lazio pensa ad una nuova soluzione tattica in vista del confronto contro i rossoneri in programma sabato all'Olimpico.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-gudmundsson-nuovo-ruolo/",
+   "image": "https://static.sosfanta.com/2026/09/Gudmundsson-89284ee20eb5-e1788854602212.jpg",
+   "date": "2026-09-10T18:00:38+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Napoli, c'è lesione per Meret e Alisson Santos: ecco i tempi di recupero! E Anguissa...",
+   "summary": "Contro l'Arsenal, il Napoli ha perso per infortunio Alex Meret prima e Alisson Santos poi: i verdetti degli esami.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/ultimora-napoli-lesione-meret-alisson-santos-tempi-anguissa/",
+   "image": "https://static.sosfanta.com/2026/09/Alisson-Santos-f03baf9d6839-e1789036528584.jpg",
+   "date": "2026-09-10T17:45:37+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Atta e Oulai convocati! Dimarco, Spence, Pulisic, Gud, Woltemade, Berardi e novità Gabbia e Mina",
+   "summary": "Ultimi impegni di Champions League per le italiane, venerdì inizia la 4a giornata di Serie A: ecco le ultimissime dai campi in chiave fantacalcio.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/dai-campi-atta-oulai-convocati-dimarco-spence-pulisic-gud-woltemade-berardi-novita-gabbia-mina-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2215764217-f30a72bb44b2-e1789058447213.jpg",
+   "date": "2026-09-10T17:15:17+00:00"
+  },
+  {
+   "title": "Juve, le possibili scelte con il Sassuolo: da Muani e Alajbegovic a Koopmeiners e cosa filtra su Woltemade",
+   "summary": "La Juve mette nel mirino la prossima sfida di campionato contro il Sassuolo: le possibili scelte di formazione di Spalletti.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juventus-spalletti-sassuolo-cosa-filtra-woltemade-muani-alajbegovic-koopmeiners/",
+   "image": "https://static.sosfanta.com/2026/09/Woltemade-0c99023ea011-e1788357293195.jpg",
+   "date": "2026-09-10T17:00:17+00:00"
+  },
+  {
+   "title": "Roma, la formazione ufficiale in Champions: da Soulé e Molina a Mora, Dybala e Malen, tutte le scelte",
+   "summary": "Debutto contro il Fenerbahce per la Roma di Gian Piero Gasperini in Champions League: ecco le scelte ufficiali del tecnico giallorosso.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-formazione-ufficiale-champions-soule-molina-mora-dybala-malen/",
+   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-10-13-54-37-ad1138f77e59-e1789041304640.jpg",
+   "date": "2026-09-10T16:45:08+00:00"
+  },
+  {
    "title": "Napoli, l'agente di Politano si sfoga: \"Critiche a Matteo? Mi sono rotto, vi dimenticate...\"",
    "summary": "Le parole di Giuffredi, agente di Politano, dopo le ultime sconfitte della squadra che ha causato malumore nell'ambiente.",
    "author": "Andrea Ajello",
@@ -42184,15 +42324,6 @@
    "url": "https://www.sosfanta.com/squadra/milan/pulisic-verita-condizioni-cosa-filtra-lazio-milan/",
    "image": "https://static.sosfanta.com/2026/08/Pulisic-c5d6ffe980b0-e1787409971376.jpg",
    "date": "2026-09-10T16:00:35+00:00"
-  },
-  {
-   "title": "Roma, la formazione ufficiale in Champions: da Soulé e Molina a Mora, Dybala e Malen, tutte le scelte",
-   "summary": "Debutto contro il Fenerbahce per la Roma di Gian Piero Gasperini in Champions League: ecco le scelte ufficiali del tecnico giallorosso.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/roma-formazione-ufficiale-champions-soule-molina-mora-dybala-malen/",
-   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-10-13-54-37-ad1138f77e59-e1789041304640.jpg",
-   "date": "2026-09-10T15:50:08+00:00"
   },
   {
    "title": "BREAKING - Udinese, ecco l'esito degli esami strumentali di Solet e i tempi di recupero",
@@ -42276,15 +42407,6 @@
    "date": "2026-09-10T13:45:01+00:00"
   },
   {
-   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 3 giornate",
-   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
-   "date": "2026-09-10T13:30:56+00:00"
-  },
-  {
    "title": "Sette risposte tra asta e scambi: da Diao a Berardi, Varela, Pio Esposito, Castro, Scamacca e Mandragora",
    "summary": "Tra scambi e asta, sono ore caldissime nelle leghe al fantacalcio: ecco le nostre risposte a 7 domande arrivate su SOS Consiglia.",
    "author": "Alessandro Cosattini",
@@ -42319,15 +42441,6 @@
    "url": "https://www.sosfanta.com/squadra/como/como-probabile-formazione-esordio-champions-lipsia-tutte-scelte/",
    "image": "https://static.sosfanta.com/2026/08/milla-a50041647a1f-e1787670554216.jpeg",
    "date": "2026-09-10T12:30:04+00:00"
-  },
-  {
-   "title": "Kit per l’asta al fantacalcio 2026-27: dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo",
-   "summary": "Ecco il nostro kit per l'asta: tutto ciò che ti serve per il fantacalcio 2026-2027, dalla guida a rigoristi, tiratori, portieri, budget e formazioni-tipo.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/kit-asta-fantacalcio-guida-formazioni-tipo-rigoristi-tiratori-portieri-budget/",
-   "image": "https://static.sosfanta.com/2026/09/Cisse-e0b8700d0ff3-e1788870435434.jpg",
-   "date": "2026-09-10T12:15:37+00:00"
   },
   {
    "title": "Stroppa: “Bella-Kotchap out e come sta Basic! Juan Jesus c’è, Mazzocchi, Sohm, Toni Fernandez e Yeboah…”",
@@ -42445,87 +42558,6 @@
    "url": "https://www.sosfanta.com/squadra/milan/leao-addio-milan-motivi-parole-amorim/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2292613070-c56c49f1d4a7-e1788084851688.jpg",
    "date": "2026-09-10T08:29:06+00:00"
-  },
-  {
-   "title": "Inter, focus sul prossimo impegno contro l'Udinese: cosa filtra su Stones e sul recupero di Dimarco",
-   "summary": "L'Inter sarà impegnata nel Monday Night della quarta giornata contro l'Udinese: gli ultimi aggiornamenti in casa nerazzurra.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-udinese-stones-dimarco-aggiornamenti/",
-   "image": "https://static.sosfanta.com/2026/08/Stones-2606de18045a.jpg",
-   "date": "2026-09-10T08:00:02+00:00"
-  },
-  {
-   "title": "Allegri: \"Alisson Santos lo perdiamo per un po' di tempo! Le sensazioni su Meret e rispondo così su Lang in tribuna”",
-   "summary": "Il Napoli perde 1-0 all'esordio in Champions contro l'Arsenal e Massimiliano Allegri deve fare i conti anche con gli infortuni di Alex Meret e Alisson Santos.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-ko-arsenal-parole-allegri-infortuni-meret-santos/",
-   "image": "https://static.sosfanta.com/2026/09/Allegri-79710fd0b6da-e1788983883627.jpg",
-   "date": "2026-09-10T07:30:07+00:00"
-  },
-  {
-   "title": "Hutchinson: \"Gol o assist? Rispondo così! Non sono il sostituto di Leao, vi spiego perché\"",
-   "summary": "Tempo di iniziare a fare sul serio con il Milan per Hutchinson, ultimo arrivato dal mercato estivo in casa rossonera. Il giocatore è stato ufficialmente pres...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/hutchinson-milan/",
-   "image": "https://static.sosfanta.com/2026/09/Hutchinson-83d3d3102f4b-e1788218049897.jpeg",
-   "date": "2026-09-10T07:00:26+00:00"
-  },
-  {
-   "title": "Di Lorenzo: \"Lang fuori? Ora si volta pagina! Sui 3 ko di fila e i litigi in campo con l'Arsenal...\"",
-   "summary": "Il capitano del Napoli, Giovanni Di Lorenzo, ha parlato ai microfoni di Sky e Prime Video dopo la sfida persa dagli azzurri contro l'Arsenal.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/di-lorenzo-napoli-lang/",
-   "image": "https://static.sosfanta.com/202605/35a0b0d04e7a379bdffcc7701c2483cd-scaled-e1778870365310.jpeg",
-   "date": "2026-09-10T06:00:42+00:00"
-  },
-  {
-   "title": "BREAKING - Non solo Meret, costretto al cambio anche Alisson Santos: da valutare le sue condizioni",
-   "summary": "Un altro stop per il Napoli nella sfida d'esordio di Champions League contro l'Arsenal: si è fermato anche Alisson Santos, infortunio da valutare.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/napoli-infortunio-alisson-santos-arsenal-condizioni-fantacalcio-tempi-recupero/",
-   "image": "https://static.sosfanta.com/2026/09/Alisson-Santos-58d8ed387680-e1788985512939.jpg",
-   "date": "2026-09-09T21:30:11+00:00"
-  },
-  {
-   "title": "Monza, cosa filtra sul rientro di Cutrone con il Lecce e sui tempi di recupero di Varela. E Ziolkowski...",
-   "summary": "Da Cutrone a Varela e Ziolkowski: le ultime sugli infortunati in casa del Monza di Ivan Juric, che sta preparando la sfida al Lecce.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/varela-infortunio-tempi-di-recupero-quando-rientra-cutrone-ziolkowski-monza-lecce/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290495994-17d29cbee5fb-scaled-e1786741275266.jpg",
-   "date": "2026-09-09T21:00:42+00:00"
-  },
-  {
-   "title": "FLASH - Napoli, Meret costretto al cambio per infortunio contro l’Arsenal: il motivo dello stop",
-   "summary": "Problemi per il portiere del Napoli, Alex Meret. La squadra di Allegri è impegnata nell'esordio nella League Phase della Champions contro l'Arsenal.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/meret-infortunio-napoli-arsenal/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293976158-76833c254ddc-e1788983086895.jpeg",
-   "date": "2026-09-09T20:45:41+00:00"
-  },
-  {
-   "title": "Parma in campo per preparare il match con il Como: cosa filtra sulle condizioni di Bernabé",
-   "summary": "Le condizioni del fantasista del Parma in vista del prossimo match di campionato contro il Como.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/parma/parma-bernabe-infortunio-condizioni-quando-torna/",
-   "image": "https://static.sosfanta.com/202605/680fb123d63c4b92260be65a83277b41.png",
-   "date": "2026-09-09T20:00:56+00:00"
-  },
-  {
-   "title": "Ds Napoli: \"Lang è in tribuna per motivi comportamentali: cos'è successo! Cosa ci può dare De Bruyne”",
-   "summary": "Il Napoli si prepara a sfidare l'Arsenal. Nel corso del prepartita il direttore sportivo del club azzurro, Giovanni Manna, ha parlato ai microfoni di Sky e P...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-lang-tribuna-arsenal-de-bruyne/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292839459-4d0f954f1b77-e1788979440923.jpeg",
-   "date": "2026-09-09T19:45:40+00:00"
   }
  ],
  "marketDifficulty": {
