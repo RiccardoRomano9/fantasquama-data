@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-09-10T04:55:07+00:00",
+ "scraped_at_utc": "2026-09-10T11:31:49+00:00",
  "giornata": "2026-09-11T18:45:00.000Z",
  "partite": [
   {
@@ -29,7 +29,7 @@
      },
      {
       "giocatore": "Hainaut",
-      "titolarita_pct": 95
+      "titolarita_pct": 70
      },
      {
       "giocatore": "Perez K.",
@@ -58,16 +58,20 @@
     ],
     "panchina": [
      {
-      "giocatore": "Juan Jesus",
-      "titolarita_pct": 40
-     },
-     {
       "giocatore": "Fernandez T.",
       "titolarita_pct": 45
      },
      {
       "giocatore": "Sagrado",
       "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Mazzocchi",
+      "titolarita_pct": 30
+     },
+     {
+      "giocatore": "Juan Jesus",
+      "titolarita_pct": 40
      },
      {
       "giocatore": "Montipò",
@@ -79,10 +83,6 @@
      },
      {
       "giocatore": "Gomes",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Mazzocchi",
       "titolarita_pct": 5
      },
      {
@@ -122,6 +122,18 @@
      {
       "opzioni": [
        {
+        "giocatore": "Hainaut",
+        "titolarita_pct": 70
+       },
+       {
+        "giocatore": "Mazzocchi",
+        "titolarita_pct": 30
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
         "giocatore": "Sohm",
         "titolarita_pct": 55
        },
@@ -145,6 +157,16 @@
      }
     ],
     "indisponibili": [
+     {
+      "giocatore": "Franjic",
+      "stato": "infortunato",
+      "nota": "Intervento chirurgico per una lussazione acromion-claveare, in dubbio per la 15a."
+     },
+     {
+      "giocatore": "Bella-Kotchap",
+      "stato": "infortunato",
+      "nota": "Piccolo risentimento mio-fasciale dell’adduttore della coscia destra, in dubbio per la 6a."
+     },
      {
       "giocatore": "Sverko",
       "stato": "infortunato",
@@ -171,16 +193,6 @@
      {
       "giocatore": "Pozzi",
       "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Franjic",
-      "stato": "infortunato",
-      "nota": "Intervento chirurgico per una lussazione acromion-claveare, in dubbio per la 15a."
-     },
-     {
-      "giocatore": "Bella-Kotchap",
-      "stato": "infortunato",
-      "nota": "Piccolo risentimento mio-fasciale dell’adduttore della coscia destra, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
@@ -413,7 +425,7 @@
      },
      {
       "giocatore": "Ellertsson",
-      "titolarita_pct": 95
+      "titolarita_pct": 70
      },
      {
       "giocatore": "Osmajic",
@@ -434,6 +446,10 @@
       "titolarita_pct": 49
      },
      {
+      "giocatore": "Mitaj",
+      "titolarita_pct": 30
+     },
+     {
       "giocatore": "Sommariva",
       "titolarita_pct": 5
      },
@@ -443,10 +459,6 @@
      },
      {
       "giocatore": "Drameh",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Mitaj",
       "titolarita_pct": 5
      },
      {
@@ -492,6 +504,18 @@
        {
         "giocatore": "Ehizibue",
         "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Ellertsson",
+        "titolarita_pct": 70
+       },
+       {
+        "giocatore": "Mitaj",
+        "titolarita_pct": 30
        }
       ]
      },
@@ -744,11 +768,11 @@
      },
      {
       "giocatore": "Isaksen",
-      "titolarita_pct": 51
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Pinamonti",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Zaccagni",
@@ -766,7 +790,7 @@
      },
      {
       "giocatore": "Cancellieri",
-      "titolarita_pct": 10
+      "titolarita_pct": 45
      },
      {
       "giocatore": "Gudmundsson A.",
@@ -814,6 +838,18 @@
       "opzioni": [
        {
         "giocatore": "Isaksen",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Cancellieri",
+        "titolarita_pct": 45
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Pinamonti",
         "titolarita_pct": 51
        },
        {
@@ -931,6 +967,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Gabbia",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Terracciano F.",
       "titolarita_pct": 5
      },
@@ -1001,13 +1041,7 @@
       ]
      }
     ],
-    "indisponibili": [
-     {
-      "giocatore": "Gabbia",
-      "stato": "infortunato",
-      "nota": "Infortunio alla caviglia, in dubbio per la 4a."
-     }
-    ],
+    "indisponibili": [],
     "ufficiale": false
    }
   },
@@ -1059,15 +1093,11 @@
       "titolarita_pct": 51
      },
      {
-      "giocatore": "Elmas",
+      "giocatore": "Raspadori",
       "titolarita_pct": 51
      }
     ],
     "panchina": [
-     {
-      "giocatore": "Raspadori",
-      "titolarita_pct": 20
-     },
      {
       "giocatore": "Bellanova",
       "titolarita_pct": 49
@@ -1091,6 +1121,10 @@
      {
       "giocatore": "Kristensen T.",
       "titolarita_pct": 45
+     },
+     {
+      "giocatore": "Elmas",
+      "titolarita_pct": 20
      },
      {
       "giocatore": "Pompei",
@@ -1169,7 +1203,7 @@
      {
       "opzioni": [
        {
-        "giocatore": "Elmas",
+        "giocatore": "Raspadori",
         "titolarita_pct": 51
        },
        {
@@ -1268,6 +1302,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Sugawara",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Ciervo",
       "titolarita_pct": 5
      },
@@ -1281,6 +1319,14 @@
      },
      {
       "giocatore": "Massolin",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Kevin Carlos",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Nzola",
       "titolarita_pct": 5
      }
     ],
@@ -1306,18 +1352,6 @@
      },
      {
       "giocatore": "Trepy",
-      "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Kevin Carlos",
-      "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Nzola",
-      "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Sugawara",
       "stato": "indisponibile"
      },
      {
@@ -1516,14 +1550,14 @@
      },
      {
       "giocatore": "Robinson J.",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Forson O.",
       "titolarita_pct": 51
      },
      {
       "giocatore": "Mota",
+      "titolarita_pct": 51
+     },
+     {
+      "giocatore": "Cutrone",
       "titolarita_pct": 95
      }
     ],
@@ -1565,7 +1599,19 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Forson O.",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Mout",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Ngonge",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Zeballos",
       "titolarita_pct": 5
      }
     ],
@@ -1585,7 +1631,19 @@
      {
       "opzioni": [
        {
-        "giocatore": "Forson O.",
+        "giocatore": "Robinson J.",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Colpani",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Mota",
         "titolarita_pct": 51
        },
        {
@@ -1612,10 +1670,6 @@
       "nota": "Infortunio muscolare all'adduttore, in dubbio per la 5a."
      },
      {
-      "giocatore": "Ngonge",
-      "stato": "indisponibile"
-     },
-     {
       "giocatore": "Ziolkowski",
       "stato": "infortunato",
       "nota": "Problema alla fascia plantare, in dubbio per la 9a."
@@ -1624,15 +1678,6 @@
       "giocatore": "Tourè I.",
       "stato": "infortunato",
       "nota": "Sta recuperando da un infortunio al ginocchio, in dubbio per la 6a."
-     },
-     {
-      "giocatore": "Zeballos",
-      "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Cutrone",
-      "stato": "infortunato",
-      "nota": "Fastidio muscolare, in dubbio per la 4a."
      }
     ],
     "ufficiale": false
@@ -1666,7 +1711,7 @@
       "titolarita_pct": 60
      },
      {
-      "giocatore": "De Bruyne",
+      "giocatore": "Vergara",
       "titolarita_pct": 95
      },
      {
@@ -1674,7 +1719,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Vergara",
+      "giocatore": "De Bruyne",
       "titolarita_pct": 95
      },
      {
@@ -1687,7 +1732,7 @@
      },
      {
       "giocatore": "Lang",
-      "titolarita_pct": 95
+      "titolarita_pct": 70
      }
     ],
     "panchina": [
@@ -1698,6 +1743,10 @@
      {
       "giocatore": "Badiashile",
       "titolarita_pct": 40
+     },
+     {
+      "giocatore": "Neres",
+      "titolarita_pct": 30
      },
      {
       "giocatore": "Contini",
@@ -1717,10 +1766,6 @@
      },
      {
       "giocatore": "Lucca",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Neres",
       "titolarita_pct": 5
      }
     ],
@@ -1746,6 +1791,18 @@
        {
         "giocatore": "Olivera",
         "titolarita_pct": 40
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Lang",
+        "titolarita_pct": 70
+       },
+       {
+        "giocatore": "Neres",
+        "titolarita_pct": 30
        }
       ]
      }
@@ -1884,6 +1941,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Libra",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Enem",
       "titolarita_pct": 5
      }
@@ -2014,7 +2075,7 @@
      },
      {
       "giocatore": "Bowie",
-      "titolarita_pct": 55
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Laurientè",
@@ -2032,7 +2093,7 @@
      },
      {
       "giocatore": "Esposito Se.",
-      "titolarita_pct": 45
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Thorstvedt",
@@ -2116,11 +2177,11 @@
       "opzioni": [
        {
         "giocatore": "Bowie",
-        "titolarita_pct": 55
+        "titolarita_pct": 51
        },
        {
         "giocatore": "Esposito Se.",
-        "titolarita_pct": 45
+        "titolarita_pct": 49
        }
       ]
      }
@@ -2158,7 +2219,7 @@
      {
       "giocatore": "Volpato",
       "stato": "infortunato",
-      "nota": "Sospetto stiramento da valutare con esami, in dubbio per la 6a."
+      "nota": "Lesione di grado moderato al flessore della gamba destra, in dubbio per la 6a."
      },
      {
       "giocatore": "Bakola",
@@ -2186,7 +2247,7 @@
      },
      {
       "giocatore": "Lucumì",
-      "titolarita_pct": 60
+      "titolarita_pct": 70
      },
      {
       "giocatore": "Celik",
@@ -2224,7 +2285,7 @@
      },
      {
       "giocatore": "Kelly L.",
-      "titolarita_pct": 40
+      "titolarita_pct": 30
      },
      {
       "giocatore": "Grabara",
@@ -2252,11 +2313,11 @@
       "opzioni": [
        {
         "giocatore": "Lucumì",
-        "titolarita_pct": 60
+        "titolarita_pct": 70
        },
        {
         "giocatore": "Kelly L.",
-        "titolarita_pct": 40
+        "titolarita_pct": 30
        }
       ]
      },
@@ -2290,13 +2351,14 @@
       "nota": "Lesione di medio grado del muscolo semitendinoso, in dubbio per la 9a."
      },
      {
+      "giocatore": "Cambiaso",
+      "stato": "infortunato",
+      "nota": "Distorsione alla caviglia, in dubbio per la 6a."
+     },
+     {
       "giocatore": "Cabal",
       "stato": "infortunato",
       "nota": "Lesione di basso grado del muscolo semimembranoso della coscia sinistra, in dubbio per la 6a."
-     },
-     {
-      "giocatore": "Sarr P.",
-      "stato": "indisponibile"
      },
      {
       "giocatore": "Milik",
@@ -2345,7 +2407,7 @@
      },
      {
       "giocatore": "Perrone",
-      "titolarita_pct": 51
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Da Cunha",
@@ -2364,7 +2426,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Douvikas",
+      "giocatore": "Kean",
       "titolarita_pct": 51
      }
     ],
@@ -2386,11 +2448,11 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Kean",
+      "giocatore": "Rodriguez Je.",
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Rodriguez Je.",
+      "giocatore": "Douvikas",
       "titolarita_pct": 49
      },
      {
@@ -2478,18 +2540,6 @@
      {
       "opzioni": [
        {
-        "giocatore": "Perrone",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Milla",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
         "giocatore": "Da Cunha",
         "titolarita_pct": 51
        },
@@ -2514,11 +2564,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Douvikas",
+        "giocatore": "Kean",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Kean",
+        "giocatore": "Douvikas",
         "titolarita_pct": 49
        }
       ]
@@ -2840,14 +2890,14 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Casadei",
-      "stato": "infortunato",
-      "nota": "Affaticamento muscolare, in dubbio per la 4a."
-     },
-     {
       "giocatore": "Coco",
       "stato": "infortunato",
       "nota": "Contusione al ginocchio, in dubbio per la 4a."
+     },
+     {
+      "giocatore": "Casadei",
+      "stato": "infortunato",
+      "nota": "Affaticamento muscolare, in dubbio per la 4a."
      }
     ],
     "ufficiale": false
@@ -2882,7 +2932,7 @@
      },
      {
       "giocatore": "Cristante",
-      "titolarita_pct": 95
+      "titolarita_pct": 70
      },
      {
       "giocatore": "Wesley",
@@ -2915,6 +2965,10 @@
       "titolarita_pct": 49
      },
      {
+      "giocatore": "De Roon",
+      "titolarita_pct": 30
+     },
+     {
       "giocatore": "De Marzi",
       "titolarita_pct": 5
      },
@@ -2932,10 +2986,6 @@
      },
      {
       "giocatore": "Rensch",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "De Roon",
       "titolarita_pct": 5
      },
      {
@@ -2973,6 +3023,18 @@
        {
         "giocatore": "Molina N.",
         "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Cristante",
+        "titolarita_pct": 70
+       },
+       {
+        "giocatore": "De Roon",
+        "titolarita_pct": 30
        }
       ]
      },
@@ -3017,12 +3079,12 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Bisseck",
-      "titolarita_pct": 51
+      "giocatore": "Akanji",
+      "titolarita_pct": 95
      },
      {
-      "giocatore": "Akanji",
-      "titolarita_pct": 51
+      "giocatore": "Stones",
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Bastoni",
@@ -3042,11 +3104,11 @@
      },
      {
       "giocatore": "Zielinski",
-      "titolarita_pct": 51
+      "titolarita_pct": 95
      },
      {
-      "giocatore": "Carlos Augusto",
-      "titolarita_pct": 95
+      "giocatore": "Dimarco",
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Martinez L.",
@@ -3067,14 +3129,6 @@
       "titolarita_pct": 45
      },
      {
-      "giocatore": "Stones",
-      "titolarita_pct": 49
-     },
-     {
-      "giocatore": "Pavard",
-      "titolarita_pct": 49
-     },
-     {
       "giocatore": "Sucic P.",
       "titolarita_pct": 45
      },
@@ -3087,11 +3141,23 @@
       "titolarita_pct": 49
      },
      {
+      "giocatore": "Bisseck",
+      "titolarita_pct": 10
+     },
+     {
+      "giocatore": "Carlos Augusto",
+      "titolarita_pct": 49
+     },
+     {
       "giocatore": "Di Gennaro",
       "titolarita_pct": 5
      },
      {
       "giocatore": "Provedel",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Pavard",
       "titolarita_pct": 5
      },
      {
@@ -3104,30 +3170,6 @@
      }
     ],
     "ballottaggi": [
-     {
-      "opzioni": [
-       {
-        "giocatore": "Bisseck",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Pavard",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Akanji",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Stones",
-        "titolarita_pct": 49
-       }
-      ]
-     },
      {
       "opzioni": [
        {
@@ -3167,12 +3209,12 @@
      {
       "opzioni": [
        {
-        "giocatore": "Zielinski",
+        "giocatore": "Dimarco",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Mkhitaryan",
-        "titolarita_pct": 45
+        "giocatore": "Carlos Augusto",
+        "titolarita_pct": 49
        }
       ]
      },
@@ -3326,7 +3368,7 @@
      {
       "giocatore": "Arizala",
       "stato": "infortunato",
-      "nota": "Lesione al bicipite femorale. In dubbio per la 5a"
+      "nota": "Lesione al bicipite femorale, in dubbio per la 5a"
      },
      {
       "giocatore": "Solet",
@@ -3336,7 +3378,7 @@
      {
       "giocatore": "Piotrowski",
       "stato": "infortunato",
-      "nota": "Lieve aritmia cardiaca benigna ed è necessario un intervento di ablazione cardiaca, in dubbio per la. 6a."
+      "nota": "Lieve aritmia cardiaca benigna ed è necessario un intervento di ablazione cardiaca, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
