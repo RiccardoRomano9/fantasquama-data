@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-11T13:30:45+00:00",
+ "generatedAt": "2026-09-11T14:18:29+00:00",
  "season": "2026-27",
  "gameweek": 4,
  "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -22098,7 +22098,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.99,
-   "playProbability": 0.428,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0263,
     "rf": 0.0003,
@@ -22119,7 +22119,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.98,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0351,
     "rf": 0.0033,
@@ -22144,9 +22144,9 @@
    },
    "quotazione": 7.0,
    "fvm": 14.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -22305,7 +22305,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.92,
-   "playProbability": 0.044,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0255,
     "rf": 0.0003,
@@ -22326,7 +22326,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0516,
     "rf": 0.0049,
@@ -22352,7 +22352,7 @@
    "quotazione": 5.0,
    "fvm": 12.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -25151,7 +25151,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.0,
-   "playProbability": 0.446,
+   "playProbability": 0.83,
    "events": {
     "gf": 0.0232,
     "rf": 0.0003,
@@ -25172,7 +25172,7 @@
     "q90": 6.55
    },
    "learnedVote": 6.0,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.83,
    "learnedEvents": {
     "gf": 0.034,
     "rf": 0.0033,
@@ -25198,7 +25198,7 @@
    "quotazione": 7.0,
    "fvm": 13.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -29882,7 +29882,7 @@
    "appearances": 1,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.04,
-   "playProbability": 0.481,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.019,
     "rf": 0.0003,
@@ -29903,7 +29903,7 @@
     "q90": 6.37
    },
    "learnedVote": 6.27,
-   "learnedPlayProbability": 0.481,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.1129,
     "rf": 0.0051,
@@ -29927,7 +29927,7 @@
    "quotazione": 2.0,
    "fvm": 4.0,
    "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -40883,13 +40883,13 @@
       {
        "player_id": "6681",
        "giocatore": "Sagrado",
-       "titolarita_pct": 55,
+       "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "256",
-       "giocatore": "Juan Jesus",
-       "titolarita_pct": 45,
+       "player_id": "4845",
+       "giocatore": "Correia T.",
+       "titolarita_pct": 49,
        "ruolo": "D"
       }
      ]
@@ -40901,6 +40901,38 @@
    "formation": "4-1-4-1",
    "isOfficial": false,
    "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "7625",
+       "giocatore": "Goncalves P.",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "6827",
+       "giocatore": "Njie",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5694",
+       "giocatore": "Beto",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "7023",
+       "giocatore": "Pellegrino M.",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
+    },
     {
      "opzioni": [
       {
@@ -40962,38 +40994,6 @@
        "giocatore": "Brescianini",
        "titolarita_pct": 49,
        "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7625",
-       "giocatore": "Goncalves P.",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6827",
-       "giocatore": "Njie",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "5694",
-       "giocatore": "Beto",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "7023",
-       "giocatore": "Pellegrino M.",
-       "titolarita_pct": 49,
-       "ruolo": "A"
       }
      ]
     }
@@ -41985,22 +41985,6 @@
     {
      "opzioni": [
       {
-       "player_id": "5010",
-       "giocatore": "Ismajli",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6642",
-       "giocatore": "Coco",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "7069",
        "giocatore": "Fortini",
        "titolarita_pct": 70,
@@ -42296,6 +42280,51 @@
  ],
  "news": [
   {
+   "title": "Torino-Roma, le ultimissime di formazione: cosa c'è da capire per Dybala e Kone, su Simeone ed Hermoso...",
+   "summary": "Fra i posticipi del lunedì c'è la sfida fra Torino e Roma, in programma alle 18.30: ecco le ultime sulle scelte di Abate e Gasperini per le formazioni.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/torino-roma-le-ultimissime-di-formazione-cosa-ce-da-capire-per-dybala-e-kone-su-simeone-ed-hermoso/",
+   "image": "https://static.sosfanta.com/202605/996ddf52afe8a64605fdf92b32f59421-scaled-e1778503779327.jpeg",
+   "date": "2026-09-11T14:00:45+00:00"
+  },
+  {
+   "title": "Il kit per la quarta giornata al fantacalcio 2026-2027: ecco tutti i consigli",
+   "summary": "Il fantacalcio è ripartito, inizia tra poco la 4a giornata di Serie A 2026-2027. La formazione è da schierare entro le 20.45 di oggi.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/kit-quarta-giornata-fantacalcio-consigli/",
+   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-11-10-27-10-ca43c9327e73-e1789115523467.jpg",
+   "date": "2026-09-11T13:55:30+00:00"
+  },
+  {
+   "title": "Amorim: \"Pulisic arrabbiato, la scelta per il suo esordio! Le critiche a Modric, Ramos, Cisse, Hutchinson...\"",
+   "summary": "Il Milan di Ruben Amorim scende in campo domani alle 18 sul campo della Lazio: ecco le dichiarazioni del tecnico rossonero in conferenza stampa.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/amorim-milan-pulisic-modric-cisse/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291530677-6346d5e8f759-e1789111574741.jpg",
+   "date": "2026-09-11T13:50:14+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Inter, metà allenamento in gruppo per Dimarco: cosa filtra per l'Udinese! E per Spence...",
+   "summary": "Arrivano importanti novità da Appiano Gentile in casa Inter verso la sfida di lunedì contro l'Udinese: oggi Dimarco ha svolto metà allenamento con il gruppo.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/ultimora-inter-meta-allenamento-gruppo-dimarco-spence/",
+   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-11-14-38-07-60f8d75e313e-e1789130300247.jpg",
+   "date": "2026-09-11T13:45:27+00:00"
+  },
+  {
+   "title": "Juric: \"La decisione su Varela e Cutrone! Problemino per Mota, su Ngonge, Robinson e Zeballos...\"",
+   "summary": "Ivan Juric, tecnico del Monza, ha parlato prima del match contro il Lecce in conferenza stampa. Ecco le ultime sugli infortunati.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/monza/juric-monza-cutrone-varela-mota-zeballos-robinson-ngonge/",
+   "image": "https://static.sosfanta.com/2026/09/IMG_9460-51363e3ba93a-e1789125436613.jpg",
+   "date": "2026-09-11T13:15:23+00:00"
+  },
+  {
    "title": "Sassuolo-Juve, le probabili formazioni: da Woltemade a Berardi, Muani, McKennie, Esposito, Koopmeiners e Doig",
    "summary": "Ecco le novità sulle probabili formazioni di Sassuolo-Juve, in programma domenica sera: dalle scelte dei tecnici alle ultime sugli infortunati.",
    "author": "Daniele Najjar",
@@ -42305,31 +42334,13 @@
    "date": "2026-09-11T13:00:42+00:00"
   },
   {
-   "title": "Amorim: \"Pulisic arrabbiato, la scelta per il suo esordio! Le critiche a Modric, Ramos, Cisse, Hutchinson...\"",
-   "summary": "Il Milan di Ruben Amorim scende in campo domani alle 18 sul campo della Lazio: ecco le dichiarazioni del tecnico rossonero in conferenza stampa.",
-   "author": "Marco Astori",
+   "title": "Pisacane: \"Mina può giocare titolare! Nzola, Maldini, Deiola e vi spiego cos'è successo a Kevin Carlos\"",
+   "summary": "L'allenatore del Cagliari, Fabio Pisacane, ha parlato in conferenza stampa in vista della sfida che i suoi affronteranno domani sera contro l'Atalanta.",
+   "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/amorim-milan-pulisic-modric-cisse/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291530677-6346d5e8f759-e1789111574741.jpg",
-   "date": "2026-09-11T12:50:14+00:00"
-  },
-  {
-   "title": "ULTIM'ORA - Inter, metà allenamento in gruppo per Dimarco: cosa filtra per l'Udinese! E per Spence...",
-   "summary": "Arrivano importanti novità da Appiano Gentile in casa Inter verso la sfida di lunedì contro l'Udinese: oggi Dimarco ha svolto metà allenamento con il gruppo.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/ultimora-inter-meta-allenamento-gruppo-dimarco-spence/",
-   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-11-14-38-07-60f8d75e313e-e1789130300247.jpg",
-   "date": "2026-09-11T12:40:27+00:00"
-  },
-  {
-   "title": "Juric: \"La decisione su Varela e Cutrone! Problemino per Mota, su Ngonge, Robinson e Zeballos...\"",
-   "summary": "Ivan Juric, tecnico del Monza, ha parlato prima del match contro il Lecce in conferenza stampa. Ecco le ultime sugli infortunati.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/juric-monza-cutrone-varela-mota-zeballos-robinson-ngonge/",
-   "image": "https://static.sosfanta.com/2026/09/IMG_9460-51363e3ba93a-e1789125436613.jpg",
-   "date": "2026-09-11T12:15:23+00:00"
+   "url": "https://www.sosfanta.com/news/pisacane-cagliari-atalanta-kevin-carlos-mina-maldini/",
+   "image": "https://static.sosfanta.com/202605/226c69ea7396d0f41ea5920a40c915d6-e1779049368870.jpg",
+   "date": "2026-09-11T12:45:55+00:00"
   },
   {
    "title": "Inter-Udinese, le probabili formazioni: cosa filtra su Dimarco! Zielinski, Ekkelenkamp, Barella, Pio...",
@@ -42339,15 +42350,6 @@
    "url": "https://www.sosfanta.com/news/probabili-formazioni-inter-udinese-zielinski-dimarco-barella/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2292729683-2cddf9f13623-e1788116701149.jpeg",
    "date": "2026-09-11T12:00:08+00:00"
-  },
-  {
-   "title": "Pisacane: \"Mina può giocare titolare! Nzola, Maldini, Deiola e vi spiego cos'è successo a Kevin Carlos\"",
-   "summary": "L'allenatore del Cagliari, Fabio Pisacane, ha parlato in conferenza stampa in vista della sfida che i suoi affronteranno domani sera contro l'Atalanta.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/pisacane-cagliari-atalanta-kevin-carlos-mina-maldini/",
-   "image": "https://static.sosfanta.com/202605/226c69ea7396d0f41ea5920a40c915d6-e1779049368870.jpg",
-   "date": "2026-09-11T11:45:55+00:00"
   },
   {
    "title": "Live dai campi, tutte le formazioni: Rowe, Cisse, Zielinski, Akanji, Ghedjemis, Lang, Kean, Mora e novità Koné",
@@ -42636,24 +42638,6 @@
    "url": "https://www.sosfanta.com/news/inter-dimarco-piano-udinese-rientro-spence/",
    "image": "https://static.sosfanta.com/202503/644744dd1634dbf83b67160a06d472e7-e1741076811310.jpg",
    "date": "2026-09-10T15:00:15+00:00"
-  },
-  {
-   "title": "Fantacalcio Mantra: ecco le migliori 11 scommesse per la 4a giornata di Serie A",
-   "summary": "Quarta giornata di Serie A e fantacalcio, non possono mancare i consigli anche per il Mantra: ecco le migliori 11 scommesse.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fantacalcio-mantra-migliori-11-scommesse-4a-giornata/",
-   "image": "https://static.sosfanta.com/2026/08/kessie-d9d7abbba86b-e1788018541506.jpg",
-   "date": "2026-09-10T14:30:23+00:00"
-  },
-  {
-   "title": "De Rossi: \"Vi spiego la gestione di El Shaarawy e Traoré! Baldanzi, Meichtry, Osmajic e lo stop di Havel...\"",
-   "summary": "Daniele De Rossi, tecnico del Genoa, intervenuto in conferenza stampa, ha parlato così a due giorni dalla sfida di campionato contro il Frosinone.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/genoa/de-rossi-vi-spiego-la-gestione-di-el-shaarawy-e-traore-baldanzi-meichtry-osmajic-lo-stop-di-havel/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293033092-b7227a5fed77-e1789044315748.jpg",
-   "date": "2026-09-10T14:15:47+00:00"
   }
  ],
  "marketDifficulty": {
