@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-09-11T14:18:30+00:00",
+ "scraped_at_utc": "2026-09-11T16:36:57+00:00",
  "giornata": "2026-09-11T18:45:00.000Z",
  "partite": [
   {
@@ -602,6 +602,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Akpoguma",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Amey",
       "titolarita_pct": 5
      },
@@ -615,10 +619,6 @@
      },
      {
       "giocatore": "El Azzouzi A.",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Grillitsch",
       "titolarita_pct": 5
      },
      {
@@ -714,8 +714,9 @@
       "stato": "indisponibile"
      },
      {
-      "giocatore": "Akpoguma",
-      "stato": "indisponibile"
+      "giocatore": "Grillitsch",
+      "stato": "infortunato",
+      "nota": "Sindrome retto-adduttoria, in dubbio per la 5a."
      }
     ],
     "ufficiale": false
@@ -2951,7 +2952,8 @@
     "indisponibili": [
      {
       "giocatore": "Coco",
-      "stato": "infortunato"
+      "stato": "infortunato",
+      "nota": "Trauma contusivo alla tibia, in dubbio per la 5a."
      },
      {
       "giocatore": "Casadei",
@@ -3201,7 +3203,7 @@
     "panchina": [
      {
       "giocatore": "Jones C.",
-      "titolarita_pct": 45
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Luis Henrique",
@@ -3209,7 +3211,7 @@
      },
      {
       "giocatore": "Sucic P.",
-      "titolarita_pct": 45
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Mkhitaryan",
@@ -3264,12 +3266,24 @@
      {
       "opzioni": [
        {
+        "giocatore": "Barella",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Sucic P.",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
         "giocatore": "Calhanoglu",
         "titolarita_pct": 51
        },
        {
         "giocatore": "Jones C.",
-        "titolarita_pct": 45
+        "titolarita_pct": 49
        }
       ]
      },
@@ -3306,18 +3320,6 @@
        {
         "giocatore": "Thuram",
         "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Barella",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Sucic P.",
-        "titolarita_pct": 45
        }
       ]
      }
