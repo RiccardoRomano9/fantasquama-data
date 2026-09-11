@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-11T16:36:56+00:00",
+ "generatedAt": "2026-09-11T17:47:10+00:00",
  "season": "2026-27",
  "gameweek": 4,
- "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -4662,7 +4662,7 @@
    "appearances": 0,
    "gameweeksElapsed": 1,
    "estimatedVote": 6.04,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0829,
     "rf": 0.0069,
@@ -4683,7 +4683,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.95,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.16,
     "rf": 0.0146,
@@ -4706,9 +4706,9 @@
    },
    "quotazione": 1.0,
    "fvm": 3.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -42280,6 +42280,24 @@
  ],
  "news": [
   {
+   "title": "Venezia-Fiorentina, le formazioni ufficiali: la scelta su Atta, Beto, Jimenez, Goncalves, Adams e Dodo",
+   "summary": "Si apre la quarta giornata del campionato di Serie A: alle 20.45 il fischio d'inizio di Venezia-Fiorentina. Sono state diramate le formazioni ufficiali.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/formazioni-ufficiali-venezia-fiorentina-atta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293119765-fba540435ec9-e1789135291358.jpeg",
+   "date": "2026-09-11T17:40:25+00:00"
+  },
+  {
+   "title": "Atalanta-Cagliari, tutti i dubbi e le probabili formazioni: da Kessie, Rowe e Krstovic a Mina e Maldini",
+   "summary": "Le ultime novità sulle probabili di Atalanta-Cagliari in vista del match di domani sera.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/atalanta-cagliari-dubbi-probabili-formazioni/",
+   "image": "https://static.sosfanta.com/202602/82bbe025621b33e7f09e0c377805b6b8-e1771763951251.jpg",
+   "date": "2026-09-11T17:00:47+00:00"
+  },
+  {
    "title": "Napoli-Bologna, dubbi e scelte di formazione: Politano, Dovbyk, De Bruyne, Miranda e cosa filtra su Anguissa",
    "summary": "Domenica alle 18 al Maradona si gioca Napoli-Bologna: ecco tutte le novità sulle probabili formazioni, da Anguissa a De Bruyne e Dovbyk.",
    "author": "Daniele Najjar",
@@ -42620,24 +42638,6 @@
    "url": "https://www.sosfanta.com/squadra/roma/roma-formazione-ufficiale-champions-soule-molina-mora-dybala-malen/",
    "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-10-13-54-37-ad1138f77e59-e1789041304640.jpg",
    "date": "2026-09-10T16:45:08+00:00"
-  },
-  {
-   "title": "Napoli, l'agente di Politano si sfoga: \"Critiche a Matteo? Mi sono rotto, vi dimenticate...\"",
-   "summary": "Le parole di Giuffredi, agente di Politano, dopo le ultime sconfitte della squadra che ha causato malumore nell'ambiente.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-agente-politano-sfogo-critiche-parole-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294013744-1-e45413c571f4-e1789047011179.jpg",
-   "date": "2026-09-10T16:30:53+00:00"
-  },
-  {
-   "title": "Che fine ha fatto Pulisic? Cosa c'è dietro le tre panchine, come sta e cosa filtra per Lazio-Milan",
-   "summary": "La verità sulle esclusioni di Christian Pulisic in queste prime giornate, come sta ora e cosa filtra per Lazio-Milan.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/pulisic-verita-condizioni-cosa-filtra-lazio-milan/",
-   "image": "https://static.sosfanta.com/2026/08/Pulisic-c5d6ffe980b0-e1787409971376.jpg",
-   "date": "2026-09-10T16:00:35+00:00"
   }
  ],
  "marketDifficulty": {
