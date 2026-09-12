@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-12T12:49:50+00:00",
+ "generatedAt": "2026-09-12T13:32:12+00:00",
  "season": "2026-27",
  "gameweek": 4,
  "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -21333,7 +21333,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.01,
-   "playProbability": 0.83,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0425,
     "rf": 0.0004,
@@ -21354,7 +21354,7 @@
     "q90": 6.72
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0387,
     "rf": 0.0037,
@@ -21378,7 +21378,7 @@
    "quotazione": 5.0,
    "fvm": 13.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -40878,7 +40878,7 @@
   {
    "name": "Frosinone",
    "formation": "4-2-3-1",
-   "isOfficial": false,
+   "isOfficial": true,
    "ballottaggi": []
   },
   {
@@ -42020,6 +42020,24 @@
  ],
  "news": [
   {
+   "title": "BREAKING - Fiorentina, Dodo escluso dal progetto: i motivi della scelta e cosa può succedere ora",
+   "summary": "La Fiorentina esclude Dodo dal progetto: il brasiliano non ha rinnovato e vorrebbe lasciare il club viola a parametro zero nel 2027.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/box-ultimora/breaking-fiorentina-dodo-escluso-progetto-motivi-della-scelta-cosa-puo-succedere-ora-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2270754070-5c8c1c777da6-e1789217647733.jpg",
+   "date": "2026-09-12T13:15:31+00:00"
+  },
+  {
+   "title": "Inter, Dimarco recuperato per l'Udinese! Cosa filtra su Spence tra Roma e il post-sosta",
+   "summary": "Federico Dimarco muove grandi passi verso la convocazione contro l'Udinese. Djed Spence, invece, non ci sarà neppure contro i friulani.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-dimarco-verso-convocazione-udinese-spence/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291653854-9829d7738cf0-e1788629212405.jpg",
+   "date": "2026-09-12T13:00:56+00:00"
+  },
+  {
    "title": "Genoa-Frosinone, le formazioni ufficiali: la scelta su Vitinha, Ghedjemis, Baldanzi, Fini, Osmajic e Sow",
    "summary": "Lo scontro salvezza tra il Genoa di Daniele De Rossi e il Frosinone di Massimiliano Alvini apre questo sabato di Serie A: ecco le formazioni ufficiali.",
    "author": "Marco Astori",
@@ -42360,24 +42378,6 @@
    "url": "https://www.sosfanta.com/news/probabili-formazioni-sassuolo-juve-woltemade-mckennie-muani/",
    "image": "https://static.sosfanta.com/2026/08/Woltemade-c17c985bd32c-e1788202108991.jpg",
    "date": "2026-09-11T13:00:42+00:00"
-  },
-  {
-   "title": "Pisacane: \"Mina può giocare titolare! Nzola, Maldini, Deiola e vi spiego cos'è successo a Kevin Carlos\"",
-   "summary": "L'allenatore del Cagliari, Fabio Pisacane, ha parlato in conferenza stampa in vista della sfida che i suoi affronteranno domani sera contro l'Atalanta.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/pisacane-cagliari-atalanta-kevin-carlos-mina-maldini/",
-   "image": "https://static.sosfanta.com/202605/226c69ea7396d0f41ea5920a40c915d6-e1779049368870.jpg",
-   "date": "2026-09-11T12:45:55+00:00"
-  },
-  {
-   "title": "Inter-Udinese, le probabili formazioni: cosa filtra su Dimarco! Zielinski, Ekkelenkamp, Barella, Pio...",
-   "summary": "Lunedì sera la sfida fra Inter e Udinese, a San Siro: ecco le ultime novità sulle probabili formazioni delle due squadre, fra dubbi e novità.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/probabili-formazioni-inter-udinese-zielinski-dimarco-barella/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292729683-2cddf9f13623-e1788116701149.jpeg",
-   "date": "2026-09-11T12:00:08+00:00"
   }
  ],
  "marketDifficulty": {
