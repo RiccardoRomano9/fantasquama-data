@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-12T13:32:12+00:00",
+ "generatedAt": "2026-09-12T15:38:14+00:00",
  "season": "2026-27",
  "gameweek": 4,
  "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -14569,9 +14569,9 @@
    },
    "quotazione": 17.0,
    "fvm": 70.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -21448,9 +21448,9 @@
    },
    "quotazione": 8.0,
    "fvm": 18.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -41053,9 +41053,9 @@
        "ruolo": "C"
       },
       {
-       "player_id": "2077",
-       "giocatore": "Pasalic",
-       "titolarita_pct": 51,
+       "player_id": "5119",
+       "giocatore": "Samardzic",
+       "titolarita_pct": 49,
        "ruolo": "C"
       }
      ]
@@ -42020,13 +42020,76 @@
  ],
  "news": [
   {
+   "title": "I voti di Genoa-Frosinone al fanta: brilla Kvernadze, affonda Colombo! Masini come Calò, la scelta su Osmajic e Vasquez",
+   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni sui voti con il tabel...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-4a-giornata-serie-a-2/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294367916-0f96b703d601-e1789226176502.jpg",
+   "date": "2026-09-12T15:15:36+00:00"
+  },
+  {
+   "title": "Lazio-Milan, formazioni ufficiali: fuori Pinamonti! Da Isaksen e Pulisic a Loftus e Saelemaekers, le scelte",
+   "summary": "Il sabato di Serie A prosegue con il big match dell'Olimpico: si sfidano la Lazio di Rino Gattuso e il Milan di Ruben Amorim. Ecco le scelte ufficiali.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/lazio-milan-formazioni-ufficiali-fuori-pinamonti-da-isaksen-e-pulisic-a-loftus-e-saelemaekers-le-scelte/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292478309-244f498559a6-e1788109741838.jpeg",
+   "date": "2026-09-12T15:10:02+00:00"
+  },
+  {
+   "title": "Atalanta-Cagliari, le novità sulle probabili formazioni: da Pasalic e Mina a Mendy, Krstovic, Rowe e Kessie",
+   "summary": "Le ultime novità sulle probabili di Atalanta-Cagliari in vista del match di stasera.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/atalanta-cagliari-probabili-formazioni-pasalic-mina-mendy-krstovic-rowe-kessie/",
+   "image": "https://static.sosfanta.com/202601/e3d6b88aa73c8125355a4210b552a663-e1769190633966.jpeg",
+   "date": "2026-09-12T15:00:36+00:00"
+  },
+  {
+   "title": "Tutti gli assist della 4a giornata al fantacalcio LIVE: c'è il +1 per Schmid e Sow",
+   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1 del turno...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/assist-4a-giornata-fantacalcio-serie-a/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293807321-fc7e0d205509-e1789220209338.jpg",
+   "date": "2026-09-12T14:55:15+00:00"
+  },
+  {
+   "title": "Spalletti: \"La decisione su McKennie e cosa filtra su Cambiaso! Koop, Gatti, Sarr, Luiz e domani Woltemade...\"",
+   "summary": "Luciano Spalletti, tecnico della Juve, ha parlato in conferenza stampa alla vigilia della sfida contro il Sassuolo: ecco le sue dichiarazioni.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-decisione-mckennie-cambiaso-koop-gatti-sarr-luiz-woltemade/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291548113-2780b492d164-e1789221662294.jpg",
+   "date": "2026-09-12T14:45:07+00:00"
+  },
+  {
    "title": "BREAKING - Fiorentina, Dodo escluso dal progetto: i motivi della scelta e cosa può succedere ora",
    "summary": "La Fiorentina esclude Dodo dal progetto: il brasiliano non ha rinnovato e vorrebbe lasciare il club viola a parametro zero nel 2027.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/box-ultimora/breaking-fiorentina-dodo-escluso-progetto-motivi-della-scelta-cosa-puo-succedere-ora-fantacalcio-asta/",
+   "url": "https://www.sosfanta.com/box-ultimora/breaking-fiorentina-dodo-escluso-progetto-motivi-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2270754070-5c8c1c777da6-e1789217647733.jpg",
-   "date": "2026-09-12T13:15:31+00:00"
+   "date": "2026-09-12T14:40:31+00:00"
+  },
+  {
+   "title": "Cagliari, buone notizie per Trepy: può tornare all’attività agonistica, il comunicato del club",
+   "summary": "Buone notizie per Trepy: gli accertamenti hanno dato esito positivo. Ora inizierà un lavoro graduale per proseguire il recupero.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/cagliari-buone-notizie-trepy-puo-tornare-attivita-agonistica-comunicato-club-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2265268054-0ad592e6cf9d.jpg",
+   "date": "2026-09-12T14:30:29+00:00"
+  },
+  {
+   "title": "Genoa, è Colombo il rigorista contro il Frosinone: ma l'attaccante sbaglia e calcia fuori",
+   "summary": "E' Lorenzo Colombo il rigorista designato in casa Genoa: l'attaccante si è incaricato di battere il penalty assegnato nel finale di primo tempo contro il Fro...",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/genoa-colombo-rigorista-frosinone/",
+   "image": "https://static.sosfanta.com/202604/05ed452ed6344d9a43db040999653f5a.jpg",
+   "date": "2026-09-12T14:00:50+00:00"
   },
   {
    "title": "Inter, Dimarco recuperato per l'Udinese! Cosa filtra su Spence tra Roma e il post-sosta",
@@ -42200,15 +42263,6 @@
    "date": "2026-09-11T20:45:25+00:00"
   },
   {
-   "title": "Tutti gli assist della 4a giornata al fantacalcio LIVE: +1 per Busio, Jimenez, Fagioli e Haps",
-   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1 del turno...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/assist-4a-giornata-fantacalcio-serie-a/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2207544945-3739cb89b730-e1789153877693.jpg",
-   "date": "2026-09-11T20:30:15+00:00"
-  },
-  {
    "title": "Fiorentina, assist di Beto al fantacalcio sul secondo gol di Mastantuono? La decisione e la spiegazione",
    "summary": "Arriva la decisione sul potenziale assist di Beto sul secondo gol di Mastantuono in Venezia-Fiorentina: ecco la spiegazione.",
    "author": "Michael Di Chiaro",
@@ -42254,6 +42308,15 @@
    "date": "2026-09-11T19:00:58+00:00"
   },
   {
+   "title": "Dai campi, tutte le formazioni: Kessie, Stones, Isaksen, Sarr, Neres, McKennie, Bernabé e out Grillitsch",
+   "summary": "Inizia oggi alle 20.45 la quarta giornata di Serie A: ecco le ultimissime in tempo reale sulle formazioni per il fantacalcio da campi e conferenze.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/fantacalcio-ultime-campi-tutte-probabili-formazioni-4a-giornata-seriea-2026-2027/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294177927-274b5a8169ce-e1789137658415.jpg",
+   "date": "2026-09-11T18:45:57+00:00"
+  },
+  {
    "title": "Amorim: \"Pulisic arrabbiato, la scelta per il suo esordio! Le critiche a Modric, Ramos, Cisse, Hutchinson...\"",
    "summary": "Il Milan di Ruben Amorim scende in campo domani alle 18 sul campo della Lazio: ecco le dichiarazioni del tecnico rossonero in conferenza stampa.",
    "author": "Marco Astori",
@@ -42279,15 +42342,6 @@
    "url": "https://www.sosfanta.com/news/isaksen-pinamonti-moreira-cisse-rabiot-gabbia-probabili-lazio-milan/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2290988629-8e7366df3030-scaled-e1787080032853.jpg",
    "date": "2026-09-11T18:00:51+00:00"
-  },
-  {
-   "title": "Live dai campi, tutte le formazioni: Kessie, Stones, Isaksen, Sarr, Neres, McKennie, Bernabé e out Grillitsch",
-   "summary": "Inizia oggi alle 20.45 la quarta giornata di Serie A: ecco le ultimissime in tempo reale sulle formazioni per il fantacalcio da campi e conferenze.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/fantacalcio-ultime-campi-tutte-probabili-formazioni-4a-giornata-seriea-2026-2027/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294177927-274b5a8169ce-e1789137658415.jpg",
-   "date": "2026-09-11T17:40:57+00:00"
   },
   {
    "title": "Atalanta-Cagliari, tutti i dubbi e le probabili formazioni: da Kessie, Rowe e Krstovic a Mina e Maldini",
@@ -42324,60 +42378,6 @@
    "url": "https://www.sosfanta.com/squadra/inter/ultimora-inter-meta-allenamento-gruppo-dimarco-spence/",
    "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-11-14-38-07-60f8d75e313e-e1789130300247.jpg",
    "date": "2026-09-11T15:45:27+00:00"
-  },
-  {
-   "title": "La preview della quarta giornata al fantacalcio: partita per partita, chi mettere e chi no",
-   "summary": "Partita per partita, ecco chi schierare alla quarta giornata al fantacalcio 2026-2027 con la nostra preview con tutti i giocatori.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/preview-4a-giornata-fantacalcio-chi-schierare-consigli/",
-   "image": "https://static.sosfanta.com/2026/09/Cisse-08d87e031922-e1788726791145.jpg",
-   "date": "2026-09-11T15:30:55+00:00"
-  },
-  {
-   "title": "Fantacalcio Mantra: i nostri consigli per la 4a giornata di Serie A, fascia per fascia",
-   "summary": "Ecco la rubrica più attesa della stagione al Mantra: ogni settimana vi aiutiamo a sciogliere ballottaggi, dubbi e scelte difficili, siamo qui per voi.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fantacalcio-mantra-consigli-2/",
-   "image": "https://static.sosfanta.com/202506/08c2957fff3206560d841cffd90ed4fa.jpg",
-   "date": "2026-09-11T15:00:03+00:00"
-  },
-  {
-   "title": "Juric: \"La decisione su Varela e Cutrone! Problemino per Mota, su Ngonge, Robinson e Zeballos...\"",
-   "summary": "Ivan Juric, tecnico del Monza, ha parlato prima del match contro il Lecce in conferenza stampa. Ecco le ultime sugli infortunati.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/juric-monza-cutrone-varela-mota-zeballos-robinson-ngonge/",
-   "image": "https://static.sosfanta.com/2026/09/IMG_9460-51363e3ba93a-e1789125436613.jpg",
-   "date": "2026-09-11T14:45:23+00:00"
-  },
-  {
-   "title": "Chi schierare in attacco alla quarta giornata al fantacalcio: la divisione fascia per fascia",
-   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-fantacalcio-attaccanti-4a-giornata-consigli/",
-   "image": "https://static.sosfanta.com/2026/09/Pio-Esposito-03126acfa0a7-e1789034403736.jpg",
-   "date": "2026-09-11T14:10:16+00:00"
-  },
-  {
-   "title": "Torino-Roma, le ultimissime di formazione: cosa c'è da capire per Dybala e Kone, su Simeone ed Hermoso...",
-   "summary": "Fra i posticipi del lunedì c'è la sfida fra Torino e Roma, in programma alle 18.30: ecco le ultime sulle scelte di Abate e Gasperini per le formazioni.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/torino-roma-le-ultimissime-di-formazione-cosa-ce-da-capire-per-dybala-e-kone-su-simeone-ed-hermoso/",
-   "image": "https://static.sosfanta.com/202605/996ddf52afe8a64605fdf92b32f59421-scaled-e1778503779327.jpeg",
-   "date": "2026-09-11T14:00:45+00:00"
-  },
-  {
-   "title": "Sassuolo-Juve, le probabili formazioni: da Woltemade a Berardi, Muani, McKennie, Esposito, Koopmeiners e Doig",
-   "summary": "Ecco le novità sulle probabili formazioni di Sassuolo-Juve, in programma domenica sera: dalle scelte dei tecnici alle ultime sugli infortunati.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/probabili-formazioni-sassuolo-juve-woltemade-mckennie-muani/",
-   "image": "https://static.sosfanta.com/2026/08/Woltemade-c17c985bd32c-e1788202108991.jpg",
-   "date": "2026-09-11T13:00:42+00:00"
   }
  ],
  "marketDifficulty": {
