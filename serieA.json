@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-12T15:38:14+00:00",
+ "generatedAt": "2026-09-12T16:28:08+00:00",
  "season": "2026-27",
  "gameweek": 4,
  "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -34774,7 +34774,7 @@
    "appearances": 0,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.29,
-   "playProbability": 0.048,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -34795,7 +34795,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.2,
-   "learnedPlayProbability": 0.048,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0335,
     "rf": 0.0047,
@@ -34818,9 +34818,9 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -42020,13 +42020,40 @@
  ],
  "news": [
   {
+   "title": "Amorim: \"Severo con Loftus? Vi spiego le mie parole! Su Modric, Rabiot e Cisse...\"",
+   "summary": "Allo stadio Olimpico giocano Lazio e Milan. Nel corso del prepartita il tecnico rossonero, Ruben Amorim, ha parlato ai microfoni di Dazn delle sue scelte.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/amorim-milan-cisse-rabiot-loftus-cheek-modric/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292818111-60dd6826602a.jpg",
+   "date": "2026-09-12T16:00:54+00:00"
+  },
+  {
+   "title": "De Rossi: \"L'errore di Colombo? Abbiamo provato tanti rigoristi! Su Baldanzi, El Shaarawy, Messias e Marcandalli...\"",
+   "summary": "Daniele De Rossi è intervenuto in conferenza stampa dopo il match che ha visto il Genoa scendere in campo contro il Frosinone",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/de-rossi-genoa-frosinone-conferenza-intervista/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294362608-c97e98fa4903-e1789223130879.jpg",
+   "date": "2026-09-12T15:50:49+00:00"
+  },
+  {
    "title": "I voti di Genoa-Frosinone al fanta: brilla Kvernadze, affonda Colombo! Masini come Calò, la scelta su Osmajic e Vasquez",
    "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni sui voti con il tabel...",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-4a-giornata-serie-a-2/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294367916-0f96b703d601-e1789226176502.jpg",
-   "date": "2026-09-12T15:15:36+00:00"
+   "date": "2026-09-12T15:45:36+00:00"
+  },
+  {
+   "title": "Pinamonti solo in panchina in Lazio-Milan: il motivo e cosa filtra sulle sue condizioni",
+   "summary": "C'è una sorpresa nelle formazioni ufficiali, in particolare sponda biancoceleste: rimane fuori Andrea Pinamonti. Cosa filtra sulle sue condizioni.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/pinamonti-solo-in-panchina-in-lazio-milan-il-motivo-e-cosa-filtra-sulle-sue-condizioni/",
+   "image": "https://static.sosfanta.com/2026/09/Pinamonti-85de2b83bfed-e1788812368779.jpg",
+   "date": "2026-09-12T15:30:24+00:00"
   },
   {
    "title": "Lazio-Milan, formazioni ufficiali: fuori Pinamonti! Da Isaksen e Pulisic a Loftus e Saelemaekers, le scelte",
@@ -42035,7 +42062,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/milan/lazio-milan-formazioni-ufficiali-fuori-pinamonti-da-isaksen-e-pulisic-a-loftus-e-saelemaekers-le-scelte/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2292478309-244f498559a6-e1788109741838.jpeg",
-   "date": "2026-09-12T15:10:02+00:00"
+   "date": "2026-09-12T15:15:02+00:00"
   },
   {
    "title": "Atalanta-Cagliari, le novità sulle probabili formazioni: da Pasalic e Mina a Mendy, Krstovic, Rowe e Kessie",
@@ -42047,12 +42074,12 @@
    "date": "2026-09-12T15:00:36+00:00"
   },
   {
-   "title": "Tutti gli assist della 4a giornata al fantacalcio LIVE: c'è il +1 per Schmid e Sow",
+   "title": "Tutti gli assist della 4a giornata al fantacalcio LIVE: c'è il +1 per Schmid, Sow e Zaccagni",
    "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1 del turno...",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/assist-4a-giornata-fantacalcio-serie-a/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293807321-fc7e0d205509-e1789220209338.jpg",
+   "image": "https://static.sosfanta.com/202605/0a29edbbca3aa1a9b5815d1a478d0e5a.jpg",
    "date": "2026-09-12T14:55:15+00:00"
   },
   {
@@ -42351,33 +42378,6 @@
    "url": "https://www.sosfanta.com/news/atalanta-cagliari-dubbi-probabili-formazioni/",
    "image": "https://static.sosfanta.com/202602/82bbe025621b33e7f09e0c377805b6b8-e1771763951251.jpg",
    "date": "2026-09-11T17:00:47+00:00"
-  },
-  {
-   "title": "Napoli-Bologna, dubbi e scelte di formazione: Politano, Dovbyk, De Bruyne, Miranda e cosa filtra su Anguissa",
-   "summary": "Domenica alle 18 al Maradona si gioca Napoli-Bologna: ecco tutte le novità sulle probabili formazioni, da Anguissa a De Bruyne e Dovbyk.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-bologna-probabili-formazioni-anguissa-dovbyk-de-bruyne/",
-   "image": "https://static.sosfanta.com/2026/08/Anguissa-63fa5fbbcb3c-e1787404363394.jpg",
-   "date": "2026-09-11T16:15:37+00:00"
-  },
-  {
-   "title": "Da Osmajic e Ghedjemis a Baldanzi, Messias e Vitinha: tutto sulle probabili formazioni di Genoa-Frosinone",
-   "summary": "Avvio di stagione difficile per il Genoa, ora l'impegno casalingo contro la rivelazione Frosinone: le ultime sulle probabili formazioni.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/probabili-formazioni-genoa-frosinone/",
-   "image": "https://static.sosfanta.com/2026/08/Ghedjemis-39858e7195e9-e1787931278757.jpeg",
-   "date": "2026-09-11T16:00:54+00:00"
-  },
-  {
-   "title": "ULTIM'ORA - Inter, metà allenamento in gruppo per Dimarco: cosa filtra per l'Udinese! E per Spence...",
-   "summary": "Arrivano importanti novità da Appiano Gentile in casa Inter verso la sfida di lunedì contro l'Udinese: oggi Dimarco ha svolto metà allenamento con il gruppo.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/ultimora-inter-meta-allenamento-gruppo-dimarco-spence/",
-   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-11-14-38-07-60f8d75e313e-e1789130300247.jpg",
-   "date": "2026-09-11T15:45:27+00:00"
   }
  ],
  "marketDifficulty": {
