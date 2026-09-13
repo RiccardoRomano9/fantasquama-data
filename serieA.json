@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-13T19:42:31+00:00",
+ "generatedAt": "2026-09-13T21:46:52+00:00",
  "season": "2026-27",
  "gameweek": 4,
- "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (4 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -5143,7 +5143,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.19,
-   "playProbability": 0.393,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.4385,
     "rf": 0.0051,
@@ -5164,7 +5164,7 @@
     "q90": 9.66
    },
    "learnedVote": 6.6,
-   "learnedPlayProbability": 0.393,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.3346,
     "rf": 0.0129,
@@ -5190,7 +5190,7 @@
    "quotazione": 13.0,
    "fvm": 48.0,
    "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -41266,7 +41266,7 @@
       {
        "player_id": "5734",
        "giocatore": "Soulè",
-       "titolarita_pct": 45,
+       "titolarita_pct": 49,
        "ruolo": "A"
       }
      ]
@@ -41282,7 +41282,7 @@
       {
        "player_id": "5734",
        "giocatore": "Soulè",
-       "titolarita_pct": 45,
+       "titolarita_pct": 49,
        "ruolo": "A"
       }
      ]
@@ -41434,6 +41434,60 @@
  ],
  "news": [
   {
+   "title": "I voti di Sassuolo-Juve al fanta: Matic come Esposito e Zhegrova, Adzic come Bowie! Berardi più di Muani e c'è un 4,5",
+   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-sassuolo-juve-fantacalcio-scelte/",
+   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-8ce1d9c27c2d-e1789332382598.jpg",
+   "date": "2026-09-13T21:15:44+00:00"
+  },
+  {
+   "title": "Bergomi duro su un titolare della Juve: “Fa una cosa senza senso e sembra non stia bene”",
+   "summary": "Beppe Bergomi durissimo nei confronti di un titolarissimo della Juventus di Spalletti: queste le parole dell'ex difensore dopo il ko dei bianconeri a Sassuolo.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/bergomi-duro-titolare-juve-fa-cosa-senza-senso-sembra-non-stia-bene/",
+   "image": "https://static.sosfanta.com/2020/07/25034057/bergomi-sky-1280x720-e1714473284679.jpg",
+   "date": "2026-09-13T21:00:14+00:00"
+  },
+  {
+   "title": "Tutti gli assist della 4a giornata al fantacalcio LIVE: c'è il +1 per Muani, Laurienté, Matic, Bakola e Favasuli",
+   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1 del turno...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/assist-4a-giornata-fantacalcio-serie-a/",
+   "image": "https://static.sosfanta.com/2026/08/Kolo-Muani-9628e94339b2-e1788037443287.jpg",
+   "date": "2026-09-13T20:45:15+00:00"
+  },
+  {
+   "title": "Daniel Maldini positivo all'etilometro, ritirata la patente: la ricostruzione, le parole dell'avvocato e ora...",
+   "summary": "È risultato positivo all'etilometro Daniel Maldini, a cui è stata ritirata la patente: la ricostruzione e le parole dell'avvocato.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/daniel-maldini-positivo-etilometro-patente-ritirata-ricostruzione-parole-avvocato/",
+   "image": "https://static.sosfanta.com/2026/08/Daniel-Maldini-5042b5cb1b3d.jpg",
+   "date": "2026-09-13T20:30:15+00:00"
+  },
+  {
+   "title": "Allegri: “De Bruyne non si discute, solo crampi ma va gestito! Politano, Vergara, Lang, Lucca e Favasuli è…”",
+   "summary": "Massimiliano Allegri analizza in conferenza stampa Napoli-Bologna: tutte le dichiarazioni dell’allenatore azzurro dopo la partita.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/allegri-de-bruyne-non-si-discute-solo-crampi-gestito-politano-vergara-lang-lucca-favasuli-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294850690-839738f488f1-e1789317146820.jpg",
+   "date": "2026-09-13T20:15:28+00:00"
+  },
+  {
+   "title": "Venezia, Busio rischia un lungo stop: le ultime sulle sue condizioni e i possibili tempi di recupero",
+   "summary": "Il Venezia è in apprensione per Gianluca Busio. Nel corso del primo tempo della sfida persa 4-2 contro la Fiorentina l'americano si è fermato.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/busio-infortunio-tempi-di-recupero-venezia/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2207544945-3739cb89b730-e1789153877693.jpg",
+   "date": "2026-09-13T20:00:01+00:00"
+  },
+  {
    "title": "Vice Tedesco: \"Creato troppo poco, serve più qualità. Grande partita di Piccoli, ho messo Odgaard perché...\"",
    "summary": "Tarozzi, vice di Tedesco, ha analizzato in conferenza stampa la sfida tra Napoli e Bologna: tutte le dichiarazioni del tecnico rossoblù.",
    "author": "Francesco Mangiagli",
@@ -41443,22 +41497,13 @@
    "date": "2026-09-13T19:30:14+00:00"
   },
   {
-   "title": "Allegri: “De Bruyne non si discute, solo crampi ma va gestito! Politano, Vergara, Lang, Lucca e Favasuli è…”",
-   "summary": "Massimiliano Allegri analizza in conferenza stampa Napoli-Bologna: tutte le dichiarazioni dell’allenatore azzurro dopo la partita.",
+   "title": "Douvikas: \"Felice che sia arrivato Kean. Un piacere giocare con Nico Paz e Baturina. Scudetto? Troppo presto...\"",
+   "summary": "Douvikas protagonista nella prima notte del Como in Champions: il greco ripercorre il successo sul Lipsia e il cammino verso l’Europa.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/allegri-de-bruyne-non-si-discute-solo-crampi-gestito-politano-vergara-lang-lucca-favasuli-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294850690-839738f488f1-e1789317146820.jpg",
-   "date": "2026-09-13T19:15:28+00:00"
-  },
-  {
-   "title": "Venezia, Busio rischia un lungo stop: le ultime sulle sue condizioni e i possibili tempi di recupero",
-   "summary": "Il Venezia è in apprensione per Gianluca Busio. Nel corso del primo tempo della sfida persa 4-2 contro la Fiorentina l'americano si è fermato.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/busio-infortunio-tempi-di-recupero-venezia/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2207544945-3739cb89b730-e1789153877693.jpg",
-   "date": "2026-09-13T19:00:01+00:00"
+   "url": "https://www.sosfanta.com/squadra/como/douvikas-felice-arrivato-kean-piacere-giocare-nicopaz-baturina-scudetto-troppo-presto-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2288558412-1f7dcdba50d1-e1788384453214.jpeg",
+   "date": "2026-09-13T19:00:46+00:00"
   },
   {
    "title": "I voti di Napoli-Bologna al fanta: le scelte su Lucca e De Bruyne! Che Lobotka, Bernardeschi più di Hojlund e Piccoli",
@@ -41468,15 +41513,6 @@
    "url": "https://www.sosfanta.com/voti-fantacalcio/voti-napoli-bologna-fantacalcio-tutte-scelte/",
    "image": "https://static.sosfanta.com/2026/09/Napoli-0562d4f67ead-e1789322331926.jpg",
    "date": "2026-09-13T18:45:30+00:00"
-  },
-  {
-   "title": "Daniel Maldini positivo all'etilometro, ritirata la patente: la ricostruzione, le parole dell'avvocato e ora...",
-   "summary": "È risultato positivo all'etilometro Daniel Maldini, a cui è stata ritirata la patente: la ricostruzione e le parole dell'avvocato.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/cagliari/daniel-maldini-positivo-etilometro-patente-ritirata-ricostruzione-parole-avvocato/",
-   "image": "https://static.sosfanta.com/2026/08/Daniel-Maldini-5042b5cb1b3d.jpg",
-   "date": "2026-09-13T18:30:15+00:00"
   },
   {
    "title": "Di Francesco: \"Ilic sa di calcio, come ho visto Stulic e Maleh! Con Monteiro e Fatah dobbiamo...\"",
@@ -41495,15 +41531,6 @@
    "url": "https://www.sosfanta.com/squadra/juventus/seriea-sassuolo-juve-formazioni-ufficiali-scelte-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Kolo-Muani-3649d4aec234-e1789320772386.jpg",
    "date": "2026-09-13T17:45:47+00:00"
-  },
-  {
-   "title": "Tutti gli assist della 4a giornata al fantacalcio LIVE: c'è il +1 per Favasuli, doppio bonus per Ilic",
-   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1 del turno...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/assist-4a-giornata-fantacalcio-serie-a/",
-   "image": "https://static.sosfanta.com/2026/09/IMG_9647-96d850b0fbd1-e1789320486771.jpg",
-   "date": "2026-09-13T17:20:15+00:00"
   },
   {
    "title": "Roma, Koné convocato in extremis per Torino. La probabile formazione, da Molina a Mora e Dybala",
@@ -41765,33 +41792,6 @@
    "url": "https://www.sosfanta.com/news/pisacane-cagliari-atalanta/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294920459-13a6715fa7ff-e1789242546690.jpeg",
    "date": "2026-09-12T21:30:38+00:00"
-  },
-  {
-   "title": "Amorim: \"Spiego il cambio di Modric al 45'! Sul ruolo di Moreira, Pulisic, Cisse, Ramos e Chukwueze...\"",
-   "summary": "Ruben Amorim ha parlato al termine di Lazio-Milan, match valevole per la quarta giornata del campionato di Serie A.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/amorim-lazio-milan-conferenza-intervista/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293839129-6c239ca048a4-e1789233714229.jpg",
-   "date": "2026-09-12T21:15:36+00:00"
-  },
-  {
-   "title": "Kvernadze segna ancora: \"Nuovo Kvaratskhelia? Mi fa un po' ridere, rispondo così!\"",
-   "summary": "Altro squillo, altro messaggio a chi ha puntato su di lui al fantacalcio: Kvernadze è andato a segno nella gara pareggiata 1-1 dai suoi contro il Genoa.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kvernadze-segna-ancora-nuovo-kvaratskhelia-mi-fa-un-po-ridere-rispondo-cosi/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293818704-79e932f45901-e1789250658754.jpg",
-   "date": "2026-09-12T21:00:47+00:00"
-  },
-  {
-   "title": "Cagliari, primo rigore in campionato: non tirano Deiola o Fazzini! Problemi per Ze Pedro, le sue condizioni",
-   "summary": "Nella sfida che il Cagliari sta disputando a Bergamo, contro l'Atalanta, arrivano indicazioni anche in ottica fantacalcio per la squadra di Pisacane.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-primo-rigore-in-stagione-ecco-chi-lo-ha-battuto-problemi-per-ze-pedro-le-sue-condizioni/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291607273-2215824fe118-e1789244170553.jpeg",
-   "date": "2026-09-12T20:30:27+00:00"
   }
  ],
  "marketDifficulty": {
