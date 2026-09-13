@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-13T13:47:19+00:00",
+ "generatedAt": "2026-09-13T14:15:20+00:00",
  "season": "2026-27",
  "gameweek": 4,
  "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -87,7 +87,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.11,
-   "playProbability": 0.445,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.1511,
     "rf": 0.0044,
@@ -108,7 +108,7 @@
     "q90": 6.54
    },
    "learnedVote": 6.04,
-   "learnedPlayProbability": 0.445,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.2685,
     "rf": 0.0084,
@@ -131,9 +131,9 @@
    },
    "quotazione": 10.0,
    "fvm": 33.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -1543,7 +1543,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.26,
-   "playProbability": 0.445,
+   "playProbability": 0.48,
    "events": {
     "gf": 0.3575,
     "rf": 0.0067,
@@ -1564,7 +1564,7 @@
     "q90": 9.62
    },
    "learnedVote": 6.63,
-   "learnedPlayProbability": 0.445,
+   "learnedPlayProbability": 0.48,
    "learnedEvents": {
     "gf": 0.2695,
     "rf": 0.013,
@@ -1590,7 +1590,7 @@
    "quotazione": 16.0,
    "fvm": 100.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -5073,7 +5073,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.99,
-   "playProbability": 0.428,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.1674,
     "rf": 0.0044,
@@ -5094,7 +5094,7 @@
     "q90": 6.35
    },
    "learnedVote": 6.0,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.1738,
     "rf": 0.01,
@@ -5120,7 +5120,7 @@
    "quotazione": 14.0,
    "fvm": 80.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -5143,7 +5143,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.19,
-   "playProbability": 0.428,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.4382,
     "rf": 0.0051,
@@ -5164,7 +5164,7 @@
     "q90": 9.66
    },
    "learnedVote": 6.6,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.3343,
     "rf": 0.0129,
@@ -5190,7 +5190,7 @@
    "quotazione": 13.0,
    "fvm": 48.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -5903,7 +5903,7 @@
    "appearances": 0,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.98,
-   "playProbability": 0.044,
+   "playProbability": 0.524,
    "events": {
     "gf": 0.1214,
     "rf": 0.005,
@@ -5924,7 +5924,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.03,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.524,
    "learnedEvents": {
     "gf": 0.1501,
     "rf": 0.0099,
@@ -5949,8 +5949,8 @@
    },
    "quotazione": 6.0,
    "fvm": 12.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -34904,7 +34904,7 @@
    "appearances": 0,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.31,
-   "playProbability": 0.048,
+   "playProbability": 0.673,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -34925,7 +34925,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.39,
-   "learnedPlayProbability": 0.048,
+   "learnedPlayProbability": 0.673,
    "learnedEvents": {
     "gf": 0.0221,
     "rf": 0.0031,
@@ -34948,8 +34948,8 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 70.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -35759,7 +35759,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.24,
-   "playProbability": 0.913,
+   "playProbability": 0.288,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -35780,7 +35780,7 @@
     "q90": 7.72
    },
    "learnedVote": 6.27,
-   "learnedPlayProbability": 0.913,
+   "learnedPlayProbability": 0.288,
    "learnedEvents": {
     "gf": 0.0221,
     "rf": 0.0031,
@@ -35805,8 +35805,8 @@
    },
    "quotazione": 10.0,
    "fvm": 32.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 30.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -41012,6 +41012,22 @@
     {
      "opzioni": [
       {
+       "player_id": "7172",
+       "giocatore": "Pessina Mas.",
+       "titolarita_pct": 70,
+       "ruolo": "P"
+      },
+      {
+       "player_id": "133",
+       "giocatore": "Skorupski",
+       "titolarita_pct": 30,
+       "ruolo": "P"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "4734",
        "giocatore": "Miranda J.",
        "titolarita_pct": 51,
@@ -41399,15 +41415,15 @@
     {
      "opzioni": [
       {
-       "player_id": "6646",
-       "giocatore": "Adams C.",
-       "titolarita_pct": 51,
+       "player_id": "608",
+       "giocatore": "Zapata D.",
+       "titolarita_pct": 60,
        "ruolo": "A"
       },
       {
        "player_id": "2061",
        "giocatore": "Simeone",
-       "titolarita_pct": 49,
+       "titolarita_pct": 45,
        "ruolo": "A"
       }
      ]
@@ -41488,13 +41504,13 @@
       {
        "player_id": "309",
        "giocatore": "Dybala",
-       "titolarita_pct": 51,
+       "titolarita_pct": 55,
        "ruolo": "A"
       },
       {
        "player_id": "5734",
        "giocatore": "Soulè",
-       "titolarita_pct": 49,
+       "titolarita_pct": 45,
        "ruolo": "A"
       }
      ]
@@ -41510,7 +41526,7 @@
       {
        "player_id": "5734",
        "giocatore": "Soulè",
-       "titolarita_pct": 49,
+       "titolarita_pct": 45,
        "ruolo": "A"
       }
      ]
@@ -41662,13 +41678,31 @@
  ],
  "news": [
   {
+   "title": "Fiorentina, cosa filtra sulla gestione di Dodo e le ultime sulla data del rientro di Oulai",
+   "summary": "Caso Dodo alla Fiorentina. Ieri è circolata la notizia legata al fatto che il giocatore sia finito ai margini del progetto della Viola nel nuovo corso con Va...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/dodo-fiorentina-oulai/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2255166570-7d89208c6d6f.jpg",
+   "date": "2026-09-13T14:00:17+00:00"
+  },
+  {
+   "title": "FLASH - Bologna, Tedesco può punire Skorupski e rilanciare Pessina con il Napoli: il motivo!",
+   "summary": "Sorpresa in casa del Bologna: nella sfida di stasera contro il Napoli in porta potrebbe non esserci Skorupski. Al suo posto Tedesco può rilanciare Pessina.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/bologna-napoli-skorupski-pessina/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292881436-05b61c7875a3-e1789307896532.jpeg",
+   "date": "2026-09-13T13:50:15+00:00"
+  },
+  {
    "title": "Abate: \"Adams fuori e Simeone in dubbio! Su Zapata, Oristanio, Rodriguez, Vlasic, Belghali, Mandragora...\"",
    "summary": "Il Torino arriva al test chiamato Roma: domani sera la sfida ai giallorossi allo stadio Olimpico Grande Torino, parla Abate in conferenza stampa.",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/abate-torino-roma-rodriguez-adams-simeone/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293100214-66c69359ffd0-e1789285230503.jpeg",
-   "date": "2026-09-13T13:20:01+00:00"
+   "date": "2026-09-13T13:45:01+00:00"
   },
   {
    "title": "Tutti gli assist della 4a giornata al fantacalcio LIVE: doppio Ilic, c'è il +1 per Zaccagni, Pulisic e Rabiot",
@@ -41680,6 +41714,15 @@
    "date": "2026-09-13T13:15:15+00:00"
   },
   {
+   "title": "Chivu: \"La scelta su Dimarco e Spence! Perché tolgo Calhanoglu al 60', rispondo così a Bergomi e su Diouf...\"",
+   "summary": "L'Inter si prepara alla sfida in programma fra i posticipi del lunedì, contro l'Udinese. Il tecnico nerazzurro, Cristian Chivu, ha parlato in conferenza stampa.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/chivu-inter-dimarco/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292910441-164406f63abb-e1789285222610.jpeg",
+   "date": "2026-09-13T13:15:14+00:00"
+  },
+  {
    "title": "Da Genova - Incubo rigorista per il Genoa: le riflessioni sul prossimo tiratore dopo l'errore di Colombo",
    "summary": "In casa Genoa torna l'incubo del rigore dopo l'errore di Colombo contro il Frosinone: il Secolo XIX scrive che la scelta per chi batterà il prossimo è in dis...",
    "author": "Daniele Najjar",
@@ -41689,22 +41732,13 @@
    "date": "2026-09-13T13:00:43+00:00"
   },
   {
-   "title": "Chivu: \"La scelta su Dimarco e Spence! Perché tolgo Calhanoglu al 60', rispondo così a Bergomi e su Diouf...\"",
-   "summary": "L'Inter si prepara alla sfida in programma fra i posticipi del lunedì, contro l'Udinese. Il tecnico nerazzurro, Cristian Chivu, ha parlato in conferenza stampa.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/chivu-inter-dimarco/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292910441-164406f63abb-e1789285222610.jpeg",
-   "date": "2026-09-13T12:45:14+00:00"
-  },
-  {
    "title": "Gasperini: \"Come sta Kone e torna Pellegrini! Dybala se sta bene gioca sempre, Malen, Mora, Wesley...\"",
    "summary": "La Roma non vuole fermarsi e si prepara in vista del match in programma lunedì sera contro il Torino: parla Gasperini in conferenza stampa.",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/gasperni-roma-torino-kone-dybala-pellegrini/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294538873-0ebba80458d9-e1789285238632.jpeg",
-   "date": "2026-09-13T12:40:31+00:00"
+   "date": "2026-09-13T12:50:31+00:00"
   },
   {
    "title": "Lecce-Monza, le formazioni ufficiali: la scelta su Varela! Pierotti, Monteiro, Cutrone e Thiam...",
@@ -41713,7 +41747,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/lecce-monza-formazioni-ufficiali-fantacalcio-varela-cutrone/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2290563648-3156905998ad-e1788618216710.jpg",
-   "date": "2026-09-13T12:05:19+00:00"
+   "date": "2026-09-13T12:45:19+00:00"
   },
   {
    "title": "Le probabili formazioni di Sassuolo-Juve: chi fra Kolo Muani e Woltemade, su Adzic, Lucumi e Thorstvedt...",
@@ -42002,24 +42036,6 @@
    "url": "https://www.sosfanta.com/news/pinamonti-solo-in-panchina-in-lazio-milan-il-motivo-e-cosa-filtra-sulle-sue-condizioni/",
    "image": "https://static.sosfanta.com/2026/09/Pinamonti-85de2b83bfed-e1788812368779.jpg",
    "date": "2026-09-12T15:30:24+00:00"
-  },
-  {
-   "title": "Atalanta-Cagliari, le novità sulle probabili formazioni: da Pasalic e Mina a Mendy, Krstovic, Rowe e Kessie",
-   "summary": "Le ultime novità sulle probabili di Atalanta-Cagliari in vista del match di stasera.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/atalanta-cagliari-probabili-formazioni-pasalic-mina-mendy-krstovic-rowe-kessie/",
-   "image": "https://static.sosfanta.com/202601/e3d6b88aa73c8125355a4210b552a663-e1769190633966.jpeg",
-   "date": "2026-09-12T15:00:36+00:00"
-  },
-  {
-   "title": "Spalletti: \"La decisione su McKennie e cosa filtra su Cambiaso! Koop, Gatti, Sarr, Luiz e domani Woltemade...\"",
-   "summary": "Luciano Spalletti, tecnico della Juve, ha parlato in conferenza stampa alla vigilia della sfida contro il Sassuolo: ecco le sue dichiarazioni.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-decisione-mckennie-cambiaso-koop-gatti-sarr-luiz-woltemade/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291548113-2780b492d164-e1789221662294.jpg",
-   "date": "2026-09-12T14:45:07+00:00"
   }
  ],
  "marketDifficulty": {
