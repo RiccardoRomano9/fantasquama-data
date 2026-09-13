@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-13T04:58:54+00:00",
+ "generatedAt": "2026-09-13T12:05:32+00:00",
  "season": "2026-27",
  "gameweek": 4,
  "note": "Stime calcolate con la sola storia precedente alla giornata 4 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -11681,7 +11681,7 @@
    "appearances": 1,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.11,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0919,
     "rf": 0.0056,
@@ -11702,7 +11702,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0812,
     "rf": 0.0051,
@@ -11727,8 +11727,8 @@
    },
    "quotazione": 3.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18551,7 +18551,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.2,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.1767,
     "rf": 0.0085,
@@ -18572,7 +18572,7 @@
     "q90": 6.68
    },
    "learnedVote": 6.05,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1643,
     "rf": 0.0076,
@@ -18597,8 +18597,8 @@
    },
    "quotazione": 10.0,
    "fvm": 35.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21448,9 +21448,9 @@
    },
    "quotazione": 8.0,
    "fvm": 18.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -28147,7 +28147,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.98,
-   "playProbability": 0.35,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.055,
     "rf": 0.0007,
@@ -28168,7 +28168,7 @@
     "q90": 6.21
    },
    "learnedVote": 6.0,
-   "learnedPlayProbability": 0.35,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.0553,
     "rf": 0.0053,
@@ -28194,7 +28194,7 @@
    "quotazione": 5.0,
    "fvm": 13.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -30365,7 +30365,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.03,
-   "playProbability": 0.524,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.0883,
     "rf": 0.0007,
@@ -30386,7 +30386,7 @@
     "q90": 6.53
    },
    "learnedVote": 6.09,
-   "learnedPlayProbability": 0.524,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.078,
     "rf": 0.0054,
@@ -30412,7 +30412,7 @@
    "quotazione": 8.0,
    "fvm": 25.0,
    "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -41025,13 +41025,13 @@
       {
        "player_id": "1852",
        "giocatore": "Spinazzola",
-       "titolarita_pct": 60,
+       "titolarita_pct": 55,
        "ruolo": "D"
       },
       {
        "player_id": "5840",
        "giocatore": "Olivera",
-       "titolarita_pct": 40,
+       "titolarita_pct": 45,
        "ruolo": "D"
       }
      ]
@@ -41039,14 +41039,14 @@
     {
      "opzioni": [
       {
-       "player_id": "7223",
-       "giocatore": "Vergara",
+       "player_id": "5131",
+       "giocatore": "Gilmour",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "5131",
-       "giocatore": "Gilmour",
+       "player_id": "7223",
+       "giocatore": "Vergara",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -41061,8 +41061,8 @@
        "ruolo": "C"
       },
       {
-       "player_id": "5131",
-       "giocatore": "Gilmour",
+       "player_id": "7223",
+       "giocatore": "Vergara",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -41744,13 +41744,121 @@
  ],
  "news": [
   {
+   "title": "Le probabili formazioni di Sassuolo-Juve: chi fra Kolo Muani e Woltemade, su Adzic, Lucumi e Thorstvedt...",
+   "summary": "Alle 20.45 si chiude la domenica della quarta giornata di Serie A con la sfida del Mapei fra Sassuolo e Juve: le ultime sulle probabili formazioni.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/le-probabili-formazioni-di-sassuolo-juve-chi-fra-kolo-muani-e-woltemade-su-adzic-lucumi-e-thorstvedt/",
+   "image": "https://static.sosfanta.com/2026/08/Woltemade-c17c985bd32c-e1788202108991.jpg",
+   "date": "2026-09-13T12:00:55+00:00"
+  },
+  {
+   "title": "Lecce-Monza, le formazioni ufficiali: la scelta su Varela! Da Pierotti e Monteiro a Cutrone e Thiam",
+   "summary": "Alle 15:00 il calcio d'inizio della sfida fra Lecce e Monza. Sono state diramate le formazioni ufficiali con le scelte dei due tecnici.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/lecce-monza-formazioni-ufficiali-fantacalcio-varela-cutrone/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290563648-3156905998ad-e1788618216710.jpg",
+   "date": "2026-09-13T11:55:19+00:00"
+  },
+  {
+   "title": "Runjaic: \"Zaniolo può rientrare prima: ecco la data! Su Zanoli, Jovanovic e Chakvetadze...\"",
+   "summary": "L'Udinese arriva al test contro i campioni d'Italia: domani sera la sfida interna contro l'Inter di Chivu. Kosta Runjaic, ha parlato in conferenza stampa.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/runjaic-udinese-inter-zaniolo/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294042654-f431fe59d8c5-e1789285246750.jpeg",
+   "date": "2026-09-13T11:45:16+00:00"
+  },
+  {
+   "title": "Cuesta: \"Novità su Bernabé, dico questo sulla convocazione! Su Lontani titolare, Toure, Carlos, Delprato...\"",
+   "summary": "Il Parma si prepara al match in programma lunedì sera contro il Como, alle 18.30: parla il tecnico gialloblu Carlos Cuesta in conferenza.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/cuesta-novita-su-bernabe-dico-questo-sulla-convocazione-su-lontani-titolare-diego-carlos-delprato/",
+   "image": "https://static.sosfanta.com/2026/09/Cuesta-c91160b8f81a-e1788710377395.jpg",
+   "date": "2026-09-13T11:15:44+00:00"
+  },
+  {
+   "title": "Torino, cosa filtra sulla convocazione di Ricardo Rodriguez. Progressi Casadei: quando può rientrare",
+   "summary": "Ricardo Rodriguez domani pomeriggio strapperà la prima convocazione dopo la firma con il Torino? Molto probabile, secondo La Gazzetta dello Sport.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ricardo-rodriguez-torino-casadei/",
+   "image": "https://static.sosfanta.com/2020/09/14042818/Rodriguez-e1600050502304.jpg",
+   "date": "2026-09-13T11:00:30+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Daniel Maldini ferito in modo non grave in un incidente stradale: in ospedale per accertamenti",
+   "summary": "È rimasto ferito in modo non grave Daniel Maldini in un incidente fra due auto alle prime ore dell'alba di oggi, domenica 13 settembre.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/daniel-maldini-incidente-ospedale/",
+   "image": "https://static.sosfanta.com/2026/08/Maldini-ed4a04513b2e-e1787767742999.jpg",
+   "date": "2026-09-13T10:45:23+00:00"
+  },
+  {
+   "title": "NEWS - Novità Zaniolo! Kone, Busio, Dodo, Dimarco, Kean, Casadei, Oulai, Solet, De Bruyne e rigorista Genoa",
+   "summary": "Oggi prosegue la 4a giornata di campionato: si riparte alle 15 da Lecce-Monza. Ecco le ultimissime sulle probabili formazioni e non solo in ottica fantacalcio.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/zaniolo-busio-dodo-solet-de-bruyne/",
+   "image": "https://static.sosfanta.com/2026/08/zaniolo-edb89cac8020-e1787649108684.jpeg",
+   "date": "2026-09-13T10:15:28+00:00"
+  },
+  {
+   "title": "Napoli-Bologna, ultimi dubbi di formazione: dalla posizione di De Bruyne a Vergara, Cambiaghi, Olivera e Moro",
+   "summary": "Alle 18 la sfida allo stadio Maradona fra il Napoli di Allegri e il Bologna di Tedesco: ecco le ultime sulle probabili formazioni delle due squadre.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/probabili-formazioni-napoli-bologna-de-bruyne-vergara/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291067190-2ff4c10e55f7.jpg",
+   "date": "2026-09-13T10:00:21+00:00"
+  },
+  {
    "title": "Sarri: \"Come vedo Kessie! Su Rowe spaesato, CDK, il cambio di Samardzic, Kolasinac, Bellanova, Gaetano...\"",
    "summary": "L'allenatore dell'Atalanta, Maurizio Sarri, ha parlato ai microfoni di Dazn, Sky ed in conferenza stampa dopo il match giocato a Bergamo dai suoi contro il C...",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/sarri-atalanta-cagliari-kessie-rowe/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294921037-ca6850e831a5-e1789242563707.jpeg",
-   "date": "2026-09-12T22:00:37+00:00"
+   "date": "2026-09-13T09:45:37+00:00"
+  },
+  {
+   "title": "Lecce-Monza, le ultime sulle probabili formazioni: dubbio Monteiro, cosa filtra su Varela e la porta del Monza",
+   "summary": "Alle 15 si apre la domenica della quarta giornata della Serie A 2026/27 con la sfida fra il Lecce ed il Monza: le ultime sulle probabili formazioni.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/probabili-formazioni-lecce-monza-varela-monteiro/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290495994-17d29cbee5fb-scaled-e1786741275266.jpg",
+   "date": "2026-09-13T09:30:01+00:00"
+  },
+  {
+   "title": "I convocati della Juve per il Sassuolo: out McKennie, ecco la scelta su Cambiaso!",
+   "summary": "Il tecnico della Juventus, Luciano Spalletti, ha diramato la lista dei giocatori convocati per la sfida che i bianconeri affronteranno questa sera, contro il...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/cambiaso-mckennie-juve-convocati-sassuolo/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289613230-754bf86d14a0-scaled-e1787499489519.jpg",
+   "date": "2026-09-13T09:00:25+00:00"
+  },
+  {
+   "title": "Roma, il piano per la gestione di Kone contro il Torino e chi potrebbe sostituirlo",
+   "summary": "Koné verso l'esclusione nella sfida della Roma contro il Torino. Il Tempo spiega quali sono le ultime idee di Gian Piero Gasperini",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/kone-roma-torino-infortunio-gasperini/",
+   "image": "https://static.sosfanta.com/2026/09/Kone-a410696c6a3d-e1789119313282.jpg",
+   "date": "2026-09-13T08:30:29+00:00"
+  },
+  {
+   "title": "Udinese, speranza Zaniolo: prova a rientrare prima del previsto! E su Solet e Zanoli...",
+   "summary": "Novità sul fronte Nicolò Zaniolo in casa Udinese. Il fantasista era atteso al rientro nel corso della maxi-sosta per le nazionali, ma starebbe provando ad ac...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/zaniolo-udinese-quando-rientra-infortunio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2289726046-37cc32faa047-e1788950193147.jpg",
+   "date": "2026-09-13T08:00:20+00:00"
   },
   {
    "title": "I voti di Atalanta-Cagliari al fanta: la scelta su Raspadori! Mendy e Maldini al top, Romano, Rowe, Kessié...",
@@ -41759,7 +41867,25 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-quarta-giornata-serie-a-atalanta-cagliari/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294924161-7825a80975f9-e1789245150518.jpg",
-   "date": "2026-09-12T21:50:37+00:00"
+   "date": "2026-09-13T07:15:37+00:00"
+  },
+  {
+   "title": "Ds Napoli: “Abbiamo provato a prendere Gabriel Jesus, perché non è arrivato! E a gennaio…”",
+   "summary": "Giovanni Manna, direttore sportivo del Napoli, ha rilasciato alcune dichiarazioni su Gabriel Jesus, sul futuro mercato azzurro e sul momento negativo.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/ds-napoli-manna-abbiamo-provato-prendere-gabriel-jesus-gennaio-mercato-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2287067042-d48a80882cd1-e1789216301280.jpg",
+   "date": "2026-09-13T07:00:49+00:00"
+  },
+  {
+   "title": "Diogo Moreira: \"Sono felice per i miei primi gol. La scelta sul mio ruolo? Mossa vincente di Amorim!\"",
+   "summary": "Diogo Moreira è intervenuto ai microfoni di DAZN al termine di Lazio-Milan: ecco le sue dichiarazioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/diogo-moreira-milan-intervista/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294909121-665913560099-e1789236352783.jpg",
+   "date": "2026-09-13T06:00:33+00:00"
   },
   {
    "title": "Pisacane: \"Ho un gioiello tra le mani! Su Daniel Maldini, Fazzini, Mendy e Winks...\"",
@@ -41976,132 +42102,6 @@
    "url": "https://www.sosfanta.com/news/inter-dimarco-verso-convocazione-udinese-spence/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2291653854-9829d7738cf0-e1788629212405.jpg",
    "date": "2026-09-12T13:00:56+00:00"
-  },
-  {
-   "title": "Genoa-Frosinone, le formazioni ufficiali: la scelta su Vitinha, Ghedjemis, Baldanzi, Fini, Osmajic e Sow",
-   "summary": "Lo scontro salvezza tra il Genoa di Daniele De Rossi e il Frosinone di Massimiliano Alvini apre questo sabato di Serie A: ecco le formazioni ufficiali.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/genoa/genoa-frosinone-formazioni-ufficiali-vitinha-ghedjemis-baldanzi-fini-osmajic-sow/",
-   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-12-10-20-22-605e8b694c5f-e1789201254538.jpg",
-   "date": "2026-09-12T12:15:56+00:00"
-  },
-  {
-   "title": "Di Francesco: \"Problemi per Berisha e Gandelman! I tempi per Geubbels, Kaba e il ruolo di Pierotti\"",
-   "summary": "Eusebio Di Francesco, tecnico del Venezia, ha parlato in conferenza stampa prima del match contro il Monza, le sue parole.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lecce/di-francesco-berisha-gandelman-geubbels-pierotti/",
-   "image": "https://static.sosfanta.com/2026/08/Di-Francesco-171301485e99-e1787511171212.jpg",
-   "date": "2026-09-12T12:00:07+00:00"
-  },
-  {
-   "title": "Allegri: \"Anguissa out contro il Bologna, il motivo! Come sta Neres, KDB e rispondo su Lang titolare domani\"",
-   "summary": "Napoli atteso dalla sfida contro il Bologna: le parole di Massimiliano Allegri in conferenza stampa alla vigilia della partita.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/allegri-anguissa-out-neres-kdb-lang/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294158889-1-f3b516b75455-e1789209235625.jpg",
-   "date": "2026-09-12T11:45:31+00:00"
-  },
-  {
-   "title": "BREAKING - Lazio, Doekhi si opera e salta il Milan! Le sue condizioni e quando tornerà",
-   "summary": "Doekhi è out per Lazio-Milan dopo l'operazione alla mano: può saltare anche il Venezia, mentre Sutalo si prepara a giocare titolare.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/breaking-lazio-doekhi-si-opera-salta-milan-condizioni-quando-tornera-infortunio-fantacalcio-asta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292290563-2db50373eba9-e1789210226346.jpg",
-   "date": "2026-09-12T11:15:07+00:00"
-  },
-  {
-   "title": "Aquilani: \"Bakola è recuperato! Le condizioni di Bowie, Boloca e Walukiewicz e su Adzic rispondo così\"",
-   "summary": "Sfida insidiosa per il Sassuolo di Alberto Aquilani, che domani sera ospita la Juventus al Mapei Stadium. Ecco le dichiarazioni in conferenza di Aquilani.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/aquilani-bakola-e-recuperato-le-condizioni-di-bowie-boloca-e-walukiewicz-e-su-adzic-rispondo-cosi/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293356659-e0cd8ac164e7-e1789200459462.jpg",
-   "date": "2026-09-12T11:00:45+00:00"
-  },
-  {
-   "title": "Tedesco: \"La decisione su Dovbyk e Zortea e come sta Artem! Così vedo Mbangula, su Miranda e Moro...\"",
-   "summary": "Parla Domenico Tedesco. Queste le dichiarazioni del tecnico del Bologna verso la sfida di campionato di domani contro il Napoli al Maradona.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/tedesco-dovbyk-zortea-mbangula-miranda-moro/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292959354-772e19488d34-e1789200338669.jpg",
-   "date": "2026-09-12T10:45:49+00:00"
-  },
-  {
-   "title": "NEWS - Stop Dovbyk e Zortea! Dimarco, Spence, McKennie, Cambiaso, Pulisic, Pasalic, Isaksen, Koné, Krstovic...",
-   "summary": "Oggi prosegue la 4a giornata di campionato: si parte alle 15 con Genoa-Frosinone. Ecco le ultimissime sulle probabili formazioni e non solo in ottica fantaca...",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/news-stop-dovbyk-zortea-dimarco-spence-mckennie-cambiaso-pulisic-pasalic-isaksen-kone-krstovic/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293383084-4a91436abdb1-e1789198296662.jpg",
-   "date": "2026-09-12T10:15:11+00:00"
-  },
-  {
-   "title": "Lazio-Milan, tutti i dubbi e le probabili formazioni: da Isaksen e Pulisic a Loftus, Pinamonti e Chukwueze",
-   "summary": "Un solo dubbio di formazione per Gattuso contro il Milan: ecco le probabili formazioni della sfida tra i biancocelesti e il Milan.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-milan-tutti-i-dubbi-e-le-probabili-formazioni-da-isaksen-e-pulisic-a-gabbia-pinamonti-e-chukwueze/",
-   "image": "https://static.sosfanta.com/202411/b0686f4ec84980c2e1098db9fafdefb6-e1730998684758.jpg",
-   "date": "2026-09-12T10:00:01+00:00"
-  },
-  {
-   "title": "FLASH - Brozovic, ecco la decisione tra Serie A e Arabia: è vicinissimo a questo club per 6 milioni di euro",
-   "summary": "Marcelo Brozovic ormai sempre più lontano dal ritorno in Serie A: il croato, svincolatosi dall'Al Nassr a parametro zero, non tornerà in Italia dopo i suoi a...",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/calciomercato/flash-brozovic-decisione-serie-a-arabia/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2273875411-6a01749cacd7-e1789192206688.jpg",
-   "date": "2026-09-12T09:45:50+00:00"
-  },
-  {
-   "title": "Juve, cosa filtra sulla convocazione di McKennie e Cambiaso col Sassuolo! E per Pape Sarr...",
-   "summary": "Allenamento con la squadra ieri per Pape Sarr, pronto alla prima convocazione con la Juve domani contro il Sassuolo. Le novità su Cambiaso e McKennie.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juve-cosa-filtra-convocazione-mckennie-cambiaso-sarr/",
-   "image": "https://static.sosfanta.com/202601/a1b6f297dcb96022cafd7f00961330cc-e1769709050856.jpg",
-   "date": "2026-09-12T09:00:13+00:00"
-  },
-  {
-   "title": "Genoa-Frosinone, le probabili formazioni: da Baldanzi e Vitinha a Ghedjemis, Kvernadze e Osmajic",
-   "summary": "Avvio di stagione difficile per il Genoa, ora l'impegno casalingo contro la rivelazione Frosinone: le ultime sulle probabili formazioni.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/genoa-frosinone-probabili-formazioni-baldanzi-vitinha-ghedjemis-kvernadze-osmajic/",
-   "image": "https://static.sosfanta.com/202603/68b439379049274194f11e90d0965857-e1772531097706.jpeg",
-   "date": "2026-09-12T08:00:46+00:00"
-  },
-  {
-   "title": "Bologna, si fermano Dovbyk e Zortea: le loro condizioni e cosa filtra sulla loro presenza col Napoli",
-   "summary": "Si fermano Artem Dovbyk e Nadir Zortea nel Bologna: l’attaccante ha rimediato un lieve risentimento muscolare ai flessori, il laterale un problema all’anca.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/bologna-stop-dovbyk-zortea-condizioni-napoli/",
-   "image": "https://static.sosfanta.com/202512/7ea68d4ac9f5378903f14ce0e6709c0f-e1767127091685.jpg",
-   "date": "2026-09-12T07:30:20+00:00"
-  },
-  {
-   "title": "Juventus, Woltemade: \"Posso giocare da numero 10 e con Kolo Muani! Gol? Ho questo obiettivo\"",
-   "summary": "Dopo l'esordio con la maglia bianconera, Woltemade si è raccontato dando indicazioni su come Spalletti potrebbe impiegarlo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juventus-woltemade-ruolo-goal-kolo-muani-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Woltemade-0c99023ea011-e1788357293195.jpg",
-   "date": "2026-09-12T07:00:31+00:00"
-  },
-  {
-   "title": "Stroppa: \"Busio? Pensiamo si sia fatto veramente male. Su Juan Jesus, Basic, Moreno e Halhal...\"",
-   "summary": "Giovanni Stroppa è intervenuto in conferenza stampa al termine della partita tra Venezia e Fiorentina che ha aperto la quarta giornata del campionato di Serie A",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/venezia/stroppa-venezia-conferenza-busio-infortunio-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294767479-1-81da92ec7b12.jpg",
-   "date": "2026-09-12T06:30:29+00:00"
   }
  ],
  "marketDifficulty": {
