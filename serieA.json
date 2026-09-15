@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-15T13:31:48+00:00",
+ "generatedAt": "2026-09-15T17:08:39+00:00",
  "season": "2026-27",
  "gameweek": 5,
- "note": "Stime calcolate con la sola storia precedente alla giornata 5 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 5 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -20329,7 +20329,7 @@
    "appearances": 3,
    "gameweeksElapsed": 4,
    "estimatedVote": 5.99,
-   "playProbability": 0.83,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.0282,
     "rf": 0.0003,
@@ -20350,7 +20350,7 @@
     "q90": 6.54
    },
    "learnedVote": 5.95,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.0402,
     "rf": 0.0027,
@@ -20376,7 +20376,7 @@
    "quotazione": 6.0,
    "fvm": 17.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -32011,7 +32011,7 @@
    "appearances": 3,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.08,
-   "playProbability": 0.044,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.0441,
     "rf": 0.0003,
@@ -32032,7 +32032,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.12,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.0546,
     "rf": 0.0029,
@@ -32058,7 +32058,7 @@
    "quotazione": 8.0,
    "fvm": 19.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -41653,6 +41653,22 @@
     {
      "opzioni": [
       {
+       "player_id": "4887",
+       "giocatore": "Bellanova",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "554",
+       "giocatore": "Zappacosta",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "2640",
        "giocatore": "Kolasinac",
        "titolarita_pct": 51,
@@ -41845,13 +41861,58 @@
  ],
  "news": [
   {
-   "title": "Sassuolo, tegola Idzes per Aquilani: l'esito ufficiale degli esami e i tempi di recupero",
-   "summary": "Arrivano aggiornamenti su Jay Idzes dopo il problema accusato in Sassuolo-Juventus: ecco il comunicato ufficiale del club neroverde.",
+   "title": "Inter, ecco quanto starà fuori Calhanoglu e cosa filtra dal club sul suo rientro in campo",
+   "summary": "Si è fermato Hakan Calhanoglu nell'Inter: per lui risentimento muscolare all'adduttore della coscia destra. Il centrocampista turco salterà quindi la Roma.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-ecco-quanto-stara-fuori-calhanoglu/",
+   "image": "https://static.sosfanta.com/202601/0b6680bc5c044eda6b6ad8bda4a28c5d-e1767972144494.jpg",
+   "date": "2026-09-15T17:00:11+00:00"
+  },
+  {
+   "title": "DAI CAMPI - McKennie e Cambiaso in gruppo! Mangas, Skorupski, Calhanoglu, Spence e gli esami di Busio e Idzes",
+   "summary": "Novità importanti dai campi sugli infortunati e non soltanto: ecco le ultimissime in chiave fantacalcio verso la 5a giornata.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/dai-campi-mckennie-cambiaso-gruppo-mangas-skorupski-calhanoglu-spence-gli-esami-busio-idzes-fantacalcio-asta-infortunati/",
+   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-15-18-21-13-58d44e0cd47d-e1789489289905.jpg",
+   "date": "2026-09-15T16:45:12+00:00"
+  },
+  {
+   "title": "BREAKING - Torino, ecco l'esito degli esami per Ché Adams: le condizioni e i tempi di recupero",
+   "summary": "Novità dall’infermeria del Torino per Ché Adams: ecco il comunicato ufficiale del club dopo gli accertamenti sostenuti dall’attaccante.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-infortunio-idzes-contro-juve-lesione-condizioni-difensore-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/202605/859bcc46dd6fa62c911d1691709051d9-scaled-e1777815972322.jpg",
-   "date": "2026-09-15T13:30:29+00:00"
+   "url": "https://www.sosfanta.com/squadra/torino/breaking-torino-ecco-esito-degli-esami-che-adams-condizioni-tempi-recupero-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/202501/4e031d7b1b44cad7947af1e129b5708d-e1736104582852.jpg",
+   "date": "2026-09-15T16:15:50+00:00"
+  },
+  {
+   "title": "Monza, apprensione per l'infortunio della rivelazione Mangas: cosa filtra sullo stop",
+   "summary": "Il Monza attende aggiornamenti sulle condizioni di Ricardo Mangas, uno dei protagonisti più positivi di questo avvio di stagione della squadra.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/monza-infortunio-mangas-cosa-filtra-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/Mangas-7fdf0852d019-e1789469167964.jpg",
+   "date": "2026-09-15T16:00:40+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Bologna, panchina a rischio per Domenico Tedesco: ecco la situazione",
+   "summary": "Bologna, novità sulla posizione di Domenico Tedesco dopo un avvio deludente: Matteo Moretto fa il punto sulle riflessioni del club.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/ultimora-bologna-panchina-rischio-domenico-tedesco-situazione-fantacalcio-esonero-asta/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292874598-045f1837cded-e1788207354717.jpg",
+   "date": "2026-09-15T15:45:39+00:00"
+  },
+  {
+   "title": "La formazione ufficiale del Genoa in Coppa Italia contro il Südtirol: da Vitinha a Mitaj, tutte le scelte",
+   "summary": "Genoa in campo alle 18 contro il Südtirol in Coppa Italia: ecco le decisioni ufficiali e tutte le scelte per la formazione.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/genoa/formazione-ufficiale-genoa-coppa-italia-sudtirol-vitinha-mitaj-tutte-scelte-fantacalcio/",
+   "image": "https://static.sosfanta.com/202603/de8c4ff61692480567e4f3c303cfa735-scaled-e1772978363135.jpg",
+   "date": "2026-09-15T15:30:59+00:00"
   },
   {
    "title": "Amorim: “Problema Modric? Bisogna essere onesti! Ramos, Moreira, Musah e Hutchinson può giocare titolare\"",
@@ -41860,7 +41921,43 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/milan/amorim-milan-benfica-conferenza-stampa-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Amorim-1b62cdd6047a-e1789475792733.jpg",
-   "date": "2026-09-15T13:20:16+00:00"
+   "date": "2026-09-15T15:15:16+00:00"
+  },
+  {
+   "title": "Il Venezia perde Busio per infortunio, l'esito degli esami: lungo stop! Quando può tornare in campo",
+   "summary": "Busio ha svolto gli esami dopo l'infortunio accusato in Venezia-Fiorentina: Stroppa perde il suo capitano, il comunicato.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/venezia/venezia-busio-infortunio-esito-esami-quando-torna-fantacalcio/",
+   "image": "https://static.sosfanta.com/202503/df150a3024090dbb5368a88f527cdc2b-scaled-e1741951441921.jpg",
+   "date": "2026-09-15T15:00:24+00:00"
+  },
+  {
+   "title": "BREAKING - Inter, c'è l'esito degli esami per Calhanoglu: il verdetto verso la Roma e i tempi di recupero",
+   "summary": "Mattinata di esami strumentali per Hakan Calhanoglu dopo il forfait con l'Udinese: ecco il verdetto ufficiale sull'infortunio del centrocampista dell'Inter.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-infortunio-calhanoglu-esito-esami-tempi-recupero-fantacalcio-quando-torna/",
+   "image": "https://static.sosfanta.com/2026/09/Calhanoglu-ebb494cd184e-e1789469697948.jpg",
+   "date": "2026-09-15T14:45:26+00:00"
+  },
+  {
+   "title": "Inter, finora Spence non si è mai visto: le ultime da Appiano e cosa filtra verso la Roma",
+   "summary": "L'acquisto più caro dell'Inter non è ancora sceso in campo ma come sta Spence e quando Chivu lo potrà sfruttare?",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-spence-ultime-cosa-filtra-verso-roma-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294177753-70dbb87ea4ba-e1789480262234.jpg",
+   "date": "2026-09-15T14:00:58+00:00"
+  },
+  {
+   "title": "Sassuolo, tegola Idzes per Aquilani: l'esito ufficiale degli esami e i tempi di recupero",
+   "summary": "Arrivano aggiornamenti su Jay Idzes dopo il problema accusato in Sassuolo-Juventus: ecco il comunicato ufficiale del club neroverde.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-infortunio-idzes-contro-juve-lesione-condizioni-difensore-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/202605/859bcc46dd6fa62c911d1691709051d9-scaled-e1777815972322.jpg",
+   "date": "2026-09-15T13:30:29+00:00"
   },
   {
    "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: oggi giocano così, le novità dopo 4 giornate",
@@ -41879,15 +41976,6 @@
    "url": "https://www.sosfanta.com/squadra/milan/milan-goncalo-ramos-parole-gol-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2295392817-94c4bd81d816-e1789474805643.jpg",
    "date": "2026-09-15T13:00:28+00:00"
-  },
-  {
-   "title": "BREAKING - Inter, c'è l'esito degli esami per Calhanoglu: il verdetto verso la Roma e i tempi di recupero",
-   "summary": "Mattinata di esami strumentali per Hakan Calhanoglu dopo il forfait con l'Udinese: ecco il verdetto ufficiale sull'infortunio del centrocampista dell'Inter.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-infortunio-calhanoglu-esito-esami-tempi-recupero-fantacalcio-quando-torna/",
-   "image": "https://static.sosfanta.com/2026/09/Calhanoglu-ebb494cd184e-e1789469697948.jpg",
-   "date": "2026-09-15T12:45:26+00:00"
   },
   {
    "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 4 giornate",
@@ -42131,78 +42219,6 @@
    "url": "https://www.sosfanta.com/news/calhanoglu-infortunio-inter-udinese-motivo/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294317266-fc2e7adc9f2d-e1789393161121.jpeg",
    "date": "2026-09-14T18:15:14+00:00"
-  },
-  {
-   "title": "Bologna, attesa per Orsolini e El Azzouzi: c'è una speranza! Da valutare Zortea e Dovbyk...",
-   "summary": "Procede il recupero di Riccardo Orsolini che ha saltato le gare con Sassuolo e Napoli: ecco quando può tornare a disposizione.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/bologna-orsolini-el-azzouzi-speranza-da-valutare-dovbyk-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292954723-a77081250da5.jpg",
-   "date": "2026-09-14T18:00:42+00:00"
-  },
-  {
-   "title": "Inter-Udinese, le formazioni ufficiali: fuori Calha, la scelta su Lautaro e Dimarco! Gomez e Pio...",
-   "summary": "Sono ufficiali le formazioni di Inter-Udinese: le decisioni dei due allenatori per la sfida di Serie A in programma alle 20.45.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-udinese-formazioni-ufficiali/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294196063-4711e1cfe2dc-e1789393151805.jpeg",
-   "date": "2026-09-14T17:45:09+00:00"
-  },
-  {
-   "title": "Ds Torino: \"Arrivata richiesta importante dalla Roma per Cacciamani! Il motivo del no\"",
-   "summary": "Nel corso del prepartita della sfida in corso fra Torino e Roma spazio ad un retroscena di mercato su Cacciamani. Lo svela direttamente il ds granata, Petrachi.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cacciamani-torino-roma-mercato/",
-   "image": "https://static.sosfanta.com/2026/07/Cacciamani-d2ee02e5c3e5.jpg",
-   "date": "2026-09-14T17:00:32+00:00"
-  },
-  {
-   "title": "Gasperini: \"Perché Wesley in panchina e come sta Ndicka! Ci aspettiamo molto da Castro, su Malen, Pellegrini e Mora...\"",
-   "summary": "Gasperini ha parlato nel prepartita di Torino-Roma: le parole del tecnico su Wesley, Ndicka, Castro, Soulé, Pellegrini, Mora e Malen.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/gasperini-perche-wesley-panchina-ndicka-aspettiamo-molto-castro-malen-mora-pellegrini-fantacalcio-roma-torino/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294538873-0ebba80458d9-e1789285238632.jpeg",
-   "date": "2026-09-14T16:45:53+00:00"
-  },
-  {
-   "title": "FORMAZIONI UFFICIALI - La scelta su Wesley! Butez, Dybala, Kean, Simeone, Toure, Diao, Cacciamani, Baturina...",
-   "summary": "Sono ufficiali le formazioni di Torino-Roma e Parma-Como: tutte le scelte per le due sfide di Serie A con calcio d’inizio alle 18.30.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/formazioni-ufficiali-roma-como-parma-torino-wesley-simeone-butez-dybala-kean-toure-diao-cacciamani-baturina-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293705200-2613474f53e5-e1789388983469.jpg",
-   "date": "2026-09-14T16:15:50+00:00"
-  },
-  {
-   "title": "Sky - Probabile turno di riposo per Lautaro Martinez con l'Udinese: cosa filtra",
-   "summary": "Attenzione al turnover in casa Inter. Il tecnico Cristian Chivu ha infatti diversi dubbi da sciogliere circa molti dei \"titolarissimi\" e, secondo Sky, anche...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lautaro-inter-udinese/",
-   "image": "https://static.sosfanta.com/2026/08/Lautaro-Martinez-cd1a8a32a7a0-e1787405986567.jpg",
-   "date": "2026-09-14T16:00:26+00:00"
-  },
-  {
-   "title": "Torino-Roma, le formazioni ufficiali: da Soulé, Castro e Belghali a Molina, Coco e Mancini: chi gioca e chi no",
-   "summary": "Prosegue la quarta giornata di Serie A con Torino-Roma, in programma alle 18.30: ecco le formazioni ufficiali e tutte le scelte di Abate e Gasperini.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/torino-roma-formazioni-ufficiali-soule-castro-belghali-molina-coco-mancini-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293709802-5fbb160940bc-e1788642855217.jpeg",
-   "date": "2026-09-14T15:45:22+00:00"
-  },
-  {
-   "title": "FLASH - Roma, Ndicka salta il Torino! Il motivo dell'assenza e chi gioca al suo posto",
-   "summary": "Evan Ndicka salta Torino-Roma per un problema fisico: ecco chi giocherà al suo posto al centro della difesa giallorossa.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/flash-roma-ndicka-salta-torino-motivo-assenza-chi-gioca-al-suo-posto-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291167715-e12c8501ce5a-e1788381686520.jpeg",
-   "date": "2026-09-14T15:35:05+00:00"
   }
  ],
  "marketDifficulty": {
@@ -42223,14 +42239,6 @@
   }
  },
  "baseNote": "Stime calcolate con la sola storia precedente alla giornata 5 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale.",
- "propOddsStages": {
-  "early": "2026-09-15T13:31:48+00:00"
- },
- "propOddsCheckedAt": "2026-09-15T13:31:48+00:00",
- "propOddsUsage": {
-  "month": "2026-09",
-  "estimatedCredits": 40
- },
  "oddsUpdatedAt": "2026-09-15T13:31:48+00:00",
  "oddsSource": "the-odds-api",
  "propOdds": {
@@ -45058,5 +45066,13 @@
   "errors": []
  },
  "propOddsUpdatedAt": "2026-09-15T13:31:53+00:00",
- "propOddsSource": "the-odds-api"
+ "propOddsSource": "the-odds-api",
+ "propOddsCheckedAt": "2026-09-15T13:31:48+00:00",
+ "propOddsStages": {
+  "early": "2026-09-15T13:31:48+00:00"
+ },
+ "propOddsUsage": {
+  "month": "2026-09",
+  "estimatedCredits": 40
+ }
 }
