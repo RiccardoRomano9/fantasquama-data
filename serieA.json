@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-16T07:46:33+00:00",
+ "generatedAt": "2026-09-16T13:29:22+00:00",
  "season": "2026-27",
  "gameweek": 5,
  "note": "Stime calcolate con la sola storia precedente alla giornata 5 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -18321,7 +18321,7 @@
    "appearances": 3,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.22,
-   "playProbability": 0.831,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.14,
     "rf": 0.0086,
@@ -18342,7 +18342,7 @@
     "q90": 7.91
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.1202,
     "rf": 0.0071,
@@ -18368,7 +18368,7 @@
    "quotazione": 7.0,
    "fvm": 16.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18946,7 +18946,7 @@
    "appearances": 1,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.16,
-   "playProbability": 0.0,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.1717,
     "rf": 0.0066,
@@ -18967,7 +18967,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.14,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.0996,
     "rf": 0.0049,
@@ -18992,9 +18992,9 @@
    },
    "quotazione": 18.0,
    "fvm": 80.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -40998,6 +40998,22 @@
        "ruolo": "D"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6783",
+       "giocatore": "Unai Gomez",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "2766",
+       "giocatore": "Zaniolo",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
     }
    ]
   },
@@ -41861,13 +41877,112 @@
  ],
  "news": [
   {
+   "title": "Sassuolo, tempi lunghi per il rientro di Idzes: ecco quando può tornare dall'infortunio",
+   "summary": "Guai in difesa per il Sassuolo di Aquilani dopo la vittoria rocambolesca contro la Juve: arrivano novità dal campo d'allenamento neroverde in vista del Monza.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/idzes-sassuolo-infortunio-quando-torna/",
+   "image": "https://static.sosfanta.com/202508/062f474e64b8fb249fe2d9216e4b25f4-e1754585919138.jpg",
+   "date": "2026-09-16T13:00:33+00:00"
+  },
+  {
+   "title": "Da prendere ora: occhio a questi sei nomi per il fantacalcio, tra asta e scambi",
+   "summary": "Finite le aste, al fantacalcio è tempo di scambi: ecco sei nomi poco in hype al momento che potete prendere per le vostre squadre.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/da-prendere-ora-sei-nomi-fantacalcio-asta-scambi/",
+   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-16-13-45-39-5fb6c329dae5-e1789559167307.jpg",
+   "date": "2026-09-16T12:45:05+00:00"
+  },
+  {
+   "title": "Chi sale per scambi e non solo dopo l'ultima giornata al fantacalcio: da Adzic a Kaiki, ecco sette nomi",
+   "summary": "Da Adzic a Kaiki, sette giocatori in crescita al fantacalcio: come gestirli all’asta e negli scambi dopo l’ultima giornata.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/chi-sale-scambi-fantacalcio-adzic-kaiki-sette-nomi/",
+   "image": "https://static.sosfanta.com/2026/09/kaiki-354509d060f0-e1789429491376.jpeg",
+   "date": "2026-09-16T12:15:58+00:00"
+  },
+  {
+   "title": "Inter, la probabile scelta di Chivu contro la Roma in porta dopo gli errori di Josep Martinez",
+   "summary": "Non sono previsti ribaltoni in porta, almeno per il momento, nell'Inter contro la Roma sabato sera. Secondo il Corriere dello Sport, Josep Martinez sarà tito...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/chivu-inter-provedel-josep-martinez-roma/",
+   "image": "https://static.sosfanta.com/2026/07/Martinez-78479f1f3160.jpg",
+   "date": "2026-09-16T12:00:10+00:00"
+  },
+  {
+   "title": "NEWS - Calhanoglu, Anguissa, McKennie, Cambiaso, Orsolini, Dovbyk, Adams, Doekhi, Stones e ufficiale Palladino",
+   "summary": "-2 alla nuova giornata di campionato ma oggi comincia anche l'Europa League col Milan in campo: ecco tutte le ultime novità in ottica fantacalcio.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-calhanoglu-anguissa-mckennie-cambiaso-orsolini-dovbyk-adams-doekhi-stones-ufficiale-palladino/",
+   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-16-09-51-42-dc1c93cf8bbb-e1789545114351.jpg",
+   "date": "2026-09-16T11:45:00+00:00"
+  },
+  {
+   "title": "Bologna, Dovbyk e Orsolini ci provano: chi è più avanti per poter rientrare già alla 5^ giornata",
+   "summary": "Dovbyk e Orsolini ci provano: il Bologna spera e aspetta risposte dal campo per capire se sabato contro il Torino potrà riavere almeno uno dei suoi due gioca...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/orsolini-dovbyk-bologna-quando-rientra/",
+   "image": "https://static.sosfanta.com/2026/09/Dovbyk-7b6e055d8fe9-e1788717668531.jpg",
+   "date": "2026-09-16T11:00:09+00:00"
+  },
+  {
    "title": "ULTIM’ORA - Udinese, Zaniolo è guarito e tornato in gruppo! Cosa filtra verso il Cagliari",
    "summary": "Vede già il Cagliari Nicolò Zaniolo: il fantasista dell'Udinese è al lavoro per accorciare i tempi di rientro e dal campo d'allenamento arrivano notizie posi...",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/zaniolo-udinese-cagliari-quando-rientra-infortunio/",
+   "url": "https://www.sosfanta.com/news/zaniolo-udinese-cagliari-tornato-gruppo-cagliari-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2244479962-d490ff14d353-e1789541885287.jpg",
-   "date": "2026-09-16T07:45:28+00:00"
+   "date": "2026-09-16T10:45:28+00:00"
+  },
+  {
+   "title": "Napoli, dai 6 infortunati contro la Fiorentina alle ultime sulle condizioni di Anguissa",
+   "summary": "Resta piena l'infermeria in casa Napoli. Max Allegri contro la Fiorentina dovrà fare certamente a meno di sei infortunati, da Alisson Santos a Buongiorno.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/anguissa-napoli-infortunio/",
+   "image": "https://static.sosfanta.com/2026/08/Anguissa-63fa5fbbcb3c-e1787404363394.jpg",
+   "date": "2026-09-16T10:00:16+00:00"
+  },
+  {
+   "title": "Juve, riecco Cambiaso e McKennie: la gestione di Spalletti fra Europa League e campionato",
+   "summary": "Riecco Weston McKennie e Andrea Cambiaso in casa Juve, entrambi in gruppo nella giornata di ieri: la gestione del tecnico Spalletti.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juve-cambiaso-mckennie/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291826944-d568876f5219-e1787900785378.jpg",
+   "date": "2026-09-16T09:00:10+00:00"
+  },
+  {
+   "title": "Cinque exploit a sorpresa dopo la 4a giornata: cosa cambia per Moreira, Zhegrova, Mastantuono e non solo",
+   "summary": "Da Zhegrova a Kvernadze, cinque giocatori in crescita al fantacalcio: cosa cambia dopo gli ultimi exploit e come gestirli tra asta e scambi.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/moreira-zhegrova-mastantuono-asta-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/mastantuono-278b1acc7fc1-e1789428794869.jpeg",
+   "date": "2026-09-16T08:45:09+00:00"
+  },
+  {
+   "title": "UFFICIALE - Il Bologna ha esonerato Tedesco: c'è la firma di Palladino, i dettagli dell'accordo",
+   "summary": "Ieri la decisione della svolta, che ora diventa ufficiale. Il Bologna ha scelto di esonerare dopo sole quattro giornate di campionato Domenico Tedesco.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/bologna-palladino-tedesco/",
+   "image": "https://static.sosfanta.com/202605/289d80ddcc71198117e7cfe7578c89c1-scaled-e1778878904402.jpeg",
+   "date": "2026-09-16T08:30:00+00:00"
+  },
+  {
+   "title": "Inter, dai tempi di recupero dall'infortunio per Calhanoglu a quelli possibili per Stones: le ultime",
+   "summary": "Novità sul fronte infortunati in casa Inter: il tecnico nerazzurro, Cristian Chivu, deve fare i conti con due stop arrivati nel fine settimana, quelli di Cal...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-infortunio-calhanoglu-stones-tempi-recupero-quando-rientra/",
+   "image": "https://static.sosfanta.com/202606/c52a791c343d551c095a424032d55221-scaled-e1780851207382.jpeg",
+   "date": "2026-09-16T08:00:21+00:00"
   },
   {
    "title": "Pellegrino: \"Lascio tutto quello che ho in campo: vogliamo lasciare il passato alle spalle e creare una base\"",
@@ -41879,22 +41994,13 @@
    "date": "2026-09-16T07:00:29+00:00"
   },
   {
-   "title": "Cinque exploit a sorpresa dopo la 4a giornata: cosa cambia per Moreira, Zhegrova, Mastantuono e non solo",
-   "summary": "Da Zhegrova a Kvernadze, cinque giocatori in crescita al fantacalcio: cosa cambia dopo gli ultimi exploit e come gestirli tra asta e scambi.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/moreira-zhegrova-mastantuono-asta-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/mastantuono-278b1acc7fc1-e1789428794869.jpeg",
-   "date": "2026-09-16T06:20:09+00:00"
-  },
-  {
    "title": "Vanoli: \"Oulai è un piccolo Kanté! Mastantuono, Pellegrino, Beto, Dragusin e perché sto centellinando Goncalves\"",
    "summary": "Paolo Vanoli, tecnico della Fiorentina, intervenuto ai microfoni di Mediaset e in conferenza stampa, ha analizzato così la vittoria in Coppa Italia contro il...",
    "author": "Marco Astori",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/fiorentina/vanoli-oulai-piccolo-kante-mastantuono-pellegrino-beto-dragusin-perche-sto-centellinando-goncalves/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294942672-e7d7f8c63a36-e1789509247589.jpg",
-   "date": "2026-09-16T06:15:59+00:00"
+   "date": "2026-09-16T06:45:59+00:00"
   },
   {
    "title": "Lazio, chi recupera e chi no per il Venezia: le ultime su Doekhi, Dele-Bashiru, Rovella, Marusic e Cataldi",
@@ -41907,7 +42013,7 @@
   },
   {
    "title": "De Rossi: \"El Shaarawy e Traoré ci cambiano la vita! Come sta Amorim, Stolz e da valutare Ostigard perché...\"",
-   "summary": "Turno superato per il Genoa di Daniele De Rossi in Coppa Italia: superato il Pisa con gol nel finale di Vasquez. Ecco le parole del tecnico.",
+   "summary": "Turno superato per il Genoa di Daniele De Rossi in Coppa Italia: superato il Sudtirol con gol nel finale di Vasquez. Ecco le parole del tecnico.",
    "author": "Marco Astori",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/genoa/de-rossi-el-shaarawy-traore-ci-cambiano-vita-come-sta-amorim-stolz-valutare-ostigard/",
@@ -42129,96 +42235,6 @@
    "url": "https://www.sosfanta.com/squadra/bologna/bologna-orsolini-infortunio-tempi-recupero-fantacalcio-quando-torna/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291852222-936a0e7b20db-e1788164007232.jpg",
    "date": "2026-09-15T11:00:37+00:00"
-  },
-  {
-   "title": "NEWS - Santos, McTominay, Stones, Calhanoglu, Orsolini, Wesley, C. Adams, Kean, McKennie e come sta Alajbegovic",
-   "summary": "Terminata ieri la 4a giornata di Serie A, è tempo di fare il punto sugli infortunati e non solo in chiave fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-santos-mctominay-stones-calhanoglu-orsolini-wesley-c-adams-kean-mckennie-e-come-sta-alajbegovic/",
-   "image": "https://static.sosfanta.com/2026/09/Alajbegovic-5abad6a4f5c7-e1789460423664.jpg",
-   "date": "2026-09-15T10:45:12+00:00"
-  },
-  {
-   "title": "Juve, niente esami per Alajbegovic: la verità sul cambio di Sassuolo. I rientri di McKennie e Cambiaso...",
-   "summary": "Il punto sugli infortunati di casa Juventus in vista dell'esordio in Europa League e non soltanto: dalla verità su Alajbegovic a McKennie e Cambiaso.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-verita-cambio-alajbegovic-rientri-mckennie-cambiaso/",
-   "image": "https://static.sosfanta.com/2026/09/Alajbegovic-ddcc7c056973-e1788715867635.jpg",
-   "date": "2026-09-15T10:00:41+00:00"
-  },
-  {
-   "title": "Malen: \"Il soprannome Dybalen mi diverte! Niente assist a Paulo e mi dispiace, sul record di Totti...\"",
-   "summary": "Ancora loro due, Dybala a ispirare, Malen a rifinire: nel 2-0 della Roma al Torino sono ancora decisivi i due attaccanti di Gasperini. L'olandese ha parlato...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/malen-dybala-roma-fantacalcio-assist/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291886333-179eacad129f-e1789425000458.jpeg",
-   "date": "2026-09-15T09:15:11+00:00"
-  },
-  {
-   "title": "Skorupski, spunta una nuova versione e cosa succede ora! \"Non un ritardo alla riunione ma in realtà avrebbe...\"",
-   "summary": "Continua a far discutere quanto accaduto in casa Bologna poche ore prima della sfida contro il Napoli con Lukasz Skorupski come protagonista.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/skorupski-spunta-nuova-versione-cosa-succede-ora-non-ritardo-riunione-ma/",
-   "image": "https://static.sosfanta.com/202605/d4c3be80a97afbda753c650e3cc97232-e1778947699209.jpeg",
-   "date": "2026-09-15T09:00:01+00:00"
-  },
-  {
-   "title": "Inter, controlli pronti per Calhanoglu e Stones: le prime diagnosi per i due e i tempi minimi di recupero",
-   "summary": "Due infortunati in casa Inter a margine della sfida contro l'Udinese: prima si è fermato Hakan Calhanoglu e durante John Stones.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-infortuni-calhanoglu-stones-prime-diagnosi-tempi-recupero/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289181913-6c2f114d2c0c.jpg",
-   "date": "2026-09-15T08:00:42+00:00"
-  },
-  {
-   "title": "Chivu: \"Come stanno Stones e Calhanoglu! Difendo J. Martinez fino alla morte, su Bonny, Barella e Bisseck...\"",
-   "summary": "Inter-Udinese ha chiuso la quarta giornata di campionato. Di seguito le parole dell'allenatore nerazzurro Cristian Chivu.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/chivu-inter-udinese-parole-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295268136-4907702a4b4b-e1789420100940.jpeg",
-   "date": "2026-09-15T07:45:12+00:00"
-  },
-  {
-   "title": "C'è soltanto uno squalificato per la 5a giornata di Serie A: non lo avrete al fantacalcio",
-   "summary": "Soltanto uno squalificato dopo la 4a giornata di Serie A: non lo avrete neanche al fantacalcio per il prossimo turno.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squalificati/squalificati-5a-giornata-seriea-vasquez-unico-stop/",
-   "image": "https://static.sosfanta.com/202503/c1a1d3708030b05a67ed5ef327630e62-e1740930815279.jpg",
-   "date": "2026-09-15T07:30:12+00:00"
-  },
-  {
-   "title": "Chivu: \"Crisi portiere? Non cominciate come con Sommer! Gestirò così J. Martinez e Provedel\"",
-   "summary": "Non le manda a dire l'allenatore dell'Inter, Cristian Chivu, in conferenza stampa quando gli viene chiesto della presunta crisi di Josep Martinez.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/chivu-inter-martinez-sommer/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291653721-af1654886d65-e1788964799811.jpeg",
-   "date": "2026-09-15T07:00:03+00:00"
-  },
-  {
-   "title": "Mandragora: \"Nazionale? Ci penso! Da anni la inseguo, dico questo sulle scelte del ct\"",
-   "summary": "Il centrocampista del Torino, Rolando Mandragora, è protagonista di un ottimo avvio di stagione dopo il trasferimento in granata.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/mandragora-torino-nazionale/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293119942-bfe0016992fa-e1788621695133.jpg",
-   "date": "2026-09-15T06:00:18+00:00"
-  },
-  {
-   "title": "Runjaic: \"Aspetto i rientri di Zaniolo e Solet! Vi spiego perché con l'Inter non servono strategie\"",
-   "summary": "La squadra di Runjaic ha chiuso il programma della quarta giornata a San Siro contro l'Inter: ecco le parole del tecnico nel post gara.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/runjaic-inter-udinese-fantacalcio-zaniolo-solet/",
-   "image": "https://static.sosfanta.com/2026/09/Runjaic-113c3c8119d9-e1788814356197.jpg",
-   "date": "2026-09-14T22:00:20+00:00"
   }
  ],
  "marketDifficulty": {
