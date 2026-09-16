@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-09-16T13:29:23+00:00",
+ "scraped_at_utc": "2026-09-16T18:14:47+00:00",
  "giornata": "2026-09-18T18:45:00.000Z",
  "partite": [
   {
@@ -435,20 +435,20 @@
     ],
     "panchina": [
      {
-      "giocatore": "Alhassane",
-      "titolarita_pct": 40
-     },
-     {
-      "giocatore": "Moro N.",
-      "titolarita_pct": 49
-     },
-     {
       "giocatore": "Odgaard",
       "titolarita_pct": 45
      },
      {
       "giocatore": "Pessina Mas.",
       "titolarita_pct": 40
+     },
+     {
+      "giocatore": "Alhassane",
+      "titolarita_pct": 40
+     },
+     {
+      "giocatore": "Moro N.",
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Casale",
@@ -531,6 +531,11 @@
     ],
     "indisponibili": [
      {
+      "giocatore": "El Azzouzi O.",
+      "stato": "infortunato",
+      "nota": "Lesione del bicipite femorale della coscia sinistra, in dubbio per la 5a."
+     },
+     {
       "giocatore": "Orsolini",
       "stato": "infortunato",
       "nota": "Lesione ai flessori della coscia sinistra, in dubbio per la 5a."
@@ -549,11 +554,6 @@
       "giocatore": "Happonen",
       "stato": "infortunato",
       "nota": "Risentimento all’adduttore destro, in dubbio per la 5a."
-     },
-     {
-      "giocatore": "El Azzouzi O.",
-      "stato": "infortunato",
-      "nota": "Lesione del bicipite femorale della coscia sinistra, in dubbio per la 5a."
      }
     ],
     "ufficiale": false
@@ -1207,7 +1207,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Mkhitaryan",
+      "giocatore": "Jones C.",
       "titolarita_pct": 51
      },
      {
@@ -1233,10 +1233,6 @@
       "titolarita_pct": 40
      },
      {
-      "giocatore": "Jones C.",
-      "titolarita_pct": 49
-     },
-     {
       "giocatore": "Esposito F.P.",
       "titolarita_pct": 40
      },
@@ -1250,6 +1246,10 @@
      },
      {
       "giocatore": "Luis Henrique",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Mkhitaryan",
       "titolarita_pct": 5
      },
      {
@@ -1281,12 +1281,12 @@
      {
       "opzioni": [
        {
-        "giocatore": "Mkhitaryan",
+        "giocatore": "Jones C.",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Jones C.",
-        "titolarita_pct": 49
+        "giocatore": "Sucic P.",
+        "titolarita_pct": 5
        }
       ]
      },
@@ -1665,15 +1665,15 @@
      },
      {
       "giocatore": "Jimenez A.",
-      "titolarita_pct": 95
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Dragusin",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Ranieri L.",
-      "titolarita_pct": 55
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Viery",
@@ -1719,6 +1719,10 @@
      },
      {
       "giocatore": "Pongracic",
+      "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Joao Mario",
       "titolarita_pct": 45
      },
      {
@@ -1727,10 +1731,6 @@
      },
      {
       "giocatore": "Lezzerini",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Joao Mario",
       "titolarita_pct": 5
      },
      {
@@ -1750,12 +1750,36 @@
      {
       "opzioni": [
        {
-        "giocatore": "Ranieri L.",
+        "giocatore": "Jimenez A.",
         "titolarita_pct": 55
        },
        {
-        "giocatore": "Pongracic",
+        "giocatore": "Joao Mario",
         "titolarita_pct": 45
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Dragusin",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Pongracic",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Ranieri L.",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Pongracic",
+        "titolarita_pct": 49
        }
       ]
      },
@@ -2660,7 +2684,7 @@
      },
      {
       "giocatore": "Gonzalez N.",
-      "titolarita_pct": 95
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Alajbegovic",
@@ -2689,6 +2713,10 @@
       "titolarita_pct": 40
      },
      {
+      "giocatore": "Mckennie",
+      "titolarita_pct": 45
+     },
+     {
       "giocatore": "Grabara",
       "titolarita_pct": 5
      },
@@ -2706,10 +2734,6 @@
      },
      {
       "giocatore": "Rugani",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Mckennie",
       "titolarita_pct": 5
      }
     ],
@@ -2747,6 +2771,18 @@
        {
         "giocatore": "Zhegrova",
         "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Gonzalez N.",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Mckennie",
+        "titolarita_pct": 45
        }
       ]
      },
