@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-17T18:21:22+00:00",
+ "generatedAt": "2026-09-17T21:31:34+00:00",
  "season": "2026-27",
  "gameweek": 5,
- "note": "Stime calcolate con la sola storia precedente alla giornata 5 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 5 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -3963,7 +3963,7 @@
    "appearances": 0,
    "gameweeksElapsed": 4,
    "estimatedVote": 5.97,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.1724,
     "rf": 0.0067,
@@ -3984,7 +3984,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.83,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.15,
     "rf": 0.0097,
@@ -4007,9 +4007,9 @@
    },
    "quotazione": 5.0,
    "fvm": 13.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "indisponibile",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -17953,7 +17953,7 @@
    "appearances": 3,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.18,
-   "playProbability": 0.044,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.122,
     "rf": 0.0049,
@@ -17974,7 +17974,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.29,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.0864,
     "rf": 0.0045,
@@ -18000,7 +18000,7 @@
    "quotazione": 9.0,
    "fvm": 21.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23158,9 +23158,9 @@
    },
    "quotazione": 8.0,
    "fvm": 16.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -30958,7 +30958,7 @@
    "appearances": 2,
    "gameweeksElapsed": 4,
    "estimatedVote": 5.85,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0332,
     "rf": 0.0003,
@@ -30979,7 +30979,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0407,
     "rf": 0.0027,
@@ -31004,9 +31004,9 @@
    },
    "quotazione": 4.0,
    "fvm": 8.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -41361,7 +41361,7 @@
       {
        "player_id": "7070",
        "giocatore": "Sucic P.",
-       "titolarita_pct": 5,
+       "titolarita_pct": 49,
        "ruolo": "C"
       }
      ]
@@ -42143,13 +42143,58 @@
  ],
  "news": [
   {
-   "title": "Venezia, le ultime in vista della Lazio: da Juan Jesus a Basic, Yeboah, Toni Fernandez, Adams e Haps",
-   "summary": "Comincia a delinearsi la probabile formazione del Venezia per la sfida contro la Lazio di sabato, che può essere decisiva per la panchina di Giovanni Stroppa.",
-   "author": "Daniele Najjar",
+   "title": "Venezia, dopo l'infortunio è bivio su Busio al fantacalcio: la gestione e cosa fare in chiave scambi",
+   "summary": "Distrazione intratendinea del bicipite femorale destro per Gianluca Busio, titolarissimo a centrocampo del Venezia: come gestirlo al fantacalcio.",
+   "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/venezia-lazio-juan-jesus/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291719709-509ba08f790b-e1788687943590.jpeg",
-   "date": "2026-09-17T18:00:32+00:00"
+   "url": "https://www.sosfanta.com/squadra/venezia/venezia-infortunio-busio-bivio-fantacalcio-gestione-cosa-fare-scambi/",
+   "image": "https://static.sosfanta.com/202503/df150a3024090dbb5368a88f527cdc2b-scaled-e1741951441921.jpg",
+   "date": "2026-09-17T21:00:01+00:00"
+  },
+  {
+   "title": "Chi schierare in attacco alla quinta giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-fantacalcio-attaccanti-5a-giornata-seriea-consigli/",
+   "image": "https://static.sosfanta.com/2026/09/Davis-92a231151930-e1789650383951.jpg",
+   "date": "2026-09-17T20:45:07+00:00"
+  },
+  {
+   "title": "BREAKING - Venezia, panchina a rischio per Stroppa: ecco un suo possibile sostituto",
+   "summary": "Il Venezia potrebbe cambiare allenatore, in corso valutazioni su Stroppa: le ultime e a chi sta pensando il club in caso di esonero.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/venezia/breaking-venezia-stroppa-panchina-rischio-sostituto-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291708187-20e7cb8d6301.jpg",
+   "date": "2026-09-17T20:15:20+00:00"
+  },
+  {
+   "title": "Beto: \"Io più forte di Kean? Rispondo così! Il rapporto con Pellegrino...\"",
+   "summary": "Beto si è presentato in conferenza stampa parlando della voglia di segnare ma anche di Moise Kean e Mateo Pellegrino: le sue parole.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/beto-parole-kean-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294952701-7f60d4f0515a-e1789664227208.jpg",
+   "date": "2026-09-17T20:00:38+00:00"
+  },
+  {
+   "title": "Ds Juve: \"Spalletti a rischio? Ecco la posizione del club! Woltemade è forte, con Kolo Muani…”",
+   "summary": "Frederic Massara, direttore sportivo della Juventus ha parlato a pochi minuti dal calcio d'inizio del match di Europa League che vedrà i bianconeri affrontar...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/box-in-primo-piano/massara-intervista-juventus-spalletti-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/Spalletti-d1b52b969d94-e1789334517104.jpg",
+   "date": "2026-09-17T19:15:17+00:00"
+  },
+  {
+   "title": "Juventus, Spalletti: \"Vi spiego perché ho cambiato tanto! Woltemade non era molto allenato, devo vedere se...\"",
+   "summary": "Da Woltemade a Kolo Muani e McKennie, le parole di Spalletti prima di Juventus-Nec. Ecco cosa ha detto il tecnico bianconero.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-juventus-woltemade-parole-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295082063-16301677e0c0-e1789671297360.jpg",
+   "date": "2026-09-17T19:00:56+00:00"
   },
   {
    "title": "Juve, la formazione ufficiale in Europa: c'è Grabara! La scelta su Woltemade, Muani, Conceicao, Sarr e Bremer",
@@ -42158,7 +42203,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/juventus-formazione-ufficiale-europa-league-scelte-spalletti/",
    "image": "https://static.sosfanta.com/2026/08/Kolo-Muani-9628e94339b2-e1788037443287.jpg",
-   "date": "2026-09-17T17:50:20+00:00"
+   "date": "2026-09-17T18:15:20+00:00"
+  },
+  {
+   "title": "Venezia, le ultime in vista della Lazio: da Juan Jesus a Basic, Yeboah, Toni Fernandez, Adams e Haps",
+   "summary": "Comincia a delinearsi la probabile formazione del Venezia per la sfida contro la Lazio di sabato, che può essere decisiva per la panchina di Giovanni Stroppa.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/venezia-lazio-juan-jesus/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291719709-509ba08f790b-e1788687943590.jpeg",
+   "date": "2026-09-17T18:00:32+00:00"
   },
   {
    "title": "DAI CAMPI - Hermoso in gruppo! Lautaro, McTominay, Anguissa, Casadei, Ostigard, Idzes, S. Esposito...",
@@ -42447,60 +42501,6 @@
    "url": "https://www.sosfanta.com/squadra/inter/diouf-inter-ruolo-parole-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Diouf-40107ff85e65-e1788529867347.jpg",
    "date": "2026-09-17T06:00:39+00:00"
-  },
-  {
-   "title": "Capello: “Il Milan ha un giocatore che... da potenziale big è diventato oggetto misterioso”",
-   "summary": "L'analisi dell'ex allenatore negli studi di Sky al termine di Milan-Benfica.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/capello-milan-giocatore-misterioso-chi-e/",
-   "image": "https://static.sosfanta.com/2020/08/09195938/Capello-2.jpg",
-   "date": "2026-09-16T21:45:20+00:00"
-  },
-  {
-   "title": "Cosa fare con questi casi al fanta: Calhanoglu, Stones, Busio, Solet, Boga, Adams, Muani e Maldini",
-   "summary": "Infortuni, prestazioni al di sotto delle aspettative e non soltanto: ecco cosa fare al fantacalcio con questi otto casi.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/cosa-fare-casi-fantacalcio-calhanoglu-stones-busio-solet-boga-adams-muani-maldini/",
-   "image": "https://static.sosfanta.com/2026/09/Calhanoglu-0d88f3747854-e1789576815321.jpg",
-   "date": "2026-09-16T21:30:47+00:00"
-  },
-  {
-   "title": "Milan ko col Benfica, Sky svela: “Modric ora è un tema: per tutta la gara di San Siro è stato…”",
-   "summary": "Modric non è sceso in campo contro il Benfica, rimanendo seduto per novanta minuti in panchina: l'analisi di Sky.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/modric-panchina-milan-benfica-cosa-successo/",
-   "image": "https://static.sosfanta.com/2026/08/modric-5c6c23423efd-e1787506748585.jpeg",
-   "date": "2026-09-16T21:15:14+00:00"
-  },
-  {
-   "title": "Romano: \"Da Allegri a Spalletti: la verità sul loro futuro e mi risulta che Antonio Conte aspetti...\"",
-   "summary": "Gli ultimi aggiornamenti sul futuro degli allenatori di Napoli e Juventus e cosa filtra su Conte: il punto di Fabrizio Romano.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/romano-da-allegri-a-spalletti-cosa-risulta-sul-loro-futuro-e-la-posizione-di-conte/",
-   "image": "https://static.sosfanta.com/2026/09/Spalletti-d1b52b969d94-e1789334517104.jpg",
-   "date": "2026-09-16T21:00:39+00:00"
-  },
-  {
-   "title": "Inter, Calhanoglu e il 'pericolo' infortuni per il fantacalcio: gestitelo così ora (anche negli scambi)",
-   "summary": "Risentimento muscolare all'adduttore della coscia destra, questa la diagnosi sull'infortunio accusato da Hakan Calhanoglu: gestitelo così al fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-calhanoglu-pericolo-infortuni-fantacalcio-gestitelo-cosi-ora-anche-negli-scambi/",
-   "image": "https://static.sosfanta.com/202606/c52a791c343d551c095a424032d55221-scaled-e1780851207382.jpeg",
-   "date": "2026-09-16T20:30:19+00:00"
-  },
-  {
-   "title": "Spalletti: \"Rumors su Conte e la Juve? Certe voci non mi stupiscono e...\"",
-   "summary": "In conferenza stampa alla vigilia dell'esordio in Europa League, Luciano Spalletti ha risposto anche alle voci su Antonio Conte e la Juventus.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-risponde-rumors-conte-juve-parole-voci/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291548160-831a020600f9-e1789543140195.jpg",
-   "date": "2026-09-16T20:09:53+00:00"
   }
  ],
  "marketDifficulty": {
