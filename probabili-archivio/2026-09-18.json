@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-09-17T13:25:25+00:00",
+ "scraped_at_utc": "2026-09-17T18:21:23+00:00",
  "giornata": "2026-09-18T18:45:00.000Z",
  "partite": [
   {
@@ -414,7 +414,7 @@
      },
      {
       "giocatore": "Bernardeschi",
-      "titolarita_pct": 95
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Piccoli",
@@ -422,7 +422,7 @@
      },
      {
       "giocatore": "Cambiaghi",
-      "titolarita_pct": 95
+      "titolarita_pct": 55
      }
     ],
     "panchina": [
@@ -435,12 +435,20 @@
       "titolarita_pct": 40
      },
      {
+      "giocatore": "Orsolini",
+      "titolarita_pct": 45
+     },
+     {
       "giocatore": "Alhassane",
       "titolarita_pct": 40
      },
      {
       "giocatore": "Moro N.",
       "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Happonen",
+      "titolarita_pct": 5
      },
      {
       "giocatore": "Casale",
@@ -519,23 +527,37 @@
         "titolarita_pct": 49
        }
       ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Bernardeschi",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Orsolini",
+        "titolarita_pct": 45
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Cambiaghi",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Orsolini",
+        "titolarita_pct": 45
+       }
+      ]
      }
     ],
     "indisponibili": [
      {
-      "giocatore": "Orsolini",
-      "stato": "infortunato",
-      "nota": "Lesione ai flessori della coscia sinistra, in dubbio per la 5a."
-     },
-     {
       "giocatore": "Dovbyk",
       "stato": "infortunato",
       "nota": "Lieve risentimento muscolare ai flessori, in dubbio per la 5a."
-     },
-     {
-      "giocatore": "Happonen",
-      "stato": "infortunato",
-      "nota": "Risentimento all’adduttore destro, in dubbio per la 5a."
      }
     ],
     "ufficiale": false
