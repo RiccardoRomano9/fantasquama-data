@@ -62,7 +62,7 @@ jobs:
           python export_app_data.py \
             --data archive/data --season 2026-27 --gameweek "$GIORNATA" \
             --roster-snapshot serieA-base.json --probabili probabili.json \
-            --without-recent-form --out serieA-base.json
+            --out serieA-base.json
           python fetch_player_photos.py \
             --base serieA-base.json --cache player-photo-cache.json \
             --overrides player-photo-overrides.json
