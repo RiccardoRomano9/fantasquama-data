@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-09-18T11:18:44+00:00",
+ "scraped_at_utc": "2026-09-18T12:57:19+00:00",
  "giornata": "2026-09-18T18:45:00.000Z",
  "partite": [
   {
@@ -703,7 +703,7 @@
      {
       "giocatore": "Casadei",
       "stato": "infortunato",
-      "nota": "Affaticamento muscolare, in dubbio per la 5a."
+      "nota": "Affaticamento muscolare, in dubbio per la 6a."
      },
      {
       "giocatore": "Adams C.",
@@ -960,10 +960,6 @@
      {
       "giocatore": "Kevin Carlos",
       "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Nzola",
-      "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
@@ -1006,6 +1002,10 @@
       "giocatore": "Felici",
       "stato": "infortunato",
       "nota": "Rottura del legamento crociato anteriore, in dubbio per 29a."
+     },
+     {
+      "giocatore": "Nzola",
+      "stato": "indisponibile"
      }
     ],
     "ufficiale": false
@@ -1275,7 +1275,7 @@
      {
       "giocatore": "Spence",
       "stato": "infortunato",
-      "nota": "Non si è ancora allenato in gruppo per un ritardo di condizione, in dubbio per la 5a ma c'è il rischio che torni dopo la sosta."
+      "nota": "Non si è ancora allenato in gruppo per un ritardo di condizione, in dubbio per la 6a."
      },
      {
       "giocatore": "Calhanoglu",
@@ -1440,11 +1440,13 @@
      },
      {
       "giocatore": "Haps",
-      "stato": "infortunato"
+      "stato": "infortunato",
+      "nota": "Fastidio muscolare, in dubbio per la 6a."
      },
      {
       "giocatore": "Basic",
-      "stato": "infortunato"
+      "stato": "infortunato",
+      "nota": "Problema alla fascia plantare, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
@@ -1793,7 +1795,7 @@
      },
      {
       "giocatore": "Olivera",
-      "titolarita_pct": 51
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Gilmour",
@@ -1821,10 +1823,6 @@
      }
     ],
     "panchina": [
-     {
-      "giocatore": "Spinazzola",
-      "titolarita_pct": 49
-     },
      {
       "giocatore": "Vergara",
       "titolarita_pct": 49
@@ -1855,18 +1853,6 @@
      }
     ],
     "ballottaggi": [
-     {
-      "opzioni": [
-       {
-        "giocatore": "Olivera",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Spinazzola",
-        "titolarita_pct": 49
-       }
-      ]
-     },
      {
       "opzioni": [
        {
@@ -1914,7 +1900,12 @@
      {
       "giocatore": "Zambo Anguissa",
       "stato": "infortunato",
-      "nota": "Problema all'adduttore, in dubbio per la 5a."
+      "nota": "Problema all'adduttore, in dubbio per la 6a."
+     },
+     {
+      "giocatore": "Spinazzola",
+      "stato": "infortunato",
+      "nota": "Lieve contrattura al bicipite femorale della coscia destra, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
@@ -1957,7 +1948,7 @@
      },
      {
       "giocatore": "Ghedjemis",
-      "titolarita_pct": 60
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Schmid",
@@ -1979,7 +1970,7 @@
      },
      {
       "giocatore": "Fini",
-      "titolarita_pct": 40
+      "titolarita_pct": 45
      },
      {
       "giocatore": "Desplanches",
@@ -2047,11 +2038,11 @@
       "opzioni": [
        {
         "giocatore": "Ghedjemis",
-        "titolarita_pct": 60
+        "titolarita_pct": 55
        },
        {
         "giocatore": "Fini",
-        "titolarita_pct": 40
+        "titolarita_pct": 45
        }
       ]
      }
@@ -2153,10 +2144,6 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Kempf",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Rodriguez Je.",
       "titolarita_pct": 10
      },
@@ -2170,6 +2157,10 @@
      },
      {
       "giocatore": "Kambwala",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Kempf",
       "titolarita_pct": 5
      },
      {
@@ -2664,10 +2655,6 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Cambiaso",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Gatti",
       "titolarita_pct": 5
      },
@@ -2899,6 +2886,18 @@
      {
       "opzioni": [
        {
+        "giocatore": "Gaetano",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Samardzic",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
         "giocatore": "Scamacca",
         "titolarita_pct": 51
        },
@@ -2916,18 +2915,6 @@
        },
        {
         "giocatore": "Raspadori",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Gaetano",
-        "titolarita_pct": 55
-       },
-       {
-        "giocatore": "Samardzic",
         "titolarita_pct": 49
        }
       ]
@@ -2965,7 +2952,7 @@
      },
      {
       "giocatore": "De Winter",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Pavlovic",
@@ -2973,7 +2960,7 @@
      },
      {
       "giocatore": "Chukwueze",
-      "titolarita_pct": 95
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Musah",
@@ -3010,6 +2997,14 @@
       "titolarita_pct": 45
      },
      {
+      "giocatore": "Gabbia",
+      "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Saelemaekers",
+      "titolarita_pct": 45
+     },
+     {
       "giocatore": "Terracciano",
       "titolarita_pct": 5
      },
@@ -3023,10 +3018,6 @@
      },
      {
       "giocatore": "Diawara S.",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Gabbia",
       "titolarita_pct": 5
      },
      {
@@ -3054,15 +3045,35 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Saelemaekers",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Camarda",
       "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
+     {
+      "opzioni": [
+       {
+        "giocatore": "De Winter",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Gabbia",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Chukwueze",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Saelemaekers",
+        "titolarita_pct": 45
+       }
+      ]
+     },
      {
       "opzioni": [
        {
