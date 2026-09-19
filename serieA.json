@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-19T15:57:34+00:00",
+ "generatedAt": "2026-09-19T17:11:02+00:00",
  "season": "2026-27",
  "gameweek": 5,
  "note": "Stime calcolate con la sola storia precedente alla giornata 5 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -9146,7 +9146,7 @@
    "appearances": 2,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.01,
-   "playProbability": 0.044,
+   "playProbability": 0.35,
    "events": {
     "gf": 0.0561,
     "rf": 0.0042,
@@ -9167,7 +9167,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.03,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.35,
    "learnedEvents": {
     "gf": 0.0612,
     "rf": 0.0037,
@@ -9197,7 +9197,7 @@
    "quotazione": 4.0,
    "fvm": 12.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 40.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -15414,7 +15414,7 @@
    "appearances": 4,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.14,
-   "playProbability": 0.831,
+   "playProbability": 0.525,
    "events": {
     "gf": 0.0437,
     "rf": 0.0043,
@@ -15435,7 +15435,7 @@
     "q90": 6.75
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.525,
    "learnedEvents": {
     "gf": 0.0582,
     "rf": 0.0035,
@@ -15467,7 +15467,7 @@
    "quotazione": 3.0,
    "fvm": 8.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23205,7 +23205,7 @@
    "appearances": 4,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.0,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0298,
     "rf": 0.0003,
@@ -23226,7 +23226,7 @@
     "q90": 6.61
    },
    "learnedVote": 5.95,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0368,
     "rf": 0.0025,
@@ -23256,7 +23256,7 @@
    "quotazione": 5.0,
    "fvm": 13.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23962,7 +23962,7 @@
    "appearances": 4,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.09,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0286,
     "rf": 0.0003,
@@ -23983,7 +23983,7 @@
     "q90": 6.43
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0354,
     "rf": 0.0024,
@@ -24014,8 +24014,8 @@
    },
    "quotazione": 4.0,
    "fvm": 8.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -30021,7 +30021,7 @@
    "appearances": 4,
    "gameweeksElapsed": 4,
    "estimatedVote": 5.96,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0348,
     "rf": 0.0003,
@@ -30042,7 +30042,7 @@
     "q90": 6.25
    },
    "learnedVote": 5.95,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.043,
     "rf": 0.0029,
@@ -30073,8 +30073,8 @@
    },
    "quotazione": 6.0,
    "fvm": 13.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36432,7 +36432,7 @@
    "appearances": 0,
    "gameweeksElapsed": 2,
    "estimatedVote": 6.29,
-   "playProbability": 0.048,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -36453,7 +36453,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.048,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0414,
     "rf": 0.0043,
@@ -36482,9 +36482,9 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -44301,16 +44301,48 @@
     {
      "opzioni": [
       {
-       "player_id": "5757",
-       "giocatore": "Cittadini",
+       "player_id": "7467",
+       "giocatore": "Calvani",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "4952",
-       "giocatore": "Monterisi",
+       "player_id": "5757",
+       "giocatore": "Cittadini",
        "titolarita_pct": 49,
        "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "4952",
+       "giocatore": "Monterisi",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "5757",
+       "giocatore": "Cittadini",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6917",
+       "giocatore": "Masini",
+       "titolarita_pct": 60,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "7473",
+       "giocatore": "Cichella",
+       "titolarita_pct": 40,
+       "ruolo": "C"
       }
      ]
     },
@@ -44800,13 +44832,67 @@
  ],
  "news": [
   {
+   "title": "Palladino: \"Come ho visto il Bologna e rispondo sul modulo! Skorupski in discussione? Posso dire che...\"",
+   "summary": "A DAZN e in conferenza, Raffaele Palladino commenta l'1-1 del suo Bologna contro il Torino: queste le parole sui singoli e non solo.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/palladino-parole-bologna-torino-skorupski-discussione/",
+   "image": "https://static.sosfanta.com/2026/09/Palladino-a3a016a723a6-e1789833174806.jpg",
+   "date": "2026-09-19T17:00:50+00:00"
+  },
+  {
+   "title": "Runjaic: \"Come sta Davis, domani ne sapremo di più! Zaniolo si sentiva pronto, perché l'ho tolto così presto\"",
+   "summary": "Sconfitta casalinga per l'Udinese di Kosta Runjaic contro il Cagliari: ecco le dichiarazioni del tecnico bianconero in conferenza dopo la gara.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/runjaic-come-sta-davis-zaniolo/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294025773-ff9da348ebf5-e1789832958598.jpg",
+   "date": "2026-09-19T16:55:03+00:00"
+  },
+  {
+   "title": "Tutti gli assist della 5a giornata al fantacalcio: la scelta sul secondo gol di Koné! +1 per Molina e Mandragora",
+   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/assist-5a-giornata-serie-a-fantacalcio-mandragora-birindelli/",
+   "image": "https://static.sosfanta.com/2026/09/Molina-3b268527c113-e1789834691135.jpg",
+   "date": "2026-09-19T16:50:03+00:00"
+  },
+  {
+   "title": "FLASH - Tegola Juve: grave infortunio al ginocchio per Grabara, la nota ufficiale! Lunghissimo stop in vista",
+   "summary": "Brutte notizie in casa Juventus: Grabara si è fermato durante l’allenamento. Gli aggiornamenti sulle condizioni del portiere.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/flash-tegola-juve-grave-infortunio-ginocchio-grabara-comunicato-ufficiale-lungo-stop-in-vista-fantacalcio-asta/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295171664-bf1f39b347e3-e1789835297133.jpg",
+   "date": "2026-09-19T16:40:17+00:00"
+  },
+  {
+   "title": "Pisacane: \"La verità su Maldini, fosse stato sporco non avrebbe segnato! Mendy ha qualità innate, Adopo...\"",
+   "summary": "Fabio Pisacane, tecnico del Cagliari, intervenuto in conferenza stampa, ha commentato così la vittoria di oggi sul campo dell'Udi.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/pisacane-verita-maldini-mendy-qualita-innate-adopo/",
+   "image": "https://static.sosfanta.com/202604/4f7d1a1c4bf5c6491666819cfac2cd0f.jpg",
+   "date": "2026-09-19T16:30:52+00:00"
+  },
+  {
    "title": "I voti al fantacalcio: Caprile come Mina e Maldini! Bocciati Skorupski, Zaniolo, Simeone e la scelta su Orsolini",
    "summary": "Quinta giornata di Serie A, l'ultima prima della lunga sosta per le Nazionali. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio con il tabellino...",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-bologna-cagliari-5a-giornata-caprile-mina-maldini-bocciati-skorupski-zaniolo-simeone-scelta-orsolini/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2296062960-629acd3dc4c9-e1789829415409.jpg",
-   "date": "2026-09-19T15:46:37+00:00"
+   "date": "2026-09-19T16:15:37+00:00"
+  },
+  {
+   "title": "Ds Roma: \"Vi spiego l'acquisto di Balerdi e perché l'abbiamo preso! Koné, la verità sull'Inter\"",
+   "summary": "Tony D'Amico, direttore sportivo della Roma, ha parlato ai microfoni di DAZN prima del match contro l'Inter. Ecco le sue parole su Leonardo Balerdi.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ds-roma-balerdi-kone/",
+   "image": "https://static.sosfanta.com/202603/e66453d2ebe039eee79f922b6131a456-e1773992656725.jpg",
+   "date": "2026-09-19T16:00:19+00:00"
   },
   {
    "title": "BREAKING - Cambio in distinta nella Roma! C'è Balerdi e non Ndicka dall'inizio contro l'Inter",
@@ -44815,7 +44901,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/roma/breaking-cambio-in-distinta-nella-roma-ce-balerdi-e-non-ndicka-dallinizio-contro-linter/",
    "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-19-17-12-54-14e315701686-e1789830796331.jpg",
-   "date": "2026-09-19T15:45:05+00:00"
+   "date": "2026-09-19T15:30:05+00:00"
+  },
+  {
+   "title": "Roma-Inter, le formazioni ufficiali: la scelta su Ndicka! Dybala, Diouf, Dimarco, Thuram, Hermoso, tutte le scelte",
+   "summary": "Prosegue la quinta giornata di Serie A con Roma-Inter, in programma alle 18.00: ecco le formazioni ufficiali e tutte le scelte di Gasperini e Chivu.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/roma-inter-formazioni-ufficiali-fantacalcio-scelta-ndicka-dybala-diouf-dimarco-thuram-hermoso/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
+   "date": "2026-09-19T15:15:24+00:00"
   },
   {
    "title": "Sarri: “Domani Kristensen titolare! Kessiè e Gaetano possono giocare insieme, da Scalvini e Raspadori mi aspetto…”",
@@ -44827,31 +44922,13 @@
    "date": "2026-09-19T15:00:03+00:00"
   },
   {
-   "title": "Roma-Inter, le formazioni ufficiali: la scelta su Ndicka! Dybala, Diouf, Dimarco, Thuram, Hermoso, tutte le scelte",
-   "summary": "Prosegue la quinta giornata di Serie A con Roma-Inter, in programma alle 18.00: ecco le formazioni ufficiali e tutte le scelte di Gasperini e Chivu.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/roma-inter-formazioni-ufficiali-fantacalcio-ndicka-dybala-diouf-dimarco-hermoso-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
-   "date": "2026-09-19T14:55:24+00:00"
-  },
-  {
-   "title": "Tutti gli assist della 5a giornata al fantacalcio: +1 per Mandragora e Birindelli",
-   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/assist-5a-giornata-serie-a-fantacalcio-mandragora-birindelli/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293119942-bfe0016992fa-e1788621695133.jpg",
-   "date": "2026-09-19T14:45:03+00:00"
-  },
-  {
    "title": "FLASH - Infortunio per Davis in Udinese-Cagliari! Cambio forzato per Runjaic: cosa è successo e le sue condizioni",
    "summary": "Brutte notizie in casa Udinese. Keinan Davis è stato infatti costretto ad alzare bandiera bianca nel corso della prima frazione di gioco contro il Cagliari:...",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/flash-infortunio-per-davis-in-udinese-cagliari-cambio-forzato-per-runjaic-cosa-e-successo-e-le-sue-condizioni/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2289723647-02256c2bd42e-e1787464205756.jpeg",
-   "date": "2026-09-19T14:20:52+00:00"
+   "date": "2026-09-19T14:30:52+00:00"
   },
   {
    "title": "Allegri: “De Bruyne credo partirà dal 1'! La scelta su Anguissa e Spinazzola, quando tornano McTominay e Meret”",
@@ -44878,7 +44955,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/amorim-conferenza-milan-lecce/",
    "image": "https://static.sosfanta.com/2026/09/Amorim-1b62cdd6047a-e1789475792733.jpg",
-   "date": "2026-09-19T13:15:14+00:00"
+   "date": "2026-09-19T13:45:14+00:00"
   },
   {
    "title": "Milan, cosa filtra verso il Lecce: le ultime su Pulisic, Gila e Rabiot. Su Modric...",
@@ -44905,7 +44982,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/cuesta-conferenza-parma-genoa/",
    "image": "https://static.sosfanta.com/202605/680fb123d63c4b92260be65a83277b41.png",
-   "date": "2026-09-19T12:20:47+00:00"
+   "date": "2026-09-19T12:30:47+00:00"
   },
   {
    "title": "Bologna-Torino, le formazioni ufficiali: la scelta su Cacciamani e Orsolini! Belghali, Bernardeschi e Zortea",
@@ -44914,7 +44991,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/bologna/bologna-torino-formazioni-ufficiali-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/08/Orsolini-eb9bd309c6ea-e1788197567960.jpg",
-   "date": "2026-09-19T12:15:41+00:00"
+   "date": "2026-09-19T12:20:41+00:00"
   },
   {
    "title": "Udinese-Cagliari: le formazioni ufficiali: da Zaniolo e Mina a Mendy e Kabasele, tutte le scelte",
@@ -44923,7 +45000,7 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/udinese/udinese-cagliari-le-formazioni-ufficiali-da-zaniolo-e-mina-a-mendy-e-kabasele-tutte-le-scelte/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2250928179-889eb8881e5a-scaled.jpeg",
-   "date": "2026-09-19T12:05:58+00:00"
+   "date": "2026-09-19T12:10:58+00:00"
   },
   {
    "title": "Di Francesco: \"Vi rispondo così sul minutaggio di Ilic! Monteiro, Geubbels e su Falcone in nazionale...\"",
@@ -45113,51 +45190,6 @@
    "url": "https://www.sosfanta.com/probabili-formazioni/fantacalcio-ultime-campi-tutte-probabili-formazioni-5a-giornata-seriea-2026-2027/",
    "image": "https://static.sosfanta.com/2026/09/Moreira-d98a5d975931-e1789741662580.jpg",
    "date": "2026-09-18T17:45:16+00:00"
-  },
-  {
-   "title": "La preview della quinta giornata al fantacalcio: partita per partita, chi mettere e chi no",
-   "summary": "Partita per partita, ecco chi schierare alla quinta giornata al fantacalcio 2026-2027 con la nostra preview con tutti i giocatori.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/preview-5a-giornata-seriea-fantacalcio-chi-schierare-consigli/",
-   "image": "https://static.sosfanta.com/2026/09/Kessie-0f63968d7efd-e1789590917987.jpg",
-   "date": "2026-09-18T17:15:45+00:00"
-  },
-  {
-   "title": "I convocati della Francia: c'è Da Cunha! La scelta su M. Thuram, Rabiot, Diouf, Kone, Maignan, Kalulu e Butez",
-   "summary": "Da Marcus Thuram a Kalulu, Kone e la sorpresa Da Cunha: ecco tutti i convocati del nuovo ct della Francia, Zinedine Zidane.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/convocati-francia-diouf-da-cunha-butez-thuram-maignan-butez/",
-   "image": "https://static.sosfanta.com/2026/09/Da-Cunha-a68a2942c4fe-e1788445846781.jpg",
-   "date": "2026-09-18T17:00:34+00:00"
-  },
-  {
-   "title": "Ultimissime e casi per la 5a giornata: Pio Esposito, Zaniolo, Orsolini, Cisse, Kean, Krstovic e ko Spinazzola",
-   "summary": "Inizia oggi alle ore 20.45 la quinta giornata di Serie A 2026-2027: ecco le ultimissime dai campi e i casi delicati per il fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ultimissime-casi-5a-giornata-seriea-zaniolo-orsolini-vergara-kean-krstovic-pioesposito-cisse/",
-   "image": "https://static.sosfanta.com/2026/09/Zaniolo-4faabfdb363e-e1789738700863.jpg",
-   "date": "2026-09-18T16:15:02+00:00"
-  },
-  {
-   "title": "Parma-Genoa, probabili formazioni: da Bernabé a Romero, Touré, Baldanzi, Messias e occhio al dubbio Colombo",
-   "summary": "Sfida molto delicata tra due squadre che non hanno iniziato bene il campionato. Le probabili scelte di Cuesta e De Rossi per Parma-Genoa.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/parma-genoa-probabili-formazioni-bernabe-romero-baldanzi-messias-colombo-vitinha-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294367916-0f96b703d601-e1789226176502.jpg",
-   "date": "2026-09-18T16:00:16+00:00"
-  },
-  {
-   "title": "Fabregas cita Mourinho: \"Io sono un allenatore da zero tituli\"",
-   "summary": "L'allenatore del Como Cesc Fabregas ha tirato fuori la celebre frase che Jose Mourinho pronunciò nel 2009 ai tempi dell'Inter.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/video/fabregas-cita-mourinho-io-sono-un-allenatore-da-zero-tituli/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288559483-0a94c451d802-e1787212500305.jpg",
-   "date": "2026-09-18T15:43:57+00:00"
   }
  ],
  "marketDifficulty": {
