@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-19T12:29:16+00:00",
+ "generatedAt": "2026-09-19T13:05:57+00:00",
  "season": "2026-27",
  "gameweek": 5,
  "note": "Stime calcolate con la sola storia precedente alla giornata 5 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -20632,7 +20632,7 @@
    "appearances": 3,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.17,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.1362,
     "rf": 0.0059,
@@ -20653,7 +20653,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.37,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1023,
     "rf": 0.0054,
@@ -20682,8 +20682,8 @@
    },
    "quotazione": 10.0,
    "fvm": 41.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -44898,6 +44898,15 @@
  ],
  "news": [
   {
+   "title": "Milan, cosa filtra verso il Lecce: le ultime su Pulisic, Gila e Rabiot. Su Modric...",
+   "summary": "Il Milan ospita il Lecce a San Siro: di seguito tutte le ultime sulla formazione rossonera contro i salentini.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-cosa-filtra-pulisic-rabiot-gila-modric/",
+   "image": "https://static.sosfanta.com/2026/08/modric-5c6c23423efd-e1787506748585.jpeg",
+   "date": "2026-09-19T13:00:11+00:00"
+  },
+  {
    "title": "Bologna-Torino, le formazioni ufficiali: la scelta su Cacciamani e Orsolini! Belghali, Bernardeschi e Zortea",
    "summary": "Prosegue la quinta giornata di Serie A con Bologna-Torino, in programma alle 15.00: ecco le formazioni ufficiali e tutte le scelte di Palladino e Abate.",
    "author": "Daniele Burigana",
@@ -45247,15 +45256,6 @@
    "url": "https://www.sosfanta.com/news/fiorentina-napoli-probabili-formazioni-lang-vergara-beto-pellegrino-atta-spinazzola-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Pellegrino-01d7539b96ca-e1789465143243.jpg",
    "date": "2026-09-18T13:00:27+00:00"
-  },
-  {
-   "title": "Gasperini: \"La scelta su Koné e Wesley, ci sono alcuni acciaccati! Pellegrini, Lulli e Molina...\"",
-   "summary": "Le parole di Gian Piero Gasperini alla vigilia di Roma-Inter: tutte le indicazioni del tecnico verso la super sfida dell'Olimpico.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/gasperini-roma-inter-conferenza-stampa-kone-wesley-lulli-molina-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295250699-3d0eb758414b-e1789413207850.jpeg",
-   "date": "2026-09-18T12:45:03+00:00"
   }
  ],
  "marketDifficulty": {
