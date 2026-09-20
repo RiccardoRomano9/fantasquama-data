@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-20T19:41:44+00:00",
+ "generatedAt": "2026-09-20T21:52:51+00:00",
  "season": "2026-27",
  "gameweek": 5,
  "note": "Stime calcolate con la sola storia precedente alla giornata 5 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -10434,7 +10434,7 @@
    "appearances": 1,
    "gameweeksElapsed": 4,
    "estimatedVote": 5.93,
-   "playProbability": 0.285,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.046,
     "rf": 0.0068,
@@ -10455,7 +10455,7 @@
     "q90": 6.06
    },
    "learnedVote": 5.9,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1156,
     "rf": 0.0069,
@@ -10484,8 +10484,8 @@
    },
    "quotazione": 3.0,
    "fvm": 12.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -23279,7 +23279,7 @@
    "appearances": 1,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.05,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0834,
     "rf": 0.0007,
@@ -23300,7 +23300,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.9,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0907,
     "rf": 0.0045,
@@ -23331,9 +23331,9 @@
    },
    "quotazione": 8.0,
    "fvm": 18.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -44180,13 +44180,49 @@
  ],
  "news": [
   {
+   "title": "I voti di Milan-Lecce al fanta: super Pulisic! Ramos come Rabiot e Moreira, affondano Gaspar e Siebert",
+   "summary": "Quinta giornata di Serie A, l'ultima prima della lunga sosta per le Nazionali. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-milan-lecce-pulisic-ramos-rabiot-moreira-gaspar-siebert/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2296280916-b851fc9e54ba-e1789938314163.jpg",
+   "date": "2026-09-20T21:20:30+00:00"
+  },
+  {
+   "title": "FLASH - Roma, Malen salta gli impegni con la nazionale: il motivo e le sue condizioni",
+   "summary": "Problema fisico per Malen, che non risponderà alla convocazione dell’Olanda: salta la Nations League e sarà valutato dalla Roma.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/flash-roma-malen-salta-impegni-nazionale-motivo-condizioni-fantacalcio/",
+   "image": "https://static.sosfanta.com/202604/9a8884017e9381197baace69215199e0-e1776150466362.jpeg",
+   "date": "2026-09-20T21:15:45+00:00"
+  },
+  {
+   "title": "Politano: \"Una follia gli orari delle partite! Niente Nazionale? Dispiacere, ma Mancini con i giovani...\"",
+   "summary": "Al termine della sfida pareggiata 1-1 contro la Fiorentina al Franchi il giocatore del Napoli, Matteo Politano, ha parlato in conferenza stampa.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/politano-napoli-mancini-nazionale/",
+   "image": "https://static.sosfanta.com/202512/181831f5df80549c6212e3eedb9d03cb-e1764756513909.jpg",
+   "date": "2026-09-20T21:00:51+00:00"
+  },
+  {
    "title": "Spalletti: \"Lavoriamo per prendere uno svincolato! Su Kolo Muani felice, Celik, McKennie, Nico e Kalulu...\"",
    "summary": "Si è conclusa la sfida fra la Juve di Luciano Spalletti e l'Atalanta di Maurizio Sarri, a Torino. Il tecnico bianconero ha parlato al termine del match.",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/spalletti-juve-atalanta-kolo-muani-celik-mckennie/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2296250153-33d23bf5074d-e1789923198235.jpg",
-   "date": "2026-09-20T19:35:00+00:00"
+   "date": "2026-09-20T20:15:00+00:00"
+  },
+  {
+   "title": "Sarri: \"Trattenuta su Rowe? Bisogna abolire il VAR! Siamo indietro, ecco cosa mi preoccupa di più\"",
+   "summary": "Maurizio Sarri, tecnico dell'Atalanta, ha parlato ai microfoni di Sky Sport e in conferenza stampa al termine del match contro la Juve. Le sue parole.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/sarri-atalanta-trattenuta-rowe-bisogna-abolire-var-siamo-indietro-ecco-cosa-preoccupa/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292874622-a4666c0747b0-e1788207183376.jpg",
+   "date": "2026-09-20T20:00:26+00:00"
   },
   {
    "title": "I voti di Juve-Atalanta al fanta: Kolo Muani come Conceicao e Bremer! Male Rowe e Scamacca, bocciato Krstovic",
@@ -44195,7 +44231,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/i-voti-al-fantacalcio-juventus-atalanta/",
    "image": "https://static.sosfanta.com/2026/09/IMG_0333-908062508442-e1789929033137.jpg",
-   "date": "2026-09-20T19:20:15+00:00"
+   "date": "2026-09-20T19:45:15+00:00"
+  },
+  {
+   "title": "Tutti gli assist della 5a giornata al fantacalcio: +1 per Ramos, Pavlovic, Zhegrova, Celik e doppio Schmid",
+   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/assist-5a-giornata-serie-a-fantacalcio-mandragora-birindelli/",
+   "image": "https://static.sosfanta.com/2026/08/Goncalo-Ramos-bc22dbb87f3d.jpg",
+   "date": "2026-09-20T19:15:03+00:00"
   },
   {
    "title": "Inter, Spence verso la convocazione alla ripresa contro il Parma. E occhio alla gestione dei portieri",
@@ -44220,7 +44265,7 @@
    "summary": "Prosegue la quinta giornata di Serie A: alle 20.45 la sfida fra il Milan di Ruben Amorim ed il Lecce di Eusebio Di Francesco. Sono state diramate le formazio...",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-lecce-le-formazioni-ufficiali-la-scelta-su-modric-moreira-monteiro-pulisic-cisse-pierotti-gaspar/",
+   "url": "https://www.sosfanta.com/news/milan-lecce-formazioni-ufficiali-modric-moreira-monteiro-pulisic-cisse-pierotti-tiago-gabriel/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2295616872-ccc78657650c-e1789908416129.jpeg",
    "date": "2026-09-20T18:40:40+00:00"
   },
@@ -44268,15 +44313,6 @@
    "url": "https://www.sosfanta.com/squadra/como/fabregas-conferenza-nico-paz-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293033407-1-12a11a6ccf04-e1788954920932.jpg",
    "date": "2026-09-20T17:30:07+00:00"
-  },
-  {
-   "title": "Tutti gli assist della 5a giornata al fantacalcio: doppio Schmid, +1 anche per Zhegrova, Celik e Colombo",
-   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/assist-5a-giornata-serie-a-fantacalcio-mandragora-birindelli/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291723367-9457bf1bb254-e1788378873634.jpg",
-   "date": "2026-09-20T17:30:03+00:00"
   },
   {
    "title": "De Rossi: \"Triste, deluso e arrabbiato! Ostigard è stato male, sullo spogliatoio perso la penso così\"",
@@ -44502,42 +44538,6 @@
    "url": "https://www.sosfanta.com/squadra/cagliari/romano-pisacane-strootman-cagliari/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2291583446-2178753c29ed-e1788686876723.jpeg",
    "date": "2026-09-20T07:00:38+00:00"
-  },
-  {
-   "title": "Fiorentina-Napoli, le probabili formazioni: da Beto, Dragusin e Goncalves a Lang, Vergara e Anguissa",
-   "summary": "Testa a testa tra Beto e Pellegrino per l'attacco della Fiorentina. Un solo ballottaggio in casa Napoli per il lunch match.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fiorentina-napoli-probabili-formazioni-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Atta-350ceb609002-e1787386518952.jpg",
-   "date": "2026-09-20T06:00:14+00:00"
-  },
-  {
-   "title": "Condò: \"La Lazio ha un giocatore da mezze stagioni: se ne fa una intera può diventare...\"",
-   "summary": "Paolo Condò parla di un giocatore in particolare della Lazio dopo la vittoria per 2-0 ottenuta a Venezia dalla squadra di Rino Gattuso.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/condo-lazio-giocatore-mezze-stagioni-nome/",
-   "image": "https://static.sosfanta.com/2020/12/07041859/Condo2-e1696425671842.jpg",
-   "date": "2026-09-19T22:00:38+00:00"
-  },
-  {
-   "title": "I voti di Venezia-Lazio al fanta: le scelte su Pinamonti e Gudmundsson! Mandas più di Zaccagni, affonda Yeboah",
-   "summary": "Quinta giornata di Serie A, l'ultima prima della lunga sosta per le Nazionali. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio con il tabellino...",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-venezia-lazio-fantacalcio-tutte-scelte/",
-   "image": "https://static.sosfanta.com/2026/09/Zaccagni-eca0672b2898-e1789849895288.jpg",
-   "date": "2026-09-19T21:45:56+00:00"
-  },
-  {
-   "title": "Stroppa: “Fossi nella società non mi esonererei! Rigore? Com’è andata, forse ho sbagliato io”",
-   "summary": "Giovanni Stroppa, tecnico del Venezia, ha parlato a Sky Sport e DAZN al termine del match contro la Lazio. Le sue dichiarazioni.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/venezia/stroppa-venezia-societa-esonero-assenze/",
-   "image": "https://static.sosfanta.com/2026/08/IMG_7982-b20a205781f5-e1787951332751.jpg",
-   "date": "2026-09-19T21:30:46+00:00"
   }
  ],
  "marketDifficulty": {
