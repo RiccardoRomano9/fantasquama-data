@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-21T19:35:26+00:00",
+ "generatedAt": "2026-09-21T23:23:03+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -26400,7 +26400,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.08,
-   "playProbability": 0.044,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.0204,
     "rf": 0.0002,
@@ -26421,7 +26421,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.0552,
     "rf": 0.0049,
@@ -26454,7 +26454,7 @@
    "quotazione": 6.0,
    "fvm": 13.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -34188,7 +34188,7 @@
    "appearances": 3,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.95,
-   "playProbability": 0.83,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.0143,
     "rf": 0.0002,
@@ -34209,7 +34209,7 @@
     "q90": 6.49
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.0504,
     "rf": 0.0049,
@@ -34242,7 +34242,7 @@
    "quotazione": 7.0,
    "fvm": 19.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -43852,6 +43852,22 @@
     {
      "opzioni": [
       {
+       "player_id": "4433",
+       "giocatore": "Zortea",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "5678",
+       "giocatore": "Holm",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "5298",
        "giocatore": "Pobega",
        "titolarita_pct": 55,
@@ -44184,13 +44200,58 @@
  ],
  "news": [
   {
+   "title": "Dt Udinese: “Ecco le condizioni di Davis e cosa filtra sul suo stop! Su Zaniolo, Solet e le critiche...\"",
+   "summary": "Gian Luca Nani fa il punto sull’Udinese durante la sosta: le parole del direttore tecnico sul momento della squadra e su Davis.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/dt-udinese-condizioni-davis-cosa-filtra-stop-zaniolo-solet-critiche-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289723647-02256c2bd42e-e1787464205756.jpeg",
+   "date": "2026-09-21T21:45:07+00:00"
+  },
+  {
    "title": "DAI CAMPI - Dovbyk in gruppo! Dimarco, Pinamonti, Noslin, Tiago Gabriel, Skorupski e si è operato Kolo Muani",
    "summary": "Il campionato si ferma per lasciare spazio alle nazionali: ecco tutte le ultime novità dai campi della Serie A tra infortuni e recuperi.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news-formazioni/campi-dovbyk-gruppo-dimarco-pinamonti-noslin-tiagogabriel-skorupski-operato-kolomuani/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293382978-b796255404d9-e1790015351279.jpg",
-   "date": "2026-09-21T19:15:27+00:00"
+   "date": "2026-09-21T21:15:27+00:00"
+  },
+  {
+   "title": "L'agente di S. Esposito: \"Napoli? Ecco perché era la scelta peggiore! Su Zaccagni, Vergara, Favasuli...\"",
+   "summary": "L'agente di Sebastiano Esposito, Mario Giuffredi, ha parlato ai microfoni di Tmw di alcuni dei suoi assistiti e di un retroscena su Sebastiano Esposito.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/sebastiano-esposito-agente-zaccagni-favasuli-vergara-sassuolo-napoli/",
+   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
+   "date": "2026-09-21T21:00:39+00:00"
+  },
+  {
+   "title": "Mancini: \"Sono sicuro che vinceremo un trofeo nei prossimi quattro anni! Dimarco, Pio e Kean…”",
+   "summary": "Il primo ritiro dell'Italia sotto la guida di Roberto Mancini è iniziato: ecco cosa ha detto il commissario tecnico in conferenza.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/italia-mancini-conferenza-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-1476238838-8f926ca34750-e1785342169708.jpg",
+   "date": "2026-09-21T20:15:23+00:00"
+  },
+  {
+   "title": "Inter, novità sulle condizioni di Dimarco dopo il fastidio al ginocchio: le ultime",
+   "summary": "Inter, novità sulle condizioni di Federico Dimarco dopo il fastidio al ginocchio: gli aggiornamenti durante la sosta per le nazionali.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-novita-condizioni-dimarco-fastidio-ginocchio-ultime-fantacalcio-infortunio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291653854-9829d7738cf0-e1788629212405.jpg",
+   "date": "2026-09-21T20:00:20+00:00"
+  },
+  {
+   "title": "NEWS - Malen ko, le ultime! Calhanoglu, Spence, Davis, Rovella, Palmisani e la porta Juve...",
+   "summary": "Conclusa la quinta giornata di campionato, inizia la lunga sosta della Serie A per lasciare spazio agli impegni delle nazionali. Ecco tutti gli aggiornamenti...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-malen-calhanoglu-spence-davis-rovella-palmisani-porta-juve/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
+   "date": "2026-09-21T19:15:07+00:00"
   },
   {
    "title": "Cagliari, Pisacane difende Maldini: \"Io mi fido, se si fosse chiamato in un altro modo...\"",
@@ -44202,22 +44263,22 @@
    "date": "2026-09-21T19:00:23+00:00"
   },
   {
-   "title": "Mancini: \"Sono sicuro che vinceremo un trofeo nei prossimi quattro anni! Dimarco, Pio e Kean…”",
-   "summary": "Il primo ritiro dell'Italia sotto la guida di Roberto Mancini è iniziato: ecco cosa ha detto il commissario tecnico in conferenza.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/italia-mancini-conferenza-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-1476238838-8f926ca34750-e1785342169708.jpg",
-   "date": "2026-09-21T18:45:23+00:00"
-  },
-  {
-   "title": "NEWS - Malen ko, le ultime! Calhanoglu, Spence, Davis, Rovella, Palmisani e la porta Juve...",
-   "summary": "Conclusa la quinta giornata di campionato, inizia la lunga sosta della Serie A per lasciare spazio agli impegni delle nazionali. Ecco tutti gli aggiornamenti...",
+   "title": "BREAKING - Dimarco lascia la Nazionale per infortunio: ecco chi prende il suo posto",
+   "summary": "Niente nazionale per Federico Dimarco: problema fisico per l'esterno dell'Inter che salterà le gare di Nations League. Le sue condizioni.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-malen-calhanoglu-spence-davis-rovella-palmisani-porta-juve/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
-   "date": "2026-09-21T18:15:07+00:00"
+   "url": "https://www.sosfanta.com/squadra/inter/dimarco-lascia-nazionale-infortunio-ecco-chi-prende-il-suo-posto/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
+   "date": "2026-09-21T18:45:59+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Atalanta, lungo stop per Kossounou: l’esito degli esami e i tempi di recupero",
+   "summary": "L'Atalanta perde Kossounou per tanto tempo, gli esami hanno evidenziato una lesione muscolare. Di seguito il comunicato del club.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/atalanta-lungo-stop-kossounou-esami-tempi-di-recuper-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291391082-46e210703cca-e1789987608229.jpg",
+   "date": "2026-09-21T18:15:12+00:00"
   },
   {
    "title": "Bologna, riecco Dovbyk: il centravanti è tornato in gruppo dopo l'infortunio, il comunicato",
@@ -44227,24 +44288,6 @@
    "url": "https://www.sosfanta.com/squadra/bologna/dovbyk-bologna-tornato-in-gruppo-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Dovbyk-7b6e055d8fe9-e1788717668531.jpg",
    "date": "2026-09-21T18:00:44+00:00"
-  },
-  {
-   "title": "BREAKING - Dimarco lascia la Nazionale per infortunio: ecco chi prende il suo posto",
-   "summary": "Niente nazionale per Federico Dimarco: problema fisico per l'esterno dell'Inter che salterà le gare di Nations League. Le sue condizioni.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/dimarco-lascia-nazionale-infortunio-ecco-chi-prende-il-suo-posto/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
-   "date": "2026-09-21T17:45:59+00:00"
-  },
-  {
-   "title": "ULTIM’ORA - Atalanta, lungo stop per Kossounou: l’esito degli esami e i tempi di recupero",
-   "summary": "L'Atalanta perde Kossounou per tanto tempo, gli esami hanno evidenziato una lesione muscolare. Di seguito il comunicato del club.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/atalanta-lungo-stop-kossounou-esami-tempi-di-recuper-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291391082-46e210703cca-e1789987608229.jpg",
-   "date": "2026-09-21T17:15:12+00:00"
   },
   {
    "title": "Kolo Muani si è operato, il comunicato della Juventus e quando torna a disposizione",
@@ -44515,33 +44558,6 @@
    "url": "https://www.sosfanta.com/squadra/como/fabregas-conferenza-nico-paz-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293033407-1-12a11a6ccf04-e1788954920932.jpg",
    "date": "2026-09-20T17:30:07+00:00"
-  },
-  {
-   "title": "De Rossi: \"Triste, deluso e arrabbiato! Ostigard è stato male, sullo spogliatoio perso la penso così\"",
-   "summary": "Si è conclusa la sfida tra Parma e Genoa. Il tecnico degli ospiti di casa ha parlato così al termine del match.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/genoa/de-rossi-triste-deluso-e-arrabbiato-ostigard-e-stato-male-sullo-spogliatoio-perso-la-penso-cosi/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2296222798-83eac4c3cff8-e1789915522112.jpg",
-   "date": "2026-09-20T17:00:31+00:00"
-  },
-  {
-   "title": "I voti al fantacalcio: Palmisani da record! Romero come Osmajic e Kvernadze, Nico Paz più di Baturina, Kean...",
-   "summary": "Quinta giornata di Serie A, l'ultima prima della lunga sosta per le Nazionali. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio con il tabellino...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-parma-genoa-como-frosinone/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800567-ce5f20f973c3-e1789917463801.jpg",
-   "date": "2026-09-20T16:45:21+00:00"
-  },
-  {
-   "title": "Allegri: \"Anguissa ha avuto un nuovo problema fisico! Neres, De Bruyne, Hojlund e perché non ho messo Vergara\"",
-   "summary": "Le parole di Massimiliano Allegri dopo Fiorentina-Napoli, lunch match della quinta giornata di campionato.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/allegri-napoli-fiorentina-parole-conferenza-anguissa-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295645276-e368e18afbaa-e1789905027791.jpeg",
-   "date": "2026-09-20T16:10:57+00:00"
   }
  ],
  "marketDifficulty": {
