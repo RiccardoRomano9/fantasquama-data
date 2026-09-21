@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-21T15:05:36+00:00",
+ "generatedAt": "2026-09-21T19:35:26+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -1560,7 +1560,7 @@
    "appearances": 3,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.06,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.1118,
     "rf": 0.0071,
@@ -1581,7 +1581,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.32,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1512,
     "rf": 0.0128,
@@ -1613,9 +1613,9 @@
    },
    "quotazione": 15.0,
    "fvm": 51.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -2808,7 +2808,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.06,
-   "playProbability": 0.829,
+   "playProbability": 0.611,
    "events": {
     "gf": 0.2534,
     "rf": 0.0074,
@@ -2829,7 +2829,7 @@
     "q90": 9.81
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.611,
    "learnedEvents": {
     "gf": 0.1247,
     "rf": 0.0105,
@@ -2862,7 +2862,7 @@
    "quotazione": 25.0,
    "fvm": 165.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 70.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -6038,7 +6038,7 @@
    "appearances": 2,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.84,
-   "playProbability": 0.044,
+   "playProbability": 0.262,
    "events": {
     "gf": 0.27,
     "rf": 0.0074,
@@ -6059,7 +6059,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.96,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.262,
    "learnedEvents": {
     "gf": 0.1273,
     "rf": 0.0105,
@@ -6092,7 +6092,7 @@
    "quotazione": 23.0,
    "fvm": 160.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 30.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9646,7 +9646,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.17,
-   "playProbability": 0.831,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.1054,
     "rf": 0.0057,
@@ -9667,7 +9667,7 @@
     "q90": 7.89
    },
    "learnedVote": 6.17,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.0858,
     "rf": 0.006,
@@ -9700,7 +9700,7 @@
    "quotazione": 9.0,
    "fvm": 29.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9938,7 +9938,7 @@
    "appearances": 1,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.13,
-   "playProbability": 0.044,
+   "playProbability": 0.394,
    "events": {
     "gf": 0.0961,
     "rf": 0.0057,
@@ -9959,7 +9959,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.18,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.394,
    "learnedEvents": {
     "gf": 0.0858,
     "rf": 0.006,
@@ -9992,7 +9992,7 @@
    "quotazione": 4.0,
    "fvm": 10.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -22280,7 +22280,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.94,
-   "playProbability": 0.044,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0056,
     "rf": 0.0001,
@@ -22301,7 +22301,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.83,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0236,
     "rf": 0.0023,
@@ -22334,7 +22334,7 @@
    "quotazione": 3.0,
    "fvm": 10.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24710,7 +24710,7 @@
    "appearances": 2,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.04,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0072,
     "rf": 0.0001,
@@ -24731,7 +24731,7 @@
     "q90": 6.58
    },
    "learnedVote": 5.92,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0236,
     "rf": 0.0023,
@@ -24762,7 +24762,7 @@
    "quotazione": 2.0,
    "fvm": 1.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -32111,9 +32111,9 @@
    },
    "quotazione": 11.0,
    "fvm": 37.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -34476,7 +34476,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.31,
-   "playProbability": 0.913,
+   "playProbability": 0.577,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -34497,7 +34497,7 @@
     "q90": 7.85
    },
    "learnedVote": 6.34,
-   "learnedPlayProbability": 0.913,
+   "learnedPlayProbability": 0.577,
    "learnedEvents": {
     "gf": 0.0328,
     "rf": 0.0045,
@@ -34530,7 +34530,7 @@
    "quotazione": 15.0,
    "fvm": 50.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -37692,7 +37692,7 @@
    "appearances": 1,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.31,
-   "playProbability": 0.048,
+   "playProbability": 0.384,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -37713,7 +37713,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.26,
-   "learnedPlayProbability": 0.048,
+   "learnedPlayProbability": 0.384,
    "learnedEvents": {
     "gf": 0.0328,
     "rf": 0.0045,
@@ -37744,7 +37744,7 @@
    "quotazione": 8.0,
    "fvm": 25.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 40.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -43298,6 +43298,22 @@
        "ruolo": "C"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5951",
+       "giocatore": "Kolo Muani",
+       "titolarita_pct": 70,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "6752",
+       "giocatore": "Woltemade",
+       "titolarita_pct": 30,
+       "ruolo": "A"
+      }
+     ]
     }
    ]
   },
@@ -43306,6 +43322,22 @@
    "formation": "4-2-3-1",
    "isOfficial": false,
    "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "6966",
+       "giocatore": "Butez",
+       "titolarita_pct": 60,
+       "ruolo": "P"
+      },
+      {
+       "player_id": "6344",
+       "giocatore": "Sanchez Ro.",
+       "titolarita_pct": 40,
+       "ruolo": "P"
+      }
+     ]
+    },
     {
      "opzioni": [
       {
@@ -43422,6 +43454,22 @@
        "giocatore": "Lulli",
        "titolarita_pct": 45,
        "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "779",
+       "giocatore": "Cristante",
+       "titolarita_pct": 55,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "22",
+       "giocatore": "De Roon",
+       "titolarita_pct": 45,
+       "ruolo": "C"
       }
      ]
     },
@@ -43629,6 +43677,22 @@
    "formation": "3-4-2-1",
    "isOfficial": false,
    "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "7615",
+       "giocatore": "Drobnic",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "7255",
+       "giocatore": "Britschgi",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
     {
      "opzioni": [
       {
@@ -44120,13 +44184,22 @@
  ],
  "news": [
   {
-   "title": "Juventus, per il nuovo portiere ore decisive: l'idea del club e cosa filtra sul nome di Neto",
-   "summary": "L'infortunio di Grabara cambia i piani della Juventus che è alla ricerca di un nuovo secondo portiere tra quelli attualmente svincolati.",
+   "title": "DAI CAMPI - Dovbyk in gruppo! Dimarco, Pinamonti, Noslin, Tiago Gabriel, Skorupski e si è operato Kolo Muani",
+   "summary": "Il campionato si ferma per lasciare spazio alle nazionali: ecco tutte le ultime novità dai campi della Serie A tra infortuni e recuperi.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/campi-dovbyk-gruppo-dimarco-pinamonti-noslin-tiagogabriel-skorupski-operato-kolomuani/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293382978-b796255404d9-e1790015351279.jpg",
+   "date": "2026-09-21T19:15:27+00:00"
+  },
+  {
+   "title": "Cagliari, Pisacane difende Maldini: \"Io mi fido, se si fosse chiamato in un altro modo...\"",
+   "summary": "Daniel Maldini è risultato negativo al test sull'uso di sostante stupefacenti, queste le parole del suo allenatore sulla vicenda.",
    "author": "Andrea Ajello",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juventus-portiere-svincolati-neto-fantacalcio/",
-   "image": "https://static.sosfanta.com/2015/10/Neto.jpg",
-   "date": "2026-09-21T15:00:49+00:00"
+   "url": "https://www.sosfanta.com/news/cagliari-pisacane-maldini-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/Daniel-Maldini-5042b5cb1b3d.jpg",
+   "date": "2026-09-21T19:00:23+00:00"
   },
   {
    "title": "Mancini: \"Sono sicuro che vinceremo un trofeo nei prossimi quattro anni! Dimarco, Pio e Kean…”",
@@ -44135,7 +44208,70 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/italia-mancini-conferenza-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/07/GettyImages-1476238838-8f926ca34750-e1785342169708.jpg",
-   "date": "2026-09-21T14:45:23+00:00"
+   "date": "2026-09-21T18:45:23+00:00"
+  },
+  {
+   "title": "NEWS - Malen ko, le ultime! Calhanoglu, Spence, Davis, Rovella, Palmisani e la porta Juve...",
+   "summary": "Conclusa la quinta giornata di campionato, inizia la lunga sosta della Serie A per lasciare spazio agli impegni delle nazionali. Ecco tutti gli aggiornamenti...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-malen-calhanoglu-spence-davis-rovella-palmisani-porta-juve/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
+   "date": "2026-09-21T18:15:07+00:00"
+  },
+  {
+   "title": "Bologna, riecco Dovbyk: il centravanti è tornato in gruppo dopo l'infortunio, il comunicato",
+   "summary": "Assente nelle ultime due partite del Bologna, si rivede Dovbyk: gli aggiornamenti dall'allenamento dei rossoblù.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/dovbyk-bologna-tornato-in-gruppo-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/Dovbyk-7b6e055d8fe9-e1788717668531.jpg",
+   "date": "2026-09-21T18:00:44+00:00"
+  },
+  {
+   "title": "BREAKING - Dimarco lascia la Nazionale per infortunio: ecco chi prende il suo posto",
+   "summary": "Niente nazionale per Federico Dimarco: problema fisico per l'esterno dell'Inter che salterà le gare di Nations League. Le sue condizioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/dimarco-lascia-nazionale-infortunio-ecco-chi-prende-il-suo-posto/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
+   "date": "2026-09-21T17:45:59+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Atalanta, lungo stop per Kossounou: l’esito degli esami e i tempi di recupero",
+   "summary": "L'Atalanta perde Kossounou per tanto tempo, gli esami hanno evidenziato una lesione muscolare. Di seguito il comunicato del club.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/atalanta-lungo-stop-kossounou-esami-tempi-di-recuper-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291391082-46e210703cca-e1789987608229.jpg",
+   "date": "2026-09-21T17:15:12+00:00"
+  },
+  {
+   "title": "Kolo Muani si è operato, il comunicato della Juventus e quando torna a disposizione",
+   "summary": "Questa volta in casa Juventus solo un piccolo problema che non allungherà la lista degli indisponibili: ecco come sta Kolo Muani.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/kolo-muani-juventus-operato-comunicato-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292080967-1-a195323a3559-e1790008841938.jpg",
+   "date": "2026-09-21T17:00:52+00:00"
+  },
+  {
+   "title": "Record al fantacalcio e 'premio': Palmisani rinnova con il Frosinone, il comunicato e i dettagli",
+   "summary": "Dopo la clamorosa prestazione in Frosinone-Como, Palmisani ha rinnovato il contratto allungando così il legame con la sua squadra.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/frosinone/palmisani-frosinone-rinnovo-contratto-comunicato-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800567-ce5f20f973c3-e1789917463801.jpg",
+   "date": "2026-09-21T16:00:12+00:00"
+  },
+  {
+   "title": "Juventus, per il nuovo portiere ore decisive: l'idea del club e cosa filtra sul nome di Neto",
+   "summary": "L'infortunio di Grabara cambia i piani della Juventus che è alla ricerca di un nuovo secondo portiere tra quelli attualmente svincolati.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-portiere-svincolati-neto-fantacalcio/",
+   "image": "https://static.sosfanta.com/2015/10/Neto.jpg",
+   "date": "2026-09-21T15:00:49+00:00"
   },
   {
    "title": "Inter, le ultime su Calhanoglu e Stones: novità per Spence, ecco quando si allenerà con il gruppo",
@@ -44147,24 +44283,6 @@
    "date": "2026-09-21T14:00:48+00:00"
   },
   {
-   "title": "NEWS - Malen ko, le ultime! Calhanoglu, Spence, Davis, Rovella, Palmisani e la porta Juve...",
-   "summary": "Conclusa la quinta giornata di campionato, inizia la lunga sosta della Serie A per lasciare spazio agli impegni delle nazionali. Ecco tutti gli aggiornamenti...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-malen-calhanoglu-spence-davis-rovella-palmisani-porta-juve/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
-   "date": "2026-09-21T12:30:07+00:00"
-  },
-  {
-   "title": "BREAKING - Dimarco lascia la Nazionale per infortunio: ecco chi prende il suo posto",
-   "summary": "Niente nazionale per Federico Dimarco: problema fisico per l'esterno dell'Inter che salterà le gare di Nations League. Le sue condizioni.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/dimarco-lascia-nazionale-infortunio-ecco-chi-prende-il-suo-posto/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
-   "date": "2026-09-21T12:15:59+00:00"
-  },
-  {
    "title": "Udinese, le condizioni di Davis: cosa filtra sul problema fisico del centravanti, le ultime",
    "summary": "Gli aggiornamenti sulle condizioni di Keinan Davis dopo la sostituzione anticipata contro il Cagliari per un problema fisico.",
    "author": "Andrea Ajello",
@@ -44172,15 +44290,6 @@
    "url": "https://www.sosfanta.com/squadra/udinese/udinese-davis-condizioni-cosa-filtra-problema-fisico-ultime-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Davis-92a231151930-e1789650383951.jpg",
    "date": "2026-09-21T12:00:22+00:00"
-  },
-  {
-   "title": "ULTIM’ORA - Atalanta, lungo stop per Kossounou: l’esito degli esami e i tempi di recupero",
-   "summary": "L'Atalanta perde Kossounou per tanto tempo, gli esami hanno evidenziato una lesione muscolare. Di seguito il comunicato del club.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/atalanta-lungo-stop-kossounou-esami-tempi-di-recuper-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291391082-46e210703cca-e1789987608229.jpg",
-   "date": "2026-09-21T11:45:12+00:00"
   },
   {
    "title": "FLASH - Juve, Kolo Muani si frattura il dito di una mano e si opera: i tempi di recupero",
@@ -44433,51 +44542,6 @@
    "url": "https://www.sosfanta.com/news/allegri-napoli-fiorentina-parole-conferenza-anguissa-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2295645276-e368e18afbaa-e1789905027791.jpeg",
    "date": "2026-09-20T16:10:57+00:00"
-  },
-  {
-   "title": "Spalletti: \"Grabara non riesce a spiegarsi il crociato rotto, ecco perché! Su Douglas Luiz e McKennie...\"",
-   "summary": "L'allenatore della Juventus, Luciano Spalletti, prima della sfida dei suoi contro l'Atalanta ha parlato ai microfoni di Sky e Dazn, ed ha parlato di Grabara.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/spalletti-grabara-non-riesce-a-spiegarsi-il-crociato-rotto-ecco-perche-su-douglas-luiz-e-mckennie/",
-   "image": "https://static.sosfanta.com/2026/09/Spalletti-d1b52b969d94-e1789334517104.jpg",
-   "date": "2026-09-20T16:00:04+00:00"
-  },
-  {
-   "title": "Juve-Atalanta, le formazioni ufficiali: la scelta su Kolo Muani, Krstovic, Conceicao, Rowe, Lucumi e Raspadori",
-   "summary": "Prosegue la quinta giornata di Serie A: alle 18 la sfida fra la Juve di Luciano Spalletti e l'Atalanta di Maurizio Sarri. Sono state diramate le formazioni u...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juve-atalanta-formazioni-ufficiali-kolo-muani-woltemade-scamacca-krstovic/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295197901-8cba831507cc-e1789907767381.jpeg",
-   "date": "2026-09-20T15:45:44+00:00"
-  },
-  {
-   "title": "Lang: \"Arrabbiato con Allegri al cambio? Rispondo così! E quando non me l'hanno passata davanti alla porta...\"",
-   "summary": "Al termine della sfida pareggiata 1-1 contro la Fiorentina al Franchi (qui i voti al fantacalcio) il giocatore del Napoli, Noa Lang, ha parlato a Dazn.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/noa-lang-allegri-napoli-cambio-fiorentina/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292839459-4d0f954f1b77-e1788979440923.jpeg",
-   "date": "2026-09-20T15:00:16+00:00"
-  },
-  {
-   "title": "Vanoli: \"Beto soffre questo! Mastantuono da pelle d'oca, Oulai come Kanté ma ha un difetto, Valdepenas...\"",
-   "summary": "Le dichiarazioni dell'allenatore della Fiorentina Paolo Vanoli dopo la gara contro il Napoli.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/vanoli-fiorentina-napoli-conferenza-stampa-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295658222-f676d429ecac-e1789910418955.jpg",
-   "date": "2026-09-20T14:00:04+00:00"
-  },
-  {
-   "title": "I voti di Fiorentina-Napoli al fanta: bocciati Hojlund, Pellegrino e KDB! De Gea come Jimenez, Lang...",
-   "summary": "Quinta giornata di Serie A, l'ultima prima della lunga sosta per le Nazionali. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio con il tabellino...",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fiorentina-napoli-fanta/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295201277-b41e285a20ad-e1789909969763.jpeg",
-   "date": "2026-09-20T13:45:02+00:00"
   }
  ],
  "marketDifficulty": {
