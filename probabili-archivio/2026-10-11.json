@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-09-22T05:09:39+00:00",
+ "scraped_at_utc": "2026-09-22T11:51:36+00:00",
  "giornata": "2026-10-11T15:00:00.000Z",
  "partite": [
   {
@@ -29,7 +29,7 @@
      },
      {
       "giocatore": "Bernasconi",
-      "titolarita_pct": 95
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Samardzic",
@@ -70,15 +70,15 @@
       "titolarita_pct": 40
      },
      {
+      "giocatore": "Kolasinac",
+      "titolarita_pct": 45
+     },
+     {
       "giocatore": "Pompei",
       "titolarita_pct": 5
      },
      {
       "giocatore": "Sportiello",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Kolasinac",
       "titolarita_pct": 5
      },
      {
@@ -107,6 +107,18 @@
        },
        {
         "giocatore": "Zappacosta",
+        "titolarita_pct": 45
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Bernasconi",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Kolasinac",
         "titolarita_pct": 45
        }
       ]
@@ -272,6 +284,11 @@
       "nota": "Fastidio muscolare, in dubbio per la 6a."
      },
      {
+      "giocatore": "Basic",
+      "stato": "infortunato",
+      "nota": "Affaticamento alla fascia plantare, in dubbio per la 6a."
+     },
+     {
       "giocatore": "Franjic",
       "stato": "infortunato",
       "nota": "Intervento chirurgico per una lussazione acromion-claveare, in dubbio per la 15a."
@@ -428,7 +445,8 @@
      },
      {
       "giocatore": "Nzola",
-      "stato": "indisponibile"
+      "stato": "infortunato",
+      "nota": "Ritardo di condizione, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
@@ -478,8 +496,8 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Kolo Muani",
-      "titolarita_pct": 70
+      "giocatore": "Woltemade",
+      "titolarita_pct": 95
      }
     ],
     "panchina": [
@@ -490,10 +508,6 @@
      {
       "giocatore": "Zhegrova",
       "titolarita_pct": 45
-     },
-     {
-      "giocatore": "Woltemade",
-      "titolarita_pct": 30
      },
      {
       "giocatore": "Pinsoglio",
@@ -540,18 +554,6 @@
         "titolarita_pct": 45
        }
       ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Kolo Muani",
-        "titolarita_pct": 70
-       },
-       {
-        "giocatore": "Woltemade",
-        "titolarita_pct": 30
-       }
-      ]
      }
     ],
     "indisponibili": [
@@ -590,9 +592,19 @@
       "nota": "Lesione di medio grado del bicipite femorale, in dubbio per la 6a."
      },
      {
+      "giocatore": "Cambiaso",
+      "stato": "infortunato",
+      "nota": "Distorsione alla caviglia destra, in dubbio per la 6a."
+     },
+     {
       "giocatore": "Grabara",
       "stato": "infortunato",
       "nota": "Lesione del legamento crociato anteriore del ginocchio destro, in dubbio per la 30a."
+     },
+     {
+      "giocatore": "Kolo Muani",
+      "stato": "infortunato",
+      "nota": "Frattura della falange prossimale, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
@@ -811,19 +823,19 @@
      },
      {
       "giocatore": "Molina N.",
-      "titolarita_pct": 55
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Konè M.",
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Cristante",
+      "giocatore": "De Roon",
       "titolarita_pct": 55
      },
      {
-      "giocatore": "Wesley",
-      "titolarita_pct": 55
+      "giocatore": "Lulli",
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Dybala",
@@ -834,7 +846,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Malen",
+      "giocatore": "Castro S.",
       "titolarita_pct": 95
      }
     ],
@@ -844,11 +856,7 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Lulli",
-      "titolarita_pct": 45
-     },
-     {
-      "giocatore": "De Roon",
+      "giocatore": "Pisilli",
       "titolarita_pct": 45
      },
      {
@@ -878,14 +886,6 @@
      {
       "giocatore": "Pellegrini Lo.",
       "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Pisilli",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Castro S.",
-      "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
@@ -904,41 +904,33 @@
      {
       "opzioni": [
        {
-        "giocatore": "Molina N.",
-        "titolarita_pct": 55
-       },
-       {
-        "giocatore": "Lulli",
-        "titolarita_pct": 45
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Cristante",
-        "titolarita_pct": 55
-       },
-       {
         "giocatore": "De Roon",
-        "titolarita_pct": 45
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Wesley",
         "titolarita_pct": 55
        },
        {
-        "giocatore": "Lulli",
+        "giocatore": "Pisilli",
         "titolarita_pct": 45
        }
       ]
      }
     ],
-    "indisponibili": [],
+    "indisponibili": [
+     {
+      "giocatore": "Wesley",
+      "stato": "infortunato",
+      "nota": "Risentimento muscolare alla coscia destra, in dubbio per la 6a."
+     },
+     {
+      "giocatore": "Cristante",
+      "stato": "infortunato",
+      "nota": "Lombalgia, in dubbio per la 6a."
+     },
+     {
+      "giocatore": "Malen",
+      "stato": "infortunato",
+      "nota": "Fastidio al ginocchio sinistro, in dubbio per la 6a."
+     }
+    ],
     "ufficiale": false
    }
   },
@@ -1263,8 +1255,8 @@
       "titolarita_pct": 51
      },
      {
-      "giocatore": "Dimarco",
-      "titolarita_pct": 60
+      "giocatore": "Carlos Augusto",
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Thuram",
@@ -1287,10 +1279,6 @@
      {
       "giocatore": "Pavard",
       "titolarita_pct": 45
-     },
-     {
-      "giocatore": "Carlos Augusto",
-      "titolarita_pct": 40
      },
      {
       "giocatore": "Luis Henrique",
@@ -1357,18 +1345,6 @@
      {
       "opzioni": [
        {
-        "giocatore": "Dimarco",
-        "titolarita_pct": 60
-       },
-       {
-        "giocatore": "Carlos Augusto",
-        "titolarita_pct": 40
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
         "giocatore": "Thuram",
         "titolarita_pct": 60
        },
@@ -1401,6 +1377,16 @@
       "giocatore": "Stones",
       "stato": "infortunato",
       "nota": "Risentimento ai flessori della coscia sinistra, in dubbio per la 6a."
+     },
+     {
+      "giocatore": "Spence",
+      "stato": "infortunato",
+      "nota": "Percorso di riatletizzazione, in dubbio per la 6a."
+     },
+     {
+      "giocatore": "Dimarco",
+      "stato": "infortunato",
+      "nota": "Distorsione al ginocchio, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
@@ -1713,6 +1699,11 @@
       "nota": "Stiramento ai flessori, in dubbio per la 6a."
      },
      {
+      "giocatore": "Dele-Bashiru",
+      "stato": "infortunato",
+      "nota": "Lesione di primo grado al flessore della coscia destra, in dubbio per la 6a."
+     },
+     {
       "giocatore": "Pellegrini Lu.",
       "stato": "indisponibile"
      },
@@ -1735,7 +1726,7 @@
     "titolari": [
      {
       "giocatore": "Tornqvist",
-      "titolarita_pct": 95
+      "titolarita_pct": 60
      },
      {
       "giocatore": "Kouadio",
@@ -1784,11 +1775,11 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Strajnar",
-      "titolarita_pct": 5
+      "giocatore": "Thiam",
+      "titolarita_pct": 40
      },
      {
-      "giocatore": "Thiam",
+      "giocatore": "Strajnar",
       "titolarita_pct": 5
      },
      {
@@ -1837,6 +1828,18 @@
      }
     ],
     "ballottaggi": [
+     {
+      "opzioni": [
+       {
+        "giocatore": "Tornqvist",
+        "titolarita_pct": 60
+       },
+       {
+        "giocatore": "Thiam",
+        "titolarita_pct": 40
+       }
+      ]
+     },
      {
       "opzioni": [
        {
@@ -2996,6 +2999,11 @@
     ],
     "indisponibili": [
      {
+      "giocatore": "Casadei",
+      "stato": "infortunato",
+      "nota": "Problema muscolare alla coscia, in dubbio per la 6a."
+     },
+     {
       "giocatore": "Adams C.",
       "stato": "infortunato",
       "nota": "Lesione distrattiva di basso grado agli adduttori della coscia sinistra, in dubbio per la 6a."
@@ -3122,6 +3130,11 @@
       "giocatore": "Arizala",
       "stato": "infortunato",
       "nota": "Lesione al bicipite femorale, in dubbio per la 6a"
+     },
+     {
+      "giocatore": "Solet",
+      "stato": "infortunato",
+      "nota": "Lesione al muscolo pettineo della gamba sinistra, in dubbio per la 6a."
      },
      {
       "giocatore": "Piotrowski",
