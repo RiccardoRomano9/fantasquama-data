@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-22T17:04:17+00:00",
+ "generatedAt": "2026-09-22T21:29:16+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -22280,7 +22280,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.94,
-   "playProbability": 0.428,
+   "playProbability": 0.83,
    "events": {
     "gf": 0.0056,
     "rf": 0.0001,
@@ -22301,7 +22301,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.83,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.83,
    "learnedEvents": {
     "gf": 0.0236,
     "rf": 0.0023,
@@ -22333,8 +22333,8 @@
    },
    "quotazione": 3.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24710,7 +24710,7 @@
    "appearances": 2,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.04,
-   "playProbability": 0.446,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0072,
     "rf": 0.0001,
@@ -24731,7 +24731,7 @@
     "q90": 6.58
    },
    "learnedVote": 5.92,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0236,
     "rf": 0.0023,
@@ -24761,9 +24761,9 @@
    },
    "quotazione": 2.0,
    "fvm": 1.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -43179,100 +43179,6 @@
  ],
  "teams": [
   {
-   "name": "Atalanta",
-   "formation": "4-3-3",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "4887",
-       "giocatore": "Bellanova",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "554",
-       "giocatore": "Zappacosta",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7219",
-       "giocatore": "Bernasconi",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "2640",
-       "giocatore": "Kolasinac",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "2137",
-       "giocatore": "Scamacca",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "6435",
-       "giocatore": "Krstovic",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6844",
-       "giocatore": "Rowe",
-       "titolarita_pct": 60,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "4371",
-       "giocatore": "Raspadori",
-       "titolarita_pct": 40,
-       "ruolo": "A"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Venezia",
-   "formation": "3-5-2",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "4845",
-       "giocatore": "Correia T.",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6681",
-       "giocatore": "Sagrado",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "name": "Cagliari",
    "formation": "4-3-2-1",
    "isOfficial": false,
@@ -43629,22 +43535,6 @@
    "formation": "3-4-2-1",
    "isOfficial": false,
    "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "7615",
-       "giocatore": "Drobnic",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "7255",
-       "giocatore": "Britschgi",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
     {
      "opzioni": [
       {
@@ -44164,9 +44054,193 @@
      ]
     }
    ]
+  },
+  {
+   "name": "Atalanta",
+   "formation": "4-3-3",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "4887",
+       "giocatore": "Bellanova",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "554",
+       "giocatore": "Zappacosta",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7219",
+       "giocatore": "Bernasconi",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "2640",
+       "giocatore": "Kolasinac",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "2137",
+       "giocatore": "Scamacca",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "6435",
+       "giocatore": "Krstovic",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6844",
+       "giocatore": "Rowe",
+       "titolarita_pct": 60,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "4371",
+       "giocatore": "Raspadori",
+       "titolarita_pct": 40,
+       "ruolo": "A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Venezia",
+   "formation": "3-5-2",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "4845",
+       "giocatore": "Correia T.",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6681",
+       "giocatore": "Sagrado",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    }
+   ]
   }
  ],
  "news": [
+  {
+   "title": "Bernardeschi si è sbloccato: la sua gestione al fantacalcio e cosa cambia con Palladino al Bologna",
+   "summary": "Prima con Tedesco, ora con Palladino, nel Bologna c'è una certezza: ovvero la centralità di Federico Bernardeschi, sbloccatosi contro il Torino.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/bernardeschi-bologna-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2296062960-629acd3dc4c9-e1789829415409.jpg",
+   "date": "2026-09-22T21:00:59+00:00"
+  },
+  {
+   "title": "Solet: “Ecco come sto e cosa filtra sulle prossime partite! Futuro, non ascolto i rumors e ora…”",
+   "summary": "Riecco Oumar Solet: chi lo ha in rosa al fantacalcio può aspettarsi un suo rientro dopo la sosta per le nazionali. Già in questi giorni il centrale torna a d...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/solet-infortunio-udinese-quando-rientra-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294119510-45b016221634-e1790109707561.jpg",
+   "date": "2026-09-22T20:50:47+00:00"
+  },
+  {
+   "title": "FLASH - La Juve vicina a chiudere per il portiere svincolato: avanzano i contatti",
+   "summary": "La Juve rompe gli indugi e si muove per rinforzarsi in porta - alle spalle di Vicario - dopo il grave infortunio patito a Grabara.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juve-portiere-neto-mercato/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295107564-49e887853af5-e1790104856915.jpeg",
+   "date": "2026-09-22T20:45:28+00:00"
+  },
+  {
+   "title": "De Bruyne: \"Ecco la verità sulle voci di addio al Napoli! Sulle partite in panchina e le mie condizioni...\"",
+   "summary": "Kevin De Bruyne torna a parlare e lo fa dal ritiro del Belgio: il fantasista del Napoli ha detto la sua in merito alle tante voci d'addio alla maglia azzurra.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/de-bruyne-napoli-belgio-addio-verita-partite-panchina-condizioni-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291067190-2ff4c10e55f7.jpg",
+   "date": "2026-09-22T20:15:48+00:00"
+  },
+  {
+   "title": "Nazionale, problema alla caviglia per Scalvini: queste le sensazioni in vista dei prossimi match",
+   "summary": "Giorgio Scalvini, difensore della Nazionale, si è fermato durante l'allenamento di oggi per un problema alla caviglia. Le ultime.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/scalvini-problema-caviglia-nazionale/",
+   "image": "https://static.sosfanta.com/202603/f20beabeea38c3d4331754fc7eee8893-e1772727773409.jpg",
+   "date": "2026-09-22T20:00:34+00:00"
+  },
+  {
+   "title": "FLASH - Venezia, arriva la decisione sul futuro della panchina: ecco la scelta per Stroppa",
+   "summary": "È arrivata la decisione del Venezia dopo le dovute riflessioni in seguito alle cinque sconfitte in cinque gare di campionato: la scelta su Stroppa.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/stroppa-venezia-esonero/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2296105410-7afab6061c60-e1790098254262.jpg",
+   "date": "2026-09-22T19:45:17+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Spence, Dimarco, Wesley, Meret, Spinazzola, Santos, C. Adams, Casadei e occhio a Skorupski",
+   "summary": "Serie A ferma per gli impegni delle nazionali, ma dai campi arrivano importanti novità sugli infortunati e non solo in chiave fantacalcio: ecco le ultimissim...",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/dai-campi-spence-dimarco-wesley-meret-spinazzola-santos-c-adams-casadei-e-occhio-a-skorupski/",
+   "image": "https://static.sosfanta.com/2026/09/IMG_0495-2a9376b5653a-e1790093622373.jpg",
+   "date": "2026-09-22T19:15:00+00:00"
+  },
+  {
+   "title": "Torino, Casadei è guarito: cosa manca per il rientro e le novità sul recupero di Adams",
+   "summary": "Cesare Casadei ha ormai smaltito l’infortunio e deve adesso solo riacquisire una buona forma. Vicino al rientro anche Che Adams.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/torino-casadei-recupero-adams/",
+   "image": "https://static.sosfanta.com/202604/83dcc8495c1af602ac3139f8d5b17b29-e1775899678642.jpeg",
+   "date": "2026-09-22T19:00:22+00:00"
+  },
+  {
+   "title": "Napoli, ecco le ultime sui rientri di Alisson Santos, Spinazzola e Giovane: più lunga per Buongiorno",
+   "summary": "I tempi di recupero degli infortunati di casa Napoli. Dal rientro di Spinazzola a quelli di Giovane e Alisson Santos. Lunga per Buongiorno.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-ultime-rientri-alisson-santos-spinazzola-giovane-buongiorno/",
+   "image": "https://static.sosfanta.com/202604/3169e0623a15b73d022b152ff130d6a2.jpg",
+   "date": "2026-09-22T18:00:01+00:00"
+  },
+  {
+   "title": "BREAKING - Napoli, ecco l'esito degli esami strumentali di Anguissa: i tempi di recupero e il comunicato",
+   "summary": "Esami per Frank Anguissa dopo il problema fisico accusato nel finale di gara contro la Fiorentina. Ecco il comunicato del Napoli.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/breaking-napoli-esito-esami-strumentali-anguissa-tempi-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/image-49-e41f9a76ff7a-e1790086411574.jpg",
+   "date": "2026-09-22T17:15:50+00:00"
+  },
   {
    "title": "Roma, niente Brasile per Wesley: ecco l'obiettivo di Gasperini per il rientro dell'esterno",
    "summary": "Fermato da un risentimento muscolare alla coscia destra, l'esterno brasiliano Wesley ha scelto di fare tappa ai box piuttosto che partire.",
@@ -44177,22 +44251,13 @@
    "date": "2026-09-22T17:00:17+00:00"
   },
   {
-   "title": "DAI CAMPI - Spence, Dimarco, Wesley, Meret, Spinazzola, Santos, C. Adams, Casadei e occhio a Skorupski",
-   "summary": "Serie A ferma per gli impegni delle nazionali, ma dai campi arrivano importanti novità sugli infortunati e non solo in chiave fantacalcio: ecco le ultimissim...",
+   "title": "Tutto sulla nuova Italia di Mancini: il modulo, Romano e Inacio in rampa di lancio e la formazione-tipo azzurra",
+   "summary": "Prende forma la nuova Italia di Roberto Mancini per gli impegni di Nations League in programma in questa sosta: modulo, formazione-tipo e non solo.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/dai-campi-spence-dimarco-wesley-meret-spinazzola-santos-c-adams-casadei-e-occhio-a-skorupski/",
-   "image": "https://static.sosfanta.com/2026/09/IMG_0495-2a9376b5653a-e1790093622373.jpg",
-   "date": "2026-09-22T16:15:00+00:00"
-  },
-  {
-   "title": "BREAKING - Napoli, ecco l'esito degli esami strumentali di Anguissa: i tempi di recupero e il comunicato",
-   "summary": "Esami per Frank Anguissa dopo il problema fisico accusato nel finale di gara contro la Fiorentina. Ecco il comunicato del Napoli.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/breaking-napoli-esito-esami-strumentali-anguissa-tempi-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/image-49-e41f9a76ff7a-e1790086411574.jpg",
-   "date": "2026-09-22T16:10:50+00:00"
+   "url": "https://www.sosfanta.com/nazionale/nuova-italia-nazionale-mancini-formazione-tipo-modulo-giovani-rampa-lancio/",
+   "image": "https://static.sosfanta.com/202308/172aea9e8a9be95d5135fe86ac4eda55-scaled-e1691926947285.jpeg",
+   "date": "2026-09-22T16:15:32+00:00"
   },
   {
    "title": "Dt Udinese: \"L'infortunio di Davis non è gravissimo, ecco quando rientreranno Solet e Palma. Zaniolo...\"",
@@ -44202,15 +44267,6 @@
    "url": "https://www.sosfanta.com/news/davis-udinese-tempi-recupero-rientro-infortunio-zaniolo-davis-solet/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2289723647-02256c2bd42e-e1787464205756.jpeg",
    "date": "2026-09-22T16:00:07+00:00"
-  },
-  {
-   "title": "Tutto sulla nuova Italia di Mancini: il modulo, Romano e Inacio in rampa di lancio e la formazione-tipo azzurra",
-   "summary": "Prende forma la nuova Italia di Roberto Mancini per gli impegni di Nations League in programma in questa sosta: modulo, formazione-tipo e non solo.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/nuova-italia-nazionale-mancini-formazione-tipo-modulo-giovani-rampa-lancio/",
-   "image": "https://static.sosfanta.com/202308/172aea9e8a9be95d5135fe86ac4eda55-scaled-e1691926947285.jpeg",
-   "date": "2026-09-22T15:45:32+00:00"
   },
   {
    "title": "FLASH - Udinese, l'esito degli esami per Davis e i tempi di recupero! Quando tornano Solet, Palma e Piotrowski",
@@ -44454,78 +44510,6 @@
    "url": "https://www.sosfanta.com/squadra/juventus/kolo-muani-juventus-operato-comunicato-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2292080967-1-a195323a3559-e1790008841938.jpg",
    "date": "2026-09-21T17:00:52+00:00"
-  },
-  {
-   "title": "Record al fantacalcio e 'premio': Palmisani rinnova con il Frosinone, il comunicato e i dettagli",
-   "summary": "Dopo la clamorosa prestazione in Frosinone-Como, Palmisani ha rinnovato il contratto allungando così il legame con la sua squadra.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/frosinone/palmisani-frosinone-rinnovo-contratto-comunicato-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800567-ce5f20f973c3-e1789917463801.jpg",
-   "date": "2026-09-21T16:00:12+00:00"
-  },
-  {
-   "title": "Juventus, per il nuovo portiere ore decisive: l'idea del club e cosa filtra sul nome di Neto",
-   "summary": "L'infortunio di Grabara cambia i piani della Juventus che è alla ricerca di un nuovo secondo portiere tra quelli attualmente svincolati.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juventus-portiere-svincolati-neto-fantacalcio/",
-   "image": "https://static.sosfanta.com/2015/10/Neto.jpg",
-   "date": "2026-09-21T15:00:49+00:00"
-  },
-  {
-   "title": "Inter, le ultime su Calhanoglu e Stones: novità per Spence, ecco quando si allenerà con il gruppo",
-   "summary": "Il punto dall'infermeria in casa Inter e gli aggiornamenti su Spence, pronto a mettersi finalmente a disposizione di Chivu.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-calhanoglu-stones-spence-ultime-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294177753-70dbb87ea4ba-e1789480262234.jpg",
-   "date": "2026-09-21T14:00:48+00:00"
-  },
-  {
-   "title": "Udinese, le condizioni di Davis: cosa filtra sul problema fisico del centravanti, le ultime",
-   "summary": "Gli aggiornamenti sulle condizioni di Keinan Davis dopo la sostituzione anticipata contro il Cagliari per un problema fisico.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/udinese-davis-condizioni-cosa-filtra-problema-fisico-ultime-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Davis-92a231151930-e1789650383951.jpg",
-   "date": "2026-09-21T12:00:22+00:00"
-  },
-  {
-   "title": "FLASH - Juve, Kolo Muani si frattura il dito di una mano e si opera: i tempi di recupero",
-   "summary": "Un'altra tegola in casa Juventus. Randal Kolo Muani si è fratturato il dito di una mano a causa di un colpo subito durante la partita contro l'Atalanta: le c...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juve-kolo-muani-frattura-dito-mano-operazione-tempi-recupero/",
-   "image": "https://static.sosfanta.com/2026/08/Kolo-Muani-9628e94339b2-e1788037443287.jpg",
-   "date": "2026-09-21T11:15:43+00:00"
-  },
-  {
-   "title": "Roma, problema al ginocchio per Malen: cosa filtra sulle sue condizioni",
-   "summary": "Problema per Malen che non risponderà alla convocazione dell'Olande per le partite di Nations League: tutti gli aggiornamenti.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/roma-malen-problema-ginocchio-cosa-filtra-condizioni/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
-   "date": "2026-09-21T11:00:40+00:00"
-  },
-  {
-   "title": "BREAKING - Daniel Maldini, ecco l’esito definitivo dei test sull’uso di sostanze stupefacenti",
-   "summary": "Il responso è arrivato dall’ospedale Niguarda di Milano dove erano stati trasmessi i campioni di sangue prelevati dopo l’incidente avvenuto tra sabato 12 e d...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/maldini-test-uso-stupefacenti-esito/",
-   "image": "https://static.sosfanta.com/2026/08/Maldini-ed4a04513b2e-e1787767742999.jpg",
-   "date": "2026-09-21T10:45:19+00:00"
-  },
-  {
-   "title": "Lazio, da Rovella a Dele-Bashiru e Marusic: come stanno e la data del possibile ritorno in campo",
-   "summary": "Tutti gli aggiornamenti sulle condizioni degli infortunati di casa Lazio: da Dele-Bashiru e Marusic a Rovella.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-rovella-dele-bashiru-marusic-come-stanno-data-possibile-ritorno-campo/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290822260-5aa24ea04083.jpg",
-   "date": "2026-09-21T10:00:08+00:00"
   }
  ],
  "marketDifficulty": {
