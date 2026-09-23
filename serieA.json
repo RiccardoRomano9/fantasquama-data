@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-23T07:50:42+00:00",
+ "generatedAt": "2026-09-23T13:37:25+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -3616,7 +3616,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.33,
-   "playProbability": 0.0,
+   "playProbability": 0.285,
    "events": {
     "gf": 0.7197,
     "rf": 0.0057,
@@ -3637,7 +3637,7 @@
     "q90": 13.18
    },
    "learnedVote": 6.42,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.285,
    "learnedEvents": {
     "gf": 0.3338,
     "rf": 0.0157,
@@ -3669,9 +3669,9 @@
    },
    "quotazione": 38.0,
    "fvm": 450.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -44152,13 +44152,94 @@
  ],
  "news": [
   {
-   "title": "Juve, molto vicino l'acquisto di Neto: distanze ridotte e accordo imminente! Per l'ok finale...",
-   "summary": "Juventus molto vicina all’acquisto di Neto: distanze ormai assottigliate e accordo imminente. Ecco le ultimissime sulla trattativa.",
+   "title": "Romano svela: \"Come nasce l'operazione Alaba-Udinese! Quest'altro club italiano ci ha pensato seriamente\"",
+   "summary": "David Alaba sta per essere ufficializzato come nuovo giocatore dell'Udinese. Ma come nasce quest'operazione a sorpresa?",
    "author": "Marco Astori",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juve-molto-vicino-neto/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-647473550-7d078a42a6ca-e1790144283909.jpg",
-   "date": "2026-09-23T07:00:51+00:00"
+   "url": "https://www.sosfanta.com/news/romano-svela-come-nasce-operazione-alaba-udinese/",
+   "image": "https://static.sosfanta.com/202605/4243abfb2a9be3b0ef8bcfa46b29fa9c-scaled-e1778228403801.jpg",
+   "date": "2026-09-23T13:30:03+00:00"
+  },
+  {
+   "title": "Il Napoli riabbraccia McTominay: il programma dello scozzese e le ultime sul rientro in campo",
+   "summary": "Al Napoli è mancato molto in queste settimane ma Scott McTominay si prepara a tornare a disposizione dopo l'intervento a cui si è sottoposto.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-mctominay-programma-ultime-rientro-in-campo-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2289750320-352746456ca1-e1788884848363.jpg",
+   "date": "2026-09-23T13:00:55+00:00"
+  },
+  {
+   "title": "Taylor: “Non sono il primo rigorista della Lazio: chi c’è davanti a me e in che posizione sono. Con Gattuso…\"",
+   "summary": "Kenneth Taylor ha parlato dando indicazioni importanti per il fantacalcio: ecco quali sono le gerarchie dal dischetto in casa Lazio.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-taylor-non-sono-il-primo-rigorista-ecco-chi-ce-davanti-gattuso-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294043624-f7b77515de8b-e1790164616126.jpg",
+   "date": "2026-09-23T12:30:59+00:00"
+  },
+  {
+   "title": "Udinese, le novità su Davis dall'ultimo allenamento: come sta e il piano per l'attaccante",
+   "summary": "Ecco come procede il recupero di Keinan Davis dopo l'ultimo fastidio accusato e il programma per i prossimi giorni di allenamento.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/udinese-davis-allenamento-novita-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/Davis-92a231151930-e1789650383951.jpg",
+   "date": "2026-09-23T12:00:38+00:00"
+  },
+  {
+   "title": "BREAKING - Clamoroso Alaba, accordo di massima con questo club di Serie A da svincolato! I dettagli",
+   "summary": "Clamoroso David Alaba, è ad un passo il suo approdo in Serie A da svincolato: c'è, l'accordo di massima per l’ex difensore del Real Madrid.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/breaking-clamoroso-alaba-accordo-massima-serie-a/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2277861034-56e99d96e4e6-e1790150800765.jpg",
+   "date": "2026-09-23T11:45:49+00:00"
+  },
+  {
+   "title": "NEWS - Anguissa, Cambiaso, Wesley, Davis, Dovbyk, Kossounou, Hien e si avvicina il portiere per la Juve",
+   "summary": "NEWS - Anguissa, Cambiaso, Wesley, Davis, Dovbyk, Kossounou, Hien e si avvicina il portiere per la Juve",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-anguissa-cambiaso-wesley-davis-dovbyk-kossounou-hien-portiere-juve/",
+   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-23-09-14-14-8b45091102ea-e1790147676366.jpg",
+   "date": "2026-09-23T11:15:19+00:00"
+  },
+  {
+   "title": "FLASH - Bologna, ecco l'esito degli esami di Odgaard: c'è lesione, il comunicato e i tempi di recupero",
+   "summary": "E' arrivato il comunicato del Bologna dopo gli esami strumentali di Jens Odgaard, fermatosi per un problema muscolare. Ecco l'esito dei controlli.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/flash-bologna-esito-esami-odgaard-tempi-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293366102-2bd416fe931a-e1790147750449.jpg",
+   "date": "2026-09-23T11:15:05+00:00"
+  },
+  {
+   "title": "Prudenza per Calhanoglu, il piano dell'Inter tra campionato e Champions: Chivu lo gestirà così",
+   "summary": "Tra chi è rimasto a Milano in questa sosta c'è anche Calhanoglu che sta recuperando dall'infortunio. Ecco cosa filtra sulla sua gestione post sosta.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/calhanoglu-inter-condizioni-piano-chivu-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/Calhanoglu-ebb494cd184e-e1789469697948.jpg",
+   "date": "2026-09-23T11:00:24+00:00"
+  },
+  {
+   "title": "Juventus, si rivede Cambiaso: il motivo del rientro posticipato! E Spalletti...",
+   "summary": "Andrea Cambiaso vede la luce dopo essere stato ai box praticamente da inizio stagione: le ultime sul terzino bianconero.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-cambiaso-spalletti-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289613230-754bf86d14a0-scaled-e1787499489519.jpg",
+   "date": "2026-09-23T10:00:27+00:00"
+  },
+  {
+   "title": "Napoli, incertezza su Anguissa dopo l'infortunio: ecco da cosa dipenderà il suo rientro in campo",
+   "summary": "Non c'è pace per Anguissa e il Napoli: il centrocampista in pochi minuti si è di nuovo infortunato complicando ulteriormente questo inizio di stagione.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-anguissa-infortunio-rienteo-in-campo-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290863483-f75265f60d59-scaled-e1787090474647.jpeg",
+   "date": "2026-09-23T09:00:28+00:00"
   },
   {
    "title": "ULTIM'ORA - Bologna, stop per Odgaard: oggi gli esami, cosa filtra sull'infortunio! E per Bernardeschi…",
@@ -44167,7 +44248,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/bologna-stop-odgaard-oggi-esami-bernardeschi-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2296079206-435ffdf26c84-e1790144667336.jpg",
-   "date": "2026-09-23T06:25:41+00:00"
+   "date": "2026-09-23T08:45:41+00:00"
+  },
+  {
+   "title": "Wesley non al meglio in stagione, come sta il brasiliano e cosa filtra verso Como-Roma",
+   "summary": "La Roma ha brillato in questo inizio di stagione eppure non ha neanche avuto il miglior Wesley fino ad ora.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/come-sta-wesley-verso-como-roma-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/Wesley-5dc66abe11f9-e1787334948360.jpeg",
+   "date": "2026-09-23T08:00:54+00:00"
   },
   {
    "title": "Solet: “Ecco come sto e cosa filtra sulle prossime partite! Futuro, non ascolto i rumors e ora…”",
@@ -44176,7 +44266,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/solet-infortunio-udinese-quando-rientra-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294119510-45b016221634-e1790109707561.jpg",
-   "date": "2026-09-23T06:15:47+00:00"
+   "date": "2026-09-23T07:15:47+00:00"
+  },
+  {
+   "title": "Juve, molto vicino l'acquisto di Neto: distanze ridotte e accordo imminente! Per l'ok finale...",
+   "summary": "Juventus molto vicina all’acquisto di Neto: distanze ormai assottigliate e accordo imminente. Ecco le ultimissime sulla trattativa.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juve-molto-vicino-neto/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-647473550-7d078a42a6ca-e1790144283909.jpg",
+   "date": "2026-09-23T07:00:51+00:00"
   },
   {
    "title": "Dominguez: \"Spiego la scelta di venire al Sassuolo! Sul primo gol, il mio ruolo e Aquilani...\"",
@@ -44411,105 +44510,6 @@
    "url": "https://www.sosfanta.com/news/stroppa-venezia-prende-tempo-nomi/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2291708187-20e7cb8d6301.jpg",
    "date": "2026-09-22T08:00:20+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Santos",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/202511/a06b33f585aa8285d957d8e4d4812616.jpg",
-   "date": "2026-09-22T07:45:42+00:00"
-  },
-  {
-   "title": "Ds Frosinone: \"Fabregas dice che potevano vincere 4-1? Rispondo così! Raimondo e le parate di Palmisani...\"",
-   "summary": "Il Frosinone di Alvini stupisce ancora vincendo 2-0 contro il Como: ora la squadra di Alvini ha 10 punti. Parla il ds Castagnini.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ds-frosinone-fabregas-raimondo-palmisani-como/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293807323-64ba168c5110-e1788708128299.jpeg",
-   "date": "2026-09-22T07:00:28+00:00"
-  },
-  {
-   "title": "Dt Udinese: “Ecco le condizioni di Davis e cosa filtra sul suo stop! Su Zaniolo, Solet, Gueye e le critiche...\"",
-   "summary": "Gian Luca Nani fa il punto sull’Udinese durante la sosta: le parole del direttore tecnico sul momento della squadra e su Davis.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/dt-udinese-condizioni-davis-cosa-filtra-stop-zaniolo-solet-critiche-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289723647-02256c2bd42e-e1787464205756.jpeg",
-   "date": "2026-09-22T06:30:07+00:00"
-  },
-  {
-   "title": "Stones: \"Vi dico questo sul mio infortunio, ecco quando tornerò in campo con l'Inter\"",
-   "summary": "In casa Inter è passata presto la preoccupazione per le condizioni fisiche di John Stones: il centrale inglese si era fermato nella sfida contro l'Udinese.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/stones-infortunio-inter-quando-torna-rientra/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295277988-b1142ca50fbf-e1789416746632.jpeg",
-   "date": "2026-09-22T06:00:08+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Dovbyk in gruppo! Dimarco, Pinamonti, Noslin, Tiago Gabriel, Skorupski e si è operato Kolo Muani",
-   "summary": "Il campionato si ferma per lasciare spazio alle nazionali: ecco tutte le ultime novità dai campi della Serie A tra infortuni e recuperi.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/campi-dovbyk-gruppo-dimarco-pinamonti-noslin-tiagogabriel-skorupski-operato-kolomuani/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293382978-b796255404d9-e1790015351279.jpg",
-   "date": "2026-09-21T21:15:27+00:00"
-  },
-  {
-   "title": "L'agente di S. Esposito: \"Napoli? Ecco perché era la scelta peggiore! Su Zaccagni, Vergara, Favasuli...\"",
-   "summary": "L'agente di Sebastiano Esposito, Mario Giuffredi, ha parlato ai microfoni di Tmw di alcuni dei suoi assistiti e di un retroscena su Sebastiano Esposito.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/sebastiano-esposito-agente-zaccagni-favasuli-vergara-sassuolo-napoli/",
-   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
-   "date": "2026-09-21T21:00:39+00:00"
-  },
-  {
-   "title": "Mancini: \"Sono sicuro che vinceremo un trofeo nei prossimi quattro anni! Dimarco, Pio e Kean…”",
-   "summary": "Il primo ritiro dell'Italia sotto la guida di Roberto Mancini è iniziato: ecco cosa ha detto il commissario tecnico in conferenza.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/italia-mancini-conferenza-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-1476238838-8f926ca34750-e1785342169708.jpg",
-   "date": "2026-09-21T20:15:23+00:00"
-  },
-  {
-   "title": "Inter, novità sulle condizioni di Dimarco dopo il fastidio al ginocchio: le ultime",
-   "summary": "Inter, novità sulle condizioni di Federico Dimarco dopo il fastidio al ginocchio: gli aggiornamenti durante la sosta per le nazionali.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-novita-condizioni-dimarco-fastidio-ginocchio-ultime-fantacalcio-infortunio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291653854-9829d7738cf0-e1788629212405.jpg",
-   "date": "2026-09-21T20:00:20+00:00"
-  },
-  {
-   "title": "NEWS - Malen ko, le ultime! Calhanoglu, Spence, Davis, Rovella, Palmisani e la porta Juve...",
-   "summary": "Conclusa la quinta giornata di campionato, inizia la lunga sosta della Serie A per lasciare spazio agli impegni delle nazionali. Ecco tutti gli aggiornamenti...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-malen-calhanoglu-spence-davis-rovella-palmisani-porta-juve/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
-   "date": "2026-09-21T19:15:07+00:00"
-  },
-  {
-   "title": "Cagliari, Pisacane difende Maldini: \"Io mi fido, se si fosse chiamato in un altro modo...\"",
-   "summary": "Daniel Maldini è risultato negativo al test sull'uso di sostante stupefacenti, queste le parole del suo allenatore sulla vicenda.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-pisacane-maldini-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Daniel-Maldini-5042b5cb1b3d.jpg",
-   "date": "2026-09-21T19:00:23+00:00"
-  },
-  {
-   "title": "BREAKING - Dimarco lascia la Nazionale per infortunio: ecco chi prende il suo posto",
-   "summary": "Niente nazionale per Federico Dimarco: problema fisico per l'esterno dell'Inter che salterà le gare di Nations League. Le sue condizioni.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/dimarco-lascia-nazionale-infortunio-ecco-chi-prende-il-suo-posto/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
-   "date": "2026-09-21T18:45:59+00:00"
   }
  ],
  "marketDifficulty": {
