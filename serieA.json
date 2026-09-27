@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-27T18:30:54+00:00",
+ "generatedAt": "2026-09-27T22:01:10+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -36530,7 +36530,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.3,
-   "playProbability": 0.529,
+   "playProbability": 0.285,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -36551,7 +36551,7 @@
     "q90": 7.24
    },
    "learnedVote": 6.42,
-   "learnedPlayProbability": 0.529,
+   "learnedPlayProbability": 0.285,
    "learnedEvents": {
     "gf": 0.0262,
     "rf": 0.0036,
@@ -36583,8 +36583,8 @@
    },
    "quotazione": 7.0,
    "fvm": 15.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -38786,7 +38786,7 @@
    "appearances": 0,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.28,
-   "playProbability": 0.432,
+   "playProbability": 0.913,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -38807,7 +38807,7 @@
     "q90": 7.18
    },
    "learnedVote": 6.38,
-   "learnedPlayProbability": 0.432,
+   "learnedPlayProbability": 0.913,
    "learnedEvents": {
     "gf": 0.0262,
     "rf": 0.0036,
@@ -38839,8 +38839,8 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -43969,22 +43969,6 @@
     {
      "opzioni": [
       {
-       "player_id": "4236",
-       "giocatore": "Muric",
-       "titolarita_pct": 55,
-       "ruolo": "P"
-      },
-      {
-       "player_id": "4867",
-       "giocatore": "Turati",
-       "titolarita_pct": 45,
-       "ruolo": "P"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "5844",
        "giocatore": "Thorstvedt",
        "titolarita_pct": 51,
@@ -44200,6 +44184,60 @@
  ],
  "news": [
   {
+   "title": "Nazionali, Isaksen e Ramos decisivi! Hojlund, Bisseck, Schmid, Pavlovic, Conceicao e si vede anche Zhegrova...",
+   "summary": "Tutti i giocatori della Serie A scesi in campo con le nazionali in Nations League, tre di loro sono riusciti a segnare.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/nazionali-ramos-isaksen-hojlund-bisseck-pavlovic-conceicao-zhegrova-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2297064756-44533c998ced-e1790539372668.jpg",
+   "date": "2026-09-27T21:00:17+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Conceicao, Hojlund, Gabbia, Bernabe, Politano, Lang, Pellegrini, Liberali, Meichtry e segna Ramos",
+   "summary": "Serie A ferma per la sosta nazionali, ma dai campi arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: tutte le novità di giornata.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/dai-campi-conceicao-hojlund-gabbia-bernabe-politano-lang-pellegrini-liberali-meichtry-segna-ramos-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2246450318-75b1dd3563f2-e1790542551443.jpg",
+   "date": "2026-09-27T20:55:52+00:00"
+  },
+  {
+   "title": "BREAKING - Stop per Muric in nazionale, cosa è successo e le sue condizioni",
+   "summary": "Infortunio per Muric con il Kosovo, il portiere del Sassuolo è stato sostituito per un problema fisico.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/muric-nazionale-sassuolo-infortunio-condizioni-fantacalcio/",
+   "image": "https://static.sosfanta.com/202606/9f038d5c6c8c8aedcad0dd66c4945d06-scaled-e1780312508879.jpeg",
+   "date": "2026-09-27T20:45:04+00:00"
+  },
+  {
+   "title": "Mancini: \"Ho escluso 10 giocatori per questo motivo! Kean, Pio Esposito, Scamacca e le critiche a Romano...\"",
+   "summary": "Le parole di Roberto Mancini alla vigilia di Turchia-Italia, gara valida per la seconda giornata di Nations League.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/mancini-conferenza-italia-turchia-kean-pio-esposito-scamacca-romano-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-1498474959-8a453ed08e35-e1790507650697.jpeg",
+   "date": "2026-09-27T20:30:40+00:00"
+  },
+  {
+   "title": "Genoa, infortunio in nazionale per Meichtry: cosa filtra sulle sue condizioni e sulla speranza del club",
+   "summary": "Già finita la parentesi in nazionale per Ethan Meichtry: il calciatore del Genoa è stato infatti costretto a tornare a casa per un risentimento muscolare.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/meichtry-genoa-inforunio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293033064-f501c5869f2c-e1790413269479.jpeg",
+   "date": "2026-09-27T20:00:03+00:00"
+  },
+  {
+   "title": "Gazzetta - Ecco perché dopo la sosta Liberali potrà avere più spazio nel Como di Fabregas",
+   "summary": "Mattia Liberali cerca spazio nel Como e alla ripresa dalla sosta probabilmente lo troverà. Lo spiega oggi La Gazzetta dello Sport.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/liberali-como-fabregas-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2288200468-0b2c1a07a555-e1785359467464.jpg",
+   "date": "2026-09-27T19:00:21+00:00"
+  },
+  {
    "title": "Fiorentina, Pedro Goncalves: \"Sul ruolo voglio essere chiaro! Lavoro come un matto, ecco come sto fisicamente\"",
    "summary": "Pedro Goncalves ha parlato dell'inizio con la Fiorentina, di ciò che gli chiede Vanoli e del ruolo in campo.",
    "author": "Andrea Ajello",
@@ -44209,15 +44247,6 @@
    "date": "2026-09-27T18:30:46+00:00"
   },
   {
-   "title": "BREAKING - Stop per Muric in nazionale, cosa è successo e le sue condizioni",
-   "summary": "Infortunio per Muric con il Kosovo, il portiere del Sassuolo è stato sostituito per un problema fisico.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/muric-nazionale-sassuolo-infortunio-condizioni-fantacalcio/",
-   "image": "https://static.sosfanta.com/202606/9f038d5c6c8c8aedcad0dd66c4945d06-scaled-e1780312508879.jpeg",
-   "date": "2026-09-27T18:10:04+00:00"
-  },
-  {
    "title": "Parma, Bernabé resta in dubbio: cosa filtra sul suo rientro contro l'Inter dopo la sosta",
    "summary": "Weekend di riposo in casa Parma, con la squadra che si ritroverà in settimana. L'obiettivo è recuperare per l'Inter Adrian Bernabè.",
    "author": "Daniele Najjar",
@@ -44225,15 +44254,6 @@
    "url": "https://www.sosfanta.com/news/bernabe-parma-inter-quando-torna/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2290478615-826c319dc913-e1790412152862.jpeg",
    "date": "2026-09-27T18:00:41+00:00"
-  },
-  {
-   "title": "Mancini: \"Ho escluso 10 giocatori per questo motivo! Kean, Pio Esposito, Scamacca e le critiche a Romano...\"",
-   "summary": "Le parole di Roberto Mancini alla vigilia di Turchia-Italia, gara valida per la seconda giornata di Nations League.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/mancini-conferenza-italia-turchia-kean-pio-esposito-scamacca-romano-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-1498474959-8a453ed08e35-e1790507650697.jpeg",
-   "date": "2026-09-27T17:45:40+00:00"
   },
   {
    "title": "Lecce, ancora lavoro personalizzato per Berisha e Geubbels. Tutti gli assenti per le nazionali",
@@ -44522,42 +44542,6 @@
    "url": "https://www.sosfanta.com/video/mckennie-scatenato-alloktoberfest-guarda-come-canta-il-giocatore-della-juve/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291826944-d568876f5219-e1787900785378.jpg",
    "date": "2026-09-26T19:42:04+00:00"
-  },
-  {
-   "title": "Alajbegovic: \"L'offerta della Juve? Ho reagito così! Spalletti è un top, sullo Scudetto dico...\"",
-   "summary": "Kerim Alajbegovic ha parlato a Sport Mediaset raccontando dell'offerta estiva della Juve. Le sue dichiarazioni anche su Spalletti e Scudetto.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/alajbegovic-offerta-juve-spalletti-scudetto/",
-   "image": "https://static.sosfanta.com/2026/09/Alajbegovic-ddcc7c056973-e1788715867635.jpg",
-   "date": "2026-09-26T19:30:51+00:00"
-  },
-  {
-   "title": "Dt Bologna: \"Perché via Tedesco! La verità su Rowe, Dovbyk, Piccoli, Raimondo e il rinnovo di Bernardeschi...\"",
-   "summary": "Il direttore tecnico del Bologna, Giovanni Sartori, ha rilasciato una intervista a La Gazzetta dello Sport nel corso della quale ha parlato anche del proprio...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/bologna-sartori-bernardeschi-rinnovo-skorupski-dovbyk-tedesco-piccoli-rowe-raimondo/",
-   "image": "https://static.sosfanta.com/2026/09/WhatsApp-Image-2026-09-26-at-08.46.39-0d5d5b5c2956-e1790405506484.jpeg",
-   "date": "2026-09-26T19:15:01+00:00"
-  },
-  {
-   "title": "Udinese, Davis ai box e si ferma anche Gueye: il motivo dello stop e verso la ripresa…",
-   "summary": "Nicolò Zaniolo in serata ha lasciato il ritiro della Nazionale italiana, ma si è fermato anche Idrissa Gueye in amichevole.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/udinese-davis-box-stop-gueye-motivo-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/202605/814425e2c79f040ceb9673883502a276.png",
-   "date": "2026-09-26T19:00:54+00:00"
-  },
-  {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: le novità e dopo la sosta giocheranno così",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: oggi giocherebbero così, aspettando la fine del mercato.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
-   "date": "2026-09-26T18:30:46+00:00"
   }
  ],
  "marketDifficulty": {
