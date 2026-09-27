@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-26T22:56:58+00:00",
+ "generatedAt": "2026-09-27T08:21:39+00:00",
  "season": "2026-27",
  "gameweek": 6,
- "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -26400,7 +26400,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.08,
-   "playProbability": 0.393,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0208,
     "rf": 0.0002,
@@ -26421,7 +26421,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.393,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0565,
     "rf": 0.0051,
@@ -26453,9 +26453,9 @@
    },
    "quotazione": 6.0,
    "fvm": 13.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 45.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -43844,7 +43844,7 @@
       {
        "player_id": "5678",
        "giocatore": "Holm",
-       "titolarita_pct": 45,
+       "titolarita_pct": 5,
        "ruolo": "D"
       }
      ]
@@ -44200,13 +44200,58 @@
  ],
  "news": [
   {
+   "title": "Zaniolo, ecco il motivo del rientro a Udine: le sue condizioni verso la ripresa contro il Torino",
+   "summary": "Si è fermato ancora Nicolò Zaniolo, che ieri ha lasciato il ritiro della Nazionale per fare rientro ad Udine. Ecco cosa filtra sulle sue condizioni.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/zaniolo-ecco-il-motivo-del-rientro-a-udine-le-sue-condizioni-verso-la-ripresa-contro-il-torino/",
+   "image": "https://static.sosfanta.com/2026/08/zaniolo-edb89cac8020-e1787649108684.jpeg",
+   "date": "2026-09-27T08:00:19+00:00"
+  },
+  {
+   "title": "UFFICIALE - Nazionale, in 10 non partono per la Turchia: da Barella a Maldini e Mancini, ecco l'elenco",
+   "summary": "Il Ct Roberto Mancini ha deciso di organizzare un programma di allenamento specifico presso il Centro Tecnico Federale di Coverciano: ecco chi non parte.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/ufficiale-nazionale-10-non-partono-turchia-barella-maldini-mancini-elenco/",
+   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-27-09-17-14-a5cc79809ba0-e1790493450478.jpg",
+   "date": "2026-09-27T07:15:28+00:00"
+  },
+  {
+   "title": "Calò, la scommessa è già vincente: la sua gestione al fantacalcio e cosa fare negli scambi",
+   "summary": "Buoni voti, l'assist e ora anche il gol contro il Como che porta il primo +3 per Giacomo Calò. Il centrocampista è stato la scommessa di molti",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/calo-frosinone-fantacalcio-scambi/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2296228751-a7a7c786ba2e-e1790111842885.jpeg",
+   "date": "2026-09-27T07:00:23+00:00"
+  },
+  {
+   "title": "BREAKING - Bologna, tegola Holm: infortunio con la Svezia e fuori in barella! Le sue condizioni e cosa filtra",
+   "summary": "Tegola in casa Bologna: si è infortunato anche Emil Holm, uscito in lacrime e in barella durante la sfida tra Svezia e Romania di Nations League.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/breaking-bologna-tegola-holm-infortunio-condizioni-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/image-5-e5da664cabdf-e1790489214109.jpg",
+   "date": "2026-09-27T06:45:52+00:00"
+  },
+  {
    "title": "ULTIM'ORA - Zaniolo lascia il ritiro della Nazionale! L'Udinese rivaluterà le sue condizioni nelle prossime ore",
    "summary": "Nicolò Zaniolo, neanche convocato per il match di ieri contro il Belgio, lascia il ritiro della Nazionale.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/udinese/zaniolo-lascia-ritiro-nazionale-udinese-rivalutera-condizioni-esami-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291678397-b24e946dc599.jpg",
-   "date": "2026-09-26T21:45:29+00:00"
+   "date": "2026-09-27T06:30:29+00:00"
+  },
+  {
+   "title": "“Se il Napoli ti richiama per gennaio?”: la risposta del Cholito Simeone sul suo futuro",
+   "summary": "Il Cholito Simeone ha risposto così a una domanda sul suo futuro durante un evento a Napoli. Le sue dichiarazioni in chiave mercato.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/napoli-richiama-gennaio-risposta-simeone/",
+   "image": "https://static.sosfanta.com/202602/02f936b09b8b90b7979fabd336c13ccd-e1772131891519.jpeg",
+   "date": "2026-09-27T06:00:43+00:00"
   },
   {
    "title": "FLASH - Lazio, Gudmundsson costretto al cambio nel primo tempo con la sua nazionale: cos'è successo",
@@ -44513,51 +44558,6 @@
    "url": "https://www.sosfanta.com/news/alajbegovic-krstovic-osmajic-zielinski-nazionali-chi-ha-segnato-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291730220-a339e054cbcf-scaled-e1787520083954.jpg",
    "date": "2026-09-25T21:00:44+00:00"
-  },
-  {
-   "title": "BREAKING - Serie A, gli orari ufficiali dalla 13a alla 19a giornata: Inter-Juve e non solo, il calendario completo",
-   "summary": "La Lega Serie A ha pubblicato oggi gli orari ufficiali del campionato dalla 6a alla 12a giornata: ecco tutte le partite in programma.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/serie-a-anticipi-posticipi-orari-ufficiali-inter-juventus-calendario/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295197901-8cba831507cc-e1789907767381.jpeg",
-   "date": "2026-09-25T20:45:28+00:00"
-  },
-  {
-   "title": "FLASH - Ecco quando e dove si giocherà la Supercoppa Italiana tra Inter e Lazio! Per il fanta…",
-   "summary": "Sono state definite la sede e la data dell'edizione 2026 della Supercoppa italiana che vedrà di fronte l'Inter campione d'Italia e la Lazio, finalista perden...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/flash-ecco-quando-e-dove-si-giochera-la-supercoppa-italiana-tra-inter-e-lazio-per-il-fanta/",
-   "image": "https://static.sosfanta.com/2026/09/Lautaro-2736d9d98e96-e1789840442735.jpg",
-   "date": "2026-09-25T20:15:05+00:00"
-  },
-  {
-   "title": "Serie A, cambia la data del mercato invernale: inizierà prima del solito, ecco quando",
-   "summary": "Il mercato invernale in Serie A si aprirà anticipatamente rispetto al solito: tutti i dettagli.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/serie-a-mercato-invernale-data-inizio-quando-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2227387239-64a8b0830fae-e1783929430887.jpg",
-   "date": "2026-09-25T20:00:59+00:00"
-  },
-  {
-   "title": "Chi prendo tra: da Jones a Beto, Zaccagni, Thuram, Ramos, Zaniolo e Vlasic, sette risposte sugli scambi",
-   "summary": "Tra scambi e asta, sono ore caldissime nelle leghe al fantacalcio anche in questi giorni di sosta. Queste sono solo alcune domande arrivate a SOS Consiglia.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/chi-prendo-jones-beto-zaccagni-thuram-ramos-zaniolo-vlasic-sette-risposte-scambi/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295751638-4cf060279990-e1790066602524.jpg",
-   "date": "2026-09-25T19:45:34+00:00"
-  },
-  {
-   "title": "Inter, arriva il momento di Provedel: ecco quando può debuttare e la gestione di Chivu fra lui e J. Martinez",
-   "summary": "Sta per arrivare il momento di Ivan Provedel in casa Inter: come sottolinea il Corriere dello Sport, \"contro il Parma potrebbe effettivamente debuttare\".",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-debutto-provedel-martinez-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/07/Provedel-6a43926f212e.jpeg",
-   "date": "2026-09-25T19:00:01+00:00"
   }
  ],
  "marketDifficulty": {
