@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-09-28T16:44:32+00:00",
+ "scraped_at_utc": "2026-09-28T20:36:49+00:00",
  "giornata": "2026-10-11T15:00:00.000Z",
  "partite": [
   {
@@ -988,8 +988,8 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Cancellieri",
-      "titolarita_pct": 51
+      "giocatore": "Isaksen",
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Noslin",
@@ -1002,16 +1002,16 @@
     ],
     "panchina": [
      {
-      "giocatore": "Isaksen",
-      "titolarita_pct": 49
-     },
-     {
       "giocatore": "Pinamonti",
       "titolarita_pct": 49
      },
      {
       "giocatore": "Doekhi",
       "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Cancellieri",
+      "titolarita_pct": 45
      },
      {
       "giocatore": "Motta",
@@ -1031,10 +1031,6 @@
      },
      {
       "giocatore": "Pedraza",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Cataldi",
       "titolarita_pct": 5
      }
     ],
@@ -1066,12 +1062,12 @@
      {
       "opzioni": [
        {
-        "giocatore": "Cancellieri",
-        "titolarita_pct": 51
+        "giocatore": "Isaksen",
+        "titolarita_pct": 55
        },
        {
-        "giocatore": "Isaksen",
-        "titolarita_pct": 49
+        "giocatore": "Cancellieri",
+        "titolarita_pct": 45
        }
       ]
      },
@@ -1090,16 +1086,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Marusic",
-      "stato": "infortunato",
-      "nota": "Stiramento ai flessori, in dubbio per la 6a."
-     },
-     {
-      "giocatore": "Dele-Bashiru",
-      "stato": "infortunato",
-      "nota": "Lesione di primo grado al flessore della coscia destra, in dubbio per la 6a."
-     },
-     {
       "giocatore": "Pellegrini Lu.",
       "stato": "indisponibile"
      },
@@ -1112,6 +1098,11 @@
       "giocatore": "Przyborek",
       "stato": "infortunato",
       "nota": "Problema all'adduttore, in dubbio per la 6a."
+     },
+     {
+      "giocatore": "Cataldi",
+      "stato": "infortunato",
+      "nota": "Problema al quadricipite, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
@@ -1422,7 +1413,7 @@
      {
       "giocatore": "Hien",
       "stato": "infortunato",
-      "nota": "Fuori per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in dubbio per la 6a."
+      "nota": "Fuori per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in dubbio per la 7a."
      },
      {
       "giocatore": "Sulemana K.",
@@ -1623,7 +1614,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Deiola",
+      "giocatore": "Adopo",
       "titolarita_pct": 95
      },
      {
@@ -1635,8 +1626,8 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Adopo",
-      "titolarita_pct": 95
+      "giocatore": "Fazzini",
+      "titolarita_pct": 60
      },
      {
       "giocatore": "Maldini",
@@ -1648,6 +1639,10 @@
      }
     ],
     "panchina": [
+     {
+      "giocatore": "Fadera",
+      "titolarita_pct": 40
+     },
      {
       "giocatore": "Radunovic",
       "titolarita_pct": 5
@@ -1673,14 +1668,6 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Fadera",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Fazzini",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Gagliardini",
       "titolarita_pct": 5
      },
@@ -1697,12 +1684,25 @@
       "titolarita_pct": 5
      }
     ],
-    "ballottaggi": [],
+    "ballottaggi": [
+     {
+      "opzioni": [
+       {
+        "giocatore": "Fazzini",
+        "titolarita_pct": 60
+       },
+       {
+        "giocatore": "Fadera",
+        "titolarita_pct": 40
+       }
+      ]
+     }
+    ],
     "indisponibili": [
      {
       "giocatore": "Idrissi R.",
       "stato": "infortunato",
-      "nota": "Intervento chirurgico di ricostruzione del legamento crociato anteriore del ginocchio sinistro, in dubbio per la 6a."
+      "nota": "Intervento chirurgico di ricostruzione del legamento crociato anteriore del ginocchio sinistro, in dubbio per la 7a."
      },
      {
       "giocatore": "Trepy",
@@ -1717,6 +1717,11 @@
       "giocatore": "Nzola",
       "stato": "infortunato",
       "nota": "Ritardo di condizione, in dubbio per la 6a."
+     },
+     {
+      "giocatore": "Deiola",
+      "stato": "infortunato",
+      "nota": "Operazione di meniscectomia esterna artroscopica selettiva, in dubbio per la 12a."
      }
     ],
     "ufficiale": false
@@ -2049,7 +2054,7 @@
      },
      {
       "giocatore": "Zortea",
-      "titolarita_pct": 55
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Pobega",
@@ -2150,18 +2155,6 @@
      {
       "opzioni": [
        {
-        "giocatore": "Zortea",
-        "titolarita_pct": 55
-       },
-       {
-        "giocatore": "Holm",
-        "titolarita_pct": 5
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
         "giocatore": "Pobega",
         "titolarita_pct": 55
        },
@@ -2187,7 +2180,8 @@
     "indisponibili": [
      {
       "giocatore": "Holm",
-      "stato": "infortunato"
+      "stato": "infortunato",
+      "nota": "Si opererà al bicipite femorale destro, tempi di recupero da definire."
      },
      {
       "giocatore": "Odgaard",
@@ -2436,6 +2430,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Terzic",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "El Azzouzi A.",
       "titolarita_pct": 5
      },
@@ -2511,11 +2509,6 @@
       "giocatore": "Grillitsch",
       "stato": "infortunato",
       "nota": "Intervento chirurgico per il trattamento di Sports Hernia destra, in dubbio per la 9a."
-     },
-     {
-      "giocatore": "Terzic",
-      "stato": "infortunato",
-      "nota": "Lesione di basso grado del bicipite femorale della coscia sinistra, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
@@ -3060,7 +3053,7 @@
      },
      {
       "giocatore": "Davis K.",
-      "titolarita_pct": 60
+      "titolarita_pct": 70
      }
     ],
     "panchina": [
@@ -3069,12 +3062,12 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Gueye",
+      "giocatore": "Alaba",
       "titolarita_pct": 40
      },
      {
-      "giocatore": "Alaba",
-      "titolarita_pct": 40
+      "giocatore": "Bayo V.",
+      "titolarita_pct": 30
      },
      {
       "giocatore": "Mrozek",
@@ -3111,10 +3104,6 @@
      {
       "giocatore": "Zarraga",
       "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Bayo V.",
-      "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
@@ -3146,11 +3135,11 @@
       "opzioni": [
        {
         "giocatore": "Davis K.",
-        "titolarita_pct": 60
+        "titolarita_pct": 70
        },
        {
-        "giocatore": "Gueye",
-        "titolarita_pct": 40
+        "giocatore": "Bayo V.",
+        "titolarita_pct": 30
        }
       ]
      }
@@ -3165,6 +3154,11 @@
       "giocatore": "Piotrowski",
       "stato": "infortunato",
       "nota": "Lieve aritmia cardiaca benigna ed è necessario un intervento di ablazione cardiaca, in dubbio per la 6a."
+     },
+     {
+      "giocatore": "Gueye",
+      "stato": "infortunato",
+      "nota": "Distorsione alla caviglia, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
