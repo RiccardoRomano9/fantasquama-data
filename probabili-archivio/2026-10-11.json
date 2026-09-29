@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-09-29T14:50:29+00:00",
+ "scraped_at_utc": "2026-09-29T20:59:43+00:00",
  "giornata": "2026-10-11T15:00:00.000Z",
  "partite": [
   {
@@ -473,7 +473,7 @@
      {
       "giocatore": "Meichtry",
       "stato": "infortunato",
-      "nota": "Risentimento muscolare, in dubbio per la 6a."
+      "nota": "Distrazione della muscolatura di un’anca, in dubbio per la 7a."
      }
     ],
     "ufficiale": false
@@ -1322,12 +1322,12 @@
       "titolarita_pct": 45
      },
      {
-      "giocatore": "Raspadori",
-      "titolarita_pct": 40
-     },
-     {
       "giocatore": "Kolasinac",
       "titolarita_pct": 45
+     },
+     {
+      "giocatore": "Elmas",
+      "titolarita_pct": 40
      },
      {
       "giocatore": "Pompei",
@@ -1335,10 +1335,6 @@
      },
      {
       "giocatore": "Sportiello",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Elmas",
       "titolarita_pct": 5
      },
      {
@@ -1398,7 +1394,7 @@
         "titolarita_pct": 60
        },
        {
-        "giocatore": "Raspadori",
+        "giocatore": "Elmas",
         "titolarita_pct": 40
        }
       ]
@@ -1866,11 +1862,6 @@
       "nota": "Lesione di medio grado del bicipite femorale, in dubbio per la 6a."
      },
      {
-      "giocatore": "Cambiaso",
-      "stato": "infortunato",
-      "nota": "Distorsione alla caviglia destra, in dubbio per la 6a."
-     },
-     {
       "giocatore": "Grabara",
       "stato": "infortunato",
       "nota": "Lesione del legamento crociato anteriore del ginocchio destro, in dubbio per la 30a."
@@ -2301,11 +2292,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Giovane",
-      "stato": "infortunato",
-      "nota": "Intervento di correzione per ernia inguinale, in dubbio per la 6a."
-     },
-     {
       "giocatore": "Buongiorno",
       "stato": "infortunato",
       "nota": "Intervento chirurgico di riparazione della radice del menisco mediale del ginocchio destro, in dubbio per la 12a."
@@ -2334,6 +2320,11 @@
       "giocatore": "Spinazzola",
       "stato": "infortunato",
       "nota": "Lieve contrattura al bicipite femorale della coscia destra, in dubbio per la 6a."
+     },
+     {
+      "giocatore": "Giovane",
+      "stato": "infortunato",
+      "nota": "Intervento di correzione per ernia inguinale, in dubbio per la 6a."
      }
     ],
     "ufficiale": false
@@ -2384,7 +2375,7 @@
      },
      {
       "giocatore": "Bobcek",
-      "titolarita_pct": 95
+      "titolarita_pct": 60
      }
     ],
     "panchina": [
@@ -2394,6 +2385,10 @@
      },
      {
       "giocatore": "Cichella",
+      "titolarita_pct": 40
+     },
+     {
+      "giocatore": "Birligea",
       "titolarita_pct": 40
      },
      {
@@ -2439,10 +2434,6 @@
      {
       "giocatore": "Zerbin",
       "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Birligea",
-      "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
@@ -2469,6 +2460,18 @@
         "titolarita_pct": 40
        }
       ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Bobcek",
+        "titolarita_pct": 60
+       },
+       {
+        "giocatore": "Birligea",
+        "titolarita_pct": 40
+       }
+      ]
      }
     ],
     "indisponibili": [
@@ -2491,7 +2494,8 @@
      },
      {
       "giocatore": "Raimondo",
-      "stato": "infortunato"
+      "stato": "infortunato",
+      "nota": "Tendinopatia inserzionale del tendine di Achille destro, in dubbio per la 7a."
      }
     ],
     "ufficiale": false
