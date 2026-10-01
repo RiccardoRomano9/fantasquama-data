@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T15:26:16+00:00",
+ "generatedAt": "2026-10-01T21:45:36+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -33154,7 +33154,7 @@
    "appearances": 1,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.99,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0059,
     "rf": 0.0001,
@@ -33175,7 +33175,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.8,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0236,
     "rf": 0.0023,
@@ -33207,9 +33207,9 @@
    },
    "quotazione": 4.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "indisponibile",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -44217,13 +44217,148 @@
  ],
  "news": [
   {
+   "title": "Nazionali, Ramos show con il Portogallo: assist e gol! Segnano anche Cisse, Hojlund e Ramon, Woltemade...",
+   "summary": "Ramos decisivo con la nazionale, l'attaccante del Milan segna di nuovo e manda un messaggio anche in ottica Milan.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/ramos-portogallo-gol-assist-milan-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2297064756-44533c998ced-e1790539372668.jpg",
+   "date": "2026-10-01T21:00:50+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Atta in gruppo e novità Meret! Ramos, Cristante, Muric, McTominay, Alisson, Anguissa, Dovbyk...",
+   "summary": "Campionato e fantacalcio fermi per la sosta nazionali, ma dai campi arrivano importanti notizie su infortunati e non solo verso la ripresa: ecco le principali.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/campi-atta-gruppo-novita-meret-ramos-cristante-muric-mctominay-alisson-anguissa-dovbyk/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293119765-fba540435ec9-e1789135291358.jpeg",
+   "date": "2026-10-01T20:45:22+00:00"
+  },
+  {
+   "title": "Mancini: \"Kean ha problemi da tempo! Pio Esposito, Scamacca, Donnarumma e il ruolo di Tonali...\"",
+   "summary": "Roberto Mancini ha presentato la grande sfida contro la Francia, in programma domani: le dichiarazioni del commissario tecnico.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/mancini-italia-francia-kean-pio-esposito-scamacca-tonali-conferenza-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-1498474959-8a453ed08e35-e1790507650697.jpeg",
+   "date": "2026-10-01T20:15:26+00:00"
+  },
+  {
+   "title": "Zaniolo, tutta la verità sul nuovo infortunio: è una ricaduta, quando torna e la gestione tra fanta e scambi",
+   "summary": "Zaniolo alle prese con un nuovo infortunio: cosa filtra sul suo ritorno in campo e come gestirlo al fantacalcio.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/zaniolo-infortunio-verita-quando-torna-gestione-asta-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291678023-bf5bf81bca76-e1789806709858.jpg",
+   "date": "2026-10-01T20:00:10+00:00"
+  },
+  {
+   "title": "Carnevali: \"Alajbegovic poteva finire come Palestra-Inter! Yildiz, Thuram e le voci sul ritorno di Conte...”",
+   "summary": "Giovanni Carnevali, ad della Juventus, ha parlato al Festival dello Sport di Trento: di seguito tutte le sue dichiarazioni.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/carnevali-juventus-festival-sport-parole-alajbegovic-conte-spalletti-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295107564-49e887853af5-e1790104856915.jpeg",
+   "date": "2026-10-01T19:45:13+00:00"
+  },
+  {
    "title": "ULTIM'ORA - Inter, Calhanoglu e Dimarco parzialmente in gruppo: cosa filtra per il Parma! E Stones...",
    "summary": "Novità importanti dall'allenamento di oggi dell'Inter ad Appiano Gentile: le ultime su Federico Dimarco e Hakan Calhanoglu.",
    "author": "Marco Astori",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/inter/ultimora-inter-calhanoglu-dimarco-parzialmente-gruppo-stones/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2244040097-dfe10eb63244-e1790862800723.jpg",
-   "date": "2026-10-01T15:10:59+00:00"
+   "date": "2026-10-01T19:15:59+00:00"
+  },
+  {
+   "title": "Juve, i tempi di recupero di tutti gli infortunati: da Cabal, Boga ed Ekhator a Yildiz, Thuram e Locatelli",
+   "summary": "Tutti i tempi di recupero dei giocatori in infermeria nella Juventus di Luciano Spalletti: ecco quando torneranno a disposizione.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-tutti-tempi-di-recupero-infortunati-cabal-boga-ekhator-yildiz-thuram-locatelli/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292122175-23d3dff2d3f0-e1788890174321.jpg",
+   "date": "2026-10-01T19:00:31+00:00"
+  },
+  {
+   "title": "HERE WE GO - Matteo Darmian torna al fantacalcio, è fatta con questo club di Serie A: i dettagli dell'accordo",
+   "summary": "Matteo Darmian torna in Serie A e al fantacalcio: ecco l'annuncio di Fabrizio Romano sul difensore ex Inter.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/here-we-go-matteo-darmian-al-fantacalcio-e-fatta-con-questo-club-di-serie-a-i-dettagli-dellaccordo/",
+   "image": "https://static.sosfanta.com/2026/10/Darmian-0a9286d3837e-e1790858857500.jpg",
+   "date": "2026-10-01T18:45:16+00:00"
+  },
+  {
+   "title": "Bologna, Odgaard a parte mentre Bernardeschi e Dovbyk fanno un lavoro ad hoc: cosa filtra per la ripresa",
+   "summary": "Ripreso ieri il lavoro in casa Bologna verso la ripresa del campionato a Lecce: le novità dal campo su Odgaard, Bernardeschi e Dovbyk.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/bologna-odgaard-a-parte-mentre-bernardeschi-e-dovbyk-fanno-un-lavoro-ad-hoc-cosa-filtra-per-la-ripresa/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293383084-4a91436abdb1-e1789198296662.jpg",
+   "date": "2026-10-01T18:00:21+00:00"
+  },
+  {
+   "title": "Agresti a SOS Fanta: \"I tempi per Yildiz, Thuram e gli infortunati della Juve! Muani, Woltemade e Cambiaso…\"",
+   "summary": "Il direttore de Il Bianconero, Romeo Agresti, fa il punto della situazione in casa Juve, a partire dagli infortunati Kenan Yildiz, Khephren Thuram, Jeremie B...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juve-infortunio-ekhator-yildiz-thuram-boga-quando-torna-fantacalcio-woltemade-kolo-muani/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800656-cc98c67e17e4-e1790693608532.jpeg",
+   "date": "2026-10-01T17:45:40+00:00"
+  },
+  {
+   "title": "Napoli, Meret: \"Ecco quando rientro dall'infortunio! La mancata convocazione in Nazionale...\"",
+   "summary": "Il Napoli ritroverà presto il suo portiere dopo l’infortunio, ecco le parole di Meret che fanno sperare in vista del rientro.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/meret-napoli-infortunio-ecco-quando-rientro-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293976158-76833c254ddc-e1788983086895.jpeg",
+   "date": "2026-10-01T17:30:51+00:00"
+  },
+  {
+   "title": "Raspadori, ecco i tempi di recupero dopo gli esami di ieri: quali gare salterà con l'Atalanta",
+   "summary": "Circa 15 giorni di stop per Giacomo Raspadori: questi i tempi di recupero che risultano al Corriere di Bergamo dopo l'infortunio in Nazionale.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/raspadori-tempi-recupero-dopo-esami/",
+   "image": "https://static.sosfanta.com/202601/97e379dba0c469de3cd82dd00e099644-e1768920801566.jpeg",
+   "date": "2026-10-01T17:00:32+00:00"
+  },
+  {
+   "title": "BREAKING - Bologna, Holm si è operato: il comunicato del club e i lunghi tempi di recupero",
+   "summary": "Questa mattina Emil Holm è stato sottoposto a intervento chirurgico di sutura del tendine degli hamstring della coscia destra.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/breaking-bologna-holm-operato-comunicato-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2244692701-18fc1ede73e2-e1790850069789.jpg",
+   "date": "2026-10-01T16:45:24+00:00"
+  },
+  {
+   "title": "Bisseck: \"Il nostro obiettivo stagionale è vincere la Champions! L'inter, Chivu, Klopp, e quando volevo mollare…”",
+   "summary": "Bisseck ha parlato durante il Festival dello Sport raccontando la chiamata di Klopp, il lavoro di Chivu e molto altro.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/bisseck-inter-obiettivo-vincere-la-champions-chivu-klopp-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/Bisseck-e063a6c2f1a4-e1789842902711.jpeg",
+   "date": "2026-10-01T16:30:18+00:00"
+  },
+  {
+   "title": "Napoli, tutto sui sette infortunati: da Giovane in parte col gruppo a McTominay, Anguissa, Alisson e Meret",
+   "summary": "Aggiornamenti importanti dall'allenamento odierno del Napoli: ecco le ultime sui sette infortunati della squadra di Allegri.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/napoli-tutto-sui-sette-infortunati-da-giovane-in-parte-col-gruppo-a-mctominay-anguissa-alisson-e-meret/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290862442-f6af125d34f1-e1788437520566.jpeg",
+   "date": "2026-10-01T16:00:16+00:00"
+  },
+  {
+   "title": "A tutto Pulisic: \"Ora sono al 100%! Ramos e i gol, Modric, Amorim e rispondo così su rinnovo e futuro\"",
+   "summary": "Christian Pulisic ha parlato in esclusiva a Sky Sport del suo momento e non solo: così il giocatore del Milan verso la ripresa.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/a-tutto-pulisic-ora-sono-al-100-ramos-e-i-gol-modric-amorim-e-rispondo-cosi-sul-mio-contratto-e-sul-futuro/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295854409-305f1f37f551-e1789724939102.jpg",
+   "date": "2026-10-01T15:30:52+00:00"
   },
   {
    "title": "Sassuolo, le ultimissime dal Kosovo sullo stop di Muric: le parole del ct e verso la ripresa...",
@@ -44233,15 +44368,6 @@
    "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-ultimissime-kosovo-stop-muric-parole-ct-cosa-filtra-ripresa/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2291799868-cc6f1df0bbfa-e1790585391765.jpeg",
    "date": "2026-10-01T15:00:17+00:00"
-  },
-  {
-   "title": "HERE WE GO - Matteo Darmian torna al fantacalcio, è fatta con questo club di Serie A: i dettagli dell'accordo",
-   "summary": "Matteo Darmian torna in Serie A e al fantacalcio: ecco l'annuncio di Fabrizio Romano sul difensore ex Inter.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/here-we-go-matteo-darmian-al-fantacalcio-e-fatta-con-questo-club-di-serie-a-i-dettagli-dellaccordo/",
-   "image": "https://static.sosfanta.com/2026/10/Darmian-0a9286d3837e-e1790858857500.jpg",
-   "date": "2026-10-01T14:45:16+00:00"
   },
   {
    "title": "Roma, problema al ginocchio per Cristante: le sue condizioni e cosa filtra verso il Como. Malen e Wesley...",
@@ -44262,15 +44388,6 @@
    "date": "2026-10-01T14:30:45+00:00"
   },
   {
-   "title": "Agresti a SOS Fanta: \"I tempi per Yildiz, Thuram e gli infortunati della Juve! Muani, Woltemade e Cambiaso…\"",
-   "summary": "Il direttore de Il Bianconero, Romeo Agresti, fa il punto della situazione in casa Juve, a partire dagli infortunati Kenan Yildiz, Khephren Thuram, Jeremie B...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juve-infortunio-ekhator-yildiz-thuram-boga-quando-torna-fantacalcio-woltemade-kolo-muani/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800656-cc98c67e17e4-e1790693608532.jpeg",
-   "date": "2026-10-01T14:15:40+00:00"
-  },
-  {
    "title": "Lite in piena notte all'asta del fantacalcio, arrivano i Carabinieri: ecco cos'è successo vicino a Genova",
    "summary": "Sant’Olcese, provincia di Genova: è ampiamente passata la mezzanotte quando arriva una chiamata ai Carabinieri per una lite a un'asta del fantacalcio.",
    "author": "Alessandro Cosattini",
@@ -44280,13 +44397,13 @@
    "date": "2026-10-01T14:00:21+00:00"
   },
   {
-   "title": "BREAKING - Bologna, Holm si è operato: il comunicato del club e i lunghi tempi di recupero",
-   "summary": "Questa mattina Emil Holm è stato sottoposto a intervento chirurgico di sutura del tendine degli hamstring della coscia destra.",
-   "author": "Marco Astori",
+   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: le novità e dopo la sosta giocheranno così",
+   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: le novità e giocheranno così dopo la sosta.",
+   "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/breaking-bologna-holm-operato-comunicato-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2244692701-18fc1ede73e2-e1790850069789.jpg",
-   "date": "2026-10-01T13:15:24+00:00"
+   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
+   "date": "2026-10-01T13:45:46+00:00"
   },
   {
    "title": "Lazio, Gudmundsson almeno un mese out dopo l'infortunio alla spalla: ma i tempi possono dilatarsi se...",
@@ -44296,15 +44413,6 @@
    "url": "https://www.sosfanta.com/news/lazio-gudmundsson-almeno-mese-out-tempi/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2293326978-6d84f3cfb84f-e1790836840347.jpg",
    "date": "2026-10-01T13:00:54+00:00"
-  },
-  {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: le novità e dopo la sosta giocheranno così",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: le novità e giocheranno così dopo la sosta.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
-   "date": "2026-10-01T12:45:46+00:00"
   },
   {
    "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 5 giornate",
@@ -44325,6 +44433,15 @@
    "date": "2026-10-01T12:00:06+00:00"
   },
   {
+   "title": "NEWS - Conceicao, Gudmundsson, Malen, Wesley, Raspadori, Dimarco, Lautaro, Paz, Davis e quando torna Bernabè",
+   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-conceicao-gudmundsson-malen-wesley-raspadori-dimarco-lautaro-paz-davis-quando-torna-bernabe/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2290478621-208b0c657ea9-e1790835207118.jpg",
+   "date": "2026-10-01T11:45:20+00:00"
+  },
+  {
    "title": "Roma, cosa filtra sulla presenza di Malen e Wesley dal 1' contro il Como: le novità da Trigoria",
    "summary": "Stesso discorso per Wesley: secondo Il Messaggero non ci sono dubbi sulla presenza dal 1' del brasiliano contro la squadra di Fabregas.",
    "author": "Marco Astori",
@@ -44332,15 +44449,6 @@
    "url": "https://www.sosfanta.com/news/roma-cosa-filtra-presenza-malen-wesley-como/",
    "image": "https://static.sosfanta.com/202604/7499409bff4f6a0f700f9bb0c7812f7a-e1776665810468.jpg",
    "date": "2026-10-01T11:00:33+00:00"
-  },
-  {
-   "title": "NEWS - Conceicao, Gudmundsson, Malen, Wesley, Raspadori, Dimarco, Lautaro, Paz, Davis e quando torna Bernabè",
-   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-conceicao-gudmundsson-malen-wesley-raspadori-dimarco-lautaro-paz-davis-quando-torna-bernabe/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2290478621-208b0c657ea9-e1790835207118.jpg",
-   "date": "2026-10-01T10:45:20+00:00"
   },
   {
    "title": "McTominay tra nuova idoneità sportiva, anticoagulanti e il protocollo: cosa filtra sui tempi per il rientro",
@@ -44467,114 +44575,6 @@
    "url": "https://www.sosfanta.com/squadra/roma/kone-roma-sono-successe-delle-cose-in-estate-francia-ruolo-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Kone-a410696c6a3d-e1789119313282.jpg",
    "date": "2026-09-30T20:00:42+00:00"
-  },
-  {
-   "title": "Pellegrino: \"Voglio fare meglio di Kean! Gli assist di Mastantuono, Beto e quello che non si sa su Grosso...\"",
-   "summary": "L'attaccante della Fiorentina, Mateo Pellegrino, ha parlato ai microfoni di Sky del proprio impatto con il mondo viola e della concorrenza con Beto.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/pellegrino-fiorentina-beto-mastantuono/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294942253-df3f0fd0c622-e1790775814585.jpeg",
-   "date": "2026-09-30T19:45:26+00:00"
-  },
-  {
-   "title": "Tutti i rigoristi della Serie A per il fantacalcio 2026-27: squadra per squadra, le gerarchie aggiornate",
-   "summary": "Siamo in piena sosta per le nazionali, ecco tutte le gerarchie della Serie A 2026-27 per i rigoristi in chiave fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/fantacalcio-asta-tutti-rigoristi-seriea-venti-squadre-campionato/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295968458-bdcde6c88e4e-e1789762732371.jpg",
-   "date": "2026-09-30T19:30:22+00:00"
-  },
-  {
-   "title": "Si possono prendere ora: ecco otto nomi sottovalutati negli scambi al fantacalcio",
-   "summary": "Da Orsolini e McKennie fino a Davis e Pedro Goncalves: otto nomi sottovalutati da prendere ora tra asta e scambi al fantacalcio.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/possono-prendere-ora-otto-nomi-sottovalutati-scambi-fantacalcio-asta-occasioni-consigli/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294952400-36a22687548c-e1789562996837.jpeg",
-   "date": "2026-09-30T19:15:12+00:00"
-  },
-  {
-   "title": "Ramon: \"Un mio ritorno al Real Madrid? Rispondo con questa certezza assoluta! Quando Fabregas mi ha chiamato...\"",
-   "summary": "Jacobo Ramón parla in esclusiva alla Gazzetta dello Sport del Como in Champions League e non solo: ecco l'intervista.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/como-ramon-intervista-gazzetta-ritorno-real-madrid-fabregas/",
-   "image": "https://static.sosfanta.com/202603/5379e58ad3637de83886f9d793e703d9-e1774176089820.jpeg",
-   "date": "2026-09-30T19:00:00+00:00"
-  },
-  {
-   "title": "Ecco il nuovo Parma di Gilardino: modulo, punti fermi, rigorista, chi sale e chi scende per fantacalcio e scambi",
-   "summary": "Alberto Gilardino è ufficialmente il nuovo allenatore del Parma: ecco come cambia la squadra anche in chiave fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/parma/ecco-nuovo-parma-gilardino-modulo-punti-fermi-rigorista-chi-sale-chi-scende-fantacalcio-scambi/",
-   "image": "https://static.sosfanta.com/2026/09/Gilardino-f55353a13be5-e1790671313550.jpg",
-   "date": "2026-09-30T18:45:55+00:00"
-  },
-  {
-   "title": "Primi, secondi e terzi portieri al fantacalcio: tutte le gerarchie in porta aggiornate per la Serie A 2026-27",
-   "summary": "Siamo in piena sosta per le nazionali, ecco tutte le gerarchie in porta per la Serie A 2026-27: dal primo al terzo portiere, tutti i terzetti per il fantacal...",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/portieri/fantacalcio-asta-tutti-portieri-gerarchie-seriea-venti-squadre-campionato/",
-   "image": "https://static.sosfanta.com/2026/09/Skorupski-79a8f6d5b6f9-e1790327525443.jpg",
-   "date": "2026-09-30T18:30:58+00:00"
-  },
-  {
-   "title": "Monza, ecco Ngonge! Le gerarchie in attacco fra lui, Dany Mota, Colpani, Robinson e Varela",
-   "summary": "Buone notizie in casa Monza: c’è abbondanza nel reparto d’attacco, impreziosito negli ultimi giorni dal completo recupero di Ngonge.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/monza-ngonge-dany-mota-colpani-robinson-varela-juric/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290563648-3156905998ad-e1788618216710.jpg",
-   "date": "2026-09-30T18:00:12+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Santos",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
-   "date": "2026-09-30T17:30:42+00:00"
-  },
-  {
-   "title": "Torino, quando può rientrare Che Adams e il programma di Saul Coco dopo il ritorno dalla nazionale",
-   "summary": "Novità su Che Adams in casa del Torino: sta proseguendo il proprio lavoro differenziato per recuperare dall’infortunio muscolare che lo ha fermato prima dell...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/che-adams-torino-quando-torna-infortunio-saul-coco-fantacalcio/",
-   "image": "https://static.sosfanta.com/202606/015497543fb550415f5f72145ed0b307-scaled-e1781819161742.jpg",
-   "date": "2026-09-30T17:00:12+00:00"
-  },
-  {
-   "title": "Fiorentina, occhi su Atta: cosa filtra sulle sue condizioni dopo l'amichevole saltata",
-   "summary": "Riprendono gli allenamenti della Fiorentina, con i giocatori della prima squadra che dopo il 9-0 col Signa hanno potuto avere di due giorni di libertà.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fiorentina-atta-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/07/Atta-94ec50f0f6c1.png",
-   "date": "2026-09-30T16:00:40+00:00"
-  },
-  {
-   "title": "Cagliari, Pisacane perde Deiola ma c'è un big che lavora per tornare al top già contro la Juventus",
-   "summary": "Deiola si ferma per un mese dopo l’intervento al menisco: alla ripresa contro la Juventus, Pisacane dovrà affidarsi ad un altro elemento per trascinare la di...",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-pisacane-deiola-mina-juventus-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294920459-13a6715fa7ff-e1789242546690.jpeg",
-   "date": "2026-09-30T15:00:49+00:00"
-  },
-  {
-   "title": "Roma al lavoro: cosa filtra su De Roon e le ultime su Pellegrini, Cristante, Malen, Dybala, Wesley e Molina",
-   "summary": "Gli ultimi aggiornamenti da Trigoria, dove la Roma si è allenata agli ordini di Gian Piero Gasperini.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/roma-allenamento-de-roon-pellegrini-cristante-malen-dybala-wesley-molina/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
-   "date": "2026-09-30T14:45:47+00:00"
   }
  ],
  "marketDifficulty": {
