@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-02T12:51:44+00:00",
+ "generatedAt": "2026-10-02T15:44:58+00:00",
  "season": "2026-27",
  "gameweek": 6,
- "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -2203,9 +2203,9 @@
    },
    "quotazione": 8.0,
    "fvm": 23.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -4350,7 +4350,7 @@
    "appearances": 0,
    "gameweeksElapsed": 3,
    "estimatedVote": 5.96,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.05,
     "rf": 0.0033,
@@ -4371,7 +4371,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.96,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0759,
     "rf": 0.03,
@@ -4403,9 +4403,9 @@
    },
    "quotazione": 4.0,
    "fvm": 10.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -12214,7 +12214,7 @@
    "appearances": 0,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.06,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0426,
     "rf": 0.0031,
@@ -12235,7 +12235,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.92,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0741,
     "rf": 0.0049,
@@ -12267,9 +12267,9 @@
    },
    "quotazione": 4.0,
    "fvm": 10.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -12362,7 +12362,7 @@
    "appearances": 3,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.19,
-   "playProbability": 0.481,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.133,
     "rf": 0.0077,
@@ -12383,7 +12383,7 @@
     "q90": 6.57
    },
    "learnedVote": 6.37,
-   "learnedPlayProbability": 0.481,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.1364,
     "rf": 0.0082,
@@ -12416,7 +12416,7 @@
    "quotazione": 3.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -20072,7 +20072,7 @@
    "appearances": 3,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.17,
-   "playProbability": 0.394,
+   "playProbability": 0.285,
    "events": {
     "gf": 0.1649,
     "rf": 0.0074,
@@ -20093,7 +20093,7 @@
     "q90": 6.46
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.394,
+   "learnedPlayProbability": 0.285,
    "learnedEvents": {
     "gf": 0.1095,
     "rf": 0.0073,
@@ -20123,8 +20123,8 @@
    },
    "quotazione": 10.0,
    "fvm": 41.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -20956,7 +20956,7 @@
    "appearances": 0,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.9,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.034,
     "rf": 0.0004,
@@ -20977,7 +20977,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.82,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.036,
     "rf": 0.0035,
@@ -21007,9 +21007,9 @@
    },
    "quotazione": 4.0,
    "fvm": 8.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -43406,22 +43406,6 @@
     {
      "opzioni": [
       {
-       "player_id": "5131",
-       "giocatore": "Gilmour",
-       "titolarita_pct": 55,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "4220",
-       "giocatore": "Zambo Anguissa",
-       "titolarita_pct": 45,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "7120",
        "giocatore": "Lang",
        "titolarita_pct": 51,
@@ -44217,13 +44201,40 @@
  ],
  "news": [
   {
+   "title": "Atalanta, sprazzi del vero Kessie in nazionale: gol, assist e quell'indizio sul ruolo...",
+   "summary": "L'Atalanta aspetta il miglior Kessie, intanto in nazionale ha segnato un gol e fatto un assist: buone notizie per Maurizio Sarri.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-sprazzi-vero-kessie-nazionale-gol-assist-indizio-ruolo/",
+   "image": "https://static.sosfanta.com/2026/09/Kessie-0f63968d7efd-e1789590917987.jpg",
+   "date": "2026-10-02T15:00:00+00:00"
+  },
+  {
+   "title": "Sono rimasti svincolati in oltre la metà delle leghe al fanta: occhio a questi sette nomi per la difesa",
+   "summary": "Questi sette nomi sono rimasti svincolati in parecchie leghe al fantacalcio: valutateli per la vostra difesa durante la sosta.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/sono-rimasti-svincolati-fantacalcio-occhio-questi-sette-nomi-difesa/",
+   "image": "https://static.sosfanta.com/2026/09/PHOTO-2026-09-22-11-46-20-5e794b47e8ce-e1790754655774.jpg",
+   "date": "2026-10-02T14:40:36+00:00"
+  },
+  {
    "title": "Italia, la probabile formazione con la Francia: da Kean in pole a Barella, Frattesi, Scalvini e i fratelli Esposito",
    "summary": "L’Italia affronta la Francia nella terza partita del girone di Nations League, ecco le possibili scelte di Roberto Mancini.",
    "author": "Andrea Ajello",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/italia-probabile-formazione-francia-scelte-mancini-nazionale/",
    "image": "https://static.sosfanta.com/2026/10/Kean-9e08d4611504-e1790941738588.jpg",
-   "date": "2026-10-02T12:25:10+00:00"
+   "date": "2026-10-02T14:15:10+00:00"
+  },
+  {
+   "title": "Sky - Inter, le ultimissime da Appiano sugli infortunati in chiave Parma: da Dimarco e Calhanoglu a Stones",
+   "summary": "Importanti notizie dall'infermeria di casa Inter verso la ripresa: le novità su Dimarco, Calhanoglu e Stones.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-ultimissime-appiano-infortunati-dimarco-calhanoglu-stones-parma/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
+   "date": "2026-10-02T14:00:18+00:00"
   },
   {
    "title": "Carnevali: \"Rispondo così su Palmisani alla Juve! Nico è cambiato, Yildiz campione e non ho dubbi su Kolo Muani\"",
@@ -44232,7 +44243,70 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/carnevali-juventus-kolo-muani-yildiz-palmisani-del-piero-nico-gonzalez-parole-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2285338144-95b68114fd8f-e1790937040548.jpg",
-   "date": "2026-10-02T12:15:35+00:00"
+   "date": "2026-10-02T13:45:35+00:00"
+  },
+  {
+   "title": "Bologna, Cambiaghi non al top in Nazionale: cosa trapela. E Odgaard prova a tornare in anticipo",
+   "summary": "Le condizioni di Cambiaghi in Nazionale, la tegola Holm e le prove di rientro anticipato per Odgaard: le novità di casa Bologna.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/bologna-cambiaghi-non-al-top-in-nazionale-cosa-trapela-odgaard-prova-tornare-anticipo/",
+   "image": "https://static.sosfanta.com/202601/e391b158039989baa246f18a910d8ab3.png",
+   "date": "2026-10-02T13:30:15+00:00"
+  },
+  {
+   "title": "Guarda cos'ha detto Carnevali: \"Alajbegovic? Abbiamo rischiato di fare... come l'Inter con Palestra\"",
+   "summary": "Ecco le parole del dirigente della Juventus direttamente dal Festival dello Sport di Trento.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/guarda-cosha-detto-carnevali-alajbegovic-abbiamo-rischiato-di-fare-come-linter-con-palestra/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293603621-99025c5690b0-e1789372831148.jpg",
+   "date": "2026-10-02T13:29:49+00:00"
+  },
+  {
+   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 5 giornate",
+   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
+   "date": "2026-10-02T13:15:56+00:00"
+  },
+  {
+   "title": "Napoli e Juve ko, pari Milan: tutti i segnali, dai tanti assenti di Allegri a Cambiaso, Muani, Pulisic e Loftus",
+   "summary": "Napoli, Milan e Juventus sono scese in campo per dei test amichevoli, ecco come sono andate le partite e chi ha giocato.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-milan-juventus-amichevoli-allegri-cambiaso-loftus-cheek-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298222329-2f59664d8d79-e1790943040199.jpg",
+   "date": "2026-10-02T13:00:05+00:00"
+  },
+  {
+   "title": "NEWS - Malen, Calhanoglu, Che Adams, Kessie, Cambiaghi, Odgaard, McTominay e cosa filtra sul rientro di Stones",
+   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-malen-calhanoglu-che-adams-kessie-cambiaghi-odgaard-mctominay-e-cosa-filtra-sul-rientro-di-stones/",
+   "image": "https://static.sosfanta.com/2026/10/Stones-e6990c0b0321-e1790926462337.jpg",
+   "date": "2026-10-02T12:45:37+00:00"
+  },
+  {
+   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: le novità e dopo la sosta giocheranno così",
+   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: le novità e giocheranno così dopo la sosta.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
+   "date": "2026-10-02T12:30:46+00:00"
+  },
+  {
+   "title": "Casi a centrocampo e la gestione al fanta: da Vlasic a Mora, McTominay, Goncalves, El Shaarawy e J. Rodriguez",
+   "summary": "La sosta nazionali è nel vivo, per i fantallenatori è un periodo di scambi e per alcuni di asta di riparazione: cosa fare con questi sette casi a centrocampo.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/casi-centrocampo-gestione-fantacalcio-vlasic-mora-goncalves-gudmundsson-rodriguez-mctominay/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293064586-f87912f5b71d-e1790922120691.jpg",
+   "date": "2026-10-02T12:15:43+00:00"
   },
   {
    "title": "Inter, Calhanoglu di corsa verso il Parma: da scongiurare il rischio ricadute. Per il rientro di Stones...",
@@ -44244,31 +44318,13 @@
    "date": "2026-10-02T12:00:31+00:00"
   },
   {
-   "title": "NEWS - Malen, Calhanoglu, Che Adams, Kessie, Cambiaghi, Odgaard, McTominay e cosa filtra sul rientro di Stones",
-   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-malen-calhanoglu-che-adams-kessie-cambiaghi-odgaard-mctominay-e-cosa-filtra-sul-rientro-di-stones/",
-   "image": "https://static.sosfanta.com/2026/10/Stones-e6990c0b0321-e1790926462337.jpg",
-   "date": "2026-10-02T11:45:37+00:00"
-  },
-  {
-   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 5 giornate",
-   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
-   "date": "2026-10-02T11:30:56+00:00"
-  },
-  {
-   "title": "Casi a centrocampo e la gestione al fanta: da Vlasic a Mora, McTominay, Goncalves, El Shaarawy e J. Rodriguez",
-   "summary": "La sosta nazionali è nel vivo, per i fantallenatori è un periodo di scambi e per alcuni di asta di riparazione: cosa fare con questi sette casi a centrocampo.",
+   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Santos",
+   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/casi-centrocampo-gestione-fantacalcio-vlasic-mora-goncalves-gudmundsson-rodriguez-mctominay/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293064586-f87912f5b71d-e1790922120691.jpg",
-   "date": "2026-10-02T11:15:43+00:00"
+   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
+   "date": "2026-10-02T11:30:42+00:00"
   },
   {
    "title": "McTominay, ecco la data per la nuova idoneità sportiva! Poi per rivederlo in campo...",
@@ -44280,15 +44336,6 @@
    "date": "2026-10-02T11:00:24+00:00"
   },
   {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: le novità e dopo la sosta giocheranno così",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: le novità e giocheranno così dopo la sosta.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
-   "date": "2026-10-02T10:30:46+00:00"
-  },
-  {
    "title": "Zhegrova: \"Sono rimasto alla Juve per questo motivo! Ecco come ho preso l'esclusione dall'Europa League\"",
    "summary": "Zhegrova ha parlato del periodo che sta attraversando alla Juventus, spiegando perchè è rimasto in estate e non solo.",
    "author": "Andrea Ajello",
@@ -44296,15 +44343,6 @@
    "url": "https://www.sosfanta.com/squadra/juventus/zhegrova-juventus-parole-spalletti-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2291723367-9457bf1bb254-e1788378873634.jpg",
    "date": "2026-10-02T10:00:32+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Santos",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
-   "date": "2026-10-02T09:30:42+00:00"
   },
   {
    "title": "Roma, Malen ancora a parte: cosa c'è dietro, le tappe per il recupero e cosa filtra per il Como",
@@ -44521,60 +44559,6 @@
    "url": "https://www.sosfanta.com/news/lite-piena-notte-asta-fantacalcio-arrivano-carabineri-ricostruzione/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-1212042478-c4a9867fcde3-e1790857344171.jpg",
    "date": "2026-10-01T14:00:21+00:00"
-  },
-  {
-   "title": "Lazio, Gudmundsson almeno un mese out dopo l'infortunio alla spalla: ma i tempi possono dilatarsi se...",
-   "summary": "Brutte notizie dagli esami di ieri di Albert Gudmundsson: per lui con l'Islanda lussazione dell’articolazione gleno-omerale destra.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-gudmundsson-almeno-mese-out-tempi/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293326978-6d84f3cfb84f-e1790836840347.jpg",
-   "date": "2026-10-01T13:00:54+00:00"
-  },
-  {
-   "title": "Udinese, ieri Davis ha ricominciato a correre in campo: come procede il recupero verso la ripresa",
-   "summary": "Si è rivisto Keinan Davis ieri in campo nell'allenamento dell'Udinese: il centravanti inglese si è ripresentato sul campo solo per riprendere a correre.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/udinese-ieri-davis-correre-campo-come-procede-recupero/",
-   "image": "https://static.sosfanta.com/202602/991cf0b38145e6c12a46bababfab2269.png",
-   "date": "2026-10-01T12:00:06+00:00"
-  },
-  {
-   "title": "NEWS - Conceicao, Gudmundsson, Malen, Wesley, Raspadori, Dimarco, Lautaro, Paz, Davis e quando torna Bernabè",
-   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-conceicao-gudmundsson-malen-wesley-raspadori-dimarco-lautaro-paz-davis-quando-torna-bernabe/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2290478621-208b0c657ea9-e1790835207118.jpg",
-   "date": "2026-10-01T11:45:20+00:00"
-  },
-  {
-   "title": "Roma, cosa filtra sulla presenza di Malen e Wesley dal 1' contro il Como: le novità da Trigoria",
-   "summary": "Stesso discorso per Wesley: secondo Il Messaggero non ci sono dubbi sulla presenza dal 1' del brasiliano contro la squadra di Fabregas.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/roma-cosa-filtra-presenza-malen-wesley-como/",
-   "image": "https://static.sosfanta.com/202604/7499409bff4f6a0f700f9bb0c7812f7a-e1776665810468.jpg",
-   "date": "2026-10-01T11:00:33+00:00"
-  },
-  {
-   "title": "McTominay tra nuova idoneità sportiva, anticoagulanti e il protocollo: cosa filtra sui tempi per il rientro",
-   "summary": "Arrivano importanti novità sul rientro di Scott McTominay, che ieri ha ripreso ad allenarsi sul campo in casa Napoli: ecco cosa filtra.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/mctominay-cosa-filtra-tempi-rientro-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-01-08-07-38-ae417627b2e5-e1790834970938.jpg",
-   "date": "2026-10-01T10:15:50+00:00"
-  },
-  {
-   "title": "Da Spinazzola e Meret ad Alisson, Anguissa e Giovane: le ultime dall'infermeria del Napoli",
-   "summary": "Per la ripresa contro il Frosinone il 10 ottobre al Maradona, Max Allegri spera di ritrovare qualche infortunato: come Meret e Marianucci, che fanno progressi.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/spinazzola-meret-alisson-anguissa-giovane-infermeria-napoli/",
-   "image": "https://static.sosfanta.com/202509/ed6a549f2d570cb00e19aeb4d3b52302-scaled-e1758982976592.jpg",
-   "date": "2026-10-01T10:00:01+00:00"
   }
  ],
  "marketDifficulty": {
