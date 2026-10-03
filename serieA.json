@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-03T14:17:33+00:00",
+ "generatedAt": "2026-10-03T16:31:47+00:00",
  "season": "2026-27",
  "gameweek": 6,
- "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -5448,7 +5448,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.18,
-   "playProbability": 0.829,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.3703,
     "rf": 0.0058,
@@ -5469,7 +5469,7 @@
     "q90": 10.06
    },
    "learnedVote": 6.33,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.2922,
     "rf": 0.0118,
@@ -5501,8 +5501,8 @@
    },
    "quotazione": 13.0,
    "fvm": 48.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -16022,7 +16022,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.27,
-   "playProbability": 0.044,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.142,
     "rf": 0.0058,
@@ -16043,7 +16043,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.44,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.1225,
     "rf": 0.0069,
@@ -16075,8 +16075,8 @@
    },
    "quotazione": 20.0,
    "fvm": 100.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21248,7 +21248,7 @@
    "appearances": 3,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.04,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0579,
     "rf": 0.0006,
@@ -21269,7 +21269,7 @@
     "q90": 6.42
    },
    "learnedVote": 6.16,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0464,
     "rf": 0.0046,
@@ -21299,8 +21299,8 @@
    },
    "quotazione": 6.0,
    "fvm": 11.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -29342,7 +29342,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.02,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0594,
     "rf": 0.0006,
@@ -29363,7 +29363,7 @@
     "q90": 6.43
    },
    "learnedVote": 6.15,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0464,
     "rf": 0.0046,
@@ -29389,8 +29389,8 @@
    },
    "quotazione": 13.0,
    "fvm": 42.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -43587,14 +43587,14 @@
     {
      "opzioni": [
       {
-       "player_id": "4705",
-       "giocatore": "Balerdi",
+       "player_id": "4317",
+       "giocatore": "N'Dicka",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "4317",
-       "giocatore": "N'Dicka",
+       "player_id": "4705",
+       "giocatore": "Balerdi",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -43613,6 +43613,22 @@
        "giocatore": "Pisilli",
        "titolarita_pct": 45,
        "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7556",
+       "giocatore": "Mora",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5734",
+       "giocatore": "Soulè",
+       "titolarita_pct": 49,
+       "ruolo": "A"
       }
      ]
     },
@@ -44169,6 +44185,51 @@
  ],
  "news": [
   {
+   "title": "Atalanta, ecco chi recupera e chi no dopo la sosta: da Raspadori e Sulemana a Hien e Kossounou",
+   "summary": "L'Atalanta si prepara ad affrontare 9 partite nei 27 giorni dopo la sosta. Ecco le ultime sugli infortunati, da Raspadori a Hien e Kossounou.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-chi-recupera-dopo-sosta-raspadori-sulemana-hien-kossounou/",
+   "image": "https://static.sosfanta.com/202603/f7295e973cddb3883234c1ab18ca70a2.png",
+   "date": "2026-10-03T16:00:28+00:00"
+  },
+  {
+   "title": "Gasperini: \"A Malen ho detto che può battere il record di Higuain\"",
+   "summary": "Le parole del tecnico della Roma su Donyell Malen: l'olandese, a detta sua, può arrivare a fare il record di gol.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/video/gasperini-a-malen-ho-detto-che-puo-battere-il-record-di-higuain/",
+   "image": "https://static.sosfanta.com/202605/519a687f65e648dd0b6cb4c8da08d8ae.jpeg",
+   "date": "2026-10-03T15:29:23+00:00"
+  },
+  {
+   "title": "Chivu: \"La Champions è il sogno di tutti. Ecco cosa voglio creare all'Inter! Su Pio Esposito...\"",
+   "summary": "L'allenatore dell'Inter ha parlato della sua esperienza in nerazzurro ma anche dell'avventura in Champions League.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/chivu-inter-obiettivo-sogno-champions-pio-esposito/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288591518-de75287ebab6-e1788124518936.jpeg",
+   "date": "2026-10-03T15:00:58+00:00"
+  },
+  {
+   "title": "Liberali: \"Perché ho deciso di lasciare il Milan! Palmisani, Baturina, il mio ruolo e io con Nico Paz…\"",
+   "summary": "Dagli idoli al ruolo fino al passato con il Milan: tutte le dichiarazioni del fantasista che in estate si è trasferito al Como.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/liberali-milan-como-ruolo-nico-paz-baturina-palmisani/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2288200468-0b2c1a07a555-e1785359467464.jpg",
+   "date": "2026-10-03T14:45:32+00:00"
+  },
+  {
+   "title": "Accettate! Sette scambi da fare al fantacalcio, da Alajbegovic e Pellegrino a McKennie e Ghedjemis",
+   "summary": "È una settimana di scambi al fantacalcio: analizziamo sette domande reali arrivate a SOS Consiglia, la funzione Premium della nostra app.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/accettate-sette-scambi-fare-fantacalcio-alajbegovic-pellegrino-mckennie-ghedjemis/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295802766-bf0a170561e1-e1790106228759.jpg",
+   "date": "2026-10-03T14:15:02+00:00"
+  },
+  {
    "title": "Juventus, come sta Conceicao: gli ultimi aggiornamenti dal ritiro del Portogallo",
    "summary": "Arrivano novità sulle condizioni fisiche di Conceicao dopo il problema accusato nella sfida che ha visto il Portogallo affrontare la Danimarca.",
    "author": "Michael Di Chiaro",
@@ -44176,6 +44237,15 @@
    "url": "https://www.sosfanta.com/news/juventus-conceicao-condizioni-aggiornamenti-ritiro-portogallo/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2246450318-75b1dd3563f2-e1790542551443.jpg",
    "date": "2026-10-03T14:00:22+00:00"
+  },
+  {
+   "title": "Dumfries: “Rispondo così su un possibile ritorno all’Inter! Perché sono andato via e con Mourinho…”",
+   "summary": "Le parole dell'esterno olandese che in estate ha lasciato il club nerazzurro per trasferirsi alla corte di José Mourinho.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/dumfries-ritorno-inter-real-madrid-mourinho/",
+   "image": "https://static.sosfanta.com/202604/e15fa855ed7f502fccf90c852c2bb0fa-e1776107603267.jpeg",
+   "date": "2026-10-03T13:45:30+00:00"
   },
   {
    "title": "Carvajal proposto anche ai club italiani: lo scenario e cosa risulta a Fabrizio Romano",
@@ -44187,6 +44257,15 @@
    "date": "2026-10-03T13:30:48+00:00"
   },
   {
+   "title": "NEWS - La verità su Alajbegovic! McTominay, Provedel, De Roon, Pinamonti, Raspadori, Bernardeschi, Nzola...",
+   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-alajbegovic-mctominay-provedel-de-roon-pinamonti-raspadori-bernardeschi-beto/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294928522-f66be9229582-e1791012661473.jpg",
+   "date": "2026-10-03T13:15:59+00:00"
+  },
+  {
    "title": "Lazio, oggi il test con la Juve Stabia: cosa filtra su Pinamonti e le ultime sulle condizioni di Dele-Bashiru",
    "summary": "Oggi alle 15 test per la Lazio con la Juve Stabia senza i sette nazionali e con un'infermeria ancora piena: le ultime da Formello.",
    "author": "Michael Di Chiaro",
@@ -44196,22 +44275,13 @@
    "date": "2026-10-03T13:00:01+00:00"
   },
   {
-   "title": "Accettate! Sette scambi da fare al fantacalcio, da Alajbegovic e Pellegrino a McKennie e Ghedjemis",
-   "summary": "È una settimana di scambi al fantacalcio: analizziamo sette domande reali arrivate a SOS Consiglia, la funzione Premium della nostra app.",
+   "title": "Amorim: \"Impossibile che giochi sempre Modric! Ramos sta dimostrando il suo valore, la mia preoccupazione...\"",
+   "summary": "Amorim ha parlato della gestione del Milan e di alcuni protagonisti della stagione rossonera: tutte le dichiarazioni del tecnico su Modric e non solo.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/accettate-sette-scambi-fare-fantacalcio-alajbegovic-pellegrino-mckennie-ghedjemis/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295802766-bf0a170561e1-e1790106228759.jpg",
-   "date": "2026-10-03T12:45:02+00:00"
-  },
-  {
-   "title": "Dumfries: “Rispondo così su un possibile ritorno all’Inter! Perché sono andato via e con Mourinho…”",
-   "summary": "Le parole dell'esterno olandese che in estate ha lasciato il club nerazzurro per trasferirsi alla corte di José Mourinho.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/dumfries-ritorno-inter-real-madrid-mourinho/",
-   "image": "https://static.sosfanta.com/202604/e15fa855ed7f502fccf90c852c2bb0fa-e1776107603267.jpeg",
-   "date": "2026-10-03T12:15:30+00:00"
+   "url": "https://www.sosfanta.com/squadra/milan/amorim-impossibile-giochi-sempre-modric-ramos-dimostrando-valore-preoccupazione-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296406212-800cf9e69713-e1790977579196.jpg",
+   "date": "2026-10-03T12:45:09+00:00"
   },
   {
    "title": "Inter, 2-0 al Lumezzane in amichevole: tutti gli spunti e le ultime su Dimarco, Calhanoglu, Stones e Spence",
@@ -44221,24 +44291,6 @@
    "url": "https://www.sosfanta.com/squadra/inter/inter-lumezzane-amichevole-risultato-aggiornamenti-dimarco-calhanoglu-stones-spence/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
    "date": "2026-10-03T12:00:32+00:00"
-  },
-  {
-   "title": "NEWS - La verità su Alajbegovic! McTominay, Provedel, De Roon, Pinamonti, Raspadori, Bernardeschi, Nzola...",
-   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-alajbegovic-mctominay-provedel-de-roon-pinamonti-raspadori-bernardeschi-beto/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294928522-f66be9229582-e1791012661473.jpg",
-   "date": "2026-10-03T11:45:59+00:00"
-  },
-  {
-   "title": "Amorim: \"Impossibile che giochi sempre Modric! Ramos sta dimostrando il suo valore, la mia preoccupazione...\"",
-   "summary": "Amorim ha parlato della gestione del Milan e di alcuni protagonisti della stagione rossonera: tutte le dichiarazioni del tecnico su Modric e non solo.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/amorim-impossibile-giochi-sempre-modric-ramos-dimostrando-valore-preoccupazione-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296406212-800cf9e69713-e1790977579196.jpg",
-   "date": "2026-10-03T11:15:09+00:00"
   },
   {
    "title": "Roma, salgono le quotazioni di De Roon in vista del Como: cosa filtra dopo l'infortunio di Cristante",
@@ -44491,42 +44543,6 @@
    "url": "https://www.sosfanta.com/news/napoli-milan-juventus-amichevoli-allegri-cambiaso-loftus-cheek-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2298222329-2f59664d8d79-e1790943040199.jpg",
    "date": "2026-10-02T13:00:05+00:00"
-  },
-  {
-   "title": "NEWS - Malen, Calhanoglu, Che Adams, Kessie, Cambiaghi, Odgaard, McTominay e cosa filtra sul rientro di Stones",
-   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-malen-calhanoglu-che-adams-kessie-cambiaghi-odgaard-mctominay-e-cosa-filtra-sul-rientro-di-stones/",
-   "image": "https://static.sosfanta.com/2026/10/Stones-e6990c0b0321-e1790926462337.jpg",
-   "date": "2026-10-02T12:45:37+00:00"
-  },
-  {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: le novità e dopo la sosta giocheranno così",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: le novità e giocheranno così dopo la sosta.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
-   "date": "2026-10-02T12:30:46+00:00"
-  },
-  {
-   "title": "Casi a centrocampo e la gestione al fanta: da Vlasic a Mora, McTominay, Goncalves, El Shaarawy e J. Rodriguez",
-   "summary": "La sosta nazionali è nel vivo, per i fantallenatori è un periodo di scambi e per alcuni di asta di riparazione: cosa fare con questi sette casi a centrocampo.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/casi-centrocampo-gestione-fantacalcio-vlasic-mora-goncalves-gudmundsson-rodriguez-mctominay/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293064586-f87912f5b71d-e1790922120691.jpg",
-   "date": "2026-10-02T12:15:43+00:00"
-  },
-  {
-   "title": "Inter, Calhanoglu di corsa verso il Parma: da scongiurare il rischio ricadute. Per il rientro di Stones...",
-   "summary": "Il rientro parziale in gruppo di Hakan Calhanoglu e le ultimissime dall'infermeria su John Stones: le novità di casa Inter verso la ripresa.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-calhanoglu-parma-scongiurare-rischio-ricadute-ultime-rientro-stones/",
-   "image": "https://static.sosfanta.com/2026/09/Calhanoglu-0d88f3747854-e1789576815321.jpg",
-   "date": "2026-10-02T12:00:31+00:00"
   }
  ],
  "marketDifficulty": {
