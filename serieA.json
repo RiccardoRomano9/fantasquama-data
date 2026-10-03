@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-03T05:28:32+00:00",
+ "generatedAt": "2026-10-03T11:50:09+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -2150,7 +2150,7 @@
    "appearances": 2,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.02,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0816,
     "rf": 0.0044,
@@ -2171,7 +2171,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.04,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0927,
     "rf": 0.0075,
@@ -2203,8 +2203,8 @@
    },
    "quotazione": 8.0,
    "fvm": 23.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -44169,13 +44169,67 @@
  ],
  "news": [
   {
+   "title": "Roma, salgono le quotazioni di De Roon in vista del Como: cosa filtra dopo l'infortunio di Cristante",
+   "summary": "Dopo l'infortunio di Cristante, il centrocampista olandese mette nel mirino la prima da titolare con la Roma: ecco cosa filtra verso il match col Como.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-de-roon-titolare-como-cosa-filtra-infortunio-cristante/",
+   "image": "https://static.sosfanta.com/2026/09/De-Roon-19cef6a4c977-e1789337981786.jpg",
+   "date": "2026-10-03T11:00:56+00:00"
+  },
+  {
+   "title": "Dumfries: “Rispondo così su un possibile ritorno all’Inter! Perché sono andato via e con Mourinho…”",
+   "summary": "Le parole dell'esterno olandese che in estate ha lasciato il club nerazzurro per trasferirsi alla corte di José Mourinho.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/dumfries-ritorno-inter-real-madrid-mourinho/",
+   "image": "https://static.sosfanta.com/202604/e15fa855ed7f502fccf90c852c2bb0fa-e1776107603267.jpeg",
+   "date": "2026-10-03T10:45:30+00:00"
+  },
+  {
+   "title": "NEWS - La verità su Alajbegovic! McTominay, Provedel, De Roon, Pinamonti, Raspadori, Bernardeschi, Nzola...",
+   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-alajbegovic-mctominay-provedel-de-roon-pinamonti-raspadori-bernardeschi-beto/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294928522-f66be9229582-e1791012661473.jpg",
+   "date": "2026-10-03T10:15:59+00:00"
+  },
+  {
+   "title": "Inter, Provedel scalpita: cosa filtra verso il Parma e la gestione con Martinez",
+   "summary": "Provedel scalda i motori in vista della ripresa del campionato che vedrà l'Inter sfidare il Parma: le ultime e cosa filtra sulle gerarchie con Martinez.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-provedel-titolare-parma-cosa-filtra-gerarchie-martinez/",
+   "image": "https://static.sosfanta.com/2026/07/Provedel-6a43926f212e.jpeg",
+   "date": "2026-10-03T10:00:54+00:00"
+  },
+  {
+   "title": "Amorim: \"Impossibile che giochi sempre Modric! Ramos sta dimostrando il suo valore, la mia preoccupazione...\"",
+   "summary": "Amorim ha parlato della gestione del Milan e di alcuni protagonisti della stagione rossonera: tutte le dichiarazioni del tecnico su Modric e non solo.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/amorim-impossibile-giochi-sempre-modric-ramos-dimostrando-valore-preoccupazione-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296406212-800cf9e69713-e1790977579196.jpg",
+   "date": "2026-10-03T09:45:09+00:00"
+  },
+  {
    "title": "Mancini: \"Lavorando saremo un'ottima Nazionale! Bravi Pio e Kean, come ho visto Fagioli e Seba Esposito\"",
    "summary": "Il ct dell'Italia Roberto Mancini ha parlato ai microfoni della Rai, di Sky e in conferenza stampa dopo la gara di Nations League contro la Francia.",
    "author": "Marco Astori",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/nazionale/mancini-lavorando-saremo-ottima-nazionale-bravi-pio-kean-fagioli-seba-esposito/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2297600895-95be1dc95bbd-e1790970217880.jpg",
-   "date": "2026-10-02T21:50:15+00:00"
+   "date": "2026-10-03T09:15:15+00:00"
+  },
+  {
+   "title": "Napoli, attesa per il verdetto su McTominay: cosa filtra e quando potrebbe tornare in campo",
+   "summary": "Il Napoli è pronto a ricevere un verdetto definitivo sul rientro dello scozzese. Scott McTominay, ai box da settembre per una lieve aritmia, martedì 6 ottobr...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-mctominay-condizioni-idoneita-sportivo-cosa-filtra-quando-torna/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2289750320-352746456ca1-e1788884848363.jpg",
+   "date": "2026-10-03T09:00:29+00:00"
   },
   {
    "title": "Giuntoli: \"Quando tornano Raspadori, Hien, Kossounou e Sulemana! Gaetano, Elmas, Rowe e come ho preso Kessie\"",
@@ -44184,7 +44238,52 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/atalanta/giuntoli-quando-tornano-raspadori-hien-kossounou-sulemana-gaetano-elmas-rowe-kessie-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2186601189-4589ff814042-e1790955733375.jpg",
-   "date": "2026-10-02T21:45:40+00:00"
+   "date": "2026-10-03T08:45:40+00:00"
+  },
+  {
+   "title": "Juventus, Alajbegovic segna con la Bosnia e poi lascia il campo: il motivo e la verità sulle sue condizioni",
+   "summary": "L'esterno offensivo della Juve ha segnato alla Svezia prima di uscire nel finale: ecco cosa filtra sulle sue condizioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/alajbegovic-infortunio-condizioni-come-sta-tempi-recupero/",
+   "image": "https://static.sosfanta.com/2026/09/Alajbegovic-ddcc7c056973-e1788715867635.jpg",
+   "date": "2026-10-03T08:00:44+00:00"
+  },
+  {
+   "title": "Stones: \"Sono all'Inter per vincere, la mia qualità migliore è questa! Ai tifosi faccio una promessa...\"",
+   "summary": "John Stones racconta i suoi primi giorni all’Inter: dall’inserimento nel gruppo agli obiettivi stagionali, con una promessa chiara ai tifosi",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-stones-parole-intervista-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295277988-b1142ca50fbf-e1789416746632.jpeg",
+   "date": "2026-10-03T07:00:23+00:00"
+  },
+  {
+   "title": "Gasperini: \"Come sta Cristante e perché via Romano! Mancini, Hermoso, Lulli, Dybala e se Malen fa 30 gol...\"",
+   "summary": "Gian Piero Gasperini, tecnico della Roma, ha parlato oggi al Festival dello Sport di Trento: ecco le sue dichiarazioni dal palco e a margine dell'evento.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/gasperini-come-sta-cristante-perche-via-romano-mancini-hermoso-lulli-pisilli-dybala-malen-30-gol/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296543450-0e70aa0c741e-e1790955598294.jpg",
+   "date": "2026-10-03T06:45:07+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Cambiaso, Gabbia, Loftus, Neres, Politano, Dimarco, Jones, Davis, Fortini, Casadei e stop Colombo",
+   "summary": "Campionato fermo per la sosta nazionali, ma dai campi arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/dai-campi-cambiaso-gabbia-loftus-neres-politano-dimarco-jones-davis-fortini-casadei-stop-colombo/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-02-19-39-20-8687a02859fc-e1790962776545.jpg",
+   "date": "2026-10-03T06:00:48+00:00"
+  },
+  {
+   "title": "S. Esposito: \"Un privilegio questa maglia, felice di essere tornato a questi livelli. Il mio percorso...\"",
+   "summary": "Sebastiano Esposito ha parlato ai microfoni della Rai dopo l’1-1 dell’Italia contro la Francia in Nations League: le sue dichiarazioni.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/sebastiano-esposito-privilegio-questa-maglia-felice-essere-tornato-questi-livelli-mio-percorso-fantacalcio-nazionale/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298283461-a6eabd2c4572-e1790975926984.jpg",
+   "date": "2026-10-03T06:00:02+00:00"
   },
   {
    "title": "Bastoni: \"Un episodio negativo non rovinerà la mia carriera! Il gol? Nasce perché dopo l'1-0...\"",
@@ -44194,15 +44293,6 @@
    "url": "https://www.sosfanta.com/news/bastoni-episodio-negativo-non-rovinera-carriera-gol/",
    "image": "https://static.sosfanta.com/202603/7ef5b5b2ed05212c07d017f67fd1bef1.png",
    "date": "2026-10-02T21:30:48+00:00"
-  },
-  {
-   "title": "Gasperini: \"Come sta Cristante e perché via Romano! Mancini, Hermoso, Lulli, Dybala e se Malen fa 30 gol...\"",
-   "summary": "Gian Piero Gasperini, tecnico della Roma, ha parlato oggi al Festival dello Sport di Trento: ecco le sue dichiarazioni dal palco e a margine dell'evento.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/gasperini-come-sta-cristante-perche-via-romano-mancini-hermoso-lulli-pisilli-dybala-malen-30-gol/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296543450-0e70aa0c741e-e1790955598294.jpg",
-   "date": "2026-10-02T21:15:07+00:00"
   },
   {
    "title": "Nazionali, De Bruyne e Adzic show! Zielinski, CDK, Bastoni, Dragusin, Zalewski e da valutare Alajbegovic",
@@ -44221,15 +44311,6 @@
    "url": "https://www.sosfanta.com/squadra/lecce/lecce-geubbels-parzialmente-in-gruppo-berisha-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/08/Geubbels-ddaff9866be6-e1788199169428.jpg",
    "date": "2026-10-02T20:00:53+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Cambiaso, Gabbia, Loftus, Neres, Politano, Dimarco, Jones, Davis, Fortini, Casadei e stop Colombo",
-   "summary": "Campionato fermo per la sosta nazionali, ma dai campi arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/dai-campi-cambiaso-gabbia-loftus-neres-politano-dimarco-jones-davis-fortini-casadei-stop-colombo/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-02-19-39-20-8687a02859fc-e1790962776545.jpg",
-   "date": "2026-10-02T19:15:48+00:00"
   },
   {
    "title": "Abate studia il nuovo Torino: la difesa a 4, il recupero di Casadei e la speranza per Che Adams...",
@@ -44446,87 +44527,6 @@
    "url": "https://www.sosfanta.com/squadra/inter/josep-martinez-inter-errori-troppi-gol-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2291653721-af1654886d65-e1788964799811.jpeg",
    "date": "2026-10-02T08:00:02+00:00"
-  },
-  {
-   "title": "Obrador: \"Ecco cosa mi chiede Aquilani! Le differenze tra Italia e Spagna e l'obiettivo con il Sassuolo...\"",
-   "summary": "Rafa Obrador si è presentato ai canali ufficiali del Sassuolo: le parole del terzino spagnolo sulla scelta del club e sulla nuova avventura.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/obrador-ecco-cosa-mi-chiede-aquilani-le-differenze-tra-italia-e-spagna-e-lobiettivo-con-il-sassuolo-e/",
-   "image": "https://static.sosfanta.com/202602/2f0f84a88c11eae569271caf0530ab91-scaled-e1770746204572.jpeg",
-   "date": "2026-10-02T07:00:21+00:00"
-  },
-  {
-   "title": "Mancini: \"Kean ha problemi da tempo! Pio Esposito, Scamacca, Donnarumma e il ruolo di Tonali...\"",
-   "summary": "Roberto Mancini ha presentato la grande sfida contro la Francia, in programma domani: le dichiarazioni del commissario tecnico.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/mancini-italia-francia-kean-pio-esposito-scamacca-tonali-conferenza-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-1498474959-8a453ed08e35-e1790507650697.jpeg",
-   "date": "2026-10-02T06:15:26+00:00"
-  },
-  {
-   "title": "Italia, Bastoni: \"Dobbiamo dirci che siamo bravi! Critiche? Se sono da 10 anni all'Inter...\"",
-   "summary": "In vista della sfida tra Francia e Italia, oltre a Roberto Mancini è intervenuto anche Alessandro Bastoni. Il difensore dell’Inter ha rilasciato alcune dichi...",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/bastoni-italia-parole-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/07/Bastoni-ef79424107f4.jpg",
-   "date": "2026-10-02T06:00:54+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Atta in gruppo e novità Meret! Ramos, Cristante, Muric, McTominay, Alisson, Anguissa, Dovbyk...",
-   "summary": "Campionato e fantacalcio fermi per la sosta nazionali, ma dai campi arrivano importanti notizie su infortunati e non solo verso la ripresa: ecco le principali.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/campi-atta-gruppo-novita-meret-ramos-cristante-muric-mctominay-alisson-anguissa-dovbyk/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293119765-fba540435ec9-e1789135291358.jpeg",
-   "date": "2026-10-01T21:45:22+00:00"
-  },
-  {
-   "title": "Nazionali, Ramos show con il Portogallo: assist e gol! Segnano anche Cisse, Hojlund e Ramon, Woltemade...",
-   "summary": "Ramos decisivo con la nazionale, l'attaccante del Milan segna di nuovo e manda un messaggio anche in ottica Milan.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/ramos-portogallo-gol-assist-milan-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2297064756-44533c998ced-e1790539372668.jpg",
-   "date": "2026-10-01T21:00:50+00:00"
-  },
-  {
-   "title": "Carnevali: \"Alajbegovic poteva finire come Palestra-Inter! Yildiz, Thuram e le voci sul ritorno di Conte...”",
-   "summary": "Giovanni Carnevali, ad della Juventus, ha parlato al Festival dello Sport di Trento: di seguito tutte le sue dichiarazioni.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/carnevali-juventus-festival-sport-parole-alajbegovic-conte-spalletti-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295107564-49e887853af5-e1790104856915.jpeg",
-   "date": "2026-10-01T20:45:13+00:00"
-  },
-  {
-   "title": "Zaniolo, tutta la verità sul nuovo infortunio: è una ricaduta, quando torna e la gestione tra fanta e scambi",
-   "summary": "Zaniolo alle prese con un nuovo infortunio: cosa filtra sul suo ritorno in campo e come gestirlo al fantacalcio.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/zaniolo-infortunio-verita-quando-torna-gestione-asta-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291678023-bf5bf81bca76-e1789806709858.jpg",
-   "date": "2026-10-01T20:00:10+00:00"
-  },
-  {
-   "title": "ULTIM'ORA - Inter, Calhanoglu e Dimarco parzialmente in gruppo: cosa filtra per il Parma! E Stones...",
-   "summary": "Novità importanti dall'allenamento di oggi dell'Inter ad Appiano Gentile: le ultime su Federico Dimarco e Hakan Calhanoglu.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/ultimora-inter-calhanoglu-dimarco-parzialmente-gruppo-stones/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2244040097-dfe10eb63244-e1790862800723.jpg",
-   "date": "2026-10-01T19:15:59+00:00"
-  },
-  {
-   "title": "Juve, i tempi di recupero di tutti gli infortunati: da Cabal, Boga ed Ekhator a Yildiz, Thuram e Locatelli",
-   "summary": "Tutti i tempi di recupero dei giocatori in infermeria nella Juventus di Luciano Spalletti: ecco quando torneranno a disposizione.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-tutti-tempi-di-recupero-infortunati-cabal-boga-ekhator-yildiz-thuram-locatelli/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292122175-23d3dff2d3f0-e1788890174321.jpg",
-   "date": "2026-10-01T19:00:31+00:00"
   }
  ],
  "marketDifficulty": {
