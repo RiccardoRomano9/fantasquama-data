@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-04T18:40:13+00:00",
+ "generatedAt": "2026-10-04T21:59:07+00:00",
  "season": "2026-27",
  "gameweek": 6,
- "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -29778,7 +29778,7 @@
    "appearances": 3,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.98,
-   "playProbability": 0.83,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0433,
     "rf": 0.0007,
@@ -29799,7 +29799,7 @@
     "q90": 6.6
    },
    "learnedVote": 6.07,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0554,
     "rf": 0.0054,
@@ -29831,9 +29831,9 @@
    },
    "quotazione": 5.0,
    "fvm": 13.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -32132,7 +32132,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.04,
-   "playProbability": 0.0,
+   "playProbability": 0.83,
    "events": {
     "gf": 0.0774,
     "rf": 0.0007,
@@ -32153,7 +32153,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.11,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.83,
    "learnedEvents": {
     "gf": 0.081,
     "rf": 0.0054,
@@ -32185,9 +32185,9 @@
    },
    "quotazione": 8.0,
    "fvm": 25.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -44169,6 +44169,114 @@
  ],
  "news": [
   {
+   "title": "BREAKING - Napoli, emergenza senza fine! Olivera lascia l'Uruguay per infortunio, c'è la prima diagnosi ufficiale",
+   "summary": "Emergenza senza fine in casa Napoli: infortunio anche per Olivera, la prima diagnosi e lascia la sua nazionale.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-emergenza-senza-fine-infortunio-anche-olivera-prima-diagnosi-lascia-uruguay/",
+   "image": "https://static.sosfanta.com/202501/b611472615f600216dea39f56f0b2e0a-scaled-e1736607664207.jpg",
+   "date": "2026-10-04T21:15:43+00:00"
+  },
+  {
+   "title": "Nazionali, espulso Conceicao: cos'è successo! Woltemade, Koulierakis e segnano Ramos, Hojlund e Koopmeiners",
+   "summary": "Tutti i giocatori della Serie A scesi in campo con le nazionali in Nations League: minuti, bonus e indicazioni utili per il fantacalcio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/recap-nazionali-espulso-conceicao-cosa-e-successo-segnano-ramos-hojlund-koopmeiners-koulierakis-woltemade-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298582823-f822a8923fa8-e1791146458291.jpg",
+   "date": "2026-10-04T21:00:24+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Colombo, Traoré, Pulisic, Saelemaekers, Pinamonti, C. Adams, Zapata, K. Carlos e assist Zhegrova",
+   "summary": "La Serie A si prepara a ripartire dopo la sosta: ecco tutti gli aggiornamenti dai campi tra condizioni, recuperi e scelte di formazione.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-colombo-traore-pulisic-saelemaekers-pinamonti-zapata-c-adams-k-carlos-e-assist-zhegrova/",
+   "image": "https://static.sosfanta.com/2026/10/Zhegrova-5fff9e94b910-e1791137234972.jpg",
+   "date": "2026-10-04T20:45:08+00:00"
+  },
+  {
+   "title": "Italia, Mancini: “Kean non sta bene e torna a casa! Scamacca, Vergara, Cambiaghi, Romano e Barella deve...\"",
+   "summary": "Roberto Mancini ha parlato in conferenza stampa alla vigilia di Italia-Turchia: tutte le dichiarazioni del commissario tecnico azzurro.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/mancini-italia-kean-non-sta-bene-torna-a-casa-motivo-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-1499437339-0bc92375e540-e1791123552186.jpg",
+   "date": "2026-10-04T20:15:41+00:00"
+  },
+  {
+   "title": "Alvini: “Ho un giocatore sottovalutato: può essere da Champions\". E non è né Raimondo né Kvernadze",
+   "summary": "C'è un giocatore del Frosinone che ha stupito Alvini e che potrà in futuro raggiungere livelli da Champions secondo il tecnico.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/frosinone/alvini-frosinone-giocatore-sottovalutato-oyono-raimondo-kvernadze-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294362545-e7335b03565f-e1789224514660.jpg",
+   "date": "2026-10-04T20:00:47+00:00"
+  },
+  {
+   "title": "Fabregas: \"A Paz e Perrone devo la vita, Da Cunha vale più di un trofeo! Liberali, Douvikas e chi ho scoperto dal vivaio”",
+   "summary": "Cesc Fabregas è intervenuto al Festival dello Sport di Trento: tutte le dichiarazioni dell’allenatore del Como durante l’evento.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/fabregas-festival-trento-parole-paz-perrone-dacunha-douvikas/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2288186157-1e14c6b1a5b8-e1791119989376.jpg",
+   "date": "2026-10-04T19:45:26+00:00"
+  },
+  {
+   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 5 giornate",
+   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
+   "author": "Guglielmo Cannavale",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
+   "date": "2026-10-04T19:30:56+00:00"
+  },
+  {
+   "title": "Gattuso: \"Lotito un genio, solo un terzino è più forte di Nuno Tavares! Frattesi il mio Malen? Rispondo così”",
+   "summary": "Gennaro Gattuso è intervenuto al Festival dello Sport di Trento: le dichiarazioni dell’allenatore della Lazio durante l’evento.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/gattuso-lotito-genio-solo-terzino-forte-nuno-tavares-frattesi-malen-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2297398080-cda87541ccbf-e1791114857228.jpg",
+   "date": "2026-10-04T19:15:23+00:00"
+  },
+  {
+   "title": "Torino, dalle condizioni di Ché Adams e Zapata al possibile cambio modulo: le ultime verso l'Udinese",
+   "summary": "Ché Adams e Duvan Zapata sotto osservazione nel Torino: le ultime sui due attaccanti e sul possibile cambio di modulo dopo la sosta.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/torino-dalle-condizioni-cheadams-zapata-possibile-cambio-modulo-ultime-verso-udinese-fantacalcio/",
+   "image": "https://static.sosfanta.com/202606/015497543fb550415f5f72145ed0b307-scaled-e1781819161742.jpg",
+   "date": "2026-10-04T19:00:49+00:00"
+  },
+  {
+   "title": "Sono rimasti svincolati in oltre la metà delle leghe al fanta: occhio a questi cinque nomi per l'attacco",
+   "summary": "Questi cinque nomi sono rimasti svincolati in parecchie leghe al fantacalcio: ecco perché possono diventare occasioni interessanti in attacco.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/svincolati-leghe-fantacalcio-asta-riparazione-scambi-attaccanti-occasioni-fanta-nomi-potenziali-bonus/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290475481-e7b0e9857e13-e1790079385693.jpg",
+   "date": "2026-10-04T18:45:15+00:00"
+  },
+  {
+   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: le novità e dopo la sosta giocheranno così",
+   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: le novità e giocheranno così dopo la sosta.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
+   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
+   "date": "2026-10-04T18:30:46+00:00"
+  },
+  {
+   "title": "Casi in difesa e la gestione al fantacalcio: da Cambiaso e Vojvoda a Stones, Spence, Ndicka e Buongiorno",
+   "summary": "La sosta nazionali è nel vivo, per i fantallenatori è un periodo di scambi e per alcuni di asta di riparazione: cosa fare con questi sei casi in difesa.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/casi-in-difesa-gestione-fantacalcio-da-cambiaso-vojvoda-stones-spence-ndicka-buongiorno/",
+   "image": "https://static.sosfanta.com/2026/09/Cambiaso-d603f5d35ed0-e1790255980947.jpg",
+   "date": "2026-10-04T18:15:34+00:00"
+  },
+  {
    "title": "Barella: \"Esclusione? Il calcio non è tennis, Mancini mi chiesto questo! Io Bastoni e Donnarumma...\"",
    "summary": "Le parole di Nicolò Barella in conferenza stampa alla vigilia di Italia-Turchia. Il centrocampista dell'Inter ha spiegato cosa Mancini ha dato a lui e non solo.",
    "author": "Andrea Ajello",
@@ -44178,31 +44286,13 @@
    "date": "2026-10-04T18:00:14+00:00"
   },
   {
-   "title": "Italia, Mancini: “Kean non sta bene e torna a casa! Scamacca, Vergara, Cambiaghi, Romano e Barella deve...\"",
-   "summary": "Roberto Mancini ha parlato in conferenza stampa alla vigilia di Italia-Turchia: tutte le dichiarazioni del commissario tecnico azzurro.",
+   "title": "Alvini: “I miei figli arrabbiati con me per il fanta: ecco il motivo! Quando torna Raimondo, Calò, Bobcek, Palmisani…”",
+   "summary": "Massimiliano Alvini, allenatore del Frosinone, ha parlato a Palazzo Benvenuti durante il Festival dello Sport: tutte le sue dichiarazioni.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/mancini-italia-kean-non-sta-bene-torna-a-casa-motivo-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-1499437339-0bc92375e540-e1791123552186.jpg",
-   "date": "2026-10-04T17:45:41+00:00"
-  },
-  {
-   "title": "La Guida all'asta per il fantacalcio 2026-27: fascia per fascia, ecco chi prendere con le novità dopo 5 giornate",
-   "summary": "Ecco la nostra Guida all'Asta per il fantacalcio, edizione 2026-2027. Come sempre gratuita, con tutte le fasce aggiornate quotidianamente.",
-   "author": "Guglielmo Cannavale",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
-   "date": "2026-10-04T17:30:56+00:00"
-  },
-  {
-   "title": "Fabregas: \"A Paz e Perrone devo la vita, Da Cunha vale più di un trofeo! Liberali, Douvikas e chi ho scoperto dal vivaio”",
-   "summary": "Cesc Fabregas è intervenuto al Festival dello Sport di Trento: tutte le dichiarazioni dell’allenatore del Como durante l’evento.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/fabregas-festival-trento-parole-paz-perrone-dacunha-douvikas/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2288186157-1e14c6b1a5b8-e1791119989376.jpg",
-   "date": "2026-10-04T17:15:26+00:00"
+   "url": "https://www.sosfanta.com/squadra/frosinone/alvini-figli-arrabbiati-fanta-quando-torna-raimondo-calo-palmisani-fantacalcio-frosinone/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296246308-b4bf9aa5d54a-e1791105141935.jpg",
+   "date": "2026-10-04T17:45:39+00:00"
   },
   {
    "title": "De Rossi: \"Io ho zero dubbi, cosa non sta funzionando! Sulle condizioni di Colombo, El Sharaawy, Traoré...\"",
@@ -44212,33 +44302,6 @@
    "url": "https://www.sosfanta.com/squadra/genoa/de-rossi-io-ho-zero-dubbi-cosa-non-sta-funzionando-sulle-condizioni-di-colombo-el-sharaawy-traore/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294441336-7ddb2f039d91-e1789499039717.jpg",
    "date": "2026-10-04T17:00:15+00:00"
-  },
-  {
-   "title": "Gattuso: \"Lotito un genio, solo un terzino è più forte di Nuno Tavares! Frattesi il mio Malen? Rispondo così”",
-   "summary": "Gennaro Gattuso è intervenuto al Festival dello Sport di Trento: le dichiarazioni dell’allenatore della Lazio durante l’evento.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/gattuso-lotito-genio-solo-terzino-forte-nuno-tavares-frattesi-malen-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2297398080-cda87541ccbf-e1791114857228.jpg",
-   "date": "2026-10-04T16:45:23+00:00"
-  },
-  {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: le novità e dopo la sosta giocheranno così",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: le novità e giocheranno così dopo la sosta.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
-   "date": "2026-10-04T16:30:46+00:00"
-  },
-  {
-   "title": "Sono rimasti svincolati in oltre la metà delle leghe al fanta: occhio a questi cinque nomi per l'attacco",
-   "summary": "Questi cinque nomi sono rimasti svincolati in parecchie leghe al fantacalcio: ecco perché possono diventare occasioni interessanti in attacco.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/svincolati-leghe-fantacalcio-asta-riparazione-scambi-attaccanti-occasioni-fanta-nomi-potenziali-bonus/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290475481-e7b0e9857e13-e1790079385693.jpg",
-   "date": "2026-10-04T16:15:15+00:00"
   },
   {
    "title": "Guarda la rivelazione di Gila: \"L'Inter mi voleva, ma ho rifiutato per questo motivo preciso\"",
@@ -44259,15 +44322,6 @@
    "date": "2026-10-04T16:00:29+00:00"
   },
   {
-   "title": "Casi in difesa e la gestione al fantacalcio: da Cambiaso e Vojvoda a Stones, Spence, Ndicka e Buongiorno",
-   "summary": "La sosta nazionali è nel vivo, per i fantallenatori è un periodo di scambi e per alcuni di asta di riparazione: cosa fare con questi sei casi in difesa.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/casi-in-difesa-gestione-fantacalcio-da-cambiaso-vojvoda-stones-spence-ndicka-buongiorno/",
-   "image": "https://static.sosfanta.com/2026/09/Cambiaso-d603f5d35ed0-e1790255980947.jpg",
-   "date": "2026-10-04T15:45:34+00:00"
-  },
-  {
    "title": "Italia, Kean non si allena col gruppo verso la Turchia: il motivo dello stop e cosa trapela",
    "summary": "Moise Kean è alle prese con un piccolo problema fisico che lo mette in dubbio per Italia-Turchia, ecco le ultime sulle sue condizioni.",
    "author": "Andrea Ajello",
@@ -44275,15 +44329,6 @@
    "url": "https://www.sosfanta.com/news/kean-italia-non-si-allena-motivo-cosa-filtra-condizioni-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/Kean-9e08d4611504-e1790941738588.jpg",
    "date": "2026-10-04T15:30:56+00:00"
-  },
-  {
-   "title": "Alvini: “I miei figli arrabbiati con me per il fanta: ecco il motivo! Quando torna Raimondo, Calò, Bobcek, Palmisani…”",
-   "summary": "Massimiliano Alvini, allenatore del Frosinone, ha parlato a Palazzo Benvenuti durante il Festival dello Sport: tutte le sue dichiarazioni.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/frosinone/alvini-figli-arrabbiati-fanta-quando-torna-raimondo-calo-palmisani-fantacalcio-frosinone/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296246308-b4bf9aa5d54a-e1791105141935.jpg",
-   "date": "2026-10-04T15:15:39+00:00"
   },
   {
    "title": "Milan, da valutare le condizioni di Saelemaekers: ecco come sta e cosa filtra verso il Sassuolo",
@@ -44353,7 +44398,7 @@
    "summary": "Da Favasuli a Meret, Spinazzola, Anguissa, Santos e McTominay: gli aggiornamenti dall’infermeria del Napoli in vista della ripresa.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli/",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-infortuni-rientri-mctominay-anguissa-santos-meret-spinazzola/",
    "image": "https://static.sosfanta.com/2026/09/McTominay-d8ccee9587c2-e1788866175182.jpg",
    "date": "2026-10-04T10:00:41+00:00"
   },
@@ -44482,51 +44527,6 @@
    "url": "https://www.sosfanta.com/news/genoa-prima-diagnosi-infortunio-colombo-de-rossi/",
    "image": "https://static.sosfanta.com/202604/05ed452ed6344d9a43db040999653f5a.jpg",
    "date": "2026-10-03T18:00:56+00:00"
-  },
-  {
-   "title": "Lazio, tutti gli spunti dal 3-3 con la Juve Stabia. Gattuso: \"I tempi per Gudmundsson, spero che...\"",
-   "summary": "I biancocelesti, privi di diversi giocatori, pareggiano nel test disputato a Formello contro la formazione di Serie B: tutti gli spunti.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/lazio-amichevole-juve-stabia-zaccagni-noslin-pinamonti-dele-bashiru-gattuso-gudmundsson/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293135406-b4ca637a2c7d.jpeg",
-   "date": "2026-10-03T17:00:58+00:00"
-  },
-  {
-   "title": "Liberali: \"Perché ho deciso di lasciare il Milan! Palmisani, Baturina, il mio ruolo e io con Nico Paz…\"",
-   "summary": "Dagli idoli al ruolo fino al passato con il Milan: tutte le dichiarazioni del fantasista che in estate si è trasferito al Como.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/liberali-milan-como-ruolo-nico-paz-baturina-palmisani/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2288200468-0b2c1a07a555-e1785359467464.jpg",
-   "date": "2026-10-03T16:45:32+00:00"
-  },
-  {
-   "title": "Atalanta, ecco chi recupera e chi no dopo la sosta: da Raspadori e Sulemana a Hien e Kossounou",
-   "summary": "L'Atalanta si prepara ad affrontare 9 partite nei 27 giorni dopo la sosta. Ecco le ultime sugli infortunati, da Raspadori a Hien e Kossounou.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-chi-recupera-dopo-sosta-raspadori-sulemana-hien-kossounou/",
-   "image": "https://static.sosfanta.com/202603/f7295e973cddb3883234c1ab18ca70a2.png",
-   "date": "2026-10-03T16:00:28+00:00"
-  },
-  {
-   "title": "Gasperini: \"A Malen ho detto che può battere il record di Higuain\"",
-   "summary": "Le parole del tecnico della Roma su Donyell Malen: l'olandese, a detta sua, può arrivare a fare il record di gol.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/video/gasperini-a-malen-ho-detto-che-puo-battere-il-record-di-higuain/",
-   "image": "https://static.sosfanta.com/202605/519a687f65e648dd0b6cb4c8da08d8ae.jpeg",
-   "date": "2026-10-03T15:29:23+00:00"
-  },
-  {
-   "title": "Chivu: \"La Champions è il sogno di tutti. Ecco cosa voglio creare all'Inter! Su Pio Esposito...\"",
-   "summary": "L'allenatore dell'Inter ha parlato della sua esperienza in nerazzurro ma anche dell'avventura in Champions League.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/chivu-inter-obiettivo-sogno-champions-pio-esposito/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288591518-de75287ebab6-e1788124518936.jpeg",
-   "date": "2026-10-03T15:00:58+00:00"
   }
  ],
  "marketDifficulty": {
