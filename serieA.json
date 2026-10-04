@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04T08:32:18+00:00",
+ "generatedAt": "2026-10-04T14:04:23+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -1044,7 +1044,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.98,
-   "playProbability": 0.285,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0606,
     "rf": 0.0053,
@@ -1065,7 +1065,7 @@
     "q90": 6.25
    },
    "learnedVote": 6.23,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1255,
     "rf": 0.0096,
@@ -1097,9 +1097,9 @@
    },
    "quotazione": 11.0,
    "fvm": 52.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -9132,7 +9132,7 @@
    "appearances": 0,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.13,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0452,
     "rf": 0.0033,
@@ -9153,7 +9153,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.99,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0441,
     "rf": 0.0052,
@@ -9185,9 +9185,9 @@
    },
    "quotazione": 2.0,
    "fvm": 6.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -44185,6 +44185,105 @@
  ],
  "news": [
   {
+   "title": "Lazio, Gattuso studia una nuova soluzione offensiva: come può cambiare la formazione in vista della ripresa",
+   "summary": "Le amichevoli disputate durante la sosta hanno offerto nuove indicazioni a Gattuso: cosa può cambiare nell’attacco della Lazio alla ripresa.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-gattuso-studia-nuova-soluzione-offensiva-come-puo-cambiare-formazione-vista-della-ripresa-fantacalcio-pinamonti-noslin/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292478309-244f498559a6-e1788109741838.jpeg",
+   "date": "2026-10-04T14:00:44+00:00"
+  },
+  {
+   "title": "Sono rimasti svincolati in oltre la metà delle leghe al fanta: occhio a questi cinque nomi per l'attacco",
+   "summary": "Questi cinque nomi sono rimasti svincolati in parecchie leghe al fantacalcio: ecco perché possono diventare occasioni interessanti in attacco.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/svincolati-leghe-fantacalcio-asta-riparazione-scambi-attaccanti-occasioni-fanta-nomi-potenziali-bonus/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290475481-e7b0e9857e13-e1790079385693.jpg",
+   "date": "2026-10-04T13:45:15+00:00"
+  },
+  {
+   "title": "Casi in difesa e la gestione al fantacalcio: da Cambiaso e Vojvoda a Stones, Spence, Ndicka e Buongiorno",
+   "summary": "La sosta nazionali è nel vivo, per i fantallenatori è un periodo di scambi e per alcuni di asta di riparazione: cosa fare con questi sei casi in difesa.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/casi-in-difesa-gestione-fantacalcio-da-cambiaso-vojvoda-stones-spence-ndicka-buongiorno/",
+   "image": "https://static.sosfanta.com/2026/09/Cambiaso-d603f5d35ed0-e1790255980947.jpg",
+   "date": "2026-10-04T13:15:34+00:00"
+  },
+  {
+   "title": "Roma, ottimismo per il recupero di Malen: le sue condizioni e cosa filtra verso il Como",
+   "summary": "Donyell Malen verso la ripresa del campionato con la Roma: come sta l’attaccante e cosa filtra sul suo impiego nella gara contro il Como.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-ottimismo-per-il-recupero-di-malen-le-sue-condizioni-e-cosa-filtra-verso-il-como/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
+   "date": "2026-10-04T13:00:24+00:00"
+  },
+  {
+   "title": "Alvini: “I miei figli arrabbiati con me per il fanta: ecco il motivo! Quando torna Raimondo, Calò, Palmisani…”",
+   "summary": "Massimiliano Alvini, allenatore del Frosinone, ha parlato a Palazzo Benvenuti durante il Festival dello Sport: tutte le sue dichiarazioni.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/frosinone/alvini-figli-arrabbiati-fanta-quando-torna-raimondo-calo-palmisani-fantacalcio-frosinone/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296246308-b4bf9aa5d54a-e1791105141935.jpg",
+   "date": "2026-10-04T12:15:39+00:00"
+  },
+  {
+   "title": "Milan, il piano di Amorim per valorizzare Pulisic e Hutchinson: cosa può cambiare dopo la sosta",
+   "summary": "Amorim prepara la ripresa del Milan: gli aggiornamenti su Pulisic e Hutchinson e cosa può cambiare nelle prossime partite dei rossoneri.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-piano-amorim-valorizzare-pulisic-hutchinson-cosa-puo-cambiare-dopo-sosta-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/pulisic-1b780fd705c8-e1789032035584.jpeg",
+   "date": "2026-10-04T12:00:59+00:00"
+  },
+  {
+   "title": "NEWS - Malen, McTominay, Conceicao, Alajbegovic, Bernabé, Spence, Alaba, Zaniolo, Solet, Meret, Obert: le ultime",
+   "summary": "Serie A ferma per la sosta nazionali, ma dai quotidiani arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-malen-mctominay-conceicao-alajbegovic-bernabe-spence-alaba-zaniolo-solet-meret-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295596757-d568d68ea81d-e1791104108542.jpg",
+   "date": "2026-10-04T11:15:00+00:00"
+  },
+  {
+   "title": "Juventus, la verità sulle condizioni di Conceicao e Alajbegovic: le ultime verso il Cagliari",
+   "summary": "Arrivano aggiornamenti dall’infermeria della Juventus: le ultime sulle condizioni di Conceicao e Alajbegovic durante la sosta.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-la-verita-sulle-condizioni-di-conceicao-e-alajbegovic-le-ultime-verso-il-cagliari/",
+   "image": "https://static.sosfanta.com/202605/776fdcf3c2baf42a38a25fc8c1424802.jpeg",
+   "date": "2026-10-04T11:00:19+00:00"
+  },
+  {
+   "title": "Spalletti: \"Mi sento libero e felice, è in atto un cambiamento. Yildiz è accostabile a Kvara, su Vlahovic...\"",
+   "summary": "Luciano Spalletti parla a Tuttosport della sua Juventus e dei principali temi del momento, Yildiz e non solo: tutte le dichiarazioni del tecnico bianconero.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-libero-felice-yildiz-kvara-vlahovic-fantacalcio-juventus/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2297715420-7676ed4c7526-e1791097736843.jpg",
+   "date": "2026-10-04T10:15:12+00:00"
+  },
+  {
+   "title": "Napoli, martedì il test d'idoneità fisica per McTominay: le ultime su Favasuli, Anguissa, Meret, Santos e Spinazzola",
+   "summary": "Da Favasuli a Meret, Spinazzola, Anguissa, Santos e McTominay: gli aggiornamenti dall’infermeria del Napoli in vista della ripresa.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli/",
+   "image": "https://static.sosfanta.com/2026/09/McTominay-d8ccee9587c2-e1788866175182.jpg",
+   "date": "2026-10-04T10:00:41+00:00"
+  },
+  {
+   "title": "Udinese, il punto su Alaba, Solet, Zaniolo, Davis e Gueye durante la sosta: le ultime verso il Torino",
+   "summary": "Tra rientri e problemi fisici, arrivano aggiornamenti dall’Udinese: le ultime su Alaba, Solet, Zaniolo, Davis e Gueye verso il Torino.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/udinese-il-punto-su-alaba-solet-zaniolo-davis-e-gueye-durante-la-sosta-le-ultime-verso-il-torino/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2289726046-37cc32faa047-e1788950193147.jpg",
+   "date": "2026-10-04T09:00:52+00:00"
+  },
+  {
    "title": "Inter, indicazioni positive per Spence dopo il test: rientro sempre più vicino, cosa filtra verso il Parma",
    "summary": "Djed Spence prosegue il percorso di recupero con l’Inter: lo staff valuterà le sue condizioni nelle prossime sedute di allenamento.",
    "author": "Francesco Mangiagli",
@@ -44201,15 +44300,6 @@
    "url": "https://www.sosfanta.com/news/obert-out-contro-far-oer-ct-spiega-problema-ginocchio/",
    "image": "https://static.sosfanta.com/202503/116813b2af5d3f6d71c8ebc831dd0ece-e1742975128647.jpg",
    "date": "2026-10-04T07:30:27+00:00"
-  },
-  {
-   "title": "Spalletti: \"Mi sento libero e felice, è in atto un cambiamento. Yildiz è accostabile a Kvara, su Vlahovic...\"",
-   "summary": "Luciano Spalletti parla a Tuttosport della sua Juventus e dei principali temi del momento, Yildiz e non solo: tutte le dichiarazioni del tecnico bianconero.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-libero-felice-yildiz-kvara-vlahovic-fantacalcio-juventus/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2297715420-7676ed4c7526-e1791097736843.jpg",
-   "date": "2026-10-04T07:15:12+00:00"
   },
   {
    "title": "Romano - Bernabé, il futuro al Parma è in bilico: cosa filtra sul suo possibile addio a parametro zero",
@@ -44453,96 +44543,6 @@
    "url": "https://www.sosfanta.com/news/napoli-mctominay-condizioni-idoneita-sportivo-cosa-filtra-quando-torna/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2289750320-352746456ca1-e1788884848363.jpg",
    "date": "2026-10-03T09:00:29+00:00"
-  },
-  {
-   "title": "Giuntoli: \"Quando tornano Raspadori, Hien, Kossounou e Sulemana! Gaetano, Elmas, Rowe e come ho preso Kessie\"",
-   "summary": "Il direttore dell'area tecnica dell'Atalanta Cristian Giuntoli è intervenuto oggi al Festival dello Sport di Trento: ecco le sue dichiarazioni dal palco e a...",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/giuntoli-quando-tornano-raspadori-hien-kossounou-sulemana-gaetano-elmas-rowe-kessie-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2186601189-4589ff814042-e1790955733375.jpg",
-   "date": "2026-10-03T08:45:40+00:00"
-  },
-  {
-   "title": "Juventus, Alajbegovic segna con la Bosnia e poi lascia il campo: il motivo e la verità sulle sue condizioni",
-   "summary": "L'esterno offensivo della Juve ha segnato alla Svezia prima di uscire nel finale: ecco cosa filtra sulle sue condizioni.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/alajbegovic-infortunio-condizioni-come-sta-tempi-recupero/",
-   "image": "https://static.sosfanta.com/2026/09/Alajbegovic-ddcc7c056973-e1788715867635.jpg",
-   "date": "2026-10-03T08:00:44+00:00"
-  },
-  {
-   "title": "Stones: \"Sono all'Inter per vincere, la mia qualità migliore è questa! Ai tifosi faccio una promessa...\"",
-   "summary": "John Stones racconta i suoi primi giorni all’Inter: dall’inserimento nel gruppo agli obiettivi stagionali, con una promessa chiara ai tifosi",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-stones-parole-intervista-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295277988-b1142ca50fbf-e1789416746632.jpeg",
-   "date": "2026-10-03T07:00:23+00:00"
-  },
-  {
-   "title": "Gasperini: \"Come sta Cristante e perché via Romano! Mancini, Hermoso, Lulli, Dybala e se Malen fa 30 gol...\"",
-   "summary": "Gian Piero Gasperini, tecnico della Roma, ha parlato oggi al Festival dello Sport di Trento: ecco le sue dichiarazioni dal palco e a margine dell'evento.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/gasperini-come-sta-cristante-perche-via-romano-mancini-hermoso-lulli-pisilli-dybala-malen-30-gol/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296543450-0e70aa0c741e-e1790955598294.jpg",
-   "date": "2026-10-03T06:45:07+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Cambiaso, Gabbia, Loftus, Neres, Politano, Dimarco, Jones, Davis, Fortini, Casadei e stop Colombo",
-   "summary": "Campionato fermo per la sosta nazionali, ma dai campi arrivano importanti notizie in chiave fantacalcio sugli infortunati e non solo: ecco le principali.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/dai-campi-cambiaso-gabbia-loftus-neres-politano-dimarco-jones-davis-fortini-casadei-stop-colombo/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-02-19-39-20-8687a02859fc-e1790962776545.jpg",
-   "date": "2026-10-03T06:00:48+00:00"
-  },
-  {
-   "title": "S. Esposito: \"Un privilegio questa maglia, felice di essere tornato a questi livelli. Il mio percorso...\"",
-   "summary": "Sebastiano Esposito ha parlato ai microfoni della Rai dopo l’1-1 dell’Italia contro la Francia in Nations League: le sue dichiarazioni.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/sebastiano-esposito-privilegio-questa-maglia-felice-essere-tornato-questi-livelli-mio-percorso-fantacalcio-nazionale/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298283461-a6eabd2c4572-e1790975926984.jpg",
-   "date": "2026-10-03T06:00:02+00:00"
-  },
-  {
-   "title": "Bastoni: \"Un episodio negativo non rovinerà la mia carriera! Il gol? Nasce perché dopo l'1-0...\"",
-   "summary": "Il difensore della Nazionale Alessandro Bastoni ha parlato ai microfoni della Rai e di Sky dopo il gol alla Francia e il pari in Nations League.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/bastoni-episodio-negativo-non-rovinera-carriera-gol/",
-   "image": "https://static.sosfanta.com/202603/7ef5b5b2ed05212c07d017f67fd1bef1.png",
-   "date": "2026-10-02T21:30:48+00:00"
-  },
-  {
-   "title": "Nazionali, De Bruyne e Adzic show! Zielinski, CDK, Bastoni, Dragusin, Zalewski e da valutare Alajbegovic",
-   "summary": "Tutti i giocatori della Serie A scesi in campo con le nazionali in Nations League: minuti, bonus e indicazioni utili per il fantacalcio.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/nazionali-bruyne-adzic-show-zielinski-cdk-bastoni-dragusin-zalewski-valutare-alajbegovic/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2297917343-a2d46d16f584-e1790975346803.jpg",
-   "date": "2026-10-02T21:00:21+00:00"
-  },
-  {
-   "title": "Lecce, si rivede Geubbels: l'attaccante si è allenato parzialmente in gruppo, Berisha...",
-   "summary": "Il francese è tornato a lavorare parzialmente con il gruppo e si avvicina al rientro completo, gli aggiornamenti su Berisha.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lecce/lecce-geubbels-parzialmente-in-gruppo-berisha-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Geubbels-ddaff9866be6-e1788199169428.jpg",
-   "date": "2026-10-02T20:00:53+00:00"
-  },
-  {
-   "title": "Abate studia il nuovo Torino: la difesa a 4, il recupero di Casadei e la speranza per Che Adams...",
-   "summary": "Abate è a lavoro per arrivare al meglio dopo la sosta quando il Torino affronterà l'Udinese. Le ultime tra cambiamenti possibili e giocatori che recuperano.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/torino-abate-casadei-che-adams-fantacalcio/",
-   "image": "https://static.sosfanta.com/202604/4f448cf8eed74403668e4d9b2101879c.jpg",
-   "date": "2026-10-02T19:00:54+00:00"
   }
  ],
  "marketDifficulty": {
