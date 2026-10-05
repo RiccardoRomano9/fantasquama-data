@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T14:58:55+00:00",
+ "generatedAt": "2026-10-05T17:07:35+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -7808,7 +7808,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.18,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.0536,
     "rf": 0.0072,
@@ -7829,7 +7829,7 @@
     "q90": 6.42
    },
    "learnedVote": 6.4,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1057,
     "rf": 0.016,
@@ -7861,8 +7861,8 @@
    },
    "quotazione": 10.0,
    "fvm": 27.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -16902,7 +16902,7 @@
    "appearances": 3,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.12,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0627,
     "rf": 0.0072,
@@ -16923,7 +16923,7 @@
     "q90": 6.36
    },
    "learnedVote": 6.21,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.1004,
     "rf": 0.0425,
@@ -16955,8 +16955,8 @@
    },
    "quotazione": 25.0,
    "fvm": 177.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18450,7 +18450,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.19,
-   "playProbability": 0.285,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.1299,
     "rf": 0.0061,
@@ -18471,7 +18471,7 @@
     "q90": 6.84
    },
    "learnedVote": 6.24,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1056,
     "rf": 0.0065,
@@ -18503,9 +18503,9 @@
    },
    "quotazione": 11.0,
    "fvm": 35.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -24856,7 +24856,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.09,
-   "playProbability": 0.285,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0659,
     "rf": 0.0006,
@@ -24877,7 +24877,7 @@
     "q90": 6.45
    },
    "learnedVote": 6.16,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0519,
     "rf": 0.0048,
@@ -24909,9 +24909,9 @@
    },
    "quotazione": 3.0,
    "fvm": 13.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -28536,7 +28536,7 @@
    "appearances": 0,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.97,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0492,
     "rf": 0.0007,
@@ -28557,7 +28557,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.9,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0569,
     "rf": 0.0054,
@@ -28589,9 +28589,9 @@
    },
    "quotazione": 1.0,
    "fvm": 3.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -43807,14 +43807,14 @@
     {
      "opzioni": [
       {
-       "player_id": "184",
-       "giocatore": "Bernardeschi",
+       "player_id": "2167",
+       "giocatore": "Orsolini",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "2167",
-       "giocatore": "Orsolini",
+       "player_id": "184",
+       "giocatore": "Bernardeschi",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -44169,6 +44169,78 @@
  ],
  "news": [
   {
+   "title": "Torino, da valutare le condizioni di Fortini dopo aver lasciato l’U21: il motivo dello stop",
+   "summary": "Niccolò Fortini è tornato dagli impegni con l’Under 21 con un problema fisico: il Torino valuta le sue condizioni verso l’Udinese.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/torino-valutare-condizioni-fortini-dopo-aver-lasciato-u21-motivo-dello-stop-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291734366-7749d60c9585-e1791193449612.jpg",
+   "date": "2026-10-05T17:00:05+00:00"
+  },
+  {
+   "title": "Gazzetta - Saelemaekers, decisione presa sull’operazione: lungo stop, ecco quanto starà fuori",
+   "summary": "Novità in casa Milan per Alexis Saelemaekers: la decisione dopo gli accertamenti e cosa filtra sui possibili tempi di recupero.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/gazzetta-saelemaekers-decisione-presa-operazione-lungo-stop-ecco-quanto-stara-fuori-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/202602/02fc42075b633eeaee56dd269c6f8066-scaled-e1769937455807.jpg",
+   "date": "2026-10-05T16:45:30+00:00"
+  },
+  {
+   "title": "Napoli, le novità dall'allenamento di oggi: Meret, Spinazzola, Anguissa e slitta la visita di McTominay",
+   "summary": "Lavoro personalizzato per Alisson, Anguissa e McTominay, la cui visita al CONI slitta a mercoledì: il report verso il match col Frosinone.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-allenamento-frosinone-alisson-anguissa-mctominay-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/McTominay-d8ccee9587c2-e1788866175182.jpg",
+   "date": "2026-10-05T16:30:39+00:00"
+  },
+  {
+   "title": "Rigoristi, le sei novità dall’inizio di stagione e cosa succede: da Genoa e Lazio a Cagliari e Fiorentina",
+   "summary": "Pochissimi rigori concessi fin qui in Serie A dagli arbitri, ma ci sono già importanti novità sulle gerarchie: ecco le sei principali per il fantacalcio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/rigoristi-sei-novita-dallinizio-di-stagione-e-cosa-succede-fantacalcio-da-genoa-e-lazio-a-cagliari-e-fiorentina/",
+   "image": "https://static.sosfanta.com/2026/09/Daniel-Maldini-3e189dc3b4a0-e1790067962990.jpg",
+   "date": "2026-10-05T16:15:11+00:00"
+  },
+  {
+   "title": "Juventus, le ultime sulle condizioni di Conceicao, Ekhator e Cabal: cosa filtra verso il Cagliari",
+   "summary": "Dalla situazione di Conceicao ai possibili rientri di Ekhator e Cabal: il punto sugli infortunati della Juventus dopo la sosta.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-ultime-condizioni-conceicao-ekhator-cabal-cosa-filtra-verso-cagliari-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/202604/27e054e64e98f065c44d510fd5a7cbc0-e1777238400122.jpg",
+   "date": "2026-10-05T16:00:13+00:00"
+  },
+  {
+   "title": "FLASH - L’infortunio di Saelemaekers è più grave del previsto: i nuovi esami e il comunicato",
+   "summary": "Arriva l'esito degli esami ai quali si è sottoposto l'esterno belga: le sue condizioni e cosa filtra sui tempi di recupero.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/saelemaekers-infortunio-esami-esito-condizioni-comunicato-milan/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2297696964-79b2c0a82136-e1791215245515.jpg",
+   "date": "2026-10-05T15:15:43+00:00"
+  },
+  {
+   "title": "Milan, stop per Estupinan con l'Ecuador: l'annuncio del ct e il comunicato sulle sue condizioni",
+   "summary": "Nuovo problema da monitorare in casa Milan dopo lo stop di Saelemaekers: gli aggiornamenti su Estupinan verso il Sassuolo.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-stop-estupinan-ecuador-annuncio-ct-gallardo-condizioni-cosa-filtra-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/202601/cdd04b4d0389d105f0d29ac7aaf1f64c-e1769622871374.jpeg",
+   "date": "2026-10-05T15:00:16+00:00"
+  },
+  {
+   "title": "Italia, la probabile formazione con la Turchia: da Vergara e Barella a Doumbia, Mancini, Scamacca e Di Lorenzo",
+   "summary": "L’Italia affronta la Turchia nella quarta partita del girone di Nations League, ecco le possibili scelte di Roberto Mancini.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/italia-probabile-formazione-turchia-vergara-barella-doumbia-mancini-scamacca-dilorenzo-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295201328-06b32dc2fdc5-e1791199605229.jpg",
+   "date": "2026-10-05T14:45:58+00:00"
+  },
+  {
    "title": "Udinese, Gueye si è operato: lungo stop! Il comunicato del club friulano e i tempi di recupero",
    "summary": "Operazione alla caviglia per l'attaccante dell'Udinese: ecco quanto dovrà rimanere fermo ai box.",
    "author": "Michael Di Chiaro",
@@ -44178,13 +44250,13 @@
    "date": "2026-10-05T14:30:40+00:00"
   },
   {
-   "title": "Rigoristi, le sei novità dall’inizio di stagione e cosa succede: da Genoa e Lazio a Cagliari e Fiorentina",
-   "summary": "Pochissimi rigori concessi fin qui in Serie A dagli arbitri, ma ci sono già importanti novità sulle gerarchie: ecco le sei principali per il fantacalcio.",
-   "author": "Alessandro Cosattini",
+   "title": "Gasperini: \"Rispondo su Cristante contro Como e Real! Dybala, Malen, Soulé e la verità su Koné e il Chelsea\"",
+   "summary": "Gian Piero Gasperini, allenatore della Roma, ha rilasciato un'intervista ai microfoni di Sky Sport. Ecco le sue parole verso la ripresa del campionato.",
+   "author": "Marco Astori",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/rigoristi-sei-novita-dallinizio-di-stagione-e-cosa-succede-fantacalcio-da-genoa-e-lazio-a-cagliari-e-fiorentina/",
-   "image": "https://static.sosfanta.com/2026/09/Daniel-Maldini-3e189dc3b4a0-e1790067962990.jpg",
-   "date": "2026-10-05T14:15:11+00:00"
+   "url": "https://www.sosfanta.com/squadra/roma/gasperini-rispondo-cristante-contro-como-real-dybala-malen-soule-kone-chelsea/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-05-12-59-56-2edf41cc42dc-e1791198010327.jpg",
+   "date": "2026-10-05T14:15:54+00:00"
   },
   {
    "title": "Bologna, niente amichevole ieri per Bernardeschi: il motivo e cosa filtra sul ritorno in gruppo",
@@ -44196,13 +44268,13 @@
    "date": "2026-10-05T14:00:02+00:00"
   },
   {
-   "title": "Italia, la probabile formazione con la Turchia: da Vergara e Barella a Doumbia, Mancini, Scamacca e Di Lorenzo",
-   "summary": "L’Italia affronta la Turchia nella quarta partita del girone di Nations League, ecco le possibili scelte di Roberto Mancini.",
-   "author": "Francesco Mangiagli",
+   "title": "Ds Udinese: \"Quando torna Davis e come sta Zaniolo! Alaba, Gueye, Ekkelenkamp e Piotrowski rientra prima\"",
+   "summary": "Gianluca Nani, direttore sportivo dell'Udinese, ha rilasciato un'intervista ai microfoni del Messaggero Veneto. Ecco le sue dichiarazioni.",
+   "author": "Marco Astori",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/italia-probabile-formazione-turchia-vergara-barella-doumbia-mancini-scamacca-dilorenzo-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295201328-06b32dc2fdc5-e1791199605229.jpg",
-   "date": "2026-10-05T13:45:58+00:00"
+   "url": "https://www.sosfanta.com/squadra/udinese/ds-udinese-quando-torna-davis-come-sta-zaniolo-alaba-gueye-ekkelenkamp-piotrowski-rientra-prima/",
+   "image": "https://static.sosfanta.com/2026/10/image-17-711e212f4755.jpg",
+   "date": "2026-10-05T13:45:48+00:00"
   },
   {
    "title": "Amorim: \"Ramos deve abituarsi a questa cosa! Su Modric, il modulo e la difesa a quattro...\"",
@@ -44214,15 +44286,6 @@
    "date": "2026-10-05T13:30:23+00:00"
   },
   {
-   "title": "Gasperini: \"Rispondo su Cristante contro Como e Real! Dybala, Malen, Soulé e la verità su Koné e il Chelsea\"",
-   "summary": "Gian Piero Gasperini, allenatore della Roma, ha rilasciato un'intervista ai microfoni di Sky Sport. Ecco le sue parole verso la ripresa del campionato.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/gasperini-rispondo-cristante-contro-como-real-dybala-malen-soule-kone-chelsea/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-05-12-59-56-2edf41cc42dc-e1791198010327.jpg",
-   "date": "2026-10-05T13:15:54+00:00"
-  },
-  {
    "title": "Juventus, Alajbegovic escluso dai convocati della Bosnia: il motivo della decisione",
    "summary": "Alajbegovic è stato valutato dopo l’ultimo impegno con la Bosnia: gli aggiornamenti sulle sue condizioni e sulla gestione concordata.",
    "author": "Francesco Mangiagli",
@@ -44230,15 +44293,6 @@
    "url": "https://www.sosfanta.com/squadra/juventus/juventus-alajbegovic-escluso-convocati-bosnia-motivo-decisione-infortunati-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Alajbegovic-ddcc7c056973-e1788715867635.jpg",
    "date": "2026-10-05T13:00:21+00:00"
-  },
-  {
-   "title": "Ds Udinese: \"Quando torna Davis e come sta Zaniolo! Alaba, Gueye, Ekkelenkamp e Piotrowski rientra prima\"",
-   "summary": "Gianluca Nani, direttore sportivo dell'Udinese, ha rilasciato un'intervista ai microfoni del Messaggero Veneto. Ecco le sue dichiarazioni.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/ds-udinese-quando-torna-davis-come-sta-zaniolo-alaba-gueye-ekkelenkamp-piotrowski-rientra-prima/",
-   "image": "https://static.sosfanta.com/2026/10/image-17-711e212f4755.jpg",
-   "date": "2026-10-05T12:45:48+00:00"
   },
   {
    "title": "Napoli, ecco i tempi di recupero di Olivera dopo la lesione di ieri e quante partite salterà",
@@ -44473,60 +44527,6 @@
    "url": "https://www.sosfanta.com/squadra/genoa/de-rossi-io-ho-zero-dubbi-cosa-non-sta-funzionando-sulle-condizioni-di-colombo-el-sharaawy-traore/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2294441336-7ddb2f039d91-e1789499039717.jpg",
    "date": "2026-10-04T17:00:15+00:00"
-  },
-  {
-   "title": "Guarda la rivelazione di Gila: \"L'Inter mi voleva, ma ho rifiutato per questo motivo preciso\"",
-   "summary": "Mario Gila è stato ospite della nona edizione del Festival dello Sport di Trento: ecco il retroscena svelato dal difensore del Milan.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/gila-rifiutato-inter-motivo-preciso/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292495046-bac0bb04044c-e1788784544995.jpg",
-   "date": "2026-10-04T16:07:05+00:00"
-  },
-  {
-   "title": "Cagliari, problema al retto femorale per Kevin Carlos: le sue condizioni e le ultime verso la Juventus",
-   "summary": "Kevin Carlos resta sotto osservazione in casa Cagliari: gli aggiornamenti sull’infortunio e sulla possibile presenza contro la Juventus.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/cagliari/cagliari-problema-al-retto-femorale-per-kevin-carlos-le-sue-condizioni-e-cosa-filtra-verso-la-juventus/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2243022477-cef1456f9b93-scaled-e1786128576595.jpg",
-   "date": "2026-10-04T16:00:29+00:00"
-  },
-  {
-   "title": "Italia, Kean non si allena col gruppo verso la Turchia: il motivo dello stop e cosa trapela",
-   "summary": "Moise Kean è alle prese con un piccolo problema fisico che lo mette in dubbio per Italia-Turchia, ecco le ultime sulle sue condizioni.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kean-italia-non-si-allena-motivo-cosa-filtra-condizioni-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Kean-9e08d4611504-e1790941738588.jpg",
-   "date": "2026-10-04T15:30:56+00:00"
-  },
-  {
-   "title": "Milan, da valutare le condizioni di Saelemaekers: ecco come sta e cosa filtra verso il Sassuolo",
-   "summary": "Saelemaekers resta sotto osservazione durante la sosta: cosa filtra sulle sue condizioni e sulla disponibilità per Sassuolo-Milan.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/milan-valutare-condizioni-saelemaekers-le-sue-cosa-filtra-verso-sassuolo-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293501276-5b03afb0f66c-e1790688240783.jpeg",
-   "date": "2026-10-04T15:00:24+00:00"
-  },
-  {
-   "title": "Lazio, Gattuso studia una nuova soluzione offensiva: come può cambiare la formazione in vista della ripresa",
-   "summary": "Le amichevoli disputate durante la sosta hanno offerto nuove indicazioni a Gattuso: cosa può cambiare nell’attacco della Lazio alla ripresa.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/lazio-gattuso-studia-nuova-soluzione-offensiva-come-puo-cambiare-formazione-vista-della-ripresa-fantacalcio-pinamonti-noslin/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292478309-244f498559a6-e1788109741838.jpeg",
-   "date": "2026-10-04T14:00:44+00:00"
-  },
-  {
-   "title": "Roma, ottimismo per il recupero di Malen: le sue condizioni e cosa filtra verso il Como",
-   "summary": "Donyell Malen verso la ripresa del campionato con la Roma: come sta l’attaccante e cosa filtra sul suo impiego nella gara contro il Como.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/roma-ottimismo-per-il-recupero-di-malen-le-sue-condizioni-e-cosa-filtra-verso-il-como/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
-   "date": "2026-10-04T13:00:24+00:00"
   }
  ],
  "marketDifficulty": {

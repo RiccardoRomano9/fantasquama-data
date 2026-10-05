@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-10-05T14:58:56+00:00",
+ "scraped_at_utc": "2026-10-05T17:07:36+00:00",
  "giornata": "2026-10-10T13:00:00.000Z",
  "partite": [
   {
@@ -695,6 +695,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Marianucci",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Vergara",
       "titolarita_pct": 5
      },
@@ -722,11 +726,6 @@
       "giocatore": "Buongiorno",
       "stato": "infortunato",
       "nota": "Intervento chirurgico di riparazione della radice del menisco mediale del ginocchio destro, in dubbio per la 12a."
-     },
-     {
-      "giocatore": "Marianucci",
-      "stato": "infortunato",
-      "nota": "Lesione di alto grado del collaterale mediale del ginocchio sinistro, in dubbio per la 6a."
      },
      {
       "giocatore": "Mctominay",
@@ -1762,7 +1761,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Bernardeschi",
+      "giocatore": "Orsolini",
       "titolarita_pct": 51
      },
      {
@@ -1780,12 +1779,12 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Orsolini",
-      "titolarita_pct": 49
-     },
-     {
       "giocatore": "Moro N.",
       "titolarita_pct": 45
+     },
+     {
+      "giocatore": "Bernardeschi",
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Happonen",
@@ -1860,11 +1859,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Bernardeschi",
+        "giocatore": "Orsolini",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Orsolini",
+        "giocatore": "Bernardeschi",
         "titolarita_pct": 49
        }
       ]
@@ -2197,7 +2196,18 @@
       ]
      }
     ],
-    "indisponibili": [],
+    "indisponibili": [
+     {
+      "giocatore": "Saelemaekers",
+      "stato": "infortunato",
+      "nota": "Sarà sottoposto ad intervento chirurgico per un problema alla caviglia destra, rientro previsto per il 2027 inoltrato."
+     },
+     {
+      "giocatore": "Estupinan",
+      "stato": "infortunato",
+      "nota": "Risentimento di basso grado del legamento collaterale mediale del ginocchio sinistro, in dubbio per la 7a."
+     }
+    ],
     "ufficiale": false
    }
   },
@@ -3117,7 +3127,7 @@
      {
       "giocatore": "Gueye",
       "stato": "infortunato",
-      "nota": "Distorsione alla caviglia, in dubbio per la 6a."
+      "nota": "Intervento chirurgico alla caviglia destra, in dubbio per la 17a."
      }
     ],
     "ufficiale": false
