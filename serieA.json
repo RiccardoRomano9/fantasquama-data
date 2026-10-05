@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-05T19:13:22+00:00",
+ "generatedAt": "2026-10-05T22:46:20+00:00",
  "season": "2026-27",
  "gameweek": 6,
- "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -4938,7 +4938,7 @@
    "appearances": 0,
    "gameweeksElapsed": 3,
    "estimatedVote": 6.04,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0637,
     "rf": 0.0052,
@@ -4959,7 +4959,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.98,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1085,
     "rf": 0.0096,
@@ -4989,9 +4989,9 @@
    },
    "quotazione": 1.0,
    "fvm": 3.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "indisponibile",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -6776,7 +6776,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.08,
-   "playProbability": 0.831,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.1129,
     "rf": 0.0073,
@@ -6797,7 +6797,7 @@
     "q90": 7.8
    },
    "learnedVote": 6.07,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0996,
     "rf": 0.007,
@@ -6830,7 +6830,7 @@
    "quotazione": 11.0,
    "fvm": 42.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9424,7 +9424,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.25,
-   "playProbability": 0.481,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.1612,
     "rf": 0.0063,
@@ -9445,7 +9445,7 @@
     "q90": 7.47
    },
    "learnedVote": 6.34,
-   "learnedPlayProbability": 0.481,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.1302,
     "rf": 0.0078,
@@ -9478,7 +9478,7 @@
    "quotazione": 13.0,
    "fvm": 68.0,
    "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -20366,7 +20366,7 @@
    "appearances": 3,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.17,
-   "playProbability": 0.394,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.1508,
     "rf": 0.0073,
@@ -20387,7 +20387,7 @@
     "q90": 6.43
    },
    "learnedVote": 6.24,
-   "learnedPlayProbability": 0.394,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.129,
     "rf": 0.0096,
@@ -20420,7 +20420,7 @@
    "quotazione": 6.0,
    "fvm": 17.0,
    "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -43965,13 +43965,29 @@
       {
        "player_id": "6884",
        "giocatore": "Conceicao",
-       "titolarita_pct": 55,
+       "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
        "player_id": "5761",
        "giocatore": "Zhegrova",
-       "titolarita_pct": 45,
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7436",
+       "giocatore": "Alajbegovic",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5761",
+       "giocatore": "Zhegrova",
+       "titolarita_pct": 49,
        "ruolo": "C"
       }
      ]
@@ -44153,13 +44169,13 @@
  ],
  "news": [
   {
-   "title": "Lazio, dalle condizioni di Cataldi e Gudmundsson alle novità su Dele-Bashiru e Marusic: le ultime",
-   "summary": "Le condizioni di Cataldi e Gudmundsson e le novità su Dele-Bashiru e Marusic: gli aggiornamenti della Lazio verso il Monza.",
+   "title": "Problema per Vergara, il motivo! Mancini: \"Pio come Vieri e Toni! Scamacca può fare di più, Romano e Doumbia...\"",
+   "summary": "Roberto Mancini ha analizzato in conferenza ed ai microfoni di Rai Sport la sfida di Nations League tra Italia e Turchia: tutte le dichiarazioni del ct azzurro.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/lazio-condizioni-cataldi-gudmundsson-anovita-dele-bashiru-marusic-ultime-infortunati-fantacalcio/",
-   "image": "https://static.sosfanta.com/202511/953ee3dea17b46d00b8f2b39c3fef1d8-e1763190009198.jpg",
-   "date": "2026-10-05T19:00:32+00:00"
+   "url": "https://www.sosfanta.com/nazionale/mancini-italia-turchia-pio-esposito-vergara-infortunio-nazionale-scamacca/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298737328-e7fe5ffbadd6-e1791230229647.jpg",
+   "date": "2026-10-05T21:45:57+00:00"
   },
   {
    "title": "DAI CAMPI - Berna, Conceicao, Gud, Estupinan, Bernabé, Colombo, Gueye, Olivera e rissa sfiorata per Okoye",
@@ -44168,7 +44184,70 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news-formazioni/dai-campi-berna-conceicao-gud-estupinan-bernabe-colombo-gueye-olivera-rissa-sfiorata-okoye-fantacalcio-infortunati/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2233145080-101b575d30a7-e1791225806972.jpg",
-   "date": "2026-10-05T18:45:41+00:00"
+   "date": "2026-10-05T21:15:41+00:00"
+  },
+  {
+   "title": "Nazionali, gli azzurrini travolgono la Polonia: super Ndour, Lipani, Fini e nella Svezia segna Njie",
+   "summary": "Tutti i giocatori della Serie A scesi in campo con le nazionali in Nations League e nell'Europeo U21: minuti, bonus e indicazioni utili per il fantacalcio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/nazionali-gli-azzurrini-travolgono-la-polonia-super-ndour-lipani-fini-e-nella-svezia-segna-njie/",
+   "image": "https://static.sosfanta.com/202502/0034d6bdebc52db5bb2b2d81901f4b2f-e1738755878636.jpg",
+   "date": "2026-10-05T21:00:34+00:00"
+  },
+  {
+   "title": "Gazzetta - Saelemaekers, decisione presa sull’operazione: lungo stop, ecco quanto starà fuori",
+   "summary": "Novità in casa Milan per Alexis Saelemaekers: la decisione dopo gli accertamenti e cosa filtra sui possibili tempi di recupero.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/gazzetta-saelemaekers-decisione-presa-operazione-lungo-stop-ecco-quanto-stara-fuori-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/202602/02fc42075b633eeaee56dd269c6f8066-scaled-e1769937455807.jpg",
+   "date": "2026-10-05T20:45:30+00:00"
+  },
+  {
+   "title": "Rigoristi, le sei novità dall’inizio di stagione e cosa succede: da Genoa e Lazio a Cagliari e Fiorentina",
+   "summary": "Pochissimi rigori concessi fin qui in Serie A dagli arbitri, ma ci sono già importanti novità sulle gerarchie: ecco le sei principali per il fantacalcio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/rigoristi-sei-novita-dallinizio-di-stagione-e-cosa-succede-fantacalcio-da-genoa-e-lazio-a-cagliari-e-fiorentina/",
+   "image": "https://static.sosfanta.com/2026/09/Daniel-Maldini-3e189dc3b4a0-e1790067962990.jpg",
+   "date": "2026-10-05T20:15:11+00:00"
+  },
+  {
+   "title": "Venezia, dall'impatto di Juan Jesus alle condizioni di Schingtienne, Bella-Kotchap, Basic e Busio: le novità",
+   "summary": "Da Schingtienne e Bella-Kotchap a Basic e Busio: tutti gli aggiornamenti sugli infortunati del Venezia verso i prossimi impegni e l'impatto di Juan Jesus.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/venezia/venezia-impatto-juan-jesus-condizioni-schingtienne-bella-kotchap-basic-busio-novita-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2257116717-06fc1b6cc329-e1788033230410.jpg",
+   "date": "2026-10-05T20:00:38+00:00"
+  },
+  {
+   "title": "Udinese, rissa sfiorata all'Oktoberfest per Okoye: ecco cosa è successo",
+   "summary": "Reduce dalla Nigeria, dove è rimasto in panchina, il portiere friulano ha vissuto momenti di tensione a Monaco di Baviera durante la sosta.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/okoye-udinese-oktoberfest-rissa-sfiorata-monaco/",
+   "image": "https://static.sosfanta.com/2026/08/Okoye-59cb6a64ccf2-e1787848834324.jpg",
+   "date": "2026-10-05T19:30:22+00:00"
+  },
+  {
+   "title": "Italia, la formazione ufficiale con la Turchia: la scelta su Pio Esposito, Scamacca, Kayode, Calafiori e Romano",
+   "summary": "L'Italia ospita la Turchia nella quarta giornata del girone di Nations League: ecco l'undici iniziale scelto da Roberto Mancini.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/italia-formazione-ufficiale-turchia-nations-league-chi-gioca-pio-esposito-scamacca-kayode-calafiori-romano/",
+   "image": "https://static.sosfanta.com/202606/946302c619205f5aa69fad6843fbfb8d-e1780523981706.jpeg",
+   "date": "2026-10-05T19:15:12+00:00"
+  },
+  {
+   "title": "Lazio, dalle condizioni di Cataldi e Gudmundsson alle novità su Dele-Bashiru e Marusic: le ultime",
+   "summary": "Le condizioni di Cataldi e Gudmundsson e le novità su Dele-Bashiru e Marusic: gli aggiornamenti della Lazio verso il Monza.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-condizioni-cataldi-gudmundsson-anovita-dele-bashiru-marusic-ultime-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/202511/953ee3dea17b46d00b8f2b39c3fef1d8-e1763190009198.jpg",
+   "date": "2026-10-05T19:00:32+00:00"
   },
   {
    "title": "Conte: \"Napoli esperienza meravigliosa ma ho consumato tante energie! Futuro? Vorrei andare in un club che...\"",
@@ -44189,24 +44268,6 @@
    "date": "2026-10-05T18:00:09+00:00"
   },
   {
-   "title": "Italia, la formazione ufficiale con la Turchia: la scelta su Pio Esposito, Scamacca, Kayode, Calafiori e Romano",
-   "summary": "L'Italia ospita la Turchia nella quarta giornata del girone di Nations League: ecco l'undici iniziale scelto da Roberto Mancini.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/italia-formazione-ufficiale-turchia-nations-league-chi-gioca-pio-esposito-scamacca-kayode-calafiori-romano/",
-   "image": "https://static.sosfanta.com/202606/946302c619205f5aa69fad6843fbfb8d-e1780523981706.jpeg",
-   "date": "2026-10-05T17:45:12+00:00"
-  },
-  {
-   "title": "Gazzetta - Saelemaekers, decisione presa sull’operazione: lungo stop, ecco quanto starà fuori",
-   "summary": "Novità in casa Milan per Alexis Saelemaekers: la decisione dopo gli accertamenti e cosa filtra sui possibili tempi di recupero.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/gazzetta-saelemaekers-decisione-presa-operazione-lungo-stop-ecco-quanto-stara-fuori-infortunati-fantacalcio/",
-   "image": "https://static.sosfanta.com/202602/02fc42075b633eeaee56dd269c6f8066-scaled-e1769937455807.jpg",
-   "date": "2026-10-05T17:15:30+00:00"
-  },
-  {
    "title": "Torino, da valutare le condizioni di Fortini dopo aver lasciato l’U21: il motivo dello stop",
    "summary": "Niccolò Fortini è tornato dagli impegni con l’Under 21 con un problema fisico: il Torino valuta le sue condizioni verso l’Udinese.",
    "author": "Francesco Mangiagli",
@@ -44214,15 +44275,6 @@
    "url": "https://www.sosfanta.com/squadra/torino/torino-valutare-condizioni-fortini-dopo-aver-lasciato-u21-motivo-dello-stop-infortunati-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2291734366-7749d60c9585-e1791193449612.jpg",
    "date": "2026-10-05T17:00:05+00:00"
-  },
-  {
-   "title": "Rigoristi, le sei novità dall’inizio di stagione e cosa succede: da Genoa e Lazio a Cagliari e Fiorentina",
-   "summary": "Pochissimi rigori concessi fin qui in Serie A dagli arbitri, ma ci sono già importanti novità sulle gerarchie: ecco le sei principali per il fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/rigoristi-sei-novita-dallinizio-di-stagione-e-cosa-succede-fantacalcio-da-genoa-e-lazio-a-cagliari-e-fiorentina/",
-   "image": "https://static.sosfanta.com/2026/09/Daniel-Maldini-3e189dc3b4a0-e1790067962990.jpg",
-   "date": "2026-10-05T16:45:11+00:00"
   },
   {
    "title": "Napoli, le novità dall'allenamento di oggi: Meret, Spinazzola, Anguissa e slitta la visita di McTominay",
@@ -44475,42 +44527,6 @@
    "url": "https://www.sosfanta.com/guida-asta-fantacalcio/guida-asta-fantacalcio-2026-2027-tutti-consigli-fasce-chi-prendere/",
    "image": "https://static.sosfanta.com/2026/08/Frattesi-c82c65411c4e-e1787764966978.jpg",
    "date": "2026-10-04T20:00:56+00:00"
-  },
-  {
-   "title": "Fabregas: \"A Paz e Perrone devo la vita, Da Cunha vale più di un trofeo! Liberali, Douvikas e chi ho scoperto dal vivaio”",
-   "summary": "Cesc Fabregas è intervenuto al Festival dello Sport di Trento: tutte le dichiarazioni dell’allenatore del Como durante l’evento.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/fabregas-festival-trento-parole-paz-perrone-dacunha-douvikas/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2288186157-1e14c6b1a5b8-e1791119989376.jpg",
-   "date": "2026-10-04T19:45:26+00:00"
-  },
-  {
-   "title": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-27: le novità e dopo la sosta giocheranno così",
-   "summary": "Tutte le formazioni-tipo di Serie A per il fantacalcio 2026-2027, squadra per squadra: le novità e giocheranno così dopo la sosta.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/",
-   "image": "https://static.sosfanta.com/2026/09/Seba-Esposito-ba9764447c14-e1789335635180.png",
-   "date": "2026-10-04T19:30:46+00:00"
-  },
-  {
-   "title": "Gattuso: \"Lotito un genio, solo un terzino è più forte di Nuno Tavares! Frattesi il mio Malen? Rispondo così”",
-   "summary": "Gennaro Gattuso è intervenuto al Festival dello Sport di Trento: le dichiarazioni dell’allenatore della Lazio durante l’evento.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/gattuso-lotito-genio-solo-terzino-forte-nuno-tavares-frattesi-malen-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2297398080-cda87541ccbf-e1791114857228.jpg",
-   "date": "2026-10-04T19:15:23+00:00"
-  },
-  {
-   "title": "Torino, dalle condizioni di Ché Adams e Zapata al possibile cambio modulo: le ultime verso l'Udinese",
-   "summary": "Ché Adams e Duvan Zapata sotto osservazione nel Torino: le ultime sui due attaccanti e sul possibile cambio di modulo dopo la sosta.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/torino/torino-dalle-condizioni-cheadams-zapata-possibile-cambio-modulo-ultime-verso-udinese-fantacalcio/",
-   "image": "https://static.sosfanta.com/202606/015497543fb550415f5f72145ed0b307-scaled-e1781819161742.jpg",
-   "date": "2026-10-04T19:00:49+00:00"
   }
  ],
  "marketDifficulty": {
