@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T16:25:43+00:00",
+ "generatedAt": "2026-10-08T20:00:06+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -93,7 +93,7 @@
    "appearances": 3,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.11,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.2177,
     "rf": 0.0081,
@@ -114,7 +114,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.17,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.2498,
     "rf": 0.0142,
@@ -144,9 +144,9 @@
    },
    "quotazione": 10.0,
    "fvm": 33.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -8767,7 +8767,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.13,
-   "playProbability": 0.429,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.2186,
     "rf": 0.0082,
@@ -8788,7 +8788,7 @@
     "q90": 6.5
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.2007,
     "rf": 0.0128,
@@ -8820,9 +8820,9 @@
    },
    "quotazione": 9.0,
    "fvm": 25.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -13704,7 +13704,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.06,
-   "playProbability": 0.446,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.2136,
     "rf": 0.0086,
@@ -13725,7 +13725,7 @@
     "q90": 6.34
    },
    "learnedVote": 6.17,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.1872,
     "rf": 0.012,
@@ -13758,7 +13758,7 @@
    "quotazione": 9.0,
    "fvm": 22.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45067,38 +45067,6 @@
     {
      "opzioni": [
       {
-       "player_id": "7012",
-       "giocatore": "Provstgaard",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6320",
-       "giocatore": "Doekhi",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6398",
-       "giocatore": "Isaksen",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5500",
-       "giocatore": "Cancellieri",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "6556",
        "giocatore": "Noslin",
        "titolarita_pct": 51,
@@ -45676,13 +45644,85 @@
  ],
  "news": [
   {
+   "title": "Lazio, altro stop per Marusic: ecco la partita che punta ora. Per Cancellieri, Rovella e Cataldi...",
+   "summary": "Anche contro il Monza toccherà a Romano Floriani Mussolini sulla corsia destra difensiva della Lazio, come evidenziato oggi da Il Messaggero.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/lazio-marusic-floriani-mussolini-juventus/",
+   "image": "https://static.sosfanta.com/202510/f24de2054f0a926c2b10c04bf0a55aac.jpg",
+   "date": "2026-10-08T19:00:12+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Adams in gruppo! Ramos, Estupinan, Nico, Fortini, Raspadori, Cancellieri, Ghedjemis e gli esami di Sow",
+   "summary": "Ecco le ultime notizie dai campi su infortunati e non solo in chiave fantacalcio verso la consegna delle formazioni in programma entro sabato alle ore 15.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-adams-in-gruppo-ramos-estupinan-nico-fortini-raspadori-cancellieri-sow-rinnova-ghedjemis-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294311079-daa08bc4be82-e1791484640747.jpg",
+   "date": "2026-10-08T18:35:14+00:00"
+  },
+  {
+   "title": "Chi schierare a centrocampo alla sesta giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i centrocampisti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-centrocampo-sesta-giornata-seriea-fantacalcio-consigli/",
+   "image": "https://static.sosfanta.com/2026/10/Rowe-d29ae6000eb4-e1791409910152.jpg",
+   "date": "2026-10-08T18:15:47+00:00"
+  },
+  {
+   "title": "Genoa, da Colombo a Meichtry e l'esito degli esami per Sow. ElSha, l'idea Robinho Jr e novità Traore",
+   "summary": "Il Genoa è al lavoro in vista della sfida contro la Fiorentina, per la quale il tecnico Daniele De Rossi dovrà fare a meno di diversi giocatori importanti.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/genoa-colombo-meichtry-infortunio-tempi-recupero-fantacalcio-el-shaarawy-robinho-traore/",
+   "image": "https://static.sosfanta.com/2026/09/Meichtry-93c582403a67-e1790436096965.jpg",
+   "date": "2026-10-08T18:00:46+00:00"
+  },
+  {
    "title": "UFFICIALE - Darmian è un nuovo giocatore del Bologna: il 'doppio ruolo' e come gestirlo al fantacalcio",
    "summary": "Adesso è anche ufficiale: Matteo Darmian torna in Serie A e al fantacalcio, ecco come gestirlo.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/bologna/ufficiale-darmian-nuovo-giocatore-bologna-come-gestirlo-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/Darmian-0a9286d3837e-e1790858857500.jpg",
-   "date": "2026-10-08T16:15:23+00:00"
+   "date": "2026-10-08T17:45:23+00:00"
+  },
+  {
+   "title": "UFFICIALE - Ghedjemis rinnova con il Frosinone: i dettagli e quando scade il nuovo contratto",
+   "summary": "Dopo le voci di mercato estive, il Frosinone blinda Farès Ghedjemis: è arrivato l’annuncio ufficiale sul futuro dell’attaccante.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/frosinone/ufficiale-ghedjemis-rinnova-frosinone-dettagli-quando-scade-nuovo-contratto-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/Ghedjemis-39858e7195e9-e1787931278757.jpeg",
+   "date": "2026-10-08T17:30:24+00:00"
+  },
+  {
+   "title": "Chi schierare in porta alla sesta giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i portieri: ecco le nostre fasce e chi schierare tra i pali.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-porta-sesta-giornata-seriea-fantacalcio-consigli-portieri/",
+   "image": "https://static.sosfanta.com/2026/10/Vicario-74f1dc0df55e-e1791409984727.jpg",
+   "date": "2026-10-08T17:15:22+00:00"
+  },
+  {
+   "title": "Udinese, niente via libera per Piotrowski: ecco quando dovrebbe rientrare. Su Alaba, Karlstrom e Miller...",
+   "summary": "Dubbi in mediana per l'Udinese in vista della gara contro il Torino, in programma lunedì sera. Il Messaggero Veneto fa il punto della situazione.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/udinese-alaba-miller-piotrowski-quando-torna-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2204223423-faca15d18018-e1790151972186.jpg",
+   "date": "2026-10-08T17:00:57+00:00"
+  },
+  {
+   "title": "De Rossi: “Rispondo sugli infortuni di Colombo, Meichtry e Sow! Traoré, Mitaj, Vitinha e la scelta su Vasquez”",
+   "summary": "L'allenatore del Genoa, Daniele De Rossi, ha parlato in conferenza stampa in vista della sfida che i rossoblu affronteranno sabato alle 15, contro la Fiorent...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/de-rossi-genoa-colombo-vitinha-infortunio-fantacalcio-tempi-di-recupero-sow-traore/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296264080-207d0a436d2e-e1791465789634.jpeg",
+   "date": "2026-10-08T16:15:26+00:00"
   },
   {
    "title": "Atalanta, buone notizie da Raspadori e Sulemana: ecco la partita in cui possono tornare. Hien e Kossounou...",
@@ -45694,13 +45734,13 @@
    "date": "2026-10-08T16:00:22+00:00"
   },
   {
-   "title": "Chi schierare in porta alla sesta giornata al fantacalcio: la divisione fascia per fascia",
-   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i portieri: ecco le nostre fasce e chi schierare tra i pali.",
-   "author": "Francesco Mangiagli",
+   "title": "ULTIM’ORA - Roma, Gasperini ritrova Malen e Wesley! Tutto il test congiunto di oggi in gruppo verso il Como",
+   "summary": "Sorride Gian Piero Gasperini verso la ripresa del campionato contro il Como: l'allenatore della Roma oggi ha ritrovato in gruppo Wesley e Donyell Malen.",
+   "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-porta-sesta-giornata-seriea-fantacalcio-consigli-portieri/",
-   "image": "https://static.sosfanta.com/2026/10/Vicario-74f1dc0df55e-e1791409984727.jpg",
-   "date": "2026-10-08T15:45:22+00:00"
+   "url": "https://www.sosfanta.com/squadra/roma/ultimora-roma-gasperini-ritrova-malen-e-wesley-tutto-il-test-congiunto-in-gruppo-con-vista-sul-como/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292175747-5897cb4b56aa-e1791300198116.jpeg",
+   "date": "2026-10-08T15:15:56+00:00"
   },
   {
    "title": "Milan, come sta Estupinan e le novità verso il Sassuolo: Musah e Rabiot invece...",
@@ -45712,22 +45752,13 @@
    "date": "2026-10-08T15:00:27+00:00"
   },
   {
-   "title": "De Rossi: “Rispondo sugli infortuni di Colombo, Meichtry e Sow! Traoré, Mitaj, Vitinha e la scelta su Vasquez”",
-   "summary": "L'allenatore del Genoa, Daniele De Rossi, ha parlato in conferenza stampa in vista della sfida che i rossoblu affronteranno sabato alle 15, contro la Fiorent...",
+   "title": "FLASH - Inter, infortunio per Jones! L'esito degli esami e i tempi di recupero: c’è il comunicato",
+   "summary": "Brutte notizie in casa Inter: stop per Curtis Jones a pochi giorni dalla ripresa del campionato. L'ex Liverpool si era dovuto fermare in allenamento.",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/de-rossi-genoa-colombo-vitinha-infortunio-fantacalcio-tempi-di-recupero-sow-traore/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296264080-207d0a436d2e-e1791465789634.jpeg",
-   "date": "2026-10-08T14:45:26+00:00"
-  },
-  {
-   "title": "ULTIM’ORA - Roma, Gasperini ritrova Malen e Wesley! Tutto il test congiunto di oggi in gruppo verso il Como",
-   "summary": "Sorride Gian Piero Gasperini verso la ripresa del campionato contro il Como: l'allenatore della Roma oggi ha ritrovato in gruppo Wesley e Donyell Malen.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/ultimora-roma-gasperini-ritrova-malen-e-wesley-tutto-il-test-congiunto-in-gruppo-con-vista-sul-como/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292175747-5897cb4b56aa-e1791300198116.jpeg",
-   "date": "2026-10-08T14:15:56+00:00"
+   "url": "https://www.sosfanta.com/news/curtis-jones-inter-infortunio-fantacalcio-tempi-di-recupero-parma-quando-torna/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294350553-b18d379db8c8-e1791457999399.jpeg",
+   "date": "2026-10-08T14:15:13+00:00"
   },
   {
    "title": "Torino, dalle possibilità di rientro di Adams e Fortini con l'Udinese a Rodriguez e Ismajli: le ultime",
@@ -45739,15 +45770,6 @@
    "date": "2026-10-08T14:00:54+00:00"
   },
   {
-   "title": "FLASH - Inter, infortunio per Jones! L'esito degli esami e i tempi di recupero: c’è il comunicato",
-   "summary": "Brutte notizie in casa Inter: stop per Curtis Jones a pochi giorni dalla ripresa del campionato. L'ex Liverpool si era dovuto fermare in allenamento.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/curtis-jones-inter-infortunio-fantacalcio-tempi-di-recupero-parma-quando-torna/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294350553-b18d379db8c8-e1791457999399.jpeg",
-   "date": "2026-10-08T13:45:13+00:00"
-  },
-  {
    "title": "Zielinski: \"Comandare al Bernabeu non è da tutti! Ecco il mio sogno con l'Inter\"",
    "summary": "Il centrocampista dell'Inter Piotr Zielinski ha parlato a margine dell'evento dedicato al \"Premio Gentleman\" a Milano.",
    "author": "Alessandro Cosattini",
@@ -45755,6 +45777,15 @@
    "url": "https://www.sosfanta.com/video/zielinski-comandare-al-bernabeu-non-e-da-tutti-ecco-il-mio-sogno-con-linter/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2291571876-dab48f390493-e1788108960996.jpeg",
    "date": "2026-10-08T13:35:38+00:00"
+  },
+  {
+   "title": "Mangas: “Vi dico il mio obiettivo per gol e assist! Io il Super Sayan del Monza e faccio una promessa”",
+   "summary": "L'esterno del Monza, Ricardo Mangas, ha subito conquistato tutti anche al fantacalcio grazie a un gol, due assist e ottimi voti nelle prime partite in Serie A.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/mangas-monza-fantacalcio-gol-assist-capelli-promessa-salvezza/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295041882-09413d8673d1-e1791448721221.jpeg",
+   "date": "2026-10-08T13:15:28+00:00"
   },
   {
    "title": "Juve, altro che addio: per Nico Gonzalez c'è l'accordo sul rinnovo con aumento di stipendio, i dettagli",
@@ -45773,15 +45804,6 @@
    "url": "https://www.sosfanta.com/news/gabbia-milan-infortunio-amorim-gila/",
    "image": "https://static.sosfanta.com/2026/07/GettyImages-2287491858-3e64146912df-scaled-e1785310432539.jpg",
    "date": "2026-10-08T12:30:57+00:00"
-  },
-  {
-   "title": "Mangas: “Vi dico il mio obiettivo per gol e assist! Io il Super Sayan del Monza e faccio una promessa”",
-   "summary": "L'esterno del Monza, Ricardo Mangas, ha subito conquistato tutti anche al fantacalcio grazie a un gol, due assist e ottimi voti nelle prime partite in Serie A.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/mangas-monza-fantacalcio-gol-assist-capelli-promessa-salvezza/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295041882-09413d8673d1-e1791448721221.jpeg",
-   "date": "2026-10-08T12:15:28+00:00"
   },
   {
    "title": "Palladino e i colloqui con Skorupski: chi è in vantaggio fra lui e Pessina per giocare contro il Lecce",
@@ -45980,60 +46002,6 @@
    "url": "https://www.sosfanta.com/squadra/fiorentina/mastantuono-titolare-contro-il-genoa-cosa-filtra-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/08/GettyImages-2289931605-c75d71066ccc-e1787226760204.jpeg",
    "date": "2026-10-07T19:00:09+00:00"
-  },
-  {
-   "title": "Neto e non solo: squadra per squadra, tutte le gerarchie in porta con le novità dopo la sosta in Serie A",
-   "summary": "Siamo in piena sosta per le nazionali, ecco tutte le gerarchie in porta per la Serie A 2026-27: dal primo al terzo portiere, tutti i terzetti per il fantacal...",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/portieri/fantacalcio-asta-tutti-portieri-gerarchie-seriea-venti-squadre-campionato/",
-   "image": "https://static.sosfanta.com/2026/09/Skorupski-79a8f6d5b6f9-e1790327525443.jpg",
-   "date": "2026-10-07T18:45:58+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Zaniolo",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
-   "date": "2026-10-07T18:15:42+00:00"
-  },
-  {
-   "title": "Juve, le ultime su Alajbegovic, Conceicao, Zhegrova, McKennie, Muani e quando rientrano Nico Gonzalez e Lucumi",
-   "summary": "Juventus al lavoro in vista del match di campionato sul campo del Cagliari: tutti gli ultimi aggiornamenti dalla Continassa.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juventus-come-stanno-alajbegovic-conceicao-mckennie-kolo-muani-nico-gonzalez/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295802939-7266c6ff4a20-e1791355678580.jpg",
-   "date": "2026-10-07T18:00:32+00:00"
-  },
-  {
-   "title": "Napoli, conferme ufficiali su McTominay: arriva l'idoneità ed è già tornato in gruppo verso la ripresa",
-   "summary": "Il report del Napoli sull'ultimo allenamento: arrivano importanti conferme sul recupero di McTominay.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-conferme-ufficiali-mctominay-idoneita-allenamento-gruppo/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2289750320-352746456ca1-e1788884848363.jpg",
-   "date": "2026-10-07T17:30:53+00:00"
-  },
-  {
-   "title": "Roma, le condizioni di Malen, Wesley e Cristante: cosa filtra verso la sfida col Como",
-   "summary": "I giallorossi preparano lo scontro diretto contro il Como. Dai rientri dalle nazionali al punto sugli infortunati: tutte le novità.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/roma-malen-wesley-cristante-condizioni-come-stanno-verso-como/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292175747-5897cb4b56aa-e1791300198116.jpeg",
-   "date": "2026-10-07T17:00:05+00:00"
-  },
-  {
-   "title": "Juventus, novità per Thuram: le ultime sul francese e l'orizzonte fissato per il rientro in campo",
-   "summary": "Continua il recupero di Khephren Thuram che si è operato al ginocchio e dovrà stare ancora fuori a lungo, ecco gli aggiornamenti sul francese.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juventus-thuram-novita-ultime-rientro-in-campo-quando-fantacalcio/",
-   "image": "https://static.sosfanta.com/202605/8eaf6283db4045d24963cbee7a5eef2f-scaled-e1779463855318.jpg",
-   "date": "2026-10-07T16:30:32+00:00"
   }
  ],
  "marketDifficulty": {
