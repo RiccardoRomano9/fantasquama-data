@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T13:43:53+00:00",
+ "generatedAt": "2026-10-08T16:25:43+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -23241,7 +23241,7 @@
    "appearances": 0,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.98,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0647,
     "rf": 0.0005,
@@ -23262,7 +23262,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.99,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0698,
     "rf": 0.0035,
@@ -23294,9 +23294,9 @@
    },
    "quotazione": 1.0,
    "fvm": 4.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -39140,8 +39140,8 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45676,6 +45676,78 @@
  ],
  "news": [
   {
+   "title": "UFFICIALE - Darmian è un nuovo giocatore del Bologna: il 'doppio ruolo' e come gestirlo al fantacalcio",
+   "summary": "Adesso è anche ufficiale: Matteo Darmian torna in Serie A e al fantacalcio, ecco come gestirlo.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/ufficiale-darmian-nuovo-giocatore-bologna-come-gestirlo-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/Darmian-0a9286d3837e-e1790858857500.jpg",
+   "date": "2026-10-08T16:15:23+00:00"
+  },
+  {
+   "title": "Atalanta, buone notizie da Raspadori e Sulemana: ecco la partita in cui possono tornare. Hien e Kossounou...",
+   "summary": "Salteranno la gara contro il Venezia, seguendo la logica, ma già contro il Pafos possono tornare: lo riporta La Gazzetta dello Sport su Raspadori e Sulemana.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/raspadori-sulemana-atalanta-quando-torna-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/202602/ba8f65ce88fe91d1a002615dcedf7868.png",
+   "date": "2026-10-08T16:00:22+00:00"
+  },
+  {
+   "title": "Chi schierare in porta alla sesta giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i portieri: ecco le nostre fasce e chi schierare tra i pali.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-porta-sesta-giornata-seriea-fantacalcio-consigli-portieri/",
+   "image": "https://static.sosfanta.com/2026/10/Vicario-74f1dc0df55e-e1791409984727.jpg",
+   "date": "2026-10-08T15:45:22+00:00"
+  },
+  {
+   "title": "Milan, come sta Estupinan e le novità verso il Sassuolo: Musah e Rabiot invece...",
+   "summary": "Si avvicina la sfida contro il Sassuolo per il Milan con Amorim che ha il dubbio legato alle condizioni di Estupinan.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-estupinan-come-sta-verso-il-sassuolo-musah-rabiot-assenti-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295729862-c48b3861cbf7-e1791471227355.jpg",
+   "date": "2026-10-08T15:00:27+00:00"
+  },
+  {
+   "title": "De Rossi: “Rispondo sugli infortuni di Colombo, Meichtry e Sow! Traoré, Mitaj, Vitinha e la scelta su Vasquez”",
+   "summary": "L'allenatore del Genoa, Daniele De Rossi, ha parlato in conferenza stampa in vista della sfida che i rossoblu affronteranno sabato alle 15, contro la Fiorent...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/de-rossi-genoa-colombo-vitinha-infortunio-fantacalcio-tempi-di-recupero-sow-traore/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296264080-207d0a436d2e-e1791465789634.jpeg",
+   "date": "2026-10-08T14:45:26+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Roma, Gasperini ritrova Malen e Wesley! Tutto il test congiunto di oggi in gruppo verso il Como",
+   "summary": "Sorride Gian Piero Gasperini verso la ripresa del campionato contro il Como: l'allenatore della Roma oggi ha ritrovato in gruppo Wesley e Donyell Malen.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/ultimora-roma-gasperini-ritrova-malen-e-wesley-tutto-il-test-congiunto-in-gruppo-con-vista-sul-como/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292175747-5897cb4b56aa-e1791300198116.jpeg",
+   "date": "2026-10-08T14:15:56+00:00"
+  },
+  {
+   "title": "Torino, dalle possibilità di rientro di Adams e Fortini con l'Udinese a Rodriguez e Ismajli: le ultime",
+   "summary": "Come sottolinea La Gazzetta dello Sport, \"ieri hanno continuato a svolgere lavoro differenziato sia Niccolò Fortini, sia Che Adams\".",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/che-adams-torino-quando-torna-tempi-di-recupero-fantacalcio-ismajli-fortini-ricardo-rodriguez-udinese/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291722622-0ec07251bd6d-e1791449747738.jpeg",
+   "date": "2026-10-08T14:00:54+00:00"
+  },
+  {
+   "title": "FLASH - Inter, infortunio per Jones! L'esito degli esami e i tempi di recupero: c’è il comunicato",
+   "summary": "Brutte notizie in casa Inter: stop per Curtis Jones a pochi giorni dalla ripresa del campionato. L'ex Liverpool si era dovuto fermare in allenamento.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/curtis-jones-inter-infortunio-fantacalcio-tempi-di-recupero-parma-quando-torna/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294350553-b18d379db8c8-e1791457999399.jpeg",
+   "date": "2026-10-08T13:45:13+00:00"
+  },
+  {
    "title": "Zielinski: \"Comandare al Bernabeu non è da tutti! Ecco il mio sogno con l'Inter\"",
    "summary": "Il centrocampista dell'Inter Piotr Zielinski ha parlato a margine dell'evento dedicato al \"Premio Gentleman\" a Milano.",
    "author": "Alessandro Cosattini",
@@ -45685,24 +45757,6 @@
    "date": "2026-10-08T13:35:38+00:00"
   },
   {
-   "title": "De Rossi: “Rispondo sugli infortuni di Colombo, Meichtry e Sow! Traoré, Mitaj, Vitinha e la scelta su Vasquez”",
-   "summary": "L'allenatore del Genoa, Daniele De Rossi, ha parlato in conferenza stampa in vista della sfida che i rossoblu affronteranno sabato alle 15, contro la Fiorent...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/de-rossi-genoa-colombo-vitinha-infortunio-fantacalcio-tempi-di-recupero-sow-traore/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296264080-207d0a436d2e-e1791465789634.jpeg",
-   "date": "2026-10-08T13:20:26+00:00"
-  },
-  {
-   "title": "ULTIM’ORA - Roma, Gasperini ritrova Malen e Wesley! Tutto il test congiunto di oggi in gruppo verso il Como",
-   "summary": "Sorride Gian Piero Gasperini verso la ripresa del campionato contro il Como: l'allenatore della Roma oggi ha ritrovato in gruppo Wesley e Donyell Malen.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/ultimora-roma-gasperini-ritrova-malen-e-wesley-tutto-il-test-congiunto-in-gruppo-con-vista-sul-como/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292175747-5897cb4b56aa-e1791300198116.jpeg",
-   "date": "2026-10-08T13:15:56+00:00"
-  },
-  {
    "title": "Juve, altro che addio: per Nico Gonzalez c'è l'accordo sul rinnovo con aumento di stipendio, i dettagli",
    "summary": "Prolungamento con ingaggio migliorato per Nico Gonzalez, che in estate l'esterno era visto come uno dei possibili partenti in casa Juve.",
    "author": "Daniele Najjar",
@@ -45710,15 +45764,6 @@
    "url": "https://www.sosfanta.com/news/nico-gonzalez-rinnnovo-juve-contratto/",
    "image": "https://static.sosfanta.com/202508/a6aada1d1dd5958f4717f0a16e98e274-scaled-e1756647332339.jpeg",
    "date": "2026-10-08T13:00:48+00:00"
-  },
-  {
-   "title": "FLASH - Inter, infortunio per Jones! L'esito degli esami e i tempi di recupero: c’è il comunicato",
-   "summary": "Brutte notizie in casa Inter: stop per Curtis Jones a pochi giorni dalla ripresa del campionato. L'ex Liverpool si era dovuto fermare in allenamento.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/curtis-jones-inter-infortunio-fantacalcio-tempi-di-recupero-parma-quando-torna/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294350553-b18d379db8c8-e1791457999399.jpeg",
-   "date": "2026-10-08T12:45:13+00:00"
   },
   {
    "title": "Gabbia: \"Durante l'infortunio è stata dura, come sto ora! Su Amorim, l'impatto di Gila e la Champions...\"",
@@ -45989,51 +46034,6 @@
    "url": "https://www.sosfanta.com/news/juventus-thuram-novita-ultime-rientro-in-campo-quando-fantacalcio/",
    "image": "https://static.sosfanta.com/202605/8eaf6283db4045d24963cbee7a5eef2f-scaled-e1779463855318.jpg",
    "date": "2026-10-07T16:30:32+00:00"
-  },
-  {
-   "title": "Parma, le ultime novità verso l'Inter: come stanno Bernabé, Delprato, Frigan, Keita, Britschgi e Sierro",
-   "summary": "Tutti gli ultimi aggiornamenti dall'allenamento del Parma in vista della ripresa del campionato.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/parma/parma-ultime-verso-inter-bernabe-delprato-frigan-keita-britschgi-sierro/",
-   "image": "https://static.sosfanta.com/202605/d8b7379071190bbd231dc90e7a12a727-e1778265609333.jpg",
-   "date": "2026-10-07T16:00:15+00:00"
-  },
-  {
-   "title": "Provedel insidia Josep Martinez: perché contro il Parma può giocare l'italiano, il motivo e le gerarchie...",
-   "summary": "Tra le novità nella formazione dell'Inter che affronterà il Parma c'è anche il possibile cambio in porta.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/provedel-josep-martinez-con-il-parma-puo-giocare-l-italiano-gerarchie-porta-inter-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/07/Provedel-6a43926f212e.jpeg",
-   "date": "2026-10-07T15:00:25+00:00"
-  },
-  {
-   "title": "L'agente di Palmisani: \"La Juventus poteva decidere se prenderlo! Ecco cosa è successo in estate\"",
-   "summary": "Pastorello ha rivelato che Palmisani sarebbe potuto essere un giocatore della Juventus spiegando cosa sia accaduto in estate.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/pastorello-palmisani-juventus-acerbi-meret-inzaghi-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296340593-7d177b0f584f-e1791379583375.jpg",
-   "date": "2026-10-07T14:30:01+00:00"
-  },
-  {
-   "title": "Cagliari, Pisacane perde Kevin Carlos per infortunio: salterà la Juventus e può tornare contro...",
-   "summary": "Il Cagliari dovrà fare a meno di Kevin Carlos per il match contro la Juventus, le condizioni dell'attaccante rossoblù.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/cagliari/kevin-carlos-cagliari-infortunio-salta-la-juventus-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2231853054-532ba05548f4-e1786737253210.jpg",
-   "date": "2026-10-07T14:00:52+00:00"
-  },
-  {
-   "title": "Torino, le ultime sul rientro di Ché Adams: cosa filtra verso l'Udinese, sono arrivati questi segnali!",
-   "summary": "Abate non sa ancora se potrà contare su Ché Adams per la prossima partita di campionato contro l'Udinese, ecco come sta l'attaccante.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/torino/torino-adams-cosa-filtra-torna-per-torino-udinese-segnali-fantacalcio/",
-   "image": "https://static.sosfanta.com/202511/1aada4c4744a8599f6cc1a225f95be6d.jpg",
-   "date": "2026-10-07T13:00:12+00:00"
   }
  ],
  "marketDifficulty": {
