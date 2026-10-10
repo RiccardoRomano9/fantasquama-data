@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T18:42:55+00:00",
+ "generatedAt": "2026-10-10T19:33:52+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -4503,7 +4503,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.05,
-   "playProbability": 0.445,
+   "playProbability": 0.48,
    "events": {
     "gf": 0.3299,
     "rf": 0.0084,
@@ -4524,7 +4524,7 @@
     "q90": 7.74
    },
    "learnedVote": 6.14,
-   "learnedPlayProbability": 0.445,
+   "learnedPlayProbability": 0.48,
    "learnedEvents": {
     "gf": 0.3337,
     "rf": 0.0157,
@@ -4557,7 +4557,7 @@
    "quotazione": 6.0,
    "fvm": 8.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -4896,7 +4896,7 @@
    "appearances": 4,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.97,
-   "playProbability": 0.428,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.3431,
     "rf": 0.0087,
@@ -4917,7 +4917,7 @@
     "q90": 7.31
    },
    "learnedVote": 6.12,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.2395,
     "rf": 0.0171,
@@ -4950,7 +4950,7 @@
    "quotazione": 12.0,
    "fvm": 53.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -5746,7 +5746,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.18,
-   "playProbability": 0.428,
+   "playProbability": 0.262,
    "events": {
     "gf": 0.3043,
     "rf": 0.0047,
@@ -5767,7 +5767,7 @@
     "q90": 10.06
    },
    "learnedVote": 6.33,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.262,
    "learnedEvents": {
     "gf": 0.2642,
     "rf": 0.0107,
@@ -5800,7 +5800,7 @@
    "quotazione": 13.0,
    "fvm": 48.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 30.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18190,7 +18190,7 @@
    "appearances": 0,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.25,
-   "playProbability": 0.087,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.1727,
     "rf": 0.0075,
@@ -18211,7 +18211,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.54,
-   "learnedPlayProbability": 0.087,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1574,
     "rf": 0.0151,
@@ -18244,7 +18244,7 @@
    "quotazione": 9.0,
    "fvm": 20.0,
    "lineupSlot": "panchina",
-   "startingProbability": 10.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45508,10 +45508,10 @@
        "ruolo": "C"
       },
       {
-       "player_id": "5734",
-       "giocatore": "Soulè",
+       "player_id": "530",
+       "giocatore": "Pellegrini Lo.",
        "titolarita_pct": 49,
-       "ruolo": "A"
+       "ruolo": "C"
       }
      ]
     }
@@ -45543,13 +45543,13 @@
       {
        "player_id": "6556",
        "giocatore": "Noslin",
-       "titolarita_pct": 51,
+       "titolarita_pct": 55,
        "ruolo": "A"
       },
       {
        "player_id": "2038",
        "giocatore": "Pinamonti",
-       "titolarita_pct": 49,
+       "titolarita_pct": 45,
        "ruolo": "A"
       }
      ]
@@ -46148,6 +46148,42 @@
  ],
  "news": [
   {
+   "title": "FLASH - Hojlund sbaglia, De Bruyne segna: perché è cambiato il rigorista del Napoli e cosa è successo",
+   "summary": "Episodio chiave in Napoli-Frosinone intorno alla mezz'ora di gioco del primo tempo, con De Bruyne e Hojlund protagonisti dal dischetto del rigore.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/hojlund-de-bruyne-napoli-rigorista-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299561141-59663a914227-e1791660665862.jpeg",
+   "date": "2026-10-10T19:20:24+00:00"
+  },
+  {
+   "title": "Chivu: \"Come sta Calhanoglu! Godiamoci Spence, su Dimarco, Carlos Augusto e Pio che mi ha impressionato...\"",
+   "summary": "Cristian Chivu ha parlato in conferenza stampa dopo la vittoria dell’Inter contro il Parma, analizzando la prestazione dei nerazzurri.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/chivu-come-sta-calhanoglu-godiamoci-spence-su-dimarco-carlos-augusto-e-pio-che-mi-ha-impressionato/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299541673-d9472d861b74-e1791650610194.jpg",
+   "date": "2026-10-10T19:15:51+00:00"
+  },
+  {
+   "title": "Sucic: \"Spiego le mie parole sui minuti giocati: non stavo di certo dicendo di voler lasciare l'Inter!\"",
+   "summary": "Sucic: \"Spiego le mie parole sui minuti giocati: non stavo di certo dicendo di voler lasciare l'Inter!\"",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/sucic-spiego-le-mie-parole-sui-minuti-giocati-non-stavo-di-certo-dicendo-di-voler-lasciare-linter/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294372237-56361744d58a-e1791368128970.jpg",
+   "date": "2026-10-10T19:00:57+00:00"
+  },
+  {
+   "title": "I voti di Inter-Parma al fanta: la scelta su Spence! Thuram come Sucic, Pio e Calhanoglu, c'è un 4,5",
+   "summary": "Sesta giornata di Serie A, si sono affrontate Inter e Parma. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/i-voti-inter-parma-fanta-scelta-spence-thuram-come-sucic-pio-calhanoglu-ce-un-45-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-10-19-37-01-f1b9c2fc5188-e1791654923305.jpg",
+   "date": "2026-10-10T18:45:28+00:00"
+  },
+  {
    "title": "Allegri: \"Ecco quanti minuti ha McTominay! Gilmour e Politano fuori per questi motivi, De Bruyne...\"",
    "summary": "Le parole di Massimiliano Allegri prima di Napoli-Frosinone, ecco cosa ha detto su McTominay, Anguissa, Gilmour, Politano e De Bruyne.",
    "author": "Andrea Ajello",
@@ -46157,13 +46193,13 @@
    "date": "2026-10-10T18:30:43+00:00"
   },
   {
-   "title": "I voti di Inter-Parma al fanta: la scelta su Spence! Thuram come Sucic, Pio e Calhanoglu, c'è un 4,5",
-   "summary": "Sesta giornata di Serie A, si sono affrontate Inter e Parma. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio.",
-   "author": "Francesco Mangiagli",
+   "title": "Napoli-Frosinone, le formazioni ufficiali: c'è Raimondo! Da Neres e Lang a Politano, Meret e Badiashile, le scelte",
+   "summary": "La sfida tra il Napoli di Max Allegri e il Frosinone di Massimiliano Alvini chiude questo sabato di Serie A: ecco le formazioni ufficiali.",
+   "author": "Marco Astori",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/i-voti-inter-parma-fanta-scelta-spence-thuram-come-sucic-pio-calhanoglu-ce-un-45-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-10-19-37-01-f1b9c2fc5188-e1791654923305.jpg",
-   "date": "2026-10-10T18:15:28+00:00"
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-frosinone-formazioni-ufficiali-ce-raimondo-neres-lang-politano-meret-badiashile-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296296242-8cd74722e54f-e1791654355550.jpg",
+   "date": "2026-10-10T18:15:26+00:00"
   },
   {
    "title": "Fiorentina, De Gea: \"Potevamo prendere anche più gol! Quella parata su punizione...\"",
@@ -46173,15 +46209,6 @@
    "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-de-gea-genoa-parole-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2292059912-09026108ac09-e1791652012441.jpg",
    "date": "2026-10-10T18:00:10+00:00"
-  },
-  {
-   "title": "Napoli-Frosinone, le formazioni ufficiali: c'è Raimondo! Da Neres e Lang a Politano, Meret e Badiashile, le scelte",
-   "summary": "La sfida tra il Napoli di Max Allegri e il Frosinone di Massimiliano Alvini chiude questo sabato di Serie A: ecco le formazioni ufficiali.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-frosinone-formazioni-ufficiali-ce-raimondo-neres-lang-politano-meret-badiashile-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296296242-8cd74722e54f-e1791654355550.jpg",
-   "date": "2026-10-10T17:50:26+00:00"
   },
   {
    "title": "Vanoli: \"Perché non ho messo Goncalves! Vi spiego Njie fuori dall'inizio e se non faccio giocare Mastantuono...\"",
@@ -46479,33 +46506,6 @@
    "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/ultimissime-casi-fantacalcio-6a-mctominay-lautaro-calha-raimondo-alajbegovic-soule-pinamonti-kean/",
    "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-10-08-23-13-b3f78bdcf27f-e1791613410508.jpg",
    "date": "2026-10-10T08:45:21+00:00"
-  },
-  {
-   "title": "Da Neres e Lang a McTominay, Politano, Raimondo, Bobcek: le probabili formazioni di Napoli-Frosinone",
-   "summary": "Le ultime sulle scelte di formazione di Allegri e Albini in vista del match in programma allo stadio 'Maradona'.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-frosinone-probabili-formazioni-neres-lang-mctominay-politano-raimondo-bobcek/",
-   "image": "https://static.sosfanta.com/2026/08/neres-c529791fad86-e1785862463696.jpeg",
-   "date": "2026-10-10T08:30:27+00:00"
-  },
-  {
-   "title": "La preview della sesta giornata al fantacalcio: partita per partita, chi mettere e chi no",
-   "summary": "Partita per partita, ecco chi schierare alla sesta giornata al fantacalcio 2026-2027 con la nostra preview con tutti i giocatori.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/preview-6a-giornata-seriea-campionato-fantacalcio-tutti-consigli-chi-schierare/",
-   "image": "https://static.sosfanta.com/2026/10/De-Bruyne-9b6683289b1c-e1791530098465.jpeg",
-   "date": "2026-10-10T08:15:11+00:00"
-  },
-  {
-   "title": "Inter-Parma, probabili formazioni: Stankovic scalpita e cosa filtra su Provedel, Martinez, Lautaro e Bernabé",
-   "summary": "L'Inter campione d'Italia riceve il Parma a San Siro per la sesta giornata di campionato: le ultime sulle scelte di formazione di Chivu e Gilardino.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-parma-probabili-formazioni-stankovic-martinez-provedel-lautaro-bernabe/",
-   "image": "https://static.sosfanta.com/202507/41986fffea86c2400632b838b75b7e8c-e1751455326576.jpg",
-   "date": "2026-10-10T08:00:00+00:00"
   }
  ],
  "marketDifficulty": {
