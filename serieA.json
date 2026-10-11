@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-11T15:36:30+00:00",
+ "generatedAt": "2026-10-11T19:00:30+00:00",
  "season": "2026-27",
  "gameweek": 6,
  "note": "Stime calcolate con la sola storia precedente alla giornata 6 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -25230,7 +25230,7 @@
    "appearances": 5,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.05,
-   "playProbability": 0.874,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0625,
     "rf": 0.0006,
@@ -25251,7 +25251,7 @@
     "q90": 6.5
    },
    "learnedVote": 6.03,
-   "learnedPlayProbability": 0.874,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0538,
     "rf": 0.0053,
@@ -25283,8 +25283,8 @@
    },
    "quotazione": 5.0,
    "fvm": 20.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 100.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -26700,7 +26700,7 @@
    "appearances": 1,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.98,
-   "playProbability": 0.044,
+   "playProbability": 0.874,
    "events": {
     "gf": 0.0407,
     "rf": 0.0005,
@@ -26721,7 +26721,7 @@
     "q90": 6.26
    },
    "learnedVote": 5.91,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.874,
    "learnedEvents": {
     "gf": 0.0404,
     "rf": 0.004,
@@ -26753,8 +26753,8 @@
    },
    "quotazione": 7.0,
    "fvm": 15.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 100.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45381,14 +45381,14 @@
     {
      "opzioni": [
       {
-       "player_id": "5298",
-       "giocatore": "Pobega",
+       "player_id": "4436",
+       "giocatore": "Cambiaghi",
        "titolarita_pct": 100,
        "ruolo": "C"
       },
       {
-       "player_id": "6054",
-       "giocatore": "Moro N.",
+       "player_id": "184",
+       "giocatore": "Bernardeschi",
        "titolarita_pct": 5,
        "ruolo": "C"
       }
@@ -45413,14 +45413,14 @@
     {
      "opzioni": [
       {
-       "player_id": "4436",
-       "giocatore": "Cambiaghi",
+       "player_id": "5298",
+       "giocatore": "Pobega",
        "titolarita_pct": 100,
        "ruolo": "C"
       },
       {
-       "player_id": "184",
-       "giocatore": "Bernardeschi",
+       "player_id": "6054",
+       "giocatore": "Moro N.",
        "titolarita_pct": 5,
        "ruolo": "C"
       }
@@ -45448,22 +45448,6 @@
     {
      "opzioni": [
       {
-       "player_id": "6010",
-       "giocatore": "Fazzini",
-       "titolarita_pct": 60,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7579",
-       "giocatore": "Massolin",
-       "titolarita_pct": 40,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "7374",
        "giocatore": "Mendy P.",
        "titolarita_pct": 55,
@@ -45474,6 +45458,22 @@
        "giocatore": "Nzola",
        "titolarita_pct": 45,
        "ruolo": "A"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6010",
+       "giocatore": "Fazzini",
+       "titolarita_pct": 60,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "7579",
+       "giocatore": "Massolin",
+       "titolarita_pct": 40,
+       "ruolo": "C"
       }
      ]
     }
@@ -45487,47 +45487,15 @@
     {
      "opzioni": [
       {
-       "player_id": "6766",
-       "giocatore": "Kelly L.",
+       "player_id": "4179",
+       "giocatore": "Gonzalez N.",
        "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6042",
-       "giocatore": "Lucumì",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "5520",
-       "giocatore": "Cambiaso",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "4657",
-       "giocatore": "Celik",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "5680",
-       "giocatore": "Sarr P.",
-       "titolarita_pct": 60,
        "ruolo": "C"
       },
       {
-       "player_id": "5685",
-       "giocatore": "Koopmeiners",
-       "titolarita_pct": 40,
+       "player_id": "7436",
+       "giocatore": "Alajbegovic",
+       "titolarita_pct": 49,
        "ruolo": "C"
       }
      ]
@@ -45551,16 +45519,48 @@
     {
      "opzioni": [
       {
-       "player_id": "4179",
-       "giocatore": "Gonzalez N.",
-       "titolarita_pct": 51,
+       "player_id": "5680",
+       "giocatore": "Sarr P.",
+       "titolarita_pct": 60,
        "ruolo": "C"
       },
       {
-       "player_id": "7436",
-       "giocatore": "Alajbegovic",
-       "titolarita_pct": 49,
+       "player_id": "5685",
+       "giocatore": "Koopmeiners",
+       "titolarita_pct": 40,
        "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5520",
+       "giocatore": "Cambiaso",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "4657",
+       "giocatore": "Celik",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6766",
+       "giocatore": "Kelly L.",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6042",
+       "giocatore": "Lucumì",
+       "titolarita_pct": 49,
+       "ruolo": "D"
       }
      ]
     }
@@ -45574,32 +45574,16 @@
     {
      "opzioni": [
       {
-       "player_id": "4887",
-       "giocatore": "Bellanova",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "554",
-       "giocatore": "Zappacosta",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7219",
-       "giocatore": "Bernasconi",
+       "player_id": "2137",
+       "giocatore": "Scamacca",
        "titolarita_pct": 51,
-       "ruolo": "D"
+       "ruolo": "A"
       },
       {
-       "player_id": "2640",
-       "giocatore": "Kolasinac",
+       "player_id": "6435",
+       "giocatore": "Krstovic",
        "titolarita_pct": 49,
-       "ruolo": "D"
+       "ruolo": "A"
       }
      ]
     },
@@ -45622,16 +45606,32 @@
     {
      "opzioni": [
       {
-       "player_id": "2137",
-       "giocatore": "Scamacca",
+       "player_id": "7219",
+       "giocatore": "Bernasconi",
        "titolarita_pct": 51,
-       "ruolo": "A"
+       "ruolo": "D"
       },
       {
-       "player_id": "6435",
-       "giocatore": "Krstovic",
+       "player_id": "2640",
+       "giocatore": "Kolasinac",
        "titolarita_pct": 49,
-       "ruolo": "A"
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "4887",
+       "giocatore": "Bellanova",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "554",
+       "giocatore": "Zappacosta",
+       "titolarita_pct": 45,
+       "ruolo": "D"
       }
      ]
     }
@@ -45645,15 +45645,15 @@
     {
      "opzioni": [
       {
-       "player_id": "6892",
-       "giocatore": "Schingtienne",
-       "titolarita_pct": 51,
+       "player_id": "4845",
+       "giocatore": "Correia T.",
+       "titolarita_pct": 60,
        "ruolo": "D"
       },
       {
-       "player_id": "5695",
-       "giocatore": "Haps",
-       "titolarita_pct": 49,
+       "player_id": "6681",
+       "giocatore": "Sagrado",
+       "titolarita_pct": 40,
        "ruolo": "D"
       }
      ]
@@ -45677,15 +45677,15 @@
     {
      "opzioni": [
       {
-       "player_id": "4845",
-       "giocatore": "Correia T.",
-       "titolarita_pct": 60,
+       "player_id": "6892",
+       "giocatore": "Schingtienne",
+       "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "6681",
-       "giocatore": "Sagrado",
-       "titolarita_pct": 40,
+       "player_id": "5695",
+       "giocatore": "Haps",
+       "titolarita_pct": 49,
        "ruolo": "D"
       }
      ]
@@ -45700,16 +45700,16 @@
     {
      "opzioni": [
       {
-       "player_id": "6642",
-       "giocatore": "Coco",
-       "titolarita_pct": 60,
-       "ruolo": "D"
+       "player_id": "5687",
+       "giocatore": "Vlasic",
+       "titolarita_pct": 51,
+       "ruolo": "C"
       },
       {
-       "player_id": "5010",
-       "giocatore": "Ismajli",
-       "titolarita_pct": 40,
-       "ruolo": "D"
+       "player_id": "6646",
+       "giocatore": "Adams C.",
+       "titolarita_pct": 49,
+       "ruolo": "A"
       }
      ]
     },
@@ -45732,16 +45732,16 @@
     {
      "opzioni": [
       {
-       "player_id": "5687",
-       "giocatore": "Vlasic",
-       "titolarita_pct": 51,
-       "ruolo": "C"
+       "player_id": "6642",
+       "giocatore": "Coco",
+       "titolarita_pct": 60,
+       "ruolo": "D"
       },
       {
-       "player_id": "6646",
-       "giocatore": "Adams C.",
-       "titolarita_pct": 49,
-       "ruolo": "A"
+       "player_id": "5010",
+       "giocatore": "Ismajli",
+       "titolarita_pct": 40,
+       "ruolo": "D"
       }
      ]
     }
@@ -45752,22 +45752,6 @@
    "formation": "3-4-2-1",
    "isOfficial": false,
    "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "4263",
-       "giocatore": "Kabasele",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6925",
-       "giocatore": "Palma",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
     {
      "opzioni": [
       {
@@ -45783,37 +45767,116 @@
        "ruolo": "C"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "4263",
+       "giocatore": "Kabasele",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6925",
+       "giocatore": "Palma",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
     }
    ]
   }
  ],
  "news": [
   {
-   "title": "Fabregas: \"Wesley era da rosso! Sono contento di Caqueret, su Douvikas, Da Cunha, Ramon...\"",
-   "summary": "L'allenatore del Como, Cesc Fabregas, ha parlato ai microfoni di Dazn dopo la sfida giocata dai suoi contro la Roma, allo stadio Sinigaglia.",
-   "author": "Daniele Najjar",
+   "title": "Di Francesco: \"Problema fisico per Ilic! Rigore? Non è polemica ma un dato di fatto. Esteban e Fatah...\"",
+   "summary": "Eusebio Di Francesco, tecnico del Lecce, ha parlato ai microfoni di DAZN e in conferenza stampa al termine del match contro il Bologna.",
+   "author": "Tommaso Lerro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fabregas-como-roma/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299646658-744fde60dcaa-e1791721483459.jpeg",
-   "date": "2026-10-11T15:00:56+00:00"
+   "url": "https://www.sosfanta.com/news/di-francesco-problema-fisico-per-ilic-rigore-non-e-polemica-ma-un-dato-di-fatto-esteban-e-fatah/",
+   "image": "https://static.sosfanta.com/2026/08/Di-Francesco-171301485e99-e1787511171212.jpg",
+   "date": "2026-10-11T19:00:20+00:00"
   },
   {
-   "title": "Tutti gli assist della 6a giornata al fantacalcio: +2 per Noslin e Cambiaghi, +1 per Mota, Veiga e Pedraza",
+   "title": "I voti di Sassuolo-Milan al fantacalcio: la scelta su Cisse! Pavlovic, Moreira, Ramos, Pulisic, Berardi...",
+   "summary": "Sesta giornata di Serie A, la prima dopo la lunga sosta per le Nazionali. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/i-voti-di-sassuolo-milan-al-fantacalcio-la-scelta-su-cisse-pavlovic-moreira-ramos-pulisic-berardi/",
+   "image": "https://static.sosfanta.com/2026/10/IMG_1962-d40cf3f1f1f5-e1791743169973.jpg",
+   "date": "2026-10-11T18:25:47+00:00"
+  },
+  {
+   "title": "Juve-Cagliari, le formazioni ufficiali: la scelta su Conceicao, Alajbegovic, Nzola, Nico, Mendy e Cambiaso",
+   "summary": "Alle 20.45 si chiude la domenica della sesta giornata di Serie A: si gioca Juve-Cagliari. Sono state diramate le formazioni ufficiali del match.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/formazioni-ufficiali-juve-cagliari-conceicao-alajbegovic/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296365819-cb75c162ceeb-e1791738856526.jpeg",
+   "date": "2026-10-11T18:15:45+00:00"
+  },
+  {
+   "title": "Gattuso: \"Arriverà il momento di Pinamonti! Floriani è incredibile, Noslin, Mandas, Cataldi e Rovella...\"",
+   "summary": "Gennaro Gattuso, tecnico della Lazio, ha parlato in conferenza stampa dopo la vittoria dei biancoazzurri per 3-1 contro il Monza.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/gattuso-momento-pinamonti-floriani-noslin-classifica/",
+   "image": "https://static.sosfanta.com/2026/10/IMG_1940-d36d12c694cd-e1791734571895.jpg",
+   "date": "2026-10-11T18:00:19+00:00"
+  },
+  {
+   "title": "Palladino: \"Come sta Orsolini! Spiego Skorupski e Berna in panchina, su Pessina, Piccoli e Cambiaghi...\"",
+   "summary": "L'allenatore del Bologna, Raffaele Palladino, ha parlato ai microfoni di Dazn dopo la sfida giocata dai suoi contro il Lecce, allo stadio Via del Mare.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/palladino-bologna-orsolini-tempi-di-recupero-fantacalacio-pessina-skorupski-piccoli-cambiaghi/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299665334-8d956bcae042-e1791737351926.jpg",
+   "date": "2026-10-11T17:45:49+00:00"
+  },
+  {
+   "title": "Juric: \"Parlano tutti, mi dà fastidio! Primo tempo pessimo, Zeballos, Ngonge, Mota e il rosso a Lucchesi...\"",
+   "summary": "L'allenatore del Monza, Ivan Juric, ha parlato ai microfoni di Dazn dopo la sfida persa dai suoi contro la Lazio per 3-1, allo stadio Olimpico.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juric-monza-zeballos-ngonge-mota-rosso-lucchesi/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2290491592-85033401262a-e1788036931966.jpeg",
+   "date": "2026-10-11T17:30:06+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Infortunio per Gabbia, esce in barella contro il Sassuolo: la prima diagnosi! Out anche Leysen",
+   "summary": "ULTIM'ORA - Infortunio per Gabbia, esce in barella contro il Sassuolo: la prima diagnosi! Out anche Leysen",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ultimora-infortunio-muscolare-per-gabbia-esce-in-barella-contro-il-sassuolo-le-sue-condizioni/",
+   "image": "https://static.sosfanta.com/2026/10/IMG_1943-549e0320807f-e1791736242334.jpg",
+   "date": "2026-10-11T17:15:04+00:00"
+  },
+  {
+   "title": "Tutti gli assist della 6a giornata al fantacalcio: +2 per Noslin e Cambiaghi, +1 per Modric, Mota e Veiga",
    "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio sui +1.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/assist-fantacalcio/tutti-gli-assist-della-6a-giornata-al-fantacalcio-1-per-osmajic/",
-   "image": "https://static.sosfanta.com/202601/7c3e07da96db113e9b973580558a2501-scaled-e1767533815632.jpeg",
-   "date": "2026-10-11T14:50:46+00:00"
+   "image": "https://static.sosfanta.com/2026/07/Modric-800e59027b69.jpg",
+   "date": "2026-10-11T17:05:46+00:00"
   },
   {
-   "title": "Sassuolo-Milan, le formazioni ufficiali: la scelta su Moreira, Esposito, Modric, Cisse, Bowie e Adzic",
-   "summary": "Alle 18 la sesta giornata di Serie A prosegue con l'appuntamento del Mapei Stadium: si gioca Sassuolo-Milan. Sono state diramate le formazioni ufficiali.",
+   "title": "Atalanta, novità Raspadori: allenamento in gruppo, cosa filtra sulla convocazione con il Venezia. Hien...",
+   "summary": "Novità importanti in casa Atalanta, anche in ottica fantacalcio. Come riportato da Tmw infatti, Giacomo Raspadori è tornato a lavorare in gruppo.",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/sassuolo-milan-formazioni-ufficiali-moreira-modric/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293839301-38c59e1d5df2-e1791727953755.jpg",
-   "date": "2026-10-11T14:50:11+00:00"
+   "url": "https://www.sosfanta.com/news/atalanta-raspadori-convocazione-venezia-hien-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/202605/cb8d4f0a9aa6fbda3aac498c8e31c58e.png",
+   "date": "2026-10-11T17:00:30+00:00"
+  },
+  {
+   "title": "I voti al fanta: Noslin più di Tavares, Orsolini è super! Tiago Gabriel, Zaccagni, Cambiaghi, Mangas...",
+   "summary": "I voti per la sesta giornata al fanta, queste sono le scelte della redazione di Leghe Fantacalcio.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-lazio-monza-lecce-bologna/",
+   "image": "https://static.sosfanta.com/2026/10/IMG_1936-3c255f2035d6-e1791733244820.jpg",
+   "date": "2026-10-11T16:20:18+00:00"
   },
   {
    "title": "FLASH - Bologna, si ferma Orsolini: costretto al cambio nel finale con il Lecce, le sue condizioni",
@@ -45822,7 +45885,34 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/bologna-orsolini-infortunio-tempi-di-recupero-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/08/Orsolini-eb9bd309c6ea-e1788197567960.jpg",
-   "date": "2026-10-11T14:45:17+00:00"
+   "date": "2026-10-11T16:15:17+00:00"
+  },
+  {
+   "title": "Amorim: \"Pulisic è un top player, ecco come sta ora! Non sono preoccupato per i gol di Ramos, su Cardinale...\"",
+   "summary": "Il tecnico del Milan, Ruben Amorim, ha parlato ai microfoni di DAZN prima della gara sul campo del Sassuolo. Ecco le sue dichiarazioni.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/amorim-pulisic-milan-sassuolo/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295855183-fcaacb2590a0-e1789934103565.jpg",
+   "date": "2026-10-11T16:00:58+00:00"
+  },
+  {
+   "title": "Sassuolo-Milan, le formazioni ufficiali: la scelta su Moreira, Esposito, Modric, Cisse, Bowie e Adzic",
+   "summary": "Alle 18 la sesta giornata di Serie A prosegue con l'appuntamento del Mapei Stadium: si gioca Sassuolo-Milan. Sono state diramate le formazioni ufficiali.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/sassuolo-milan-formazioni-ufficiali-moreira-modric/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293839301-38c59e1d5df2-e1791727953755.jpg",
+   "date": "2026-10-11T15:45:11+00:00"
+  },
+  {
+   "title": "Fabregas: \"Wesley era da rosso! Sono contento di Caqueret, su Douvikas, Da Cunha, Ramon...\"",
+   "summary": "L'allenatore del Como, Cesc Fabregas, ha parlato ai microfoni di Dazn dopo la sfida giocata dai suoi contro la Roma, allo stadio Sinigaglia.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/fabregas-como-roma/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299646658-744fde60dcaa-e1791721483459.jpeg",
+   "date": "2026-10-11T15:00:56+00:00"
   },
   {
    "title": "Runjaic: \"Alaba e Davis titolari? Rispondo così, ecco come stanno! Su Palma, Zanoli, Arizala, Lovric...\"",
@@ -46057,96 +46147,6 @@
    "url": "https://www.sosfanta.com/voti-fantacalcio/i-voti-inter-parma-fanta-scelta-spence-thuram-come-sucic-pio-calhanoglu-ce-un-45-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-10-19-37-01-f1b9c2fc5188-e1791654923305.jpg",
    "date": "2026-10-10T19:15:28+00:00"
-  },
-  {
-   "title": "Sucic: \"Spiego le mie parole sui minuti giocati: non stavo di certo dicendo di voler lasciare l'Inter!\"",
-   "summary": "Sucic: \"Spiego le mie parole sui minuti giocati: non stavo di certo dicendo di voler lasciare l'Inter!\"",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/sucic-spiego-le-mie-parole-sui-minuti-giocati-non-stavo-di-certo-dicendo-di-voler-lasciare-linter/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294372237-56361744d58a-e1791368128970.jpg",
-   "date": "2026-10-10T19:00:57+00:00"
-  },
-  {
-   "title": "Napoli-Frosinone, le formazioni ufficiali: c'è Raimondo! Da Neres e Lang a Politano, Meret e Badiashile, le scelte",
-   "summary": "La sfida tra il Napoli di Max Allegri e il Frosinone di Massimiliano Alvini chiude questo sabato di Serie A: ecco le formazioni ufficiali.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-frosinone-formazioni-ufficiali-ce-raimondo-neres-lang-politano-meret-badiashile-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296296242-8cd74722e54f-e1791654355550.jpg",
-   "date": "2026-10-10T18:45:26+00:00"
-  },
-  {
-   "title": "Allegri: \"Ecco quanti minuti ha McTominay! Gilmour e Politano fuori per questi motivi, De Bruyne...\"",
-   "summary": "Le parole di Massimiliano Allegri prima di Napoli-Frosinone, ecco cosa ha detto su McTominay, Anguissa, Gilmour, Politano e De Bruyne.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/allegri-napoli-mctominay-gilmour-politano-de-bruyne-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Allegri-79710fd0b6da-e1788983883627.jpg",
-   "date": "2026-10-10T18:30:43+00:00"
-  },
-  {
-   "title": "Vanoli: \"Perché non ho messo Goncalves! Vi spiego Njie fuori dall'inizio e se non faccio giocare Mastantuono...\"",
-   "summary": "Paolo Vanoli ha parlato dopo Genoa-Fiorentina, terminata 2-1, analizzando la prestazione della sua squadra e parlando anche di qualche singolo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/vanoli-genoa-fiorentina-parole-conferenza-goncalves-njie-mastantuono-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298938812-1-1-935dbf54c4bc-e1791643684479.jpg",
-   "date": "2026-10-10T18:15:01+00:00"
-  },
-  {
-   "title": "Fiorentina, De Gea: \"Potevamo prendere anche più gol! Quella parata su punizione...\"",
-   "summary": "De Gea ha commentato la sconfitta contro il Genoa analizzando i motivi del ko e commentando una sua grande parata.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-de-gea-genoa-parole-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292059912-09026108ac09-e1791652012441.jpg",
-   "date": "2026-10-10T18:00:10+00:00"
-  },
-  {
-   "title": "Inter, ghiaccio sul ginocchio per Calhanoglu al cambio a scopo precauzionale: le sue condizioni",
-   "summary": "Autore del gol del momentaneo 2-0 al Parma su calcio di rigore siglato al 19' del primo tempo il centrocampista dell'Inter, Hakan Calhanoglu, è uscito dal ca...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-ginocchio-calhanoglu-parma-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Calhanoglu-0d88f3747854-e1789576815321.jpg",
-   "date": "2026-10-10T17:30:39+00:00"
-  },
-  {
-   "title": "I voti di Genoa-Fiorentina al fanta: super Osmajic! El Shaarawy come Messias, male De Gea, Vitinha e Dragusin",
-   "summary": "Sesta giornata di Serie A, si sono affrontate Genoa e Fiorentina. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/i-voti-genoa-fiorentina-fanta-super-osmajic-elshaarawy-come-messias-male-degea-vitinha-dragusin-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298943692-bd9c39ce32f9-e1791645810975.jpg",
-   "date": "2026-10-10T17:15:24+00:00"
-  },
-  {
-   "title": "De Rossi: \"Osmajic acquisto incredibile! El Shaarawy, Messias, Traoré e questo giocatore è un mostro\"",
-   "summary": "Daniele De Rossi ha analizzato Genoa-Fiorentina in conferenza stampa: le dichiarazioni dell’allenatore rossoblù al termine della partita.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/genoa/de-rossi-conferenza-osmajic-acquisto-incredibile-el-shaarawy-messias-traore-wiafe-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298929557-9009a7e03390-e1791643433241.jpg",
-   "date": "2026-10-10T17:00:18+00:00"
-  },
-  {
-   "title": "Ad Parma: \"Vi spiego la scelta di Gilardino! Abbiamo esonerato Cuesta dopo una vittoria perché...\"",
-   "summary": "Federico Cherubini, ad del Parma, intervistato da DAZN prima della sfida con l'Inter, ha parlato così del cambio in panchina tra Cuesta e Gilardino",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ad-parma-spiego-scelta-gilardino-cuesta/",
-   "image": "https://static.sosfanta.com/202506/f623be042203f619de5a677f7431ba49-e1750316184365.jpg",
-   "date": "2026-10-10T16:00:28+00:00"
-  },
-  {
-   "title": "Chivu: \"Nessuno dice la cosa più importante su Diouf! Bello vedere Bastoni in una difesa a 4, Pio...\"",
-   "summary": "L'allenatore dell'Inter Cristian Chivu, intervistato da DAZN, ha parlato così di alcuni singoli prima della sfida di oggi col Parma",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/chivu-nessuno-dice-cosa-piu-importante-diouf-bastoni-pio/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291565205-c82faed130ed-e1787421698707.jpg",
-   "date": "2026-10-10T15:30:52+00:00"
   }
  ],
  "marketDifficulty": {
