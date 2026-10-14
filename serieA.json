@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14T07:47:54+00:00",
+ "generatedAt": "2026-10-14T13:42:03+00:00",
  "season": "2026-27",
  "gameweek": 7,
  "note": "Stime calcolate con la sola storia precedente alla giornata 7 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -24169,7 +24169,7 @@
    "appearances": 1,
    "gameweeksElapsed": 6,
    "estimatedVote": 5.95,
-   "playProbability": 0.446,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.0189,
     "rf": 0.0002,
@@ -24190,7 +24190,7 @@
     "q90": 6.27
    },
    "learnedVote": 5.74,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.0317,
     "rf": 0.0027,
@@ -24223,8 +24223,8 @@
    },
    "quotazione": 3.0,
    "fvm": 5.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -34429,7 +34429,7 @@
    "appearances": 3,
    "gameweeksElapsed": 4,
    "estimatedVote": 5.99,
-   "playProbability": 0.0,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.0201,
     "rf": 0.0003,
@@ -34450,7 +34450,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.89,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.034,
     "rf": 0.0029,
@@ -34483,9 +34483,9 @@
    },
    "quotazione": 8.0,
    "fvm": 20.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "titolare",
+   "startingProbability": 55.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -38200,7 +38200,7 @@
    "appearances": 0,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.29,
-   "playProbability": 0.048,
+   "playProbability": 0.384,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -38221,7 +38221,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.21,
-   "learnedPlayProbability": 0.048,
+   "learnedPlayProbability": 0.384,
    "learnedEvents": {
     "gf": 0.0375,
     "rf": 0.0047,
@@ -38253,7 +38253,7 @@
    "quotazione": 1.0,
    "fvm": 1.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 40.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -38348,7 +38348,7 @@
    "appearances": 6,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.27,
-   "playProbability": 0.913,
+   "playProbability": 0.577,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -38369,7 +38369,7 @@
     "q90": 7.81
    },
    "learnedVote": 6.49,
-   "learnedPlayProbability": 0.913,
+   "learnedPlayProbability": 0.577,
    "learnedEvents": {
     "gf": 0.0375,
     "rf": 0.0047,
@@ -38403,7 +38403,7 @@
    "quotazione": 9.0,
    "fvm": 28.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45168,15 +45168,15 @@
     {
      "opzioni": [
       {
-       "player_id": "5498",
-       "giocatore": "Casale",
-       "titolarita_pct": 51,
+       "player_id": "5675",
+       "giocatore": "Theate",
+       "titolarita_pct": 55,
        "ruolo": "D"
       },
       {
-       "player_id": "7326",
-       "giocatore": "Helland",
-       "titolarita_pct": 49,
+       "player_id": "5498",
+       "giocatore": "Casale",
+       "titolarita_pct": 45,
        "ruolo": "D"
       }
      ]
@@ -45497,6 +45497,22 @@
    "formation": "3-4-2-1",
    "isOfficial": false,
    "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "6462",
+       "giocatore": "Okoye",
+       "titolarita_pct": 60,
+       "ruolo": "P"
+      },
+      {
+       "player_id": "7611",
+       "giocatore": "Mrozek",
+       "titolarita_pct": 40,
+       "ruolo": "P"
+      }
+     ]
+    },
     {
      "opzioni": [
       {
@@ -46123,13 +46139,94 @@
  ],
  "news": [
   {
-   "title": "Baturina: \"Sono felice al Como, possiamo battere il Feyenoord! Problemi fisici in nazionale? Vi spiego\"",
-   "summary": "Il trequartista del Como ha parlato in conferenza stampa alla vigilia del match di Champions League contro l'Inter.",
+   "title": "Sarri: \"A Carnesecchi non perdonerò niente, ecco perché! Sul ruolo di De Ketelaere...\"",
+   "summary": "Maurizio Sarri è intervenuto in conferenza stampa per presentare la sfida di Conference League che vedrà l'Atalanta opposta al Pafos.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/baturina-como-champions-league-feyenoord-problemi-fisici-nazionale/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292719457-280228037c53-e1788115628230.jpeg",
-   "date": "2026-10-14T07:00:53+00:00"
+   "url": "https://www.sosfanta.com/news/sarri-conferenza-atalanta-carnesecchi-de-ketelaere-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294921037-0811ba93ac1f-e1791964274239.jpg",
+   "date": "2026-10-14T13:15:37+00:00"
+  },
+  {
+   "title": "Spalletti cambia la Juventus: da Bremer a Cambiaso, Alajbegovic, Woltemade! La decisione su Celik e Boga...",
+   "summary": "Le probabili scelte di formazione per Celta Vigo-Juventus, ecco chi ha intenzione di schierare Spalletti.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-gatti-bremer-cambiaso-alajbegovic-woltemade-celik-da-valutare-boga-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295082063-16301677e0c0-e1789671297360.jpg",
+   "date": "2026-10-14T13:00:04+00:00"
+  },
+  {
+   "title": "Chi sale al fanta per scambi e non solo dopo l’ultima giornata: da Krstovic a Muani, ecco sette nomi",
+   "summary": "Da Krstovic a Kolo Muani e non soltanto, chi sale al fantacalcio per gli scambi dopo l'ultima giornata: occhio a questi sette nomi.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/chi-sale-fantacalcio-scambi-non-solo-dopo-ultima-giornata-sette-nomi/",
+   "image": "https://static.sosfanta.com/2026/10/Krstovic-f1ed5b445e3a-e1791876208131.jpg",
+   "date": "2026-10-14T12:45:15+00:00"
+  },
+  {
+   "title": "UFFICIALE - Pavlovic rinnova con il Milan: il comunicato e la nuova durata del contratto",
+   "summary": "Il Milan ha annunciato di aver rinnovato il contratto di Pavlovic, di seguito il comunicato con la durata del nuovo accordo.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ufficiale-pavlovic-rinnovo-milan-comunicato-durata-contratto-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/Pavlovic-ce4235e98f9b.jpg",
+   "date": "2026-10-14T12:30:37+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Davide Nicola sarà il nuovo allenatore del Venezia: accordo raggiunto, i dettagli",
+   "summary": "Nicola nuovo allenatore del Venezia, è fatta: i dettagli dell'accordo, è lui l'erede di Giovanni Stroppa.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/venezia/davide-nicola-nuovo-allenatore-venezia-accordo-raggiunto-dettagli/",
+   "image": "https://static.sosfanta.com/202510/78959d08ce93a65945c336d304118a9a-e1761306506651.jpg",
+   "date": "2026-10-14T12:15:43+00:00"
+  },
+  {
+   "title": "Verso Venezia-Napoli: Anguissa, A. Santos e Olivera tornano tra i convocati? Cosa filtra sulla loro gestione",
+   "summary": "Il Napoli deve reagire dopo la sconfitta in Champions e Allegri potrebbe ritrovare alcuni giocatori.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/venezia-napoli-anguissa-santos-olivera-convocati-gestione-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/Alisson-santos-4b694bae90b3-e1790675936468.jpeg",
+   "date": "2026-10-14T12:00:50+00:00"
+  },
+  {
+   "title": "Sassuolo, grave infortunio al ginocchio per Leysen: l'esito degli esami e il comunicato del club",
+   "summary": "Il Sassuolo ha comunicato l'esito degli esami al ginocchio effettuati da Leysen che dovrà stare ai box per molto tempo.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-leysen-infortunio-ginocchio-esami-comunicato-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296034623-ce10ff4e6467-e1791976439137.jpg",
+   "date": "2026-10-14T11:30:33+00:00"
+  },
+  {
+   "title": "Como, chi gioca in Champions: ballottaggio tra Milla e Perrone, un cambio in difesa e tra Butez e Sanchez...",
+   "summary": "Il Como sfida il Feyenoord in Champions, le ultime sulle scelte di Fabregas. L'unico assente sarà Kean, riflessioni in porta e non solo.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/como-chi-gioca-in-champions-ballottaggio-milla-perrone-butez-sanchez-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/Butez-753028b7e186-e1788361128800.jpg",
+   "date": "2026-10-14T11:00:01+00:00"
+  },
+  {
+   "title": "NEWS - Butez, Moreira, Tomori, Anguissa, Santos, Celik, Rovella, Marusic e le ultime su Atta",
+   "summary": "Dopo le prime sfide di Champions, questa sera si concluderà il programma della seconda giornata, domani Europa e Conference League. Queste le novità su infor...",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-atta-butez-moreira-tomori-anguissa-santos-celik-marusic-rovella-ultime-novita/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295665898-9e3ae1ef4063-e1791969260830.jpg",
+   "date": "2026-10-14T10:15:27+00:00"
+  },
+  {
+   "title": "Assente Chukwueze in allenamento, il motivo! Gabbia potrebbe accorciare i tempi di recupero, le ultime sul Milan",
+   "summary": "Nel Milan si sta prendendo sempre più il posto da titolare Moreira che ha superato tutti nelle gerarchie di Amorim.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-assente-chukwueze-motivo-gabbia-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299703363-a75487528d9a-e1791971841217.jpg",
+   "date": "2026-10-14T10:00:32+00:00"
   },
   {
    "title": "Chivu: \"Preoccupato dai 14 gol presi, così non si va da nessuna parte! Dopo le chance di Lautaro e Dimarco...\"",
@@ -46138,7 +46235,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/chivu-inter-bruges-conferenza-intervista/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2299506166-f4a37c2ae97c-e1791929157487.jpeg",
-   "date": "2026-10-14T07:00:02+00:00"
+   "date": "2026-10-14T09:45:02+00:00"
+  },
+  {
+   "title": "Da Udine - Okoye in discussione, titolarità in dubbio per il Lecce: cosa succede e al suo posto…",
+   "summary": "Il portiere dell'Udinese finisce al centro delle critiche dopo l'errore decisivo contro il Torino: ecco cosa filtra da Udine.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/udinese-okoye-discussione-titolarita-dubbio-chi-gioca-contro-lecce/",
+   "image": "https://static.sosfanta.com/2026/10/Okoye-be74cfb7ddc9-e1791837622784.jpeg",
+   "date": "2026-10-14T09:30:57+00:00"
   },
   {
    "title": "Allegri: \"Con De Bruyne non ci siamo capiti! Su Olivera, Alisson, Anguissa e gli errori di Di Lorenzo e Politano...\"",
@@ -46147,7 +46253,25 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/napoli/allegri-napoli-villarreal-intervista-conferenza/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2294372823-b6ba66b32dfa-e1791923060509.jpg",
-   "date": "2026-10-14T06:50:02+00:00"
+   "date": "2026-10-14T09:15:02+00:00"
+  },
+  {
+   "title": "Fiorentina, cosa filtra su Atta: la verità sui tempi di recupero, c'è un'ipotesi che 'spaventa'",
+   "summary": "Tutti gli aggiornamenti e le ultime sulle condizioni di Atta, alle prese con un problema fisico che si porta dietro da tempo.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-atta-cosa-filtra-tempi-di-recupero-ipotesi-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/Atta-350ceb609002-e1787386518952.jpg",
+   "date": "2026-10-14T09:00:17+00:00"
+  },
+  {
+   "title": "BREAKING - Venezia, accordo vicino per il nuovo allenatore! Le ultime tra Nicola e Zanetti",
+   "summary": "I lagunari hanno scelto la prossima guida tecnica che andrà a sostituire Stroppa, esonerato dopo il ko contro l'Atalanta.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/venezia/venezia-nuovo-allenatore-accordo-erede-stroppa/",
+   "image": "https://static.sosfanta.com/202603/9d702d6dab17028ad7fb43e1d7eb42c2-e1773782087293.jpeg",
+   "date": "2026-10-14T08:45:42+00:00"
   },
   {
    "title": "Fabregas: \"Come sta Kean e novità Addai! Rispondo alle critiche su Paz, Jesus Rodriguez...\"",
@@ -46156,7 +46280,25 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/como/fabregas-come-sta-kean-e-novita-addai-rispondo-alle-critiche-su-paz-jesus-rodriguez/",
    "image": "https://static.sosfanta.com/2026/10/fabregas-sos-74c83c04938d-e1791899880932.jpg",
-   "date": "2026-10-14T06:45:23+00:00"
+   "date": "2026-10-14T08:45:23+00:00"
+  },
+  {
+   "title": "Politano: \"Chiedo scusa per l'errore sul gol. La sconfitta? Vi spiego cosa non facciamo bene\"",
+   "summary": "L'attaccante del Napoli è intervenuto ai microfoni di Sky dopo la netta sconfitta del Napoli in Champions League contro il Villarreal.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-politano-errore-gol-sconfitta-champions/",
+   "image": "https://static.sosfanta.com/2026/10/Politano-b78819bf4b46-e1791616805963.jpg",
+   "date": "2026-10-14T08:00:12+00:00"
+  },
+  {
+   "title": "Baturina: \"Sono felice al Como, possiamo battere il Feyenoord! Problemi fisici in nazionale? Vi spiego\"",
+   "summary": "Il trequartista del Como ha parlato in conferenza stampa alla vigilia del match di Champions League contro l'Inter.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/baturina-como-champions-league-feyenoord-problemi-fisici-nazionale/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292719457-280228037c53-e1788115628230.jpeg",
+   "date": "2026-10-14T07:00:53+00:00"
   },
   {
    "title": "DAI CAMPI - Alisson, Anguissa, Kean, Amorim, Colombo, Bernabé, Celik, Davis, Bayo, Busio, Ilic, Elphege: le novità",
@@ -46355,132 +46497,6 @@
    "url": "https://www.sosfanta.com/news/fiorentina-da-valutare-condizioni-atta-prossima/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293119765-fba540435ec9-e1789135291358.jpeg",
    "date": "2026-10-13T11:00:07+00:00"
-  },
-  {
-   "title": "UFFICIALE - Venezia, Stroppa esonerato: il comunicato del club. E per il suo sostituto…",
-   "summary": "Il Venezia ha deciso: Giovanni Stroppa è stato esonerato. La scelta, secondo Sky, è arrivata in mattinata dopo la sconfitta contro l'Atalanta.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/venezia/breaking-venezia-stroppa-esonerato-sostituto/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-13-10-24-13-59afe29daa9d-e1791879866941.jpg",
-   "date": "2026-10-13T10:15:55+00:00"
-  },
-  {
-   "title": "Milan, oggi l'intervento per Saelemaekers. Due strade per Gabbia dopo la lesione: i tempi certi",
-   "summary": "Era nell’aria e alla fine la mazzata è arrivata: Matteo Gabbia dovrà fermarsi per diversi mesi. Quanti? Lo spiega oggi La Gazzetta dello Sport.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-oggi-intervento-saelemaekers-due-strade-gabbia/",
-   "image": "https://static.sosfanta.com/202602/75cdbdd4bef9f243d4e3f3bc2b016c54.jpeg",
-   "date": "2026-10-13T10:00:06+00:00"
-  },
-  {
-   "title": "Sono tre i giocatori squalificati per la 7a giornata di Serie A: non li avrete al fantacalcio",
-   "summary": "Sono tre i giocatori squalificati per la 7a giornata di Serie A: non li avrete al fantacalcio al prossimo turno.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squalificati/squalificati-seriea-fantacalcio-assenti-7a-giornata-campionato-malen/",
-   "image": "https://static.sosfanta.com/2026/10/Malen-6188cd450ef3-e1791829224106.jpeg",
-   "date": "2026-10-13T09:15:37+00:00"
-  },
-  {
-   "title": "Atalanta, le condizioni di Scalvini dopo lo stop col Venezia: cosa filtra per il Pafos. E Bellanova...",
-   "summary": "Due stop ieri in casa Atalanta nella gara di campionato contro il Venezia: si sono fermati Giorgio Scalvini e Raoul Bellanova.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/atalanta-le-condizioni-di-scalvini-dopo-lo-stop-col-venezia-cosa-filtra-per-il-pafos-e-bellanova/",
-   "image": "https://static.sosfanta.com/202509/b093299310c4c2b90d4a1905edf22e34.jpg",
-   "date": "2026-10-13T09:00:09+00:00"
-  },
-  {
-   "title": "Bologna, oggi gli esami di Orsolini: la speranza del club e le sensazioni sui tempi di recupero",
-   "summary": "C'è apprensione in casa Bologna per le condizioni di Riccardo Orsolini, che sarà sottoposto oggi agli esami strumentali dopo l'infortunio contro il Lecce.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/bologna-oggi-esami-orsolini-sensazioni/",
-   "image": "https://static.sosfanta.com/202603/55a7943fac30af042b08edb40ea94cdf-e1772460744518.jpg",
-   "date": "2026-10-13T08:00:34+00:00"
-  },
-  {
-   "title": "Bellanova: \"Ecco cosa ho avuto e perché sono uscito! Sarri mi sta aiutando molto, da terzino ora posso...\"",
-   "summary": "Le parole di Bellanova che ha anche spiegato perchè è uscito contro il Venezia e come sta fisicamente.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/bellanova-perche-sono-uscito-sarri-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2273410239-77ac76d0fe53-e1786859614551.jpg",
-   "date": "2026-10-13T07:00:22+00:00"
-  },
-  {
-   "title": "I voti di Torino-Udinese al fanta: affonda Okoye! Ekkelenkamp come Braganca, Solet, Davis, Vlasic, Adams, Simeone…",
-   "summary": "Sesta giornata di Serie A, la prima dopo la lunga sosta per le Nazionali. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio con il tabellino delle...",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-torino-udinese-fantacalcio-tutte-decisioni/",
-   "image": "https://static.sosfanta.com/2026/10/Okoye-be74cfb7ddc9-e1791837622784.jpeg",
-   "date": "2026-10-13T06:30:31+00:00"
-  },
-  {
-   "title": "Sky - Venezia ancora fermo a 0 punti: Stroppa a rischio, le ultime e il primo nome in caso di esonero",
-   "summary": "Il Venezia è fermo a 6 sconfitte finora su 6 partite giocate: Giovanni Stroppa in bilico, le ultime e il primo nome in caso di esonero.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/venezia/venezia-0-punti-stroppa-bilico-primo-nome-caso-esonero/",
-   "image": "https://static.sosfanta.com/2026/08/Stroppa-aedfb2b49bcf-e1787510977990.jpg",
-   "date": "2026-10-13T06:00:18+00:00"
-  },
-  {
-   "title": "Abate: “Per me Simeone migliore in campo! Vlasic, Oristanio, Adams, Kulenovic e cos'ha avuto Ilkhan”",
-   "summary": "Torino-Udinese ha chiuso la sesta giornata di Serie A; di seguito le parole di Abate al termine del match in conferenza stampa.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/torino/abate-torino-udinese-conferenza-simeone-kulenovic-adams-oristanio-ilkhan-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Abate-faf62a142f2a.jpg",
-   "date": "2026-10-12T22:00:57+00:00"
-  },
-  {
-   "title": "Runjaic: “Rispondo così sull'errore di Okoye! Cosa porta Alaba, Solet ed Ekkelenkamp…“",
-   "summary": "Runjaic ha parlato in conferenza stampa al termine di Torino-Udinese: di seguito le dichiarazioni dell'allenatore bianconero.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/runjaic-torino-udinese-conferenza-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299857505-c556efdf908f-e1791835612617.jpg",
-   "date": "2026-10-12T21:30:45+00:00"
-  },
-  {
-   "title": "A Firenze allarmano su Atta: “È un mistero, le ultime notizie arrivate oggi dal campo”",
-   "summary": "Le ultime sulle condizioni fisiche di Atta, assente contro il Genoa. Ecco come sta il centrocampista della Fiorentina e qual è il programma.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-atta-come-sta-mistero-ultime-notizie-oggi-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293119765-fba540435ec9-e1789135291358.jpeg",
-   "date": "2026-10-12T21:00:49+00:00"
-  },
-  {
-   "title": "Sarri: “Cos’ha Bellanova, mi preoccupa di più Scalvini! Krstovic e non Scamacca, Rowe, Kessié, Elmas, CDK…”",
-   "summary": "Le parole di Maurizio Sarri al termine di Atalanta-Venezia, ecco l'analisi dell'allenatore dopo il match valido per la sesta giornata di Serie A.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/sarri-atalanta-venezia-parole-conferenza-stampa-scamacca-krstovic-scalvini-bellanova-de-ketelaere-kessie-rowe-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299841287-6e580a45b43d-e1791825685608.jpg",
-   "date": "2026-10-12T20:30:03+00:00"
-  },
-  {
-   "title": "Stroppa: \"Che occasioni Adams e Yeboah! Giusto che i tifosi fischino, sono convinto di questo e il mio futuro...\"",
-   "summary": "Le dichiarazioni di Stroppa dopo Atalanta-Venezia, terminata 3-1. Ecco cosa ha detto il tecnico sulla prestazione e il suo futuro.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/venezia/stroppa-conferenza-adams-yeboah-futuro-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299841550-05f1c13dd203-e1791826030385.jpg",
-   "date": "2026-10-12T20:00:10+00:00"
-  },
-  {
-   "title": "I voti di Atalanta-Venezia al fanta: da urlo Krstovic! Le scelte su Gaetano, Zalewski, Kessié, Adams e ci sono due 4,5",
-   "summary": "Sesta giornata di Serie A, la prima dopo la lunga sosta per le Nazionali. Di seguito, tutte le decisioni sui voti di Leghe Fantacalcio.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/i-voti-di-atalanta-venezia-al-fanta-da-urlo-krstovic-le-scelte-su-gaetano-zalewski-kessie-adams-e-ci-sono-due-45/",
-   "image": "https://static.sosfanta.com/2026/10/Krstovic-8f4b33061df4-e1791828065287.jpeg",
-   "date": "2026-10-12T19:15:58+00:00"
   }
  ],
  "marketDifficulty": {
