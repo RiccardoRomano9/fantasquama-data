@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T04:53:06+00:00",
+ "generatedAt": "2026-10-15T11:44:13+00:00",
  "season": "2026-27",
  "gameweek": 7,
  "note": "Stime calcolate con la sola storia precedente alla giornata 7 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -1705,7 +1705,7 @@
    "appearances": 6,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.21,
-   "playProbability": 0.445,
+   "playProbability": 0.285,
    "events": {
     "gf": 0.3687,
     "rf": 0.0085,
@@ -1726,7 +1726,7 @@
     "q90": 9.4
    },
    "learnedVote": 6.44,
-   "learnedPlayProbability": 0.445,
+   "learnedPlayProbability": 0.285,
    "learnedEvents": {
     "gf": 0.2339,
     "rf": 0.0162,
@@ -1759,8 +1759,8 @@
    },
    "quotazione": 16.0,
    "fvm": 100.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -1936,7 +1936,7 @@
    "appearances": 5,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.18,
-   "playProbability": 0.428,
+   "playProbability": 0.524,
    "events": {
     "gf": 0.5064,
     "rf": 0.0052,
@@ -1957,7 +1957,7 @@
     "q90": 9.89
    },
    "learnedVote": 6.43,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.524,
    "learnedEvents": {
     "gf": 0.3958,
     "rf": 0.0115,
@@ -1990,8 +1990,8 @@
    },
    "quotazione": 17.0,
    "fvm": 105.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -3867,7 +3867,7 @@
    "appearances": 5,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.22,
-   "playProbability": 0.445,
+   "playProbability": 0.0,
    "events": {
     "gf": 1.0878,
     "rf": 0.0062,
@@ -3888,7 +3888,7 @@
     "q90": 12.93
    },
    "learnedVote": 6.48,
-   "learnedPlayProbability": 0.445,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.5155,
     "rf": 0.0114,
@@ -3921,9 +3921,9 @@
    },
    "quotazione": 33.0,
    "fvm": 361.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -5710,7 +5710,7 @@
    "appearances": 6,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.16,
-   "playProbability": 0.428,
+   "playProbability": 0.829,
    "events": {
     "gf": 0.437,
     "rf": 0.0063,
@@ -5731,7 +5731,7 @@
     "q90": 9.52
    },
    "learnedVote": 6.43,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.829,
    "learnedEvents": {
     "gf": 0.3763,
     "rf": 0.0095,
@@ -5764,8 +5764,8 @@
    },
    "quotazione": 13.0,
    "fvm": 48.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -5788,7 +5788,7 @@
    "appearances": 5,
    "gameweeksElapsed": 6,
    "estimatedVote": 5.95,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.1115,
     "rf": 0.0073,
@@ -5809,7 +5809,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.0,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.137,
     "rf": 0.0088,
@@ -5842,9 +5842,9 @@
    },
    "quotazione": 6.0,
    "fvm": 11.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -7385,9 +7385,9 @@
    },
    "quotazione": 4.0,
    "fvm": 11.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -8937,9 +8937,9 @@
    },
    "quotazione": 9.0,
    "fvm": 25.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -10355,7 +10355,7 @@
    "appearances": 6,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.42,
-   "playProbability": 0.831,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.2022,
     "rf": 0.0087,
@@ -10376,7 +10376,7 @@
     "q90": 9.56
    },
    "learnedVote": 6.73,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.1857,
     "rf": 0.133,
@@ -10410,7 +10410,7 @@
    "quotazione": 17.0,
    "fvm": 108.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -10433,7 +10433,7 @@
    "appearances": 2,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.13,
-   "playProbability": 0.446,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.1282,
     "rf": 0.0068,
@@ -10454,7 +10454,7 @@
     "q90": 6.72
    },
    "learnedVote": 6.31,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.0973,
     "rf": 0.0068,
@@ -10488,7 +10488,7 @@
    "quotazione": 4.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12979,7 +12979,7 @@
    "appearances": 4,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.18,
-   "playProbability": 0.044,
+   "playProbability": 0.394,
    "events": {
     "gf": 0.1195,
     "rf": 0.0059,
@@ -13000,7 +13000,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.36,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.394,
    "learnedEvents": {
     "gf": 0.1095,
     "rf": 0.0051,
@@ -13034,7 +13034,7 @@
    "quotazione": 3.0,
    "fvm": 10.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -14657,7 +14657,7 @@
    "appearances": 6,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.2,
-   "playProbability": 0.831,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.2108,
     "rf": 0.0063,
@@ -14678,7 +14678,7 @@
     "q90": 9.94
    },
    "learnedVote": 6.49,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1654,
     "rf": 0.0062,
@@ -14711,9 +14711,9 @@
    },
    "quotazione": 10.0,
    "fvm": 42.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -16817,7 +16817,7 @@
    "appearances": 4,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.27,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.2324,
     "rf": 0.0084,
@@ -16838,7 +16838,7 @@
     "q90": 7.43
    },
    "learnedVote": 6.48,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.1953,
     "rf": 0.0078,
@@ -16871,8 +16871,8 @@
    },
    "quotazione": 20.0,
    "fvm": 100.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18053,7 +18053,7 @@
    "appearances": 1,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.22,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.2468,
     "rf": 0.0097,
@@ -18074,7 +18074,7 @@
     "q90": 7.42
    },
    "learnedVote": 6.38,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1787,
     "rf": 0.1187,
@@ -18107,8 +18107,8 @@
    },
    "quotazione": 9.0,
    "fvm": 20.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18513,7 +18513,7 @@
    "appearances": 4,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.24,
-   "playProbability": 0.429,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.2498,
     "rf": 0.007,
@@ -18534,7 +18534,7 @@
     "q90": 8.0
    },
    "learnedVote": 6.56,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.1941,
     "rf": 0.0113,
@@ -18567,8 +18567,8 @@
    },
    "quotazione": 7.0,
    "fvm": 19.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -19265,9 +19265,9 @@
    },
    "quotazione": 7.0,
    "fvm": 16.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -22304,7 +22304,7 @@
    "appearances": 4,
    "gameweeksElapsed": 4,
    "estimatedVote": 5.99,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.082,
     "rf": 0.0009,
@@ -22325,7 +22325,7 @@
     "q90": 6.36
    },
    "learnedVote": 6.12,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0608,
     "rf": 0.0053,
@@ -22358,8 +22358,8 @@
    },
    "quotazione": 6.0,
    "fvm": 11.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -30166,9 +30166,9 @@
    },
    "quotazione": 6.0,
    "fvm": 20.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -30808,7 +30808,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.02,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0986,
     "rf": 0.0011,
@@ -30829,7 +30829,7 @@
     "q90": 6.4
    },
    "learnedVote": 6.22,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0718,
     "rf": 0.0062,
@@ -30855,8 +30855,8 @@
    },
    "quotazione": 13.0,
    "fvm": 42.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36189,7 +36189,7 @@
    "appearances": 5,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.31,
-   "playProbability": 0.577,
+   "playProbability": 0.913,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -36210,7 +36210,7 @@
     "q90": 7.7
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.577,
+   "learnedPlayProbability": 0.913,
    "learnedEvents": {
     "gf": 0.0294,
     "rf": 0.0037,
@@ -36244,7 +36244,7 @@
    "quotazione": 15.0,
    "fvm": 50.0,
    "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -39452,7 +39452,7 @@
    "appearances": 1,
    "gameweeksElapsed": 4,
    "estimatedVote": 6.31,
-   "playProbability": 0.384,
+   "playProbability": 0.048,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -39473,7 +39473,7 @@
     "q90": 7.44
    },
    "learnedVote": 6.3,
-   "learnedPlayProbability": 0.384,
+   "learnedPlayProbability": 0.048,
    "learnedEvents": {
     "gf": 0.0294,
     "rf": 0.0037,
@@ -39505,7 +39505,7 @@
    "quotazione": 8.0,
    "fvm": 25.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45113,6 +45113,22 @@
     {
      "opzioni": [
       {
+       "player_id": "2517",
+       "giocatore": "De Bruyne",
+       "titolarita_pct": 55,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5131",
+       "giocatore": "Gilmour",
+       "titolarita_pct": 45,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "6831",
        "giocatore": "Neres",
        "titolarita_pct": 51,
@@ -45223,54 +45239,6 @@
     {
      "opzioni": [
       {
-       "player_id": "7070",
-       "giocatore": "Sucic P.",
-       "titolarita_pct": 55,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "2529",
-       "giocatore": "Mkhitaryan",
-       "titolarita_pct": 45,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "254",
-       "giocatore": "Dimarco",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "2120",
-       "giocatore": "Bastoni",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "2764",
-       "giocatore": "Martinez L.",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "7071",
-       "giocatore": "Esposito F.P.",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "5116",
        "giocatore": "Martinez Jo.",
        "titolarita_pct": 51,
@@ -45363,6 +45331,54 @@
        "ruolo": "C"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7070",
+       "giocatore": "Sucic P.",
+       "titolarita_pct": 55,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "2529",
+       "giocatore": "Mkhitaryan",
+       "titolarita_pct": 45,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "254",
+       "giocatore": "Dimarco",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "2120",
+       "giocatore": "Bastoni",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7071",
+       "giocatore": "Esposito F.P.",
+       "titolarita_pct": 60,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "6669",
+       "giocatore": "Bonny",
+       "titolarita_pct": 5,
+       "ruolo": "A"
+      }
+     ]
     }
    ]
   },
@@ -45374,14 +45390,14 @@
     {
      "opzioni": [
       {
-       "player_id": "4317",
-       "giocatore": "N'Dicka",
+       "player_id": "4705",
+       "giocatore": "Balerdi",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "4705",
-       "giocatore": "Balerdi",
+       "player_id": "4317",
+       "giocatore": "N'Dicka",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -45406,22 +45422,6 @@
     {
      "opzioni": [
       {
-       "player_id": "22",
-       "giocatore": "De Roon",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6190",
-       "giocatore": "Pisilli",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "7181",
        "giocatore": "Wesley",
        "titolarita_pct": 51,
@@ -45438,30 +45438,14 @@
     {
      "opzioni": [
       {
-       "player_id": "309",
-       "giocatore": "Dybala",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "5734",
-       "giocatore": "Soulè",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "530",
-       "giocatore": "Pellegrini Lo.",
+       "player_id": "7556",
+       "giocatore": "Mora",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "7556",
-       "giocatore": "Mora",
+       "player_id": "530",
+       "giocatore": "Pellegrini Lo.",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -45697,86 +45681,6 @@
     {
      "opzioni": [
       {
-       "player_id": "5559",
-       "giocatore": "Da Cunha",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7412",
-       "giocatore": "Milla",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6151",
-       "giocatore": "Perrone",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "7412",
-       "giocatore": "Milla",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7129",
-       "giocatore": "Rodriguez Je.",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5036",
-       "giocatore": "Caqueret",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7126",
-       "giocatore": "Baturina",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5036",
-       "giocatore": "Caqueret",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6966",
-       "giocatore": "Butez",
-       "titolarita_pct": 60,
-       "ruolo": "P"
-      },
-      {
-       "player_id": "6344",
-       "giocatore": "Sanchez Ro.",
-       "titolarita_pct": 40,
-       "ruolo": "P"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "6727",
        "giocatore": "Couto",
        "titolarita_pct": 51,
@@ -45835,6 +45739,70 @@
        "giocatore": "Valle",
        "titolarita_pct": 49,
        "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5559",
+       "giocatore": "Da Cunha",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "7412",
+       "giocatore": "Milla",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6151",
+       "giocatore": "Perrone",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "7412",
+       "giocatore": "Milla",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7129",
+       "giocatore": "Rodriguez Je.",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5036",
+       "giocatore": "Caqueret",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7126",
+       "giocatore": "Baturina",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5036",
+       "giocatore": "Caqueret",
+       "titolarita_pct": 49,
+       "ruolo": "C"
       }
      ]
     }
@@ -46187,13 +46155,130 @@
  ],
  "news": [
   {
+   "title": "Aquilani: \"Adzic ha qualità, lo gestirò così! Candé, Walukiewicz, Leysen e rispondo su Matic in difesa\"",
+   "summary": "Alla vigilia di Frosinone-Sassuolo ha parlato in conferenza stampa Alberto Aquilani, ecco le sue dichiarazioni in ottica fantacalcio e non solo.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/sassuolo/aquilani-sassuolo-conferenza-stampa-adzic-cande-walukiewicz-leysen-matic-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/Aquilani-c8e179ed8a0b.jpg",
+   "date": "2026-10-15T11:30:54+00:00"
+  },
+  {
+   "title": "Atalanta, chi gioca e chi no in Europa e cosa filtra sugli infortuni di Kessie e Scalvini: le ultime",
+   "summary": "Soliti ballottaggi di formazione in casa Atalanta per la sfida di oggi contro il Pafos: testa a testa Krstovic-Scamacca davanti con il secondo leggermente fa...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/atalanta-probabile-formazione-pafos-infortunio-tempi-di-recupero-fantacalcio-kessie-scalvini/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294930864-9f61770b01ab-e1789243235467.jpeg",
+   "date": "2026-10-15T11:00:23+00:00"
+  },
+  {
+   "title": "Ghedjemis: \"Rispondo così sul numero di gol! Fantacalcio? Non lo capisco bene ma ci giocate in tanti quindi...\"",
+   "summary": "Ghedjemis ha parlato alla vigilia di Frosinone-Sassuolo soffermandosi sul numero di gol che vuole fare e non solo.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ghedjemis-frosinone-numero-gol-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/Ghedjemis-7286081def8e.jpg",
+   "date": "2026-10-15T10:55:31+00:00"
+  },
+  {
+   "title": "FLASH - Inter, infortunio per Lautaro e niente Bologna! L'esito degli esami e i tempi di recupero",
+   "summary": "Brutte notizie in casa Inter. Dopo il ko in Champions contro il Club Brugge, arriva la notizia dello stop di capitan Lautaro Martinez.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-lautaro-martinez-infortunio-tempi-di-recupero-fantacalcio-bologna/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300195737-e295d9699079-e1792058924129.jpeg",
+   "date": "2026-10-15T10:15:38+00:00"
+  },
+  {
+   "title": "Napoli, tutto sul 'caso' De Bruyne: cosa è successo con Allegri, quei gesti e l'atteggiamento fuori! A Venezia...",
+   "summary": "La ricostruzione completa delle diverse vedute tra Allegri e De Bruyne ma non solo: ecco cosa sta succedendo attorno al belga.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/napoli-de-bruyne-allegri-gesti-venezia-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300148676-fd2365403a21-e1792049603400.jpg",
+   "date": "2026-10-15T10:00:40+00:00"
+  },
+  {
+   "title": "NEWS - Tensione De Bruyne! Koné, Dybala, Kean, Diao, Kessie, Scalvini, Mastantuono, Atta, J. Martinez...",
+   "summary": "Archiviata la seconda giornata di Champions League, stasera tocca a Milan, Juve e Atalanta. Ecco le ultime su infortunati e non solo in ottica fantacalcio.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-tensione-de-bruyne-kone-dybala-kean-diao-kessie-scalvini-mastantuono-atta-j-martinez/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2289750287-91303f12a38e-e1792046559897.jpg",
+   "date": "2026-10-15T09:45:20+00:00"
+  },
+  {
+   "title": "Come giocherà il Venezia di Nicola: dal modulo ad Adams, Yeboah, Sohm, Basic, Busio, gli esterni e la difesa",
+   "summary": "E' Davide Nicola il nuovo allenatore del Venezia dopo l'esonero di Giovanni Stroppa: per il tecnico subito esordio in salita nel weekend contro il Napoli di...",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/venezia/come-giochera-il-venezia-di-nicola-dal-modulo-ad-adams-yeboah-sohm-basic-busio-gli-esterni-e-la-difesa/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2264184692-2322d2982f32-e1792047915360.jpg",
+   "date": "2026-10-15T09:45:00+00:00"
+  },
+  {
+   "title": "Udinese, riecco Piotrowski: è arrivata l'idoneità. Le ultime su Zaniolo, Abankwah, Zanoli, Bayo e Gueye",
+   "summary": "Riecco Jakub Piotrowski nell'Udinese: il centrocampista polacco ha appena ricevuto l’idoneità dopo l’intervento di ablazione per l’aritmia benigna.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/udinese-piotrowski-zaniolo-abankwah-zanoli-bayo-gueye/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291678023-bf5bf81bca76-e1789806709858.jpg",
+   "date": "2026-10-15T09:30:24+00:00"
+  },
+  {
+   "title": "Totti: “Scudetto? La Roma c'è\". E sul suo ritorno risponde così",
+   "summary": "A margine della presentazione del nuovo album Calciatori Panini 2026/27, Francesco Totti ha parlato della lotta scudetto e non soltanto.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/totti-scudetto-la-roma-ce-e-sul-suo-ritorno-risponde-cosi/",
+   "image": "https://static.sosfanta.com/202403/263e9e6115fe5bf01db0331ae3837c60-e1774538102146.jpg",
+   "date": "2026-10-15T09:11:31+00:00"
+  },
+  {
+   "title": "Milan, tocca a Camarda in Europa League! Da Pulisic a Cisse, Hutchinson e Rabiot, le novità di formazione",
+   "summary": "La novità in vista di Salisburgo-Milan è la chance che Amorim sembra intenzionato di dare a Camarda.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-camarda-europa-league-pulisic-cisse-hutchinson-rabiot-pavlovic-scelte-amorim-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/07/Camarda-e9345cee034d.jpg",
+   "date": "2026-10-15T09:00:38+00:00"
+  },
+  {
+   "title": "Potete schierarli! 3 scommesse e 3 certezze al fantacalcio per la 7a giornata di Serie A, non solo Varela",
+   "summary": "Si avvicina il prossimo turno di Serie A e del fantacalcio. Via libera per queste 3 scommesse e queste 3 certezze per la 7a giornata: potete schierarli.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/potete-schierarli-tre-scommesse-tre-certezze-fantacalcio-settima-giornata-seriea-non-solo-varela/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296058318-1c3c02e0c646-e1791982834958.jpg",
+   "date": "2026-10-15T08:45:37+00:00"
+  },
+  {
+   "title": "Roma, cosa filtra sull'infortunio di Koné e la presenza di Dybala contro il Genoa",
+   "summary": "Attesa in casa Roma per capire le reali condizioni di Manu Kone e Paulo Dybala, entrambi usciti per problemi fisici contro il Real Madrid.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-infortunio-kone-dybala-genoa-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294543150-267bcf9c57c8-e1789393068741.jpeg",
+   "date": "2026-10-15T08:30:53+00:00"
+  },
+  {
    "title": "Gasperini: \"Gli infortuni? Koné più grave di Dybala! Real surclassato, su Mancini, Balerdi e Koulierakis...\"",
    "summary": "Le parole di Gian Piero Gasperini dopo il match di Champions perso 4-3 dalla Roma contro il Real Madrid.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/roma/gasperini-roma-real-madrid-infortuni-kone-dybala-mancini-balerdi-koulierakis/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2300221629-bcbbc18b17e2-e1792012712450.jpg",
-   "date": "2026-10-14T21:45:50+00:00"
+   "date": "2026-10-15T08:15:50+00:00"
+  },
+  {
+   "title": "Juventus, chi gioca tra Woltemade e Kolo Muani! Spalletti può lasciare due 'big' in panchina, Conceicao...",
+   "summary": "La Juventus scende in campo questa sera contro il Celta Vigo, ecco le probabili scelte di formazione di Spalletti.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juventus-woltemade-kolo-muani-spalletti-esclusi-europa-league-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/spalletti-sos-23bc83dfa43e-e1791640328361.jpg",
+   "date": "2026-10-15T08:00:38+00:00"
   },
   {
    "title": "BREAKING - Roma, si ferma anche Dybala! Fuori all'intervallo, cosa filtra sulle sue condizioni",
@@ -46202,7 +46287,34 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/roma/dybala-infortunio-roma-real-madrid-condiizoni-cosa-e-successo/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2296098454-97924e8c654d-e1791715599785.jpeg",
-   "date": "2026-10-14T21:15:59+00:00"
+   "date": "2026-10-15T07:45:59+00:00"
+  },
+  {
+   "title": "Presidente Como: \"Lunga fila di interessati per Fabregas! Marotta e De Laurentiis visionari, su Nico Paz...\"",
+   "summary": "Il presidente del Como Mirwan Suwarso si racconta al Corriere dello Sport: dalle ambizioni del club al futuro di Fabregas e Nico Paz.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/presidente-como-lunga-fila-di-interessati-per-fabregas-marotta-delaurentiis-visionari-nico-paz-fantacalcio-suwarso/",
+   "image": "https://static.sosfanta.com/202605/6051e2744ef6bdb5d09fb73bd0feb516-e1778570858702.jpg",
+   "date": "2026-10-15T07:00:09+00:00"
+  },
+  {
+   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Lautaro",
+   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
+   "date": "2026-10-15T06:30:42+00:00"
+  },
+  {
+   "title": "Mourinho: \"I giocatori della Roma erano morti\". Gasperini risponde: \"Loro non ne potevano più!\"",
+   "summary": "L'allenatore del Real Madrid, José Mourinho, ha parlato ai microfoni di Prime Video al termine della gara di Champions League vinta per 4-3 contro la Roma.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/mourinho-gasperini-roma-real-madrid/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292793551-5d2c024e6fc6-e1788879442715.jpeg",
+   "date": "2026-10-15T06:00:14+00:00"
   },
   {
    "title": "Soulé: \"Questa è la sconfitta peggiore, non ho parole! Prendere 3 gol tutti uguali...\"",
@@ -46401,150 +46513,6 @@
    "url": "https://www.sosfanta.com/squadra/venezia/davide-nicola-nuovo-allenatore-venezia-accordo-raggiunto-dettagli/",
    "image": "https://static.sosfanta.com/202510/78959d08ce93a65945c336d304118a9a-e1761306506651.jpg",
    "date": "2026-10-14T12:45:43+00:00"
-  },
-  {
-   "title": "UFFICIALE - Pavlovic rinnova con il Milan: il comunicato e la nuova durata del contratto",
-   "summary": "Il Milan ha annunciato di aver rinnovato il contratto di Pavlovic, di seguito il comunicato con la durata del nuovo accordo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ufficiale-pavlovic-rinnovo-milan-comunicato-durata-contratto-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Pavlovic-ce4235e98f9b.jpg",
-   "date": "2026-10-14T12:30:37+00:00"
-  },
-  {
-   "title": "Verso Venezia-Napoli: Anguissa, A. Santos e Olivera tornano tra i convocati? Cosa filtra sulla loro gestione",
-   "summary": "Il Napoli deve reagire dopo la sconfitta in Champions e Allegri potrebbe ritrovare alcuni giocatori.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/venezia-napoli-anguissa-santos-olivera-convocati-gestione-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Alisson-santos-4b694bae90b3-e1790675936468.jpeg",
-   "date": "2026-10-14T12:00:50+00:00"
-  },
-  {
-   "title": "Sassuolo, grave infortunio al ginocchio per Leysen: l'esito degli esami e il comunicato del club",
-   "summary": "Il Sassuolo ha comunicato l'esito degli esami al ginocchio effettuati da Leysen che dovrà stare ai box per molto tempo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-leysen-infortunio-ginocchio-esami-comunicato-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296034623-ce10ff4e6467-e1791976439137.jpg",
-   "date": "2026-10-14T11:30:33+00:00"
-  },
-  {
-   "title": "Como, chi gioca in Champions: ballottaggio tra Milla e Perrone, un cambio in difesa e tra Butez e Sanchez...",
-   "summary": "Il Como sfida il Feyenoord in Champions, le ultime sulle scelte di Fabregas. L'unico assente sarà Kean, riflessioni in porta e non solo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/como-chi-gioca-in-champions-ballottaggio-milla-perrone-butez-sanchez-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Butez-753028b7e186-e1788361128800.jpg",
-   "date": "2026-10-14T11:00:01+00:00"
-  },
-  {
-   "title": "NEWS - Butez, Moreira, Tomori, Anguissa, Santos, Celik, Rovella, Marusic e le ultime su Atta",
-   "summary": "Dopo le prime sfide di Champions, questa sera si concluderà il programma della seconda giornata, domani Europa e Conference League. Queste le novità su infor...",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-atta-butez-moreira-tomori-anguissa-santos-celik-marusic-rovella-ultime-novita/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295665898-9e3ae1ef4063-e1791969260830.jpg",
-   "date": "2026-10-14T10:15:27+00:00"
-  },
-  {
-   "title": "Assente Chukwueze in allenamento, il motivo! Gabbia potrebbe accorciare i tempi di recupero, le ultime sul Milan",
-   "summary": "Nel Milan si sta prendendo sempre più il posto da titolare Moreira che ha superato tutti nelle gerarchie di Amorim.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-assente-chukwueze-motivo-gabbia-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299703363-a75487528d9a-e1791971841217.jpg",
-   "date": "2026-10-14T10:00:32+00:00"
-  },
-  {
-   "title": "Chivu: \"Preoccupato dai 14 gol presi, così non si va da nessuna parte! Dopo le chance di Lautaro e Dimarco...\"",
-   "summary": "Le parole del tecnico nerazzurro al termine del match di Champions League perso dall'Inter contro il Bruges nella seconda giornata della League Phase.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/chivu-inter-bruges-conferenza-intervista/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299506166-f4a37c2ae97c-e1791929157487.jpeg",
-   "date": "2026-10-14T09:45:02+00:00"
-  },
-  {
-   "title": "Da Udine - Okoye in discussione, titolarità in dubbio per il Lecce: cosa succede e al suo posto…",
-   "summary": "Il portiere dell'Udinese finisce al centro delle critiche dopo l'errore decisivo contro il Torino: ecco cosa filtra da Udine.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/udinese-okoye-discussione-titolarita-dubbio-chi-gioca-contro-lecce/",
-   "image": "https://static.sosfanta.com/2026/10/Okoye-be74cfb7ddc9-e1791837622784.jpeg",
-   "date": "2026-10-14T09:30:57+00:00"
-  },
-  {
-   "title": "Allegri: \"Con De Bruyne non ci siamo capiti! Su Olivera, Alisson, Anguissa e gli errori di Di Lorenzo e Politano...\"",
-   "summary": "Massimiliano Allegri ha parlato al termine della partita che ha visto il Napoli protagonista sul campo del Villarreal. Ecco le sue parole.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/allegri-napoli-villarreal-intervista-conferenza/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294372823-b6ba66b32dfa-e1791923060509.jpg",
-   "date": "2026-10-14T09:15:02+00:00"
-  },
-  {
-   "title": "Fiorentina, cosa filtra su Atta: la verità sui tempi di recupero, c'è un'ipotesi che 'spaventa'",
-   "summary": "Tutti gli aggiornamenti e le ultime sulle condizioni di Atta, alle prese con un problema fisico che si porta dietro da tempo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-atta-cosa-filtra-tempi-di-recupero-ipotesi-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Atta-350ceb609002-e1787386518952.jpg",
-   "date": "2026-10-14T09:00:17+00:00"
-  },
-  {
-   "title": "BREAKING - Venezia, accordo vicino per il nuovo allenatore! Le ultime tra Nicola e Zanetti",
-   "summary": "I lagunari hanno scelto la prossima guida tecnica che andrà a sostituire Stroppa, esonerato dopo il ko contro l'Atalanta.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/venezia/venezia-nuovo-allenatore-accordo-erede-stroppa/",
-   "image": "https://static.sosfanta.com/202603/9d702d6dab17028ad7fb43e1d7eb42c2-e1773782087293.jpeg",
-   "date": "2026-10-14T08:45:42+00:00"
-  },
-  {
-   "title": "Fabregas: \"Come sta Kean e novità Addai! Rispondo alle critiche su Paz, Jesus Rodriguez...\"",
-   "summary": "Cesc Fabregas presenta Feyenoord-Como in conferenza stampa: le parole dell’allenatore alla vigilia della sfida di Champions League.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/fabregas-come-sta-kean-e-novita-addai-rispondo-alle-critiche-su-paz-jesus-rodriguez/",
-   "image": "https://static.sosfanta.com/2026/10/fabregas-sos-74c83c04938d-e1791899880932.jpg",
-   "date": "2026-10-14T08:45:23+00:00"
-  },
-  {
-   "title": "Politano: \"Chiedo scusa per l'errore sul gol. La sconfitta? Vi spiego cosa non facciamo bene\"",
-   "summary": "L'attaccante del Napoli è intervenuto ai microfoni di Sky dopo la netta sconfitta del Napoli in Champions League contro il Villarreal.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-politano-errore-gol-sconfitta-champions/",
-   "image": "https://static.sosfanta.com/2026/10/Politano-b78819bf4b46-e1791616805963.jpg",
-   "date": "2026-10-14T08:00:12+00:00"
-  },
-  {
-   "title": "Baturina: \"Sono felice al Como, possiamo battere il Feyenoord! Problemi fisici in nazionale? Vi spiego\"",
-   "summary": "Il trequartista del Como ha parlato in conferenza stampa alla vigilia del match di Champions League contro l'Inter.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/baturina-como-champions-league-feyenoord-problemi-fisici-nazionale/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292719457-280228037c53-e1788115628230.jpeg",
-   "date": "2026-10-14T07:00:53+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Alisson, Anguissa, Kean, Amorim, Colombo, Bernabé, Celik, Davis, Bayo, Busio, Ilic, Elphege: le novità",
-   "summary": "Importanti notizie anche oggi dai campi in chiave fantacalcio, aspettando la fine dei posticipi: ecco le novità su infortunati e non solo.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/kean-alisson-anguissa-amorim-colombo-bernabe-celik-davis-bayo-busio-ilic/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292121271-7ef268d7b46e-e1791907484201.jpeg",
-   "date": "2026-10-14T06:30:29+00:00"
-  },
-  {
-   "title": "FLASH - Mastantuono operato alla mano, ma con il Como ci sarà: il motivo nel comunicato della Fiorentina",
-   "summary": "Comunicazione a sorpresa della Fiorentina che rende noto di aver sottoposto il fantasista argentino, Franco Mastantuono, ad un intervento chirurgico.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/mastantuono-como-operato-infortunio-fiorentina-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289960440-804b0d4afa9b-e1787576596243.jpeg",
-   "date": "2026-10-14T06:15:53+00:00"
   }
  ],
  "marketDifficulty": {
