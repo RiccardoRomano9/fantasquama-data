@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T14:08:15+00:00",
+ "generatedAt": "2026-10-15T17:10:53+00:00",
  "season": "2026-27",
  "gameweek": 7,
  "note": "Stime calcolate con la sola storia precedente alla giornata 7 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -681,9 +681,9 @@
    },
    "quotazione": 7.0,
    "fvm": 27.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -4322,7 +4322,7 @@
    "appearances": 4,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.05,
-   "playProbability": 0.285,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.2822,
     "rf": 0.0071,
@@ -4343,7 +4343,7 @@
     "q90": 8.72
    },
    "learnedVote": 6.3,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.2084,
     "rf": 0.0121,
@@ -4376,9 +4376,9 @@
    },
    "quotazione": 6.0,
    "fvm": 20.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -29961,7 +29961,7 @@
    "appearances": 0,
    "gameweeksElapsed": 6,
    "estimatedVote": 5.97,
-   "playProbability": 0.044,
+   "playProbability": 0.35,
    "events": {
     "gf": 0.0703,
     "rf": 0.0008,
@@ -29982,7 +29982,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.09,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.35,
    "learnedEvents": {
     "gf": 0.0646,
     "rf": 0.0056,
@@ -30016,7 +30016,7 @@
    "quotazione": 1.0,
    "fvm": 3.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 40.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -30039,7 +30039,7 @@
    "appearances": 6,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.08,
-   "playProbability": 0.83,
+   "playProbability": 0.524,
    "events": {
     "gf": 0.0555,
     "rf": 0.0006,
@@ -30060,7 +30060,7 @@
     "q90": 6.78
    },
    "learnedVote": 6.46,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.524,
    "learnedEvents": {
     "gf": 0.0484,
     "rf": 0.0042,
@@ -30092,7 +30092,7 @@
    "quotazione": 2.0,
    "fvm": 8.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -30957,7 +30957,7 @@
    "appearances": 1,
    "gameweeksElapsed": 6,
    "estimatedVote": 5.94,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0224,
     "rf": 0.0003,
@@ -30978,7 +30978,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.74,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.043,
     "rf": 0.0037,
@@ -31011,8 +31011,8 @@
    },
    "quotazione": 2.0,
    "fvm": 8.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -31553,9 +31553,9 @@
    },
    "quotazione": 2.0,
    "fvm": 5.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -45113,6 +45113,22 @@
     {
      "opzioni": [
       {
+       "player_id": "6638",
+       "giocatore": "Marin R.",
+       "titolarita_pct": 60,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6809",
+       "giocatore": "Marianucci",
+       "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "2517",
        "giocatore": "De Bruyne",
        "titolarita_pct": 51,
@@ -46187,7 +46203,79 @@
  ],
  "news": [
   {
-   "title": "Fiorentina, decisione già presa per Mastantuono contro il Como! Le ultime sulle condizioni di Atta...",
+   "title": "DAI CAMPI - Gudmundsson, C. Augusto, Colombo, Skorupski, Santos, Anguissa, Boga, Traoré e quando torna Stones",
+   "summary": "È vigilia di campionato, aspettando gli impegni di stasera di Europa e Conference League: ecco le ultime dai campi in chiave fantacalcio.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-gudmundsson-c-augusto-colombo-skorupski-santos-anguissa-boga-traore-e-quando-torna-stones/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298082160-3c69bfb93236-e1792084108722.jpg",
+   "date": "2026-10-15T17:08:05+00:00"
+  },
+  {
+   "title": "Verso Bologna-Inter, da Carlos Augusto a Bonny: ecco i cambi di Chivu. E si allungano i tempi per Stones",
+   "summary": "L'Inter vuole reagire subito in campionato dopo la sconfitta in Champions e Chivu pensa a come affrontare il Bologna.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/bologna-inter-carlos-augusto-condizioni-bonny-pavard-chivu-cambi-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294208647-bdf1218ee215-e1788903752494.jpg",
+   "date": "2026-10-15T17:00:47+00:00"
+  },
+  {
+   "title": "Boga, il recupero procede spedito: cosa filtra sulla convocazione già contro la Lazio",
+   "summary": "Grande sorpresa ieri nell'allenamento di rifinitura della Juventus: Jeremie Boga è tornato in campo. Intera seduta col gruppo.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/boga-juve-convocazione-lazio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293865813-a3b471537174.jpg",
+   "date": "2026-10-15T16:00:10+00:00"
+  },
+  {
+   "title": "Milan, la formazione ufficiale in Europa League: la scelta su Camarda, Pulisic, Hutchinson, Moreira e Cisse",
+   "summary": "Dopo l'esordio amaro contro il Benfica, il Milan si tuffa nuovamente nelle serate di Europa League: alle 18.45 la sfida al Salisburgo in terra austriaca.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/box-focus/milan-salisburgo-formazioni-ufficiali-europa-league-scelta-camarda-pulisic-hutchinson-moreira-cisse-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296294012-a2cc65827a27-e1792053419812.jpeg",
+   "date": "2026-10-15T15:45:51+00:00"
+  },
+  {
+   "title": "La preview della settima giornata al fantacalcio: partita per partita, chi mettere e chi no",
+   "summary": "Partita per partita, ecco chi schierare alla settima giornata al fantacalcio 2026-2027 con la nostra preview con tutti i giocatori.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/preview-7a-giornata-seriea-campionato-fantacalcio-tutti-consigli-chi-schierare/",
+   "image": "https://static.sosfanta.com/2026/10/McKennie-d89e7c31048e-e1792063091534.jpeg",
+   "date": "2026-10-15T15:15:28+00:00"
+  },
+  {
+   "title": "Lazio, parla il medico: \"I prossimi step per il rientro di Gudmundsson! Per Marusic, Rovella e Cancellieri...\"",
+   "summary": "Tutti gli aggiornamenti sugli indisponibili della Lazio, da Gudmundsson a Cancellieri e le ultime su Rovella e Marusic.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-medico-rovella-marusic-cancellieri-gudmundsson-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293135406-b4ca637a2c7d.jpeg",
+   "date": "2026-10-15T15:00:51+00:00"
+  },
+  {
+   "title": "Fantacalcio Mantra: ecco le migliori 11 scommesse per la 7a giornata di Serie A",
+   "summary": "Ecco le migliori 11 scommesse di giornata al Mantra, delineate dal team di SosMantra.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/fantacalcio-mantra-migliori-11-scommesse-per-la-7a-giornata-di-serie-a/",
+   "image": "https://static.sosfanta.com/202507/41986fffea86c2400632b838b75b7e8c-e1751455326576.jpg",
+   "date": "2026-10-15T14:30:35+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Napoli, c'è lesione per Neres: l'esito ufficiale degli esami e i tempi di recupero",
+   "summary": "C'è lesione per David Neres in casa Napoli: salterà la sfida contro il Venezia e non soltanto, ecco l'esito ufficiale degli esami.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/ufficiale-napoli-infortunio-muscolare-neres-lesione-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/202601/a5d740ca70cacb0da70129d4fb9dbd34-e1767980580489.jpeg",
+   "date": "2026-10-15T14:15:21+00:00"
+  },
+  {
+   "title": "Fiorentina, decisione già presa per Mastantuono contro il Como! Le ultime sulle condizioni di Atta",
    "summary": "La Fiorentina si prepara al match contro il Como dove ci sarà senza dubbio Mastantuono mentre per Atta la situazione è diversa.",
    "author": "Andrea Ajello",
    "source": "SOS Fanta",
@@ -46232,13 +46320,13 @@
    "date": "2026-10-15T13:00:04+00:00"
   },
   {
-   "title": "BREAKING - Napoli, stop per David Neres: ecco cosa filtra in vista del Venezia",
-   "summary": "Stop in casa del Napoli a due giorni dalla sfida contro il Venezia - che ieri ha ufficializzato l'arrivo di Davide Nicola in panchina - prevista sabato.",
+   "title": "FLASH - Inter, infortunio per Lautaro e niente Bologna! L'esito degli esami e i tempi di recupero",
+   "summary": "Brutte notizie in casa Inter. Dopo il ko in Champions contro il Club Brugge, arriva la notizia dello stop di capitan Lautaro Martinez.",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-neres-infortunio-tempi-di-recupero-fantacalcio-venezia/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299572589-688bffe54d0a-e1792066130205.jpeg",
-   "date": "2026-10-15T12:45:59+00:00"
+   "url": "https://www.sosfanta.com/news/inter-lautaro-martinez-infortunio-tempi-di-recupero-fantacalcio-bologna/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300195737-e295d9699079-e1792058924129.jpeg",
+   "date": "2026-10-15T12:45:38+00:00"
   },
   {
    "title": "De Rossi: “Colombo out ma c’è Amorim. Traoré, Ellertsson, Meichtry, Robinho e chi storceva la bocca per Osmajic…”",
@@ -46268,13 +46356,13 @@
    "date": "2026-10-15T12:00:03+00:00"
   },
   {
-   "title": "FLASH - Inter, infortunio per Lautaro e niente Bologna! L'esito degli esami e i tempi di recupero",
-   "summary": "Brutte notizie in casa Inter. Dopo il ko in Champions contro il Club Brugge, arriva la notizia dello stop di capitan Lautaro Martinez.",
+   "title": "BREAKING - Napoli, stop per David Neres: ecco cosa filtra in vista del Venezia",
+   "summary": "Stop in casa del Napoli a due giorni dalla sfida contro il Venezia - che ieri ha ufficializzato l'arrivo di Davide Nicola in panchina - prevista sabato.",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-lautaro-martinez-infortunio-tempi-di-recupero-fantacalcio-bologna/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300195737-e295d9699079-e1792058924129.jpeg",
-   "date": "2026-10-15T11:45:38+00:00"
+   "url": "https://www.sosfanta.com/news/napoli-neres-infortunio-tempi-di-recupero-fantacalcio-venezia/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299572589-688bffe54d0a-e1792066130205.jpeg",
+   "date": "2026-10-15T11:45:59+00:00"
   },
   {
    "title": "Aquilani: \"Adzic ha qualità, lo gestirò così! Candé, Walukiewicz, Leysen e rispondo su Matic in difesa\"",
@@ -46473,78 +46561,6 @@
    "url": "https://www.sosfanta.com/news/ufficiale-nicola-nuovo-allenatore-venezia-comunicato/",
    "image": "https://static.sosfanta.com/202603/9d702d6dab17028ad7fb43e1d7eb42c2-e1773782087293.jpeg",
    "date": "2026-10-14T19:00:02+00:00"
-  },
-  {
-   "title": "Roma, la formazione ufficiale in Champions: la scelta su Molina, Soulé, Balerdi, Dybala ed Hermoso",
-   "summary": "All'Olimpico la Roma ospita il Real Madrid: di seguito le scelte di Gian Piero Gasperini per la sfida di Champions League.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/roma-real-madrid-formazione-ufficiale-champions/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293713056-d372611fa019-e1791975436824.jpg",
-   "date": "2026-10-14T18:45:56+00:00"
-  },
-  {
-   "title": "UFFICIALE - Atalanta, l’esito degli esami per Kessié e Scalvini: i tempi di recupero e il comunicato",
-   "summary": "Giorgio Scalvini e Franck Kessié si fermano per due problemi muscolari: l’Atalanta monitorerà le loro condizioni nei prossimi giorni.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/box-esclusivo/ufficiale-atalanta-esito-esami-kessie-scalvini-tempi-recupero-comunicato-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299951085-4d8443d6086a-e1791998625735.jpg",
-   "date": "2026-10-14T18:40:52+00:00"
-  },
-  {
-   "title": "Carnesecchi: \"C'è una cosa che mi manda ai matti! Il mio ruolo in spogliatoio e il confronto con Donnarumma...\"",
-   "summary": "Oltre a Sarri, si è presentato in conferenza stampa anche Carnesecchi che ha parlato di cosa deve migliorare e non solo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/carnesecchi-atalanta-parole-conferenza-donnarumma-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Carnesecchi-9ef0de3c1be2-e1787257085735.jpg",
-   "date": "2026-10-14T18:00:53+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Scalvini, brutte notizie! Kessie, J. Martinez, Gabbia, Diao, Okoye, Ilkhan, Amorim e novità Theate",
-   "summary": "Importanti notizie anche oggi dai campi in chiave fantacalcio, aspettando la fine dei posticipi: ecco le novità su infortunati e non solo.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/scalvini-kessie-j-martinez-gabbia-diao-okoye-ilkhan-amorim-theate-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299953932-a364c7c4800f-e1791989461299.jpeg",
-   "date": "2026-10-14T17:45:47+00:00"
-  },
-  {
-   "title": "BREAKING - Diao, gol e stop in Champions League: cambio obbligato, il motivo",
-   "summary": "Cambio obbligato nel Como al 23' del primo tempo nella sfida di Champions contro il Feyenoord: Assane Diao è costretto a fermarsi.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/como-diao-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/202602/7ef7ae54ba358a6003bb0bfbdd3f76a5.png",
-   "date": "2026-10-14T17:45:34+00:00"
-  },
-  {
-   "title": "Amorim: \"Domani Pavlovic titolare! Alcuni giocatori in dubbio, faremo rotazioni. Su Camarda, Cisse e le critiche...\"",
-   "summary": "Le parole dell'allenatore Amorim in conferenza stampa alla vigilia di Salisburgo-Milan, match valevole per la seconda giornata di Europa League.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/amorim-milan-conferenza-salisburgo-europa-league/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299687599-d45710efe7af-e1791968802665.jpg",
-   "date": "2026-10-14T17:30:53+00:00"
-  },
-  {
-   "title": "Ds Como: \"Rispondo così sul rinnovo di Diao! Nico Paz? Campione, ecco perché è lui il capitano\"",
-   "summary": "Il direttore sportivo del Como, Carlalberto Ludi, ha parlato ai microfoni di Sky prima della sfida contro il Feyenoord della squadra di Fabregas.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ds-como-rinnovo-di-diao-nico-paz-capitano/",
-   "image": "https://static.sosfanta.com/202606/d91d6c884b9aea2d65a8b7a38a78674e.png",
-   "date": "2026-10-14T17:00:33+00:00"
-  },
-  {
-   "title": "Como, la formazione ufficiale in Champions: fuori Douvikas! La scelta su Butez, Da Cunha e il ruolo di Nico Paz",
-   "summary": "La formazione scelta da Fabregas per la seconda giornata di Champions League contro il Feyenoord.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/como-la-formazione-ufficiale-in-champions-douvikas-butez-milla-nico-paz/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293033428-1bec5341f62e-e1791992951879.jpeg",
-   "date": "2026-10-14T16:20:12+00:00"
   }
  ],
  "marketDifficulty": {
