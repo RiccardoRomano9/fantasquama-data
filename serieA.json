@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14T22:21:44+00:00",
+ "generatedAt": "2026-10-15T00:37:16+00:00",
  "season": "2026-27",
  "gameweek": 7,
  "note": "Stime calcolate con la sola storia precedente alla giornata 7 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -25641,7 +25641,7 @@
    "appearances": 4,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.16,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0396,
     "rf": 0.0005,
@@ -25662,7 +25662,7 @@
     "q90": 6.79
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0435,
     "rf": 0.0036,
@@ -25696,7 +25696,7 @@
    "quotazione": 8.0,
    "fvm": 16.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -33969,7 +33969,7 @@
    "appearances": 3,
    "gameweeksElapsed": 5,
    "estimatedVote": 5.94,
-   "playProbability": 0.044,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0329,
     "rf": 0.0004,
@@ -33990,7 +33990,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.86,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.035,
     "rf": 0.003,
@@ -34024,7 +34024,7 @@
    "quotazione": 7.0,
    "fvm": 19.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45994,6 +45994,22 @@
    "formation": "4-3-3",
    "isOfficial": false,
    "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "6320",
+       "giocatore": "Doekhi",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "7580",
+       "giocatore": "Sutalo J.",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
     {
      "opzioni": [
       {
