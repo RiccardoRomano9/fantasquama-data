@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-10-16T13:14:02+00:00",
+ "scraped_at_utc": "2026-10-16T18:11:11+00:00",
  "giornata": "2026-10-16T18:45:00.000Z",
  "partite": [
   {
@@ -13,54 +13,50 @@
     "titolari": [
      {
       "giocatore": "Palmisani",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Oyono A.",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Calvani",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Monterisi",
-      "titolarita_pct": 51
+      "titolarita_pct": 100
+     },
+     {
+      "giocatore": "Cittadini",
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Bracaglia",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Calò",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Masini",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Ghedjemis",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Schmid",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Kvernadze",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Raimondo",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      }
     ],
     "panchina": [
-     {
-      "giocatore": "Cittadini",
-      "titolarita_pct": 49
-     },
      {
       "giocatore": "Desplanches",
       "titolarita_pct": 5
@@ -75,6 +71,10 @@
      },
      {
       "giocatore": "Amey",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Calvani",
       "titolarita_pct": 5
      },
      {
@@ -118,20 +118,7 @@
       "titolarita_pct": 5
      }
     ],
-    "ballottaggi": [
-     {
-      "opzioni": [
-       {
-        "giocatore": "Monterisi",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Cittadini",
-        "titolarita_pct": 49
-       }
-      ]
-     }
-    ],
+    "ballottaggi": [],
     "indisponibili": [
      {
       "giocatore": "Gelli F.",
@@ -151,7 +138,7 @@
       "nota": "Intervento chirurgico per il trattamento di Sports Hernia destra, in dubbio per la 9a."
      }
     ],
-    "ufficiale": false
+    "ufficiale": true
    },
    "ospite": {
     "squadra": "Sassuolo",
@@ -159,62 +146,50 @@
     "titolari": [
      {
       "giocatore": "Muric",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Van Der Brempt",
-      "titolarita_pct": 51
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Caleta-Car",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Odenthal",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Doig",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Adzic",
-      "titolarita_pct": 51
-     },
-     {
-      "giocatore": "Matic",
-      "titolarita_pct": 95
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Thorstvedt",
-      "titolarita_pct": 51
+      "titolarita_pct": 100
      },
      {
-      "giocatore": "Berardi",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Esposito Se.",
-      "titolarita_pct": 60
-     },
-     {
-      "giocatore": "Laurientè",
-      "titolarita_pct": 95
-     }
-    ],
-    "panchina": [
-     {
-      "giocatore": "Cinquegrano",
-      "titolarita_pct": 49
-     },
-     {
-      "giocatore": "Bowie",
-      "titolarita_pct": 40
+      "giocatore": "Matic",
+      "titolarita_pct": 100
      },
      {
       "giocatore": "Bakola",
-      "titolarita_pct": 49
+      "titolarita_pct": 100
      },
+     {
+      "giocatore": "Berardi",
+      "titolarita_pct": 100
+     },
+     {
+      "giocatore": "Esposito Se.",
+      "titolarita_pct": 100
+     },
+     {
+      "giocatore": "Laurientè",
+      "titolarita_pct": 100
+     }
+    ],
+    "panchina": [
      {
       "giocatore": "Satalino",
       "titolarita_pct": 5
@@ -228,11 +203,19 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Cinquegrano",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Obrador",
       "titolarita_pct": 5
      },
      {
       "giocatore": "Walukiewicz",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Adzic",
       "titolarita_pct": 5
      },
      {
@@ -250,58 +233,13 @@
      {
       "giocatore": "Volpato",
       "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Bowie",
+      "titolarita_pct": 5
      }
     ],
-    "ballottaggi": [
-     {
-      "opzioni": [
-       {
-        "giocatore": "Van Der Brempt",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Cinquegrano",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Adzic",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Bakola",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Thorstvedt",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Bakola",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Esposito Se.",
-        "titolarita_pct": 60
-       },
-       {
-        "giocatore": "Bowie",
-        "titolarita_pct": 40
-       }
-      ]
-     }
-    ],
+    "ballottaggi": [],
     "indisponibili": [
      {
       "giocatore": "Pieragnolo",
@@ -333,7 +271,7 @@
       "nota": "Lesione del legamento crociato anteriore della gamba sinistra, tempi da definire."
      }
     ],
-    "ufficiale": false
+    "ufficiale": true
    }
   },
   {
@@ -410,6 +348,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Mazzocchi",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Dagasso",
       "titolarita_pct": 5
      },
@@ -450,11 +392,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Haps",
+        "giocatore": "Halhal",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Sagrado",
+        "giocatore": "Schingtienne",
         "titolarita_pct": 49
        }
       ]
@@ -462,11 +404,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Halhal",
+        "giocatore": "Haps",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Schingtienne",
+        "giocatore": "Sagrado",
         "titolarita_pct": 49
        }
       ]
@@ -523,8 +465,8 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Marin R.",
-      "titolarita_pct": 95
+      "giocatore": "Beukema",
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Rrahmani",
@@ -559,8 +501,8 @@
       "titolarita_pct": 51
      },
      {
-      "giocatore": "Hojlund",
-      "titolarita_pct": 60
+      "giocatore": "Lucca",
+      "titolarita_pct": 51
      }
     ],
     "panchina": [
@@ -577,8 +519,12 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Lucca",
-      "titolarita_pct": 40
+      "giocatore": "Hojlund",
+      "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Marin R.",
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Contini",
@@ -586,10 +532,6 @@
      },
      {
       "giocatore": "Milinkovic-Savic V.",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Beukema",
       "titolarita_pct": 5
      },
      {
@@ -610,6 +552,18 @@
      }
     ],
     "ballottaggi": [
+     {
+      "opzioni": [
+       {
+        "giocatore": "Beukema",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Marin R.",
+        "titolarita_pct": 49
+       }
+      ]
+     },
      {
       "opzioni": [
        {
@@ -649,12 +603,12 @@
      {
       "opzioni": [
        {
-        "giocatore": "Hojlund",
-        "titolarita_pct": 60
+        "giocatore": "Lucca",
+        "titolarita_pct": 51
        },
        {
-        "giocatore": "Lucca",
-        "titolarita_pct": 40
+        "giocatore": "Hojlund",
+        "titolarita_pct": 49
        }
       ]
      }
@@ -1078,11 +1032,11 @@
      },
      {
       "giocatore": "N'Dicka",
-      "titolarita_pct": 55
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Balerdi",
-      "titolarita_pct": 55
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Lulli",
@@ -1152,7 +1106,7 @@
       "opzioni": [
        {
         "giocatore": "N'Dicka",
-        "titolarita_pct": 55
+        "titolarita_pct": 51
        },
        {
         "giocatore": "Hermoso",
@@ -1164,7 +1118,7 @@
       "opzioni": [
        {
         "giocatore": "Balerdi",
-        "titolarita_pct": 55
+        "titolarita_pct": 51
        },
        {
         "giocatore": "Hermoso",
@@ -2128,8 +2082,8 @@
       "titolarita_pct": 51
      },
      {
-      "giocatore": "Chukwueze",
-      "titolarita_pct": 95
+      "giocatore": "Moreira",
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Modric",
@@ -2140,7 +2094,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Moreira",
+      "giocatore": "Cissè A.",
       "titolarita_pct": 51
      },
      {
@@ -2162,8 +2116,12 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Cissè A.",
+      "giocatore": "Chukwueze",
       "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Hutchinson",
+      "titolarita_pct": 5
      },
      {
       "giocatore": "Torriani",
@@ -2183,10 +2141,6 @@
      },
      {
       "giocatore": "Comotto",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Hutchinson",
       "titolarita_pct": 5
      },
      {
@@ -2211,6 +2165,18 @@
        },
        {
         "giocatore": "Cissè A.",
+        "titolarita_pct": 51
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Moreira",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Chukwueze",
         "titolarita_pct": 49
        }
       ]
@@ -2230,11 +2196,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Moreira",
+        "giocatore": "Cissè A.",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Cissè A.",
+        "giocatore": "Chukwueze",
         "titolarita_pct": 49
        }
       ]
@@ -2421,7 +2387,7 @@
    "data": "2026-10-18T18:45:00.000Z",
    "casa": {
     "squadra": "Juventus",
-    "formazione": "4-2-3-1",
+    "formazione": "3-4-2-1",
     "titolari": [
      {
       "giocatore": "Vicario",
@@ -2440,7 +2406,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Celik",
+      "giocatore": "Mckennie",
       "titolarita_pct": 95
      },
      {
@@ -2452,15 +2418,15 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Conceicao",
-      "titolarita_pct": 51
-     },
-     {
-      "giocatore": "Mckennie",
+      "giocatore": "Celik",
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Alajbegovic",
+      "giocatore": "Gonzalez N.",
+      "titolarita_pct": 51
+     },
+     {
+      "giocatore": "Woltemade",
       "titolarita_pct": 51
      },
      {
@@ -2470,11 +2436,15 @@
     ],
     "panchina": [
      {
-      "giocatore": "Gonzalez N.",
+      "giocatore": "Zhegrova",
+      "titolarita_pct": 20
+     },
+     {
+      "giocatore": "Conceicao",
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Zhegrova",
+      "giocatore": "Alajbegovic",
       "titolarita_pct": 49
      },
      {
@@ -2510,7 +2480,7 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Woltemade",
+      "giocatore": "Boga",
       "titolarita_pct": 5
      }
     ],
@@ -2518,11 +2488,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Conceicao",
+        "giocatore": "Gonzalez N.",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Zhegrova",
+        "giocatore": "Alajbegovic",
         "titolarita_pct": 49
        }
       ]
@@ -2530,11 +2500,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Alajbegovic",
+        "giocatore": "Woltemade",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Gonzalez N.",
+        "giocatore": "Conceicao",
         "titolarita_pct": 49
        }
       ]
@@ -2652,6 +2622,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Pellegrini Lu.",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Cataldi",
       "titolarita_pct": 5
      },
@@ -2695,10 +2669,6 @@
       "giocatore": "Marusic",
       "stato": "infortunato",
       "nota": "Ricaduta dopo lo stiramento di primo grado ai flessori della coscia sinistra, in dubbio per l'8a."
-     },
-     {
-      "giocatore": "Pellegrini Lu.",
-      "stato": "indisponibile"
      },
      {
       "giocatore": "Rovella",
@@ -2763,7 +2733,7 @@
       "titolarita_pct": 51
      },
      {
-      "giocatore": "Cutrone",
+      "giocatore": "Mota",
       "titolarita_pct": 51
      },
      {
@@ -2773,11 +2743,11 @@
     ],
     "panchina": [
      {
-      "giocatore": "Mota",
+      "giocatore": "Zeballos",
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Zeballos",
+      "giocatore": "Cutrone",
       "titolarita_pct": 49
      },
      {
@@ -2837,11 +2807,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Cutrone",
+        "giocatore": "Mota",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Mota",
+        "giocatore": "Cutrone",
         "titolarita_pct": 49
        }
       ]
