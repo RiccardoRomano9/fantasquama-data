@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-15T21:32:21+00:00",
+ "generatedAt": "2026-10-16T00:26:19+00:00",
  "season": "2026-27",
  "gameweek": 7,
- "note": "Stime calcolate con la sola storia precedente alla giornata 7 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 7 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -5100,7 +5100,7 @@
    "appearances": 4,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.1,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.1709,
     "rf": 0.0053,
@@ -5121,7 +5121,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.14,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1611,
     "rf": 0.0081,
@@ -5154,9 +5154,9 @@
    },
    "quotazione": 14.0,
    "fvm": 73.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -46203,13 +46203,40 @@
  ],
  "news": [
   {
+   "title": "Sarri: \"Troppi infortuni, calendario assurdo! Come stanno Raspadori e Bellanova, su Elmas e Zalewski...\"",
+   "summary": "L'allenatore dell'Atalanta, Maurizio Sarri, ha parlato in conferenza stampa ed ai microfoni di Sky dopo la sfida giocata dai suoi contro il Pafos, in Confere...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-sarri-troppi-infortuni-calendario-assurdo-come-stanno-raspadori-bellanova-elmas-zalewski-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292959336-10094e755f02-e1792054696651.jpg",
+   "date": "2026-10-15T22:00:33+00:00"
+  },
+  {
+   "title": "Spalletti: “Conceicao? Gli conviene essere arrabbiato con se stesso”. E Chico: “Cose non vere”",
+   "summary": "Spalletti e Conceicao sono intervenuti dopo il successo europeo della Juventus: ecco le dichiarazioni rilasciate a Sky Sport e in conferenza stampa.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-juventus-conferenza-europa-league-fantacalcio-conceicao-cose-non-vere-lite/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300386126-78263498e8ee-e1792099721780.jpg",
+   "date": "2026-10-15T21:45:21+00:00"
+  },
+  {
    "title": "Sky - Juventus, nervi tesi per Conceicao dopo il cambio: confronto acceso con un collaboratore di Spalletti",
    "summary": "Nervi tesi per Conceicao dopo il cambio contro il Celta Vigo: cosa è successo sulla panchina della Juventus e il confronto con lo staff.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/juventus/sky-juventus-nervi-tesi-conceicao-dopo-cambio-confronto-acceso-collaboratore-spalletti-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2296365819-cb75c162ceeb-e1791738856526.jpeg",
-   "date": "2026-10-15T21:15:14+00:00"
+   "date": "2026-10-15T21:30:14+00:00"
+  },
+  {
+   "title": "Chi schierare a centrocampo alla settima giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i centrocampisti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-centrocampo-settima-giornata-seriea-fantacalcio-consigli/",
+   "image": "https://static.sosfanta.com/2026/10/Pisilli-514420e02daa-e1792057788734.jpeg",
+   "date": "2026-10-15T21:15:51+00:00"
   },
   {
    "title": "Cisse: \"Ad inizio anno nessuno si sarebbe aspettato tutto questo, su Amorim, Camarda, Mancini e il mio ruolo...\"",
@@ -46219,15 +46246,6 @@
    "url": "https://www.sosfanta.com/squadra/milan/cisse-ad-inizio-anno-nessuno-si-sarebbe-aspettato-tutto-questo-amorim-camarda-ruolo-fantacalcio-milan/",
    "image": "https://static.sosfanta.com/2026/09/Cisse-08d87e031922-e1788726791145.jpg",
    "date": "2026-10-15T21:00:33+00:00"
-  },
-  {
-   "title": "Chi schierare a centrocampo alla settima giornata al fantacalcio: la divisione fascia per fascia",
-   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i centrocampisti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-centrocampo-settima-giornata-seriea-fantacalcio-consigli/",
-   "image": "https://static.sosfanta.com/2026/10/Pisilli-514420e02daa-e1792057788734.jpeg",
-   "date": "2026-10-15T20:45:51+00:00"
   },
   {
    "title": "FLASH - Gol e assist per Raspadori, poi l’infortunio: ecco cos’è successo in Conference League",
@@ -46543,24 +46561,6 @@
    "url": "https://www.sosfanta.com/squadra/roma/gasperini-roma-real-madrid-infortuni-kone-dybala-mancini-balerdi-koulierakis/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2300221629-bcbbc18b17e2-e1792012712450.jpg",
    "date": "2026-10-15T08:15:50+00:00"
-  },
-  {
-   "title": "Juventus, chi gioca tra Woltemade e Kolo Muani! Spalletti può lasciare due 'big' in panchina, Conceicao...",
-   "summary": "La Juventus scende in campo questa sera contro il Celta Vigo, ecco le probabili scelte di formazione di Spalletti.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juventus-woltemade-kolo-muani-spalletti-esclusi-europa-league-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/spalletti-sos-23bc83dfa43e-e1791640328361.jpg",
-   "date": "2026-10-15T08:00:38+00:00"
-  },
-  {
-   "title": "BREAKING - Roma, si ferma anche Dybala! Fuori all'intervallo, cosa filtra sulle sue condizioni",
-   "summary": "L'argentino, titolare contro il Real Madrid, è stato sostituito a fine primo tempo a causa di un problema fisico: la situazione.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/dybala-infortunio-roma-real-madrid-condiizoni-cosa-e-successo/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296098454-97924e8c654d-e1791715599785.jpeg",
-   "date": "2026-10-15T07:45:59+00:00"
   }
  ],
  "marketDifficulty": {
