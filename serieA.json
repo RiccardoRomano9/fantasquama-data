@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T07:03:12+00:00",
+ "generatedAt": "2026-10-17T12:10:33+00:00",
  "season": "2026-27",
  "gameweek": 7,
  "note": "Stime calcolate con la sola storia precedente alla giornata 7 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -32076,7 +32076,7 @@
    "appearances": 3,
    "gameweeksElapsed": 6,
    "estimatedVote": 5.93,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.016,
     "rf": 0.0003,
@@ -32097,7 +32097,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.85,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0303,
     "rf": 0.0027,
@@ -32130,8 +32130,8 @@
    },
    "quotazione": 2.0,
    "fvm": 5.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -46830,6 +46830,96 @@
  ],
  "news": [
   {
+   "title": "Atalanta, quando possono rientrare Scalvini, Kessie, Hien e Kossounou. Sulemana a rilento, Raspadori...",
+   "summary": "Infermeria piena in casa Atalanta alla vigilia della sfida dei bergamaschi contro il Milan. Ecco le ultime sui giocatori acciaccati da La Gazzetta dello Sport.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/atalanta-tempi-di-recupero-fantacalcio-infortunio-scalvini-kessie-hien-kossounou-sulemana-raspadori/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294930864-9f61770b01ab-e1789243235467.jpeg",
+   "date": "2026-10-17T12:00:44+00:00"
+  },
+  {
+   "title": "Venezia-Napoli, le formazioni ufficiali: la scelta su De Bruyne! Hojlund, Hainaut, Lang, Yeboah, McTominay...",
+   "summary": "Alle 15 la Serie A torna in campo dopo l'anticipo di ieri vinto dal Frosinone contro il Sassuolo: allo stadio Penzo il Venezia ospita il Napoli di Allegri.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/formazioni-ufficiali-venezia-napoli-de-bruyne-lucca-hojlund/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300148599-d48ed41d9d22-e1792232590215.jpeg",
+   "date": "2026-10-17T12:00:22+00:00"
+  },
+  {
+   "title": "Di Francesco: \"Geubbels, Stulic o Esteban? Rispondo così! Gandelman, Ilic, Ngom e non perdo tempo con Banda\"",
+   "summary": "Il tecnico del Lecce, Eusebio Di Francesco, ha parlato in conferenza stampa in vista del match in programma contro l'Udinese, domani alle 12.30.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/di-francesco-lecce-udinese-geubbels/",
+   "image": "https://static.sosfanta.com/202605/579a4f48397905301c9f52b14e099ffd.jpg",
+   "date": "2026-10-17T11:00:41+00:00"
+  },
+  {
+   "title": "Gattuso: \"Noslin o Pinamonti contro la Juve? Rispondo così! Belahyane, Taylor e la decisione su Luca Pellegrini\"",
+   "summary": "L'allenatore della Lazio, Gennaro Gattuso, ha parlato in conferenza stampa in vista della sfida dei suoi contro la Juve, in programma domenica sera a Torino.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/gattuso-lazio-juve-pinamonti/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294046229-e598cbb48950-e1789232801892.jpg",
+   "date": "2026-10-17T10:55:00+00:00"
+  },
+  {
+   "title": "NEWS - Raspadori, Davis, Dybala, Boga, Diao, Kone, Kean, Gud, Okoye, De Bruyne, Mina, Conceicao: le ultime",
+   "summary": "Dopo l'anticipo del venerdì vinto dal Frosinone contro il Sassuolo, oggi la Serie A torna in campo con altre tre gare: ecco le ultime in ottica fantacalcio d...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/raspadori-davis-dybala-boga-diao-kone-kean-gud-okoye-de-bruyne-mina-conceicao-fantacalcio-tempi-di-recupero/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299992036-2480805e4096-e1792217740764.jpeg",
+   "date": "2026-10-17T10:15:27+00:00"
+  },
+  {
+   "title": "Roma-Genoa, le probabili formazioni e le ultime su Dybala e Kone. Mora, Osmajic, Castro, Vitinha, Soulé...",
+   "summary": "Senza Malen e Dybala, Gasperini ha la coperta un po' corta in attacco: nella Roma pronto Castro con Soulé e uno fra Mora e Pellegrini.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/probabili-formazioni-roma-genoa-mora-soule-pellegrini-traore-vitinha-osmajic/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2291168216-189e476352da-e1787566220682.jpeg",
+   "date": "2026-10-17T10:00:31+00:00"
+  },
+  {
+   "title": "Aquilani: \"Rispondo così su Muric e il cambio in porta! Berardi, Bakola e perché non ha giocato Adzic\"",
+   "summary": "Intervenuto ai microfoni di DAZN e in conferenza stampa, Alberto Aquilani, allenatore del Sassuolo, ha parlato così dopo la gara contro il Frosinone.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/sassuolo/aquilani-rispondo-cosi-su-muric-e-il-cambio-in-porta-berardi-bakola-e-perche-non-ha-giocato-adzic/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291722089-c546b1365949-e1792180776492.jpg",
+   "date": "2026-10-17T09:45:50+00:00"
+  },
+  {
+   "title": "Raimondo: \"Dico questo ai fantallenatori che mi hanno preso!\". Calò: \"Ecco quanto costerei ora all'asta\"",
+   "summary": "Si parla anche di fantacalcio nell'intervista nel postpartita di Frosinone-Sassuolo. I protagonisti sono Antonio Raimondo e Giacomo Calò.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/frosinone/raimondo-dico-questo-fantallenatori-calo-ecco-quanto-costerei-ora-asta/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-16-23-07-21-e1a84d27606e-e1792184923767.jpg",
+   "date": "2026-10-17T09:15:06+00:00"
+  },
+  {
+   "title": "Bologna-Inter, gli ultimi dubbi di formazione: cosa filtra sui portieri, Pio, Bonny, Piccoli, Calha e Berna",
+   "summary": "A poche ore dalla sfida al Bologna, Chivu non ha ancora sciolto le riserve sulla formazione. Il tecnico dell'Inter in conferenza stampa è stato criptico sui...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/bologna-inter-probabili-formazioni-josep-martinez-provedel-pio-bonny-piccoli-calhanoglu-bernardeschi-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291653721-af1654886d65-e1788964799811.jpeg",
+   "date": "2026-10-17T09:00:52+00:00"
+  },
+  {
+   "title": "Venezia-Napoli, le ultime di formazione: da Lucca a De Bruyne, Hainaut, Hojlund, Yeboah, Lang e Giovane",
+   "summary": "Solo oggi Allegri scioglierà gli ultimi dubbi di formazione per la sfida del Napoli al Venezia. Lucca può far rifiatare Hojlund nel reparto d'attacco.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/probabili-formazioni-venezia-napoli-lucca-hojlund-de-bruyne-giovane-hainaut-yeboah/",
+   "image": "https://static.sosfanta.com/2026/10/De-Bruyne-9b6683289b1c-e1791530098465.jpeg",
+   "date": "2026-10-17T08:00:09+00:00"
+  },
+  {
    "title": "Cittadini: \"Ho trovato l'ambiente giusto, ci godiamo i frutti! Ecco chi prenderei al fantacalcio della squadra\"",
    "summary": "Al termine di Frosinone-Sassuolo, Giorgio Cittadini si è fermato ai microfoni di DAZN per commentare la prestazione e il risultato della squadra.",
    "author": "Francesco Mangiagli",
@@ -46839,22 +46929,13 @@
    "date": "2026-10-17T07:00:27+00:00"
   },
   {
-   "title": "Aquilani: \"Rispondo così su Muric e il cambio in porta! Berardi, Bakola e perché non ha giocato Adzic\"",
-   "summary": "Intervenuto ai microfoni di DAZN e in conferenza stampa, Alberto Aquilani, allenatore del Sassuolo, ha parlato così dopo la gara contro il Frosinone.",
+   "title": "I voti di Frosinone-Sassuolo: la scelta su Raimondo! Muric horror, Berardi più di Thorstvedt e meno di Calò",
+   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni.",
    "author": "Marco Astori",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/aquilani-rispondo-cosi-su-muric-e-il-cambio-in-porta-berardi-bakola-e-perche-non-ha-giocato-adzic/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291722089-c546b1365949-e1792180776492.jpg",
-   "date": "2026-10-17T06:20:50+00:00"
-  },
-  {
-   "title": "Raimondo: \"Dico questo ai fantallenatori che mi hanno preso!\". Calò: \"Ecco quanto costerei ora all'asta\"",
-   "summary": "Si parla anche di fantacalcio nell'intervista nel postpartita di Frosinone-Sassuolo. I protagonisti sono Antonio Raimondo e Giacomo Calò.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/frosinone/raimondo-dico-questo-fantallenatori-calo-ecco-quanto-costerei-ora-asta/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-16-23-07-21-e1a84d27606e-e1792184923767.jpg",
-   "date": "2026-10-17T06:15:06+00:00"
+   "url": "https://www.sosfanta.com/squadra/sassuolo/voti-frosinone-sassuolo-fantacalcio-raimondo-muric-horror-berardi-thorstvedt-calo/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-16-22-18-49-ffe9de9d2713-e1792182031541.jpg",
+   "date": "2026-10-17T06:15:22+00:00"
   },
   {
    "title": "Incredibile Raimondo: in questa statistica è unico in Europa insieme a... Raphinha e Yamal!",
@@ -46864,15 +46945,6 @@
    "url": "https://www.sosfanta.com/news/incredibile-raimondo-statistica-raphinha-yamal/",
    "image": "https://static.sosfanta.com/2026/09/EA9DB881-8260-4179-9E36-C4DF27F3CCF2_1_201_a-4af558813491-e1788864182829.jpeg",
    "date": "2026-10-17T06:00:29+00:00"
-  },
-  {
-   "title": "I voti di Frosinone-Sassuolo: la scelta su Raimondo! Muric horror, Berardi più di Thorstvedt e meno di Calò",
-   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/voti-frosinone-sassuolo-fantacalcio-raimondo-muric-horror-berardi-thorstvedt-calo/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-16-22-18-49-ffe9de9d2713-e1792182031541.jpg",
-   "date": "2026-10-17T05:45:22+00:00"
   },
   {
    "title": "Alvini: \"Raimondo velenoso, fa gol ma è merito anche della squadra! Perché Calvani non ha giocato\"",
@@ -47116,78 +47188,6 @@
    "url": "https://www.sosfanta.com/news/esami-kone-dybala/",
    "image": "https://static.sosfanta.com/2026/10/kone-roma-77702df371b8-e1792138118739.jpeg",
    "date": "2026-10-16T12:10:22+00:00"
-  },
-  {
-   "title": "Juve-Lazio, le probabili formazioni: Conceicao, Alajbegovic, Nico, Woltemade, Sutalo, Noslin e Pinamonti",
-   "summary": "Juventus-Lazio è la sfida che chiuderà la domenica di Serie A: di seguito le probabili formazioni del match con le scelte di Spalletti e Gattuso.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juventus-lazio-probabili-formazioni-conceicao-alajbegovic-nico-zhegrova-ballottaggio-noslin-pinamonti-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295802939-7266c6ff4a20-e1791355678580.jpg",
-   "date": "2026-10-16T12:00:22+00:00"
-  },
-  {
-   "title": "FLASH - Atalanta, Kessié salta il Milan per infortunio! L'esito degli esami e i tempi di recupero",
-   "summary": "Niente Milan per Franck Kessié: l'esito degli esami e i tempi di recupero per il centrocampista dell'Atalanta.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-kessie-salta-milan-infortunio-esito-esami-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294930864-9f61770b01ab-e1789243235467.jpeg",
-   "date": "2026-10-16T11:50:31+00:00"
-  },
-  {
-   "title": "Chi schierare in difesa alla settima giornata al fantacalcio: la divisione fascia per fascia",
-   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i difensori: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-difesa-fantacalcio-settima-giornata-seriea-consigli-difensori/",
-   "image": "https://static.sosfanta.com/2026/10/Solet-b080baf33948-e1792056316596.jpeg",
-   "date": "2026-10-16T11:40:22+00:00"
-  },
-  {
-   "title": "Allegri: \"Cos'è successo con De Bruyne! Anguissa, McTominay, Lucca, Santos, Neres, Beukema...\"",
-   "summary": "Il Napoli si prepara alla sfida contro il Venezia, che ha ufficializzato Davide Nicola. Il tecnico azzurro, Massimiliano Allegri, ha parlato in conferenza st...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/allegri-napoli-venezia-lucca-de-bruyne-neres-alisson-santos-anguissa-vergara/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299367121-a7f92f675794-e1792145151373.jpeg",
-   "date": "2026-10-16T11:30:54+00:00"
-  },
-  {
-   "title": "Chi schierare in porta alla settima giornata al fantacalcio: la divisione fascia per fascia",
-   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i portieri: ecco le nostre fasce e chi schierare tra i pali.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-porta-settima-giornata-seriea-fantacalcio-consigli-portieri/",
-   "image": "https://static.sosfanta.com/2026/10/Caprile-68b8da8d3d8a-e1792051394569.jpeg",
-   "date": "2026-10-16T11:15:14+00:00"
-  },
-  {
-   "title": "Milan-Atalanta, le probabili formazioni: forfait Kessie! Cisse, Modric, Krstovic, Scamacca e Moreira...",
-   "summary": "Le probabili formazioni di Milan-Atalanta, in programma domenica alle 18. Entrambe sono reduce dagli impegni europei.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-atalanta-probabili-formazioni-cisse-modric-kessie-krstovic-scamacca-moreira-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Krstovic-f1ed5b445e3a-e1791876208131.jpg",
-   "date": "2026-10-16T11:00:35+00:00"
-  },
-  {
-   "title": "Potete schierarli! 3 scommesse e 3 certezze al fantacalcio per la 7a giornata di Serie A, non solo Varela",
-   "summary": "Si avvicina il prossimo turno di Serie A e del fantacalcio. Via libera per queste 3 scommesse e queste 3 certezze per la 7a giornata: potete schierarli.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/potete-schierarli-tre-scommesse-tre-certezze-fantacalcio-settima-giornata-seriea-non-solo-varela/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296058318-1c3c02e0c646-e1791982834958.jpg",
-   "date": "2026-10-16T10:45:37+00:00"
-  },
-  {
-   "title": "Parma-Torino, le probabili formazioni: torna Romeo titolare! Da Vlasic a Oristanio e Adams, i dubbi di Abate",
-   "summary": "Prima partita in casa per Gilardino che ospiterà il Torino nel match in programma lunedì. Ecco le probabili formazioni di Parma-Torino.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/parma-torino-probabili-formazioni-romero-vlasic-oristanio-adams-abate-dubbi-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293064586-f87912f5b71d-e1790922120691.jpg",
-   "date": "2026-10-16T10:30:44+00:00"
   }
  ],
  "marketDifficulty": {
