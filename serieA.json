@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-20T13:32:48+00:00",
+ "generatedAt": "2026-10-20T17:20:54+00:00",
  "season": "2026-27",
  "gameweek": 8,
- "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -18678,7 +18678,7 @@
    "appearances": 4,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.13,
-   "playProbability": 0.429,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0763,
     "rf": 0.005,
@@ -18699,7 +18699,7 @@
     "q90": 6.41
    },
    "learnedVote": 6.14,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.1021,
     "rf": 0.0044,
@@ -18731,9 +18731,9 @@
    },
    "quotazione": 11.0,
    "fvm": 31.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -44542,8 +44542,8 @@
        "ruolo": "C"
       },
       {
-       "player_id": "7129",
-       "giocatore": "Rodriguez Je.",
+       "player_id": "5036",
+       "giocatore": "Caqueret",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -45523,6 +45523,114 @@
  ],
  "news": [
   {
+   "title": "Bologna, sospiro di sollievo Theate: come sta il difensore e cosa filtra verso la sfida col Cagliari",
+   "summary": "Gli ultimi aggiornamenti sulle condizioni del difensore del Bologna e cosa risulta verso la partita di campionato col Cagliari.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/bologna-sospiro-di-sollievo-theate-come-sta-il-difensore-e-cosa-filtra-verso-la-sfida-col-cagliari/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296079384-07b61893bd22-e1791974545615.jpg",
+   "date": "2026-10-20T17:00:27+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Novità Jones e Pavard! Koné, Cristante, Atta, Ranieri, Colombo e gli esami di Kolasinac e Coulibaly",
+   "summary": "Importanti notizie anche oggi dai campi in chiave fantacalcio, aspettando la fine dei posticipi: ecco le novità su infortunati e non solo.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/jones-pavard-kone-cristante-atta-ranieri-colombo-theate-kolasinac-esami-coulibaly-infortunio-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299856544-b128e3aeaad6-e1792514006483.jpeg",
+   "date": "2026-10-20T16:20:17+00:00"
+  },
+  {
+   "title": "Fabregas: \"Jesus Rodriguez fuori due mesi! I tempi di recupero per Chalobah e quando tornano Kean e Diao”",
+   "summary": "Sfida di prestigio domani in Champions League per il Como, che ospita il Manchester United: ecco le parole di Cesc Fabregas in conferenza stampa.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/fabregas-lungo-stop-per-j-rodriguez-i-tempi-di-recupero-per-chalobah-e-quando-tornano-kean-e-diao-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300313084-cc50a0c74dac-e1792484840734.jpg",
+   "date": "2026-10-20T16:15:54+00:00"
+  },
+  {
+   "title": "Nico Paz: \"Critiche? Sto facendo una grande stagione! Gli avversari non mi conoscevano prima, Fabregas....\"",
+   "summary": "Le parole di Nico Paz alla vigilia di Como-Manchester United: l'argentino ha risposto alle critiche e non solo.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/nico-paz-como-conferenza-parole-fantacalcio/",
+   "image": "https://static.sosfanta.com/202606/d91d6c884b9aea2d65a8b7a38a78674e.png",
+   "date": "2026-10-20T16:00:09+00:00"
+  },
+  {
+   "title": "Bastoni: \"Scordiamo le finali e torniamo coi piedi per terra! Il mio momento, io centrale, Dimarco e l'Inter che vedrete\"",
+   "summary": "C’è Alessandro Bastoni in sala stampa accanto a Cristian Chivu alla vigilia di Inter-Shakhtar: ecco le parole del difensore nerazzurro.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/bastoni-parole-conferenza-inter-shakhtar-piedi-per-terra/",
+   "image": "https://static.sosfanta.com/2026/10/Bastoni-eb20f4f2eed3-e1792500869130.jpg",
+   "date": "2026-10-20T15:45:37+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Bologna, l'esito degli esami di Piccoli: il comunicato del club e i tempi di recupero",
+   "summary": "Infortunio contro l'Inter per Roberto Piccoli: giornata di esami per l'attaccante italiano, l'esito dei controlli diramato dal Bologna e i tempi di recupero.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/bologna-infortunio-piccoli-esito-esami-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/Piccoli-4a124f92fd36-e1792398449224.jpeg",
+   "date": "2026-10-20T15:15:31+00:00"
+  },
+  {
+   "title": "Atalanta, l'esito degli esami di Kolasinac: i tempi di recupero e come stanno Kessié, Scalvini, Raspadori e Hien",
+   "summary": "Il difensore bosniaco si è sottoposto oggi agli esami strumentali: tutti gli aggiornamenti sulle sue condizioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-kolasinac-esami-cosa-filtra-kessie-scalvini-raspadori-hien/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300515966-6cf10d7d1c74-e1792340963988.jpeg",
+   "date": "2026-10-20T15:00:48+00:00"
+  },
+  {
+   "title": "BREAKING - Udinese, ecco l'esito degli esami per Alaba dopo lo stop con il Lecce e i tempi di recupero",
+   "summary": "Subito un infortunio per David Alaba in casa Udinese: ecco l'esito degli esami e i tempi di recupero per il difensore austriaco dopo lo stop.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/udinese-infortunio-alaba-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-12-08-34-12-3c20b49c19a5-e1791786875978.jpg",
+   "date": "2026-10-20T14:45:57+00:00"
+  },
+  {
+   "title": "Inter, le ultime dall'infermeria: novità da Pavard e Jones, quando rientrano Lautaro e Stones",
+   "summary": "Importanti novità dall'infermeria dell'Inter alla vigilia della sfida contro lo Shakhtar Donetsk in Champions League.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-le-ultime-dallinfermeria-novita-da-pavard-e-jones-quando-rientrano-lautaro-e-stones/",
+   "image": "https://static.sosfanta.com/2026/07/Pavard-ddb76e0155cd.jpg",
+   "date": "2026-10-20T14:30:48+00:00"
+  },
+  {
+   "title": "NEWS - Bremer, multa e scuse! Conceicao, Alisson Santos, Dybala, Piccoli, Kolasinac, Carlos Augusto...",
+   "summary": "Archiviata la 7a giornata di Serie A, stasera tocca a Napoli e Roma in Champions League: ecco le ultime su infortunati e non solo in ottica fantacalcio.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-bremer-multa-scuse-conceicao-alisson-santos-dybala-piccoli-kolasinac-alaba-carlos-augusto/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-20-09-09-53-e6417ed05031-e1792480207708.jpg",
+   "date": "2026-10-20T14:15:03+00:00"
+  },
+  {
+   "title": "Roma, la probabile formazione contro lo Slovan: da Pellegrini a Pisilli, le possibili scelte di Gasperini",
+   "summary": "Roma impegnata in Champions League contro lo Slovan Bratislava: ecco la probabile formazione di Gian Piero Gasperini.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-probabile-formazione-slovan-pellegrini-pisilli-possibili-scelte-gasperini/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298217923-08556aa13ce9-e1791707900509.jpg",
+   "date": "2026-10-20T14:00:25+00:00"
+  },
+  {
+   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Lautaro",
+   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300195737-e295d9699079-e1792058924129.jpeg",
+   "date": "2026-10-20T13:30:42+00:00"
+  },
+  {
    "title": "Napoli, le ultime verso il Bodo: da De Bruyne e Lang a Spinazzola e Anguissa le probabili scelte di formazione",
    "summary": "Napoli impegnato in Champions al Maradona contro il Bodo/Glimt: le ultime sulle scelte di formazione di Allegri.",
    "author": "Michael Di Chiaro",
@@ -45541,15 +45649,6 @@
    "date": "2026-10-20T13:00:13+00:00"
   },
   {
-   "title": "Bastoni: \"Scordiamo le finali e torniamo coi piedi per terra! Il mio momento, io centrale, Dimarco e l'Inter che vedrete\"",
-   "summary": "C’è Alessandro Bastoni in sala stampa accanto a Cristian Chivu alla vigilia di Inter-Shakhtar: ecco le parole del difensore nerazzurro.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/bastoni-parole-conferenza-inter-shakhtar-piedi-per-terra/",
-   "image": "https://static.sosfanta.com/2026/10/Bastoni-eb20f4f2eed3-e1792500869130.jpg",
-   "date": "2026-10-20T12:55:37+00:00"
-  },
-  {
    "title": "Chivu: \"Cambiare dopo il Brugge? Parlavo di me stesso! Sembra che Inter abbia obblighi e gli altri no, non va bene\"",
    "summary": "Inter chiamata a trovare la prima vittoria in Champions League: domani a San Siro arriva lo Shakhtar. Ecco le dichiarazioni di Cristian Chivu.",
    "author": "Marco Astori",
@@ -45557,15 +45656,6 @@
    "url": "https://www.sosfanta.com/squadra/inter/chivu-cambiare-dopo-brugge-parlavo-di-me-stesso-inter-obblighi/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2299315294-73172d2e0723-e1792484923593.jpg",
    "date": "2026-10-20T12:45:17+00:00"
-  },
-  {
-   "title": "ULTIM'ORA - Bologna, l'esito degli esami di Piccoli: il comunicato del club e i tempi di recupero",
-   "summary": "Infortunio contro l'Inter per Roberto Piccoli: giornata di esami per l'attaccante italiano, l'esito dei controlli diramato dal Bologna e i tempi di recupero.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/bologna-infortunio-piccoli-esito-esami-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Piccoli-4a124f92fd36-e1792398449224.jpeg",
-   "date": "2026-10-20T12:30:31+00:00"
   },
   {
    "title": "Juventus, Conceicao inizia la riabilitazione alla spalla: i tempi di recupero e quando può tornare in campo",
@@ -45577,15 +45667,6 @@
    "date": "2026-10-20T12:00:41+00:00"
   },
   {
-   "title": "BREAKING - Udinese, ecco l'esito degli esami per Alaba dopo lo stop con il Lecce e i tempi di recupero",
-   "summary": "Subito un infortunio per David Alaba in casa Udinese: ecco l'esito degli esami e i tempi di recupero per il difensore austriaco dopo lo stop.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/udinese-infortunio-alaba-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-12-08-34-12-3c20b49c19a5-e1791786875978.jpg",
-   "date": "2026-10-20T11:45:57+00:00"
-  },
-  {
    "title": "Roma, Cristante convocato per lo Slovan a sorpresa: la sua gestione. Quando può tornare Koné",
    "summary": "Gasperini attende il ritorno in campo dei suoi due centrocampisti: ecco quando potrebbe avvenire.",
    "author": "Michael Di Chiaro",
@@ -45593,15 +45674,6 @@
    "url": "https://www.sosfanta.com/squadra/roma/roma-condizioni-kone-cristante-ultime-data-possibile-ritorno-campo/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293203076-9bcfeca4f2c5-e1789923211562.jpeg",
    "date": "2026-10-20T11:30:43+00:00"
-  },
-  {
-   "title": "NEWS - Bremer, multa e scuse! Conceicao, Alisson Santos, Dybala, Piccoli, Kolasinac, Carlos Augusto...",
-   "summary": "Archiviata la 7a giornata di Serie A, stasera tocca a Napoli e Roma in Champions League: ecco le ultime su infortunati e non solo in ottica fantacalcio.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-bremer-multa-scuse-conceicao-alisson-santos-dybala-piccoli-kolasinac-alaba-carlos-augusto/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-20-09-09-53-e6417ed05031-e1792480207708.jpg",
-   "date": "2026-10-20T11:15:03+00:00"
   },
   {
    "title": "Roma, si allungano i tempi per Dybala: quando può tornare e quali partite salta",
@@ -45638,15 +45710,6 @@
    "url": "https://www.sosfanta.com/news/lecce-esito-esami-coulibaly-tempi-recupero/",
    "image": "https://static.sosfanta.com/202511/a6d450ad4cdfa5f8c09758e098cc1257-e1764504616928.jpg",
    "date": "2026-10-20T10:00:55+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Lautaro",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300195737-e295d9699079-e1792058924129.jpeg",
-   "date": "2026-10-20T09:30:42+00:00"
   },
   {
    "title": "Allegri-Pellegatti show: parlano di cavalli e la sala stampa scoppia a ridere",
@@ -45818,69 +45881,6 @@
    "url": "https://www.sosfanta.com/news/abate-torino-parma-simeone-adams-ismajli-rodriguez/",
    "image": "https://static.sosfanta.com/2026/10/Abate-faf62a142f2a.jpg",
    "date": "2026-10-19T18:30:33+00:00"
-  },
-  {
-   "title": "Parma-Torino, le formazioni ufficiali: c'è Vlasic! Le scelte su C. Adams, Belghali, Touré, Fabbian e Bernabé",
-   "summary": "Parma-Torino chiude il lunedì di Serie A e il turno di fantacalcio: ecco le formazioni ufficiali scelte dai due allenatori.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/parma/seriea-parma-torino-formazioni-ufficiali-tutte-scelte-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/WhatsApp-Image-2026-10-19-at-10.52.04-8d1aa551149c-e1792422229146.jpeg",
-   "date": "2026-10-19T18:15:22+00:00"
-  },
-  {
-   "title": "Lazio, è la settimana dei rientri: da Marusic e Rovella fino a Cancellieri, il punto sull'infermeria",
-   "summary": "E' la settimana dei rientri in casa Lazio dopo la vittoria di ieri sera a Torino sul campo della Juventus: ecco le ultime dal Corriere dello Sport.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-rientri-marusic-rovella-cancellieri/",
-   "image": "https://static.sosfanta.com/202510/75bb972f4957e5166fb587f8e28318a9-scaled-e1761046092213.jpg",
-   "date": "2026-10-19T18:00:40+00:00"
-  },
-  {
-   "title": "Atalanta, domani gli esami per Kolasinac. Da Scalvini a Kessié e Raspadori, le ultime dall’infermeria",
-   "summary": "Da Kolasinac a Kessié, passando per Hien e Sulemana: le ultime dall’infermeria dell’Atalanta e il punto sui rispettivi percorsi di recupero.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-domani-gli-esami-per-kolasinac-da-scalvini-a-kessie-e-raspadori-le-ultime-dallinfermeria/",
-   "image": "https://static.sosfanta.com/202601/b9a401d0e0f7ae3566b075012c83a19f.jpg",
-   "date": "2026-10-19T17:00:48+00:00"
-  },
-  {
-   "title": "Da Colombo e Baldanzi a Meichtry, Ehizibue e Traoré: il punto sui recuperi degli acciaccati del Genoa",
-   "summary": "Il Genoa spera in qualche recupero dall'infermeria questa settimana. Lo ha dichiarato Daniele De Rossi dopo la gara contro la Roma.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/colombo-baldanzi-meichtry-ehizibue-traore-recuperi-genoa/",
-   "image": "https://static.sosfanta.com/202601/786b0cdb5f21d6bdc2b9db83082cf441-e1767886329576.jpg",
-   "date": "2026-10-19T16:00:38+00:00"
-  },
-  {
-   "title": "Monza-Cagliari, le formazioni ufficiali: le scelte su Mota, Cutrone, Robinson, Nzola, Mendy, Fazzini, Folorunsho e Mina",
-   "summary": "Monza-Cagliari è il primo match di questo lunedì di Serie A e fantacalcio: ecco le formazioni ufficiali scelte dai due allenatori.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/seriea-monza-cagliari-formazioni-ufficiali-tutte-scelte-folorunsho-mota-robinson-mina-cutrone-nzola-fazzini-mendy/",
-   "image": "https://static.sosfanta.com/2026/10/WhatsApp-Image-2026-10-19-at-10.45.23-2854088ddfb3-e1792422126322.jpeg",
-   "date": "2026-10-19T15:35:36+00:00"
-  },
-  {
-   "title": "Napoli, c'è il via libera per il rientro di Vergara: come sarà gestito. I tempi per Neres e Buongiorno",
-   "summary": "Anche gli ultimi accertamenti hanno dato via libera al ritorno in campo di Vergara. Non fa in tempo per domani sera ma per la Roma dovrebbe farcela.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-via-libera-vergara-tempi-neres-buongiorno/",
-   "image": "https://static.sosfanta.com/2026/07/Vergara-e55b6f729466.jpg",
-   "date": "2026-10-19T15:00:22+00:00"
-  },
-  {
-   "title": "Meret: \"Rapporto tra Allegri e la squadra? Rispondo così! Le differenze con Conte e il mio futuro al Napoli…\"",
-   "summary": "Le parole di Meret alla vigilia della sfida di Champions con il Bodo Glimt, ecco cosa ha detto il portiere del Napoli.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/meret-allegri-napoli-conferenza-conte-futuro-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293976158-76833c254ddc-e1788983086895.jpeg",
-   "date": "2026-10-19T14:30:30+00:00"
   }
  ],
  "marketDifficulty": {
