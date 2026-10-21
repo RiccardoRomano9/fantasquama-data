@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-21T13:45:12+00:00",
+ "generatedAt": "2026-10-21T18:45:45+00:00",
  "season": "2026-27",
  "gameweek": 8,
- "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -951,7 +951,7 @@
    "appearances": 0,
    "gameweeksElapsed": 7,
    "estimatedVote": 5.9,
-   "playProbability": 0.829,
+   "playProbability": 0.445,
    "events": {
     "gf": 0.283,
     "rf": 0.0083,
@@ -972,7 +972,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.98,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.445,
    "learnedEvents": {
     "gf": 0.196,
     "rf": 0.0114,
@@ -1007,7 +1007,7 @@
    "quotazione": 4.0,
    "fvm": 20.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -6186,7 +6186,7 @@
    "appearances": 0,
    "gameweeksElapsed": 7,
    "estimatedVote": 5.98,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0952,
     "rf": 0.0053,
@@ -6207,7 +6207,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.85,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1233,
     "rf": 0.0074,
@@ -6241,9 +6241,9 @@
    },
    "quotazione": 1.0,
    "fvm": 2.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "indisponibile",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -9634,7 +9634,7 @@
    "appearances": 5,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.24,
-   "playProbability": 0.044,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.2241,
     "rf": 0.009,
@@ -9655,7 +9655,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.61,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.2034,
     "rf": 0.0118,
@@ -9690,7 +9690,7 @@
    "quotazione": 5.0,
    "fvm": 24.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21472,9 +21472,9 @@
    },
    "quotazione": 18.0,
    "fvm": 80.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -30037,7 +30037,7 @@
    "appearances": 5,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.12,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0656,
     "rf": 0.0005,
@@ -30058,7 +30058,7 @@
     "q90": 6.47
    },
    "learnedVote": 6.29,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.073,
     "rf": 0.0024,
@@ -30091,7 +30091,7 @@
    "quotazione": 2.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45976,7 +45976,7 @@
       {
        "player_id": "7599",
        "giocatore": "Lulli",
-       "titolarita_pct": 95,
+       "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
@@ -46694,11 +46694,126 @@
        "ruolo": "D"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6519",
+       "giocatore": "Camarda",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "6618",
+       "giocatore": "Cissè A.",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
     }
    ]
   }
  ],
  "news": [
+  {
+   "title": "Amorim: “Cosa filtra sugli stop di Ramos e Chukwueze! Cisse è al suo 50%, su Bartesaghi, Loftus ed Estupinan…”",
+   "summary": "Il Milan cerca la terza vittoria consecutiva contro il Bournemouth: Ruben Amorim presenta la sfida e analizza il momento dei rossoneri.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/amorim-cosa-filtra-sugli-stop-di-ramos-e-chukwueze-cisse-e-al-suo-50-su-bartesaghi-loftus-ed-estupinan/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300934187-ef74269a4ed7-e1792572840905.jpg",
+   "date": "2026-10-21T18:05:54+00:00"
+  },
+  {
+   "title": "Chivu: \"Perché Martinez dal 1'? È il portiere titolare dell'Inter: ora tocca a lui ma Provedel...\"",
+   "summary": "Cristian Chivu, allenatore dell'Inter, ha parlato ai microfoni di Prime Video nel prepartita della sfida contro lo Shakhtar Donetsk",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/chivu-perche-martinez-inizio-provedel/",
+   "image": "https://static.sosfanta.com/2026/07/Martinez-78479f1f3160.jpg",
+   "date": "2026-10-21T18:00:18+00:00"
+  },
+  {
+   "title": "Inter, la formazione ufficiale in Champions: gioca Spence! Bonny, Dimarco, Carlos, J. Martinez, Pio e Sucic...",
+   "summary": "Tutte le scelte ufficiali di Chivu per la sfida dell’Inter contro lo Shakhtar: ecco chi parte dal primo minuto nella terza giornata di Champions League.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-la-formazione-ufficiale-in-champions-gioca-spence-bonny-dimarco-carlos-j-martinez-pio-e-sucic/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-21-19-28-34-2c5ff68ff401-e1792603757730.jpg",
+   "date": "2026-10-21T17:45:45+00:00"
+  },
+  {
+   "title": "Sarri: \"Rispondo così su Zappacosta centrale! De Ketelaere prima o poi riposerà, fa sempre arrabbiare perché...\"",
+   "summary": "Maurizio Sarri ha parlato alla vigilia del match di Conference League contro l'Ajax. Le dichiarazioni del tecnico dell'Atalanta.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/sarri-rispondo-cosi-zappacosta-centrale-de-ketelaere/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292959336-10094e755f02-e1792054696651.jpg",
+   "date": "2026-10-21T17:30:34+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Novità Vergara e gli esami di R. Rodriguez! Atta, Cancellieri, Gudmundsson, Rovella e Marusic...",
+   "summary": "Importanti notizie anche oggi dai campi in chiave fantacalcio, aspettando la fine dei posticipi: ecco le novità su infortunati e non solo.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-novita-vergara-gli-esami-di-rodriguez-atta-cancellieri-gudmundsson-rovella-marusic-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294098388-1-db69e0d8e468-e1792601493442.jpg",
+   "date": "2026-10-21T17:15:11+00:00"
+  },
+  {
+   "title": "Woltemade, Kolo Muani e la mossa di Spalletti in attacco: ecco come cambierà la Juventus in Europa",
+   "summary": "La Juventus si prepara a sfidare il Rennes in Europa League e Spalletti sembra intenzionato a modificare l'assetto offensivo.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/woltemade-kolo-muani-mossa-spalletti-attacco-cosi-puo-cambiare-juventus-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300407957-2c3040491852-e1792128850947.jpg",
+   "date": "2026-10-21T17:00:42+00:00"
+  },
+  {
+   "title": "Fabregas: \"Vi spiego perché Liberali in panchina! Se tra 5 anni non vedo Baturina in una big...\"",
+   "summary": "Cesc Fabregas, tecnico del Como, ha parlato ai microfoni di Sky prima della gara contro il Manchester United. Ecco le sue dichiarazioni.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/fabregas-perche-liberali-panchina-baturina-big/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295382794-074833523b7d-e1791572972995.jpg",
+   "date": "2026-10-21T16:30:53+00:00"
+  },
+  {
+   "title": "Fiorentina, Atta e Ranieri ancora a parte: le ultime sui tempi di recupero verso l'Inter",
+   "summary": "Lavoro individuale al Viola Park per i due giocatori viola: restano in bilico per la sfida di domenica a Milano alle 12:30.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-atta-ranieri-inter-infortunio-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/Atta-350ceb609002-e1787386518952.jpg",
+   "date": "2026-10-21T16:00:47+00:00"
+  },
+  {
+   "title": "Como, la formazione ufficiale in Champions: la scelta su Butez, Liberali, Couto, Baturina, Caqueret e Perrone",
+   "summary": "La formazione ufficiale scelta da Cesc Fabregas per il Como contro il Manchester United, nella terza giornata della fase campionato di Champions League.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/como-formazione-ufficiale-champions-scelta-butez-liberali-couto-baturina-caqueret-perrone/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-21-17-32-15-82e73509dcb4-e1792596751514.jpg",
+   "date": "2026-10-21T15:45:45+00:00"
+  },
+  {
+   "title": "Spalletti: \"La scelta su Kolo Muani e Woltemade! Chiarimento Bremer con la squadra, sul traghettatore...\"",
+   "summary": "Alla vigilia di Juventus-Rennes, Luciano Spalletti ha parlato in conferenza stampa. Ecco le dichiarazioni dell'allenatore bianconero.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/spalletti-juve-rennes-kolo-muani-woltemade-bremer/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300139328-678774eb9130-e1792572615864.jpg",
+   "date": "2026-10-21T15:15:04+00:00"
+  },
+  {
+   "title": "Atalanta, la staffetta decisa da Sarri per Scamacca, Krstovic e chi è favorito a giocare in Europa",
+   "summary": "Se c'è una cosa che sta funzionando in questa stagione nell'Atalanta è la gestione dei due centravanti, Scamacca e Krstovic. Sarri sta optando per la staffetta.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/atalanta-krstovic-scamacca-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293036333-2d8afb165c25-e1789224058756.jpeg",
+   "date": "2026-10-21T15:00:14+00:00"
+  },
   {
    "title": "Chi sale al fanta per scambi e non solo dopo l’ultima giornata: da Raimondo a Varela, ecco sette nomi",
    "summary": "Da Raimondo e Varela e non soltanto, chi sale al fantacalcio per gli scambi dopo l'ultima giornata: occhio a questi sette nomi.",
@@ -46706,7 +46821,25 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/consigli-fantacalcio/chi-sale-fantacalcio-scambi-non-solo-dopo-ultima-giornata-sette-nomi-raimondo-varela-scambi-consigli/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2300560717-1c1e23d3975e-e1792488352447.jpg",
-   "date": "2026-10-21T13:15:47+00:00"
+   "date": "2026-10-21T14:45:47+00:00"
+  },
+  {
+   "title": "Cisse e la gestione con Pulisic: prima o poi Amorim dovrà fare questa cosa! E il Milan intanto vuole blindarlo",
+   "summary": "Il Milan vuole blindare Cisse che intanto è pronto a riprendersi la titolarità in Europa League.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/cisse-e-la-gestione-con-pulisic-prima-o-poi-amorim-dovra-fare-questa-cosa-e-il-milan-intanto-vuole-blindarlo/",
+   "image": "https://static.sosfanta.com/2026/09/Cisse-08d87e031922-e1788726791145.jpg",
+   "date": "2026-10-21T14:00:08+00:00"
+  },
+  {
+   "title": "BREAKING - Milan, stop per Goncalo Ramos: salta il Bournemouth, domani gli esami",
+   "summary": "Dopo l'infortunio di Samu Chukwueze, altre brutte notizie in casa Milan sul fronte infortunati. Si ferma infatti anche Goncalo Ramos nell'allenamento odierno.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/goncalo-ramos-infortunio-fantacalcio-tempi-di-recupero/",
+   "image": "https://static.sosfanta.com/2026/10/WhatsApp-Image-2026-10-21-at-13.38.52-d6f3bbc75b50-e1792582953801.jpeg",
+   "date": "2026-10-21T13:15:40+00:00"
   },
   {
    "title": "Di Lorenzo attacca l'ex capitano del Napoli: \"Io a 75 anni non sparerò a zero come te! Sarò poca roba, ma...\"",
@@ -46718,13 +46851,13 @@
    "date": "2026-10-21T13:00:26+00:00"
   },
   {
-   "title": "BREAKING - Milan, stop per Goncalo Ramos: salta il Bournemouth, domani gli esami",
-   "summary": "Dopo l'infortunio di Samu Chukwueze, altre brutte notizie in casa Milan sul fronte infortunati. Si ferma infatti anche Goncalo Ramos nell'allenamento odierno.",
-   "author": "Daniele Najjar",
+   "title": "Casi al fantacalcio e cosa fare con questi 8 giocatori: da Alisson e Dybala a Kessié, Conceicao e J. Rodriguez",
+   "summary": "Casi al fantacalcio e cosa fare dopo la scorsa giornata: la gestione di questi nomi in vista del prossimo turno di Serie A e non soltanto.",
+   "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/goncalo-ramos-infortunio-fantacalcio-tempi-di-recupero/",
-   "image": "https://static.sosfanta.com/2026/10/WhatsApp-Image-2026-10-21-at-13.38.52-d6f3bbc75b50-e1792582953801.jpeg",
-   "date": "2026-10-21T12:45:40+00:00"
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/casi-fantacalcio-cosa-fare-otto-giocatori-alisson-santos-dybala-kessie-conceicao-rodriguez-scambi-consigli/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294387172-d13056467146-e1792492399773.jpg",
+   "date": "2026-10-21T12:45:32+00:00"
   },
   {
    "title": "Torino, l’esito degli esami per Ricardo Rodriguez: c'è lesione, il comunicato e i tempi di recupero",
@@ -46736,13 +46869,13 @@
    "date": "2026-10-21T12:30:05+00:00"
   },
   {
-   "title": "Casi al fantacalcio e cosa fare con questi 8 giocatori: da Alisson e Dybala a Kessié, Conceicao e J. Rodriguez",
-   "summary": "Casi al fantacalcio e cosa fare dopo la scorsa giornata: la gestione di questi nomi in vista del prossimo turno di Serie A e non soltanto.",
-   "author": "Francesco Mangiagli",
+   "title": "FLASH - Milan, infortunio per Chukwueze: salta l'allenamento e farà le visite, le sue condizioni",
+   "summary": "Come riporta Tmw, Chukwueze ha un problema all’anca sinistra e nel pomeriggio farà una visita specialistica: non sembra un problema di poco conto.",
+   "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/casi-fantacalcio-cosa-fare-otto-giocatori-alisson-santos-dybala-kessie-conceicao-rodriguez-scambi-consigli/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294387172-d13056467146-e1792492399773.jpg",
-   "date": "2026-10-21T12:15:32+00:00"
+   "url": "https://www.sosfanta.com/news/milan-chukwueze-infortunio-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295854977-6988f7410595-e1792575565675.jpeg",
+   "date": "2026-10-21T12:15:13+00:00"
   },
   {
    "title": "Roma, cosa emerge sull'infortunio di Pellegrini! Da Cristante a Dybala, Svilar e Koné, chi recupera per il Napoli",
@@ -46754,22 +46887,13 @@
    "date": "2026-10-21T12:00:16+00:00"
   },
   {
-   "title": "FLASH - Milan, infortunio per Chukwueze: salta l'allenamento e farà le visite, le sue condizioni",
-   "summary": "Come riporta Tmw, Chukwueze ha un problema all’anca sinistra e nel pomeriggio farà una visita specialistica: non sembra un problema di poco conto.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-chukwueze-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295854977-6988f7410595-e1792575565675.jpeg",
-   "date": "2026-10-21T11:45:13+00:00"
-  },
-  {
    "title": "NEWS - Novità Zaniolo! Alaba, Muani, Pellegrini, Mancini, Rodriguez, Kean, Vergara, Cisse e la porta del Como",
    "summary": "Seconda serata di Champions League che vedrà protagoniste Inter e Como, domani Europa League e Conference. Tutte le novità verso l'ottava giornata di Serie A...",
    "author": "Andrea Ajello",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/zaniolo-alaba-muani-pellegrini-mancini-rodriguez-kean-vergara-cisse-porta-del-como-infortunio-tempi-di-recupero-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2291678458-e7816693f1e6-e1792569227860.jpeg",
-   "date": "2026-10-21T11:15:13+00:00"
+   "date": "2026-10-21T11:45:13+00:00"
   },
   {
    "title": "Napoli, novità Vergara in allenamento: cosa filtra per la convocazione con la Roma",
@@ -46950,114 +47074,6 @@
    "url": "https://www.sosfanta.com/squadra/bologna/bologna-sospiro-di-sollievo-theate-come-sta-il-difensore-e-cosa-filtra-verso-la-sfida-col-cagliari/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2296079384-07b61893bd22-e1791974545615.jpg",
    "date": "2026-10-20T17:00:27+00:00"
-  },
-  {
-   "title": "Bastoni: \"Scordiamo le finali e torniamo coi piedi per terra! Il mio momento, io centrale, Dimarco e l'Inter che vedrete\"",
-   "summary": "C’è Alessandro Bastoni in sala stampa accanto a Cristian Chivu alla vigilia di Inter-Shakhtar: ecco le parole del difensore nerazzurro.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/bastoni-parole-conferenza-inter-shakhtar-piedi-per-terra/",
-   "image": "https://static.sosfanta.com/2026/10/Bastoni-eb20f4f2eed3-e1792500869130.jpg",
-   "date": "2026-10-20T16:45:37+00:00"
-  },
-  {
-   "title": "ULTIM'ORA - Bologna, l'esito degli esami di Piccoli: il comunicato del club e i tempi di recupero",
-   "summary": "Infortunio contro l'Inter per Roberto Piccoli: giornata di esami per l'attaccante italiano, l'esito dei controlli diramato dal Bologna e i tempi di recupero.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/bologna-infortunio-piccoli-esito-esami-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Piccoli-4a124f92fd36-e1792398449224.jpeg",
-   "date": "2026-10-20T16:15:31+00:00"
-  },
-  {
-   "title": "Nico Paz: \"Critiche? Sto facendo una grande stagione! Gli avversari non mi conoscevano prima, Fabregas....\"",
-   "summary": "Le parole di Nico Paz alla vigilia di Como-Manchester United: l'argentino ha risposto alle critiche e non solo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/nico-paz-como-conferenza-parole-fantacalcio/",
-   "image": "https://static.sosfanta.com/202606/d91d6c884b9aea2d65a8b7a38a78674e.png",
-   "date": "2026-10-20T16:00:09+00:00"
-  },
-  {
-   "title": "BREAKING - Udinese, ecco l'esito degli esami per Alaba dopo lo stop con il Lecce e i tempi di recupero",
-   "summary": "Subito un infortunio per David Alaba in casa Udinese: ecco l'esito degli esami e i tempi di recupero per il difensore austriaco dopo lo stop.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/udinese-infortunio-alaba-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-12-08-34-12-3c20b49c19a5-e1791786875978.jpg",
-   "date": "2026-10-20T15:45:57+00:00"
-  },
-  {
-   "title": "Atalanta, l'esito degli esami di Kolasinac: i tempi di recupero e come stanno Kessié, Scalvini, Raspadori e Hien",
-   "summary": "Il difensore bosniaco si è sottoposto oggi agli esami strumentali: tutti gli aggiornamenti sulle sue condizioni.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/atalanta-kolasinac-esami-cosa-filtra-kessie-scalvini-raspadori-hien/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300515966-6cf10d7d1c74-e1792340963988.jpeg",
-   "date": "2026-10-20T15:00:48+00:00"
-  },
-  {
-   "title": "Inter, le ultime dall'infermeria: novità da Pavard e Jones, quando rientrano Lautaro e Stones",
-   "summary": "Importanti novità dall'infermeria dell'Inter alla vigilia della sfida contro lo Shakhtar Donetsk in Champions League.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-le-ultime-dallinfermeria-novita-da-pavard-e-jones-quando-rientrano-lautaro-e-stones/",
-   "image": "https://static.sosfanta.com/2026/07/Pavard-ddb76e0155cd.jpg",
-   "date": "2026-10-20T14:30:48+00:00"
-  },
-  {
-   "title": "NEWS - Bremer, multa e scuse! Conceicao, Alisson Santos, Dybala, Piccoli, Kolasinac, Carlos Augusto...",
-   "summary": "Archiviata la 7a giornata di Serie A, stasera tocca a Napoli e Roma in Champions League: ecco le ultime su infortunati e non solo in ottica fantacalcio.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-bremer-multa-scuse-conceicao-alisson-santos-dybala-piccoli-kolasinac-alaba-carlos-augusto/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-20-09-09-53-e6417ed05031-e1792480207708.jpg",
-   "date": "2026-10-20T14:15:03+00:00"
-  },
-  {
-   "title": "Roma, la probabile formazione contro lo Slovan: da Pellegrini a Pisilli, le possibili scelte di Gasperini",
-   "summary": "Roma impegnata in Champions League contro lo Slovan Bratislava: ecco la probabile formazione di Gian Piero Gasperini.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/roma-probabile-formazione-slovan-pellegrini-pisilli-possibili-scelte-gasperini/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2298217923-08556aa13ce9-e1791707900509.jpg",
-   "date": "2026-10-20T14:00:25+00:00"
-  },
-  {
-   "title": "Napoli, le ultime verso il Bodo: da De Bruyne e Lang a Spinazzola e Anguissa le probabili scelte di formazione",
-   "summary": "Napoli impegnato in Champions al Maradona contro il Bodo/Glimt: le ultime sulle scelte di formazione di Allegri.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-ultime-verso-bodo-glimt-de-bruyne-lang-probabili-scelte-formazione-allegri/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300148599-d48ed41d9d22-e1792232590215.jpeg",
-   "date": "2026-10-20T13:30:02+00:00"
-  },
-  {
-   "title": "Con un giallo salterebbe la 9a giornata: ecco il primo diffidato in Serie A del campionato 2026/27",
-   "summary": "C'è il primo diffidato in Serie A nel campionato 2026-27: ecco di chi si tratta.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ecco-primo-diffidato-serie-a/",
-   "image": "https://static.sosfanta.com/202604/16d6f9bf886380bb93a10eaf66b2456c-e1777309511899.jpeg",
-   "date": "2026-10-20T13:00:13+00:00"
-  },
-  {
-   "title": "Chivu: \"Cambiare dopo il Brugge? Parlavo di me stesso! Sembra che Inter abbia obblighi e gli altri no, non va bene\"",
-   "summary": "Inter chiamata a trovare la prima vittoria in Champions League: domani a San Siro arriva lo Shakhtar. Ecco le dichiarazioni di Cristian Chivu.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/chivu-cambiare-dopo-brugge-parlavo-di-me-stesso-inter-obblighi/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299315294-73172d2e0723-e1792484923593.jpg",
-   "date": "2026-10-20T12:45:17+00:00"
-  },
-  {
-   "title": "Juventus, Conceicao inizia la riabilitazione alla spalla: i tempi di recupero e quando può tornare in campo",
-   "summary": "Il portoghese, alle prese con una lussazione alla spalla, ha iniziato l'iter riabilitativo: ecco cosa filtra sui tempi di recupero.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/conceicao-juventus-lussazione-spalla-riabilitazione-tempi-recupero-quante-partite-salta/",
-   "image": "https://static.sosfanta.com/2026/10/Conceicao-f0732a908f97-e1792396712421.jpeg",
-   "date": "2026-10-20T12:00:41+00:00"
   }
  ],
  "marketDifficulty": {

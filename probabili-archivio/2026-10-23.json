@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-10-21T13:45:13+00:00",
+ "scraped_at_utc": "2026-10-21T18:45:46+00:00",
  "giornata": "2026-10-23T18:45:00.000Z",
  "partite": [
   {
@@ -415,6 +415,10 @@
      {
       "giocatore": "Kevin Carlos",
       "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Trepy",
+      "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
@@ -460,10 +464,6 @@
       "giocatore": "Idrissi R.",
       "stato": "infortunato",
       "nota": "Intervento chirurgico di ricostruzione del legamento crociato anteriore del ginocchio sinistro, in dubbio per l'8a."
-     },
-     {
-      "giocatore": "Trepy",
-      "stato": "indisponibile"
      },
      {
       "giocatore": "Felici",
@@ -1242,7 +1242,7 @@
      },
      {
       "giocatore": "Lulli",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Pisilli",
@@ -1320,7 +1320,7 @@
       "opzioni": [
        {
         "giocatore": "Lulli",
-        "titolarita_pct": 95
+        "titolarita_pct": 51
        },
        {
         "giocatore": "Molina N.",
@@ -3190,11 +3190,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Zaniolo",
-      "stato": "infortunato",
-      "nota": "Lesione al bicipite femorale della coscia destra, in dubbio per l'8a."
-     },
-     {
       "giocatore": "Gueye",
       "stato": "infortunato",
       "nota": "Intervento chirurgico alla caviglia destra, in dubbio per la 17a."
@@ -3258,13 +3253,17 @@
      },
      {
       "giocatore": "Camarda",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      }
     ],
     "panchina": [
      {
       "giocatore": "Estupinan",
       "titolarita_pct": 40
+     },
+     {
+      "giocatore": "Cissè A.",
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Torriani",
@@ -3284,10 +3283,6 @@
      },
      {
       "giocatore": "Tomori",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Cissè A.",
       "titolarita_pct": 5
      },
      {
@@ -3313,6 +3308,18 @@
        {
         "giocatore": "Estupinan",
         "titolarita_pct": 40
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Camarda",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Cissè A.",
+        "titolarita_pct": 49
        }
       ]
      }
