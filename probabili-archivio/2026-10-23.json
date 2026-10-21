@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-10-21T07:49:15+00:00",
+ "scraped_at_utc": "2026-10-21T13:45:13+00:00",
  "giornata": "2026-10-23T18:45:00.000Z",
  "partite": [
   {
@@ -25,7 +25,7 @@
      },
      {
       "giocatore": "Ismajli",
-      "titolarita_pct": 51
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Belghali",
@@ -57,10 +57,6 @@
      }
     ],
     "panchina": [
-     {
-      "giocatore": "Rodriguez R.",
-      "titolarita_pct": 49
-     },
      {
       "giocatore": "Fitz-Jim",
       "titolarita_pct": 40
@@ -114,18 +110,6 @@
      {
       "opzioni": [
        {
-        "giocatore": "Ismajli",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Rodriguez R.",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
         "giocatore": "Braganca",
         "titolarita_pct": 60
        },
@@ -140,12 +124,17 @@
      {
       "giocatore": "Fortini",
       "stato": "infortunato",
-      "nota": "Problema muscolare alla coscia destra, in dubbio per la 8a."
+      "nota": "Problema muscolare alla coscia destra, in dubbio per l'8a."
      },
      {
       "giocatore": "Ilkhan",
       "stato": "infortunato",
       "nota": "Problema all'adduttore, in dubbio per la 10a."
+     },
+     {
+      "giocatore": "Rodriguez R.",
+      "stato": "infortunato",
+      "nota": "Lesione tendinea di basso grado ai muscoli flessori della coscia sinistra, in dubbio per la 10a."
      }
     ],
     "ufficiale": false
@@ -306,7 +295,7 @@
      {
       "giocatore": "Tourè I.",
       "stato": "infortunato",
-      "nota": "Sta recuperando da un infortunio al ginocchio, in dubbio per la 8a."
+      "nota": "Sta recuperando da un infortunio al ginocchio, in dubbio per l'8a."
      },
      {
       "giocatore": "Zeballos",
@@ -837,7 +826,7 @@
      {
       "giocatore": "Rodriguez Je.",
       "stato": "infortunato",
-      "nota": "In dubbio per la 16a."
+      "nota": "Lesione muscolare di secondo grado, in dubbio per la 16a."
      },
      {
       "giocatore": "Kean",
@@ -1133,10 +1122,6 @@
       "titolarita_pct": 40
      },
      {
-      "giocatore": "Lang",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Contini",
       "titolarita_pct": 5
      },
@@ -1150,6 +1135,10 @@
      },
      {
       "giocatore": "Giovane",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Lang",
       "titolarita_pct": 5
      },
      {
@@ -1209,11 +1198,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Vergara",
-      "stato": "infortunato",
-      "nota": "Lesione distrattiva di medio grado del soleo destro, in dubbio per la 9a."
-     },
-     {
       "giocatore": "Buongiorno",
       "stato": "infortunato",
       "nota": "Intervento chirurgico di riparazione della radice del menisco mediale del ginocchio destro, in dubbio per la 12a."
@@ -1231,7 +1215,7 @@
      {
       "giocatore": "Santos A.",
       "stato": "infortunato",
-      "nota": "Lesione distrattiva di medio grado del bicipite femorale sinistro, in dubbio per la 14a."
+      "nota": "Lesione distrattiva di medio grado del bicipite femorale sinistro, in dubbio per la 16a."
      }
     ],
     "ufficiale": false
@@ -1258,11 +1242,11 @@
      },
      {
       "giocatore": "Lulli",
-      "titolarita_pct": 51
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Pisilli",
-      "titolarita_pct": 55
+      "titolarita_pct": 95
      },
      {
       "giocatore": "De Roon",
@@ -1278,7 +1262,7 @@
      },
      {
       "giocatore": "Mora",
-      "titolarita_pct": 55
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Malen",
@@ -1286,10 +1270,6 @@
      }
     ],
     "panchina": [
-     {
-      "giocatore": "Pellegrini Lo.",
-      "titolarita_pct": 45
-     },
      {
       "giocatore": "Balerdi",
       "titolarita_pct": 40
@@ -1340,35 +1320,11 @@
       "opzioni": [
        {
         "giocatore": "Lulli",
-        "titolarita_pct": 51
+        "titolarita_pct": 95
        },
        {
         "giocatore": "Molina N.",
         "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Pisilli",
-        "titolarita_pct": 55
-       },
-       {
-        "giocatore": "Pellegrini Lo.",
-        "titolarita_pct": 45
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Mora",
-        "titolarita_pct": 55
-       },
-       {
-        "giocatore": "Pellegrini Lo.",
-        "titolarita_pct": 45
        }
       ]
      }
@@ -1388,6 +1344,11 @@
       "giocatore": "Svilar",
       "stato": "infortunato",
       "nota": "Frattura da stress al quinto dito del piede, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Pellegrini Lo.",
+      "stato": "infortunato",
+      "nota": "Problema muscolare, in dubbio per la 9a."
      }
     ],
     "ufficiale": false
@@ -2020,349 +1981,6 @@
    }
   },
   {
-   "id": "atalanta-frosinone",
-   "data": "2026-10-25T14:00:00.000Z",
-   "casa": {
-    "squadra": "Atalanta",
-    "formazione": "4-3-3",
-    "titolari": [
-     {
-      "giocatore": "Carnesecchi",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Bellanova",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Kristensen T.",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Obric",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Bernasconi",
-      "titolarita_pct": 51
-     },
-     {
-      "giocatore": "Samardzic",
-      "titolarita_pct": 51
-     },
-     {
-      "giocatore": "Gaetano",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Ederson D.S.",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "De Ketelaere",
-      "titolarita_pct": 55
-     },
-     {
-      "giocatore": "Krstovic",
-      "titolarita_pct": 60
-     },
-     {
-      "giocatore": "Rowe",
-      "titolarita_pct": 55
-     }
-    ],
-    "panchina": [
-     {
-      "giocatore": "Pasalic",
-      "titolarita_pct": 49
-     },
-     {
-      "giocatore": "Scamacca",
-      "titolarita_pct": 40
-     },
-     {
-      "giocatore": "Zappacosta",
-      "titolarita_pct": 49
-     },
-     {
-      "giocatore": "Elmas",
-      "titolarita_pct": 45
-     },
-     {
-      "giocatore": "Sportiello",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Zalewski",
-      "titolarita_pct": 5
-     }
-    ],
-    "ballottaggi": [
-     {
-      "opzioni": [
-       {
-        "giocatore": "Bernasconi",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Zappacosta",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Samardzic",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Pasalic",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "De Ketelaere",
-        "titolarita_pct": 55
-       },
-       {
-        "giocatore": "Elmas",
-        "titolarita_pct": 45
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Krstovic",
-        "titolarita_pct": 60
-       },
-       {
-        "giocatore": "Scamacca",
-        "titolarita_pct": 40
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Rowe",
-        "titolarita_pct": 55
-       },
-       {
-        "giocatore": "Elmas",
-        "titolarita_pct": 45
-       }
-      ]
-     }
-    ],
-    "indisponibili": [
-     {
-      "giocatore": "Kolasinac",
-      "stato": "infortunato",
-      "nota": "Problema muscolare, in dubbio per la 9a."
-     },
-     {
-      "giocatore": "Hien",
-      "stato": "infortunato",
-      "nota": "Fuori per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in dubbio per la 12a."
-     },
-     {
-      "giocatore": "Sulemana K.",
-      "stato": "infortunato",
-      "nota": "Lesione del collaterale mediale di secondo grado del ginocchio sinistro, in dubbio per la 8a."
-     },
-     {
-      "giocatore": "Kossounou",
-      "stato": "infortunato",
-      "nota": "Lesione di medio-alto grado del bicipite femorale della coscia sinistra, in dubbio per la 12a."
-     },
-     {
-      "giocatore": "Pompei",
-      "stato": "infortunato",
-      "nota": "Frattura della falange intermedia della mano destra, in dubbio per la 12a."
-     },
-     {
-      "giocatore": "Scalvini",
-      "stato": "infortunato",
-      "nota": "Distrazione di basso grado dei muscoli flessori della gamba sinistra, in dubbio per la 9a."
-     },
-     {
-      "giocatore": "Kessiè",
-      "stato": "infortunato",
-      "nota": "Distrazione di basso grado al polpaccio della gamba destra, in dubbio per la 9a."
-     },
-     {
-      "giocatore": "Raspadori",
-      "stato": "infortunato",
-      "nota": "Problema muscolare, in dubbio per l'8a."
-     }
-    ],
-    "ufficiale": false
-   },
-   "ospite": {
-    "squadra": "Frosinone",
-    "formazione": "4-2-3-1",
-    "titolari": [
-     {
-      "giocatore": "Palmisani",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Oyono A.",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Monterisi",
-      "titolarita_pct": 51
-     },
-     {
-      "giocatore": "Cittadini",
-      "titolarita_pct": 51
-     },
-     {
-      "giocatore": "Bracaglia",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Calò",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Masini",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Ghedjemis",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Schmid",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Kvernadze",
-      "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Raimondo",
-      "titolarita_pct": 95
-     }
-    ],
-    "panchina": [
-     {
-      "giocatore": "Calvani",
-      "titolarita_pct": 49
-     },
-     {
-      "giocatore": "Desplanches",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Pisseri",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Akpoguma",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Amey",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Omar Fayed",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Tchato",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Terzic",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Cichella",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "El Azzouzi A.",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Fini",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Hasa",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Zerbin",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Birligea",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Bobcek",
-      "titolarita_pct": 5
-     }
-    ],
-    "ballottaggi": [
-     {
-      "opzioni": [
-       {
-        "giocatore": "Monterisi",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Calvani",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Cittadini",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Calvani",
-        "titolarita_pct": 49
-       }
-      ]
-     }
-    ],
-    "indisponibili": [
-     {
-      "giocatore": "Gelli F.",
-      "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Lolic",
-      "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Kone B.",
-      "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Grillitsch",
-      "stato": "infortunato",
-      "nota": "Intervento chirurgico per il trattamento di Sports Hernia destra, in dubbio per la 9a."
-     }
-    ],
-    "ufficiale": false
-   }
-  },
-  {
    "id": "genoa-venezia",
    "data": "2026-10-25T14:00:00.000Z",
    "casa": {
@@ -2713,6 +2331,349 @@
    }
   },
   {
+   "id": "atalanta-frosinone",
+   "data": "2026-10-25T14:00:00.000Z",
+   "casa": {
+    "squadra": "Atalanta",
+    "formazione": "4-3-3",
+    "titolari": [
+     {
+      "giocatore": "Carnesecchi",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Bellanova",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Kristensen T.",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Obric",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Bernasconi",
+      "titolarita_pct": 51
+     },
+     {
+      "giocatore": "Samardzic",
+      "titolarita_pct": 51
+     },
+     {
+      "giocatore": "Gaetano",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Ederson D.S.",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "De Ketelaere",
+      "titolarita_pct": 55
+     },
+     {
+      "giocatore": "Krstovic",
+      "titolarita_pct": 60
+     },
+     {
+      "giocatore": "Rowe",
+      "titolarita_pct": 55
+     }
+    ],
+    "panchina": [
+     {
+      "giocatore": "Pasalic",
+      "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Scamacca",
+      "titolarita_pct": 40
+     },
+     {
+      "giocatore": "Zappacosta",
+      "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Elmas",
+      "titolarita_pct": 45
+     },
+     {
+      "giocatore": "Sportiello",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Zalewski",
+      "titolarita_pct": 5
+     }
+    ],
+    "ballottaggi": [
+     {
+      "opzioni": [
+       {
+        "giocatore": "Bernasconi",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Zappacosta",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Samardzic",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Pasalic",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "De Ketelaere",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Elmas",
+        "titolarita_pct": 45
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Krstovic",
+        "titolarita_pct": 60
+       },
+       {
+        "giocatore": "Scamacca",
+        "titolarita_pct": 40
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Rowe",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Elmas",
+        "titolarita_pct": 45
+       }
+      ]
+     }
+    ],
+    "indisponibili": [
+     {
+      "giocatore": "Kolasinac",
+      "stato": "infortunato",
+      "nota": "Distrazione di basso grado del retto femorale della coscia sinistra., in dubbio per la 10a."
+     },
+     {
+      "giocatore": "Hien",
+      "stato": "infortunato",
+      "nota": "Fuori per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Sulemana K.",
+      "stato": "infortunato",
+      "nota": "Lesione del collaterale mediale di secondo grado del ginocchio sinistro, in dubbio per l'8a."
+     },
+     {
+      "giocatore": "Kossounou",
+      "stato": "infortunato",
+      "nota": "Lesione di medio-alto grado del bicipite femorale della coscia sinistra, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Pompei",
+      "stato": "infortunato",
+      "nota": "Frattura della falange intermedia della mano destra, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Scalvini",
+      "stato": "infortunato",
+      "nota": "Distrazione di basso grado dei muscoli flessori della gamba sinistra, in dubbio per la 9a."
+     },
+     {
+      "giocatore": "Kessiè",
+      "stato": "infortunato",
+      "nota": "Distrazione di basso grado al polpaccio della gamba destra, in dubbio per la 9a."
+     },
+     {
+      "giocatore": "Raspadori",
+      "stato": "infortunato",
+      "nota": "Distrazione di basso grado del bicipite femorale della coscia destra, in dubbio per la 9a."
+     }
+    ],
+    "ufficiale": false
+   },
+   "ospite": {
+    "squadra": "Frosinone",
+    "formazione": "4-2-3-1",
+    "titolari": [
+     {
+      "giocatore": "Palmisani",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Oyono A.",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Monterisi",
+      "titolarita_pct": 51
+     },
+     {
+      "giocatore": "Cittadini",
+      "titolarita_pct": 51
+     },
+     {
+      "giocatore": "Bracaglia",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Calò",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Masini",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Ghedjemis",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Schmid",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Kvernadze",
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Raimondo",
+      "titolarita_pct": 95
+     }
+    ],
+    "panchina": [
+     {
+      "giocatore": "Calvani",
+      "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Desplanches",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Pisseri",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Akpoguma",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Amey",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Omar Fayed",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Tchato",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Terzic",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Cichella",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "El Azzouzi A.",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Fini",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Hasa",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Zerbin",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Birligea",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Bobcek",
+      "titolarita_pct": 5
+     }
+    ],
+    "ballottaggi": [
+     {
+      "opzioni": [
+       {
+        "giocatore": "Monterisi",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Calvani",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Cittadini",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Calvani",
+        "titolarita_pct": 49
+       }
+      ]
+     }
+    ],
+    "indisponibili": [
+     {
+      "giocatore": "Gelli F.",
+      "stato": "indisponibile"
+     },
+     {
+      "giocatore": "Lolic",
+      "stato": "indisponibile"
+     },
+     {
+      "giocatore": "Kone B.",
+      "stato": "indisponibile"
+     },
+     {
+      "giocatore": "Grillitsch",
+      "stato": "infortunato",
+      "nota": "Intervento chirurgico per il trattamento di Sports Hernia destra, in dubbio per la 9a."
+     }
+    ],
+    "ufficiale": false
+   }
+  },
+  {
    "id": "lecce-juventus",
    "data": "2026-10-25T17:00:00.000Z",
    "casa": {
@@ -2778,10 +2739,6 @@
       "titolarita_pct": 45
      },
      {
-      "giocatore": "Gandelman",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Bleve",
       "titolarita_pct": 5
      },
@@ -2799,6 +2756,10 @@
      },
      {
       "giocatore": "Fofana Sa.",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Gandelman",
       "titolarita_pct": 5
      },
      {
@@ -2860,7 +2821,7 @@
      {
       "giocatore": "Berisha M.",
       "stato": "infortunato",
-      "nota": "Sovraccarico, in dubbio per la 8a."
+      "nota": "Sovraccarico, in dubbio per l'8a."
      },
      {
       "giocatore": "Penev",
@@ -3272,8 +3233,8 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Chukwueze",
-      "titolarita_pct": 55
+      "giocatore": "Hutchinson",
+      "titolarita_pct": 60
      },
      {
       "giocatore": "Musah",
@@ -3296,14 +3257,14 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Ramos G.",
+      "giocatore": "Camarda",
       "titolarita_pct": 95
      }
     ],
     "panchina": [
      {
-      "giocatore": "Hutchinson",
-      "titolarita_pct": 45
+      "giocatore": "Estupinan",
+      "titolarita_pct": 40
      },
      {
       "giocatore": "Torriani",
@@ -3315,10 +3276,6 @@
      },
      {
       "giocatore": "Diawara S.",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Estupinan",
       "titolarita_pct": 5
      },
      {
@@ -3344,22 +3301,18 @@
      {
       "giocatore": "Loftus-Cheek",
       "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Camarda",
-      "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
      {
       "opzioni": [
        {
-        "giocatore": "Chukwueze",
-        "titolarita_pct": 55
+        "giocatore": "Hutchinson",
+        "titolarita_pct": 60
        },
        {
-        "giocatore": "Hutchinson",
-        "titolarita_pct": 45
+        "giocatore": "Estupinan",
+        "titolarita_pct": 40
        }
       ]
      }
@@ -3373,12 +3326,22 @@
      {
       "giocatore": "Terracciano",
       "stato": "infortunato",
-      "nota": "Trauma alla spalla destra, in dubbio per la 8a."
+      "nota": "Trauma alla spalla destra, in dubbio per l'8a."
      },
      {
       "giocatore": "Gabbia",
       "stato": "infortunato",
       "nota": "Lesione del muscolo flessore della coscia sinistra, con parziale interessamento tendineo, in dubbio per la 20a."
+     },
+     {
+      "giocatore": "Chukwueze",
+      "stato": "infortunato",
+      "nota": "Problema all'anca, in dubbio per la 9a."
+     },
+     {
+      "giocatore": "Ramos G.",
+      "stato": "infortunato",
+      "nota": "Sovraccarico muscolare al polpaccio, in dubbio per l'8a."
      }
     ],
     "ufficiale": false
