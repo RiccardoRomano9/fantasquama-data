@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T05:03:55+00:00",
+ "generatedAt": "2026-10-22T12:06:37+00:00",
  "season": "2026-27",
  "gameweek": 8,
  "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -7982,7 +7982,7 @@
    "appearances": 6,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.27,
-   "playProbability": 0.446,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.2181,
     "rf": 0.0066,
@@ -8003,7 +8003,7 @@
     "q90": 6.63
    },
    "learnedVote": 6.48,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.246,
     "rf": 0.012,
@@ -8038,7 +8038,7 @@
    "quotazione": 20.0,
    "fvm": 105.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -9083,7 +9083,7 @@
    "appearances": 5,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.18,
-   "playProbability": 0.429,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.105,
     "rf": 0.0071,
@@ -9104,7 +9104,7 @@
     "q90": 6.49
    },
    "learnedVote": 6.31,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.1138,
     "rf": 0.0233,
@@ -9138,8 +9138,8 @@
    },
    "quotazione": 6.0,
    "fvm": 17.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -15231,7 +15231,7 @@
    "appearances": 2,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.32,
-   "playProbability": 0.446,
+   "playProbability": 0.285,
    "events": {
     "gf": 0.1517,
     "rf": 0.0123,
@@ -15252,7 +15252,7 @@
     "q90": 6.59
    },
    "learnedVote": 6.3,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.285,
    "learnedEvents": {
     "gf": 0.1922,
     "rf": 0.0323,
@@ -15284,8 +15284,8 @@
    },
    "quotazione": 6.0,
    "fvm": 21.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45564,100 +45564,6 @@
    ]
   },
   {
-   "name": "Cagliari",
-   "formation": "4-3-2-1",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "7274",
-       "giocatore": "Zè Pedro",
-       "titolarita_pct": 60,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "7621",
-       "giocatore": "Sugawara",
-       "titolarita_pct": 40,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "4210",
-       "giocatore": "Mina",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "1871",
-       "giocatore": "Deiola",
-       "titolarita_pct": 45,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6010",
-       "giocatore": "Fazzini",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5336",
-       "giocatore": "Nzola",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Bologna",
-   "formation": "3-4-3",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "5498",
-       "giocatore": "Casale",
-       "titolarita_pct": 55,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "7326",
-       "giocatore": "Helland",
-       "titolarita_pct": 45,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "5298",
-       "giocatore": "Pobega",
-       "titolarita_pct": 60,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6054",
-       "giocatore": "Moro N.",
-       "titolarita_pct": 40,
-       "ruolo": "C"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "name": "Como 1907",
    "formation": "4-2-3-1",
    "isOfficial": false,
@@ -45737,38 +45643,6 @@
       {
        "player_id": "6151",
        "giocatore": "Perrone",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6678",
-       "giocatore": "Liberali",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5036",
-       "giocatore": "Caqueret",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7126",
-       "giocatore": "Baturina",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5036",
-       "giocatore": "Caqueret",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -45874,6 +45748,100 @@
        "giocatore": "Bowie",
        "titolarita_pct": 30,
        "ruolo": "A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cagliari",
+   "formation": "4-3-2-1",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "7274",
+       "giocatore": "Zè Pedro",
+       "titolarita_pct": 60,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "7621",
+       "giocatore": "Sugawara",
+       "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "4210",
+       "giocatore": "Mina",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "1871",
+       "giocatore": "Deiola",
+       "titolarita_pct": 45,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6010",
+       "giocatore": "Fazzini",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5336",
+       "giocatore": "Nzola",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bologna",
+   "formation": "3-4-3",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "5498",
+       "giocatore": "Casale",
+       "titolarita_pct": 55,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "7326",
+       "giocatore": "Helland",
+       "titolarita_pct": 45,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5298",
+       "giocatore": "Pobega",
+       "titolarita_pct": 60,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "6054",
+       "giocatore": "Moro N.",
+       "titolarita_pct": 40,
+       "ruolo": "C"
       }
      ]
     }
@@ -46716,13 +46684,103 @@
  ],
  "news": [
   {
+   "title": "Milan, la probabile formazione in Europa League: Modric, Rabiot, Moreira e il nuovo ruolo di Cisse...",
+   "summary": "Le probabili scelte di formazione di Amorim per Bournemouth-Milan. Da Modric a Rabiot, Moreira, Cisse, ecco chi dovrebbe giocare.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-la-probabile-formazione-in-europa-league-modric-rabiot-moreira-e-il-nuovo-ruolo-per-cisse-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/5F612A96-AA39-41CE-B02D-21E8E4E860C3_1_201_a-54b22dca7f5d-e1787521939843.jpeg",
+   "date": "2026-10-22T12:00:00+00:00"
+  },
+  {
+   "title": "Gazzetta - Udinese, il verdetto per Zaniolo contro il Milan: il dubbio sulla gestione e il rischio...",
+   "summary": "L'Udinese ritrova finalmente Nicolò Zaniolo che contro il Milan ci sarà. Il dubbio però riguarda la sua gestione, le ultime dalla Gazzetta dello Sport.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/gazzetta-udinese-zaniolo-verdetto-milan-dubbio-gestione-rischio/",
+   "image": "https://static.sosfanta.com/202606/e6a499ba91afbdd66dd7d2c706fe727f.png",
+   "date": "2026-10-22T11:00:53+00:00"
+  },
+  {
+   "title": "Potete schierarli! 3 scommesse e 3 certezze al fantacalcio per l'8a giornata di Serie A, non solo Gila",
+   "summary": "Si avvicina il prossimo turno di Serie A e del fantacalcio. Via libera per queste 3 scommesse e queste 3 certezze per la'8a giornata: potete schierarli.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/potete-schierarli-tre-scommesse-tre-certezze-fantacalcio-ottava-giornata-seriea-non-solo-gila/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300942947-3c2b179ca485-e1792499603386.jpg",
+   "date": "2026-10-22T10:29:43+00:00"
+  },
+  {
+   "title": "NEWS - Ramos, Pellegrini, Modric, Rabiot, Bremer, Dybala, Gudmundsson, Atta, Zaniolo e sorpresa Dodò",
+   "summary": "Dopo le due serate di Champions oggi c'è l'Europa League e la Conference. Domani inizia invece l'ottava giornata di Serie A, ecco tutte le novità.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-ramos-pellegrini-modric-rabiot-bremer-dybala-gudmundsson-atta-zaniolo-dodo-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291678023-bf5bf81bca76-e1789806709858.jpg",
+   "date": "2026-10-22T10:15:38+00:00"
+  },
+  {
+   "title": "La probabile formazione dell'Atalanta in Conference League: De Ketelaere, Scamacca, Bellanova...",
+   "summary": "Sfida di prestigio per l'Atalanta, impegnata in Conference League ad Amsterdam contro l'Ajax. Questa la probabile formazione.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/atalanta-probabile-formazione-conference-league/",
+   "image": "https://static.sosfanta.com/202602/c020638de4fae9e82e244985ef5dea37.jpg",
+   "date": "2026-10-22T10:00:18+00:00"
+  },
+  {
+   "title": "Sette underdog al fantacalcio: ecco i migliori per media-voto dopo l’inizio di stagione",
+   "summary": "Pagati poco all’asta, oggi sono ai vertici dei ranking per media voto: ecco i sette affari low cost della stagione fin qui.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/fantacalcio-sorprese-7-giornate-media-voto-asta-low-cost/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294441497-5cc6e71091ba-e1792428741601.jpg",
+   "date": "2026-10-22T09:45:11+00:00"
+  },
+  {
    "title": "Chivu: \"Vi spiego perché Spence dal 1'! Volevo mettere Pio, su Mkhitaryan, Thuram, il portiere e il rosso a Bastoni...\"",
    "summary": "Ai microfoni di Prime, Sky e in conferenza stampa, Cristian Chivu, allenatore dell'Inter, ha analizzato così la gara di Champions League contro lo Shakhtar.",
    "author": "Marco Astori",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/inter/chivu-vi-spiego-perche-spence-inizio-volevo-mettere-pio-mkhitaryan-thuram-portiere-rosso-bastoni/",
    "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-21-22-46-06-a1373c8188f2-e1792615605332.jpg",
-   "date": "2026-10-21T22:30:29+00:00"
+   "date": "2026-10-22T09:15:29+00:00"
+  },
+  {
+   "title": "Gazzetta - Milan, oggi risonanza magnetica per Goncalo Ramos: le ipotesi e sui tempi di recupero...",
+   "summary": "La Gazzetta dello Sport fa il punto su Goncalo Ramos, oggi l'attaccante effettuerà la risonanza magnetica in seguito al fastidio muscolare.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/gazzetta-milan-goncalo-ramos-esami-ipotesi-tempi-di-recupero/",
+   "image": "https://static.sosfanta.com/2026/08/Ramos-Goncalo-5f721ae4a772.jpg",
+   "date": "2026-10-22T09:00:17+00:00"
+  },
+  {
+   "title": "Roma, oggi gli esami per Pellegrini: cosa filtra sull'infortunio dopo i primi controlli, Dybala invece...",
+   "summary": "La Roma attende di capire quanto dovrà stare fuori Lorenzo Pellegrini che sicuramente comunque salterà i prossimi impegni.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/roma-pellegrini-esami-cosa-filtra-infortunio-dybala-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301180322-c949bb979480-e1792655444556.jpg",
+   "date": "2026-10-22T08:00:05+00:00"
+  },
+  {
+   "title": "Como, Nico Paz da urlo: per Gazzetta è da... 9! La spiegazione: \"È one man show\"",
+   "summary": "9 in pagella da La Gazzetta dello Sport a Nico Paz dopo la sua splendida prestazione contro il Manchester United in Champions League.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/como-nico-paz-da-urlo-9-gazzetta/",
+   "image": "https://static.sosfanta.com/202604/6481eb06ad3f42b08e9a3977eb3f59ec-e1776414216561.jpg",
+   "date": "2026-10-22T07:00:45+00:00"
+  },
+  {
+   "title": "Barella: \"Champions sogno ma i sogni vogliamo trasformarli in obiettivi! Mkhitaryan come il vino, Carlos...\"",
+   "summary": "Il centrocampista dell'Inter Nicolò Barella ha parlato a Sky e a Prime dopo la vittoria in Champions League contro lo Shakhtar Donetsk.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/barella-champions-sogno-ma-vogliamo-trasformarli-obiettivi-mkhitaryan-carlos/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300069258-e4244c8f8d85-e1792255728759.jpg",
+   "date": "2026-10-22T06:00:30+00:00"
   },
   {
    "title": "Carlos Augusto: \"È il mio miglior momento all'Inter! Il gol e sul rinnovo vi dico di stare tranquilli perché...\"",
@@ -46984,96 +47042,6 @@
    "url": "https://www.sosfanta.com/news/allegri-napoli-bodo-de-bruyne-giovane-mctominay-anguissa-badiashile/",
    "image": "https://static.sosfanta.com/2026/10/Allegri-6e2043bfd850.jpg",
    "date": "2026-10-21T09:15:49+00:00"
-  },
-  {
-   "title": "Inter, la probabile formazione in Champions: si candida Bonny e sorpresa Mkhitaryan! Bastoni, Dimarco e Thuram...",
-   "summary": "L'Inter ospita lo Shakthar in Champions League e i nerazzurri sono obbligati a vincere. Le probabili scelte di Chivu, ecco la probabile formazione.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-probabile-formazione-champions-bonny-mkhitaryan-bastoni-dimarco-thuram-fantacalcio/",
-   "image": "https://static.sosfanta.com/202604/0fc43af6a74be491c00b1297b8506cba-e1776764932663.jpg",
-   "date": "2026-10-21T09:00:45+00:00"
-  },
-  {
-   "title": "Gasperini: \"Perdiamo Pellegrini, vi dico i tempi di recupero! Cristante, Ghilardi e se non recuperiamo Dybala...\"",
-   "summary": "Gian Piero Gasperini ha commentato la vittoria della Roma contro lo Slovan Bratislava in Champions League, ecco cosa ha detto il tecnico.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/gasperini-roma-conferenza-champions-pellegrini-cristante-dybala-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301188113-30dcd8190677-e1792525246781.jpg",
-   "date": "2026-10-21T08:15:29+00:00"
-  },
-  {
-   "title": "Como, dalle ultime sullo stop di Rodriguez alla probabile formazione in Champions: da Liberali alla porta",
-   "summary": "La probabile formazione scelta da Fabregas per affrontare il Manchester United in Champions League. Dubbi e certezze in casa Como.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/como-probabile-formazione-champions-manchester-united-perrone-milla-liberali-porta-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Butez-753028b7e186-e1788361128800.jpg",
-   "date": "2026-10-21T08:00:02+00:00"
-  },
-  {
-   "title": "Inter, contatti in corso per il rinnovo di Carlos Augusto: la situazione e quando può arrivare la firma",
-   "summary": "Nerazzurri al lavoro per il prolungamento di contratto dell'esterno brasiliano: ecco quando potrebbe arrivare la firma.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-carlos-augusto-rinnovo-contatti-situazione-quando-firma/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300679347-2-79a6c3b679ff-e1792259282561.jpg",
-   "date": "2026-10-21T07:00:56+00:00"
-  },
-  {
-   "title": "Ghilardi: \"Alla Roma ci sono dei giganti! Mi diverto molto, ecco perchè l'anno scorso non giocavo... \"",
-   "summary": "Daniele Ghilardi, difensore della Roma, ha parlato dopo la vittoria in Champions League. Ecco cosa ha detto il giallorosso.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/roma-ghilardi-parole-fantacalcio/",
-   "image": "https://static.sosfanta.com/202509/0ec6a33a5bffa65b107af3afea40ebc4-e1757769134715.jpg",
-   "date": "2026-10-21T06:00:59+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Lautaro",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300195737-e295d9699079-e1792058924129.jpeg",
-   "date": "2026-10-21T05:30:42+00:00"
-  },
-  {
-   "title": "McTominay: \"De Bruyne è incredibile, felici di averlo! Abbiamo un gran centrocampo, sugli errori...\"",
-   "summary": "McTominay: \"De Bruyne è incredibile, felici di averlo! Abbiamo un gran centrocampo, sugli errori...\"",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/mctominay-de-bruyne-e-incredibile-felici-di-averlo-abbiamo-un-gran-centrocampo-sugli-errori/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301195652-7c8f79ecdc96-e1792530956924.jpeg",
-   "date": "2026-10-20T21:30:11+00:00"
-  },
-  {
-   "title": "FLASH - Roma, cambio obbligato per Pellegrini: esce per un problema fisico in Champions",
-   "summary": "Problema fisico per Lorenzo Pellegrini in Champions, il capitano giallorosso è stato costretto ad uscire dal campo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/roma-cambio-obbligato-per-pellegrini-esce-problema-fisico-champions/",
-   "image": "https://static.sosfanta.com/2026/09/pellegrini-campi-3f02c198b4c8-e1788453003219.jpg",
-   "date": "2026-10-20T21:15:19+00:00"
-  },
-  {
-   "title": "Inter, le ultime su Lautaro, Pavard, Stones e Jones: come stanno e quando possono tornare in campo",
-   "summary": "Giornata di vigilia per l'Inter in vista della sfida allo Shakhtar: gli ultimi aggiornamenti sulle condizioni di Lautaro, Pavard, Jones e Stones.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-come-stanno-lautaro-pavard-stones-jones-quando-tornano/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294350553-b18d379db8c8-e1791457999399.jpeg",
-   "date": "2026-10-20T21:00:12+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Novità Jones e Pavard! Koné, Cristante, Atta, Ranieri, Colombo e gli esami di Kolasinac e Coulibaly",
-   "summary": "Importanti notizie anche oggi dai campi in chiave fantacalcio, aspettando la fine dei posticipi: ecco le novità su infortunati e non solo.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/jones-pavard-kone-cristante-atta-ranieri-colombo-theate-kolasinac-esami-coulibaly-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299856544-b128e3aeaad6-e1792514006483.jpeg",
-   "date": "2026-10-20T20:45:17+00:00"
   }
  ],
  "marketDifficulty": {
