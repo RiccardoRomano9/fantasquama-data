@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T17:20:40+00:00",
+ "generatedAt": "2026-10-22T21:45:43+00:00",
  "season": "2026-27",
  "gameweek": 8,
  "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -6733,7 +6733,7 @@
    "appearances": 2,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.08,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.1778,
     "rf": 0.0039,
@@ -6754,7 +6754,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.22,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.114,
     "rf": 0.05,
@@ -6786,9 +6786,9 @@
    },
    "quotazione": 6.0,
    "fvm": 18.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -20558,7 +20558,7 @@
    "appearances": 0,
    "gameweeksElapsed": 6,
    "estimatedVote": 6.06,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0784,
     "rf": 0.0051,
@@ -20579,7 +20579,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0672,
     "rf": 0.0031,
@@ -20613,9 +20613,9 @@
    },
    "quotazione": 6.0,
    "fvm": 14.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -24092,7 +24092,7 @@
    "appearances": 3,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.04,
-   "playProbability": 0.35,
+   "playProbability": 0.83,
    "events": {
     "gf": 0.0814,
     "rf": 0.0006,
@@ -24113,7 +24113,7 @@
     "q90": 6.31
    },
    "learnedVote": 6.35,
-   "learnedPlayProbability": 0.35,
+   "learnedPlayProbability": 0.83,
    "learnedEvents": {
     "gf": 0.0922,
     "rf": 0.0021,
@@ -24147,8 +24147,8 @@
    },
    "quotazione": 8.0,
    "fvm": 18.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24250,7 +24250,7 @@
    "appearances": 7,
    "gameweeksElapsed": 7,
    "estimatedVote": 5.97,
-   "playProbability": 0.83,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0446,
     "rf": 0.0005,
@@ -24271,7 +24271,7 @@
     "q90": 6.76
    },
    "learnedVote": 6.03,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0408,
     "rf": 0.0015,
@@ -24305,8 +24305,8 @@
    },
    "quotazione": 3.0,
    "fvm": 9.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24566,7 +24566,7 @@
    "appearances": 7,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.11,
-   "playProbability": 0.524,
+   "playProbability": 0.285,
    "events": {
     "gf": 0.0605,
     "rf": 0.0006,
@@ -24587,7 +24587,7 @@
     "q90": 6.58
    },
    "learnedVote": 6.49,
-   "learnedPlayProbability": 0.524,
+   "learnedPlayProbability": 0.285,
    "learnedEvents": {
     "gf": 0.0685,
     "rf": 0.0023,
@@ -24621,8 +24621,8 @@
    },
    "quotazione": 8.0,
    "fvm": 16.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -27303,7 +27303,7 @@
    "appearances": 2,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.03,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0478,
     "rf": 0.0004,
@@ -27324,7 +27324,7 @@
     "q90": 6.8
    },
    "learnedVote": 6.01,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0564,
     "rf": 0.0023,
@@ -27357,7 +27357,7 @@
    "quotazione": 2.0,
    "fvm": 5.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -29879,7 +29879,7 @@
    "appearances": 6,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.0,
-   "playProbability": 0.0,
+   "playProbability": 0.83,
    "events": {
     "gf": 0.0501,
     "rf": 0.0005,
@@ -29900,7 +29900,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.83,
    "learnedEvents": {
     "gf": 0.0457,
     "rf": 0.0017,
@@ -29934,9 +29934,9 @@
    },
    "quotazione": 3.0,
    "fvm": 11.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -45516,6 +45516,22 @@
     {
      "opzioni": [
       {
+       "player_id": "6537",
+       "giocatore": "Goglichidze",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "4925",
+       "giocatore": "Carboni A.",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "7574",
        "giocatore": "Foe Ondoa",
        "titolarita_pct": 51,
@@ -46540,22 +46556,6 @@
     {
      "opzioni": [
       {
-       "player_id": "4657",
-       "giocatore": "Celik",
-       "titolarita_pct": 60,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "5520",
-       "giocatore": "Cambiaso",
-       "titolarita_pct": 40,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "4179",
        "giocatore": "Gonzalez N.",
        "titolarita_pct": 51,
@@ -46684,13 +46684,121 @@
  ],
  "news": [
   {
-   "title": "Palladino: \"Odgaard può giocare! Sulla gestione di Skorupski e Pessina, Dovbyk, Ferguson, Enem e Mbangula...\"",
-   "summary": "L'allenatore del Bologna è intervenuto in conferenza stampa in vista della trasferta di campionato contro il Cagliari.",
+   "title": "Sarri: \"Mai citati gli assenti ma mi mancano 4 difensori centrali! E a un certo punto ero incazzato perché...\"",
+   "summary": "Maurizio Sarri ha analizzato la sfida di Conference League contro l’Ajax, commentando la prestazione della squadra",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/sarri-mai-citati-gli-assenti-ma-mi-mancano-4-difensori-centrali-e-a-un-certo-punto-ero-incazzato-perche/",
+   "image": "https://static.sosfanta.com/2026/10/Sarri-6c414b955c08-e1792699474983.jpg",
+   "date": "2026-10-22T21:30:13+00:00"
+  },
+  {
+   "title": "Chi schierare in attacco all'ottava giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-fantacalcio-attaccanti-ottava-giornata-seriea-consigli/",
+   "image": "https://static.sosfanta.com/2026/10/WhatsApp-Image-2026-10-22-at-20.35.13-4f96076532fc-e1792694148677.jpeg",
+   "date": "2026-10-22T21:15:35+00:00"
+  },
+  {
+   "title": "Amorim: \"Oggi non c'è stata partita e dovrò parlare con Maignan! Se guardo alla storia del Milan...\"",
+   "summary": "L'analisi dell'allenatore rossonero al termine del match di Europa League contro il Bournemouth: ecco le dichiarazioni del tecnico portoghese.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/palladino-bologna-odgaard-skorupski-pessina-dovbyk-ferguson-enem-mbangula/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299665334-8d956bcae042-e1791737351926.jpg",
-   "date": "2026-10-22T17:00:34+00:00"
+   "url": "https://www.sosfanta.com/news/amorim-milan-bournemouth-conferenza-intervista/",
+   "image": "https://static.sosfanta.com/2026/10/Amorim-6ea8feb2c69d-e1792699400721.jpg",
+   "date": "2026-10-22T21:00:30+00:00"
+  },
+  {
+   "title": "Chi schierare in porta all'ottava giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i portieri: ecco le nostre fasce e chi schierare tra i pali.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-porta-ottava-giornata-seriea-fantacalcio-consigli-portieri/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299282714-670184dc6e3f-e1792675985210.jpg",
+   "date": "2026-10-22T20:45:24+00:00"
+  },
+  {
+   "title": "Spalletti: \"Se non vinco continuo a non dormire! Le sensazioni sullo stop di Celik e rispondo su Woltemade e Muani\"",
+   "summary": "Spalletti ha analizzato la prestazione della Juventus al termine della sfida con il Rennes: ecco le sue parole.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/spallett-juventus-rennes-conferenza-intervista/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2296250153-33d23bf5074d-e1789923198235.jpg",
+   "date": "2026-10-22T20:15:44+00:00"
+  },
+  {
+   "title": "Woltemade: “Perché io e non Kolo Muani il rigore? Ecco la verità e speriamo di segnare tanto insieme”",
+   "summary": "L'attaccante bianconero ha parlato di campo e futuro dopo il pari in Europa League",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/woltemade-juventus-rennes-europa-league-kolo-muani-rigore-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301515995-9390475ea0eb-e1792697297516.jpg",
+   "date": "2026-10-22T20:00:02+00:00"
+  },
+  {
+   "title": "La preview dell’ottava giornata al fantacalcio: partita per partita, chi mettere e chi no",
+   "summary": "Partita per partita, ecco chi schierare all’ottava giornata al fantacalcio 2026-2027 con la nostra preview con tutti i giocatori.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/preview-8a-giornata-seriea-campionato-fantacalcio-tutti-consigli-chi-schierare/",
+   "image": "https://static.sosfanta.com/2026/10/Baturina-364df3780584-e1792688439198.jpg",
+   "date": "2026-10-22T19:45:11+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Liberali, Kean, Skorupski, Dovbyk, Cristante, Fortini, novità Vergara, stop Celik e il rigorista Juve...",
+   "summary": "È vigilia di campionato, aspettando gli impegni di stasera di Europa e Conference League: ecco le ultime dai campi in chiave fantacalcio.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/dai-campi-liberali-kean-skorupski-dovbyk-cristante-r-rodriguez-fortini-stop-celik-e-novita-vergara/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2286608681-06195f0b9448-e1785090684901.jpg",
+   "date": "2026-10-22T19:15:46+00:00"
+  },
+  {
+   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Lautaro",
+   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300195737-e295d9699079-e1792058924129.jpeg",
+   "date": "2026-10-22T19:00:42+00:00"
+  },
+  {
+   "title": "Juve, Celik prima segna e poi è costretto al cambio per infortunio. E il rigore lo calcia Woltemade e non Kolo Muani",
+   "summary": "Gol in Europa League e poi il cambio per un problema fisico: Zeki Celik costretto alla sostituzione in Juventus-Rennes.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-celik-gol-cambio-europa-league-infortunio-fantacalcio-rigorista-woltemade/",
+   "image": "https://static.sosfanta.com/2026/10/Celik-3eba431d541b-e1792692815157.jpg",
+   "date": "2026-10-22T18:30:30+00:00"
+  },
+  {
+   "title": "Bologna, da Skorupski a Dovbyk, Theate, Heggem e Bernardeschi: dubbi e ballottaggi per Palladino",
+   "summary": "Il Bologna si prepara al match contro il Cagliari in programma sabato. Palladino ha ancora diversi dubbi da sciogliere.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/bologna-da-skorupski-a-dovbyk-theate-heggem-e-bernardeschi-dubbi-e-ballottaggi-per-palladino/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293383084-4a91436abdb1-e1789198296662.jpg",
+   "date": "2026-10-22T18:00:23+00:00"
+  },
+  {
+   "title": "Milan e Atalanta, le formazioni ufficiali in Europa: fuori Rowe! Scamacca, Moreira, Modric, Ederson, le scelte",
+   "summary": "Milan e Atalanta si preparano a scendere in campo per i rispettivi impegni di Europa League e Conference League: ecco le formazioni ufficiali.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-atalanta-formazioni-ufficiali-europa-fuori-rowe-scamacca-moreira-modric-ederson-le-scelte-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293839213-e9cd84ece474-e1791353280381.jpg",
+   "date": "2026-10-22T17:45:19+00:00"
+  },
+  {
+   "title": "Fiorentina, Dodo a sorpresa titolare contro l'Inter: la tentazione di Vanoli e le novità su Atta",
+   "summary": "La Fiorentina si prepara a sfidare l'Inter e Vanoli pensa a Dodo. Non ci sarà ancora Atta, le ultime sul centrocampista.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/fiorentina-dodo-inter-vanoli-atta-novita-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/Dodo-8a6d48593f0a-e1789031789669.jpg",
+   "date": "2026-10-22T17:00:50+00:00"
   },
   {
    "title": "Carnevali: “La panchina scotta! Pesa la maglia della Juve e rispondo su Bremer”. E Spalletti: “A volte ci si picchia…”",
@@ -46702,6 +46810,15 @@
    "date": "2026-10-22T16:45:02+00:00"
   },
   {
+   "title": "Juventus, la formazione ufficiale in Europa League: la scelta su Muani, Koopmeiners, Cambiaso, Kalulu e Gatti",
+   "summary": "La Juventus sfida il Rennes in Europa League, di seguito la formazione ufficiale dei bianconeri scelta da Luciano Spalletti.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juventus-rennes-formazione-ufficiale-muani-koopmeiners-cambiaso-gatti/",
+   "image": "https://static.sosfanta.com/2026/09/Kolo-Muani-3649d4aec234-e1789320772386.jpg",
+   "date": "2026-10-22T16:15:14+00:00"
+  },
+  {
    "title": "Gazzetta - Juve, sirene tedesche per Bremer: questo club di Bundesliga ci prova per gennaio",
    "summary": "Caso rientrato per Bremer dopo lo sfogo post Champions, ma ci sono sirene di mercato come scrive Gazzetta. Ecco quale club ha mosso passi importanti.",
    "author": "Tommaso Lerro",
@@ -46709,15 +46826,6 @@
    "url": "https://www.sosfanta.com/news/juve-bremer-sirene-mercato-bundesliga-passi-importanti/",
    "image": "https://static.sosfanta.com/2026/10/Bremer-10c1c9fce2c6-e1792360318583.jpg",
    "date": "2026-10-22T16:00:28+00:00"
-  },
-  {
-   "title": "Juventus, la formazione ufficiale in Europa League: la scelta su Muani, Koopmeiners, Cambiaso, Kalulu e Gatti",
-   "summary": "La Juventus sfida il Rennes in Europa League, di seguito la formazione ufficiale dei bianconeri scelta da Luciano Spalletti.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juventus-rennes-formazione-ufficiale-muani-koopmeiners-cambiaso-gatti/",
-   "image": "https://static.sosfanta.com/2026/09/Kolo-Muani-3649d4aec234-e1789320772386.jpg",
-   "date": "2026-10-22T15:50:14+00:00"
   },
   {
    "title": "BREAKING - Roma, c’è l'esito degli esami per Pellegrini: brutte notizie e lungo stop!",
@@ -46729,13 +46837,13 @@
    "date": "2026-10-22T15:45:05+00:00"
   },
   {
-   "title": "Fiorentina, Dodo a sorpresa titolare contro l'Inter: la tentazione di Vanoli e le novità su Atta",
-   "summary": "La Fiorentina si prepara a sfidare l'Inter e Vanoli pensa a Dodo. Non ci sarà ancora Atta, le ultime sul centrocampista.",
-   "author": "Andrea Ajello",
+   "title": "Palladino: \"Odgaard può giocare! Sulla gestione di Skorupski e Pessina, Dovbyk, Ferguson, Enem e Mbangula...\"",
+   "summary": "L'allenatore del Bologna è intervenuto in conferenza stampa in vista della trasferta di campionato contro il Cagliari.",
+   "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fiorentina-dodo-inter-vanoli-atta-novita-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Dodo-8a6d48593f0a-e1789031789669.jpg",
-   "date": "2026-10-22T15:00:50+00:00"
+   "url": "https://www.sosfanta.com/squadra/bologna/palladino-bologna-odgaard-skorupski-pessina-dovbyk-ferguson-enem-mbangula/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299665334-8d956bcae042-e1791737351926.jpg",
+   "date": "2026-10-22T15:00:34+00:00"
   },
   {
    "title": "ULTIM'ORA - Milan, l'esito degli esami per Goncalo Ramos e Chukwueze: ecco i tempi di recupero",
@@ -46934,114 +47042,6 @@
    "url": "https://www.sosfanta.com/squadra/juventus/kolo-muani-bremer-cera-un-po-di-tensione-discussione-costruttiva-spalletti-woltemade-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Kolo-Muani-3649d4aec234-e1789320772386.jpg",
    "date": "2026-10-21T21:00:30+00:00"
-  },
-  {
-   "title": "Nico Paz: \"Una delle notti più belle della mia carriera! È più di quello che ho sempre sognato\"",
-   "summary": "Nico Paz è stato il protagonista di Como-Manchester United con una doppietta. Queste le sue parole a Sky Sport al fischio finale.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/nico-paz-como-notti-belle-carriera-sogno/",
-   "image": "https://static.sosfanta.com/2026/10/IMG_2784-f51aadb34613-e1792610635516.jpg",
-   "date": "2026-10-21T20:00:09+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Novità Vergara e gli esami di R. Rodriguez! Atta, Cancellieri, Gudmundsson, Rovella e Marusic...",
-   "summary": "Importanti notizie anche oggi dai campi in chiave fantacalcio, aspettando la fine dei posticipi: ecco le novità su infortunati e non solo.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-novita-vergara-gli-esami-di-rodriguez-atta-cancellieri-gudmundsson-rovella-marusic-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294098388-1-db69e0d8e468-e1792601493442.jpg",
-   "date": "2026-10-21T19:45:11+00:00"
-  },
-  {
-   "title": "Lazio, Gudmundsson ha ancora dolore: cosa filtra sul rientro. Novità Cancellieri, su Marusic e Rovella...",
-   "summary": "Il punto dalla prima seduta dopo il 3-0 alla Juve: Cancellieri verso la convocazione col Parma, tempi incerti per Gudmundsson.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/lazio-cancellieri-gruppo-marusic-rovella-gudmundsson-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293135435-be2d64413571-e1790771780308.jpeg",
-   "date": "2026-10-21T19:00:15+00:00"
-  },
-  {
-   "title": "Chivu: \"Perché Martinez dal 1'? È il portiere titolare dell'Inter: ora tocca a lui ma Provedel...\"",
-   "summary": "Cristian Chivu, allenatore dell'Inter, ha parlato ai microfoni di Prime Video nel prepartita della sfida contro lo Shakhtar Donetsk",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/chivu-perche-martinez-inizio-provedel/",
-   "image": "https://static.sosfanta.com/2026/07/Martinez-78479f1f3160.jpg",
-   "date": "2026-10-21T18:00:18+00:00"
-  },
-  {
-   "title": "Inter, la formazione ufficiale in Champions: gioca Spence! Bonny, Dimarco, Carlos, J. Martinez, Pio e Sucic...",
-   "summary": "Tutte le scelte ufficiali di Chivu per la sfida dell’Inter contro lo Shakhtar: ecco chi parte dal primo minuto nella terza giornata di Champions League.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-la-formazione-ufficiale-in-champions-gioca-spence-bonny-dimarco-carlos-j-martinez-pio-e-sucic/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-21-19-28-34-2c5ff68ff401-e1792603757730.jpg",
-   "date": "2026-10-21T17:45:45+00:00"
-  },
-  {
-   "title": "Sarri: \"Rispondo così su Zappacosta centrale! De Ketelaere prima o poi riposerà, fa sempre arrabbiare perché...\"",
-   "summary": "Maurizio Sarri ha parlato alla vigilia del match di Conference League contro l'Ajax. Le dichiarazioni del tecnico dell'Atalanta.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/sarri-rispondo-cosi-zappacosta-centrale-de-ketelaere/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292959336-10094e755f02-e1792054696651.jpg",
-   "date": "2026-10-21T17:30:34+00:00"
-  },
-  {
-   "title": "Woltemade, Kolo Muani e la mossa di Spalletti in attacco: ecco come cambierà la Juventus in Europa",
-   "summary": "La Juventus si prepara a sfidare il Rennes in Europa League e Spalletti sembra intenzionato a modificare l'assetto offensivo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/woltemade-kolo-muani-mossa-spalletti-attacco-cosi-puo-cambiare-juventus-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300407957-2c3040491852-e1792128850947.jpg",
-   "date": "2026-10-21T17:00:42+00:00"
-  },
-  {
-   "title": "Fabregas: \"Vi spiego perché Liberali in panchina! Se tra 5 anni non vedo Baturina in una big...\"",
-   "summary": "Cesc Fabregas, tecnico del Como, ha parlato ai microfoni di Sky prima della gara contro il Manchester United. Ecco le sue dichiarazioni.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fabregas-perche-liberali-panchina-baturina-big/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295382794-074833523b7d-e1791572972995.jpg",
-   "date": "2026-10-21T16:30:53+00:00"
-  },
-  {
-   "title": "Fiorentina, Atta e Ranieri ancora a parte: le ultime sui tempi di recupero verso l'Inter",
-   "summary": "Lavoro individuale al Viola Park per i due giocatori viola: restano in bilico per la sfida di domenica a Milano alle 12:30.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-atta-ranieri-inter-infortunio-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Atta-350ceb609002-e1787386518952.jpg",
-   "date": "2026-10-21T16:00:47+00:00"
-  },
-  {
-   "title": "Como, la formazione ufficiale in Champions: la scelta su Butez, Liberali, Couto, Baturina, Caqueret e Perrone",
-   "summary": "La formazione ufficiale scelta da Cesc Fabregas per il Como contro il Manchester United, nella terza giornata della fase campionato di Champions League.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/como-formazione-ufficiale-champions-scelta-butez-liberali-couto-baturina-caqueret-perrone/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-21-17-32-15-82e73509dcb4-e1792596751514.jpg",
-   "date": "2026-10-21T15:45:45+00:00"
-  },
-  {
-   "title": "Spalletti: \"La scelta su Kolo Muani e Woltemade! Chiarimento Bremer con la squadra, sul traghettatore...\"",
-   "summary": "Alla vigilia di Juventus-Rennes, Luciano Spalletti ha parlato in conferenza stampa. Ecco le dichiarazioni dell'allenatore bianconero.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/spalletti-juve-rennes-kolo-muani-woltemade-bremer/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300139328-678774eb9130-e1792572615864.jpg",
-   "date": "2026-10-21T15:15:04+00:00"
-  },
-  {
-   "title": "Atalanta, la staffetta decisa da Sarri per Scamacca, Krstovic e chi è favorito a giocare in Europa",
-   "summary": "Se c'è una cosa che sta funzionando in questa stagione nell'Atalanta è la gestione dei due centravanti, Scamacca e Krstovic. Sarri sta optando per la staffetta.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/atalanta-krstovic-scamacca-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293036333-2d8afb165c25-e1789224058756.jpeg",
-   "date": "2026-10-21T15:00:14+00:00"
   }
  ],
  "marketDifficulty": {
