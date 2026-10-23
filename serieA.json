@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-23T18:30:01+00:00",
+ "generatedAt": "2026-10-23T22:02:58+00:00",
  "season": "2026-27",
  "gameweek": 8,
- "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -10822,7 +10822,7 @@
    "appearances": 6,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.13,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0481,
     "rf": 0.0054,
@@ -10843,7 +10843,7 @@
     "q90": 6.37
    },
    "learnedVote": 6.37,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0898,
     "rf": 0.0046,
@@ -10877,8 +10877,8 @@
    },
    "quotazione": 3.0,
    "fvm": 8.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -11940,7 +11940,7 @@
    "appearances": 5,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.08,
-   "playProbability": 0.044,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0686,
     "rf": 0.0051,
@@ -11961,7 +11961,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.17,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0979,
     "rf": 0.0043,
@@ -11995,8 +11995,8 @@
    },
    "quotazione": 2.0,
    "fvm": 12.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12102,7 +12102,7 @@
    "appearances": 4,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.18,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.0527,
     "rf": 0.0059,
@@ -12123,7 +12123,7 @@
     "q90": 6.46
    },
    "learnedVote": 6.27,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1013,
     "rf": 0.0068,
@@ -12157,8 +12157,8 @@
    },
    "quotazione": 6.0,
    "fvm": 23.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -16286,7 +16286,7 @@
    "appearances": 1,
    "gameweeksElapsed": 5,
    "estimatedVote": 6.08,
-   "playProbability": 0.429,
+   "playProbability": 0.175,
    "events": {
     "gf": 0.0385,
     "rf": 0.0046,
@@ -16307,7 +16307,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.03,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.175,
    "learnedEvents": {
     "gf": 0.0666,
     "rf": 0.0032,
@@ -16342,7 +16342,7 @@
    "quotazione": 4.0,
    "fvm": 12.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 20.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -31290,7 +31290,7 @@
    "appearances": 3,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.0,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0373,
     "rf": 0.0003,
@@ -31311,7 +31311,7 @@
     "q90": 6.34
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0642,
     "rf": 0.0016,
@@ -31345,8 +31345,8 @@
    },
    "quotazione": 7.0,
    "fvm": 20.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -46531,30 +46531,30 @@
     {
      "opzioni": [
       {
-       "player_id": "4210",
-       "giocatore": "Mina",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
        "player_id": "1871",
        "giocatore": "Deiola",
-       "titolarita_pct": 49,
+       "titolarita_pct": 51,
        "ruolo": "C"
+      },
+      {
+       "player_id": "4210",
+       "giocatore": "Mina",
+       "titolarita_pct": 49,
+       "ruolo": "D"
       }
      ]
     },
     {
      "opzioni": [
       {
-       "player_id": "6010",
-       "giocatore": "Fazzini",
+       "player_id": "6815",
+       "giocatore": "Fadera",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "7579",
-       "giocatore": "Massolin",
+       "player_id": "6010",
+       "giocatore": "Fazzini",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -47422,13 +47422,94 @@
  ],
  "news": [
   {
+   "title": "Juric: \"Il Torino ha meritato, per me rigore su Mangas! Cosa ci è mancato e su Varela via a gennaio rispondo così\"",
+   "summary": "L'analisi del tecnico del Monza al termine del match contro il Torino: ecco le sue dichiarazioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/monza/juric-torino-monza-conferenza-intervista/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300994416-76b3e8a460a6-e1792779021316.jpg",
+   "date": "2026-10-23T21:45:52+00:00"
+  },
+  {
+   "title": "Abate: \"Come sta Simeone e cosa filtra sullo stop di Mandragora! Belghali più forte di me e cos'ho detto a Vlasic\"",
+   "summary": "L'allenatore del Torino è intervenuto ai microfoni per analizzare la prestazione del suo Torino nell'anticipo dell'ottava giornata contro il Monza.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/abate-torino-monza-conferenza-intervist-sky-dazn/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301008940-152d19889f99-e1792778616607.jpg",
+   "date": "2026-10-23T21:40:57+00:00"
+  },
+  {
+   "title": "Vlasic: \"Il gol? Sono felice ma non ero preoccupato: quelli e gli assist arrivano di conseguenza se...\"",
+   "summary": "Nikola Vlasic, centrocampista del Torino, intervistato da DAZN, ha commentato così la vittoria di stasera contro il Monza.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/vlasic-gol-sono-felice-ma-non-ero-preoccupato/",
+   "image": "https://static.sosfanta.com/202602/52ceee01edcff83347c84eb446976fd4-scaled-e1770167611129.jpeg",
+   "date": "2026-10-23T21:30:41+00:00"
+  },
+  {
+   "title": "I voti di Torino-Monza al fanta: la scelta su Cutrone e Ngonge! Varela come Belghali e Simeone ma meno di Vlasic",
+   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-torino-monza/",
+   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-23-22-35-11-e84f433d1444-e1792789232287.jpg",
+   "date": "2026-10-23T21:15:06+00:00"
+  },
+  {
+   "title": "Romano - La posizione della Juventus su Spalletti: le ultime sul futuro e cosa risulta su Conte",
+   "summary": "Continua il momento difficile della Juventus: ecco cosa risulta a Fabrizio Romano sul futuro di Spalletti. E su Conte...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/romano-juventus-spalletti-futuro-cosa-risulta-conte/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300139328-678774eb9130-e1792572615864.jpg",
+   "date": "2026-10-23T21:00:00+00:00"
+  },
+  {
+   "title": "BREAKING - Torino, si ferma Mandragora contro il Monza: cambio obbligato, le sue condizioni",
+   "summary": "Cambio obbligato tra le file del Torino nei primi minuti del secondo tempo della sfida contro il Monza: si è fermato Rolando Mandragora.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/breaking-torino-si-ferma-mandragora-condizioni/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301030857-ed6a5b58a39f-e1792785420752.jpg",
+   "date": "2026-10-23T20:45:32+00:00"
+  },
+  {
+   "title": "Milan, Maignan si scusa dopo il rosso: \"Gesto non intenzionale! Ma siamo abituati alle interpretazioni di...\"",
+   "summary": "Il capitano del Milan Mike Maignan fa mea culpa sui social network all'indomani dell'espulsione diretta che ha costretto il Milan a giocare un'ora in dieci.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-maignan-si-scusa-dopo-rosso/",
+   "image": "https://static.sosfanta.com/202601/c17acba92ea08993da30b13c01ccae21-e1769279358937.jpeg",
+   "date": "2026-10-23T20:00:53+00:00"
+  },
+  {
+   "title": "Tutti gli assist della 8a giornata al fanta LIVE: c'è il +1 per Simeone e Gineitis col Monza",
+   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/tutti-assist-8a-giornata-live-fantacalcio/",
+   "image": "https://static.sosfanta.com/202604/4441806a9d51aaeb3f2245de2bfb8376-scaled-e1777117811648.jpeg",
+   "date": "2026-10-23T19:25:01+00:00"
+  },
+  {
+   "title": "Inter, le ultime sul rinnovo di Carlos Augusto: c'è la nuova offerta, cosa manca e quando può arrivare la firma",
+   "summary": "I nerazzurri spingono per raggiungere l'accordo definitivo con l'esterno brasiliano, grande protagonista in questo avvio di stagione.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-ultime-rinnovo-carlos-augusto-nuova-offerta-cosa-manca-quando-firma/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300679347-2-79a6c3b679ff-e1792259282561.jpg",
+   "date": "2026-10-23T19:00:35+00:00"
+  },
+  {
    "title": "Torino-Monza, le formazioni ufficiali: le scelte su Che Adams, Vlasic, Braganca, Folorunsho, Robinson e Mota",
    "summary": "Torino-Monza di oggi alle ore 20.45 apre l'8a giornata di Serie A e il nuovo turno di fantacalcio: ecco le formazioni ufficiali.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/torino/torino-monza-seriea-formazioni-ufficiali-fantacalcio-scelte/",
    "image": "https://static.sosfanta.com/2026/10/Adams-1eb3484aadf4-e1792764442389.jpg",
-   "date": "2026-10-23T17:46:36+00:00"
+   "date": "2026-10-23T18:15:36+00:00"
   },
   {
    "title": "Ultimissime e casi per l’8a giornata: Zaniolo, Ramos, Woltemade, Dovbyk, Pinamonti, Taylor, Zielinski, Rrahmani...",
@@ -47699,87 +47780,6 @@
    "url": "https://www.sosfanta.com/news/aquilani-sassuolo-como-conferenza-muric-lauriente-idzes-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2299687563-3c89cb81bdd1.jpeg",
    "date": "2026-10-23T10:15:30+00:00"
-  },
-  {
-   "title": "Torino-Monza, le probabili formazioni: Che Adams confermato! Vlasic, Fitz-Jim, Folorunsho, Robinson, Cutrone...",
-   "summary": "Le probabili formazioni di Torino-Monza, ecco le possibili scelte dei due allenatori per la gara che apre l'ottava giornata di Serie A.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/torino-monza-probabili-formazioni-che-adams-vlasic-fitz-jim-folorunsho-robinson-cutrone-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291722622-0ec07251bd6d-e1791449747738.jpeg",
-   "date": "2026-10-23T10:00:12+00:00"
-  },
-  {
-   "title": "Milan, dal sospiro di sollievo per Ramos ai nuovi controlli previsti per Chukwueze: le ultime",
-   "summary": "Sospiro di sollievo in casa Milan per le condizioni del polpaccio di Gonçalo Ramos nonostante abbia saltato la partita contro il Bournemouth di ieri sera.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-goncalo-ramos-chukwueze-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292489893-d244d7ab794a-e1787951485349.jpg",
-   "date": "2026-10-23T09:30:14+00:00"
-  },
-  {
-   "title": "NEWS - Ramos, Jones, Stones, Kean, Liberali, Celik, Anguissa, Vergara, Atta, Pellegrini e occhio a Dybala",
-   "summary": "Dopo le serate di Champions, Europa League e Conference, si torna a pensare al campionato di Serie A: ecco tutte le novità, stasera si parte con Torino-Monza.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/goncalo-ramos-jones-stones-kean-liberali-celik-anguissa-vergara-atta-pellegrini-dybala-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294647114-118839fe1dca-e1792742494656.jpeg",
-   "date": "2026-10-23T09:15:28+00:00"
-  },
-  {
-   "title": "Inter, Curtis Jones e Pavard possono tornare per questa partita! Stones invece...",
-   "summary": "Gli aggiornamenti sulle condizioni di Curtis Jones, Pavard e Stones. Ecco quanto possono tornare a disposizione di Chivu.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-curtis-jones-pavard-stones-quando-tornano-partita-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293697835-219f96269628-e1788639212605.jpeg",
-   "date": "2026-10-23T09:00:31+00:00"
-  },
-  {
-   "title": "Gilardino: \"Corvi o Daffara in porta? Rispondo così! Diego Carlos, Elphege, Romero e Lontani è una tentazione\"",
-   "summary": "L'allenatore del Parma, Alberto Gilardino, ha parlato in conferenza stampa alla vigilia della sfida che i suoi affronteranno allo stadio Olimpico, contro la...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/gilardino-parma-lazio-conferenza-corvi-daffara-diego-carlos-romero-lontani-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299539988-68c366124d8b-e1792735714247.jpeg",
-   "date": "2026-10-23T08:40:23+00:00"
-  },
-  {
-   "title": "Verso Como-Sassuolo: cosa filtra sulla presenza di Liberali e le ultime su Kean...",
-   "summary": "Il Como si appresta al match contro il Sassuolo con alcuni dubbi legati alle condizioni fisiche in particolare di Liberali e Kean.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/como-sassuolo-liberali-kean-ultime-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2288200468-0b2c1a07a555-e1785359467464.jpg",
-   "date": "2026-10-23T08:30:52+00:00"
-  },
-  {
-   "title": "Roma, Dybala può tornare prima, ecco per quale partita: la verità sui tempi di recupero per Pellegrini!",
-   "summary": "Gasperini spera di recuperare prima del previsto Paulo Dybala, soprattutto ora che si è fermato di nuovo Pellegrini.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/roma-dybala-rientro-pellegrini-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293202949-d847856b7ec9-e1788502618258.jpeg",
-   "date": "2026-10-23T08:00:47+00:00"
-  },
-  {
-   "title": "Juventus, le condizioni di Celik dopo lo stop in Europa League: oggi gli esami, cosa filtra verso il Lecce",
-   "summary": "Contro il Rennes si è fermato per un problema fisico Celik che dovrà essere valutato. A rischio la sua presenza con il Lecce.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juventus-celik-stop-esami-cosa-filtra-lecce-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Celik-3eba431d541b-e1792692815157.jpg",
-   "date": "2026-10-23T07:30:52+00:00"
-  },
-  {
-   "title": "Di Gregorio: “Rumors sul Bologna? Bel rapporto con Palladino e rispondo così. La verità è che in Premier…”",
-   "summary": "L'ex portiere della Juve nega un approccio del Bologna e parla delle differenze tra Inghilterra e Italia.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/di-gregorio-palladino-bologna-premier-league-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295788436-c6cc19b1b8a1-e1792705030650.jpg",
-   "date": "2026-10-23T07:00:22+00:00"
   }
  ],
  "marketDifficulty": {
