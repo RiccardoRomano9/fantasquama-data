@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T19:34:50+00:00",
+ "generatedAt": "2026-10-24T21:50:40+00:00",
  "season": "2026-27",
  "gameweek": 8,
  "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -26369,7 +26369,7 @@
    "appearances": 3,
    "gameweeksElapsed": 7,
    "estimatedVote": 5.98,
-   "playProbability": 0.044,
+   "playProbability": 0.35,
    "events": {
     "gf": 0.017,
     "rf": 0.0002,
@@ -26390,7 +26390,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.91,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.35,
    "learnedEvents": {
     "gf": 0.0305,
     "rf": 0.0011,
@@ -26425,7 +26425,7 @@
    "quotazione": 9.0,
    "fvm": 20.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 40.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -28980,7 +28980,7 @@
    "appearances": 6,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.09,
-   "playProbability": 0.83,
+   "playProbability": 0.524,
    "events": {
     "gf": 0.0217,
     "rf": 0.0002,
@@ -29001,7 +29001,7 @@
     "q90": 6.63
    },
    "learnedVote": 6.09,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.524,
    "learnedEvents": {
     "gf": 0.0631,
     "rf": 0.002,
@@ -29036,7 +29036,7 @@
    "quotazione": 7.0,
    "fvm": 18.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -46504,6 +46504,22 @@
        "ruolo": "D"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6531",
+       "giocatore": "Jimenez A.",
+       "titolarita_pct": 60,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "5885",
+       "giocatore": "Dodò",
+       "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
     }
    ]
   },
@@ -46950,13 +46966,67 @@
  ],
  "news": [
   {
+   "title": "I voti di Lazio-Parma al fanta: la scelta su Pedraza e Lazzari! Frattesi come Fabbian e Lontani meno di Taylor, per Floriani...",
+   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-di-lazio-parma-fanta-scelta-pedraza-lazzari-frattesi-come-fabbian-lontani-meno-taylor-floriani-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301820590-59f2b4381849-e1792875541349.jpg",
+   "date": "2026-10-24T21:15:43+00:00"
+  },
+  {
+   "title": "Gol di Lontani o autogol di Mandas: la decisione della Lega Serie A! E l'assist di Fabbian...",
+   "summary": "Il Parma perde 2-1 in casa della Lazio con il gol di Lontani arrivato in pieno recupero, nel finale del secondo tempo. Nessun dubbio sull'assegnazione della...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/mandas-lontani-fabbian-parma-lazio-gol-autogol-assist-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2290578557-4c4a633b6ad5-e1792875860166.jpeg",
+   "date": "2026-10-24T21:00:43+00:00"
+  },
+  {
    "title": "Allegri: \"Come stanno Badiashile, Di Lorenzo e Rrahmani! Se mi muovo vengo espulso, penso alle 4 punte\"",
    "summary": "Massimiliano Allegri commenta Napoli-Roma: le dichiarazioni dell’allenatore azzurro nel postpartita sulla prestazione e sui singoli.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/napoli/allegri-come-stanno-badiashile-di-lorenzo-e-rrahmani-se-mi-muovo-vengo-espulso-penso-alle-4-punte/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2301803518-cfae66cf55e7-e1792868659797.jpeg",
-   "date": "2026-10-24T19:32:14+00:00"
+   "date": "2026-10-24T20:15:14+00:00"
+  },
+  {
+   "title": "Inter, questi i tempi di recupero per Luis Henrique: ecco quali gare salterà il brasiliano",
+   "summary": "Luis Henrique, sottopostosi ieri a esami strumentali, ha subìto un risentimento all’adduttore lungo della coscia sinistra.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-questi-i-tempi-di-recupero-per-luis-henrique-ecco-quali-gare-saltera-il-brasiliano/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2289588379-756e07be95eb-scaled-e1792829776644.jpg",
+   "date": "2026-10-24T20:00:37+00:00"
+  },
+  {
+   "title": "Tutti gli assist dell'8a giornata al fanta LIVE: c'è il +1 per Malen, Wesley, Politano, Olivera e Fabbian",
+   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/assist-fantacalcio/tutti-assist-8a-giornata-live-fantacalcio-malen-politano/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294546616-c6a879d2ceaa-e1791520156753.jpeg",
+   "date": "2026-10-24T19:45:01+00:00"
+  },
+  {
+   "title": "Gasperini: \"Balerdi e De Roon due leader! Ho pochi cambi a disposizione, su Cristante, Soulé, Ndicka e Molina...\"",
+   "summary": "Gian Piero Gasperini analizza Napoli-Roma nel postpartita: tutte le dichiarazioni del tecnico giallorosso sulla squadra e sui singoli.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/gasperini-balerdi-de-roon-due-leader-pochi-cambi-disposizione-cristante-soule-ndicka-molina-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301796660-e620a74d7f4b-e1792861938774.jpg",
+   "date": "2026-10-24T19:30:20+00:00"
+  },
+  {
+   "title": "I voti di Napoli-Roma al fanta: bocciati Malen e Wesley! La scelta su Mora, Vergara e Balerdi più di McTominay",
+   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-cagliari-bologna-bocciati-malen-wesley-scelta-mora-vergara-balerdi-mctominay/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301805835-86741362444f-e1792866095457.jpg",
+   "date": "2026-10-24T19:15:28+00:00"
   },
   {
    "title": "A.d. Parma: \"Gilardino ha portato idee diverse! Fuori Bernabé? Scelta per preservarlo, sul rinnovo rispondo così\"",
@@ -46968,22 +47038,22 @@
    "date": "2026-10-24T19:00:15+00:00"
   },
   {
-   "title": "I voti di Napoli-Roma al fanta: bocciati Malen e Wesley! La scelta su Mora, Vergara e Balerdi più di McTominay",
-   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-cagliari-bologna-bocciati-malen-wesley-scelta-mora-vergara-balerdi-mctominay/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301805835-86741362444f-e1792866095457.jpg",
-   "date": "2026-10-24T18:45:28+00:00"
-  },
-  {
    "title": "FLASH - Lazio-Parma, Pinamonti in tribuna! Il motivo e cosa filtra sulle sue condizioni",
    "summary": "Sorpresa nelle formazioni ufficiali di Lazio-Parma, sfida che sta per iniziare allo stadio Olimpico: Andrea Pinamonti non è nemmeno in panchina con i biancoc...",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/flash-lazio-parma-pinamonti-in-tribuna-il-motivo-e-cosa-filtra-sulle-sue-condizioni/",
    "image": "https://static.sosfanta.com/2026/09/Pinamonti-85de2b83bfed-e1788812368779.jpg",
-   "date": "2026-10-24T18:15:18+00:00"
+   "date": "2026-10-24T18:45:18+00:00"
+  },
+  {
+   "title": "Lazio-Parma, le formazioni ufficiali: fuori Bernabé, la scelta su Taylor! Noslin, Fabbian, Pinamonti e Romero...",
+   "summary": "Lazio e Parma si affrontano nell'anticipo serale del sabato dell'ottava giornata di Serie A. Ecco le formazioni ufficiali di Gennaro Gattuso e Alberto Gilard...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/lazio-parma-formazioni-ufficiali-fuori-bernabe-scelta-taylor-noslin-fabbian-pinamonti-romero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294026117-04233044c7e4-e1792851344899.jpeg",
+   "date": "2026-10-24T18:15:59+00:00"
   },
   {
    "title": "Milan, sospiro di sollievo per Goncalo Ramos: già in gruppo ieri, cosa filtra sulla gestione con l'Udinese",
@@ -46995,15 +47065,6 @@
    "date": "2026-10-24T18:00:31+00:00"
   },
   {
-   "title": "Lazio-Parma, le formazioni ufficiali: fuori Bernabé, la scelta su Taylor! Noslin, Fabbian, Pinamonti e Romero...",
-   "summary": "Lazio e Parma si affrontano nell'anticipo serale del sabato dell'ottava giornata di Serie A. Ecco le formazioni ufficiali di Gennaro Gattuso e Alberto Gilard...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-parma-formazioni-ufficiali-fuori-bernabe-scelta-taylor-noslin-fabbian-pinamonti-romero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294026117-04233044c7e4-e1792851344899.jpeg",
-   "date": "2026-10-24T17:50:59+00:00"
-  },
-  {
    "title": "FLASH - Napoli, problemi per Badiashile: cambio obbligato contro la Roma, le sue condizioni",
    "summary": "Altri problemi in casa del Napoli sul fronte infortunati. Sostituzione obbligata per la squadra di Massimiliano Allegri al 52' del match dello stadio Maradona.",
    "author": "Daniele Najjar",
@@ -47011,15 +47072,6 @@
    "url": "https://www.sosfanta.com/news/napoli-badiashile-infortunio-roma-tempi-di-recupero-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2299803319-c84cae25aacf-e1792862137993.jpeg",
    "date": "2026-10-24T17:45:40+00:00"
-  },
-  {
-   "title": "Tutti gli assist dell'8a giornata al fanta LIVE: c'è il +1 per Malen, Wesley, Politano, Olivera, Kaiki, Caqueret e Miranda",
-   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/assist-fantacalcio/tutti-assist-8a-giornata-live-fantacalcio-malen-politano/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294546616-c6a879d2ceaa-e1791520156753.jpeg",
-   "date": "2026-10-24T17:30:01+00:00"
   },
   {
    "title": "Palladino: \"Spiego Dovbyk in panchina, deve dare di più! Odgaard, Enem, Ferguson e Bernardeschi è un campione\"",
@@ -47272,42 +47324,6 @@
    "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-torino-monza/",
    "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-23-22-35-11-e84f433d1444-e1792789232287.jpg",
    "date": "2026-10-24T08:15:06+00:00"
-  },
-  {
-   "title": "Cagliari-Bologna, le probabili formazioni: da Mina e Odgaard a Massolin, Skorupski, Casale e Pobega",
-   "summary": "Occhio a Mina nel Cagliari: dovrebbe partire in panchina contro il Bologna. Testa a testa apertissimo in casa Bologna per il posto da numero 9.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-bologna-probabili-formazioni-fantacalcio/",
-   "image": "https://static.sosfanta.com/202603/2b2a9d052f66cbba563c4ea3a1a83fe6.png",
-   "date": "2026-10-24T08:00:52+00:00"
-  },
-  {
-   "title": "Belghali: \"Un gol da numero 10, ma ne ho fatto uno più bello! Vi svelo il segreto di Abate e su Vlasic...\"",
-   "summary": "Rafik Belghali parla dopo Torino-Monza: le dichiarazioni del laterale granata, tra la prestazione personale e il successo della squadra.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/torino/belghali-un-gol-da-numero-10-ma-ne-ho-fatto-uno-piu-bello-vi-svelo-il-segreto-di-abate-con-vlasic/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299863604-c936a90a8f6f-e1792436403917.jpeg",
-   "date": "2026-10-24T07:00:19+00:00"
-  },
-  {
-   "title": "Di Gregorio può tornare in Serie A: voci su questo club, cosa risulta a Fabrizio Romano",
-   "summary": "Nel futuro dell'attuale portiere del Bournemouth, ma di proprietà della Juventus, potrebbe esserci un ritorno in Italia: lo scenario.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/di-gregorio-futuro-serie-a-cosa-risulta-fabrizio-romano/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295788436-c6cc19b1b8a1-e1792705030650.jpg",
-   "date": "2026-10-24T06:00:34+00:00"
-  },
-  {
-   "title": "Juric: \"Il Torino ha meritato, per me rigore su Mangas! Cosa ci è mancato e su Varela via a gennaio rispondo così\"",
-   "summary": "L'analisi del tecnico del Monza al termine del match contro il Torino: ecco le sue dichiarazioni.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/juric-torino-monza-conferenza-intervista/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300994416-76b3e8a460a6-e1792779021316.jpg",
-   "date": "2026-10-23T21:45:52+00:00"
   }
  ],
  "marketDifficulty": {
