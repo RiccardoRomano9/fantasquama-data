@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T16:05:23+00:00",
+ "generatedAt": "2026-10-24T17:21:29+00:00",
  "season": "2026-27",
  "gameweek": 8,
  "note": "Stime calcolate con la sola storia precedente alla giornata 8 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -36785,7 +36785,7 @@
    "appearances": 2,
    "gameweeksElapsed": 7,
    "estimatedVote": 5.97,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0368,
     "rf": 0.0003,
@@ -36806,7 +36806,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.79,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0503,
     "rf": 0.0015,
@@ -36840,9 +36840,9 @@
    },
    "quotazione": 4.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -47048,6 +47048,60 @@
  ],
  "news": [
   {
+   "title": "FLASH - Napoli, problemi per Badiashile: cambio obbligato contro la Roma, le sue condizioni",
+   "summary": "Altri problemi in casa del Napoli sul fronte infortunati. Sostituzione obbligata per la squadra di Massimiliano Allegri al 52' del match dello stadio Maradona.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-badiashile-infortunio-roma-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299803319-c84cae25aacf-e1792862137993.jpeg",
+   "date": "2026-10-24T17:15:40+00:00"
+  },
+  {
+   "title": "Aquilani: \"Come sta Matic! Noi sovrastati, rispondo su Seba Esposito, Bowie e le voci sul mio futuro al Como\"",
+   "summary": "Alberto Aquilani ai microfoni per analizzare la prestazione del suo Sassuolo dopo il match esterno contro il Como.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/aquilani-come-sta-matic-noi-sovrastati-rispondo-su-seba-esposito-bowie-e-le-voci-sul-mio-futuro-al-como/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301764033-94ec0bc6b69e-e1792847631547.jpg",
+   "date": "2026-10-24T17:00:58+00:00"
+  },
+  {
+   "title": "Palladino: \"Spiego Dovbyk in panchina, deve dare di più! Odgaard, Enem, Ferguson e Bernardeschi è un campione\"",
+   "summary": "Raffaele Palladino ha analizzato la prestazione del suo Bologna, sceso in campo alla Unipol Domus contro il Cagliari.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/palladino-cagliari-bologna-conferenza-intervista-dovbyk-panchina-enem-ferguson-bernardeschi-campione-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300667916-daeb999a2d21-e1792846963708.jpg",
+   "date": "2026-10-24T16:50:05+00:00"
+  },
+  {
+   "title": "Fabregas: \"Perché Nico Paz fuori! Su Douvikas che parla sempre, Kaiki, Couto, Valle, Kambwala e Ricci...\"",
+   "summary": "Cesc Fabregas ha parlato al termine del match tra Como e Sassuolo. Ecco le sue parole nel post partita.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/fabregas-como-sassuolo-conferenza-intervista/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300315833-777dd1404578-e1792847323590.jpg",
+   "date": "2026-10-24T16:45:25+00:00"
+  },
+  {
+   "title": "Pisacane: \"Oggi salvo solo una cosa, ingeneroso parlare solo dell'attacco! Fazzini, Massolin e Winks è da valutare\"",
+   "summary": "Fabio Pisacane ha parlato ai microfoni al termine del match tra Cagliari e Bologna. Di seguito ecco le parole dell'allenatore dei sardi.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/cagliari/pisacane-cagliari-bologna-conferenza-intervista-fazzini-massolin-winks-valutare-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291584001-1-943d272ad348-e1792846658326.jpg",
+   "date": "2026-10-24T16:30:30+00:00"
+  },
+  {
+   "title": "I voti al fantacalcio: vola Douvikas! Bernardeschi come Kaiki, Maldini meno di Berardi, Baturina e Laurienté",
+   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-como-sassuolo-douvikas-berardi-lauriente-kaiki-bernardeschi-maldini/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301771224-a515ffd83d3a-e1792851671941.jpeg",
+   "date": "2026-10-24T16:15:14+00:00"
+  },
+  {
    "title": "Juventus, i convocati per il Lecce: la scelta di Spalletti su Pape Sarr e cosa filtra sul suo impiego",
    "summary": "La Juventus ha diramato i convocati per la trasferta di Lecce: la decisione su Sarr, le indicazioni sul suo impiego e gli assenti di Spalletti.",
    "author": "Francesco Mangiagli",
@@ -47055,6 +47109,15 @@
    "url": "https://www.sosfanta.com/squadra/juventus/juventus-convocati-lecce-scelta-spalletti-pape-sarr-cosa-filtra-impiego-infortunati-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2295811429-4cfee1674df0-e1791552411324.jpg",
    "date": "2026-10-24T16:00:20+00:00"
+  },
+  {
+   "title": "Napoli-Roma, le formazioni ufficiali: Rrahmani in tribuna! Meret, Cristante, Mora, Anguissa, Spinazzola...",
+   "summary": "Napoli-Roma è il big match dell'ottava giornata di Serie A. Di seguito ecco le formazioni ufficiali scelte da Massimiliano Allegri e Gian Piero Gasperini.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-roma-formazioni-ufficiali-milinkovic-savic-cristante-mora-anguissa-molina/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294389153-b9f77592621a-e1792851309493.jpeg",
+   "date": "2026-10-24T15:45:34+00:00"
   },
   {
    "title": "Allegri: \"De Bruyne regista? Non devo convincerlo! Ecco chi è più offensivo fra lui e McTominay\"",
@@ -47066,13 +47129,13 @@
    "date": "2026-10-24T15:30:33+00:00"
   },
   {
-   "title": "I voti al fantacalcio: vola Douvikas! Bernardeschi come Kaiki, Maldini meno di Berardi, Baturina e Laurienté",
-   "summary": "Tutti i voti per la giornata al fantacalcio, queste sono le scelte della redazione di Leghe Fantacalcio. Di seguito, tutte le decisioni.",
+   "title": "Runjaic: \"Solet in dubbio, il motivo! La scelta su Zaniolo per domani, Abankwah, Piotrowski e ricaduta Zanoli\"",
+   "summary": "Kosta Runjaic ha parlato in conferenza stampa alla vigilia di Udinese-Milan. Ecco le sue parole.",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/voti-fantacalcio/voti-fantacalcio-como-sassuolo-douvikas-berardi-lauriente-kaiki-bernardeschi-maldini/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301771224-a515ffd83d3a-e1792851671941.jpeg",
-   "date": "2026-10-24T15:15:14+00:00"
+   "url": "https://www.sosfanta.com/news/runjaic-udinese-milan-conferenza-solet-zaniolo-abankwah-zanoli-piotrowski/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300789135-379c4696695f-e1792849519728.jpg",
+   "date": "2026-10-24T15:15:56+00:00"
   },
   {
    "title": "Bologna, rigore contro il Cagliari in assenza di Orsolini: tira e segna Bernardeschi",
@@ -47082,24 +47145,6 @@
    "url": "https://www.sosfanta.com/news/bologna-rigorista-fantacalcio-cagliari-bernardeschi-orsolini/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2296062960-629acd3dc4c9-e1789829415409.jpg",
    "date": "2026-10-24T15:00:51+00:00"
-  },
-  {
-   "title": "Napoli-Roma, le formazioni ufficiali: Rrahmani in tribuna! Meret, Cristante, Mora, Anguissa, Spinazzola...",
-   "summary": "Napoli-Roma è il big match dell'ottava giornata di Serie A. Di seguito ecco le formazioni ufficiali scelte da Massimiliano Allegri e Gian Piero Gasperini.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-roma-formazioni-ufficiali-milinkovic-savic-cristante-mora-anguissa-molina/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294389153-b9f77592621a-e1792851309493.jpeg",
-   "date": "2026-10-24T14:50:34+00:00"
-  },
-  {
-   "title": "Runjaic: \"Solet in dubbio, il motivo! La scelta su Zaniolo per domani, Abankwah, Piotrowski e ricaduta Zanoli\"",
-   "summary": "Kosta Runjaic ha parlato in conferenza stampa alla vigilia di Udinese-Milan. Ecco le sue parole.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/runjaic-udinese-milan-conferenza-solet-zaniolo-abankwah-zanoli-piotrowski/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300789135-379c4696695f-e1792849519728.jpg",
-   "date": "2026-10-24T14:45:56+00:00"
   },
   {
    "title": "Tutti gli assist della 8a giornata al fanta LIVE: c'è il +1 per Kaiki, Caqueret, Miranda, Simeone e Gineitis",
@@ -47361,51 +47406,6 @@
    "url": "https://www.sosfanta.com/squadra/torino/torino-monza-seriea-formazioni-ufficiali-fantacalcio-scelte/",
    "image": "https://static.sosfanta.com/2026/10/Adams-1eb3484aadf4-e1792764442389.jpg",
    "date": "2026-10-23T18:15:36+00:00"
-  },
-  {
-   "title": "Ultimissime e casi per l’8a giornata: Zaniolo, Ramos, Woltemade, Dovbyk, Pinamonti, Taylor, Zielinski, Rrahmani...",
-   "summary": "Inizia oggi alle ore 20.45 l’8a giornata di Serie A 2026-2027: ecco le ultimissime dai campi e i casi delicati per il fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/ultimissime-casi-8a-giornata-seriea-fantacalcio-zaniolo-kean/",
-   "image": "https://static.sosfanta.com/2026/08/zaniolo-edb89cac8020-e1787649108684.jpeg",
-   "date": "2026-10-23T17:45:01+00:00"
-  },
-  {
-   "title": "Live dai campi, tutte le formazioni: Provedel, Vergara, Moreira, S. Esposito, Cristante, Muric, Anguissa...",
-   "summary": "Inizia oggi alle ore 20.45 l'8a giornata di Serie A: ecco le ultimissime in tempo reale da campi e conferenze per il vostro fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/live-dai-campi-tutte-le-formazioni-rrahmani-diouf-lulli-noslin-odgaard-cisse-oulai-lontani-e-tegola-pierotti/",
-   "image": "https://static.sosfanta.com/202307/6aac10cf2b8b89d640ea8297598d52f5-scaled-e1690626611615.jpg",
-   "date": "2026-10-23T17:15:07+00:00"
-  },
-  {
-   "title": "Lazio-Parma, le probabili formazioni: da Pinamonti a Romero, Taylor, Fabbian, Isaksen, Noslin e Bernabé",
-   "summary": "Le probabili formazioni di Lazio-Parma: Floriani Mussolini e Tavares pronti come terzini, al centro della difesa Provstgaard e Sutalo (favorito su Doekhi).",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-parma-probabili-formazioni-pinamonti-lontani-romero-sutalo-fabbian-isaksen-noslin-bernabe/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2292478309-244f498559a6-e1788109741838.jpeg",
-   "date": "2026-10-23T17:00:33+00:00"
-  },
-  {
-   "title": "Il kit per l’ottava giornata al fantacalcio 2026-2027: la preview e non solo, tutti i consigli (anche Mantra)",
-   "summary": "Il kit per l’ottava giornata al fantacalcio 2026-2027: la preview e non solo, tutti i consigli (anche Mantra).",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/kit-ottava-giornata-seriea-fantacalcio-consigli-chi-schierare/",
-   "image": "https://static.sosfanta.com/2026/10/Krstovic-5585fc11c130-e1792756107190.jpeg",
-   "date": "2026-10-23T16:45:16+00:00"
-  },
-  {
-   "title": "Inter-Fiorentina, le probabili formazioni: Thuram, Bastoni, Pellegrino, Oulai, Dimarco, Martinez e Calhanoglu",
-   "summary": "Chance per Provedel tra i pali dell'Inter? Chivu ci sta pensando ma non ha ancora deciso, il ballottaggio è aperto con il titolare Martinez che rimane di poc...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-fiorentina-probabili-formazioni-dimarco-bonny-thuram-calhanoglu-dimarco-pellegrino-oulai/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293672443-87a60eb7446d-e1788691122158.jpeg",
-   "date": "2026-10-23T16:00:40+00:00"
   }
  ],
  "marketDifficulty": {
