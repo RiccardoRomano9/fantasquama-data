@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T21:05:41+00:00",
+ "generatedAt": "2026-10-27T00:33:21+00:00",
  "season": "2026-27",
  "gameweek": 9,
  "note": "Stime calcolate con la sola storia precedente alla giornata 9 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -8887,7 +8887,7 @@
    "appearances": 4,
    "gameweeksElapsed": 8,
    "estimatedVote": 6.19,
-   "playProbability": 0.044,
+   "playProbability": 0.35,
    "events": {
     "gf": 0.0255,
     "rf": 0.0032,
@@ -8908,7 +8908,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.02,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.35,
    "learnedEvents": {
     "gf": 0.067,
     "rf": 0.0039,
@@ -8944,7 +8944,7 @@
    "quotazione": 5.0,
    "fvm": 14.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 40.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12774,7 +12774,7 @@
    "appearances": 6,
    "gameweeksElapsed": 8,
    "estimatedVote": 6.13,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.077,
     "rf": 0.0058,
@@ -12795,7 +12795,7 @@
     "q90": 6.42
    },
    "learnedVote": 6.19,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.0805,
     "rf": 0.0048,
@@ -12828,8 +12828,8 @@
    },
    "quotazione": 2.0,
    "fvm": 2.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12933,7 +12933,7 @@
    "appearances": 6,
    "gameweeksElapsed": 8,
    "estimatedVote": 6.08,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0845,
     "rf": 0.0049,
@@ -12954,7 +12954,7 @@
     "q90": 6.38
    },
    "learnedVote": 6.09,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0814,
     "rf": 0.0052,
@@ -12989,8 +12989,8 @@
    },
    "quotazione": 4.0,
    "fvm": 17.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -20558,7 +20558,7 @@
    "appearances": 7,
    "gameweeksElapsed": 8,
    "estimatedVote": 6.09,
-   "playProbability": 0.831,
+   "playProbability": 0.525,
    "events": {
     "gf": 0.0177,
     "rf": 0.0021,
@@ -20579,7 +20579,7 @@
     "q90": 6.52
    },
    "learnedVote": 5.99,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.525,
    "learnedEvents": {
     "gf": 0.0556,
     "rf": 0.0034,
@@ -20615,7 +20615,7 @@
    "quotazione": 5.0,
    "fvm": 11.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -28564,7 +28564,7 @@
    "appearances": 6,
    "gameweeksElapsed": 8,
    "estimatedVote": 6.03,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0128,
     "rf": 0.0002,
@@ -28585,7 +28585,7 @@
     "q90": 6.35
    },
    "learnedVote": 5.94,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0408,
     "rf": 0.0023,
@@ -28620,8 +28620,8 @@
    },
    "quotazione": 5.0,
    "fvm": 10.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -30415,7 +30415,7 @@
    "appearances": 8,
    "gameweeksElapsed": 8,
    "estimatedVote": 6.02,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0405,
     "rf": 0.0003,
@@ -30436,7 +30436,7 @@
     "q90": 6.32
    },
    "learnedVote": 6.18,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0476,
     "rf": 0.0023,
@@ -30471,8 +30471,8 @@
    },
    "quotazione": 3.0,
    "fvm": 14.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -30820,7 +30820,7 @@
    "appearances": 7,
    "gameweeksElapsed": 8,
    "estimatedVote": 6.02,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0414,
     "rf": 0.0004,
@@ -30841,7 +30841,7 @@
     "q90": 6.37
    },
    "learnedVote": 6.04,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0459,
     "rf": 0.003,
@@ -30876,8 +30876,8 @@
    },
    "quotazione": 3.0,
    "fvm": 11.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -31624,7 +31624,7 @@
    "appearances": 2,
    "gameweeksElapsed": 8,
    "estimatedVote": 5.92,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0121,
     "rf": 0.0002,
@@ -31645,7 +31645,7 @@
     "q90": 6.2
    },
    "learnedVote": 5.77,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0327,
     "rf": 0.0021,
@@ -31680,8 +31680,8 @@
    },
    "quotazione": 1.0,
    "fvm": 10.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -47614,14 +47614,30 @@
     {
      "opzioni": [
       {
-       "player_id": "5695",
-       "giocatore": "Haps",
+       "player_id": "5319",
+       "giocatore": "Sohm",
+       "titolarita_pct": 60,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5507",
+       "giocatore": "Busio",
+       "titolarita_pct": 40,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5481",
+       "giocatore": "Mazzocchi",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "5481",
-       "giocatore": "Mazzocchi",
+       "player_id": "5695",
+       "giocatore": "Haps",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -47898,14 +47914,14 @@
     {
      "opzioni": [
       {
-       "player_id": "6659",
-       "giocatore": "Lucchesi",
+       "player_id": "7238",
+       "giocatore": "Kouadio",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "7238",
-       "giocatore": "Kouadio",
+       "player_id": "6659",
+       "giocatore": "Lucchesi",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -47914,14 +47930,14 @@
     {
      "opzioni": [
       {
-       "player_id": "7574",
-       "giocatore": "Foe Ondoa",
+       "player_id": "6252",
+       "giocatore": "Folorunsho",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "6252",
-       "giocatore": "Folorunsho",
+       "player_id": "7574",
+       "giocatore": "Foe Ondoa",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -48303,6 +48319,42 @@
  ],
  "news": [
   {
+   "title": "La preview della nona giornata al fantacalcio: partita per partita, chi mettere e chi no",
+   "summary": "Partita per partita, ecco chi schierare all’ottava giornata al fantacalcio 2026-2027 con la nostra preview con tutti i giocatori.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/preview-9a-giornata-seriea-campionato-fantacalcio-tutti-consigli-chi-schierare/",
+   "image": "https://static.sosfanta.com/2026/10/Dimarco-045737a2af9f-e1793047788476.jpeg",
+   "date": "2026-10-26T23:00:17+00:00"
+  },
+  {
+   "title": "Chi schierare in attacco alla nona giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-fantacalcio-attaccanti-nona-giornata-seriea-consigli/",
+   "image": "https://static.sosfanta.com/2026/10/Berardi-4bff0438a1b1-e1793014503749.jpg",
+   "date": "2026-10-26T22:30:00+00:00"
+  },
+  {
+   "title": "Gazzetta esalta Ghedjemis: \"Sembra imprendibile: in Serie A vale biglietto e top club\". Ecco il voto",
+   "summary": "7,5 in pagella da parte de La Gazzetta dello Sport a Fares Ghedjemis, assoluto protagonista ieri contro l'Atalanta con tre assist.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/voti-fantacalcio/gazzetta-esalta-ghedjemis-sembra-imprendibile/",
+   "image": "https://static.sosfanta.com/2026/10/Ghedjemis-7286081def8e.jpg",
+   "date": "2026-10-26T22:00:05+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Lautaro, Jones, Pavard, Rabiot, Gila, Moreira, Piccoli, Scalvini, Tiago Gabriel e Pinamonti: le novità",
+   "summary": "Turno infrasettimanale per la 9ª giornata di Serie A: tutte le novità dai campi, tra infortunati, recuperi e possibili scelte in chiave fantacalcio.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-lautaro-jones-pavard-rabiot-gila-moreira-piccoli-scalvini-tiago-gabriel-pinamonti-novita-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291801675-6231e3d94190-e1793040647539.jpg",
+   "date": "2026-10-26T21:30:02+00:00"
+  },
+  {
    "title": "Atalanta, novità per Scalvini e Sulemana! Kessie, Raspadori, Kolasinac e gli esami di Bellanova...",
    "summary": "Tutti gli aggiornamenti sugli indisponibili in casa Atalanta e l'attesa per gli esami che effettuerà Bellanova.",
    "author": "Andrea Ajello",
@@ -48312,22 +48364,13 @@
    "date": "2026-10-26T21:00:47+00:00"
   },
   {
-   "title": "Chi schierare in attacco alla nona giornata al fantacalcio: la divisione fascia per fascia",
-   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
-   "author": "Alessandro Cosattini",
+   "title": "BREAKING - Como, i convocati per il Torino: la decisione su Kean e Liberali! Out Chalobah, Diao e Rodriguez",
+   "summary": "Il Como affronterà il Torino in trasferta, di seguito la lista dei convocati con la scelta finale su Mattia Liberali e Moise Kean.",
+   "author": "Andrea Ajello",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-fantacalcio-attaccanti-nona-giornata-seriea-consigli/",
-   "image": "https://static.sosfanta.com/2026/10/Berardi-4bff0438a1b1-e1793014503749.jpg",
-   "date": "2026-10-26T20:25:00+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Lautaro, Jones, Pavard, Rabiot, Gila, Moreira, Piccoli, Scalvini, Tiago Gabriel e Pinamonti: le novità",
-   "summary": "Turno infrasettimanale per la 9ª giornata di Serie A: tutte le novità dai campi, tra infortunati, recuperi e possibili scelte in chiave fantacalcio.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-lautaro-jones-pavard-rabiot-gila-moreira-piccoli-scalvini-tiago-gabriel-pinamonti-novita-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291801675-6231e3d94190-e1793040647539.jpg",
-   "date": "2026-10-26T20:15:02+00:00"
+   "url": "https://www.sosfanta.com/news/como-i-convocati-per-il-torino-kean-liberali-decisione-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295376635-154f571bf1a7-e1791525171237.jpeg",
+   "date": "2026-10-26T20:30:33+00:00"
   },
   {
    "title": "Bologna, Enem a rischio per il Milan: dalla scelta su Dovbyk a quando torna Piccoli, le ultime",
@@ -48337,15 +48380,6 @@
    "url": "https://www.sosfanta.com/news/bologna-enem-dovbyk-piccoli-ultime-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/Dovbyk-7b6e055d8fe9-e1788717668531.jpg",
    "date": "2026-10-26T20:00:16+00:00"
-  },
-  {
-   "title": "BREAKING - Como, i convocati per il Torino: la decisione su Kean e Liberali! Out Chalobah, Diao e Rodriguez",
-   "summary": "Il Como affronterà il Torino in trasferta, di seguito la lista dei convocati con la scelta finale su Mattia Liberali e Moise Kean.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/como-i-convocati-per-il-torino-kean-liberali-decisione-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295376635-154f571bf1a7-e1791525171237.jpeg",
-   "date": "2026-10-26T19:15:33+00:00"
   },
   {
    "title": "Verso Parma-Udinese: Gilardino può recuperare due giocatori! Le novità su N.Caviglia, Almqvist e Elphege",
@@ -48643,24 +48677,6 @@
    "url": "https://www.sosfanta.com/news/di-francesco-lecce-juventus-conferenza-tiago-gabriel-come-sta-quando-torna-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2299665171-f8c29e78efd4-e1792951931618.jpg",
    "date": "2026-10-25T21:30:33+00:00"
-  },
-  {
-   "title": "Spalletti: \"Ma avete visto questa giocata di Douglas Luiz? Il modulo, le due punte, gli esterni e non dormo se...\"",
-   "summary": "Le parole di Luciano Spalletti al termine di Lecce-Juventus. Ecco cosa ha detto il tecnico sul match vinto dai bianconeri.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/spalletti-parole-lecce-juve/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301952217-d85ef31623d2-e1792951760901.jpg",
-   "date": "2026-10-25T21:00:25+00:00"
-  },
-  {
-   "title": "Tutti gli assist dell'8a giornata al fanta LIVE: +3 per Ghedjemis! +1 per Modric, D. Luiz, Gatti, CDK e Krstovic",
-   "summary": "Questi sono tutti gli assist della giornata al fantacalcio in aggiornamento in tempo reale. Ecco le scelte della redazione Leghe Fantacalcio.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/assist-fantacalcio/tutti-assist-8a-giornata-live-fantacalcio-malen-politano/",
-   "image": "https://static.sosfanta.com/2026/10/Ghedjemis-7286081def8e.jpg",
-   "date": "2026-10-25T20:30:01+00:00"
   }
  ],
  "marketDifficulty": {
@@ -48683,14 +48699,6 @@
  "baseNote": "Stime calcolate con la sola storia precedente alla giornata 9 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale.",
  "oddsUpdatedAt": "2026-10-26T15:10:14+00:00",
  "oddsSource": "the-odds-api",
- "propOddsStages": {
-  "day-before": "2026-10-26T21:05:41+00:00"
- },
- "propOddsCheckedAt": "2026-10-26T21:05:41+00:00",
- "propOddsUsage": {
-  "month": "2026-10",
-  "estimatedCredits": 40
- },
  "propOdds": {
   "version": 1,
   "source": "the-odds-api",
@@ -56410,5 +56418,13 @@
   "errors": []
  },
  "propOddsUpdatedAt": "2026-10-26T21:05:46+00:00",
- "propOddsSource": "the-odds-api"
+ "propOddsSource": "the-odds-api",
+ "propOddsCheckedAt": "2026-10-26T21:05:41+00:00",
+ "propOddsStages": {
+  "day-before": "2026-10-26T21:05:41+00:00"
+ },
+ "propOddsUsage": {
+  "month": "2026-10",
+  "estimatedCredits": 40
+ }
 }
