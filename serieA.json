@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T23:50:06+00:00",
+ "generatedAt": "2026-10-28T08:44:01+00:00",
  "season": "2026-27",
  "gameweek": 9,
  "note": "Stime calcolate con la sola storia precedente alla giornata 9 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -2838,7 +2838,7 @@
    "appearances": 8,
    "gameweeksElapsed": 8,
    "estimatedVote": 6.08,
-   "playProbability": 0.829,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.4015,
     "rf": 0.0066,
@@ -2859,7 +2859,7 @@
     "q90": 10.0
    },
    "learnedVote": 6.18,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.3002,
     "rf": 0.0077,
@@ -2894,8 +2894,8 @@
    },
    "quotazione": 28.0,
    "fvm": 260.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -3811,7 +3811,7 @@
    "appearances": 7,
    "gameweeksElapsed": 8,
    "estimatedVote": 5.94,
-   "playProbability": 0.044,
+   "playProbability": 0.445,
    "events": {
     "gf": 0.2688,
     "rf": 0.0083,
@@ -3832,7 +3832,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.05,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.445,
    "learnedEvents": {
     "gf": 0.2151,
     "rf": 0.0134,
@@ -3867,8 +3867,8 @@
    },
    "quotazione": 4.0,
    "fvm": 12.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -47548,6 +47548,22 @@
     {
      "opzioni": [
       {
+       "player_id": "6215",
+       "giocatore": "Lucca",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "6052",
+       "giocatore": "Hojlund",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "7162",
        "giocatore": "Giovane",
        "titolarita_pct": 51,
@@ -47818,13 +47834,31 @@
  ],
  "news": [
   {
-   "title": "Pisacane: \"Nzola e Fadera come nuovi acquisti! Spiego Maldini fuori, su Romano, Winks e Sugawara...\"",
-   "summary": "Fabio Pisacane commenta Roma-Cagliari in conferenza stampa: le parole dell’allenatore rossoblù sulla prestazione della squadra e sui suoi giocatori.",
+   "title": "Robert Sanchez: \"Nico Paz da vicino è impressionante, potenziale incredibile! La concorrenza con Butez...\"",
+   "summary": "Non solo Nico Paz e Baturina: fra i protagonisti della vittoria del Como contro il Torino c'è Robert Sanchez, schierato di nuovo fra i pali e decisivo con le...",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/pisacane-nzola-fadera-maldini-romano-winks-sugawara-cagliari-roma/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294920465-29bdf90255bc-e1791572890229.jpg",
-   "date": "2026-10-27T23:00:48+00:00"
+   "url": "https://www.sosfanta.com/news/robert-sanchez-como-butez-nico-paz-torino/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300199893-021bb50cd689-e1793144493688.jpeg",
+   "date": "2026-10-28T08:00:36+00:00"
+  },
+  {
+   "title": "Fabregas: \"Gestirò così Sanchez e Butez! Lo stop di Addai, Nico Paz, Da Cunha e l'errore grave di Ramon\"",
+   "summary": "Cesc Fabregas commenta Torino-Como in conferenza stampa: l’analisi della prestazione dei lariani, le scelte di formazione e le parole sui singoli.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/fabregas-como-torino-nico-paz-addai-infortunio-butez-sanchez-da-cunha-ramon/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2302276424-69aefc224a3b-e1793134158613.jpg",
+   "date": "2026-10-28T07:30:39+00:00"
+  },
+  {
+   "title": "Roma, Mora: \"Vi dico cosa mi ha chiesto Gasperini da quando sono arrivato! Tutti vorrebbero essere titolari...\"",
+   "summary": "Le parole di Rodrigo Mora dopo Roma-Cagliari, vinta dai giallorossi anche grazie al gol dell'ex Porto.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/roma-mora-parole-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295268355-07b9811d3000-e1792838362644.jpg",
+   "date": "2026-10-28T07:00:00+00:00"
   },
   {
    "title": "Gasperini: \"Dybala, scelta già fatta per l’Udinese: i tempi! Hermoso e Balerdi acciaccati, Koné e Mora...\"",
@@ -47833,7 +47867,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/roma/gasperini-roma-conferenza-dybala-non-ci-sara-a-udine-hermoso-balerdi-kone-mora-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2302280668-596c918e0a51-e1793134094220.jpg",
-   "date": "2026-10-27T22:45:54+00:00"
+   "date": "2026-10-28T06:45:54+00:00"
+  },
+  {
+   "title": "Pisacane: \"Nzola e Fadera come nuovi acquisti! Spiego Maldini fuori, su Romano, Winks e Sugawara...\"",
+   "summary": "Fabio Pisacane commenta Roma-Cagliari in conferenza stampa: le parole dell’allenatore rossoblù sulla prestazione della squadra e sui suoi giocatori.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/pisacane-nzola-fadera-maldini-romano-winks-sugawara-cagliari-roma/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294920465-29bdf90255bc-e1791572890229.jpg",
+   "date": "2026-10-27T23:00:48+00:00"
   },
   {
    "title": "I voti al fantacalcio: la scelta su Addai e Smolcic! Malen, Maldini e Baturina meno di Paz e Mora, Belghali...",
@@ -48149,33 +48192,6 @@
    "url": "https://www.sosfanta.com/news/probabili-formazioni-roma-cagliari-fantacalcio/",
    "image": "https://static.sosfanta.com/202603/ff2c1e0d2bfdde65bc628a80b421736e.jpg",
    "date": "2026-10-27T11:00:44+00:00"
-  },
-  {
-   "title": "Sassuolo-Lazio, le probabili formazioni: da Adzic e Isaksen a Thorstvedt, Leite e le condizioni di Pinamonti",
-   "summary": "Qualche cambio per Gattuso, ma nessun turnover totale in casa Lazio, anzi. E Aquilani nel Sassolo ha qualche dubbio di formazione.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/sassuolo-lazio-probabili-formazioni-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Pinamonti-85de2b83bfed-e1788812368779.jpg",
-   "date": "2026-10-27T10:30:41+00:00"
-  },
-  {
-   "title": "Gila, Moreira e Rabiot out anche col Bologna: le ultime in casa Milan e i tempi per Loftus-Cheek",
-   "summary": "Le buone notizie che Ruben Amorim aspettava dall’infermeria non arrivano: Gila, Moreira e Rabiot, assenti domenica a Udine, saranno indisponibili anche domani.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/gila-moreira-rabiot-out-bologna-milan-tempi-loftus-cheek/",
-   "image": "https://static.sosfanta.com/202604/15d1dade5f6afb2a11d143b553e7df2e-e1775030528376.jpg",
-   "date": "2026-10-27T10:00:45+00:00"
-  },
-  {
-   "title": "NEWS - Dybala, Moreira, Gila, Rabiot, Kean, Badiashile, Spinazzola, Thuram, Atta, Pinamonti e il verdetto su Solet",
-   "summary": "Primo turno infrasettimanale della stagione in Serie A: ecco le ultimissime su infortunati e non solo verso la giornata che inizierà oggi alle 18.30.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/news-dybala-moreira-gila-rabiot-kean-badiashile-spinazzola-thuram-atta-pinamonti-verdetto-solet/",
-   "image": "https://static.sosfanta.com/2026/10/PHOTO-2026-10-27-09-04-23-2edfc5a5f45e-e1793088283441.jpg",
-   "date": "2026-10-27T09:15:52+00:00"
   }
  ],
  "marketDifficulty": {
