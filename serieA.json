@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T23:58:18+00:00",
+ "generatedAt": "2026-11-02T09:39:36+00:00",
  "season": "2026-27",
  "gameweek": 10,
  "note": "Stime calcolate con la sola storia precedente alla giornata 10 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -6379,7 +6379,7 @@
    "appearances": 9,
    "gameweeksElapsed": 9,
    "estimatedVote": 6.02,
-   "playProbability": 0.445,
+   "playProbability": 0.829,
    "events": {
     "gf": 0.0522,
     "rf": 0.0056,
@@ -6400,7 +6400,7 @@
     "q90": 6.29
    },
    "learnedVote": 5.92,
-   "learnedPlayProbability": 0.445,
+   "learnedPlayProbability": 0.829,
    "learnedEvents": {
     "gf": 0.1222,
     "rf": 0.0097,
@@ -6437,7 +6437,7 @@
    "quotazione": 10.0,
    "fvm": 37.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -8597,7 +8597,7 @@
    "appearances": 7,
    "gameweeksElapsed": 9,
    "estimatedVote": 6.13,
-   "playProbability": 0.831,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0285,
     "rf": 0.0039,
@@ -8618,7 +8618,7 @@
     "q90": 6.53
    },
    "learnedVote": 6.06,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0869,
     "rf": 0.0056,
@@ -8654,9 +8654,9 @@
    },
    "quotazione": 7.0,
    "fvm": 34.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -12200,7 +12200,7 @@
    "appearances": 6,
    "gameweeksElapsed": 9,
    "estimatedVote": 6.05,
-   "playProbability": 0.394,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.0271,
     "rf": 0.0024,
@@ -12221,7 +12221,7 @@
     "q90": 6.27
    },
    "learnedVote": 5.98,
-   "learnedPlayProbability": 0.394,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.084,
     "rf": 0.0056,
@@ -12257,8 +12257,8 @@
    },
    "quotazione": 4.0,
    "fvm": 8.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18375,7 +18375,7 @@
    "appearances": 0,
    "gameweeksElapsed": 9,
    "estimatedVote": 6.13,
-   "playProbability": 0.044,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.0111,
     "rf": 0.0017,
@@ -18396,7 +18396,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.93,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.0554,
     "rf": 0.004,
@@ -18432,8 +18432,8 @@
    },
    "quotazione": 6.0,
    "fvm": 16.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -26901,7 +26901,7 @@
    "appearances": 6,
    "gameweeksElapsed": 7,
    "estimatedVote": 5.99,
-   "playProbability": 0.83,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0129,
     "rf": 0.0003,
@@ -26922,7 +26922,7 @@
     "q90": 6.47
    },
    "learnedVote": 5.91,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0379,
     "rf": 0.0033,
@@ -26958,8 +26958,8 @@
    },
    "quotazione": 8.0,
    "fvm": 26.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -27477,7 +27477,7 @@
    "appearances": 5,
    "gameweeksElapsed": 9,
    "estimatedVote": 5.95,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0128,
     "rf": 0.0003,
@@ -27498,7 +27498,7 @@
     "q90": 6.22
    },
    "learnedVote": 5.95,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.036,
     "rf": 0.0034,
@@ -27532,8 +27532,8 @@
    },
    "quotazione": 2.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -37573,7 +37573,7 @@
    "appearances": 0,
    "gameweeksElapsed": 9,
    "estimatedVote": 6.01,
-   "playProbability": 0.428,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0375,
     "rf": 0.0006,
@@ -37594,7 +37594,7 @@
     "q90": 6.35
    },
    "learnedVote": 5.93,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0488,
     "rf": 0.0046,
@@ -37631,7 +37631,7 @@
    "quotazione": 4.0,
    "fvm": 10.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -47490,8 +47490,8 @@
        "ruolo": "D"
       },
       {
-       "player_id": "4374",
-       "giocatore": "Walukiewicz",
+       "player_id": "7154",
+       "giocatore": "Odenthal",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -47665,22 +47665,6 @@
     {
      "opzioni": [
       {
-       "player_id": "6229",
-       "giocatore": "Tourè E.",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "7561",
-       "giocatore": "Lontani",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "5862",
        "giocatore": "Valeri",
        "titolarita_pct": 55,
@@ -47697,14 +47681,46 @@
     {
      "opzioni": [
       {
+       "player_id": "6206",
+       "giocatore": "Fabbian",
+       "titolarita_pct": 55,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "7561",
+       "giocatore": "Lontani",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "7255",
        "giocatore": "Britschgi",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
+       "player_id": "4137",
+       "giocatore": "Diego Carlos",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "7615",
        "giocatore": "Drobnic",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "4137",
+       "giocatore": "Diego Carlos",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -47731,13 +47747,76 @@
  ],
  "news": [
   {
+   "title": "Parma, Bernabè non convocato per il posticipo con l'Atalanta: il motivo e le sue condizioni",
+   "summary": "Assenza dell'ultimo minuto in casa Parma per la sfida di oggi contro l'Atalanta: non figura tra i convocati di Gilardino Adrian Bernabè.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/parma-bernabe-non-convocato-atalanta-motivo/",
+   "image": "https://static.sosfanta.com/202605/680fb123d63c4b92260be65a83277b41.png",
+   "date": "2026-11-02T09:30:29+00:00"
+  },
+  {
+   "title": "Napoli, oggi gli esami di De Bruyne dopo il problema alla caviglia. Sugli stop di Di Lorenzo e Olivera...",
+   "summary": "Emergenza senza fine in casa Napoli: ieri sera contro la Juventus si sono fermati Kevin De Bruyne e Giovanni Di Lorenzo. Ecco il punto.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-oggi-esami-de-bruyne-di-lorenzo-olivera/",
+   "image": "https://static.sosfanta.com/202605/ca6b84e3ff9ab484a0a3e28fea7cf129.png",
+   "date": "2026-11-02T09:00:33+00:00"
+  },
+  {
+   "title": "BREAKING - Udinese, oggi l'esonero di Runjaic! Fatta per Zanetti come sostituto: i dettagli",
+   "summary": "Giornata di cambiamenti in casa Udinese dopo aver deciso di esonerare Kosta Runjaic dopo la sconfitta per 5-2 contro la Roma di sabaro sera.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/breaking-udinese-oggi-esonero-runjaic-fatta-zanetti/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2259278978-c9f68b173494-e1793608372721.jpg",
+   "date": "2026-11-02T08:25:44+00:00"
+  },
+  {
+   "title": "Inter, tutta la verità sull'ipotesi quinta punta e sul possibile ritorno di Icardi: Fabrizio Romano fa chiarezza",
+   "summary": "Fabrizio Romano torna a parlare di Mauro Icardi e l'Inter, ma fa chiarezza anche sulla ricerca di una quinta punta per Cristian Chivu.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-verita-quinta-punta-ritorno-mauro-icardi/",
+   "image": "https://static.sosfanta.com/2026/11/Icardi-4889ef908fb0-e1793569107422.jpg",
+   "date": "2026-11-02T08:15:14+00:00"
+  },
+  {
+   "title": "Inter, ieri parzialmente in gruppo Pavard: cosa filtra verso il Feyenoord. Per Stones e Jones...",
+   "summary": "Dopo l’emergenza delle ultime settimane, soprattutto in difesa ma anche in attacco nell’ultimo derby, Cristian Chivu spera di recuperare alcune pedine.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-parzialmente-gruppo-pavard-feyenoord-stones-jones/",
+   "image": "https://static.sosfanta.com/2026/07/Pavard-ddb76e0155cd.jpg",
+   "date": "2026-11-02T08:00:44+00:00"
+  },
+  {
    "title": "Spalletti: \"Perché ho tolto McKennie e Sarr non poteva giocare oggi! Da valutare anche Alajbegovic e Cabal\"",
    "summary": "Luciano Spalletti commenta Juventus-Napoli in conferenza stampa: l’analisi della partita e le indicazioni sulla prestazione dei bianconeri.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/juventus/spalletti-perche-ho-dovuto-togliere-mckennie-allintervallo-e-sarr-non-poteva-giocare-gli-strilli-su-cambiaso/",
    "image": "https://static.sosfanta.com/2026/11/IMG_3600-37c97b4e075b-e1793558000111.jpg",
-   "date": "2026-11-01T23:00:53+00:00"
+   "date": "2026-11-02T07:30:53+00:00"
+  },
+  {
+   "title": "Pinamonti: \"Emozioni forti, il gol una liberazione! Rispondo così sulla classifica e Gattuso ci dice...\"",
+   "summary": "Andrea Pinamonti ha segnato il gol vittoria per la Lazio contro il Cagliari. Queste le sue parole al termine del match ai microfoni di DAZN.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/pinamonti-emozioni-forti-il-gol-una-liberazione-la-classifica-la-guarderemo-piu-avanti/",
+   "image": "https://static.sosfanta.com/2026/11/IMG_3597-ce28764f0ee9-e1793557670987.jpg",
+   "date": "2026-11-02T07:00:59+00:00"
+  },
+  {
+   "title": "Pioli: “C’è un giocatore dell’Inter che ammiro davvero molto da anni! E Jones mi piace tantissimo”",
+   "summary": "Stefano Pioli, ex allenatore tra le altre di Milan e Fiorentina, ha parlato così di due giocatori dell’Inter in particolare a Sky Sport",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/pioli-giocatore-inter-ammiro-tantissimo-jones-forte/",
+   "image": "https://static.sosfanta.com/202510/9c6ecad7e46acbf72e585275d437cae9-e1759306965965.jpg",
+   "date": "2026-11-02T02:35:07+00:00"
   },
   {
    "title": "Napoli, infortuni per De Bruyne e Di Lorenzo: le prime diagnosi! E il vice di Allegri: \"Zitti e a casa, McTominay...\"",
@@ -48026,69 +48105,6 @@
    "url": "https://www.sosfanta.com/news/formazioni-ufficiali-lazio-cagliari-frosinone-torino/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2301109973-d16ee678570b-e1793538654622.jpeg",
    "date": "2026-11-01T13:45:21+00:00"
-  },
-  {
-   "title": "Frosinone-Torino, le formazioni ufficiali: la scelta su Aboukhlal, Cittadini, Adams, Fitz-Jim, Schmid e Vlasic",
-   "summary": "Frosinone-Torino è uno dei due match delle ore 15 nella domenica di Serie A: ecco le formazioni ufficiali con le scelte di Alvini e Abate.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/frosinone-torino-formazioni-ufficiali-aboukhlal-cittadini-adams-fitz-jim-schmid-vlasic-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296071713-65288167a82e-e1792880580253.jpeg",
-   "date": "2026-11-01T13:10:47+00:00"
-  },
-  {
-   "title": "Lazio-Cagliari, le formazioni ufficiali: la scelta su Zaccagni, Doekhi, Deiola, Pinamonti, Taylor, Mendy e Nzola",
-   "summary": "La Lazio riceve il Cagliari all'Olimpico in occasione della decima giornata di Serie A. Di seguito ecco le formazioni ufficiali con le scelte di Gattuso e Pi...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-cagliari-formazioni-ufficiali-zaccagni-doekhi-deiola-taylor-mendy-nzola-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Pinamonti-85de2b83bfed-e1788812368779.jpg",
-   "date": "2026-11-01T13:00:04+00:00"
-  },
-  {
-   "title": "NEWS - Koopmeiners, Kelly, Anguissa, Rrahmani, Paz, Sanchez, Traoré, Mitaj, Braganca, Patterson: le novità",
-   "summary": "Il programma della decima giornata di Serie A prosegue con i match della domenica. Di seguito le ultime sulle formazioni e tutte le novità in chiave fantacal...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-koopmeiners-kelly-anguissa-rrahmani-paz-sanchez-traore-mitaj-braganca-patterson-novita/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2295198293-61b5fd25b411-e1793524422648.jpg",
-   "date": "2026-11-01T12:45:48+00:00"
-  },
-  {
-   "title": "Gilardino: \"Come stanno Nicolussi e Elphege, rispondo su Troilo, Diego Carlos, Bernabé, Keita, Sierro e Lontani\"",
-   "summary": "Il tecnico del Parma, Alberto Gilardino, ha parlato in conferenza stampa per presentare il match con l'Atalanta. Ecco di seguito le sue dichiarazioni.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/gilardino-parma-atalanta/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299539988-68c366124d8b-e1792735714247.jpeg",
-   "date": "2026-11-01T12:30:46+00:00"
-  },
-  {
-   "title": "Rigore per il Como contro il Venezia: Douvikas chiede di tirare, Da Cunha dice no e segna. La ricostruzione",
-   "summary": "Calcio di rigore per il Como nella sfida contro il Venezia, al 43' della sfida. Pochi dubbi sull'incaricato: in campo c'è Lucas Da Cunha e tira lui.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/rigorista-como-venezia-douvikas-da-cunha-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302971960-e2265e0df6b7-e1793535954261.jpeg",
-   "date": "2026-11-01T12:15:06+00:00"
-  },
-  {
-   "title": "Palladino: \"Spiego Mbangula e Orsolini fuori! Skorupski, Dovbyk, Berna, Piccoli e Odgaard migliore in campo\"",
-   "summary": "Raffaele Palladino commenta Bologna-Monza in conferenza stampa: le parole del tecnico rossoblù sulla prestazione della squadra e sui singoli.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/palladino-mbangula-orsolini-skorupski-dovbyk-piccoli-odgaard-bologna-monza/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2302841311-20f617a35f84-e1793458861956.jpg",
-   "date": "2026-11-01T12:00:11+00:00"
-  },
-  {
-   "title": "Lecce-Genoa, le probabili formazioni: cosa filtra su Stulic, Fatah, Gorter, Traoré, Colombo e Ostigard",
-   "summary": "Lecce contro Genoa è lo scontro salvezza della decima giornata di Serie A: ecco le ultime sulle probabili formazioni scelte da Di Francesco e De Rossi.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lecce-genoa-probabili-formazioni-stulic-fatah-gorter-traore-colombo-ostigard/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294367916-0f96b703d601-e1789226176502.jpg",
-   "date": "2026-11-01T11:30:47+00:00"
   }
  ],
  "marketDifficulty": {
