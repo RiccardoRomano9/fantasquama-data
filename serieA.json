@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-03T16:12:55+00:00",
+ "generatedAt": "2026-11-03T19:38:19+00:00",
  "season": "2026-27",
  "gameweek": 11,
- "note": "Stime calcolate con la sola storia precedente alla giornata 11 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 11 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -26423,7 +26423,7 @@
    "appearances": 6,
    "gameweeksElapsed": 10,
    "estimatedVote": 5.96,
-   "playProbability": 0.285,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0109,
     "rf": 0.0002,
@@ -26444,7 +26444,7 @@
     "q90": 6.1
    },
    "learnedVote": 6.03,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0393,
     "rf": 0.0032,
@@ -26479,9 +26479,9 @@
    },
    "quotazione": 2.0,
    "fvm": 1.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -34249,9 +34249,9 @@
    },
    "quotazione": 13.0,
    "fvm": 46.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -37473,7 +37473,7 @@
    "appearances": 0,
    "gameweeksElapsed": 10,
    "estimatedVote": 6.29,
-   "playProbability": 0.471,
+   "playProbability": 0.048,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -37494,7 +37494,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.27,
-   "learnedPlayProbability": 0.471,
+   "learnedPlayProbability": 0.048,
    "learnedEvents": {
     "gf": 0.0146,
     "rf": 0.0046,
@@ -37530,7 +37530,7 @@
    "quotazione": 1.0,
    "fvm": 1.0,
    "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -37864,7 +37864,7 @@
    "appearances": 5,
    "gameweeksElapsed": 10,
    "estimatedVote": 6.34,
-   "playProbability": 0.49,
+   "playProbability": 0.471,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -37885,7 +37885,7 @@
     "q90": 7.86
    },
    "learnedVote": 6.66,
-   "learnedPlayProbability": 0.49,
+   "learnedPlayProbability": 0.471,
    "learnedEvents": {
     "gf": 0.0143,
     "rf": 0.0046,
@@ -37922,8 +37922,8 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -45933,100 +45933,6 @@
    ]
   },
   {
-   "name": "Torino",
-   "formation": "3-4-1-2",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "7220",
-       "giocatore": "Belghali",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "5751",
-       "giocatore": "Patterson",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6170",
-       "giocatore": "Gineitis",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6005",
-       "giocatore": "Ilkhan",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7183",
-       "giocatore": "Aboukhlal",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5751",
-       "giocatore": "Patterson",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Lecce",
-   "formation": "4-3-3",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "7240",
-       "giocatore": "Siebert",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6632",
-       "giocatore": "Gaspar K.",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7248",
-       "giocatore": "Gorter",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6410",
-       "giocatore": "Kaba",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "name": "Cagliari",
    "formation": "4-3-2-1",
    "isOfficial": false,
@@ -46217,6 +46123,100 @@
    ]
   },
   {
+   "name": "Torino",
+   "formation": "3-4-1-2",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "7220",
+       "giocatore": "Belghali",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "5751",
+       "giocatore": "Patterson",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6170",
+       "giocatore": "Gineitis",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "6005",
+       "giocatore": "Ilkhan",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7183",
+       "giocatore": "Aboukhlal",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5751",
+       "giocatore": "Patterson",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Lecce",
+   "formation": "4-3-3",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "7240",
+       "giocatore": "Siebert",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6632",
+       "giocatore": "Gaspar K.",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7248",
+       "giocatore": "Gorter",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "6410",
+       "giocatore": "Kaba",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "name": "Parma",
    "formation": "3-5-2",
    "isOfficial": false,
@@ -46299,22 +46299,6 @@
    "formation": "3-4-2-1",
    "isOfficial": false,
    "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "610",
-       "giocatore": "Gollini",
-       "titolarita_pct": 51,
-       "ruolo": "P"
-      },
-      {
-       "player_id": "7048",
-       "giocatore": "De Marzi",
-       "titolarita_pct": 49,
-       "ruolo": "P"
-      }
-     ]
-    },
     {
      "opzioni": [
       {
@@ -47069,13 +47053,94 @@
  ],
  "news": [
   {
+   "title": "Marotta: \"La verità sul ritorno di Icardi e la quinta punta! Rinnoveremo ancora Dimarco, Calhanoglu…”",
+   "summary": "Il presidente dell'Inter, Giuseppe Marotta, ha parlato ai microfoni di Sky prima della sfida della squadra di Cristian Chivu contro il Feyenoord.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/marotta-inter-icardi-dimarco-calhanoglu-rinnovo/",
+   "image": "https://static.sosfanta.com/202606/2c799158ce36ed1cceac533ea007e951.jpg",
+   "date": "2026-11-03T19:20:49+00:00"
+  },
+  {
+   "title": "Inter e Roma, le formazioni ufficiali in Champions: la scelta su Zielinski, Spence, Pio, Vasquez, Mora e Molina",
+   "summary": "Inter e Roma affrontano Feyenoord e Manchester United in Champions League: di seguito le scelte di formazione di Chivu e Gasperini.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-roma-formazioni-ufficiali-champions-zielinski-diouf-pio-gollini-mora-molina-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/Spence-1-988cf770d009.jpg",
+   "date": "2026-11-03T19:15:24+00:00"
+  },
+  {
+   "title": "Lecce, la lista degli indisponibili si allunga: i tempi di recupero di Monteiro, Ilic e Pierotti. Ma può tornare Coulibaly",
+   "summary": "Si allunga la lista degli indisponibili in casa giallorossa: aggiornamento sulle condizioni dei giocatori fermi e su chi può tornare a disposizione.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lecce/lecce-infortunati-monteiro-ilic-pierotti-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299665171-f8c29e78efd4-e1792951931618.jpg",
+   "date": "2026-11-03T19:00:16+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Roma, ecco la decisione su Gollini per il Manchester United dopo il test di stasera",
+   "summary": "Niente da fare per Pierluigi Gollini: dopo il test di questa sera, il portiere della Roma darà forfait per la sfida contro il Manchester United.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/ultimora-roma-ecco-decisione-gollini-united/",
+   "image": "https://static.sosfanta.com/2026/11/Gollini-6a42f083ed44.jpg",
+   "date": "2026-11-03T18:45:28+00:00"
+  },
+  {
+   "title": "Cagliari, ecco l'esito degli esami di Fadera! Oggi a parte Gagliardini e Nzola: il motivo",
+   "summary": "Arrivano gli esiti degli esami strumentali per Fadera, assieme agli ultimi aggiornamenti del Cagliari su Roberto Gagliardini e M'Bala Nzola",
+   "author": "Filippo Pelucchi",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/cagliari-cosa-filtra-per-fadera-a-parte-gagliardini-e-nzola/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301111217-bc4d8838fa2b-e1793543267308.jpeg",
+   "date": "2026-11-03T18:30:49+00:00"
+  },
+  {
+   "title": "Udinese, Zanetti dirige il primo allenamento: Solet in gruppo! Quando tornano Alaba e Zanoli",
+   "summary": "Cambio in panchina in casa friulana: il punto sugli infortunati, tra giocatori già recuperati e altri che torneranno dopo la sosta del campionato.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/udinese/udinese-solet-zanetti-infortunati-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/Solet-b080baf33948-e1792056316596.jpeg",
+   "date": "2026-11-03T18:00:12+00:00"
+  },
+  {
+   "title": "Allegri: \"La decisione per Hojlund e cosa filtra sul rientro di De Bruyne! Domani non è un'ultima spiaggia\"",
+   "summary": "Le parole di Massimiliano Allegri alla vigilia di Porto-Napoli: il tecnico ha analizzato il momento e la condizione della squadra.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/allegri-napoli-conferenza-champions-fantacalcio-de-bruyne-hojlund-infortunio-tempi-di-recupero/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302225820-a59cd6207ec7-e1793718457864.jpg",
+   "date": "2026-11-03T17:45:41+00:00"
+  },
+  {
    "title": "BREAKING - Argentina, la scelta su Lautaro Martinez e Dybala! Ci sono Soulé, Paz, Castro, Mastantuono e Balerdi",
    "summary": "L'Argentina ha annunciato la lista dei giocatori convocati per i prossimi impegni della nazionale. Ecco le scelte di Scaloni.",
    "author": "Andrea Ajello",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/argentina-convocati-lautaro-martinez-dybala-soule-paz-castro-mastantuono-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2298455409-cf319fc3dc43-e1791356994975.jpg",
-   "date": "2026-11-03T16:07:25+00:00"
+   "date": "2026-11-03T17:15:25+00:00"
+  },
+  {
+   "title": "Bergomi: “Continuo a dirlo: l’Inter in estate doveva fare questo acquisto”. E non è la quinta punta",
+   "summary": "Beppe Bergomi ha commentato il momento dell'Inter dopo la sconfitta nel derby per 3-1, queste le sue parole riprese da FcInter1908.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/bergomi-continuo-a-dirlo-linter-in-estate-doveva-fare-questo-acquisto-e-non-e-la-quinta-punta/",
+   "image": "https://static.sosfanta.com/2019/08/20015444/bergomi-e1566258892246.jpg",
+   "date": "2026-11-03T17:00:05+00:00"
+  },
+  {
+   "title": "FLASH - Atalanta, allenamento in gruppo per Scamacca! Le ultime su Raspadori, Kessié, Bellanova e Kolasinac",
+   "summary": "Atalanta, le novità dall’allenamento: Scamacca in gruppo e aggiornamenti su Raspadori, Kolašinac e Kessie. Il punto sugli altri indisponibili.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/flash-atalanta-allenamento-in-gruppo-per-scamacca-ultime-raspadori-kessie-bellanova-kolasinac-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-1726220401-ff0a3ec32b86-e1789745832858.jpg",
+   "date": "2026-11-03T16:15:18+00:00"
   },
   {
    "title": "Lazio, le sensazioni sugli stop di Zaccagni e Cataldi. Tornano Marusic e Rovella, i tempi per Gudmundsson",
@@ -47087,22 +47152,22 @@
    "date": "2026-11-03T16:00:42+00:00"
   },
   {
-   "title": "FLASH - Atalanta, allenamento in gruppo per Scamacca! Le ultime su Raspadori, Kessié, Bellanova e Kolasinac",
-   "summary": "Atalanta, le novità dall’allenamento: Scamacca in gruppo e aggiornamenti su Raspadori, Kolašinac e Kessie. Il punto sugli altri indisponibili.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/flash-atalanta-allenamento-in-gruppo-per-scamacca-ultime-raspadori-kessie-bellanova-kolasinac-infortunati-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-1726220401-ff0a3ec32b86-e1789745832858.jpg",
-   "date": "2026-11-03T15:45:18+00:00"
-  },
-  {
    "title": "Carnevali: \"Spalletti è il nostro allenatore e noi lo supportiamo! Non illudiamoci di vincere, per costruire serve...\"",
    "summary": "La fiducia in Luciano Spalletti e il tempo necessario per costruire: le parole del dirigente sul momento della squadra e sul progetto della società.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/juventus/carnevali-spalletti-nostro-allenatore-noi-lo-supportiamo-non-illudiamoci-per-costruire-serve-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293603621-99025c5690b0-e1789372831148.jpg",
-   "date": "2026-11-03T15:15:11+00:00"
+   "date": "2026-11-03T15:45:11+00:00"
+  },
+  {
+   "title": "Chi sale al fantacalcio per scambi e non solo dopo l’ultima giornata: da Zaniolo a Miranda, ecco otto nomi",
+   "summary": "Chi sale al fantacalcio, in chiave scambi e non soltanto: ecco otto nomi che si sono messi in mostra nell'ultima giornata di Serie A.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-sale-fantacalcio-scambi-otto-nomi-non-solo-zaniolo/",
+   "image": "https://static.sosfanta.com/2026/11/Zaniolo-409e5483ae80-e1793698496486.jpeg",
+   "date": "2026-11-03T15:15:12+00:00"
   },
   {
    "title": "Pellegrino: \"Il gruppo è unito, Njie e Gnonto ci stanno aiutando tantissimo! Vanoli ti spinge ogni giorno per...\"",
@@ -47114,13 +47179,13 @@
    "date": "2026-11-03T15:00:24+00:00"
   },
   {
-   "title": "Chi sale al fantacalcio per scambi e non solo dopo l’ultima giornata: da Zaniolo a Miranda, ecco otto nomi",
-   "summary": "Chi sale al fantacalcio, in chiave scambi e non soltanto: ecco otto nomi che si sono messi in mostra nell'ultima giornata di Serie A.",
+   "title": "BREAKING - Roma, allarme portiere: Svilar out e problema fisico per Gollini! Chi può giocare contro lo United",
+   "summary": "Mile Svilar out e si ferma anche il vice Pierluigi Gollini in casa Roma: scatta l'allarme portiere per Gian Piero Gasperini.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-sale-fantacalcio-scambi-otto-nomi-non-solo-zaniolo/",
-   "image": "https://static.sosfanta.com/2026/11/Zaniolo-409e5483ae80-e1793698496486.jpeg",
-   "date": "2026-11-03T14:15:12+00:00"
+   "url": "https://www.sosfanta.com/squadra/roma/roma-allarme-portiere-svilar-out-problema-fisico-gollini-chi-gioca-united-sassuolo/",
+   "image": "https://static.sosfanta.com/2026/11/Gollini-e62c3cb370c5-e1793711935380.jpg",
+   "date": "2026-11-03T14:45:05+00:00"
   },
   {
    "title": "Di Canio: “Lo dico ora e ricordatevi poi: questo giocatore dell’Inter diventerà un titolare”",
@@ -47132,13 +47197,13 @@
    "date": "2026-11-03T14:00:24+00:00"
   },
   {
-   "title": "BREAKING - Roma, allarme portiere: Svilar out e problema fisico per Gollini! Chi può giocare contro lo United",
-   "summary": "Mile Svilar out e si ferma anche il vice Pierluigi Gollini in casa Roma: scatta l'allarme portiere per Gian Piero Gasperini.",
+   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Raimondo",
+   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/roma-allarme-portiere-svilar-out-problema-fisico-gollini-chi-gioca-united-sassuolo/",
-   "image": "https://static.sosfanta.com/2026/11/Gollini-e62c3cb370c5-e1793711935380.jpg",
-   "date": "2026-11-03T13:45:05+00:00"
+   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800656-cc98c67e17e4-e1790693608532.jpeg",
+   "date": "2026-11-03T13:30:42+00:00"
   },
   {
    "title": "Gazzetta - Frosinone, infortunio serio alla caviglia per Raimondo: cosa filtra sui tempi di recupero",
@@ -47150,6 +47215,15 @@
    "date": "2026-11-03T13:30:38+00:00"
   },
   {
+   "title": "NEWS - Spence, Pio Esposito, Molina, Pisilli, De Bruyne, Di Lorenzo, McKennie, Alajbegovic e i tempi di Raimondo",
+   "summary": "Terminata la 10a giornata di Serie A, è tempo di impegni europei per le italiane che partecipano alle coppe: ecco le novità in chiave fantacalcio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-spence-pio-esposito-molina-pisilli-mckennie-alajbegovic-di-lorenzo-de-bruyne-e-i-tempi-di-raimondo/",
+   "image": "https://static.sosfanta.com/2026/11/Raimondo-b566c114e20a-e1793697087654.jpg",
+   "date": "2026-11-03T13:15:47+00:00"
+  },
+  {
    "title": "Sky - Inter, esercitata l'opzione per il rinnovo di Dimarco e ora... si lavora al contratto a vita: i dettagli",
    "summary": "Il contratto di Federico Dimarco con l’Inter non è più in scadenza al prossimo mese di giugno e ora si lavora... al rinnovo a vita.",
    "author": "Alessandro Cosattini",
@@ -47157,24 +47231,6 @@
    "url": "https://www.sosfanta.com/squadra/inter/inter-dimarco-rinnovo-nuova-scadenza-dettagli/",
    "image": "https://static.sosfanta.com/2026/10/Dimarco-045737a2af9f-e1793047788476.jpeg",
    "date": "2026-11-03T13:00:17+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Raimondo",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800656-cc98c67e17e4-e1790693608532.jpeg",
-   "date": "2026-11-03T12:30:42+00:00"
-  },
-  {
-   "title": "NEWS - Spence, Pio Esposito, Molina, Pisilli, De Bruyne, Di Lorenzo, McKennie, Alajbegovic e i tempi di Raimondo",
-   "summary": "Terminata la 10a giornata di Serie A, è tempo di impegni europei per le italiane che partecipano alle coppe: ecco le novità in chiave fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-spence-pio-esposito-molina-pisilli-mckennie-alajbegovic-di-lorenzo-de-bruyne-e-i-tempi-di-raimondo/",
-   "image": "https://static.sosfanta.com/2026/11/Raimondo-b566c114e20a-e1793697087654.jpg",
-   "date": "2026-11-03T12:15:47+00:00"
   },
   {
    "title": "Roma, la probabile formazione in Champions: da Mora e Pisilli agli esterni e il grande dubbio in porta",
@@ -47355,78 +47411,6 @@
    "url": "https://www.sosfanta.com/news/chivu-feyenoord-inter-conferenza-pavard-provedel-recuperati-febbre-pio-esposito-derby-scelte-attacco-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2302709349-1-8ed41616e9a7-e1793630597703.jpg",
    "date": "2026-11-02T19:45:56+00:00"
-  },
-  {
-   "title": "Bologna, nuovi controlli per Piccoli ed Enem: cosa filtra sulla data di rientro dagli inforuni",
-   "summary": "E’ in programma domani a Casteldebole la ripresa degli allenamenti dei rossoblù di Palladino: le ultime sugli infortuni di Piccoli, Enem e De Silvestri.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/bologna-infortunio-tempi-di-recupero-piccoli-enem-de-silvestri-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Piccoli-4a124f92fd36-e1792398449224.jpeg",
-   "date": "2026-11-02T19:00:08+00:00"
-  },
-  {
-   "title": "Atalanta-Parma, formazioni ufficiali: fuori Romero! Da Rowe e Lontani a Samardzic, Pasalic, Elmas, Fabbian e Valeri",
-   "summary": "La sfida tra Atalanta e Parma chiude il programma della decima giornata del campionato di Serie A. Di seguito ecco le formazioni ufficiali di Maurizio Sarri...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/atalanta-parma-formazioni-ufficiali-rowe-lontani-samardzic-pasalic-elmas-fabbian-valeri/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2299954132-128c43364e83-e1793628791193.jpg",
-   "date": "2026-11-02T18:50:51+00:00"
-  },
-  {
-   "title": "Gasperini: \"Ecco quando potrebbero tornare Svilar, Dybala e Koné! Su Malen, Castro, Mora, Wesley e Lulli...\"",
-   "summary": "La Roma sarà impegnata in Champions League martedì sera all'Old Trafford dove farà visita al Manchester United: di seguito ecco le parole in conferenza stamp...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/gasperini-manchester-united-roma-conferenza-quando-tornano-svilar-dybala-kone-su-malen-wesley-castro-mora-lulli-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302073720-e682513983e7-e1793631426843.jpg",
-   "date": "2026-11-02T18:15:54+00:00"
-  },
-  {
-   "title": "Lecce, l’esito degli esami di Monteiro: c'è lesione! Le ultime su Geubbels, Coulibaly e Pierotti si opera",
-   "summary": "Le ultime dall’infermeria del Lecce: lungo stop per Pierotti, esami e tempi di recupero di Monteiro. Di Francesco spera in Coulibaly e Geubbels.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lecce/lecce-esito-degli-esami-monteiro-lesione-ultime-su-geubbels-coulibaly-pierotti-si-opera-infortunati-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302666477-ec5823d8a30b-e1793641732462.jpg",
-   "date": "2026-11-02T18:00:41+00:00"
-  },
-  {
-   "title": "Sassuolo, problemi per Volpato: fuori dai convocati contro la Fiorentina, il motivo",
-   "summary": "Problemi per Cristian Volpato, il giocatore del Sassuolo non è tra i convocati per il match contro la Fiorentina a causa di un infortunio muscolare.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-problemi-per-volpato-fuori-dai-convocati-contro-la-fiorentina-il-motivo/",
-   "image": "https://static.sosfanta.com/2026/11/IMG_3647-169c3744e10e-e1793635142500.jpg",
-   "date": "2026-11-02T17:00:43+00:00"
-  },
-  {
-   "title": "Sassuolo-Fiorentina, le formazioni ufficiali: la scelta su Beto, Njie, Adzic, Valdepenas, Oulai, Doig e Fagioli",
-   "summary": "Sassuolo e Fiorentina si affrontano in occasione della decima giornata del campionato di Serie A. Di seguito ecco le formazioni ufficiali con le scelte di Al...",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/sassuolo-fiorentina-formazioni-ufficiali-beto-njie-adzic-valdepenas-oulai-doig-fagioli/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2293125966-79b1d578c28d-e1793629084666.jpg",
-   "date": "2026-11-02T16:20:36+00:00"
-  },
-  {
-   "title": "ULTIM’ORA - Frosinone, tegola Raimondo: ecco l’esito degli esami e i tempi di recupero",
-   "summary": "Arriva l'esito degli esami su Raimondo dopo l'infortunio contro il Torino: il comunicato e cosa filtra sui tempi di recupero.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/raimondo-infortunio-frosinone-condizioni-tempi-recupero/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296296242-8cd74722e54f-e1791654355550.jpg",
-   "date": "2026-11-02T16:15:03+00:00"
-  },
-  {
-   "title": "Atalanta-Parma, ultimi dubbi di formazione: da Rowe a Pasalic, CDK, Romero, Elmas, Fabbian e Samardzic",
-   "summary": "Il grande dubbio in casa Atalanta è Jonathan Rowe: le ultime sulle probabili formazioni della sfida contro il Parma, in programma fra poche ore.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/atalanta-parma-probabili-formazioni-rowe-pasalic-romero-elmas-fabbian-samardzic/",
-   "image": "https://static.sosfanta.com/2026/08/samardzic-tagliata-bcbc2046efce-scaled-e1785674618695.jpg",
-   "date": "2026-11-02T16:00:23+00:00"
   }
  ],
  "marketDifficulty": {
