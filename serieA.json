@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T02:25:23+00:00",
+ "generatedAt": "2026-11-03T12:05:23+00:00",
  "season": "2026-27",
  "gameweek": 10,
  "note": "Stime calcolate con la sola storia precedente alla giornata 10 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -17058,7 +17058,7 @@
    "appearances": 6,
    "gameweeksElapsed": 9,
    "estimatedVote": 6.24,
-   "playProbability": 0.0,
+   "playProbability": 0.285,
    "events": {
     "gf": 0.1334,
     "rf": 0.0047,
@@ -17079,7 +17079,7 @@
     "q90": 7.95
    },
    "learnedVote": 6.41,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.285,
    "learnedEvents": {
     "gf": 0.1472,
     "rf": 0.0067,
@@ -17115,9 +17115,9 @@
    },
    "quotazione": 17.0,
    "fvm": 70.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -23864,7 +23864,7 @@
    "appearances": 7,
    "gameweeksElapsed": 7,
    "estimatedVote": 6.08,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0689,
     "rf": 0.0006,
@@ -23885,7 +23885,7 @@
     "q90": 7.11
    },
    "learnedVote": 6.49,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0816,
     "rf": 0.0047,
@@ -23922,7 +23922,7 @@
    "quotazione": 7.0,
    "fvm": 20.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -47450,6 +47450,22 @@
     {
      "opzioni": [
       {
+       "player_id": "7220",
+       "giocatore": "Belghali",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "5751",
+       "giocatore": "Patterson",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "6170",
        "giocatore": "Gineitis",
        "titolarita_pct": 51,
@@ -48531,13 +48547,103 @@
  ],
  "news": [
   {
+   "title": "Roma, la probabile formazione in Champions: da Mora e Pisilli ai dubbi in difesa e sulle corsie",
+   "summary": "Gasperini prepara la trasferta in Inghilterra: scelte ancora da definire in più reparti, tra dubbi di formazione e giocatori in crescita.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/manchester-united-roma-probabili-formazioni-gasperini-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293705455-51f051174f00-e1792922526854.jpg",
+   "date": "2026-11-03T12:00:34+00:00"
+  },
+  {
+   "title": "NEWS - Spence, Pio Esposito, Molina, Pisilli, De Bruyne, Di Lorenzo, McKennie, Alajbegovic e i tempi di Raimondo",
+   "summary": "Terminata la 10a giornata di Serie A, è tempo di impegni europei per le italiane che partecipano alle coppe: ecco le novità in chiave fantacalcio.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-spence-pio-esposito-molina-pisilli-mckennie-alajbegovic-di-lorenzo-de-bruyne-e-i-tempi-di-raimondo/",
+   "image": "https://static.sosfanta.com/2026/11/Raimondo-b566c114e20a-e1793697087654.jpg",
+   "date": "2026-11-03T11:45:47+00:00"
+  },
+  {
+   "title": "FLASH - Torino, stop Belghali per un problema al ginocchio: cosa filtra! Per Fortini, Cacciamani e Mandragora...",
+   "summary": "In casa Torino si è fermato Rafik Belghali: le prime sensazioni sul problema fisico e il punto sugli altri giocatori ai box.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/torino-infortunio-ginocchio-belghali-tempi-recupero-cacciamani-mandragora-fortini-rodriguez/",
+   "image": "https://static.sosfanta.com/2026/11/Belghali-2cbf7f00dfcf-e1793694642833.jpeg",
+   "date": "2026-11-03T11:15:25+00:00"
+  },
+  {
+   "title": "Inter, la probabile formazione in Champions League: dalla gestione di Diouf e Dimarco a chi gioca in attacco",
+   "summary": "L'Inter si prepara per la quarta sfida di Champions League: ecco le probabili scelte di Chivu contro il Feyenoord.",
+   "author": "Daniele Burigana",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/feyenoord-inter-probabili-formazioni-chivu-spence-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/Dimarco-045737a2af9f-e1793047788476.jpeg",
+   "date": "2026-11-03T11:00:53+00:00"
+  },
+  {
+   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Raimondo",
+   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2296296242-8cd74722e54f-e1791654355550.jpg",
+   "date": "2026-11-03T10:30:42+00:00"
+  },
+  {
+   "title": "Sono due i giocatori squalificati per l'11a giornata di Serie A: non li avrete al fantacalcio",
+   "summary": "Sono due i calciatori squalificati per l'11a giornata di Serie A: non ci saranno dunque nel prossimo turno e non li avrete al fantacalcio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squalificati/fantacalcio-seriea-due-giocatori-squalificati-11a-giornata/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2272055723-1-e8952ff067f8-e1793655668158.jpg",
+   "date": "2026-11-03T10:15:25+00:00"
+  },
+  {
+   "title": "Juve, cosa trapela sullo stop di McKennie e quando può tornare! Alajbegovic e Cabal in Europa League...",
+   "summary": "Rimane affollata l'infermeria di casa Juventus: a fare il punto sulle condizioni degli ultimi acciaccati è oggi La Gazzetta dello Sport.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-sensazioni-stop-mckennie-alajbegovic-cabal-gestione-az/",
+   "image": "https://static.sosfanta.com/2026/10/McKennie-79dc3181965a-e1791621868543.jpg",
+   "date": "2026-11-03T10:00:14+00:00"
+  },
+  {
    "title": "Sarri: “Chiediamo scusa, mi sento in debito! Primi quaranta minuti di livello. Recuperi? Domattina controlli”",
    "summary": "Maurizio Sarri parla in conferenza stampa dopo Atalanta-Parma: tutte le dichiarazioni dell’allenatore e le risposte sui singoli.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/atalanta/sarri-chiediamo-scusa-mi-sento-in-debito-primi-quaranta-minuti-di-livello-recuperi-domattina-controlli/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2303177949-78e88c1d21cf-e1793654414789.jpg",
-   "date": "2026-11-02T23:01:50+00:00"
+   "date": "2026-11-03T09:15:50+00:00"
+  },
+  {
+   "title": "Napoli, le sensazioni su De Bruyne e Hojlund per il Porto! In 10 in infermeria, gli stop di Olivera e Di Lorenzo...",
+   "summary": "Emergenza totale per Allegri in casa Napoli: le ultime sulle condizioni di De Bruyne e Hojlund ma non soltanto.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/napoli-condizioni-debruyne-hojlund-porto-infortuni-dilorenzo-olivera/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300148676-fd2365403a21-e1792049603400.jpg",
+   "date": "2026-11-03T09:00:35+00:00"
+  },
+  {
+   "title": "Ederson: “Dobbiamo stare zitti e lavorare! Troppi gol subiti, il ritiro servirà a stare insieme e individuare...”",
+   "summary": "Ederson parla dopo il ko dell’Atalanta contro il Parma: le dichiarazioni sul confronto con i tifosi, sul ritiro e sulle difficoltà della squadra.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/ederson-dobbiamo-stare-zitti-lavorare-troppi-gol-subiti-ritiro-servira-stare-insieme-individuare-fantacalcio/",
+   "image": "https://static.sosfanta.com/202606/09c93e500dd64d762a0f8eacc44030a1-e1780435064838.jpg",
+   "date": "2026-11-03T08:00:38+00:00"
+  },
+  {
+   "title": "Thuram: \"Ci siamo detti le cose in faccia! Sto benissimo, si riparte da squadra e con il Feyenoord dobbiamo...\"",
+   "summary": "Marcus Thuram ha parlato così ai microfoni di Sky Sport alla vigilia di Feyenoord-Inter. Le sue dichiarazioni riprese da Tmw.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/thuram-ci-siamo-detti-le-cose-in-faccia-ora-si-riparte-da-squadra-sto-benissimo-domani-dobbiamo/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301913312-1-1263622c7600.jpg",
+   "date": "2026-11-03T07:00:10+00:00"
   },
   {
    "title": "Giuntoli: \"La decisione su Sarri! Da domani squadra in ritiro, secondo tempo inaccettabile e non possiamo...\"",
@@ -48799,96 +48905,6 @@
    "url": "https://www.sosfanta.com/news/roma-nessun-recupero-united-quando-tornano-kone-dybala-svilar/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293203946-8aa78483a79c.jpg",
    "date": "2026-11-02T12:00:38+00:00"
-  },
-  {
-   "title": "NEWS - Bernabè KO! KDB, Di Lorenzo, Raimondo, McKennie, Alajbegovic, Pavard, Jones, Koné, Dybala, Svilar...",
-   "summary": "Oggi si chiude la 10a giornata di campionato: ecco le ultimissime su infortunati e non solo verso il nuovo turno di coppe europee.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-bernabe-ko-imotivo-kdb-di-lorenzo-raimondo-mckennie-alajbegovic-pavard-jones-kone-dybala/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302422785-ce1cf33365ca-e1793609109417.jpg",
-   "date": "2026-11-02T11:45:06+00:00"
-  },
-  {
-   "title": "BREAKING - Udinese, oggi l'esonero di Runjaic! Fatta per Zanetti come sostituto: i dettagli",
-   "summary": "Giornata di cambiamenti in casa Udinese dopo aver deciso di esonerare Kosta Runjaic dopo la sconfitta per 5-2 contro la Roma di sabaro sera.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/breaking-udinese-oggi-esonero-runjaic-fatta-zanetti/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2259278978-c9f68b173494-e1793608372721.jpg",
-   "date": "2026-11-02T11:15:44+00:00"
-  },
-  {
-   "title": "Napoli, oggi gli esami di De Bruyne dopo il problema alla caviglia. Sugli stop di Di Lorenzo e Olivera...",
-   "summary": "Emergenza senza fine in casa Napoli: ieri sera contro la Juventus si sono fermati Kevin De Bruyne e Giovanni Di Lorenzo. Ecco il punto.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-oggi-esami-de-bruyne-di-lorenzo-olivera/",
-   "image": "https://static.sosfanta.com/202605/ca6b84e3ff9ab484a0a3e28fea7cf129.png",
-   "date": "2026-11-02T11:00:33+00:00"
-  },
-  {
-   "title": "Inter, tutta la verità sull'ipotesi quinta punta e sul possibile ritorno di Icardi: Fabrizio Romano fa chiarezza",
-   "summary": "Fabrizio Romano torna a parlare di Mauro Icardi e l'Inter, ma fa chiarezza anche sulla ricerca di una quinta punta per Cristian Chivu.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-verita-quinta-punta-ritorno-mauro-icardi/",
-   "image": "https://static.sosfanta.com/2026/11/Icardi-4889ef908fb0-e1793569107422.jpg",
-   "date": "2026-11-02T10:45:14+00:00"
-  },
-  {
-   "title": "Pioli: “Ieri ero a San Siro per il derby: c'è un giocatore del Milan che mi ha impressionato dal vivo\"",
-   "summary": "Stefano Pioli conquistato da un giocatore del Milan: queste le parole dell'ex allenatore rossonero a Sky Calcio Club, ospite di Fabio Caressa.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/pioli-impressionato-giocatore-milan-dal-vivo-derby/",
-   "image": "https://static.sosfanta.com/202511/6e977da406f066870ebff4b66f151a40-e1762096702568.jpg",
-   "date": "2026-11-02T10:30:51+00:00"
-  },
-  {
-   "title": "Fabregas: \"Kean non era rotto, dopo la Nazionale...\"",
-   "summary": "Le parole dell'allenatore del Como Cesc Fabregas, nella conferenza stampa di vigilia della sfida al Venezia, sull'infortunio di Moise Kean.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/video/fabregas-kean-non-era-rotto-dopo-la-nazionale/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294837011-7e01141ea32c-e1791906671988.jpeg",
-   "date": "2026-11-02T10:21:28+00:00"
-  },
-  {
-   "title": "Spalletti: \"Perché ho tolto McKennie e Sarr non poteva giocare oggi! Da valutare anche Alajbegovic e Cabal\"",
-   "summary": "Luciano Spalletti commenta Juventus-Napoli in conferenza stampa: l’analisi della partita e le indicazioni sulla prestazione dei bianconeri.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-perche-ho-dovuto-togliere-mckennie-allintervallo-e-sarr-non-poteva-giocare-gli-strilli-su-cambiaso/",
-   "image": "https://static.sosfanta.com/2026/11/IMG_3600-37c97b4e075b-e1793558000111.jpg",
-   "date": "2026-11-02T10:15:53+00:00"
-  },
-  {
-   "title": "Frosinone, cosa c'è dietro la \"preoccupazione\" per Raimondo: le sensazioni sull'infortunio di ieri",
-   "summary": "Ansia in casa Frosinone per le condizioni di Antonio Raimondo dopo l'infortunio alla caviglia di ieri nella sfida con il Torino. Ma come sta l'attaccante?",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/frosinone-cosa-ce-dietro-preoccupazione-raimondo-infortunio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294441287-79741b4a779e-e1790592790630.jpeg",
-   "date": "2026-11-02T10:00:13+00:00"
-  },
-  {
-   "title": "Parma, Bernabè non convocato per il posticipo con l'Atalanta: il motivo e le sue condizioni",
-   "summary": "Assenza dell'ultimo minuto in casa Parma per la sfida di oggi contro l'Atalanta: non figura tra i convocati di Gilardino Adrian Bernabè.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/parma-bernabe-non-convocato-atalanta-motivo/",
-   "image": "https://static.sosfanta.com/202605/680fb123d63c4b92260be65a83277b41.png",
-   "date": "2026-11-02T09:00:29+00:00"
-  },
-  {
-   "title": "Inter, anche oggi in gruppo Pavard: cosa filtra verso il Feyenoord. Per Stones, Provedel e Jones...",
-   "summary": "Dopo l’emergenza delle ultime settimane, soprattutto in difesa ma anche in attacco nell’ultimo derby, Cristian Chivu spera di recuperare alcune pedine.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-parzialmente-gruppo-pavard-feyenoord-stones-jones/",
-   "image": "https://static.sosfanta.com/2026/07/Pavard-ddb76e0155cd.jpg",
-   "date": "2026-11-02T08:00:44+00:00"
   }
  ],
  "marketDifficulty": {
