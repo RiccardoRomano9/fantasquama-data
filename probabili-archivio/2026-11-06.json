@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-11-05T16:26:57+00:00",
+ "scraped_at_utc": "2026-11-05T23:32:32+00:00",
  "giornata": "2026-11-06T19:45:00.000Z",
  "partite": [
   {
@@ -45,7 +45,7 @@
      },
      {
       "giocatore": "Mazzocchi",
-      "titolarita_pct": 55
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Lauberbach",
@@ -67,7 +67,7 @@
      },
      {
       "giocatore": "Haps",
-      "titolarita_pct": 45
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Grandi",
@@ -139,11 +139,11 @@
       "opzioni": [
        {
         "giocatore": "Mazzocchi",
-        "titolarita_pct": 55
+        "titolarita_pct": 51
        },
        {
         "giocatore": "Haps",
-        "titolarita_pct": 45
+        "titolarita_pct": 49
        }
       ]
      },
@@ -364,8 +364,8 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Mina",
-      "titolarita_pct": 55
+      "giocatore": "Kofler",
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Rodriguez Ju.",
@@ -380,12 +380,12 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Fazzini",
-      "titolarita_pct": 51
+      "giocatore": "Winks",
+      "titolarita_pct": 95
      },
      {
-      "giocatore": "Massolin",
-      "titolarita_pct": 51
+      "giocatore": "Fazzini",
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Maldini",
@@ -398,10 +398,6 @@
     ],
     "panchina": [
      {
-      "giocatore": "Winks",
-      "titolarita_pct": 49
-     },
-     {
       "giocatore": "Sugawara",
       "titolarita_pct": 45
      },
@@ -410,15 +406,19 @@
       "titolarita_pct": 49
      },
      {
+      "giocatore": "Mina",
+      "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Trepy",
+      "titolarita_pct": 45
+     },
+     {
       "giocatore": "Radunovic",
       "titolarita_pct": 5
      },
      {
       "giocatore": "Sherri",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Kofler",
       "titolarita_pct": 5
      },
      {
@@ -434,7 +434,7 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Trepy",
+      "giocatore": "Massolin",
       "titolarita_pct": 5
      }
     ],
@@ -454,12 +454,12 @@
      {
       "opzioni": [
        {
-        "giocatore": "Mina",
-        "titolarita_pct": 55
+        "giocatore": "Kofler",
+        "titolarita_pct": 51
        },
        {
-        "giocatore": "Sugawara",
-        "titolarita_pct": 45
+        "giocatore": "Mina",
+        "titolarita_pct": 49
        }
       ]
      },
@@ -467,23 +467,11 @@
       "opzioni": [
        {
         "giocatore": "Fazzini",
-        "titolarita_pct": 51
+        "titolarita_pct": 55
        },
        {
-        "giocatore": "Winks",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Massolin",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Winks",
-        "titolarita_pct": 49
+        "giocatore": "Trepy",
+        "titolarita_pct": 45
        }
       ]
      },
@@ -502,16 +490,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Idrissi R.",
-      "stato": "infortunato",
-      "nota": "Intervento chirurgico di ricostruzione del legamento crociato anteriore del ginocchio sinistro, in dubbio per la 12a."
-     },
-     {
-      "giocatore": "Felici",
-      "stato": "infortunato",
-      "nota": "Rottura del legamento crociato anteriore, in dubbio per 34a."
-     },
-     {
       "giocatore": "Fadera",
       "stato": "infortunato",
       "nota": "Lesione del bicipite femorale, in dubbio per la 12a."
@@ -529,6 +507,16 @@
       "giocatore": "Aurelio",
       "stato": "infortunato",
       "nota": "Affaticamento al soleo della gamba sinistra, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Idrissi R.",
+      "stato": "infortunato",
+      "nota": "Intervento chirurgico di ricostruzione del legamento crociato anteriore del ginocchio sinistro, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Felici",
+      "stato": "infortunato",
+      "nota": "Rottura del legamento crociato anteriore, in dubbio per 34a."
      }
     ],
     "ufficiale": false

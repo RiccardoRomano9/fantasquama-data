@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-05T16:26:56+00:00",
+ "generatedAt": "2026-11-05T23:32:30+00:00",
  "season": "2026-27",
  "gameweek": 11,
- "note": "Stime calcolate con la sola storia precedente alla giornata 11 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (10 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 11 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -6426,7 +6426,7 @@
    "appearances": 1,
    "gameweeksElapsed": 10,
    "estimatedVote": 5.99,
-   "playProbability": 0.044,
+   "playProbability": 0.393,
    "events": {
     "gf": 0.1029,
     "rf": 0.0056,
@@ -6447,7 +6447,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.8,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.393,
    "learnedEvents": {
     "gf": 0.1089,
     "rf": 0.008,
@@ -6485,7 +6485,7 @@
    "quotazione": 1.0,
    "fvm": 2.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 45.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -12365,7 +12365,7 @@
    "appearances": 5,
    "gameweeksElapsed": 10,
    "estimatedVote": 6.17,
-   "playProbability": 0.446,
+   "playProbability": 0.481,
    "events": {
     "gf": 0.0565,
     "rf": 0.0063,
@@ -12386,7 +12386,7 @@
     "q90": 6.44
    },
    "learnedVote": 6.08,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.481,
    "learnedEvents": {
     "gf": 0.1038,
     "rf": 0.007,
@@ -12424,7 +12424,7 @@
    "quotazione": 6.0,
    "fvm": 23.0,
    "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "startingProbability": 55.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -16622,7 +16622,7 @@
    "appearances": 2,
    "gameweeksElapsed": 8,
    "estimatedVote": 6.09,
-   "playProbability": 0.446,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.0418,
     "rf": 0.0047,
@@ -16643,7 +16643,7 @@
     "q90": 6.34
    },
    "learnedVote": 5.97,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.065,
     "rf": 0.0046,
@@ -16680,8 +16680,8 @@
    },
    "quotazione": 4.0,
    "fvm": 12.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -21898,7 +21898,7 @@
    "appearances": 8,
    "gameweeksElapsed": 10,
    "estimatedVote": 6.15,
-   "playProbability": 0.429,
+   "playProbability": 0.831,
    "events": {
     "gf": 0.0569,
     "rf": 0.0064,
@@ -21919,7 +21919,7 @@
     "q90": 6.39
    },
    "learnedVote": 6.14,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.831,
    "learnedEvents": {
     "gf": 0.0847,
     "rf": 0.0051,
@@ -21956,8 +21956,8 @@
    },
    "quotazione": 6.0,
    "fvm": 15.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -28729,7 +28729,7 @@
    "appearances": 7,
    "gameweeksElapsed": 10,
    "estimatedVote": 6.03,
-   "playProbability": 0.393,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0282,
     "rf": 0.0003,
@@ -28750,7 +28750,7 @@
     "q90": 6.33
    },
    "learnedVote": 6.02,
-   "learnedPlayProbability": 0.393,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0703,
     "rf": 0.0052,
@@ -28788,7 +28788,7 @@
    "quotazione": 5.0,
    "fvm": 10.0,
    "lineupSlot": "panchina",
-   "startingProbability": 45.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -30354,7 +30354,7 @@
    "appearances": 4,
    "gameweeksElapsed": 10,
    "estimatedVote": 5.88,
-   "playProbability": 0.044,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0358,
     "rf": 0.0005,
@@ -30375,7 +30375,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.76,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0494,
     "rf": 0.0042,
@@ -30412,8 +30412,8 @@
    },
    "quotazione": 5.0,
    "fvm": 8.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -31809,7 +31809,7 @@
    "appearances": 4,
    "gameweeksElapsed": 10,
    "estimatedVote": 5.9,
-   "playProbability": 0.481,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0266,
     "rf": 0.0003,
@@ -31830,7 +31830,7 @@
     "q90": 6.24
    },
    "learnedVote": 5.89,
-   "learnedPlayProbability": 0.481,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0519,
     "rf": 0.0049,
@@ -31868,7 +31868,7 @@
    "quotazione": 1.0,
    "fvm": 10.0,
    "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -31891,7 +31891,7 @@
    "appearances": 4,
    "gameweeksElapsed": 10,
    "estimatedVote": 5.98,
-   "playProbability": 0.481,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0436,
     "rf": 0.0005,
@@ -31912,7 +31912,7 @@
     "q90": 6.26
    },
    "learnedVote": 5.95,
-   "learnedPlayProbability": 0.481,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0605,
     "rf": 0.004,
@@ -31949,8 +31949,8 @@
    },
    "quotazione": 7.0,
    "fvm": 20.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 55.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -47050,13 +47050,13 @@
       {
        "player_id": "5481",
        "giocatore": "Mazzocchi",
-       "titolarita_pct": 55,
+       "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
        "player_id": "5695",
        "giocatore": "Haps",
-       "titolarita_pct": 45,
+       "titolarita_pct": 49,
        "ruolo": "D"
       }
      ]
@@ -47158,15 +47158,15 @@
     {
      "opzioni": [
       {
-       "player_id": "4210",
-       "giocatore": "Mina",
-       "titolarita_pct": 55,
+       "player_id": "7532",
+       "giocatore": "Kofler",
+       "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "7621",
-       "giocatore": "Sugawara",
-       "titolarita_pct": 45,
+       "player_id": "4210",
+       "giocatore": "Mina",
+       "titolarita_pct": 49,
        "ruolo": "D"
       }
      ]
@@ -47176,30 +47176,14 @@
       {
        "player_id": "6010",
        "giocatore": "Fazzini",
-       "titolarita_pct": 51,
+       "titolarita_pct": 55,
        "ruolo": "C"
       },
       {
-       "player_id": "4260",
-       "giocatore": "Winks",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7579",
-       "giocatore": "Massolin",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "4260",
-       "giocatore": "Winks",
-       "titolarita_pct": 49,
-       "ruolo": "C"
+       "player_id": "7317",
+       "giocatore": "Trepy",
+       "titolarita_pct": 45,
+       "ruolo": "A"
       }
      ]
     },
@@ -48255,13 +48239,166 @@
  ],
  "news": [
   {
+   "title": "Spalletti: \"Ci ridevano in faccia dopo il NEC! Su Kolo Muani, Boga, Ekhator, Lucumì e Kalulu poverino…\"",
+   "summary": "Luciano Spalletti commenta AZ Alkmaar-Juventus in conferenza stampa: l’analisi della partita e le indicazioni del tecnico dopo la sfida europea.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/spalletti-juventus-kolo-muani-boga-ekhator-lucumi-kalulu-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303711411-ebc9d2c1a14a-e1793912529839.jpg",
+   "date": "2026-11-05T23:00:10+00:00"
+  },
+  {
+   "title": "Chi schierare a centrocampo all'undicesima giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per i centrocampisti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-centrocampo-undicesima-giornata-seriea-fantacalcio-consigli/",
+   "image": "https://static.sosfanta.com/2026/11/Mastantuono-ccbba7501993-e1793871233921.jpeg",
+   "date": "2026-11-05T22:45:09+00:00"
+  },
+  {
+   "title": "Sarri: \"Cosa filtra su Kessie e Kolasinac per domenica! Difendo Scamacca e spiego Krstovic out\". E su Hien...",
+   "summary": "Maurizio Sarri analizza Atalanta-Kairat Almaty in conferenza stampa: il commento alla prestazione dei nerazzurri nella sfida di Conference League.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/sarri-atalanta-kessie-kolasinac-inforunio-tempi-di-recupero-scamacca-krstovic-hien-kossounou/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303687349-89fb86368229-e1793906242693.jpg",
+   "date": "2026-11-05T22:15:22+00:00"
+  },
+  {
+   "title": "Torino, ottimismo per Belghali e speranza Cacciamani: le ultime su Mandragora, Fortini e Rodriguez",
+   "summary": "Le ultime da ToroNews sui recuperi del Torino: le condizioni di Belghali, Cacciamani e Mandragora e i tempi per Fortini e Rodriguez.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/torino-ottimismo-per-belghali-speranza-cacciamani-ultime-mandragora-fortini-rodriguez-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299863604-c936a90a8f6f-e1792436403917.jpeg",
+   "date": "2026-11-05T22:00:34+00:00"
+  },
+  {
+   "title": "Amorim: \"Giocatori indifendibili: o miglioriamo o finisce qui! Dovrebbero allenarsi tutti come Pavlovic\"",
+   "summary": "Ruben Amorim commenta Milan-Ferencvaros in conferenza stampa: le parole dell’allenatore sulla prova dei rossoneri nella partita di Europa League.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/amorim-milan-europa-league-conferenza-giocatori-indifendibili-dovrebbero-tutti-allenarsi-come-pavlovic/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303685975-3bae6697a6e7-e1793906145301.jpg",
+   "date": "2026-11-05T21:45:19+00:00"
+  },
+  {
+   "title": "Chi schierare in attacco all'undicesima giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-fantacalcio-attaccanti-undicesima-giornata-seriea-consigli/",
+   "image": "https://static.sosfanta.com/2026/11/Varela-8c5737246491-e1793872181813.jpg",
+   "date": "2026-11-05T21:15:25+00:00"
+  },
+  {
+   "title": "Lazio, cresce l’ottimismo per Nuno Tavares: le ultime e le scelte su Noslin, Zaccagni e Pinamonti",
+   "summary": "Cresce l’ottimismo per Nuno Tavares in casa Lazio: cosa filtra verso il Napoli e le indicazioni sul tridente con Noslin, Pinamonti e Isaksen.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-cresce-ottimismo-per-nuno-tavares-ultime-scelte-su-noslin-zaccagni-pinamonti-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/Tavares-cf30395c0f28-e1793867839756.jpeg",
+   "date": "2026-11-05T21:00:54+00:00"
+  },
+  {
    "title": "La preview dell’undicesima giornata al fantacalcio: partita per partita, chi mettere e chi no",
    "summary": "Partita per partita, ecco chi schierare all’undicesima giornata al fantacalcio 2026-2027 con la nostra preview con tutti i giocatori.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/preview-11a-giornata-seriea-campionato-fantacalcio-tutti-consigli-chi-schierare/",
    "image": "https://static.sosfanta.com/2026/11/Moreira-4f5735a8b507-e1793885279602.jpeg",
-   "date": "2026-11-05T16:15:11+00:00"
+   "date": "2026-11-05T20:50:11+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Gollini, Yeboah, Noslin, Geubbels, Pinamonti, Mandragora, Rensch, Belghali e novità Tavares",
+   "summary": "Le ultime dai campi di Serie A verso l’11a giornata: aggiornamenti su infortunati, possibili rientri e formazioni prima della sosta per le nazionali.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-tavares-gollini-yeboah-noslin-geubbels-pinamonti-mandragora-rensch-belghali-le-novita/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2292738512-9b82d35566e0-e1793903218170.jpeg",
+   "date": "2026-11-05T20:45:28+00:00"
+  },
+  {
+   "title": "FLASH - Nazionale, ecco i convocati: la scelta su Zaniolo, Cisse, Di Lorenzo, Liberali, Vergara e Scamacca",
+   "summary": "Roberto Mancini ha diramato la lista dei giocatori convocati con l'Italia per i prossimi impegni di Nations League. Ecco l'elenco completo degli azzurri.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/nazionale-convocati-italia-zaniolo-cisse-di-lorenzo-liberali-vergara-scamacca/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291678023-bf5bf81bca76-e1789806709858.jpg",
+   "date": "2026-11-05T20:15:28+00:00"
+  },
+  {
+   "title": "Roma, l’esito degli esami per Rensch e cosa filtra sulle condizioni di Gollini in vista del Sassuolo",
+   "summary": "Le novità dall’infermeria della Roma: l’esito degli accertamenti per Rensch e gli aggiornamenti sulle condizioni del portiere Gollini.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-esito-degli-esami-per-rensch-cosa-filtra-sulle-condizioni-gollini-vista-del-sassuolo-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2211578014-22f632f009be-e1793902572268.jpg",
+   "date": "2026-11-05T20:00:57+00:00"
+  },
+  {
+   "title": "Dt Juve: \"Alajbegovic lo voleva mezza Europa! Spiego il messaggio di Spalletti, sul nucleo italiano...\"",
+   "summary": "Il direttore tecnico della Juve, Frederic Massara, ha parlato ai microfoni di Sky prima della sfida in Europa League dei bianconeri, contro l'AZ Alkmaar.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/massara-juve-az-alkmaar-spalletti-alajbegovic/",
+   "image": "https://static.sosfanta.com/202511/b2e88e208c151028aedafa8093f7d808-scaled-e1762111032433.jpg",
+   "date": "2026-11-05T19:30:44+00:00"
+  },
+  {
+   "title": "Juventus, la formazione ufficiale in Europa: fuori Bremer! La scelta su Alajbegovic, Muani, Luiz e Cambiaso",
+   "summary": "Le scelte ufficiali di Spalletti per AZ Alkmaar-Juventus: l’undici bianconero, tra conferme e novità, per la trasferta olandese di Europa League.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-formazione-ufficiale-in-europa-league-bremer-alajbegovic-muani-luiz-cambiaso-e-lucumi/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301513306-2a0e94282957-e1793891688932.jpg",
+   "date": "2026-11-05T19:15:29+00:00"
+  },
+  {
+   "title": "Fantacalcio Mantra: ecco le migliori 11 scommesse per l'11a giornata di Serie A",
+   "summary": "Ecco le migliori 11 scommesse di giornata al Mantra, delineate dal team di SosMantra.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/mantra/mantra-fantacalcio-scommesse-undicesima-giornata/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2290578557-4c4a633b6ad5-e1792875860166.jpeg",
+   "date": "2026-11-05T19:00:32+00:00"
+  },
+  {
+   "title": "Crisi Napoli, la posizione del club su Allegri e cosa risulta su Pioli e Conceicao: Fabrizio Romano fa chiarezza",
+   "summary": "Momento delicato per il Napoli, reduce dal pesante ko in Champions League contro il Porto. Un tonfo che ha aperto inevitabili discussioni anche sul futuro di...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/crisi-napoli-allegri-cosa-risulta-pioli-fabrizio-romano/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303530060-62b2fde1b2f2-e1793826388138.jpg",
+   "date": "2026-11-05T18:00:34+00:00"
+  },
+  {
+   "title": "Milan, Amorim: \"Strano giocare senza Pavlovic ma Diawara è all'altezza! Modric, Maignan e perchè gioca Rabiot...\"",
+   "summary": "Amorim ha parlato delle scelte di formazione fatte in vista di Milan-Ferencvaros oltre dell'assenza di Pavlovic.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-amorim-pavlovic-diawara-modric-maignan-rabiot-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300934187-ef74269a4ed7-e1792572840905.jpg",
+   "date": "2026-11-05T17:30:42+00:00"
+  },
+  {
+   "title": "Milan e Atalanta, le formazioni ufficiali in Europa: da Scamacca e Modric a Rowe, Elmas, Moreira e Ramos, le scelte",
+   "summary": "Milan e Atalanta in campo alle 18.45 in Europa e Conference League: le formazioni ufficiali e tutte le scelte di Ruben Amorim e Maurizio Sarri.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-atalanta-formazioni-ufficiali-europa-scamacca-modric-rowe-elmas-moreira-ramos-scelte-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2300516459-3906a59362d4-e1793890611306.jpg",
+   "date": "2026-11-05T17:15:00+00:00"
+  },
+  {
+   "title": "Rowe: \"Ritornare decisivo come al Bologna? Rispondo così e vi dico cosa mi chiede Sarri\"",
+   "summary": "L'esterno dell'Atalanta, Jonathan Rowe, ha parlato ai microfoni di Sky prima della sfida di Conference League fra i bergamaschi e il Kairat Almaty",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/rowe-atalanta-bologna-sarri-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/Rowe-d29ae6000eb4-e1791409910152.jpg",
+   "date": "2026-11-05T17:00:51+00:00"
   },
   {
    "title": "Juventus, la probabile formazione in Europa League: le ultime su Alajbegovic, Boga, Muani, Koopmeiners e Kelly",
@@ -48460,159 +48597,6 @@
    "url": "https://www.sosfanta.com/squadra/milan/amorim-milan-derby-parlarne-da-piccola-squadra/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2302687485-de6758ec935d-e1793788551458.jpg",
    "date": "2026-11-04T22:02:08+00:00"
-  },
-  {
-   "title": "Politano boom: \"Sono incazzato, perdere 4-1 è pesante! Se poi non venissero a parlare sempre gli italiani...\"",
-   "summary": "Matteo Politano durissimo dopo il ko del Napoli contro il Porto per 4-1: queste le sue parole a Prime Video.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/politano-parole-prime-video-ko-napoli-contro-porto/",
-   "image": "https://static.sosfanta.com/2026/11/Politano-4e0279b35829-e1793830285137.jpg",
-   "date": "2026-11-04T22:00:35+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Raimondo",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800656-cc98c67e17e4-e1790693608532.jpeg",
-   "date": "2026-11-04T21:30:42+00:00"
-  },
-  {
-   "title": "Verso Fiorentina-Juventus, cosa filtra sul recupero di Ranieri e attese novità per Atta",
-   "summary": "La Fiorentina si prepara al match contro la Juventus con Vanoli che spera di recuperare Ranieri. Oggi possibili novità su Atta.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fiorentina-juventus-recupero-ranieri-atta-ultime-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293119765-fba540435ec9-e1789135291358.jpeg",
-   "date": "2026-11-04T21:00:05+00:00"
-  },
-  {
-   "title": "Spalletti: \"Vi dico quattro titolari e chi riposa! Come gestirò Alajbegovic e Muani, Koop è un top quando...\"",
-   "summary": "Alla vigilia della sfida di Euorpa League, Luciano Spalletti ha fatto il punto sulla squadra e sulla condizione di alcuni giocatori.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/spalletti-vi-dico-quattro-titolari-chi-riposa-come-gestiro-alajbegovic-muani-koop-top-quando/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302604193-97172ec4de87-e1793789374407.jpg",
-   "date": "2026-11-04T20:45:10+00:00"
-  },
-  {
-   "title": "Ferguson: \"Avevo sondaggi, vi spiego perchè sono rimasto al Bologna! Palladino ci ha riacceso, l'Europa...\"",
-   "summary": "Ferguson ripercorre la scelta di proseguire la propria avventura in rossoblù e racconta le sensazioni dopo l'arrivo del nuovo allenatore.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/ferguson-bologna-palladino-parole-fantacalcio/",
-   "image": "https://static.sosfanta.com/202605/abacb7431241ac9d218176c61274b1b5-scaled-e1778502447540.jpg",
-   "date": "2026-11-04T20:00:07+00:00"
-  },
-  {
-   "title": "Allegri: \"Non ho voluto rischiare Lang: vi spiego! Sta a noi rovesciare la situazione, no alibi\"",
-   "summary": "Nel pre-partita di Porto-Napoli, Massimiliano Allegri è intervenuto ai microfoni di Prime Video: le parole su Lang e non soltanto.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/allegri-porto-napoli-parole-lang-non-rischiato-senza-alibi/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302225820-a59cd6207ec7-e1793718457864.jpg",
-   "date": "2026-11-04T19:30:06+00:00"
-  },
-  {
-   "title": "Napoli e Como, le formazioni ufficiali in Champions: fuori Baturina e Lang! Le scelte su De Bruyne, Hojlund e Couto",
-   "summary": "Napoli e Como affrontano Porto e Lens in Champions League: di seguito le scelte di formazione di Allegri e Fabregas.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/portonapoli-lenscomo-formazioni-ufficiali-champions/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301435710-90d2e4d5fa56-e1793626489127.jpeg",
-   "date": "2026-11-04T19:15:35+00:00"
-  },
-  {
-   "title": "Cagliari, l'esito degli esami di Nzola: salterà il Frosinone, i tempi di recupero",
-   "summary": "Il Cagliari perde Nzola per infortunio, niente Frosinone per l'attaccante. Ecco il report con i dettagli del suo infortunio.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-lesito-degli-esami-di-nzola-saltera-il-frosinone-i-tempi-di-recupero/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2300997023-8c983df4592c-e1793805290335.jpg",
-   "date": "2026-11-04T19:00:57+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Pavlovic e McKennie out in Europa! Dybala, Koné, Svilar, Belghali, Yildiz, Rensch e in gruppo Piccoli",
-   "summary": "Stasera Napoli e Como impegnate in Champions League, domani tocca a Milan, Juve e Atalanta: ecco le ultimissime dai campi delle varie squadre.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/dai-campi-pavlovic-e-mckennie-out-in-europa-dybala-kone-svilar-belghali-yildiz-rensch-e-in-gruppo-piccoli/",
-   "image": "https://static.sosfanta.com/2026/11/Pavlovic-1-be5c4f810c69.jpg",
-   "date": "2026-11-04T18:45:33+00:00"
-  },
-  {
-   "title": "Udinese, ecco Zanetti: “La decisione su Solet, lo vedo così! Scelto il modulo, su Zaniolo e Lovric…”",
-   "summary": "La conferenza stampa di presentazione di Paolo Zanetti da nuovo allenatore dell'Udinese. Così il tecnico ha parlato della squadra.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/udinese-ecco-zanetti-la-decisione-su-solet-lo-vedo-cosi-scelto-il-modulo-su-zaniolo-e-lovric/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2243398663-91b62f49bcf0-e1793789091778.jpg",
-   "date": "2026-11-04T18:15:54+00:00"
-  },
-  {
-   "title": "Juventus, Yildiz in campo da settimana prossima: ecco la partita in cui può davvero tornare",
-   "summary": "Kenan Yildiz vede un po' più vicino il rientro in campo anche se ne avrà ancora per un po'. Tutti gli step in programma.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juventus-yildiz-in-campo-partita-in-cui-puo-tornare-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2289985897-b0ddce0d78b8-e1790282907401.jpg",
-   "date": "2026-11-04T18:00:10+00:00"
-  },
-  {
-   "title": "Udinese, novità per Solet e Bayo: le ultime sulle loro condizioni in vista del Venezia",
-   "summary": "Paolo Zanetti avrà subito una partita delicatissima contro la sua ex squadra, ovvero il Venezia. Il nuovo allenatore dell'Udinese intanto può recuperare gioc...",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/udinese-solet-bayo-condizioni-ultime-verso-venezia-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2292601458-c21e308f7f04-e1793735251829.jpeg",
-   "date": "2026-11-04T17:00:28+00:00"
-  },
-  {
-   "title": "FLASH - Inter, Stones e Jones tornano parzialmente in gruppo! La loro gestione e cosa filtra verso il Como",
-   "summary": "Novità dall’allenamento dell’Inter: Stones e Jones tornano con i compagni. Cosa filtra sul rientro e sul possibile impiego nella sfida con il Como.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/flash-inter-stones-jones-tornano-in-gruppo-gestione-cosa-filtra-verso-como-infortunati-rientri-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2293552500-b59ba80a4da7-e1793798466868.jpg",
-   "date": "2026-11-04T16:15:13+00:00"
-  },
-  {
-   "title": "Roma, ecco i tempi di recupero per Rensch dopo lo stop di ieri! Sui rientri di Dybala, Koné e Svilar...",
-   "summary": "Oltre a Gollini si è fermato Rensch che starà ai box per qualche settimana. Gli aggiornamenti su Kone e Dybala verso Roma-Sassuolo.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/roma-rensch-gollini-da-valutare-kone-rientro-dybala-sassuolo-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Dybala-110a6ea1bdb4-e1793097588804.jpeg",
-   "date": "2026-11-04T16:00:04+00:00"
-  },
-  {
-   "title": "Milan, Pavlovic salta il Ferencvaros: il motivo del forfait e cosa filtra verso il Genoa",
-   "summary": "Il Milan si prepara al match di Europa League contro il Ferencvaros senza poter contare su Pavlovic, ecco perchè il difensore non sarà presente.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-pavlovic-salta-ferencvaros-motivo-cosa-filtra-per-il-genoa-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Pavlovic-ce4235e98f9b.jpg",
-   "date": "2026-11-04T15:30:44+00:00"
-  },
-  {
-   "title": "ULTIM'ORA - Milan, Chukwueze si è operato: lungo stop, il comunicato e i tempi di recupero",
-   "summary": "Novità importante per quanto riguarda Samuel Chukwueze che si è operato come annunciato dal Milan.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-chukwueze-operazione-comunicato-tempi-di-recupero/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295854977-6988f7410595-e1792575565675.jpeg",
-   "date": "2026-11-04T15:15:10+00:00"
-  },
-  {
-   "title": "Juventus, i convocati per l'Europa League: 'esordio' per Ekhator, la scelta su McKennie, Cabal e Alajbegovic",
-   "summary": "La Juventus ha diramato la lista dei convocati per la prossima partita di Europa League. La decisione su McKennie, Cabal e Alajbegovic.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juventus-i-convocati-per-leuropa-league-esordio-per-ekathor-la-scelta-su-mckennie-cabal-e-alajbegovic-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303037233-a00aa2f9ab20-e1793619557303.jpg",
-   "date": "2026-11-04T15:00:54+00:00"
   }
  ],
  "marketDifficulty": {
