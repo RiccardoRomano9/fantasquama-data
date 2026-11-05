@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-11-05T07:01:46+00:00",
+ "scraped_at_utc": "2026-11-05T16:26:57+00:00",
  "giornata": "2026-11-06T19:45:00.000Z",
  "partite": [
   {
@@ -79,6 +79,10 @@
      },
      {
       "giocatore": "Bella-Kotchap",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Correia T.",
       "titolarita_pct": 5
      },
      {
@@ -162,11 +166,6 @@
       "stato": "indisponibile"
      },
      {
-      "giocatore": "Correia T.",
-      "stato": "infortunato",
-      "nota": "Problema muscolare, in dubbio per l'11a."
-     },
-     {
       "giocatore": "Franjic",
       "stato": "infortunato",
       "nota": "Intervento chirurgico per una lussazione acromion-claveare, in dubbio per la 15a."
@@ -230,17 +229,21 @@
      },
      {
       "giocatore": "Davis K.",
-      "titolarita_pct": 95
+      "titolarita_pct": 55
      }
     ],
     "panchina": [
+     {
+      "giocatore": "Kabasele",
+      "titolarita_pct": 49
+     },
      {
       "giocatore": "Piotrowski",
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Kabasele",
-      "titolarita_pct": 49
+      "giocatore": "Bayo V.",
+      "titolarita_pct": 45
      },
      {
       "giocatore": "Mrozek",
@@ -307,6 +310,18 @@
         "titolarita_pct": 49
        }
       ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Davis K.",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Bayo V.",
+        "titolarita_pct": 45
+       }
+      ]
      }
     ],
     "indisponibili": [
@@ -346,15 +361,15 @@
      },
      {
       "giocatore": "Deiola",
-      "titolarita_pct": 51
+      "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Mina",
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Rodriguez Ju.",
       "titolarita_pct": 95
-     },
-     {
-      "giocatore": "Aurelio",
-      "titolarita_pct": 55
      },
      {
       "giocatore": "Adopo",
@@ -383,10 +398,6 @@
     ],
     "panchina": [
      {
-      "giocatore": "Mina",
-      "titolarita_pct": 49
-     },
-     {
       "giocatore": "Winks",
       "titolarita_pct": 49
      },
@@ -411,11 +422,11 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Obert",
+      "giocatore": "Ciervo",
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Ciervo",
+      "giocatore": "Gagliardini",
       "titolarita_pct": 5
      },
      {
@@ -443,19 +454,7 @@
      {
       "opzioni": [
        {
-        "giocatore": "Deiola",
-        "titolarita_pct": 51
-       },
-       {
         "giocatore": "Mina",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Aurelio",
         "titolarita_pct": 55
        },
        {
@@ -521,6 +520,15 @@
       "giocatore": "Nzola",
       "stato": "infortunato",
       "nota": "Distrazione di basso grado ai flessori, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Obert",
+      "stato": "squalificato"
+     },
+     {
+      "giocatore": "Aurelio",
+      "stato": "infortunato",
+      "nota": "Affaticamento al soleo della gamba sinistra, in dubbio per la 12a."
      }
     ],
     "ufficiale": false
@@ -1093,7 +1101,7 @@
      },
      {
       "giocatore": "Tourè E.",
-      "titolarita_pct": 55
+      "titolarita_pct": 51
      }
     ],
     "panchina": [
@@ -1103,7 +1111,7 @@
      },
      {
       "giocatore": "Romero D.",
-      "titolarita_pct": 45
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Nicolussi Caviglia",
@@ -1179,11 +1187,11 @@
       "opzioni": [
        {
         "giocatore": "Tourè E.",
-        "titolarita_pct": 55
+        "titolarita_pct": 51
        },
        {
         "giocatore": "Romero D.",
-        "titolarita_pct": 45
+        "titolarita_pct": 49
        }
       ]
      }
@@ -1273,6 +1281,10 @@
       "titolarita_pct": 55
      },
      {
+      "giocatore": "Piccoli",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Happonen",
       "titolarita_pct": 5
      },
@@ -1310,10 +1322,6 @@
      },
      {
       "giocatore": "Orsolini",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Piccoli",
       "titolarita_pct": 5
      }
     ],
@@ -1822,7 +1830,7 @@
       "titolarita_pct": 51
      },
      {
-      "giocatore": "Lucca",
+      "giocatore": "Vergara",
       "titolarita_pct": 51
      },
      {
@@ -1836,11 +1844,11 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Vergara",
+      "giocatore": "Gilmour",
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Gilmour",
+      "giocatore": "Lucca",
       "titolarita_pct": 49
      },
      {
@@ -1876,11 +1884,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Lucca",
+        "giocatore": "Vergara",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Vergara",
+        "giocatore": "Lucca",
         "titolarita_pct": 49
        }
       ]
@@ -1966,7 +1974,7 @@
      },
      {
       "giocatore": "Tavares N.",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Frattesi",
@@ -1999,8 +2007,8 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Dele-Bashiru",
-      "titolarita_pct": 5
+      "giocatore": "Pedraza",
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Motta",
@@ -2023,10 +2031,6 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Pedraza",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Pellegrini Lu.",
       "titolarita_pct": 5
      },
@@ -2035,11 +2039,27 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Dele-Bashiru",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Przyborek",
       "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
+     {
+      "opzioni": [
+       {
+        "giocatore": "Tavares N.",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Pedraza",
+        "titolarita_pct": 49
+       }
+      ]
+     },
      {
       "opzioni": [
        {
@@ -2174,7 +2194,15 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Venturino",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Colombo",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Havel",
       "titolarita_pct": 5
      }
     ],
@@ -2230,16 +2258,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Venturino",
-      "stato": "infortunato",
-      "nota": "Intervento chirurgico di “pulizia” del tendine rotuleo, in dubbio per la 12a."
-     },
-     {
-      "giocatore": "Havel",
-      "stato": "infortunato",
-      "nota": "Infortunio alla caviglia, in dubbio per la 12a."
-     },
-     {
       "giocatore": "Robinho Junior",
       "stato": "indisponibile"
      }
@@ -2264,11 +2282,11 @@
      },
      {
       "giocatore": "Pavlovic",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Diawara S.",
-      "titolarita_pct": 51
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Musah",
@@ -2337,7 +2355,7 @@
      {
       "opzioni": [
        {
-        "giocatore": "Diawara S.",
+        "giocatore": "Pavlovic",
         "titolarita_pct": 51
        },
        {
@@ -2783,15 +2801,15 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Pavard",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Di Gennaro",
       "titolarita_pct": 5
      },
      {
       "giocatore": "Provedel",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Pavard",
       "titolarita_pct": 5
      },
      {
@@ -3345,21 +3363,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Yildiz",
-      "stato": "infortunato",
-      "nota": "Operato per frattura al quinto metatarso del piede sinistro, in dubbio per la 15a."
-     },
-     {
-      "giocatore": "Thuram K.",
-      "stato": "infortunato",
-      "nota": "Intervento di condroplastica per la guarigione della condropatia rotulea del ginocchio destro, in dubbio per la 17a."
-     },
-     {
-      "giocatore": "Conceicao",
-      "stato": "infortunato",
-      "nota": "Lussazione gleno-omerale, in dubbio per la 12a."
-     },
-     {
       "giocatore": "Celik",
       "stato": "infortunato",
       "nota": "Lesione di basso grado del bicipite femorale sinistro, in dubbio per la 12a."
@@ -3382,6 +3385,21 @@
       "giocatore": "Grabara",
       "stato": "infortunato",
       "nota": "Lesione del legamento crociato anteriore del ginocchio destro, in dubbio per la 34a."
+     },
+     {
+      "giocatore": "Yildiz",
+      "stato": "infortunato",
+      "nota": "Operato per frattura al quinto metatarso del piede sinistro, in dubbio per la 15a."
+     },
+     {
+      "giocatore": "Thuram K.",
+      "stato": "infortunato",
+      "nota": "Intervento di condroplastica per la guarigione della condropatia rotulea del ginocchio destro, in dubbio per la 17a."
+     },
+     {
+      "giocatore": "Conceicao",
+      "stato": "infortunato",
+      "nota": "Lussazione gleno-omerale, in dubbio per la 12a."
      }
     ],
     "ufficiale": false
