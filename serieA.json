@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T23:32:30+00:00",
+ "generatedAt": "2026-11-06T07:01:21+00:00",
  "season": "2026-27",
  "gameweek": 11,
  "note": "Stime calcolate con la sola storia precedente alla giornata 11 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -39895,7 +39895,7 @@
    "appearances": 3,
    "gameweeksElapsed": 10,
    "estimatedVote": 6.31,
-   "playProbability": 0.0,
+   "playProbability": 0.048,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -39916,7 +39916,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.22,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.048,
    "learnedEvents": {
     "gf": 0.0107,
     "rf": 0.0034,
@@ -39953,9 +39953,9 @@
    },
    "quotazione": 5.0,
    "fvm": 5.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -48239,6 +48239,15 @@
  ],
  "news": [
   {
+   "title": "Milan, Bartesaghi: \"Prestazione non commentabile, la peggiore di tutte! Abbiamo rovinato tutto...\"",
+   "summary": "Il commento di Bartesaghi dopo il crollo del Milan in Europa League, ecco cosa ha detto il giocatore del Milan.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-bartesaghi-prestazione-non-commentabile-la-peggiore-di-tutte-abbiamo-rovinato-tutto/",
+   "image": "https://static.sosfanta.com/202604/66c7853fe653b65169816529d20620d1.jpg",
+   "date": "2026-11-06T07:00:10+00:00"
+  },
+  {
    "title": "Spalletti: \"Ci ridevano in faccia dopo il NEC! Su Kolo Muani, Boga, Ekhator, Lucumì e Kalulu poverino…\"",
    "summary": "Luciano Spalletti commenta AZ Alkmaar-Juventus in conferenza stampa: l’analisi della partita e le indicazioni del tecnico dopo la sfida europea.",
    "author": "Francesco Mangiagli",
@@ -48257,11 +48266,11 @@
    "date": "2026-11-05T22:45:09+00:00"
   },
   {
-   "title": "Sarri: \"Cosa filtra su Kessie e Kolasinac per domenica! Difendo Scamacca e spiego Krstovic out\". E su Hien...",
+   "title": "Sarri: \"Cosa filtra su Kessié e Kolasinac per domenica! Difendo Scamacca e spiego Krstovic out\". E su Hien...",
    "summary": "Maurizio Sarri analizza Atalanta-Kairat Almaty in conferenza stampa: il commento alla prestazione dei nerazzurri nella sfida di Conference League.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/atalanta/sarri-atalanta-kessie-kolasinac-inforunio-tempi-di-recupero-scamacca-krstovic-hien-kossounou/",
+   "url": "https://www.sosfanta.com/squadra/atalanta/sarri-atalanta-kessie-kolasinac-infortunio-tempi-di-recupero-scamacca-krstovic-hien-kossounou-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2303687349-89fb86368229-e1793906242693.jpg",
    "date": "2026-11-05T22:15:22+00:00"
   },
@@ -48588,15 +48597,6 @@
    "url": "https://www.sosfanta.com/squadra/napoli/mctominay-furbiondo-porto-napoli-parole-prime-video/",
    "image": "https://static.sosfanta.com/2026/10/mctominay-615e8ea03b51-e1793361247864.jpeg",
    "date": "2026-11-04T22:15:55+00:00"
-  },
-  {
-   "title": "Milan, Amorim: \"Derby speciale ma continuare a parlarne è... da piccola squadra\"",
-   "summary": "Alla vigilia dell'impegno in Europa League del Milan, Ruben Amorim è tornato a parlare della vittoria nel derby contro l'Inter.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/amorim-milan-derby-parlarne-da-piccola-squadra/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302687485-de6758ec935d-e1793788551458.jpg",
-   "date": "2026-11-04T22:02:08+00:00"
   }
  ],
  "marketDifficulty": {
