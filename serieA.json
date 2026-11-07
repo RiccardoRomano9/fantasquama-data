@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-07T22:01:43+00:00",
+ "generatedAt": "2026-11-07T23:40:37+00:00",
  "season": "2026-27",
  "gameweek": 11,
- "note": "Stime calcolate con la sola storia precedente alla giornata 11 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento. Probabilita' partita aggiornate con le quote 1X2 (5 partite).",
+ "note": "Stime calcolate con la sola storia precedente alla giornata 11 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
  "players": [
   {
    "id": "7484",
@@ -1084,7 +1084,7 @@
    "appearances": 8,
    "gameweeksElapsed": 10,
    "estimatedVote": 6.05,
-   "playProbability": 0.175,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.524,
     "rf": 0.0081,
@@ -1105,7 +1105,7 @@
     "q90": 9.12
    },
    "learnedVote": 6.29,
-   "learnedPlayProbability": 0.175,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.3078,
     "rf": 0.0158,
@@ -1143,7 +1143,7 @@
    "quotazione": 14.0,
    "fvm": 70.0,
    "lineupSlot": "panchina",
-   "startingProbability": 20.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -48228,13 +48228,13 @@
  ],
  "news": [
   {
-   "title": "Pisacane: \"Mendy deve solo fare più gol: dico questo di lui! Winks, Kevin Carlos, Adopo, Kofler...\"",
-   "summary": "L'analisi di Pisacane dopo Cagliari-Frosinone, ecco le parole dell'allenatore rossoblù sulla prestazione della squadra e dei singoli.",
-   "author": "Andrea Ajello",
+   "title": "FLASH - Sassuolo, riflessioni sulla panchina! Aquilani in bilico: “Si parla tanto, qui devono cambiare tante cose\"",
+   "summary": "Quinta sconfitta consecutiva per il Sassuolo di Alberto Aquilani: 3-0 il risultato finale dell'Olimpico a favore della Roma, in bilico la posizione del tecnico.",
+   "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/pisacane-cagliari-frosinone-conferenza-post-partita-parole-fantacalcio-winks-mendy-carlos/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291584001-1-943d272ad348-e1792846658326.jpg",
-   "date": "2026-11-07T22:00:01+00:00"
+   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-riflessioni-panchina-aquilani-bilico/",
+   "image": "https://static.sosfanta.com/2026/11/Aquilani-f9bfb4c9c43a-e1794090224643.jpg",
+   "date": "2026-11-07T23:00:09+00:00"
   },
   {
    "title": "I voti di Roma-Sassuolo al fanta: la scelta su Castro! Malen, Adzic, Laurienté, Hermoso più di Mora e c'è un 4,5",
@@ -48243,7 +48243,34 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/voti-fantacalcio/voti-roma-sassuolo-fantacalcio-tutte-decisioni/",
    "image": "https://static.sosfanta.com/2026/11/Mora-00723e599490-e1794087121835.jpg",
-   "date": "2026-11-07T21:45:08+00:00"
+   "date": "2026-11-07T22:45:08+00:00"
+  },
+  {
+   "title": "Gasperini: \"Inter prima candidata per lo scudetto, ma... non firmo per il secondo posto: ce la giochiamo\"",
+   "summary": "Gian Piero Gasperini se la vuole giocare per lo scudetto: così l'allenatore della Roma ha parlato a Sky Sport dopo la vittoria per 3-0 contro il Sassuolo.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-gasperini-non-firmo-secondo-posto-scudetto-inter/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300221629-bcbbc18b17e2-e1792012712450.jpg",
+   "date": "2026-11-07T22:30:12+00:00"
+  },
+  {
+   "title": "Romano: \"Situazione surreale al Napoli: Allegri avrebbe parlato oggi! Cos'è successo e i giocatori in ritiro...\"",
+   "summary": "Caos in casa Napoli alla vigilia della sfida contro la Lazio di domenica alle ore 12.30: Fabrizio Romano fa chiarezza su quanto accaduto.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/allegri-conferenza-annullata-napoli-verita-giocatori-ritiro/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302225820-a59cd6207ec7-e1793718457864.jpg",
+   "date": "2026-11-07T22:15:14+00:00"
+  },
+  {
+   "title": "Pisacane: \"Mendy deve solo fare più gol: dico questo di lui! Winks, Kevin Carlos, Adopo, Kofler...\"",
+   "summary": "L'analisi di Pisacane dopo Cagliari-Frosinone, ecco le parole dell'allenatore rossoblù sulla prestazione della squadra e dei singoli.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/pisacane-cagliari-frosinone-conferenza-post-partita-parole-fantacalcio-winks-mendy-carlos/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2291584001-1-943d272ad348-e1792846658326.jpg",
+   "date": "2026-11-07T22:00:01+00:00"
   },
   {
    "title": "Di Francesco: \"Ecco perchè Coulibaly e Geubbels in panchina! Fofana, Fatah e quanto starà fuori Pierotti\"",
@@ -48255,6 +48282,15 @@
    "date": "2026-11-07T21:30:20+00:00"
   },
   {
+   "title": "Bologna, la prima diagnosi su Miranda! E Orsolini svela: \"La verità sul rigore, cos’è successo con Bernardeschi\"",
+   "summary": "Il Bologna doma il Parma in 11 contro 10, vincendo 2-1 allo stadio Tardini. Nella sfida si ferma Juan Miranda e arriva la prima diagnosi.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/miranda-bologna-parma-infortunio-tempi-di-recupero-fantacalcio-orsolini-bernardeschi-rigorista/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304007506-c4e467217ca2-e1794083641250.jpg",
+   "date": "2026-11-07T21:15:18+00:00"
+  },
+  {
    "title": "Palladino: \"Piccoli doveva avere un piglio diverso! Odgaard, Bernardeschi e non vedo Cambiaghi frenato\"",
    "summary": "Il tecnico del Bologna, Raffaele Palladino, ha parlato ai microfoni di Dazn ed in conferenza stampa dopo il match vinto dai suoi a Parma.",
    "author": "Daniele Najjar",
@@ -48262,15 +48298,6 @@
    "url": "https://www.sosfanta.com/news/palladino-parma-bologna-bernardeschi-piccoli-odgaard-cambiaghi/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2303997137-584c1ccf3357-e1794078609883.jpg",
    "date": "2026-11-07T21:00:22+00:00"
-  },
-  {
-   "title": "Bologna, la prima diagnosi su Miranda! E Orsolini svela: \"La verità sul rigore, cos’è successo con Bernardeschi\"",
-   "summary": "Il Bologna doma il Parma in 11 contro 10, vincendo 2-1 allo stadio Tardini. Nella sfida si ferma Juan Miranda e arriva la prima diagnosi.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/miranda-bologna-parma-infortunio-tempi-di-recupero-fantacalcio-orsolini-bernardeschi-rigorista/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304007506-c4e467217ca2-e1794083641250.jpg",
-   "date": "2026-11-07T20:50:18+00:00"
   },
   {
    "title": "Tutti gli assist al fantacalcio dell'11a giornata LIVE: +1 per Malen, Cambiaghi e Mendy, niente bonus per Comuzzo",
@@ -48291,13 +48318,13 @@
    "date": "2026-11-07T20:30:01+00:00"
   },
   {
-   "title": "Romano: \"Situazione surreale al Napoli: Allegri avrebbe parlato oggi! Cos'è successo e i giocatori in ritiro...\"",
-   "summary": "Caos in casa Napoli alla vigilia della sfida contro la Lazio di domenica alle ore 12.30: Fabrizio Romano fa chiarezza su quanto accaduto.",
+   "title": "BREAKING - Clamoroso, cambia la decisione della Lega Serie A: è autogol di Gaspar, niente +3 per Simeone",
+   "summary": "Clamoroso quanto accaduto proprio in questi minuti: cambia la decisione della Lega Serie A: è autogol di Gaspar, niente +3 per Simeone.",
    "author": "Alessandro Cosattini",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/allegri-conferenza-annullata-napoli-verita-giocatori-ritiro/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302225820-a59cd6207ec7-e1793718457864.jpg",
-   "date": "2026-11-07T20:15:14+00:00"
+   "url": "https://www.sosfanta.com/squadra/torino/fantacalcio-clamoroso-cambia-decisione-lega-seriea-autogol-gaspar-no-gol-simeone/",
+   "image": "https://static.sosfanta.com/2026/11/Simeone-Gaspar-8cef9e74d426-e1794071498980.jpeg",
+   "date": "2026-11-07T20:15:58+00:00"
   },
   {
    "title": "Monza, i convocati per l'Atalanta: torna Pessina, out Birindelli e le scelte su Ziolkowski e Folorunsho",
@@ -48370,15 +48397,6 @@
    "url": "https://www.sosfanta.com/squadra/parma/ultimora-parma-bologna-due-infortuni-in-pochi-minuti-escono-romero-e-miranda-i-voti-live-al-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/11/Miranda-015d210b1585-e1794072447210.jpg",
    "date": "2026-11-07T17:45:55+00:00"
-  },
-  {
-   "title": "BREAKING - Clamoroso, cambia la decisione della Lega Serie A: è autogol di Gaspar, niente +3 per Simeone",
-   "summary": "Clamoroso quanto accaduto proprio in questi minuti: cambia la decisione della Lega Serie A: è autogol di Gaspar, niente +3 per Simeone.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/torino/fantacalcio-clamoroso-cambia-decisione-lega-seriea-autogol-gaspar-no-gol-simeone/",
-   "image": "https://static.sosfanta.com/2026/11/Simeone-Gaspar-8cef9e74d426-e1794071498980.jpeg",
-   "date": "2026-11-07T17:15:58+00:00"
   },
   {
    "title": "Roma-Sassuolo, le probabili formazioni: chi gioca tra De Marzi e Vasquez e le ultime su Koné, Dybala e Mancini",
@@ -48568,24 +48586,6 @@
    "url": "https://www.sosfanta.com/probabili-formazioni/news-tavares-di-lorenzo-mckennie-conceicao-pavlovic-ranieri-atta-cacciamani-molina-occhio-cambiaso/",
    "image": "https://static.sosfanta.com/202504/2e883f0f5bf684bdac9496b319261e17.jpg",
    "date": "2026-11-07T10:15:51+00:00"
-  },
-  {
-   "title": "Juve, le ultime su McKennie, Celik, Cambiaso e il tentativo per Conceicao in vista della Fiorentina",
-   "summary": "Gli aggiornamenti sugli infortunati della Juventus: lo stop di Cambiaso, i test per McKennie e Celik e le sensazioni sul recupero di Conceicao.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-nuovo-stop-per-cambiaso-ultime-mckennie-celik-tentativo-conceicao-vista-fiorentina-infortunati-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/McKennie-79dc3181965a-e1791621868543.jpg",
-   "date": "2026-11-07T10:00:55+00:00"
-  },
-  {
-   "title": "Romano - Nico Paz e le voci sul Real Madrid: tutta la verità per gennaio! Come funziona la recompra, cifre e dettagli",
-   "summary": "Fabrizio Romano fa il punto sul futuro di Nico Paz: le parole sul Como, sull’interesse del Real Madrid e sugli scenari per il prossimo mercato.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/fabrizio-romano-nico-paz-voci-realmadrid-tutta-la-verita-gennaio-come-funziona-recompra-cifre-dettagli-mercato-como-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303008861-6131f263df8f-e1793888507147.jpg",
-   "date": "2026-11-07T09:45:06+00:00"
   }
  ],
  "marketDifficulty": {
