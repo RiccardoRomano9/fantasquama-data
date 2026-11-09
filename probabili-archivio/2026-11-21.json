@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-11-09T09:57:11+00:00",
+ "scraped_at_utc": "2026-11-09T18:44:51+00:00",
  "giornata": "2026-11-21T14:00:00.000Z",
  "partite": [
   {
@@ -1299,7 +1299,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Kalulu",
+      "giocatore": "Celik",
       "titolarita_pct": 95
      },
      {
@@ -1311,8 +1311,8 @@
       "titolarita_pct": 60
      },
      {
-      "giocatore": "Celik",
-      "titolarita_pct": 70
+      "giocatore": "Cabal",
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Mckennie",
@@ -1343,10 +1343,6 @@
      {
       "giocatore": "Boga",
       "titolarita_pct": 49
-     },
-     {
-      "giocatore": "Cabal",
-      "titolarita_pct": 30
      },
      {
       "giocatore": "Kelly L.",
@@ -1397,18 +1393,6 @@
      {
       "opzioni": [
        {
-        "giocatore": "Celik",
-        "titolarita_pct": 70
-       },
-       {
-        "giocatore": "Cabal",
-        "titolarita_pct": 30
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
         "giocatore": "Lucumì",
         "titolarita_pct": 60
        },
@@ -1421,6 +1405,16 @@
     ],
     "indisponibili": [
      {
+      "giocatore": "Thuram K.",
+      "stato": "infortunato",
+      "nota": "Intervento di condroplastica per la guarigione della condropatia rotulea del ginocchio destro, in dubbio per la 17a."
+     },
+     {
+      "giocatore": "Conceicao",
+      "stato": "infortunato",
+      "nota": "Lussazione gleno-omerale, in dubbio per la 12a."
+     },
+     {
       "giocatore": "Milik",
       "stato": "indisponibile"
      },
@@ -1428,6 +1422,11 @@
       "giocatore": "Locatelli",
       "stato": "infortunato",
       "nota": "Operazione al menisco del ginocchio, in dubbio per la 17a."
+     },
+     {
+      "giocatore": "Kalulu",
+      "stato": "infortunato",
+      "nota": "Lesione di basso grado del bicipite femorale sinistro, in dubbio per la 13a."
      },
      {
       "giocatore": "Gonzalez N.",
@@ -1448,16 +1447,6 @@
       "giocatore": "Yildiz",
       "stato": "infortunato",
       "nota": "Operato per frattura al quinto metatarso del piede sinistro, in dubbio per la 15a."
-     },
-     {
-      "giocatore": "Thuram K.",
-      "stato": "infortunato",
-      "nota": "Intervento di condroplastica per la guarigione della condropatia rotulea del ginocchio destro, in dubbio per la 17a."
-     },
-     {
-      "giocatore": "Conceicao",
-      "stato": "infortunato",
-      "nota": "Lussazione gleno-omerale, in dubbio per la 12a."
      }
     ],
     "ufficiale": false
@@ -1814,7 +1803,7 @@
      {
       "giocatore": "Miranda J.",
       "stato": "infortunato",
-      "nota": "Risentimento alla coscia sinistra, in dubbio per la 12a."
+      "nota": "Lesione di primo grado al bicipite femorale della coscia sinistra, in dubbio per la 14a."
      }
     ],
     "ufficiale": false
@@ -2453,21 +2442,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Terracciano",
-      "stato": "infortunato",
-      "nota": "Trauma alla spalla destra, in dubbio per la 12a."
-     },
-     {
-      "giocatore": "Gabbia",
-      "stato": "infortunato",
-      "nota": "Lesione del muscolo flessore della coscia sinistra, con parziale interessamento tendineo, in dubbio per la 20a."
-     },
-     {
-      "giocatore": "Chukwueze",
-      "stato": "infortunato",
-      "nota": "Operato per la rottura del tendine del muscolo tensore della fascia lata dell'anca sinistra, in dubbio per la 23a."
-     },
-     {
       "giocatore": "Loftus-Cheek",
       "stato": "infortunato",
       "nota": "Lesione a carico di un muscolo flessore mediale della coscia sinistra, in dubbio per la 12a."
@@ -2486,6 +2460,21 @@
       "giocatore": "Pavlovic",
       "stato": "infortunato",
       "nota": "Forti coliche, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Terracciano",
+      "stato": "infortunato",
+      "nota": "Trauma alla spalla destra, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Gabbia",
+      "stato": "infortunato",
+      "nota": "Lesione del muscolo flessore della coscia sinistra, con parziale interessamento tendineo, in dubbio per la 20a."
+     },
+     {
+      "giocatore": "Chukwueze",
+      "stato": "infortunato",
+      "nota": "Operato per la rottura del tendine del muscolo tensore della fascia lata dell'anca sinistra, in dubbio per la 23a."
      }
     ],
     "ufficiale": false
@@ -2840,7 +2829,7 @@
      },
      {
       "giocatore": "Esposito F.P.",
-      "titolarita_pct": 55
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Thuram",
@@ -2849,24 +2838,20 @@
     ],
     "panchina": [
      {
-      "giocatore": "Provedel",
-      "titolarita_pct": 40
-     },
-     {
-      "giocatore": "Diouf",
-      "titolarita_pct": 45
-     },
-     {
-      "giocatore": "Bonny",
-      "titolarita_pct": 45
-     },
-     {
       "giocatore": "Mkhitaryan",
       "titolarita_pct": 45
      },
      {
       "giocatore": "Bisseck",
       "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Provedel",
+      "titolarita_pct": 40
+     },
+     {
+      "giocatore": "Diouf",
+      "titolarita_pct": 45
      },
      {
       "giocatore": "Di Gennaro",
@@ -2894,18 +2879,6 @@
      }
     ],
     "ballottaggi": [
-     {
-      "opzioni": [
-       {
-        "giocatore": "Esposito F.P.",
-        "titolarita_pct": 55
-       },
-       {
-        "giocatore": "Bonny",
-        "titolarita_pct": 45
-       }
-      ]
-     },
      {
       "opzioni": [
        {
