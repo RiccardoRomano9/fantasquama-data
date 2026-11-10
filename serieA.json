@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T12:47:57+00:00",
+ "generatedAt": "2026-11-10T16:24:34+00:00",
  "season": "2026-27",
  "gameweek": 12,
  "note": "Stime calcolate con la sola storia precedente alla giornata 12 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -732,7 +732,7 @@
    "appearances": 8,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.09,
-   "playProbability": 0.285,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.4549,
     "rf": 0.0067,
@@ -753,7 +753,7 @@
     "q90": 9.46
    },
    "learnedVote": 6.31,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.3399,
     "rf": 0.0078,
@@ -791,9 +791,9 @@
    },
    "quotazione": 7.0,
    "fvm": 15.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -4000,7 +4000,7 @@
    "appearances": 5,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.23,
-   "playProbability": 0.0,
+   "playProbability": 0.829,
    "events": {
     "gf": 1.0096,
     "rf": 0.0067,
@@ -4021,7 +4021,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.56,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.829,
    "learnedEvents": {
     "gf": 0.4826,
     "rf": 0.0102,
@@ -4059,9 +4059,9 @@
    },
    "quotazione": 33.0,
    "fvm": 361.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -6144,7 +6144,7 @@
    "appearances": 10,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.26,
-   "playProbability": 0.829,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.8691,
     "rf": 0.0067,
@@ -6165,7 +6165,7 @@
     "q90": 13.42
    },
    "learnedVote": 6.74,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.6517,
     "rf": 0.0106,
@@ -6203,9 +6203,9 @@
    },
    "quotazione": 28.0,
    "fvm": 249.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -47419,6 +47419,105 @@
  ],
  "news": [
   {
+   "title": "BREAKING - Inter, si ferma Thuram: ha lasciato il ritiro della Francia, le sue condizioni",
+   "summary": "Marcus Thuram lascia il ritiro della propria nazionale a causa di un problema fisico. Le sue condizioni.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-thuram-problema-fisico-lascia-ritiro-francia-condizioni-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301913312-1-1263622c7600.jpg",
+   "date": "2026-11-10T16:15:58+00:00"
+  },
+  {
+   "title": "UFFICIALE - Lazio, rinnovo di contratto per Floriani Mussolini: ecco fino a quando ha firmato",
+   "summary": "La Lazio rinnova il contratto di Floriani Mussolini, questo il comunicato ufficiale e la durata del nuovo accordo.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/ufficiale-lazio-rinnovo-di-contratto-per-floriani-mussolini-ecco-fino-a-quando-ha-firmato/",
+   "image": "https://static.sosfanta.com/2026/11/IMG_4261-f93dced7d7d0-e1794326601847.jpg",
+   "date": "2026-11-10T16:00:59+00:00"
+  },
+  {
+   "title": "Ventola: “Ho vinto questa giornata al fantacalcio contro Stefano Sensi grazie a questo gol”",
+   "summary": "A Viva el Futbol, l’ex attaccante Nicola Ventola ha parlato del suo fantacalcio, quello che fa con Seba Esposito anche.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ventola-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/Ventola-a9eab96c32ac-e1794263784447.jpg",
+   "date": "2026-11-10T15:30:59+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Inter, ecco l'esito degli esami di Bonny e i tempi di recupero: il comunicato del club",
+   "summary": "E' arrivato l'esito degli esami strumentali di Ange-Yoan Bonny dopo il problema muscolare accusato contro il Como domenica sera. Ecco il comunicato dell'Inter.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/ultimora-inter-esito-esami-bonny-tempi-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2300680403-1435b01807ee-e1794303284336.jpg",
+   "date": "2026-11-10T15:15:12+00:00"
+  },
+  {
+   "title": "Italia Under 21, tre indisponibili: Calvani, Chichella e Ndour hanno lasciato il ritiro, il comunicato",
+   "summary": "Tre assenze nell'Italia Under 21 che dovrà fare a meno di Calvani, Chichella e Ndour per le prossime partite.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/italia-under-21-calvani-chichella-ndour-lasciano-il-ritiro-comunicato-fantacalcio/",
+   "image": "https://static.sosfanta.com/202502/0034d6bdebc52db5bb2b2d81901f4b2f-e1738755878636.jpg",
+   "date": "2026-11-10T15:00:24+00:00"
+  },
+  {
+   "title": "Ds Como: \"Chi è più vicino a tornare tra Kean, Diao e Chalobah! Sul rientro di Moise e a gennaio...\"",
+   "summary": "Il ds del Colo Carlalberto Ludi ha rilasciato un'intervista ai microfoni di Sky a margine del Social Football Summit. Ecco le sue parole.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/ds-como-chi-piu-vicino-tornare-kean-diao-chalobah/",
+   "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-10-14-05-08-226125c47849-e1794316022699.jpg",
+   "date": "2026-11-10T14:45:40+00:00"
+  },
+  {
+   "title": "Joao Pedro escluso dallo staff: il Fantacalcio in Premier League diventa un 'caso', avvertimento del Chelsea",
+   "summary": "Il club inglese ha richiamato il proprio staff dopo che l'esclusione virtuale di João Pedro aveva anticipato il suo infortunio.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/premier-league-fantacalcio-chelsea-joao-pedro-fantasy-premier-league/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2295103465-0938207b2510-e1794318806573.jpg",
+   "date": "2026-11-10T14:30:01+00:00"
+  },
+  {
+   "title": "Torino, che fine ha fatto Fortini? La verità sullo stop e quando può tornare in gruppo",
+   "summary": "Niccolò Fortini non si vede in campo da inizio ottobre, quando ha dovuto lasciare il ritiro dell'Under 21 per un problema fisico: cosa trapela sul rientro.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/che-fine-ha-fatto-fortini-torino-tempi-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/Fortini-9b370fb67917-e1794300459591.jpg",
+   "date": "2026-11-10T14:00:33+00:00"
+  },
+  {
+   "title": "Ufficiale, D'Aversa è il nuovo allenatore del Sassuolo: il comunicato e la durata del contratto",
+   "summary": "Il Sassuolo ha annunciato l'arrivo in panchina di Roberto D'Aversa che prende il posto di Aquilani e guiderà in questa stagione i neroverdi.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-daversa-ufficiale-nuovo-allenatore-comunicato-contratto-durata/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2278024604-2fa89e40f3c8-e1794316715622.jpg",
+   "date": "2026-11-10T13:30:41+00:00"
+  },
+  {
+   "title": "BREAKING - Nazionale, niente Francia e Belgio per Zaniolo: ha lasciato il ritiro per motivi personali",
+   "summary": "Nicolò Zaniolo ha lasciato il ritiro della Nazionale a Coverciano e non prenderà parte agli impegni di Nations League contro Francia e Belgio.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/breaking-nazionale-zaniolo-lasciato-ritiri-motivi-personali/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-1793199043-c92988001274-e1794312498152.jpg",
+   "date": "2026-11-10T13:15:32+00:00"
+  },
+  {
+   "title": "Juve, Kalulu alla ripresa non ci sarà: i tempi di recupero. E quando torna in gruppo Cambiaso",
+   "summary": "La Francia dovrà fare a meno di Pierre Kalulu, ma è soprattutto la Juve a fare i conti con una nuova tegola: i tempi di recupero per lui e per Andrea Cambiaso.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-tempi-recupero-kalulu-cambiaso-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303466459-aaafef8d9b55-e1794179804690.jpeg",
+   "date": "2026-11-10T13:00:51+00:00"
+  },
+  {
    "title": "Cassano: \"Mora devastante, mi ricorda il primo Joao Felix. Da Trigoria mi raccontano che è...\"",
    "summary": "A Viva el Futbol, l'ex attaccante Antonio Cassano elogia Rodrigo Mora, centrocampista della Roma a segno anche contro il Sassuolo.",
    "author": "Alessandro Cosattini",
@@ -47428,31 +47527,22 @@
    "date": "2026-11-10T12:30:30+00:00"
   },
   {
-   "title": "BREAKING - Nazionale, niente Francia e Belgio per Zaniolo: ha lasciato il ritiro per motivi personali",
-   "summary": "Nicolò Zaniolo ha lasciato il ritiro della Nazionale a Coverciano e non prenderà parte agli impegni di Nations League contro Francia e Belgio.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/breaking-nazionale-zaniolo-lasciato-ritiri-motivi-personali/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-1793199043-c92988001274-e1794312498152.jpg",
-   "date": "2026-11-10T12:05:32+00:00"
-  },
-  {
-   "title": "Kean, ecco la speranza del Como per il rientro in campo e cosa filtra sui tempi di Diao e Addai",
-   "summary": "Ci siamo quasi per il rientro di Moise Kean dopo un vero e proprio calvario iniziato durante la sosta per le nazionali di ottobre. Il punto su Diao e Addai.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kean-speraza-como-tempi-diao-addai/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294837008-9ae70c7cd6c4-e1792742482747.jpeg",
-   "date": "2026-11-10T12:00:38+00:00"
-  },
-  {
    "title": "Da Neres, Spinazzola, Badiashile e Favasuli a Di Lorenzo, Lobotka e Alisson: i tempi degli infortunati del Napoli",
    "summary": "E' ancora pienissima l'infermeria del Napoli: Allegri ha ancora diversi infortunati e alcuni li ritroverà al rientro dalla sosta. Per altri, invece, i tempi...",
    "author": "Marco Astori",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/napoli/neres-favasuli-badiashile-spinazzola-di-lorenzo-lobotka-alisson-quando-tornano-infortunati-napoli/",
    "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-10-09-27-37-156181d6d367-e1794299271158.jpg",
-   "date": "2026-11-10T11:45:48+00:00"
+   "date": "2026-11-10T12:15:48+00:00"
+  },
+  {
+   "title": "Yildiz al fantacalcio? Ora c'è una partita cerchiata in rosso sul calendario della Juve",
+   "summary": "Ma quando torna davvero Kenan Yildiz? Ieri il numero 10 della Juve ha confermato il suo rientro a dicembre, ma c'è una data in particolare nel mirino.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/yidliz-rientro-fantacalcio-juve-data-cerchiata-rosso-calendario/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
+   "date": "2026-11-10T12:00:45+00:00"
   },
   {
    "title": "Milan, chance basse che Pavlovic si aggreghi alla Serbia: ecco quando tornerà in campo",
@@ -47500,13 +47590,13 @@
    "date": "2026-11-10T10:30:20+00:00"
   },
   {
-   "title": "Yildiz al fantacalcio? Ora c'è una partita cerchiata in rosso sul calendario della Juve",
-   "summary": "Ma quando torna davvero Kenan Yildiz? Ieri il numero 10 della Juve ha confermato il suo rientro a dicembre, ma c'è una data in particolare nel mirino.",
-   "author": "Alessandro Cosattini",
+   "title": "Kean, ecco la speranza del Como per il rientro in campo e cosa filtra sui tempi di Diao e Addai",
+   "summary": "Ci siamo quasi per il rientro di Moise Kean dopo un vero e proprio calvario iniziato durante la sosta per le nazionali di ottobre. Il punto su Diao e Addai.",
+   "author": "Marco Astori",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/yidliz-rientro-fantacalcio-juve-data-cerchiata-rosso-calendario/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
-   "date": "2026-11-10T10:00:45+00:00"
+   "url": "https://www.sosfanta.com/news/kean-speraza-como-tempi-diao-addai/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294837008-9ae70c7cd6c4-e1792742482747.jpeg",
+   "date": "2026-11-10T10:00:38+00:00"
   },
   {
    "title": "Lazio in apprensione per gli infortuni di Tavares e Sutalo, pronti nuovi esami: i tempi minimi di recupero",
@@ -47687,96 +47777,6 @@
    "url": "https://www.sosfanta.com/news/miranda-bologna-infortunio-tempi-di-recupero-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2302862561-74156d04ff01-e1794220522842.jpeg",
    "date": "2026-11-09T15:15:00+00:00"
-  },
-  {
-   "title": "Lazio, dalla nuova risonanza di Zaccagni al test per Gudmundsson: le ultime. E Tavares salta la nazionale",
-   "summary": "Domani o mercoledì in casa Lazio sarà una giornata importante per Mattia Zaccagni, che ieri ha seguito la squadra a Napoli nonostante l'infortunio.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/zaccagni-lazio-gudmundsson-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301817518-0472c59ae9f5-e1793546965984.jpeg",
-   "date": "2026-11-09T15:00:18+00:00"
-  },
-  {
-   "title": "UFFICIALE - Juve, c’è lesione per Kalulu: ecco il comunicato e quanto starà fuori",
-   "summary": "In queste ora è giunta la notizia che Pierre Kalulu non risponderà alla convocazione di Zinedine Zidane con la Francia dopo aver effettuato degli esami.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kalulu-juve-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2300471547-991681044a7a-e1794227812623.jpeg",
-   "date": "2026-11-09T14:45:12+00:00"
-  },
-  {
-   "title": "Juve, aggiornamenti sui lunghi infortuni di Locatelli e K. Thuram. Parla Yildiz: \"Sto bene, ecco quando torno\"",
-   "summary": "Secondo Tuttosport il tecnico della Juve, Luciano Spalletti, dovrebbe ritrovare Kenan Yildiz nella seconda metà di novembre.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/yildiz-locatelli-thuram-infortunio-tempi-di-recupero-juve/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800656-cc98c67e17e4-e1790693608532.jpeg",
-   "date": "2026-11-09T14:00:40+00:00"
-  },
-  {
-   "title": "Caso Lang nel Napoli: la ricostruzione di cos'è successo, la sua versione e il possibile addio a gennaio",
-   "summary": "Noa Lang è ormai un caso nel Napoli: continua il rapporto difficilissimo tra l'olandese e i tifosi azzurri, che ieri l'hanno riempito di fischi.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lang-napoli-mercato-gennaio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2292839459-4d0f954f1b77-e1788979440923.jpeg",
-   "date": "2026-11-09T13:00:10+00:00"
-  },
-  {
-   "title": "BREAKING - Juve, infortunio anche per Kalulu: le sue condizioni e i tempi di recupero",
-   "summary": "Gli esami per Kalulu hanno evidenziato una lesione ai muscoli ischiocrurali della gamba sinistra. Per questo motivo non risponderà alla convocazione di Zidane.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/juve-kalulu-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301289674-bdeb9ce0f1ee-e1794223942612.jpeg",
-   "date": "2026-11-09T12:30:59+00:00"
-  },
-  {
-   "title": "Juve, da Nico Gonzalez a Conceicao: la possibile data di rientro dagli infortuni",
-   "summary": "Il vero obiettivo della pausa in casa Juve è quello di rimettere in ritmo alcuni dei giocatori attualmente in infermeria, in particolare Nico Gonzalez e Conc...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/conceicao-nico-gonzalez-juve-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/Conceicao-626e66e726f0-e1792343814333.jpeg",
-   "date": "2026-11-09T12:00:48+00:00"
-  },
-  {
-   "title": "NEWS - Tavares, Sutalo, Miranda, Conceicao, Nico, Cambiaso, Pavlovic, Frendrup, caso Lang e Gatti convocato",
-   "summary": "Archiviata l'11a giornata di Serie A, ora ci attendono due settimane di sosta: ecco le ultime novità su infortunati e non solo in ottica fantacalcio.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-tavares-sutalo-miranda-conceicao-nico-cambiaso-pavlovic-frendrup-caso-lang-e-gatti-convocato/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303360545-e883d7be6bbe-e1794209603659.jpg",
-   "date": "2026-11-09T11:15:31+00:00"
-  },
-  {
-   "title": "Lazio, stessa prima diagnosi ma problemi diversi per Sutalo e Nuno Tavares: le loro condizioni",
-   "summary": "Doppio stop in casa Lazio nella sfida di ieri del Maradona contro il Napoli: si sono fermati Josip Sutalo e Nuno Tavares: le novità.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-sutalo-nuno-tavares-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2292738513-0e28b515c196-e1793868366605.jpg",
-   "date": "2026-11-09T11:00:42+00:00"
-  },
-  {
-   "title": "Sono due i giocatori squalificati per la 12a giornata di Serie A: non li avrete al fantacalcio",
-   "summary": "Sono due gli squalificati per la 12a giornata di Serie A al rientro dopo la sosta delle nazionali. Non li avrete quindi nel prossimo turno al fantacalcio.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squalificati/sono-due-i-giocatori-squalificati-per-la-12a-giornata-di-serie-a-non-li-avrete-al-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-09-07-37-39-7220d4657516-e1794206307737.jpg",
-   "date": "2026-11-09T10:45:08+00:00"
-  },
-  {
-   "title": "Esposito: \"Giallo? Nico Paz mi aveva mandato al bar! Gol? Ormai l'ho capito: ti dicono che sei scarso se...\"",
-   "summary": "L'attaccante dell'Inter Francesco Pio Esposito, che è tornato al gol in campionato contro il Como, ha parlato dopo la partita ai microfoni di Sky e DAZN.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/esposito-giallo-nico-paz-mandato-bar-gol-ormai-capito/",
-   "image": "https://static.sosfanta.com/2026/09/Pio-Esposito-03126acfa0a7-e1789034403736.jpg",
-   "date": "2026-11-09T10:00:57+00:00"
   }
  ],
  "marketDifficulty": {
