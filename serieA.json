@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T09:36:22+00:00",
+ "generatedAt": "2026-11-11T16:08:21+00:00",
  "season": "2026-27",
  "gameweek": 12,
  "note": "Stime calcolate con la sola storia precedente alla giornata 12 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -892,7 +892,7 @@
    "appearances": 11,
    "gameweeksElapsed": 11,
    "estimatedVote": 5.98,
-   "playProbability": 0.349,
+   "playProbability": 0.829,
    "events": {
     "gf": 0.1854,
     "rf": 0.0061,
@@ -913,7 +913,7 @@
     "q90": 6.21
    },
    "learnedVote": 6.1,
-   "learnedPlayProbability": 0.349,
+   "learnedPlayProbability": 0.829,
    "learnedEvents": {
     "gf": 0.1617,
     "rf": 0.0067,
@@ -951,8 +951,8 @@
    },
    "quotazione": 9.0,
    "fvm": 32.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -2090,7 +2090,7 @@
    "appearances": 7,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.06,
-   "playProbability": 0.524,
+   "playProbability": 0.829,
    "events": {
     "gf": 0.2005,
     "rf": 0.0061,
@@ -2111,7 +2111,7 @@
     "q90": 7.77
    },
    "learnedVote": 6.24,
-   "learnedPlayProbability": 0.524,
+   "learnedPlayProbability": 0.829,
    "learnedEvents": {
     "gf": 0.1124,
     "rf": 0.0026,
@@ -2150,7 +2150,7 @@
    "quotazione": 12.0,
    "fvm": 40.0,
    "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24364,7 +24364,7 @@
    "appearances": 6,
    "gameweeksElapsed": 9,
    "estimatedVote": 5.94,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0335,
     "rf": 0.0004,
@@ -24385,7 +24385,7 @@
     "q90": 6.29
    },
    "learnedVote": 6.02,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0431,
     "rf": 0.0024,
@@ -24421,8 +24421,8 @@
    },
    "quotazione": 6.0,
    "fvm": 15.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24602,7 +24602,7 @@
    "appearances": 3,
    "gameweeksElapsed": 11,
    "estimatedVote": 5.88,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0316,
     "rf": 0.0004,
@@ -24623,7 +24623,7 @@
     "q90": 6.19
    },
    "learnedVote": 5.96,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0399,
     "rf": 0.0024,
@@ -24661,8 +24661,8 @@
    },
    "quotazione": 3.0,
    "fvm": 7.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -36602,7 +36602,7 @@
    "appearances": 2,
    "gameweeksElapsed": 11,
    "estimatedVote": 5.98,
-   "playProbability": 0.83,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.027,
     "rf": 0.0003,
@@ -36623,7 +36623,7 @@
     "q90": 6.54
    },
    "learnedVote": 5.94,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.0399,
     "rf": 0.0024,
@@ -36661,8 +36661,8 @@
    },
    "quotazione": 4.0,
    "fvm": 10.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -46994,22 +46994,22 @@
   },
   {
    "name": "Sassuolo",
-   "formation": "3-5-2",
+   "formation": "4-3-3",
    "isOfficial": false,
    "ballottaggi": [
     {
      "opzioni": [
       {
-       "player_id": "4463",
-       "giocatore": "Esposito Se.",
-       "titolarita_pct": 60,
-       "ruolo": "A"
+       "player_id": "6985",
+       "giocatore": "Candè",
+       "titolarita_pct": 51,
+       "ruolo": "D"
       },
       {
-       "player_id": "7347",
-       "giocatore": "Bowie",
-       "titolarita_pct": 40,
-       "ruolo": "A"
+       "player_id": "4147",
+       "giocatore": "Caleta-Car",
+       "titolarita_pct": 49,
+       "ruolo": "D"
       }
      ]
     },
@@ -47056,22 +47056,6 @@
       {
        "player_id": "6896",
        "giocatore": "Van Der Brempt",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "4147",
-       "giocatore": "Caleta-Car",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6985",
-       "giocatore": "Candè",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -47371,13 +47355,94 @@
  ],
  "news": [
   {
+   "title": "Roma, le novità su Svilar e Gollini dall'ultimo allenamento e cosa filtra sulla loro gestione",
+   "summary": "Le ultime sui due portieri della Roma Svilar e Gollini, come stanno in vista della ripresa del campionato.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/roma-le-novita-su-svilar-e-gollini-dallultimo-allenamento-e-cosa-filtra-sulla-loro-gestione/",
+   "image": "https://static.sosfanta.com/2026/07/GettyImages-2287498848-cbd1c74bc609-e1785219212137.jpg",
+   "date": "2026-11-11T16:00:19+00:00"
+  },
+  {
+   "title": "Incidente in pista al Nurburgring per Robert Sanchez! Ferrari distrutta ma è illeso: cos’è successo",
+   "summary": "Attimi di grande paura per Robert Sanchez, secondo portiere del Como rimasto coinvolto in un violento incidente al Nürburgring.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/incidente-nurburgring-robert-sanchez/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304163105-df85d579e8c4-e1794412954592.jpg",
+   "date": "2026-11-11T15:55:46+00:00"
+  },
+  {
+   "title": "BREAKING - Inter, l’esito dei primi controlli per Thuram: il verdetto e cosa filtra sul rientro in campo",
+   "summary": "Arriva l'aggiornamento sulle condizioni di Marcus Thuram che oggi era presente ad Appiano Gentile per i controlli dopo aver lasciato la nazionale.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/thuram-inter-condizioni-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304140053-d796ea6ec60a-e1794378835951.jpeg",
+   "date": "2026-11-11T15:45:05+00:00"
+  },
+  {
+   "title": "ULTIM’ORA - Rientri in gruppo durante la sosta: le novità su Conceicao, Dybala e Mancini",
+   "summary": "Ottime notizie in casa Juventus e Roma dall'ultimo allenamento, si sono rivisti Conceicao, Dybala e Mancini.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ultimora-rientri-in-gruppo-durante-la-sosta-le-novita-su-conceicao-dybala-e-mancini-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/Conceicao-626e66e726f0-e1792343814333.jpeg",
+   "date": "2026-11-11T15:15:27+00:00"
+  },
+  {
+   "title": "Cagliari, novità Trepy: cosa risulta dopo i controlli! Per Mina, Nzola Obert e Winks...",
+   "summary": "Ecco gli aggiornamenti sulle condizioni di Trepy e le ultime su Aurelio, Fadera, Mina, Nzola, Obert e Winks.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/cagliari-novita-trepy-cosa-risulta-dopo-i-controlli-per-mina-nzola-obert-e-winks/",
+   "image": "https://static.sosfanta.com/2026/08/GettyImages-2265268054-0ad592e6cf9d.jpg",
+   "date": "2026-11-11T15:00:47+00:00"
+  },
+  {
+   "title": "Spence out contro la Croazia, Tuchel: \"Non correremo rischi, ecco quando potrà essere a disposizione\"",
+   "summary": "Spence salterà la prima delle due partite dell'Inghilterra come annunciato dal commissario tecnico. Ecco la situazione e il programma previsto.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/spence-out-tuchel-parole-croazia-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294177753-70dbb87ea4ba-e1789480262234.jpg",
+   "date": "2026-11-11T14:30:10+00:00"
+  },
+  {
+   "title": "'Mistero' Zaniolo dopo aver lasciato il ritiro dell'Italia: la situazione, l'idea è che...",
+   "summary": "Zaniolo non giocherà le due partite con l'Italia perchè ha lasciato il ritiro per motivi personali, ma cosa c'è dietro questa scelta?",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/mistero-zaniolo-dopo-aver-lasciato-il-ritiro-dellitalia-oggi-si-allenera-con-ludinese-lidea-e-che/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-1793199043-c92988001274-e1794312498152.jpg",
+   "date": "2026-11-11T14:00:51+00:00"
+  },
+  {
+   "title": "Ds Napoli: \"Rispondo su Varela e seguiamo Cacciamani! Quando tornano Neres, Spinazzola e Favasuli, Alisson...\"",
+   "summary": "Il direttore sportivo del Napoli, Giovanni Manna, ha rilasciato un'intervista ai microfoni di Kiss Kiss Napoli per parlare di mercato e non solo.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-varela-cacciamani-quando-tornano-neres-spinazzola-e-favasuli-alisson-infortunio-tempi-di-recupero/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301111304-6286264a233d-e1794400299144.jpeg",
+   "date": "2026-11-11T13:20:10+00:00"
+  },
+  {
    "title": "NEWS - Tavares, l’esito dei primi controlli! Lautaro, Zaccagni, Yildiz, Dybala, Pavlovic, Thuram, Bonny, Svilar…",
    "summary": "È cominciata la sosta per le nazionali, ma arrivano comunque importanti aggiornamenti su infortunati e non solo in ottica fantacalcio.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/news-tavares-lesito-dei-primi-controlli-lautaro-zaccagni-yildiz-dybala-pavlovic-thuram-bonny-svilar/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2303979466-36b665e55315-e1794388488666.jpeg",
-   "date": "2026-11-11T09:20:14+00:00"
+   "date": "2026-11-11T13:15:14+00:00"
+  },
+  {
+   "title": "Milan, esami specifici in programma per Pavlovic: le condizioni del difensore e quando può tornare in campo",
+   "summary": "Amorim spera di avere di nuovo a disposizione Pavlovic dopo la sosta ma intanto il difensore dovrà svolgere degli esami specifici.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/milan-pavlovic-condizioni-quando-puo-tornare-in-campo-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/Pavlovic-e58dadaf30e0-e1793973887574.jpg",
+   "date": "2026-11-11T13:00:41+00:00"
   },
   {
    "title": "Chi sale al fantacalcio per scambi e non solo dopo l’ultima giornata: da Spence a Orsolini, ecco sette nomi",
@@ -47386,7 +47451,52 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/consigli-fantacalcio/chi-sale-al-fantacalcio-per-scambi-e-non-solo-dopo-lultima-giornata-da-spence-a-orsolini-ecco-sette-nomi/",
    "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-09-11-02-58-1f4e9ad03536-e1794218600960.jpg",
-   "date": "2026-11-11T09:15:21+00:00"
+   "date": "2026-11-11T12:45:21+00:00"
+  },
+  {
+   "title": "Ad Monza: \"Varela sul mercato? L'obiettivo è questo! Avrà una grande carriera, sappiamo che molte squadre...\"",
+   "summary": "Mauro Baldissoni, ad del Monza, parla a Sky Sport dal Social Football Summit di Torino: il rendimento di Varela, le prospettive di mercato e la FIGC.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/monza/ad-monza-varela-sul-mercato-obiettivo-questo-avra-una-grande-carriera-sappiamo-che-molte-squadre-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304261259-059a1c164db1.jpg",
+   "date": "2026-11-11T12:15:34+00:00"
+  },
+  {
+   "title": "Juve, dai tempi per l'infortunio di Kalulu al programma di rientro per Yildiz: le novità",
+   "summary": "Spalletti attende buone notizie dall'infermeria, ma in casa Juve c'è da registrare il nuovo stop arrivato nella sosta per le nazionali, quello che riguarda K...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/kalulu-juve-infortunio-tempi-di-recupero/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800656-cc98c67e17e4-e1790693608532.jpeg",
+   "date": "2026-11-11T12:00:45+00:00"
+  },
+  {
+   "title": "Zaniolo: \"Lasciare Coverciano non facile, chiedo rispetto! Decisione presa per motivi personali, non date credito a...\"",
+   "summary": "Nicolò Zaniolo lascia il ritiro dell’Italia a Coverciano per motivi personali: il chiarimento del giocatore dopo le voci circolate nelle ultime ore.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/zaniolo-lasciare-coverciano-non-facile-chiedo-rispetto-decisione-per-motivi-personali-non-date-credito-a-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/Zaniolo-991e02d42c29-e1790783756386.jpg",
+   "date": "2026-11-11T11:45:31+00:00"
+  },
+  {
+   "title": "Roma, dal ritorno di Svilar e Dybala a Koné e le condizioni di Mancini: le ultime",
+   "summary": "Gasperini sta per ritrovare alcuni dei suoi big e spera di avere anche Konè e Mancini al meglio dopo la sosta delle nazionali.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/roma-da-svilar-a-dybala-kone-mancini-ultime-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2299992036-2480805e4096-e1792217740764.jpeg",
+   "date": "2026-11-11T11:00:26+00:00"
+  },
+  {
+   "title": "Lazio, i tempi di recupero per Nuno Tavares e l'attesa per gli esami di Sutalo: ecco quanto possono stare fuori",
+   "summary": "Novità sugli indisponibili della Lazio, gli aggiornamenti su Nuno Tavares, Sutalo, Zaccagni e non solo.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/lazio-nuno-tavares-tempi-di-recupero-sutalo-esami-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/Tavares-72fae6585995-e1794301178703.jpg",
+   "date": "2026-11-11T10:00:35+00:00"
   },
   {
    "title": "Inter, ecco cosa filtra sullo stop di Thuram! Quando tornerà Bonny, le sensazioni per Stankovic e Lautaro...",
@@ -47396,24 +47506,6 @@
    "url": "https://www.sosfanta.com/news/inter-thuram-cosa-filtra-quando-torna-bonny-stankovic-lautaro-martinez-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2304140053-d796ea6ec60a-e1794378835951.jpeg",
    "date": "2026-11-11T09:00:23+00:00"
-  },
-  {
-   "title": "Ad Monza: \"Varela sul mercato? L'obiettivo è questo! Avrà una grande carriera, sappiamo che molte squadre...\"",
-   "summary": "Mauro Baldissoni, ad del Monza, parla a Sky Sport dal Social Football Summit di Torino: il rendimento di Varela, le prospettive di mercato e la FIGC.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/ad-monza-varela-sul-mercato-obiettivo-questo-avra-una-grande-carriera-sappiamo-che-molte-squadre-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304261259-059a1c164db1.jpg",
-   "date": "2026-11-11T08:45:34+00:00"
-  },
-  {
-   "title": "Zaniolo: \"Lasciare Coverciano non facile, chiedo rispetto! Decisione presa per motivi personali, non date credito a...\"",
-   "summary": "Nicolò Zaniolo lascia il ritiro dell’Italia a Coverciano per motivi personali: il chiarimento del giocatore dopo le voci circolate nelle ultime ore.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/zaniolo-lasciare-coverciano-non-facile-chiedo-rispetto-decisione-per-motivi-personali-non-date-credito-a-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Zaniolo-991e02d42c29-e1790783756386.jpg",
-   "date": "2026-11-11T08:15:31+00:00"
   },
   {
    "title": "Cassano: “Ho visto un giocatore della Fiorentina che… è tanta roba: lo vedo da Premier”",
@@ -47432,6 +47524,15 @@
    "url": "https://www.sosfanta.com/diffidati/con-giallo-salteranno-13a-giornata-ecco-4-diffidati-seriea-non-solo-karlstrom-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2291680303-3120e3b79517-e1794332060939.jpg",
    "date": "2026-11-11T07:00:12+00:00"
+  },
+  {
+   "title": "Como, parla il ds: \"Ramon, scelta fatta per gennaio! Su Nico Paz, Kean, Diao, Cassano, i prossimi colpi...\"",
+   "summary": "Il direttore sportivo del Como, Carlalberto Ludi, ha rilasciato una intervista al Corriere dello Sport oggi in edicola: le sue parole.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ludi-como-jacobo-ramon-real-madric-nico-paz-kean-diao-jesus-rodriguez/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302288667-3965b7633130-e1794391780806.jpeg",
+   "date": "2026-11-11T06:15:01+00:00"
   },
   {
    "title": "Lazio, fiducia per Zaccagni: ecco per quale partita può tornare! Gudmundsson e Rovella...",
@@ -47612,123 +47713,6 @@
    "url": "https://www.sosfanta.com/squadra/sassuolo/sassuolo-daversa-ufficiale-nuovo-allenatore-comunicato-contratto-durata/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2278024604-2fa89e40f3c8-e1794316715622.jpg",
    "date": "2026-11-10T13:30:41+00:00"
-  },
-  {
-   "title": "Juve, Kalulu alla ripresa non ci sarà: i tempi di recupero. E quando torna in gruppo Cambiaso",
-   "summary": "La Francia dovrà fare a meno di Pierre Kalulu, ma è soprattutto la Juve a fare i conti con una nuova tegola: i tempi di recupero per lui e per Andrea Cambiaso.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-tempi-recupero-kalulu-cambiaso-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303466459-aaafef8d9b55-e1794179804690.jpeg",
-   "date": "2026-11-10T13:00:51+00:00"
-  },
-  {
-   "title": "Cassano: \"Mora devastante, mi ricorda il primo Joao Felix. Da Trigoria mi raccontano che è...\"",
-   "summary": "A Viva el Futbol, l'ex attaccante Antonio Cassano elogia Rodrigo Mora, centrocampista della Roma a segno anche contro il Sassuolo.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/roma/cassano-mora-ricorda-joao-felix-raccontano-trigoria/",
-   "image": "https://static.sosfanta.com/2026/11/Mora-00723e599490-e1794087121835.jpg",
-   "date": "2026-11-10T12:30:30+00:00"
-  },
-  {
-   "title": "Yildiz al fantacalcio? Ora c'è una partita cerchiata in rosso sul calendario della Juve",
-   "summary": "Ma quando torna davvero Kenan Yildiz? Ieri il numero 10 della Juve ha confermato il suo rientro a dicembre, ma c'è una data in particolare nel mirino.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/yidliz-rientro-fantacalcio-juve-data-cerchiata-rosso-calendario/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2288852882-b00f4f7c7466-e1787717686591.jpeg",
-   "date": "2026-11-10T12:00:45+00:00"
-  },
-  {
-   "title": "Milan, chance basse che Pavlovic si aggreghi alla Serbia: ecco quando tornerà in campo",
-   "summary": "Non c’è Strahinja Pavlovic tra i tredici rossoneri impegnati con le rispettive nazionali. Il serbo è rimasto fuori contro il Ferencvaros e col Genoa.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-chance-basse-pavlovic-serbia-quando-torna/",
-   "image": "https://static.sosfanta.com/2026/08/Pavlovic-7049f70654a3-e1787852240531.jpg",
-   "date": "2026-11-10T11:30:35+00:00"
-  },
-  {
-   "title": "NEWS - Bonny, Tavares, Sutalo, Kalulu, Cambiaso, Miranda, Pavlovic, Kean, Diao, Addai e i veri tempi per Yildiz",
-   "summary": "E' cominciata la sosta per le nazionali, ma arrivano comunque importanti aggiornamenti su infortunati e non solo in ottica fantacalcio.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-bonny-tavares-sutalo-kalulu-cambiaso-miranda-kean-diao-addai-pavlovic-tempi-yildiz/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2288490584-e62fa47150b8-e1794298777379.jpg",
-   "date": "2026-11-10T11:15:33+00:00"
-  },
-  {
-   "title": "Bologna, infortunio sul più bello per il re degli assist Miranda: trapela questa speranza sul rientro",
-   "summary": "Si è fermato Juan Miranda nel Bologna: lesione di primo grado al bicipite femorale della coscia sinistra per lo spagnolo, i tempi di recupero.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/bologna-infortunio-miranda-tempi-recupero-fantacalcio-speranza-rientro/",
-   "image": "https://static.sosfanta.com/2026/11/Miranda-778f565cb106-e1793868274758.jpg",
-   "date": "2026-11-10T11:00:26+00:00"
-  },
-  {
-   "title": "Fabbian: \"Faccio il fantacalcio coi miei compagni del Parma: ecco chi mi ha comprato e dopo il gol all'Atalanta...\"",
-   "summary": "Il centrocampista del Parma Giovanni Fabbian ha commentato l’ultima gara giocata dalla squadra e parlato anche... di fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/parma/parma-fabbian-parole-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/Fabbian-812cea7df767-e1794260285143.jpeg",
-   "date": "2026-11-10T10:45:13+00:00"
-  },
-  {
-   "title": "Calò: \"Nazionale? E chi se ne frega se ho 30 anni! E chi se lo aspettava di fare 5 gol in Serie A e...\"",
-   "summary": "Giacomo Calò, centrocampista del Frosinone, ha rilasciato un'intervista ai microfoni de La Gazzetta dello Sport. Ecco le sue dichiarazioni.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/calo-nazionale-e-chi-se-ne-frega-se-ho-30-anni/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2296228751-a7a7c786ba2e-e1790111842885.jpeg",
-   "date": "2026-11-10T10:30:20+00:00"
-  },
-  {
-   "title": "Kean, ecco la speranza del Como per il rientro in campo e cosa filtra sui tempi di Diao e Addai",
-   "summary": "Ci siamo quasi per il rientro di Moise Kean dopo un vero e proprio calvario iniziato durante la sosta per le nazionali di ottobre. Il punto su Diao e Addai.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kean-speraza-como-tempi-diao-addai/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294837008-9ae70c7cd6c4-e1792742482747.jpeg",
-   "date": "2026-11-10T10:00:38+00:00"
-  },
-  {
-   "title": "Lazio in apprensione per gli infortuni di Tavares e Sutalo, pronti nuovi esami: i tempi minimi di recupero",
-   "summary": "La Lazio non ha ancora comunicato le diagnosi dei nuovi infortunati Josip Sutalo e Nuno Tavares, attese però nelle prossime ore: i tempi minimi di recupero.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/lazio-ansia-tavares-sutalo-infortuni-esami-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/202607/7f0c0ad13ef92328e266022dc1385537-scaled-e1782895655814.jpeg",
-   "date": "2026-11-10T09:30:45+00:00"
-  },
-  {
-   "title": "Inter, oggi gli esami strumentali di Bonny: per lui problema al flessore, cosa filtra",
-   "summary": "Niente Costa d'Avorio per Ange-Yoan Bonny, fermato da un problema muscolare nell'ultima gara di campionato contro il Como.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/inter-oggi-esami-strumentali-bonny-flessore/",
-   "image": "https://static.sosfanta.com/202604/0fc43af6a74be491c00b1297b8506cba-e1776764932663.jpg",
-   "date": "2026-11-10T09:00:26+00:00"
-  },
-  {
-   "title": "Cassano: “Calò non è Pirlo o Xavi, ma è da Nazionale. L’ho conosciuto 11 anni fa e vi posso dire questo\"",
-   "summary": "Anche Antonio Cassano parla della mancata convocazione di Giacomo Calò in Nazionale: le sue dichiarazioni a Viva el Futbol.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/frosinone/cassano-calo-nazionale-frosinone-parole/",
-   "image": "https://static.sosfanta.com/2026/10/Cassano-b1ca10ce92c9-e1793454479347.jpg",
-   "date": "2026-11-10T08:00:01+00:00"
-  },
-  {
-   "title": "Calhanoglu: \"Futuro? Non c'è da fare tanto casino, state tutti tranquilli! Sono all'Inter da 5 anni e vi dico...\"",
-   "summary": "L'unico calciatore in scadenza di contratto in casa Inter è Hakan Calhanoglu: nei piani del club nerazzurro c'è però un rinnovo del centrocampista turco.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/calhanoglu-futuro-non-ce-da-fare-tanto-casino-state-tutti-tranquilli-sono-allinter-da-5-anni-e-vi-dico/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304159327-a555d146a60a-e1794166936591.jpg",
-   "date": "2026-11-10T07:30:00+00:00"
   }
  ],
  "marketDifficulty": {
