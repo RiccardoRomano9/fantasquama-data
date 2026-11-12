@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T16:47:13+00:00",
+ "generatedAt": "2026-11-12T23:41:56+00:00",
  "season": "2026-27",
  "gameweek": 12,
  "note": "Stime calcolate con la sola storia precedente alla giornata 12 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -7797,9 +7797,9 @@
    },
    "quotazione": 15.0,
    "fvm": 78.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -9656,7 +9656,7 @@
    "appearances": 8,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.1,
-   "playProbability": 0.285,
+   "playProbability": 0.35,
    "events": {
     "gf": 0.0687,
     "rf": 0.0034,
@@ -9677,7 +9677,7 @@
     "q90": 6.39
    },
    "learnedVote": 6.09,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.35,
    "learnedEvents": {
     "gf": 0.0618,
     "rf": 0.0028,
@@ -9713,8 +9713,8 @@
    },
    "quotazione": 4.0,
    "fvm": 12.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 40.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -13852,7 +13852,7 @@
    "appearances": 4,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.14,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.2045,
     "rf": 0.0092,
@@ -13873,7 +13873,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.21,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.398,
     "rf": 0.0723,
@@ -13909,9 +13909,9 @@
    },
    "quotazione": 12.0,
    "fvm": 40.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -16236,7 +16236,7 @@
    "appearances": 9,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.16,
-   "playProbability": 0.831,
+   "playProbability": 0.525,
    "events": {
     "gf": 0.0387,
     "rf": 0.0033,
@@ -16257,7 +16257,7 @@
     "q90": 6.5
    },
    "learnedVote": 6.22,
-   "learnedPlayProbability": 0.831,
+   "learnedPlayProbability": 0.525,
    "learnedEvents": {
     "gf": 0.0512,
     "rf": 0.0028,
@@ -16296,7 +16296,7 @@
    "quotazione": 3.0,
    "fvm": 8.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 60.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -24442,7 +24442,7 @@
    "appearances": 10,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.07,
-   "playProbability": 0.285,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0278,
     "rf": 0.0004,
@@ -24463,7 +24463,7 @@
     "q90": 6.68
    },
    "learnedVote": 6.14,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0283,
     "rf": 0.0016,
@@ -24501,8 +24501,8 @@
    },
    "quotazione": 5.0,
    "fvm": 13.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -25242,7 +25242,7 @@
    "appearances": 8,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.1,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0283,
     "rf": 0.0004,
@@ -25263,7 +25263,7 @@
     "q90": 6.47
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0283,
     "rf": 0.0016,
@@ -25302,7 +25302,7 @@
    "quotazione": 4.0,
    "fvm": 8.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -47161,6 +47161,38 @@
        "ruolo": "A"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6917",
+       "giocatore": "Masini",
+       "titolarita_pct": 60,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "7473",
+       "giocatore": "Cichella",
+       "titolarita_pct": 40,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "5757",
+       "giocatore": "Cittadini",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "7467",
+       "giocatore": "Calvani",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
     }
    ]
   },
@@ -47355,13 +47387,130 @@
  ],
  "news": [
   {
+   "title": "Mancini: “Ecco chi è il rigorista tra Pio e Seba Esposito! Il ruolo di Dimarco e le condizioni di Frattesi…”",
+   "summary": "Il commento di Roberto Mancini dopo Italia-Francia di Nations League, di seguito le dichiarazioni del commissario tecnico.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/mancini-italia-francia-parole-post-partita-conferenza-dimarco-sebastanio-esposito-pio-frattesi-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/Mancini-98e4f3efce93.jpg",
+   "date": "2026-11-12T22:45:52+00:00"
+  },
+  {
+   "title": "Pio Esposito lascia il rigore, Seba sbaglia e Mancini si arrabbia! Cosa è successo e il labiale del confronto",
+   "summary": "Due rigori per l'Italia nell'entusiasmante vittoria per 3-1 sulla Francia: il primo lo sbaglia Sebastiano Esposito, il secondo lo segna il fratello Pio.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/pio-esposito-sebastiano-rigore-italia-francia-cose-successo/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304828129-8945b8c12a8a-e1794522607940.jpeg",
+   "date": "2026-11-12T22:30:01+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Novità Atta! Ndour, Nzola, Mina, Pongracic, Veiga, Raspadori, Winks, Gaetano, Obert e caso Heggem",
+   "summary": "Tutti gli aggiornamenti di Serie A durante la sosta: le condizioni degli infortunati, chi torna ad allenarsi e le novità per il fantacalcio.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-novita-atta-ndour-nzola-mina-pongracic-veiga-raspadori-winks-gaetano-obert-caso-heggem-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2295665898-80fa5eb85b6d-e1794497496759.jpg",
+   "date": "2026-11-12T22:15:09+00:00"
+  },
+  {
+   "title": "Nazionali, Krstovic non si ferma più! Segnano De Bruyne, CDK e Sucic, per Modric, Baturina, Calhanoglu e Sarr...",
+   "summary": "Tutti i giocatori della Serie A scesi in campo con le nazionali in Nations League e African Nation Cup: minuti, bonus e indicazioni utili per il fantacalcio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/nazionali-krstovic-non-si-ferma-piu-segnano-de-bruyne-cdk-e-sucic-per-modric-baturina-calhanoglu-e-sarr/",
+   "image": "https://static.sosfanta.com/2026/11/Krstovic-3205f5160887.jpg",
+   "date": "2026-11-12T22:00:22+00:00"
+  },
+  {
    "title": "FLASH - Lazio, Gudmundsson in gruppo! I tempi per Tavares e Sutalo, su Zaccagni...",
    "summary": "Novità importanti in casa Lazio, Gudmundsson è tornato ad allenarsi in gruppo e le ultime su Zaccagni, Tavares e Sutalo.",
    "author": "Andrea Ajello",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/lazio-gudmundsson-in-gruppo-tempi-tavares-sutalo-tempi-di-recupero/",
    "image": "https://static.sosfanta.com/2026/10/GettyImages-2294881976-5d3927656b73-e1792579956150.jpeg",
-   "date": "2026-11-12T16:15:38+00:00"
+   "date": "2026-11-12T21:45:38+00:00"
+  },
+  {
+   "title": "Parma, le condizioni di Romero, Bernabè e Drobnic: Gilardino spera almeno di recuperare questo giocatore...",
+   "summary": "Gilardino deve fare i conti con alcune assenze importanti, le ultime sulle condizioni di Bernabè, Romero e Drobnic.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/parma-gilardino-bernabe-romero-condizioni-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293066223-84796b7bae21-e1788687915469.jpeg",
+   "date": "2026-11-12T21:00:50+00:00"
+  },
+  {
+   "title": "Chi scambiare e chi no, sette risposte: da Ramos e Krstovic a Isaksen, Rowe, Cisse, Mora, Alajbegovic, Calha e Dimarco",
+   "summary": "Ecco chi scambiare e chi no, queste sono solo alcune tra le domande arrivate su Instagram o sulla nostra app (c’è la sezione Premium SOS Consiglia).",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/scambi-fantacalcio/scambi-fantacalcio-si-no-sette-risposte-ramos-krstovic-isaksen-rowe-cisse-mora-alajbegovic-dimarco/",
+   "image": "https://static.sosfanta.com/2026/11/Krstovic-86f04af49376-e1794221075869.jpg",
+   "date": "2026-11-12T20:45:44+00:00"
+  },
+  {
+   "title": "Lazio, altro problema per Marusic! L'annuncio del ct: \"Non sappiamo se è il vecchio infortunio o uno nuovo...\"",
+   "summary": "Marusic è costretto di nuovo a fermarsi per un problema fisico. Il terzino della Lazio lascia il ritiro del Montenegro.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/lazio-marusic-nuovo-infortunio-ct-parole-fantacalcio/",
+   "image": "https://static.sosfanta.com/202510/f24de2054f0a926c2b10c04bf0a55aac.jpg",
+   "date": "2026-11-12T20:30:35+00:00"
+  },
+  {
+   "title": "Frosinone, dalle condizioni di Terzic, Calvani e Cichella ai ruoli di Oyono e Tchato: le ultime verso il Milan",
+   "summary": "Le ultime sul Frosinone verso il Milan: il punto sulle condizioni di Terzic, Calvani e Cichella e le possibili soluzioni di formazione per Alvini.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/frosinone/frosinone-dalle-condizioni-terzic-calvani-cichella-possibili-scelte-in-vista-del-milan-ruoli-oyono-tchato-ultime-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302069744-768f41e8861f-e1794502121831.jpg",
+   "date": "2026-11-12T20:00:20+00:00"
+  },
+  {
+   "title": "Italia, Mancini: \"Cisse e Liberali in tribuna? Vi dico il motivo! Frattesi, Pio Esposito e Seba... \"",
+   "summary": "Le parole di Roberto Mancini prima del match di Nations League contro la Francia. Il tecnico ha spiegato alcune scelte in vista della gara.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/italia-mancini-cisse-e-liberali-in-tribuna-vi-dico-il-motivo-frattesi-pio-esposito-e-seba/",
+   "image": "https://static.sosfanta.com/2026/10/IMG_1962-d40cf3f1f1f5-e1791743169973.jpg",
+   "date": "2026-11-12T19:30:57+00:00"
+  },
+  {
+   "title": "Da Raspadori a Kristensen, Bellanova e Gaetano, le ultime sull'Atalanta! Hien e Kossounou...",
+   "summary": "Le ultime sugli indisponibili dell'Atalanta, da Raspadori a Gaetano, Bellanova e non solo. Ecco gli aggiornamenti dall'allenamento.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/raspadori-kristensen-bellanova-gaetano-atalanta-ultime-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302062435-5714606c7b4a-e1793623492671.jpeg",
+   "date": "2026-11-12T19:00:03+00:00"
+  },
+  {
+   "title": "Italia, la formazione ufficiale contro la Francia in Nations League: la scelta su Bastoni, Frattesi e Barella",
+   "summary": "L'Italia sfida la Francia a San Siro in Nations League. Di seguito ecco la formazione ufficiale degli Azzurri scelta da Roberto Mancini.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/italia-formazione-ufficiale-francia-nations-league-bastoni-frattesi-barella-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2268607276-17aeb71b6f69-e1794498085131.jpg",
+   "date": "2026-11-12T18:45:17+00:00"
+  },
+  {
+   "title": "Udinese, Zaniolo si allena regolarmente: come stanno Alaba, Gueye, Zanoli e quando possono tornare",
+   "summary": "Le ultime novità dall'allenamento dell'Udinese agli ordini di Paolo Zanetti: tutti gli aggiornamenti.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/udinese-zaniolo-si-allena-regolarmente-come-stanno-alaba-gueye-zanoli-e-quando-possono-tornare/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304284106-51753a857ca6-e1794400988392.jpeg",
+   "date": "2026-11-12T18:00:34+00:00"
+  },
+  {
+   "title": "Fiorentina, novità su Atta! Le condizioni di Ranieri, Ndour e Pongracic",
+   "summary": "Novità importanti dal Viola Park dove la Fiorentina è tornata ad allenarsi dopo i tre giorni di riposo dati da Vanoli: tutti gli aggiornamenti.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/fiorentina-atta-allenamento-gruppo-ndour-ranieri-pongracic/",
+   "image": "https://static.sosfanta.com/2026/07/Atta-94ec50f0f6c1.png",
+   "date": "2026-11-12T17:00:47+00:00"
   },
   {
    "title": "Heggem si sfoga: \"Non posso continuare a stare in panchina! Sono aperto al trasferimento\". E il Bologna ora...",
@@ -47434,15 +47583,6 @@
    "url": "https://www.sosfanta.com/news/news-thuram-dybala-svilar-neres-di-lorenzo-conceicao-mandragora-zaniolo-atta-quando-torna-lautaro/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2300310661-9e09190fa37e-e1794476775969.jpg",
    "date": "2026-11-12T12:45:46+00:00"
-  },
-  {
-   "title": "Chi scambiare e chi no, sette risposte: da Ramos e Krstovic a Isaksen, Rowe, Cisse, Mora, Alajbegovic, Calha e Dimarco",
-   "summary": "Ecco chi scambiare e chi no, queste sono solo alcune tra le domande arrivate su Instagram o sulla nostra app (c’è la sezione Premium SOS Consiglia).",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/scambi-fantacalcio/scambi-fantacalcio-si-no-sette-risposte-ramos-krstovic-isaksen-rowe-cisse-mora-alajbegovic-dimarco/",
-   "image": "https://static.sosfanta.com/2026/11/Krstovic-86f04af49376-e1794221075869.jpg",
-   "date": "2026-11-12T12:15:44+00:00"
   },
   {
    "title": "Lazio, oggi la ripresa degli allenamenti: gli ultimi aggiornamenti sulle condizioni di Gudmundsson",
@@ -47605,114 +47745,6 @@
    "url": "https://www.sosfanta.com/news/ultimora-rientri-in-gruppo-durante-la-sosta-le-novita-su-conceicao-dybala-e-mancini-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/Conceicao-626e66e726f0-e1792343814333.jpeg",
    "date": "2026-11-11T17:15:27+00:00"
-  },
-  {
-   "title": "Fiorentina, da Atta a Parisi, Pongracic e Ranieri: le ultime sul loro rientro, per Fagioli e Beto...",
-   "summary": "Tra giocatori da recuperare fisicamente e altri da ritrovare al meglio della condizione, il punto sulla Fiorentina.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fiorentina-atta-parisi-pongracic-ranieri-ultime-rientro-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2300303287-f878ba747902-e1792932345170.jpeg",
-   "date": "2026-11-11T17:00:18+00:00"
-  },
-  {
-   "title": "Ds Napoli: \"Rispondo su Varela e seguiamo Cacciamani! Quando tornano Neres, Spinazzola e Favasuli, Alisson...\"",
-   "summary": "Il direttore sportivo del Napoli, Giovanni Manna, ha rilasciato un'intervista ai microfoni di Kiss Kiss Napoli per parlare di mercato e non solo.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-varela-cacciamani-quando-tornano-neres-spinazzola-e-favasuli-alisson-infortunio-tempi-di-recupero/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301111304-6286264a233d-e1794400299144.jpeg",
-   "date": "2026-11-11T16:15:10+00:00"
-  },
-  {
-   "title": "Roma, le novità su Svilar e Gollini dall'ultimo allenamento e cosa filtra sulla loro gestione",
-   "summary": "Le ultime sui due portieri della Roma Svilar e Gollini, come stanno in vista della ripresa del campionato.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/roma-le-novita-su-svilar-e-gollini-dallultimo-allenamento-e-cosa-filtra-sulla-loro-gestione/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2287498848-cbd1c74bc609-e1785219212137.jpg",
-   "date": "2026-11-11T16:00:19+00:00"
-  },
-  {
-   "title": "Cagliari, novità Trepy: cosa risulta dopo i controlli! Per Mina, Nzola Obert e Winks...",
-   "summary": "Ecco gli aggiornamenti sulle condizioni di Trepy e le ultime su Aurelio, Fadera, Mina, Nzola, Obert e Winks.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-novita-trepy-cosa-risulta-dopo-i-controlli-per-mina-nzola-obert-e-winks/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2265268054-0ad592e6cf9d.jpg",
-   "date": "2026-11-11T15:00:47+00:00"
-  },
-  {
-   "title": "Spence out contro la Croazia, Tuchel: \"Non correremo rischi, ecco quando potrà essere a disposizione\"",
-   "summary": "Spence salterà la prima delle due partite dell'Inghilterra come annunciato dal commissario tecnico. Ecco la situazione e il programma previsto.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/spence-out-tuchel-parole-croazia-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294177753-70dbb87ea4ba-e1789480262234.jpg",
-   "date": "2026-11-11T14:30:10+00:00"
-  },
-  {
-   "title": "'Mistero' Zaniolo dopo aver lasciato il ritiro dell'Italia: la situazione, l'idea è che...",
-   "summary": "Zaniolo non giocherà le due partite con l'Italia perchè ha lasciato il ritiro per motivi personali, ma cosa c'è dietro questa scelta?",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/mistero-zaniolo-dopo-aver-lasciato-il-ritiro-dellitalia-oggi-si-allenera-con-ludinese-lidea-e-che/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-1793199043-c92988001274-e1794312498152.jpg",
-   "date": "2026-11-11T14:00:51+00:00"
-  },
-  {
-   "title": "NEWS - Tavares, l’esito dei primi controlli! Lautaro, Zaccagni, Yildiz, Dybala, Pavlovic, Thuram, Bonny, Svilar…",
-   "summary": "È cominciata la sosta per le nazionali, ma arrivano comunque importanti aggiornamenti su infortunati e non solo in ottica fantacalcio.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/news-tavares-lesito-dei-primi-controlli-lautaro-zaccagni-yildiz-dybala-pavlovic-thuram-bonny-svilar/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303979466-36b665e55315-e1794388488666.jpeg",
-   "date": "2026-11-11T13:15:14+00:00"
-  },
-  {
-   "title": "Milan, esami specifici in programma per Pavlovic: le condizioni del difensore e quando può tornare in campo",
-   "summary": "Amorim spera di avere di nuovo a disposizione Pavlovic dopo la sosta ma intanto il difensore dovrà svolgere degli esami specifici.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/milan-pavlovic-condizioni-quando-puo-tornare-in-campo-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/Pavlovic-e58dadaf30e0-e1793973887574.jpg",
-   "date": "2026-11-11T13:00:41+00:00"
-  },
-  {
-   "title": "Chi sale al fantacalcio per scambi e non solo dopo l’ultima giornata: da Spence a Orsolini, ecco sette nomi",
-   "summary": "Chi sale al fantacalcio, in chiave scambi e non soltanto: ecco sette nomi che si sono messi in mostra nell'ultima giornata di Serie A.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/chi-sale-al-fantacalcio-per-scambi-e-non-solo-dopo-lultima-giornata-da-spence-a-orsolini-ecco-sette-nomi/",
-   "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-09-11-02-58-1f4e9ad03536-e1794218600960.jpg",
-   "date": "2026-11-11T12:45:21+00:00"
-  },
-  {
-   "title": "Ad Monza: \"Varela sul mercato? L'obiettivo è questo! Avrà una grande carriera, sappiamo che molte squadre...\"",
-   "summary": "Mauro Baldissoni, ad del Monza, parla a Sky Sport dal Social Football Summit di Torino: il rendimento di Varela, le prospettive di mercato e la FIGC.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/ad-monza-varela-sul-mercato-obiettivo-questo-avra-una-grande-carriera-sappiamo-che-molte-squadre-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304261259-059a1c164db1.jpg",
-   "date": "2026-11-11T12:15:34+00:00"
-  },
-  {
-   "title": "Juve, dai tempi per l'infortunio di Kalulu al programma di rientro per Yildiz: le novità",
-   "summary": "Spalletti attende buone notizie dall'infermeria, ma in casa Juve c'è da registrare il nuovo stop arrivato nella sosta per le nazionali, quello che riguarda K...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kalulu-juve-infortunio-tempi-di-recupero/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800656-cc98c67e17e4-e1790693608532.jpeg",
-   "date": "2026-11-11T12:00:45+00:00"
-  },
-  {
-   "title": "Zaniolo: \"Lasciare Coverciano non facile, chiedo rispetto! Decisione presa per motivi personali, non date credito a...\"",
-   "summary": "Nicolò Zaniolo lascia il ritiro dell’Italia a Coverciano per motivi personali: il chiarimento del giocatore dopo le voci circolate nelle ultime ore.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/zaniolo-lasciare-coverciano-non-facile-chiedo-rispetto-decisione-per-motivi-personali-non-date-credito-a-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Zaniolo-991e02d42c29-e1790783756386.jpg",
-   "date": "2026-11-11T11:45:31+00:00"
   }
  ],
  "marketDifficulty": {
