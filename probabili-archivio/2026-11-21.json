@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-11-14T15:01:44+00:00",
+ "scraped_at_utc": "2026-11-14T20:48:22+00:00",
  "giornata": "2026-11-21T14:00:00.000Z",
  "partite": [
   {
@@ -693,7 +693,7 @@
      },
      {
       "giocatore": "Diego Carlos",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Britschgi",
@@ -734,15 +734,15 @@
       "titolarita_pct": 49
      },
      {
+      "giocatore": "Carboni F.",
+      "titolarita_pct": 49
+     },
+     {
       "giocatore": "Corvi",
       "titolarita_pct": 5
      },
      {
       "giocatore": "Ghidotti",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Carboni F.",
       "titolarita_pct": 5
      },
      {
@@ -791,6 +791,18 @@
        },
        {
         "giocatore": "Cremaschi",
+        "titolarita_pct": 49
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
+        "giocatore": "Diego Carlos",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Carboni F.",
         "titolarita_pct": 49
        }
       ]
@@ -2985,7 +2997,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Robinson J.",
+      "giocatore": "Zeballos",
       "titolarita_pct": 60
      },
      {
@@ -3003,16 +3015,16 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Zeballos",
-      "titolarita_pct": 40
-     },
-     {
       "giocatore": "Ngonge",
       "titolarita_pct": 40
      },
      {
       "giocatore": "Colombo L.",
       "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Cutrone",
+      "titolarita_pct": 40
      },
      {
       "giocatore": "Strajnar",
@@ -3057,10 +3069,6 @@
      {
       "giocatore": "Mout",
       "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Cutrone",
-      "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
@@ -3071,7 +3079,7 @@
         "titolarita_pct": 60
        },
        {
-        "giocatore": "Ngonge",
+        "giocatore": "Cutrone",
         "titolarita_pct": 40
        }
       ]
@@ -3079,11 +3087,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Robinson J.",
+        "giocatore": "Zeballos",
         "titolarita_pct": 60
        },
        {
-        "giocatore": "Zeballos",
+        "giocatore": "Ngonge",
         "titolarita_pct": 40
        }
       ]
@@ -3123,6 +3131,11 @@
       "giocatore": "Folorunsho",
       "stato": "infortunato",
       "nota": "Problema al polpaccio, in dubbio per la 12a."
+     },
+     {
+      "giocatore": "Robinson J.",
+      "stato": "infortunato",
+      "nota": "Affaticamento all'adduttore, in dubbio per la 12a."
      }
     ],
     "ufficiale": false
