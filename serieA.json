@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T00:57:36+00:00",
+ "generatedAt": "2026-11-15T09:37:53+00:00",
  "season": "2026-27",
  "gameweek": 12,
  "note": "Stime calcolate con la sola storia precedente alla giornata 12 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -1770,7 +1770,7 @@
    "appearances": 6,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.21,
-   "playProbability": 0.044,
+   "playProbability": 0.445,
    "events": {
     "gf": 0.3761,
     "rf": 0.0088,
@@ -1791,7 +1791,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.47,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.445,
    "learnedEvents": {
     "gf": 0.1685,
     "rf": 0.0101,
@@ -1829,8 +1829,8 @@
    },
    "quotazione": 16.0,
    "fvm": 100.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -17350,7 +17350,7 @@
    "appearances": 8,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.33,
-   "playProbability": 0.525,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.3786,
     "rf": 0.0086,
@@ -17371,7 +17371,7 @@
     "q90": 9.57
    },
    "learnedVote": 6.64,
-   "learnedPlayProbability": 0.525,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.2365,
     "rf": 0.0088,
@@ -17409,8 +17409,8 @@
    },
    "quotazione": 20.0,
    "fvm": 100.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 60.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -19102,7 +19102,7 @@
    "appearances": 9,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.23,
-   "playProbability": 0.35,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.3436,
     "rf": 0.0086,
@@ -19123,7 +19123,7 @@
     "q90": 7.36
    },
    "learnedVote": 6.59,
-   "learnedPlayProbability": 0.35,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.2353,
     "rf": 0.0058,
@@ -19162,7 +19162,7 @@
    "quotazione": 7.0,
    "fvm": 19.0,
    "lineupSlot": "panchina",
-   "startingProbability": 40.0,
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -46663,22 +46663,6 @@
     {
      "opzioni": [
       {
-       "player_id": "7556",
-       "giocatore": "Mora",
-       "titolarita_pct": 60,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6190",
-       "giocatore": "Pisilli",
-       "titolarita_pct": 40,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
        "player_id": "4998",
        "giocatore": "Molina N.",
        "titolarita_pct": 51,
@@ -47419,13 +47403,67 @@
  ],
  "news": [
   {
+   "title": "NEWS - Cambiaghi, Frattesi, Zaccagni, Tavares, Zielinski, Lautaro, Berardi, Neres, Spinazzola e sollievo Belghali",
+   "summary": "Siamo nel pieno della sosta per le nazionali, ma dai campi di Serie A continuano ad arrivare novità su infortunati e non solo, anche in ottica fantacalcio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-cambiaghi-frattesi-zaccagni-tavares-zielinski-lautaro-berardi-neres-spinazzola-sollievo-belghali/",
+   "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-15-08-27-10-62c62d0a2ca4-e1794727649673.jpg",
+   "date": "2026-11-15T09:30:01+00:00"
+  },
+  {
+   "title": "Bologna, come sta Cambiaghi dopo l'infortunio in nazionale: le condizioni e cosa filtra sui tempi di recupero",
+   "summary": "Gli ultimi aggiornamenti sulle condizioni dell'attaccante del Bologna dopo il problema accusato in nazionale.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/cambiaghi-infortunio-nazionale-condizioni-tempi-recupero/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2297587815-7cfce1bc1b43-e1794662704239.jpeg",
+   "date": "2026-11-15T09:00:02+00:00"
+  },
+  {
+   "title": "Italia, i convocati per il Belgio: out Seba Esposito, il motivo! La scelta su Cisse, Liberali, Pisilli e Gatti",
+   "summary": "Tanta attesa per la sfida di stasera tra il Belgio di Mark Van Bommel e l'Italia di Roberto Mancini dopo la vittoria di venerdì sera contro la Francia. Impor...",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/italia-convocati-out-seba-esposito-cisse-liberali-pisilli-gatti/",
+   "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-15-09-17-00-b0165ce1a50b-e1794730640331.jpg",
+   "date": "2026-11-15T08:20:35+00:00"
+  },
+  {
+   "title": "Italia, la probabile formazione col Belgio: da Pio Esposito e Vergara a Doumbia, Fagioli e il ruolo di Dimarco",
+   "summary": "Le ultime sulla probabile formazione dell’Italia contro il Belgio: le scelte di Mancini, i dubbi da sciogliere e chi può giocare dall’inizio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/italia-probabile-formazione-belgio-pio-esposito-vergara-doumbia-fagioli-dimarco/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301776814-4001dcf79642-e1794726646389.jpg",
+   "date": "2026-11-15T08:15:40+00:00"
+  },
+  {
+   "title": "Scalvini: \"Non penseremo ai due risultati! De Ketelaere una punta atipica, è molto bravo nello spazio e...\"",
+   "summary": "Dall’importanza di Belgio-Italia alle qualità di De Ketelaere: Scalvini racconta la preparazione degli azzurri e gli obiettivi per la qualificazione.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/scalvini-non-penseremo-ai-due-risultati-de-ketelaere-una-punta-atipica-molto-bravo-nello-spazio-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304988174-1-af9399daff9d-e1794690795792.jpg",
+   "date": "2026-11-15T08:00:16+00:00"
+  },
+  {
    "title": "Dovbyk può dire addio al Bologna già a gennaio: il prestito, la posizione della Roma e cosa può succedere",
    "summary": "Riflettori puntati anche sul futuro di Artem Dovbyk. L'attaccante ucraino, che sta faticando e non poco al Bologna, potrebbe vedere messo in discussione il p...",
    "author": "Michael Di Chiaro",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/squadra/bologna/bologna-dovbyk-futuro-cosa-succede-posizione-roma-matteo-moretto/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2293383084-1-ac4c8fef3c7a-e1794496052555.jpg",
-   "date": "2026-11-14T22:45:09+00:00"
+   "date": "2026-11-15T07:45:09+00:00"
+  },
+  {
+   "title": "Mancini: \"Cambiaghi aveva dolore, faremo almeno due cambi! Dimarco più avanti è un’opzione, su Calafiori...\"",
+   "summary": "L'Italia chiude il percorso nella fase a gironi della Nations League: contro il Belgio agli azzurri basta un pari per passare. Parla il CT Roberto Mancini.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/nazionale/mancini-italia-belgio-cambiaghi-dolore-faremo-almeno-due-cambi-dimarco-avanzato-opzione-calafiori-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-1973410819-dab3f7eef9f2-e1794667753749.jpeg",
+   "date": "2026-11-15T07:15:54+00:00"
   },
   {
    "title": "DAI CAMPI - Problemi per Robinson! Conceicao, Neres, Baturina, Gonzalez, Alaba, Spinazzola e Spence in gruppo",
@@ -47434,7 +47472,16 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news-formazioni/dai-campi-problemi-per-robinson-conceicao-neres-baturina-gonzalez-alaba-spinazzola-spence-in-gruppo-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2305079097-fcfdf589dec1-e1794677810374.jpg",
-   "date": "2026-11-14T22:15:34+00:00"
+   "date": "2026-11-15T07:10:34+00:00"
+  },
+  {
+   "title": "Romano - Anguissa verso l'addio al Napoli: dalle possibilità che parta a gennaio a Lucca, Neres e Lang",
+   "summary": "Novità che riguardano il futuro del centrocampista del Napoli, Zambo Anguissa. Dal proprio canale YouTube Fabrizio Romano ha parlato anche di Lucca, Neres e...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/napoli/romano-anguissa-napoli-gennaio-mercato-addio-possibilita-lucca-neres-lang-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2292121271-7ef268d7b46e-e1791907484201.jpeg",
+   "date": "2026-11-15T07:00:04+00:00"
   },
   {
    "title": "Nazionali, super Hojlund: doppietta e Portogallo ko! Alajbegovic, Ramos, Wesley, Paz, Pulisic, Kolasinac...",
@@ -47444,15 +47491,6 @@
    "url": "https://www.sosfanta.com/nazionale/nazionali-super-hojlund-doppietta-e-portogallo-ko-alajbegovic-ramos-wesley-paz-kvernadze-kolasinac/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2305131740-3b4fdf592616-e1794692745422.jpg",
    "date": "2026-11-14T22:00:47+00:00"
-  },
-  {
-   "title": "Mancini: \"Cambiaghi aveva dolore, faremo almeno due cambi! Dimarco più avanti è un’opzione, su Calafiori...\"",
-   "summary": "L'Italia chiude il percorso nella fase a gironi della Nations League: contro il Belgio agli azzurri basta un pari per passare. Parla il CT Roberto Mancini.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/mancini-italia-belgio-cambiaghi-dolore-faremo-almeno-due-cambi-dimarco-avanzato-opzione-calafiori-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-1973410819-dab3f7eef9f2-e1794667753749.jpeg",
-   "date": "2026-11-14T21:15:54+00:00"
   },
   {
    "title": "Fiorentina, i tempi di recupero di Ndour e Pongracic: ecco quando possono tornare",
@@ -47723,60 +47761,6 @@
    "url": "https://www.sosfanta.com/news-formazioni/dai-campi-gonzalez-yildiz-svilar-pavlovic-dybala-isaksen-mancini-bernabe-atta-di-lorenzo-stop-bertola/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2296543500-731580c87882-e1794591038403.jpg",
    "date": "2026-11-13T21:45:31+00:00"
-  },
-  {
-   "title": "Napoli, come vanno i recuperi di Beukema, Di Lorenzo, Lobotka, Buongiorno e chi sarà l'ultimo a rientrare",
-   "summary": "La ripresa degli allenamenti in casa Napoli, nella settimana della sosta, è fissata per domani, sabato 14 novembre, a Castel Volturno.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-beukema-di-lorenzo-lobotka-buongiorno-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2294388142-fc075b150da4-e1793701851718.jpg",
-   "date": "2026-11-13T21:00:14+00:00"
-  },
-  {
-   "title": "BREAKING - Nazionale, Frattesi lascia il ritiro per infortunio: il comunicato e le sue condizioni",
-   "summary": "Davide Frattesi, come comunicato dalla Figc, ha lasciato il raduno azzurro: il centrocampista della Lazio è alle prese con un risentimento muscolare.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/nazionale/breaking-nazionale-frattesi-lascia-ritiro-infortunio/",
-   "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-13-16-38-42-ea8c611609cc-e1794584356451.jpg",
-   "date": "2026-11-13T20:45:23+00:00"
-  },
-  {
-   "title": "Fiorentina, la gestione del rientro di Atta: quando può tornare fra i convocati e quando da titolare",
-   "summary": "Arrivano buone notizie per la Fiorentina di Paolo Vanoli in questa sosta di campionato: Arthur Atta ha iniziato ad allenarsi parzialmente con il gruppo.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fiorentina-atta-infortunio-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293119765-fba540435ec9-e1789135291358.jpeg",
-   "date": "2026-11-13T20:00:28+00:00"
-  },
-  {
-   "title": "Nuovi infortunati e cosa fare al fantacalcio: Kalulu, Miranda, Tavares, Zaccagni, Romero, Bonny, Di Lorenzo...",
-   "summary": "Attenzione a questi giocatori per il fantacalcio: cosa fare con questi casi durante la sosta per le nazionali e la gestione, anche in chiave scambi.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/casi-fantacalcio-cosa-fare-scambi-tavares-miranda-kalulu-dilorenzo-zaccagni-romero/",
-   "image": "https://static.sosfanta.com/2026/11/Bonny-38604d8e6db9-e1794558287514.jpeg",
-   "date": "2026-11-13T19:45:18+00:00"
-  },
-  {
-   "title": "Parma, gli aggiornamenti sull'infortunio di Bernabé e cosa filtra verso la ripresa con la Roma",
-   "summary": "Prosegue il lavoro differenziato per Adrian Bernabé, che non ha ancora superato la distrazione di basso grado al retto femorale della coscia sinistra.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/parma-aggiornamenti-bernabe-verso-roma/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290478615-826c319dc913-e1790412152862.jpeg",
-   "date": "2026-11-13T19:00:10+00:00"
-  },
-  {
-   "title": "FLASH - Belghali lascia il ritiro dell'Algeria per un problema al ginocchio: le sue condizioni",
-   "summary": "Problemi per Rafik Belghali nel Torino di Ignazio Abate, come riferito dalla federazione calcistica algerina dal proprio profilo X.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/belghali-torino-infortunio-algeria-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2299848322-6ffc3e798c61-e1794575873578.jpeg",
-   "date": "2026-11-13T18:45:47+00:00"
   }
  ],
  "marketDifficulty": {
