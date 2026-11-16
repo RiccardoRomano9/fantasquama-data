@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T21:39:50+00:00",
+ "generatedAt": "2026-11-16T01:26:01+00:00",
  "season": "2026-27",
  "gameweek": 12,
  "note": "Stime calcolate con la sola storia precedente alla giornata 12 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -38816,7 +38816,7 @@
    "appearances": 11,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.31,
-   "playProbability": 0.49,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -38837,7 +38837,7 @@
     "q90": 7.87
    },
    "learnedVote": 6.52,
-   "learnedPlayProbability": 0.49,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.0199,
     "rf": 0.0029,
@@ -38875,9 +38875,9 @@
    },
    "quotazione": 15.0,
    "fvm": 52.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true
@@ -41892,7 +41892,7 @@
    "appearances": 0,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.29,
-   "playProbability": 0.471,
+   "playProbability": 0.913,
    "events": {
     "gf": 0.0,
     "rf": 0.0,
@@ -41913,7 +41913,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.471,
+   "learnedPlayProbability": 0.913,
    "learnedEvents": {
     "gf": 0.0199,
     "rf": 0.0029,
@@ -41949,8 +41949,8 @@
    },
    "quotazione": 1.0,
    "fvm": 1.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -47170,22 +47170,6 @@
        "ruolo": "D"
       }
      ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "4312",
-       "giocatore": "Maignan",
-       "titolarita_pct": 51,
-       "ruolo": "P"
-      },
-      {
-       "player_id": "6813",
-       "giocatore": "Torriani",
-       "titolarita_pct": 49,
-       "ruolo": "P"
-      }
-     ]
     }
    ]
   },
@@ -47435,6 +47419,51 @@
  ],
  "news": [
   {
+   "title": "ULTIM'ORA - Infortunio con la Francia per Maignan, il Milan aspetta gli esami: la prima diagnosi e Zidane...",
+   "summary": "Milan in apprensione per l'infortunio accusato in nazionale da Mike Maignan: la prima diagnosi in attesa dei controlli.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/ultimora-infortunio-in-nazionale-per-maignan-il-milan-aspetta-gli-esami-la-prima-diagnosi/",
+   "image": "https://static.sosfanta.com/202506/638efa59baa48e6bf7626f75702b6cc7-e1749364871862.jpg",
+   "date": "2026-11-15T22:45:19+00:00"
+  },
+  {
+   "title": "Mancini: \"Questa serata ci servirà! Pisilli può fare l'ala, vi spiego perchè ho fatto giocare lui e Koleosho\"",
+   "summary": "Le parole di Roberto Mancini al termine di Belgio-Italia, ecco come il commissario tecnico ha commentato la gara degli azzurri.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/mancini-italia-belgio-post-partita-parole-conferenza/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-1973410819-dab3f7eef9f2-e1794667753749.jpeg",
+   "date": "2026-11-15T22:30:14+00:00"
+  },
+  {
+   "title": "BREAKING - Milan, si ferma Maignan in nazionale! Cambio obbligato per infortunio",
+   "summary": "Infortunio per Mike Maignan in nazionale: è stato costretto al cambio all'intervallo della sfida tra la sua Francia e la Turchia per un problema fisico.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-infortunio-maignan-francia-coscia-destra/",
+   "image": "https://static.sosfanta.com/2026/11/Maignan-c05678a058e3-e1794776431652.jpg",
+   "date": "2026-11-15T22:15:06+00:00"
+  },
+  {
+   "title": "Nazionali: Moreira, Krstovic e Osmajic in gol! De Bruyne, CDK, Modric, Rabiot, Diouf, Spence e Calhanoglu...",
+   "summary": "Proseguono gli impegni delle nazionali in Nations League con molti giocatori della Serie A protagonisti in campo. Ecco come sono andati.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/recap-nazionale-moreira-krstovic-osmjaic-de-bruyne-modric-rabiot-diouf-spence-calhanoglu/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2305261907-cd7257720460-e1794777637493.jpg",
+   "date": "2026-11-15T22:00:39+00:00"
+  },
+  {
+   "title": "FLASH - Torino, Vlasic a sorpresa neanche in panchina con la sua nazionale: il motivo del forfait",
+   "summary": "Nikola Vlasic neanche in panchina questa sera per il match della sua Croazia contro la Repubblica Ceca: il motivo del forfait.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/vlasic-forfait-croazia-repubblica-ceca-motivo-infortunio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293064586-f87912f5b71d-e1790922120691.jpg",
+   "date": "2026-11-15T21:45:58+00:00"
+  },
+  {
    "title": "Walter Sabatini e le parole su Gasperini: \"Ho sbagliato e chiedo scusa: ammetto che…”",
    "summary": "Walter Sabatini torna su alcune parole espresse nei confronti di Gasperini chiedendo scusa al diretto interessato.",
    "author": "Andrea Ajello",
@@ -47451,24 +47480,6 @@
    "url": "https://www.sosfanta.com/news/genoa-frendrup-presenza-contro-il-sassuolo-cosa-filtra-fantacalcio/",
    "image": "https://static.sosfanta.com/202606/1a491a84f82cfdd637645eaef683e929.jpg",
    "date": "2026-11-15T21:00:32+00:00"
-  },
-  {
-   "title": "BREAKING - Milan, si ferma Maignan in nazionale! Cambio obbligato per infortunio",
-   "summary": "Infortunio per Mike Maignan in nazionale: è stato costretto al cambio all'intervallo della sfida tra la sua Francia e la Turchia per un problema fisico.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/milan-infortunio-maignan-francia-coscia-destra/",
-   "image": "https://static.sosfanta.com/2026/11/Maignan-c05678a058e3-e1794776431652.jpg",
-   "date": "2026-11-15T20:55:06+00:00"
-  },
-  {
-   "title": "FLASH - Torino, Vlasic a sorpresa neanche in panchina con la sua nazionale: il motivo del forfait",
-   "summary": "Nikola Vlasic neanche in panchina questa sera per il match della sua Croazia contro la Repubblica Ceca: il motivo del forfait.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/torino/vlasic-forfait-croazia-repubblica-ceca-motivo-infortunio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2293064586-f87912f5b71d-e1790922120691.jpg",
-   "date": "2026-11-15T20:45:58+00:00"
   },
   {
    "title": "Celik dà forfait con la Turchia: problema nel riscaldamento, cosa filtra sulle sue condizioni",
@@ -47766,33 +47777,6 @@
    "url": "https://www.sosfanta.com/consigli-fantacalcio/casi-al-fantacalcio-cosa-fare-con-questi-big-ramos-dimarco-berardi-dybala-zaniolo-mckennie-e-davis/",
    "image": "https://static.sosfanta.com/2026/11/Ramos-732a4a730ad4-e1794563011887.jpg",
    "date": "2026-11-14T20:45:10+00:00"
-  },
-  {
-   "title": "Gattuso: \"Come stanno Tavares, Zaccagni, Frattesi e la loro gestione! Sutalo, Gud, Cancellieri, Rovella...\"",
-   "summary": "L'allenatore della Lazio, Gennaro Gattuso, ha parlato ai microfoni di LazioStyleChannel dopo la sfida vinta per 3-0 contro il Mgarr United.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lazio-gattuso-frattesi-zaccagni-nuno-tavares-infortunio-tempi-di-recupero-fantacalcio-sutalo-marusic/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304104781-66c6a9ec5d5a-e1794662720766.jpeg",
-   "date": "2026-11-14T20:15:58+00:00"
-  },
-  {
-   "title": "Udinese, le ultime sullo stop di Bertola e le condizioni di Alaba verso il Bologna",
-   "summary": "Stop per Nicolò Bertola: lesione al semimembranoso della coscia destra, come spiega il Messaggero Veneto. Il difensore salterà la sfida col Bologna.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/udinese/udinese-bertola-infortunio-coscia-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Alaba-6686f243bfc2-e1790252468788.png",
-   "date": "2026-11-14T20:00:06+00:00"
-  },
-  {
-   "title": "Alvini: \"Raimondo può tornare prima, ecco i tempi! Follie per il fantacalcio, i miei figli mi chiedono di lui\"",
-   "summary": "Massimiliano Alvini, allenatore del Frosinone, ha parlato in un'intervista concessa ad Adnkronos: le parole del tecnico dal fanta a Raimondo.",
-   "author": "Daniele Burigana",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/raimondo-alvini-frosinone-fantacalcio-tempi-di-recupero-infortunio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302069717-8f49937bdf57-e1794663517279.jpeg",
-   "date": "2026-11-14T19:45:23+00:00"
   }
  ],
  "marketDifficulty": {
