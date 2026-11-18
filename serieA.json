@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T07:43:12+00:00",
+ "generatedAt": "2026-11-18T17:13:54+00:00",
  "season": "2026-27",
  "gameweek": 12,
  "note": "Stime calcolate con la sola storia precedente alla giornata 12 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -5525,7 +5525,7 @@
    "appearances": 0,
    "gameweeksElapsed": 9,
    "estimatedVote": 6.05,
-   "playProbability": 0.0,
+   "playProbability": 0.044,
    "events": {
     "gf": 0.1189,
     "rf": 0.006,
@@ -5546,7 +5546,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.92,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.044,
    "learnedEvents": {
     "gf": 0.1224,
     "rf": 0.0082,
@@ -5582,9 +5582,9 @@
    },
    "quotazione": 1.0,
    "fvm": 3.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "indisponibile",
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": false
@@ -9396,7 +9396,7 @@
    "appearances": 11,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.16,
-   "playProbability": 0.285,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.1546,
     "rf": 0.008,
@@ -9417,7 +9417,7 @@
     "q90": 6.54
    },
    "learnedVote": 6.43,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1583,
     "rf": 0.008,
@@ -9455,8 +9455,8 @@
    },
    "quotazione": 8.0,
    "fvm": 25.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -14078,7 +14078,7 @@
    "appearances": 6,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.14,
-   "playProbability": 0.044,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.1947,
     "rf": 0.0124,
@@ -14099,7 +14099,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.2,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.2081,
     "rf": 0.008,
@@ -14135,8 +14135,8 @@
    },
    "quotazione": 12.0,
    "fvm": 45.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -22046,7 +22046,7 @@
    "appearances": 11,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.19,
-   "playProbability": 0.0,
+   "playProbability": 0.285,
    "events": {
     "gf": 0.066,
     "rf": 0.0054,
@@ -22067,7 +22067,7 @@
     "q90": 6.75
    },
    "learnedVote": 6.26,
-   "learnedPlayProbability": 0.0,
+   "learnedPlayProbability": 0.285,
    "learnedEvents": {
     "gf": 0.0707,
     "rf": 0.0359,
@@ -22105,9 +22105,9 @@
    },
    "quotazione": 13.0,
    "fvm": 73.0,
-   "lineupSlot": "indisponibile",
-   "startingProbability": 0.0,
-   "status": "infortunato",
+   "lineupSlot": null,
+   "startingProbability": null,
+   "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -22847,8 +22847,8 @@
    },
    "quotazione": 6.0,
    "fvm": 17.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 5.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -27798,8 +27798,8 @@
    },
    "quotazione": 3.0,
    "fvm": 5.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -32843,7 +32843,7 @@
    "appearances": 0,
    "gameweeksElapsed": 0,
    "estimatedVote": 6.02,
-   "playProbability": 0.285,
+   "playProbability": 0.83,
    "events": {
     "gf": 0.108,
     "rf": 0.0011,
@@ -32864,7 +32864,7 @@
     "q90": 7.22
    },
    "learnedVote": 6.25,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.83,
    "learnedEvents": {
     "gf": 0.0768,
     "rf": 0.0044,
@@ -32890,8 +32890,8 @@
    },
    "quotazione": 13.0,
    "fvm": 42.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "titolare",
+   "startingProbability": 95.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -47620,116 +47620,6 @@
  ],
  "teams": [
   {
-   "name": "Lazio",
-   "formation": "4-3-3",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "2038",
-       "giocatore": "Pinamonti",
-       "titolarita_pct": 60,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "5500",
-       "giocatore": "Cancellieri",
-       "titolarita_pct": 40,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "2848",
-       "giocatore": "Frattesi",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "6629",
-       "giocatore": "Dele-Bashiru",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "4817",
-       "giocatore": "Pedraza",
-       "titolarita_pct": 60,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "2728",
-       "giocatore": "Pellegrini Lu.",
-       "titolarita_pct": 40,
-       "ruolo": "D"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Lecce",
-   "formation": "3-5-1-1",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "5029",
-       "giocatore": "Geubbels",
-       "titolarita_pct": 55,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "7252",
-       "giocatore": "Stulic",
-       "titolarita_pct": 45,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7602",
-       "giocatore": "Fatah",
-       "titolarita_pct": 51,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "7001",
-       "giocatore": "N'Dri",
-       "titolarita_pct": 49,
-       "ruolo": "A"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6826",
-       "giocatore": "Dembelè A.",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "7240",
-       "giocatore": "Siebert",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "name": "Como 1907",
    "formation": "4-2-3-1",
    "isOfficial": false,
@@ -47849,6 +47739,116 @@
        "player_id": "7621",
        "giocatore": "Sugawara",
        "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Lazio",
+   "formation": "4-3-3",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "2038",
+       "giocatore": "Pinamonti",
+       "titolarita_pct": 60,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "5500",
+       "giocatore": "Cancellieri",
+       "titolarita_pct": 40,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "2848",
+       "giocatore": "Frattesi",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "6629",
+       "giocatore": "Dele-Bashiru",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "4817",
+       "giocatore": "Pedraza",
+       "titolarita_pct": 60,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "2728",
+       "giocatore": "Pellegrini Lu.",
+       "titolarita_pct": 40,
+       "ruolo": "D"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Lecce",
+   "formation": "3-5-1-1",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "5029",
+       "giocatore": "Geubbels",
+       "titolarita_pct": 55,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "7252",
+       "giocatore": "Stulic",
+       "titolarita_pct": 45,
+       "ruolo": "A"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7602",
+       "giocatore": "Fatah",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "7001",
+       "giocatore": "N'Dri",
+       "titolarita_pct": 49,
+       "ruolo": "A"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6826",
+       "giocatore": "Dembelè A.",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "7240",
+       "giocatore": "Siebert",
+       "titolarita_pct": 49,
        "ruolo": "D"
       }
      ]
@@ -48170,100 +48170,6 @@
    ]
   },
   {
-   "name": "Sassuolo",
-   "formation": "4-3-3",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "7347",
-       "giocatore": "Bowie",
-       "titolarita_pct": 60,
-       "ruolo": "A"
-      },
-      {
-       "player_id": "6895",
-       "giocatore": "Dominguez B.",
-       "titolarita_pct": 40,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "6985",
-       "giocatore": "Candè",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "4147",
-       "giocatore": "Caleta-Car",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "7573",
-       "giocatore": "Cinquegrano",
-       "titolarita_pct": 51,
-       "ruolo": "D"
-      },
-      {
-       "player_id": "6896",
-       "giocatore": "Van Der Brempt",
-       "titolarita_pct": 49,
-       "ruolo": "D"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Genoa",
-   "formation": "3-4-2-1",
-   "isOfficial": false,
-   "ballottaggi": [
-    {
-     "opzioni": [
-      {
-       "player_id": "4970",
-       "giocatore": "Messias",
-       "titolarita_pct": 55,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5823",
-       "giocatore": "Baldanzi",
-       "titolarita_pct": 45,
-       "ruolo": "C"
-      }
-     ]
-    },
-    {
-     "opzioni": [
-      {
-       "player_id": "2857",
-       "giocatore": "Traorè Hj.",
-       "titolarita_pct": 51,
-       "ruolo": "C"
-      },
-      {
-       "player_id": "5946",
-       "giocatore": "Sow",
-       "titolarita_pct": 49,
-       "ruolo": "C"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "name": "Bologna",
    "formation": "3-4-3",
    "isOfficial": false,
@@ -48277,8 +48183,8 @@
        "ruolo": "C"
       },
       {
-       "player_id": "184",
-       "giocatore": "Bernardeschi",
+       "player_id": "4436",
+       "giocatore": "Cambiaghi",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -48368,6 +48274,100 @@
        "giocatore": "Kabasele",
        "titolarita_pct": 40,
        "ruolo": "D"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sassuolo",
+   "formation": "4-3-3",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "7347",
+       "giocatore": "Bowie",
+       "titolarita_pct": 60,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "6895",
+       "giocatore": "Dominguez B.",
+       "titolarita_pct": 40,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6985",
+       "giocatore": "Candè",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "4147",
+       "giocatore": "Caleta-Car",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "7573",
+       "giocatore": "Cinquegrano",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6896",
+       "giocatore": "Van Der Brempt",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Genoa",
+   "formation": "3-4-2-1",
+   "isOfficial": false,
+   "ballottaggi": [
+    {
+     "opzioni": [
+      {
+       "player_id": "4970",
+       "giocatore": "Messias",
+       "titolarita_pct": 55,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5823",
+       "giocatore": "Baldanzi",
+       "titolarita_pct": 45,
+       "ruolo": "C"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "2857",
+       "giocatore": "Traorè Hj.",
+       "titolarita_pct": 51,
+       "ruolo": "C"
+      },
+      {
+       "player_id": "5946",
+       "giocatore": "Sow",
+       "titolarita_pct": 49,
+       "ruolo": "C"
       }
      ]
     }
@@ -48690,22 +48690,148 @@
  ],
  "news": [
   {
-   "title": "Incredibile Calò! È primo davanti a Guler, Yamal e Olise in questo dato nei top 5 campionati europei",
-   "summary": "Nessuno come Giacomo Calò in tutta Europa, nei top 5 campionati europei: è davanti a Guler, Yamal e Olise!",
-   "author": "Alessandro Cosattini",
+   "title": "Inter, Lautaro e Thuram sono recuperati ma c'è una differenza: chi rientrerà dal 1' contro il Parma",
+   "summary": "Buone notizie per Chivu, che ha recuperato Thuram e Lautaro Martinez. Ecco chi dei due rientrerà dal primo minuto contro il Parma.",
+   "author": "Tommaso Lerro",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/frosinone/incredibile-calo-dato-davanti-guler-yamal-olise-europa/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2302572273-5966975ebd88-e1793301992907.jpg",
-   "date": "2026-11-18T07:00:42+00:00"
+   "url": "https://www.sosfanta.com/squadra/inter/inter-lautaro-e-thuram-sono-recuperati-ma-ce-una-differenza-chi-rientrera-dal-1-contro-il-parma/",
+   "image": "https://static.sosfanta.com/2026/11/IMG_4872-416e3230579b-e1795000167889.jpg",
+   "date": "2026-11-18T17:00:40+00:00"
   },
   {
-   "title": "ULTIM'ORA - Fiorentina in ansia per Njie: stop e cambio con la Svezia, ecco cos’è successo",
-   "summary": "Apprensione in casa Fiorentina: Alieu Njie ha chiesto il cambio a 20' dalla fine contro la Polonia per un problema alla coscia",
+   "title": "Portieri al fantacalcio, novità e gerarchie: da Napoli e Inter a Como, Roma e Parma, cosa cambia e come gestirli",
+   "summary": "Ballottaggi, alternanze e recuperi: cosa cambia tra i portieri di Serie A e come gestirli al fantacalcio durante la sosta per le nazionali.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/portieri-fantacalcio-novita-gerarchie-napoli-inter-como-roma-parma-cosa-cambia-come-gestirli-scambi-sosta/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301907983-af662c1e7d7f-e1794422159973.jpg",
+   "date": "2026-11-18T16:55:23+00:00"
+  },
+  {
+   "title": "Conte: “Juve, ho lasciato un segno: prima o poi il cerchio si chiuderà”. E Carnevali: “Investimenti difficili”",
+   "summary": "Dalle dichiarazioni di Carnevali sul progetto Juventus alle parole di Conte sul suo futuro: tutti i temi affrontati e i retroscena raccontati.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/conte-juve-ho-lasciato-un-segno-prima-o-poi-il-cerchio-si-chiudera-carnevali-investimenti-difficili-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2276127298-ee9b55838820-e1795014624411.jpg",
+   "date": "2026-11-18T16:45:46+00:00"
+  },
+  {
+   "title": "Sorprese inaspettate e non solo: occhio a questi sette giocatori al fantacalcio",
+   "summary": "Non solo Floriani Mussolini: ecco sette nomi a sorpresa che si sono messi in luce in queste prime giornate di campionato e al fantacalcio.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/sorprese-inaspettate-e-non-solo-occhio-a-questi-sette-giocatori-al-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302274579-9c5572ca0187-e1794573398693.jpg",
+   "date": "2026-11-18T16:15:09+00:00"
+  },
+  {
+   "title": "Gazzetta - Novità per il rientro di Yildiz, ecco come sta. La Juve ora deve evitare questo rischio",
+   "summary": "Cresce l'ottimismo per Yildiz, ieri è stato fotografato correre con il pallone. Ma la Juve ora dovrà evitare questo rischio...",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/gazzetta-novita-per-il-rientro-di-yildiz-ecco-come-sta-la-juve-ora-deve-evitare-questo-rischio/",
+   "image": "https://static.sosfanta.com/202606/7979658b447cdaea93611d582b2932b0-e1780993645456.jpg",
+   "date": "2026-11-18T16:00:39+00:00"
+  },
+  {
+   "title": "Roma, le condizioni di Svilar verso il Parma: c'è ancora un problema. Per Dybala, Mora e Gollini...",
+   "summary": "Svilar continua ad essere monitorato, il portiere avverte ancora fastidio. Possibile spazio a Dybala dal primo minuto verso il Parma.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-le-condizioni-di-svilar-verso-il-parma-ce-ancora-un-problema-e-per-dybala/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2297882985-27a625436251-e1793178709953.jpg",
+   "date": "2026-11-18T15:00:12+00:00"
+  },
+  {
+   "title": "Casi a centrocampo, cosa fare al fanta: da Samardzic, Rowe e Vergara a Gudmundsson, Jones, Sucic e Diouf",
+   "summary": "La sosta per le nazionali è nel vivo e si possono fare i primi bilanci anche al fantacalcio: cosa fare con questi casi a centrocampo, anche per gli scambi.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/casi-a-centrocampo-cosa-fare-al-fantacalcio-da-samardzic-rowe-e-vergara-a-gudmundsson-jones-sucic-e-diouf/",
+   "image": "https://static.sosfanta.com/2026/11/Samardzic-c43d45a500a7-e1794570002745.jpg",
+   "date": "2026-11-18T14:15:43+00:00"
+  },
+  {
+   "title": "La Provincia - Como, la diagnosi su Kean è un mistero: il colpo, l'ambulanza, l'ospedale e il timore che...",
+   "summary": "La Provincia fa il punto sulle condizioni di Moise Kean: gli accertamenti, la nota del Como e le incognite sul ritorno in campo dell’attaccante.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/como/la-provincia-como-diagnosi-kean-mistero-colpo-ambulanza-ospedale-timore-nuovo-infortunio-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/Kean-e55059b0c47b-e1794906102172.jpeg",
+   "date": "2026-11-18T14:00:29+00:00"
+  },
+  {
+   "title": "Novità Torino: ecco l’esito dei primi esami per Vlasic e cosa filtra sui tempi di recupero",
+   "summary": "Si è fermato Nikola Vlasic durante gli impegni della sua Croazia: ecco le condizioni del centrocampista del Torino dopo gli esami strumentali.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/torino/vlasic-torino-infortunio-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-16-10-14-39-d69f96fb07c4-e1794820877133.jpg",
+   "date": "2026-11-18T13:15:26+00:00"
+  },
+  {
+   "title": "Juventus, dal rientro in gruppo di Zhegrova alle novità su Celik, Nico Gonzalez e Cambiaso: le ultime",
+   "summary": "Juventus, Zhegrova svolge l’intera seduta in gruppo: gli aggiornamenti su Celik, Cambiaso, Nico Gonzalez e Kalulu e le novità dall’allenamento.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juventus-dal-rientro-in-gruppo-di-zhegrova-alle-novita-su-celik-nico-gonzalez-e-cambiaso-le-ultime/",
+   "image": "https://static.sosfanta.com/2026/10/Zhegrova-5fff9e94b910-e1791137234972.jpg",
+   "date": "2026-11-18T13:00:31+00:00"
+  },
+  {
+   "title": "NEWS - Kean, Maignan, Lautaro, Dybala, Yildiz, Svilar, M. Thuram, Frattesi e l'esito dei controlli di Akanji",
+   "summary": "Si avvicina la ripresa del campionato con la 12^ giornata alle porte e arrivano importantissime novità sugli infortunati e non solo in chiave fantacalcio: ec...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/news-kean-maignan-lautaro-dybala-yildiz-svilar-m-thuram-frattesi-e-lesito-dei-controlli-di-akanji/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303861753-bf172f0e533f-e1794992487480.jpeg",
+   "date": "2026-11-18T12:45:41+00:00"
+  },
+  {
+   "title": "Bologna, allenamento in gruppo per Cambiaghi! Rientrati Ferguson e Mbangula, per Enem e Miranda...",
+   "summary": "Le ultime dall’allenamento del Bologna verso l’Udinese: il ritorno di Cambiaghi, Ferguson e Mbangula e il punto su Juan Miranda e Jay Enem.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/bologna/bologna-allenamento-in-gruppo-per-cambiaghi-rientrati-ferguson-mbangula-per-enem-miranda-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2292963445-a5a31fa39451-e1794863101197.jpeg",
+   "date": "2026-11-18T12:30:40+00:00"
+  },
+  {
+   "title": "Inter, le condizioni di Akanji dopo l'affaticamento in nazionale: cosa filtra per la ripresa",
+   "summary": "L'Inter si prepara verso la ripresa contro l'Atalanta, ecco i giocatori in rientro dalle nazionali e le condizioni di Akanji.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/inter-le-condizioni-di-akanji-dopo-laffaticamento-in-nazionale-cosa-filtra-per-la-ripresa/",
+   "image": "https://static.sosfanta.com/202604/605960ee3581f03fe3047cfffac0ded1-e1776678541655.jpg",
+   "date": "2026-11-18T12:00:48+00:00"
+  },
+  {
+   "title": "Romano - Bruno Fernandes è un sogno per un club di Serie A: cosa succede dietro le quinte",
+   "summary": "Bruno Fernandes è un'opportunità per gennaio o per giugno 2027 per un club di Serie A: ecco cosa risulta a Fabrizio Romano e Matteo Moretto",
    "author": "Matteo Pifferi",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-njie-infortunio-svezia-polonia-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303753282-39e6db30c11b-e1794954003489.jpg",
-   "date": "2026-11-17T22:45:39+00:00"
+   "url": "https://www.sosfanta.com/squadra/milan/fabrizio-romano-bruno-fernandes-milan-juve-clausola-gennaio-cosa-succede-dietro-quinte-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304249266-c5df83b228bf-e1794955712184.jpg",
+   "date": "2026-11-18T11:45:53+00:00"
+  },
+  {
+   "title": "Gazzetta - Milan, cosa filtra per Maignan contro il Frosinone dopo gli esami. Per Pavlovic...",
+   "summary": "Nessuna lesione per Maignan dopo i test effettuati. Questo il punto della Gazzetta dello Sport sul suo impiego con il Frosinone. Per Pavlovic...",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/gazzetta-milan-cosa-filtra-per-maignan-contro-il-frosinone-dopo-gli-esami-per-pavlovic/",
+   "image": "https://static.sosfanta.com/2026/11/IMG_2093-27f468710f89-e1794993495522.jpg",
+   "date": "2026-11-18T11:00:51+00:00"
+  },
+  {
+   "title": "Kean, dai tempi di recupero ai dettagli sul nuovo problema e cosa filtra sulla possibilità di operarsi",
+   "summary": "In casa Como non c'è pace per Moise Kean: un problema tira l'altro e vederlo in campo solamente nel 2027 ora è uno scenario inevitabile.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/infortunio-kean-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294837011-7e01141ea32c-e1791906671988.jpeg",
+   "date": "2026-11-18T10:00:23+00:00"
   },
   {
    "title": "Casi di mercato e occhio per il fantacalcio: da De Bruyne a Camarda, Dovbyk e Varela, ecco 6 nomi",
@@ -48714,7 +48840,43 @@
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/calciomercato/casi-di-mercato-e-occhio-per-il-fantacalcio-da-de-bruyne-a-camarda-dovbyk-e-varela-ecco-6-nomi/",
    "image": "https://static.sosfanta.com/2026/11/Varela-a141cb5f2101-e1794912623993.jpg",
-   "date": "2026-11-17T22:30:14+00:00"
+   "date": "2026-11-18T09:45:14+00:00"
+  },
+  {
+   "title": "Romano - Bynoe-Gittens piace alla Roma: la posizione del Chelsea e il nodo da sciogliere per gennaio",
+   "summary": "Bynoe-Gittens resta un nome da seguire per la Roma: Romano racconta il gradimento di Gasperini e gli aspetti da valutare per il mercato di gennaio.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/fabrizio-romano-bynoe-gittens-piace-alla-roma-posizione-chelsea-nodo-sciogliere-gennaio-mercato-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2294687639-b95e679846af-e1794909600422.jpg",
+   "date": "2026-11-18T09:00:56+00:00"
+  },
+  {
+   "title": "Nazionali: Pulisic in rovesciata, super doppiette di Nico Paz e Mastantuono, due assist di Perrone",
+   "summary": "I fantasisti di Como e Fiorentina protagonisti assoluti nella sfida vinta a valanga dall'Albiceleste di Scaloni, contro la Costa Rica.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/nico-paz-mastantuono-argentina-perrone-costa-rica-pulisic-rovesciata/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2305613358-e5175721d8c0-e1794989297858.jpeg",
+   "date": "2026-11-18T08:00:44+00:00"
+  },
+  {
+   "title": "ULTIM'ORA - Fiorentina in ansia per Njie: stop e cambio con la Svezia, ecco cos’è successo",
+   "summary": "Apprensione in casa Fiorentina: Alieu Njie ha chiesto il cambio a 20' dalla fine contro la Polonia per un problema alla coscia",
+   "author": "Matteo Pifferi",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-njie-infortunio-svezia-polonia-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303753282-39e6db30c11b-e1794954003489.jpg",
+   "date": "2026-11-18T07:15:39+00:00"
+  },
+  {
+   "title": "Incredibile Calò! È primo davanti a Guler, Yamal e Olise in questo dato nei top 5 campionati europei",
+   "summary": "Nessuno come Giacomo Calò in tutta Europa, nei top 5 campionati europei: è davanti a Guler, Yamal e Olise!",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/frosinone/incredibile-calo-dato-davanti-guler-yamal-olise-europa/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2302572273-5966975ebd88-e1793301992907.jpg",
+   "date": "2026-11-18T07:00:42+00:00"
   },
   {
    "title": "Nazionali, Hojlund segna ancora! Gol Birligea, Oulai e Ilkhan, assist per Isaksen, Alajbegovic e Solet",
@@ -48886,168 +49048,6 @@
    "url": "https://www.sosfanta.com/squadra/como/como-kean-nuovo-problema-tibia-tempi-allungano-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/Kean-2f8ef8d715b7-e1793275032900.jpeg",
    "date": "2026-11-17T14:30:29+00:00"
-  },
-  {
-   "title": "Juve, Zhegrova torna a lavorare in parte col gruppo! I rientri di Celik, Cambiaso, Nico Gonzalez e Yildiz...",
-   "summary": "Importanti notizie dall'allenamento odierno della Juventus verso la ripresa del campionato contro il Venezia.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-rientri-zhegrova-celik-cambiaso-nico-gonzalez-yildiz-novita-fantacalcio/",
-   "image": "https://static.sosfanta.com/202511/2a7e820a3db2037d7159414cf81d2ac3.jpg",
-   "date": "2026-11-17T14:00:11+00:00"
-  },
-  {
-   "title": "NEWS - Pavlovic, Vlasic, Neres, Nico, Cambiaso, Zaccagni, Tavares, Frattesi, Thuram, Lautaro e novità Zielinski",
-   "summary": "Si avvicina la ripresa del campionato e arrivano importantissime novità sugli infortunati e non solo in chiave fantacalcio: ecco le principali.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-maignan-pavlovic-vlasic-nico-cambiaso-zaccagni-tavares-frattesi-thuram-lautaro-e-novita-zielinski/",
-   "image": "https://static.sosfanta.com/2026/11/Zielinski-9c00b86aa4d7-e1794904555298.jpg",
-   "date": "2026-11-17T13:15:02+00:00"
-  },
-  {
-   "title": "Lazio, chi rientra e chi no contro il Lecce: da Frattesi, Zaccagni e Tavares alle ultime su Marusic e Sutalo",
-   "summary": "Chi recupera nella Lazio dopo la sosta: gli aggiornamenti su Frattesi, Zaccagni e Tavares, le condizioni di Sutalo e Marusic e i possibili rientri.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/lazio-chi-rientra-chi-no-contro-lecce-frattesi-zaccagni-tavares-ultime-marusic-sutalo-infortunati-rientri-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2294043867-442f75e1c47c-e1794905203972.jpg",
-   "date": "2026-11-17T13:00:40+00:00"
-  },
-  {
-   "title": "FLASH - Napoli, arriva la prima offerta per De Bruyne: la cifra e la posizione del club",
-   "summary": "In Olanda non hanno alcun dubbio: arriva la prima offerta ufficiale del PSV Eindhoven per Kevin De Bruyne.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/napoli/napoli-offerta-ufficiale-psv-debruyne-cifra-posizione-club/",
-   "image": "https://static.sosfanta.com/2026/11/De-Bruyne-1c887272b447-e1794763017585.jpg",
-   "date": "2026-11-17T12:45:58+00:00"
-  },
-  {
-   "title": "Allarme da Como, c'è un fitto velo di mistero su Moise Kean: nuovi controlli e il rientro slitta ancora",
-   "summary": "Moise Kean non è pronto a rientrare. E non lo sarà a breve secondo le indiscrezioni che arrivano da Como sulle condizioni dell’attaccante.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/allarme-como-fitto-velo-mistero-moise-kean-slitta-rientro-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/Kean-e55059b0c47b-e1794906102172.jpeg",
-   "date": "2026-11-17T12:15:09+00:00"
-  },
-  {
-   "title": "Torino, nuovi esami per Vlasic dopo lo stop in nazionale: cosa filtra verso il Napoli",
-   "summary": "Le ultime sulle condizioni di Vlasic: il Torino attende nuovi accertamenti dopo lo stop in nazionale, da valutare la sua presenza contro il Napoli.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/torino/torino-nuovi-esami-per-vlasic-dopo-stop-in-nazionale-cosa-filtra-verso-napoli-infortunati-rientri-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Vlasic-b2465c5ad2c5-e1790242501424.jpg",
-   "date": "2026-11-17T12:00:49+00:00"
-  },
-  {
-   "title": "Tabella indisponibili Serie A, tutti gli infortunati e i tempi di recupero per il fantacalcio: da Yildiz a Raimondo",
-   "summary": "Ecco la tabella indisponibili di SOS Fanta per la stagione 2026-2027, sempre aggiornata: tutti gli infortunati, gli squalificati e i diffidati di Serie A.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2291800656-cc98c67e17e4-e1790693608532.jpeg",
-   "date": "2026-11-17T11:30:42+00:00"
-  },
-  {
-   "title": "A.d. Bologna: \"Cambiaghi, decisione presa per gennaio! Rispondo su Piccoli e vedremo per Dovbyk\"",
-   "summary": "L'amministratore delegato del Bologna, Claudio Fenucci, ha rilasciato una intervista ai microfoni di Tmw: diversi annunci del dirigente, a partire da Cambiaghi.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/bologna-cambiaghi-dovbyk-piccoli-calciomercato-gennaio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2292963445-a5a31fa39451-e1794863101197.jpeg",
-   "date": "2026-11-17T11:15:17+00:00"
-  },
-  {
-   "title": "Inter, da Lautaro e Thuram a Zielinski e Akanji: cosa filtra per l’Atalanta e le novità dall’infermeria",
-   "summary": "L’Inter prepara la trasferta con l’Atalanta: la gestione di Lautaro e Thuram, gli aggiornamenti su Zielinski e Akanji e chi torna a disposizione.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-lautaro-thuram-zielinski-akanji-cosa-filtra-atalanta-novita-infermeria-infortunati-rientri-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2293690490-8f9965944fc6-e1794903405404.jpg",
-   "date": "2026-11-17T11:00:34+00:00"
-  },
-  {
-   "title": "Milan, esami per Maignan e ottimismo per Pavlovic: le novità sui recuperi di Tomori e Loftus-Cheek",
-   "summary": "Le novità dall’infermeria del Milan: cosa filtra su Maignan e Pavlovic, i controlli per Tomori e Loftus-Cheek e le prospettive di rientro.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/milan-esami-per-maignan-ottimismo-pavlovic-novita-recuperi-tomori-loftus-cheek-infortunati-rientri-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2292493924-7ffcd7b9884e-e1794903913817.jpg",
-   "date": "2026-11-17T10:00:14+00:00"
-  },
-  {
-   "title": "Juve, chi torna e chi no col Venezia: da Conceicao e Cambiaso agli stop di Zhegrova, Celik e Kalulu",
-   "summary": "Chi recupera nella Juve per il Venezia e chi resta fuori: le ultime su Conceicao, Cambiaso, Zhegrova e Celik, con gli aggiornamenti dall’infermeria.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-chi-torna-chi-no-venezia-conceicao-cambiaso-stop-zhegrova-celik-kalulu-infortunati-rientri-fantacalcio/",
-   "image": "https://static.sosfanta.com/202602/8d3971a9ad4a170ecb156c50ce128e1e-e1770132807521.jpg",
-   "date": "2026-11-17T09:00:26+00:00"
-  },
-  {
-   "title": "Como, per Nico Paz e Ramon situazioni diverse col Real Madrid: gli scenari di mercato tra gennaio e l'estate",
-   "summary": "Fabrizio Romano e Matteo Moretto su YouTube fanno chiarezza su presente e futuro di Nico Paz e Jacobo Ramon: ecco le ultimissime.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/como-nico-paz-ramon-situazioni-diverse-realmadrid-scenari-gennaio-giugno/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301443260-f5a73201b56a-e1792837007410.jpg",
-   "date": "2026-11-17T08:00:03+00:00"
-  },
-  {
-   "title": "Romano - Retroscena Pio Esposito: la cifra che aveva pronta il Newcastle e la risposta dell'Inter",
-   "summary": "Solamente lo scorso settembre l'Inter ha ufficializzato il rinnovo di contratto per Francesco Pio Esposito fino al 30 giugno 2032: emerge un retroscena.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/pio-esposito-inter-newcastle-calciomercato/",
-   "image": "https://static.sosfanta.com/2026/11/Pio-Esposito-a7e69767a2b8.jpg",
-   "date": "2026-11-17T07:00:16+00:00"
-  },
-  {
-   "title": "DAI CAMPI - Lautaro, Thuram, Yildiz, Celik, Zhegrova, Chalobah, Diao, Nzola, Pavlovic e le ultime su Atta e Raimondo",
-   "summary": "Importanti novità oggi dai campi e non solo in vista della ripresa di Serie A e fantacalcio: ecco le ultimissime dagli allenamenti.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-lautaro-thuram-yildiz-celik-zhegrova-chalobah-diao-nzola-pavlovic-e-le-ultime-su-atta-e-raimondo/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2293807323-64ba168c5110-e1788708128299.jpeg",
-   "date": "2026-11-16T22:45:56+00:00"
-  },
-  {
-   "title": "Chivu: \"Panchina d'Oro premio speciale. Inter favorita? Sento etichette che...\"",
-   "summary": "Così Christian Chivu, allenatore dell'Inter, vincitore della Panchina d'Oro della serie A per la stagione 2025-2026.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/chivu-panchina-doro-parole-inter-scudetto-etichette/",
-   "image": "https://static.sosfanta.com/2026/10/Chivu-3-d9a14310553b.jpg",
-   "date": "2026-11-16T22:39:21+00:00"
-  },
-  {
-   "title": "Ha il pallone in mano, poi... se lo lancia in porta: guarda che autogol assurdo in Argentina",
-   "summary": "L'incredibile video arriva dall'Argentina: guardate qui che autogol da parte del portiere.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/video/ha-il-pallone-in-mano-poi-se-lo-lancia-in-porta-guarda-che-autogol-assurdo-in-argentina/",
-   "image": "https://static.sosfanta.com/2026/11/Screenshot-2026-11-16-alle-23.36.16-76b340054650.png",
-   "date": "2026-11-16T22:37:12+00:00"
-  },
-  {
-   "title": "Nazionali: autogol Ferguson, disfatta per Malen e Koop, gol di Ekhator e Mendy, McTominay e Douvikas...",
-   "summary": "Si chiude un'altra serata di partite internazionali in Nations League, con diversi giocatori della nostra Serie A che sono scesi in campo.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/nazionali-malen-koopmeiners-olanda-mctominay-scozia-ferguson-autogol/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2247468689-40a4a658aa82-e1794868088477.jpeg",
-   "date": "2026-11-16T22:30:31+00:00"
-  },
-  {
-   "title": "Inter, Zanetti: “Lautaro ha voglia di tornare: rispondo sul rientro e cosa filtra per l’Atalanta! Nico Paz...\"",
-   "summary": "Il vicepresidente dell'Inter, Javier Zanetti, ha parlato ai microfoni di Sky a margine del \"Premio Modello Virtuoso del Calcio Italiano\", intitolato a Italo...",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/lautaro-martinez-infortunio-tempi-di-recupero-fantacalcio-zanetti-inter/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304950269-22fd5e46a7fb-e1794859940695.jpg",
-   "date": "2026-11-16T22:15:50+00:00"
   }
  ],
  "marketDifficulty": {
