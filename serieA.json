@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T16:44:39+00:00",
+ "generatedAt": "2026-11-21T17:20:44+00:00",
  "season": "2026-27",
  "gameweek": 12,
  "note": "Stime calcolate con la sola storia precedente alla giornata 12 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -10335,7 +10335,7 @@
    "appearances": 7,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.34,
-   "playProbability": 0.446,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.3469,
     "rf": 0.0085,
@@ -10356,7 +10356,7 @@
     "q90": 9.57
    },
    "learnedVote": 6.92,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.3876,
     "rf": 0.0104,
@@ -10394,8 +10394,8 @@
    },
    "quotazione": 5.0,
    "fvm": 24.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -18631,7 +18631,7 @@
    "appearances": 11,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.15,
-   "playProbability": 0.429,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.1348,
     "rf": 0.0082,
@@ -18652,7 +18652,7 @@
     "q90": 7.89
    },
    "learnedVote": 6.3,
-   "learnedPlayProbability": 0.429,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.119,
     "rf": 0.0061,
@@ -18690,8 +18690,8 @@
    },
    "quotazione": 3.0,
    "fvm": 15.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -27545,7 +27545,7 @@
    "appearances": 4,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.09,
-   "playProbability": 0.428,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0822,
     "rf": 0.0008,
@@ -27566,7 +27566,7 @@
     "q90": 6.57
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.428,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.0667,
     "rf": 0.0038,
@@ -27602,8 +27602,8 @@
    },
    "quotazione": 2.0,
    "fvm": 4.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 49.0,
+   "lineupSlot": "titolare",
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -28391,7 +28391,7 @@
    "appearances": 7,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.08,
-   "playProbability": 0.044,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0914,
     "rf": 0.0008,
@@ -28412,7 +28412,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.19,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0746,
     "rf": 0.0038,
@@ -28451,7 +28451,7 @@
    "quotazione": 3.0,
    "fvm": 13.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -34834,7 +34834,7 @@
    "appearances": 10,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.12,
-   "playProbability": 0.446,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0993,
     "rf": 0.0006,
@@ -34855,7 +34855,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.28,
-   "learnedPlayProbability": 0.446,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0766,
     "rf": 0.0031,
@@ -34893,8 +34893,8 @@
    },
    "quotazione": 14.0,
    "fvm": 49.0,
-   "lineupSlot": "titolare",
-   "startingProbability": 51.0,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -49033,20 +49033,20 @@
   },
   {
    "name": "Milan",
-   "formation": "4-2-3-1",
+   "formation": "4-4-1-1",
    "isOfficial": false,
    "ballottaggi": [
     {
      "opzioni": [
       {
-       "player_id": "6618",
-       "giocatore": "Cissè A.",
+       "player_id": "5295",
+       "giocatore": "Musah",
        "titolarita_pct": 51,
        "ruolo": "C"
       },
       {
-       "player_id": "5295",
-       "giocatore": "Musah",
+       "player_id": "6618",
+       "giocatore": "Cissè A.",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -49061,8 +49061,8 @@
        "ruolo": "D"
       },
       {
-       "player_id": "7525",
-       "giocatore": "Diawara S.",
+       "player_id": "5273",
+       "giocatore": "Estupinan",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -49071,14 +49071,14 @@
     {
      "opzioni": [
       {
-       "player_id": "5022",
-       "giocatore": "Pavlovic",
+       "player_id": "7525",
+       "giocatore": "Diawara S.",
        "titolarita_pct": 51,
        "ruolo": "D"
       },
       {
-       "player_id": "7525",
-       "giocatore": "Diawara S.",
+       "player_id": "5022",
+       "giocatore": "Pavlovic",
        "titolarita_pct": 49,
        "ruolo": "D"
       }
@@ -49460,6 +49460,24 @@
  ],
  "news": [
   {
+   "title": "Ds Roma: \"Rispondo così sulla partenza di Koné a gennaio! In entrata fare nomi è prematuro, vogliamo...\"",
+   "summary": "Tony D'Amico, ds della Roma, intervistato da DAZN prima della sfida contro il Parma in vista del mercato di gennaio: le sue dichiarazioni.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/ds-roma-rispondo-cosi-kone-gennaio/",
+   "image": "https://static.sosfanta.com/202603/e66453d2ebe039eee79f922b6131a456-e1773992656725.jpg",
+   "date": "2026-11-21T17:00:21+00:00"
+  },
+  {
+   "title": "Cardinale: \"A gennaio spenderemo, vi spiego! Rispondo su Endrick, Krosche e parliamo di rinnovo con Rabiot\"",
+   "summary": "Gerry Cardinale, presente a Milanello, ha parlato anche del mercato di gennaio con il Milan che sarà uno dei club più attivi",
+   "author": "Matteo Pifferi",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/cardinale-milan-endrick-krosche-rabiot/",
+   "image": "https://static.sosfanta.com/2026/11/cardinale-0121465c74e2.jpg",
+   "date": "2026-11-21T16:45:17+00:00"
+  },
+  {
    "title": "Torino, i convocati per il Napoli: la decisione su Fortini! Ci sono Vlasic e Belghali, per Rodriguez...",
    "summary": "Ecco la lista dei convocati del Torino in vista della partita contro il Napoli: due assenti e tre recuperi per Ignazio Abate",
    "author": "Matteo Pifferi",
@@ -49800,24 +49818,6 @@
    "url": "https://www.sosfanta.com/news-formazioni/maignan-spinazzola-gaetano-cambiaso-celik-frendrup-atta-zielinski-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2303338495-969c5cd504fb-e1795188188407.jpeg",
    "date": "2026-11-20T21:15:01+00:00"
-  },
-  {
-   "title": "Fiorentina, finalmente Atta: torna tra i convocati col Monza. Le ultimissime su Njie",
-   "summary": "Dopo due mesi la Fiorentina ritrova Atta, almeno tra i convocati. Oltre a lui anche altre buone notizie per Vanoli verso la sfida con il Monza.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/fiorentina-atta-torna-convocato-monza-ultime-njie-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2295665898-9e3ae1ef4063-e1791969260830.jpg",
-   "date": "2026-11-20T21:00:14+00:00"
-  },
-  {
-   "title": "Parma, i convocati per la sfida contro la Roma: la decisione su Diego Carlos e Drobnic, presente Bernabè",
-   "summary": "Il tecnico del Parma Alberto Gilardino ha diramato la lista dei convocati per la sfida di domani contro la Roma. Sciolto il dubbio: è a disposizione Diego Ca...",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/parma-convocati-roma-decisione-diego-carlos/",
-   "image": "https://static.sosfanta.com/2026/08/GettyImages-2276667495-61b8b08eb993-e1788127484521.jpeg",
-   "date": "2026-11-20T20:00:00+00:00"
   }
  ],
  "marketDifficulty": {
