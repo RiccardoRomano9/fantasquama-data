@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T02:19:09+00:00",
+ "generatedAt": "2026-11-22T09:56:42+00:00",
  "season": "2026-27",
  "gameweek": 12,
  "note": "Stime calcolate con la sola storia precedente alla giornata 12 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -23332,7 +23332,7 @@
    "appearances": 10,
    "gameweeksElapsed": 11,
    "estimatedVote": 6.34,
-   "playProbability": 0.285,
+   "playProbability": 0.0,
    "events": {
     "gf": 0.2325,
     "rf": 0.0056,
@@ -23353,7 +23353,7 @@
     "q90": 9.61
    },
    "learnedVote": 6.59,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.0,
    "learnedEvents": {
     "gf": 0.061,
     "rf": 0.1439,
@@ -23391,9 +23391,9 @@
    },
    "quotazione": 12.0,
    "fvm": 45.0,
-   "lineupSlot": null,
-   "startingProbability": null,
-   "status": null,
+   "lineupSlot": "indisponibile",
+   "startingProbability": 0.0,
+   "status": "infortunato",
    "penaltyRank": null,
    "setPieceRank": null,
    "hasHistory": true,
@@ -49330,13 +49330,58 @@
  ],
  "news": [
   {
+   "title": "NEWS - Vergara, Davis, Belghali, Svilar, Zielinski, Gonzalez, Frendrup, Kalulu, Mendy, Alaba, Atta: le ultime",
+   "summary": "È ripreso il campionato dopo la sosta per le nazionali: ecco le novità in chiave fantacalcio dopo le prime gare del sabato di Serie A.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/vergara-davis-belghali-svilar-zielinski-gonzalez-frendrup-kalulu-mendy-alaba-atta-infortunio-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2305733853-f857c07f4add-e1795335782423.jpeg",
+   "date": "2026-11-22T09:20:15+00:00"
+  },
+  {
+   "title": "Abate: \"Come sta Belghali, Ismajli può essersi rotto il dito! Cacciamani, Rodriguez, Gineitis, Vlasic...\"",
+   "summary": "Ignazio Abate, tecnico del Torino, ai microfoni di Sky, DAZN e in conferenza, ha analizzato così la gara del Maradona contro il Napoli.",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/abate-torino-belghali-ismajli-napoli-infortunio-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/PHOTO-2026-11-21-21-19-17-d27db6611d55-e1795292379873.jpg",
+   "date": "2026-11-22T09:15:56+00:00"
+  },
+  {
+   "title": "Anguissa: \"McTominay c'è sempre! Risalire la classifica? Vi dico perché si può fare\"",
+   "summary": "Al termine del match vinto dal Napoli, contro il Torino, il centrocampista Zambo Anguissa ha parlato a Sky e Dazn. Di seguito le sue parole.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/anguissa-napoli-torino/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301793441-1bb71644f546-e1792873106563.jpeg",
+   "date": "2026-11-22T09:00:29+00:00"
+  },
+  {
    "title": "Allegri: \"Vergara si è fatto male, non so quanto lo perderemo! McTominay, De Bruyne e sui fischi a Lang dico...\"",
    "summary": "L'allenatore del Napoli, Massimiliano Allegri, ha parlato ai microfoni di Sky, Dazn ed in conferenza stampa dopo la sfida giocata dai suoi allo stadio Maradona.",
    "author": "Daniele Najjar",
    "source": "SOS Fanta",
    "url": "https://www.sosfanta.com/news/allegri-napoli-torino-de-bruyne-vergara/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2306251665-c8393c977f47-e1795294209110.jpeg",
-   "date": "2026-11-21T22:45:20+00:00"
+   "date": "2026-11-22T08:45:20+00:00"
+  },
+  {
+   "title": "Napoli, le ultime sull'infortunio di Vergara: le condizioni e cosa filtra sui tempi di recupero",
+   "summary": "Gli ultimi aggiornamenti sulle condizioni del giocatore del Napoli, infortunatosi al Maradona nella prima parte di gara contro il Torino.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-infortunio-vergara-condizion-cosa-filtra-tempi-recupero/",
+   "image": "https://static.sosfanta.com/202603/5c3886b09a9f85b0f25dd26498826259-scaled-e1772830040726.jpeg",
+   "date": "2026-11-22T08:00:16+00:00"
+  },
+  {
+   "title": "Juve-Venezia, le ultime di formazione: da Conceicao a Yeboah, Alajbegovic, Busio, Lucumi, Muani e Cambiaso",
+   "summary": "Alajbegovic favorito su Conceicao per completare il tridente d'attacco della Juve contro il Venezia, vicino a Kolo Muani e Woltemade.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/juve-venezia-probabili-formazoni-conceicao-yeboah-alajbegovic-busio-lucumi-muani-cambiaso/",
+   "image": "https://static.sosfanta.com/2026/10/Conceicao-626e66e726f0-e1792343814333.jpeg",
+   "date": "2026-11-22T07:00:53+00:00"
   },
   {
    "title": "McTominay: \"Sto meglio, molto meglio! Gol importante ma dovevamo vincere, il momento era complicato ma...\"",
@@ -49643,51 +49688,6 @@
    "url": "https://www.sosfanta.com/squadra/como/como-cagliari-formazioni-ufficiali-paz-liberali/",
    "image": "https://static.sosfanta.com/2026/11/perrone-44ce5dfeec5d.jpg",
    "date": "2026-11-21T13:10:39+00:00"
-  },
-  {
-   "title": "Lazio-Lecce, le formazioni ufficiali: la scelta su Monteiro, Pinamonti, Fatah, Provstgaard e Gaspar",
-   "summary": "Le formazioni ufficiali di Lazio-Lecce: ecco le scelte di Gattuso e Di Francesco e le novità per il fantacalcio nella sfida delle 15.00 all’Olimpico.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/lazio-lecce-formazioni-ufficiali-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/provstgaard-90aa203d8eaf.jpg",
-   "date": "2026-11-21T13:05:56+00:00"
-  },
-  {
-   "title": "Sassuolo-Genoa, le probabili formazioni: da Berardi, Muric e Turati a Frendrup, Traoré e El Shaaraway, le ultime",
-   "summary": "Sassuolo contro Genoa nella dodicesima giornata di Serie A: le ultime sulle probabili scelte di formazione di D'Aversa e De Rossi.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/sassuolo-genoa-probabili-formazioni-berardi-muric-turati-frendrup-traore-el-shaaraway-le-ultime/",
-   "image": "https://static.sosfanta.com/2026/07/GettyImages-2274294703-5187ddc51894-scaled-e1785445267759.jpg",
-   "date": "2026-11-21T13:00:13+00:00"
-  },
-  {
-   "title": "Ultimissime e casi per la 12a: Lautaro, Zielinski, Okoye, Davis, Conceicao e gestite così De Bruyne e Nico Paz",
-   "summary": "Inizia oggi alle ore 15.00 la 12a giornata di Serie A 2026-2027: ecco le ultimissime dai campi e i casi delicati per il fantacalcio.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/ultimissime-e-casi-per-la-12a-lautaro-zielinski-okoye-davis-berardi-atta-conceicao-e-gestite-cosi-de-bruyne/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2301443260-f5a73201b56a-e1792837007410.jpg",
-   "date": "2026-11-21T12:40:56+00:00"
-  },
-  {
-   "title": "Monza-Fiorentina, le probabili formazioni: cosa filtra su Pessina, Touré, Mota, Njie, Goncalves, Ndour e Oulai",
-   "summary": "Sfida delicata tra Monza e Fiorentina: le ultime sulle probabili formazioni di Ivan Juric e Paolo Vanoli.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/monza-fiorentina-le-probabili-formazioni-cosa-filtra-su-pessina-toure-mota-njie-goncalves-ndour-e-oulai/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2294952400-36a22687548c-e1789562996837.jpeg",
-   "date": "2026-11-21T12:30:02+00:00"
-  },
-  {
-   "title": "Il kit per la dodicesima giornata al fantacalcio 2026-2027: la preview e non solo, tutti i consigli (anche Mantra)",
-   "summary": "Preview, portieri, difensori, centrocampisti, attaccanti, scommesse e non solo: tutto per il fantacalcio nel nostro kit.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/kit-dodicesima-giornata-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301919675-61d000471b65-e1795211297415.jpg",
-   "date": "2026-11-21T12:20:49+00:00"
   }
  ],
  "marketDifficulty": {
