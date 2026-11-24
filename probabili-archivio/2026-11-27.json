@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-11-24T04:51:35+00:00",
+ "scraped_at_utc": "2026-11-24T19:29:17+00:00",
  "giornata": "2026-11-27T19:45:00.000Z",
  "partite": [
   {
@@ -138,15 +138,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Pozzi",
-      "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Franjic",
-      "stato": "infortunato",
-      "nota": "Intervento chirurgico per una lussazione acromion-claveare, in dubbio per la 15a."
-     },
-     {
       "giocatore": "Sverko",
       "stato": "infortunato",
       "nota": "Infortunio alle anche, in dubbio per la 13a."
@@ -170,6 +161,15 @@
       "giocatore": "Correia T.",
       "stato": "infortunato",
       "nota": "Risentimento muscolare, in dubbio per la 13a."
+     },
+     {
+      "giocatore": "Pozzi",
+      "stato": "indisponibile"
+     },
+     {
+      "giocatore": "Franjic",
+      "stato": "infortunato",
+      "nota": "Intervento chirurgico per una lussazione acromion-claveare, in dubbio per la 15a."
      }
     ],
     "ufficiale": false
@@ -313,16 +313,6 @@
     ],
     "indisponibili": [
      {
-      "giocatore": "Enem",
-      "stato": "infortunato",
-      "nota": "Problema al tendine d'Achille, in dubbio per la 13a."
-     },
-     {
-      "giocatore": "Holm",
-      "stato": "infortunato",
-      "nota": "Intervento chirurgico di sutura del tendine degli hamstring della coscia destra, tempi di recupero previsti di 4-6 mesi dal 1 ottobre."
-     },
-     {
       "giocatore": "Miranda J.",
       "stato": "infortunato",
       "nota": "Lesione di primo grado al bicipite femorale della coscia sinistra, in dubbio per la 14a."
@@ -336,6 +326,16 @@
       "giocatore": "Happonen",
       "stato": "infortunato",
       "nota": "Trauma distorsivo del quinto dito della mano sinistra, in dubbio per la 15a."
+     },
+     {
+      "giocatore": "Enem",
+      "stato": "infortunato",
+      "nota": "Problema al tendine d'Achille, in dubbio per la 13a."
+     },
+     {
+      "giocatore": "Holm",
+      "stato": "infortunato",
+      "nota": "Intervento chirurgico di sutura del tendine degli hamstring della coscia destra, tempi di recupero previsti di 4-6 mesi dal 1 ottobre."
      }
     ],
     "ufficiale": false
@@ -817,7 +817,7 @@
      {
       "giocatore": "Ismajli",
       "stato": "infortunato",
-      "nota": "Distrazione di basso grado agli adduttori della coscia sinistra e frattura alla mano destra, in dubbio per la 15a."
+      "nota": "Distrazione di basso grado agli adduttori della coscia sinistra e frattura alla mano destra, in dubbio per la 16a."
      },
      {
       "giocatore": "Belghali",
@@ -869,7 +869,7 @@
      },
      {
       "giocatore": "Pinamonti",
-      "titolarita_pct": 60
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Noslin",
@@ -877,6 +877,10 @@
      }
     ],
     "panchina": [
+     {
+      "giocatore": "Zaccagni",
+      "titolarita_pct": 49
+     },
      {
       "giocatore": "Doekhi",
       "titolarita_pct": 49
@@ -939,21 +943,16 @@
       "opzioni": [
        {
         "giocatore": "Pinamonti",
-        "titolarita_pct": 60
+        "titolarita_pct": 51
        },
        {
-        "giocatore": "Cancellieri",
-        "titolarita_pct": 40
+        "giocatore": "Zaccagni",
+        "titolarita_pct": 49
        }
       ]
      }
     ],
     "indisponibili": [
-     {
-      "giocatore": "Zaccagni",
-      "stato": "infortunato",
-      "nota": "Edema post traumatico al quadricipite della coscia sinistra, in dubbio per la 13a."
-     },
      {
       "giocatore": "Sutalo J.",
       "stato": "infortunato",
@@ -1178,7 +1177,7 @@
      },
      {
       "giocatore": "Frendrup",
-      "titolarita_pct": 51
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Ellertsson",
@@ -1198,10 +1197,6 @@
      }
     ],
     "panchina": [
-     {
-      "giocatore": "Amorim",
-      "titolarita_pct": 49
-     },
      {
       "giocatore": "Wiafe",
       "titolarita_pct": 45
@@ -1243,6 +1238,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Amorim",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Meichtry",
       "titolarita_pct": 5
      },
@@ -1265,18 +1264,6 @@
        {
         "giocatore": "Wiafe",
         "titolarita_pct": 45
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
-        "giocatore": "Frendrup",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Amorim",
-        "titolarita_pct": 49
        }
       ]
      },
@@ -1840,8 +1827,8 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Beukema",
-      "titolarita_pct": 55
+      "giocatore": "Di Lorenzo",
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Rrahmani",
@@ -1890,19 +1877,19 @@
       "titolarita_pct": 45
      },
      {
-      "giocatore": "Contini",
-      "titolarita_pct": 5
+      "giocatore": "Beukema",
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Badiashile",
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Di Lorenzo",
+      "giocatore": "Favasuli",
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Favasuli",
+      "giocatore": "Contini",
       "titolarita_pct": 5
      },
      {
@@ -1926,12 +1913,12 @@
      {
       "opzioni": [
        {
-        "giocatore": "Beukema",
-        "titolarita_pct": 55
+        "giocatore": "Di Lorenzo",
+        "titolarita_pct": 51
        },
        {
-        "giocatore": "Marianucci",
-        "titolarita_pct": 45
+        "giocatore": "Beukema",
+        "titolarita_pct": 49
        }
       ]
      },
@@ -1995,7 +1982,7 @@
      },
      {
       "giocatore": "Ndicka",
-      "titolarita_pct": 95
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Hermoso",
@@ -2014,7 +2001,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Molina N.",
+      "giocatore": "Wesley",
       "titolarita_pct": 51
      },
      {
@@ -2044,8 +2031,12 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Wesley",
+      "giocatore": "Molina N.",
       "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Balerdi",
+      "titolarita_pct": 45
      },
      {
       "giocatore": "De Marzi",
@@ -2088,11 +2079,23 @@
      {
       "opzioni": [
        {
+        "giocatore": "Ndicka",
+        "titolarita_pct": 55
+       },
+       {
+        "giocatore": "Balerdi",
+        "titolarita_pct": 45
+       }
+      ]
+     },
+     {
+      "opzioni": [
+       {
         "giocatore": "Lulli",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Wesley",
+        "giocatore": "Molina N.",
         "titolarita_pct": 49
        }
       ]
@@ -2100,11 +2103,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Molina N.",
+        "giocatore": "Wesley",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Wesley",
+        "giocatore": "Molina N.",
         "titolarita_pct": 49
        }
       ]
@@ -2155,7 +2158,7 @@
      {
       "giocatore": "Rensch",
       "stato": "infortunato",
-      "nota": "Lieve lesione muscolare all'adduttore destro, in dubbio per la 13a."
+      "nota": "Lesione di secondo grado all'adduttore sinistro, in dubbio per la 16a."
      }
     ],
     "ufficiale": false
@@ -2421,7 +2424,7 @@
      },
      {
       "giocatore": "Sanchez Ro.",
-      "titolarita_pct": 5
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Vigorito",
@@ -2457,7 +2460,7 @@
        },
        {
         "giocatore": "Sanchez Ro.",
-        "titolarita_pct": 5
+        "titolarita_pct": 49
        }
       ]
      },
@@ -2727,7 +2730,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Kaba",
+      "giocatore": "Ngom",
       "titolarita_pct": 51
      },
      {
@@ -2753,15 +2756,15 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Ngom",
-      "titolarita_pct": 49
-     },
-     {
       "giocatore": "Stulic",
       "titolarita_pct": 49
      },
      {
       "giocatore": "Monteiro J.",
+      "titolarita_pct": 49
+     },
+     {
+      "giocatore": "Kaba",
       "titolarita_pct": 49
      },
      {
@@ -2817,11 +2820,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Kaba",
+        "giocatore": "Ngom",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Ngom",
+        "giocatore": "Kaba",
         "titolarita_pct": 49
        }
       ]
@@ -3198,7 +3201,7 @@
      },
      {
       "giocatore": "Pavlovic",
-      "titolarita_pct": 95
+      "titolarita_pct": 51
      },
      {
       "giocatore": "Diawara S.",
@@ -3209,7 +3212,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Modric",
+      "giocatore": "Jashari",
       "titolarita_pct": 95
      },
      {
@@ -3247,6 +3250,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Tomori",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Cissè A.",
       "titolarita_pct": 5
      },
@@ -3259,15 +3266,23 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Jashari",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Camarda",
       "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
+     {
+      "opzioni": [
+       {
+        "giocatore": "Pavlovic",
+        "titolarita_pct": 51
+       },
+       {
+        "giocatore": "Bartesaghi",
+        "titolarita_pct": 49
+       }
+      ]
+     },
      {
       "opzioni": [
        {
@@ -3293,11 +3308,6 @@
       "nota": "Intervento chirurgico alla caviglia destra, in dubbio per la 24a."
      },
      {
-      "giocatore": "Tomori",
-      "stato": "infortunato",
-      "nota": "Lesione a carico di un muscolo flessore mediale della coscia destra, in dubbio per la 13a."
-     },
-     {
       "giocatore": "Terracciano",
       "stato": "infortunato",
       "nota": "Trauma alla spalla destra, in dubbio per la 13a."
@@ -3311,6 +3321,11 @@
       "giocatore": "Chukwueze",
       "stato": "infortunato",
       "nota": "Operato per la rottura del tendine del muscolo tensore della fascia lata dell'anca sinistra, in dubbio per la 23a."
+     },
+     {
+      "giocatore": "Modric",
+      "stato": "infortunato",
+      "nota": "Risentimento al retto femorale, in dubbio per la 13a."
      }
     ],
     "ufficiale": false
