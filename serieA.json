@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T02:37:09+00:00",
+ "generatedAt": "2026-11-25T14:39:03+00:00",
  "season": "2026-27",
  "gameweek": 13,
  "note": "Stime calcolate con la sola storia precedente alla giornata 13 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -1074,8 +1074,8 @@
    },
    "quotazione": 4.0,
    "fvm": 20.0,
-   "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "lineupSlot": null,
+   "startingProbability": null,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -7680,7 +7680,7 @@
    "appearances": 10,
    "gameweeksElapsed": 12,
    "estimatedVote": 6.18,
-   "playProbability": 0.285,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.1177,
     "rf": 0.0079,
@@ -7701,7 +7701,7 @@
     "q90": 6.27
    },
    "learnedVote": 6.13,
-   "learnedPlayProbability": 0.285,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.1222,
     "rf": 0.0057,
@@ -7740,8 +7740,8 @@
    },
    "quotazione": 11.0,
    "fvm": 42.0,
-   "lineupSlot": null,
-   "startingProbability": null,
+   "lineupSlot": "panchina",
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -49074,8 +49074,8 @@
        "ruolo": "A"
       },
       {
-       "player_id": "6884",
-       "giocatore": "Conceicao",
+       "player_id": "7436",
+       "giocatore": "Alajbegovic",
        "titolarita_pct": 49,
        "ruolo": "C"
       }
@@ -49290,6 +49290,132 @@
  ],
  "news": [
   {
+   "title": "Lazio, Zaccagni spinge ma serve cautela: le novità sui recuperi di Nuno Tavares, Marusic e Sutalo",
+   "summary": "La Lazio prepara la trasferta contro il Torino: il punto sulle condizioni di Zaccagni, Nuno Tavares, Marusic e Sutalo e sui possibili rientri.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/lazio-zaccagni-spinge-serve-cautela-novita-sui-recuperi-nuno-tavares-marusic-sutalo-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301817518-0472c59ae9f5-e1793546965984.jpeg",
+   "date": "2026-11-25T14:00:50+00:00"
+  },
+  {
+   "title": "Moretto - Osmajic, alcuni club hanno già chiamato per informarsi: la posizione del Genoa per gennaio",
+   "summary": "E' Milutin Osmajić l'uomo del momento in casa Genoa: per l'attaccante doppietta decisiva contro il Sassuolo ed è già a 6 gol e 1 assist nel suo primo anno in...",
+   "author": "Marco Astori",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/genoa/moretto-osmajic-alcuni-club-hanno-gia-chiamato-per-informarsi-la-posizione-del-genoa-per-gennaio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2306362002-1-ffb15ca7ee31.jpg",
+   "date": "2026-11-25T13:50:19+00:00"
+  },
+  {
+   "title": "NEWS - Dubbio M. Thuram! Modric, Zirkzee, Adzic, Calha, Zaccagni, KDB, Pavlovic, Alajbegovic, Zielinski...",
+   "summary": "Fra la serata di Champions League di Inter e Roma e le squadre al lavoro in vista della 13^ giornata: ecco le ultimissime su infortunati e non solo in ottica...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/modric-zirkzee-de-bruyne-calhanoglu-pavlovic-belghali-miranda-zielinski-carnesecchi-thuram-infortunio-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2306135146-f046ce3f62ad-e1795593484729.jpeg",
+   "date": "2026-11-25T13:45:16+00:00"
+  },
+  {
+   "title": "Chi sale al fantacalcio per scambi e non solo dopo l’ultima giornata: da De Ketelaere a Dimarco, ecco otto nomi",
+   "summary": "Chi sale al fantacalcio, in chiave scambi e non soltanto: ecco otto nomi che si sono messi in mostra nell'ultima giornata di Serie A.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/chi-sale-fantacalcio-per-scambi-non-solo-dopo-ultima-giornata-deketelaere-dimarco-otto-nomi-consigli/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303307674-9aea25adb9d3-e1795526798799.jpg",
+   "date": "2026-11-25T13:15:40+00:00"
+  },
+  {
+   "title": "Roma, le possibili scelte col PSG: da Ndicka e Cristante a Soulé e Malen e le novità sui tempi di Rensch",
+   "summary": "Da Ndicka e Wesley a Cristante, Soulé e Malen: le novità sulla probabile formazione della Roma contro il PSG e le ultime sul recupero di Rensch.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/roma-possibili-scelte-col-psg-ndicka-cristante-soule-malen-novita-sui-tempi-rensch-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/09/GettyImages-2290632254-8c7859e8abee-e1789393169704.jpeg",
+   "date": "2026-11-25T13:00:19+00:00"
+  },
+  {
+   "title": "Milan, problema alla caviglia per Camarda: le sue condizioni! Su Tomori, Modric, Bartesaghi e Pavlovic...",
+   "summary": "Dallo stop di Modric alle condizioni di Pavlovic, fino alle novità su Tomori: il punto sull’infermeria del Milan tra Europa League e campionato.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/milan-quando-torna-modric-cosa-filtra-pavlovic-ultime-infermeria-novita-tomori-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2263513082-b923f832c66f-e1795596646976.jpg",
+   "date": "2026-11-25T12:00:58+00:00"
+  },
+  {
+   "title": "Allegri: \"Credo che De Bruyne rimarrà fino a giugno! Dicevano che Hojlund non segnasse nel Napoli e Lang... \"",
+   "summary": "L'analisi di Massimiliano Allegri dopo Manchester City-Napoli, ecco le parole del tecnico sulla sua squadra.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/allegri-manchester-city-napoli-champions-parole-de-bruyne-credo-rimarra-hojlund-conferenza/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2306708324-faae0ccbf1f8-e1795554639204.jpg",
+   "date": "2026-11-25T11:45:02+00:00"
+  },
+  {
+   "title": "Juve, novità Alajbegovic! Le ultime sul turnover in Europa: da Woltemade e Conceicao",
+   "summary": "La Juventus prepara la sfida di Europa League contro l’Omonia: le possibili scelte di Spalletti tra turnover e aggiornamenti su Alajbegovic.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-turnover-europa-woltemade-conceicao-alajbegovic-possibili-scelte-spalletti-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302590008-9da166958a6e-e1795334010387.jpg",
+   "date": "2026-11-25T11:00:45+00:00"
+  },
+  {
+   "title": "Fiorentina, esami per Viery dopo lo stop: cosa filtra e le novità sui recuperi di Pongracic e Parisi",
+   "summary": "Da Viery agli aggiornamenti su Pongracic e Parisi: il punto sull’infermeria della Fiorentina in vista della trasferta contro l’Udinese.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/fiorentina/fiorentina-esami-per-viery-dopo-lo-stop-cosa-filtra-novita-sui-recuperi-pongracic-parisi-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2300316124-3b30638d8387-e1795465132833.jpg",
+   "date": "2026-11-25T10:30:05+00:00"
+  },
+  {
+   "title": "Adzic, perché l'infortunio preoccupa: dall'ipotesi di un intervento chirurgico all'ultimo consulto",
+   "summary": "Ore importanti per conoscere qualcosa di più riguardo alle condizioni fisiche di Vasilije Adzic. Il giocatore montenegrino ha proseguito anche ieri il ciclo...",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/adzic-sassuolo-juve-infortunio-fantacalcio-tempi-di-recupero/",
+   "image": "https://static.sosfanta.com/2026/09/Adzic-ac4c42f37fe7-e1788717055640.jpg",
+   "date": "2026-11-25T10:00:47+00:00"
+  },
+  {
+   "title": "Inter, Thuram affaticato: cosa filtra per lo Stoccarda! La gestione di Lautaro e i tempi per Calha e Zielinski",
+   "summary": "Chivu avrà due assenze di peso a centrocampo: quelle di Zielinski e Calhanoglu. La Gazzetta dello Sport scrive in merito ai possibili tempi di recupero.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/inter-lautaro-martinez-marcus-thuram-zielinski-calhanoglu-infortunio-tempi-di-recupero-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304159327-a555d146a60a-e1794166936591.jpg",
+   "date": "2026-11-25T09:00:48+00:00"
+  },
+  {
+   "title": "Napoli, Manna: \"C'è un'opzione nel contratto di De Bruyne, può succedere di tutto! Su Zirkzee e McTominay...\"",
+   "summary": "Le parole di Giovanni Manna, ds del Napoli, sul rinnovo di McTominay, il futuro di De Bruyne e l'idea Zirkzee.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/napoli-manna-ce-unopzione-nel-contratto-di-de-bruyne-su-zirkzee-e-il-rinnovo-di-mctominay/",
+   "image": "https://static.sosfanta.com/2026/11/De-Bruyne-0ad3ecc85d9c-e1795510448474.jpeg",
+   "date": "2026-11-25T08:15:48+00:00"
+  },
+  {
+   "title": "Luis Enrique: “Malen, numeri incredibili! Prima giocava sulla fascia, spostato al centro ha dimostrato...”",
+   "summary": "Luis Enrique elogia Donyell Malen prima di PSG-Roma: le parole del tecnico sul rendimento dell’attaccante e sulle difficoltà della sfida.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/roma/luis-enrique-malen-numeri-incredibili-prima-giocava-sulla-fascia-spostato-al-centro-ha-dimostrato-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/08/Malen-2cbd3cecf5ff-e1787602655247.jpg",
+   "date": "2026-11-25T08:00:56+00:00"
+  },
+  {
+   "title": "Hojlund: \"Vi spiego perchè ho esultato così! In nazionale ho segnato tanto, con il Napoli...\"",
+   "summary": "Hojlund ha parlato dopo Manchester City-Napoli spiegando l'esultanza e la differenza di gol tra club e Nazionale.",
+   "author": "Andrea Ajello",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/hojlund-esultanza-manchester-city-napoli-parole/",
+   "image": "https://static.sosfanta.com/2026/11/Hojlund-c35216be3155-e1795096028149.jpeg",
+   "date": "2026-11-25T07:00:20+00:00"
+  },
+  {
    "title": "Fabregas: \"Milla livello alto, magari lo vendiamo a gennaio per 20 milioni! Ed è la prima volta che...\"",
    "summary": "Le parole di Fabregas dopo la sfida di Champions tra il Como e l'AEK Atene, ecco cosa ha detto il tecnico sul match.",
    "author": "Andrea Ajello",
@@ -49299,15 +49425,6 @@
    "date": "2026-11-24T23:00:57+00:00"
   },
   {
-   "title": "Allegri: \"Credo che De Bruyne rimarrà fino a giugno! Dicevano che Hojlund non segnasse nel Napoli e Lang... \"",
-   "summary": "L'analisi di Massimiliano Allegri dopo Manchester City-Napoli, ecco le parole del tecnico sulla sua squadra.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/allegri-manchester-city-napoli-champions-parole-de-bruyne-credo-rimarra-hojlund-conferenza/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2306708324-faae0ccbf1f8-e1795554639204.jpg",
-   "date": "2026-11-24T22:25:02+00:00"
-  },
-  {
    "title": "Parma, cosa risulta sul rientro di Romero: ecco fino a quando dovrebbe stare ai box, su D. Carlos e Drobnic...",
    "summary": "C'è un alone di mistero per quanto riguarda le condizioni di David Romero in casa Parma: ecco le ultime novità.",
    "author": "Marco Astori",
@@ -49315,15 +49432,6 @@
    "url": "https://www.sosfanta.com/news/parma-cosa-risulta-rientro-romero/",
    "image": "https://static.sosfanta.com/2026/09/GettyImages-2293066223-84796b7bae21-e1788687915469.jpeg",
    "date": "2026-11-24T22:00:19+00:00"
-  },
-  {
-   "title": "Napoli, Manna: \"C'è un'opzione nel contratto di De Bruyne, può succedere di tutto! Su Zirkzee e McTominay...\"",
-   "summary": "Le parole di Giovanni Manna, ds del Napoli, sul rinnovo di McTominay, il futuro di De Bruyne e l'idea Zirkzee.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/napoli-manna-ce-unopzione-nel-contratto-di-de-bruyne-su-zirkzee-e-il-rinnovo-di-mctominay/",
-   "image": "https://static.sosfanta.com/2026/11/De-Bruyne-0ad3ecc85d9c-e1795510448474.jpeg",
-   "date": "2026-11-24T21:45:48+00:00"
   },
   {
    "title": "DAI CAMPI - Tavares, Ostigard, Pavlovic, Rensch, Davis, Romero, Balerdi, Carnesecchi e le ultime su Raimondo",
@@ -49540,114 +49648,6 @@
    "url": "https://www.sosfanta.com/news/napoli-probabile-formazione-manchester-city-champions-league/",
    "image": "https://static.sosfanta.com/2026/11/De-Bruyne-1dece9e9333c.jpg",
    "date": "2026-11-24T11:30:47+00:00"
-  },
-  {
-   "title": "NEWS - Calha, Zielinski, Alajbegovic, Kalulu, Nico, Vergara, Carnesecchi, Ismajli, Belghali, Adzic: le novità",
-   "summary": "Archiviata la 12a giornata di campionato, stasera riparte la Champions League con Napoli e Como. Ecco le ultimissime su infortunati e non solo.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/news-calha-zielinski-alajbegovic-kalulu-nico-vergara-carnesecchi-ismajli-belghali-adzic-le-novita/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2265966020-1-c9672ddb1c86.jpg",
-   "date": "2026-11-24T11:15:09+00:00"
-  },
-  {
-   "title": "Juve, quando può tornare in gruppo Alajbegovic. E le sensazioni sui rientri di Nico Gonzalez e Kalulu",
-   "summary": "Juventus impegnata giovedì sera in Europa League contro l'Omonia, con tra situazioni da monitorare: Kerim Alajbegovic, Pierre Kalulu e Nico Gonzalez.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/juventus/juve-infortunati-alajbegovic-nicogonzalez-kalulu-tempi-recupero-fantacalcio-rientri/",
-   "image": "https://static.sosfanta.com/2026/10/Alajbegovic-d80563148768-e1791750810159.jpg",
-   "date": "2026-11-24T11:00:08+00:00"
-  },
-  {
-   "title": "Vice Juric: “Varela? Per ora contenti di averlo, poi vedremo! Tornqvist, Robinson, Pessina e i rigori…”",
-   "summary": "Dopo il match contro la Fiorentina, Paro ha analizzato la gara e fatto il punto sulla prestazione della sua squadra. Di seguito le sue dichiarazioni.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/monza/vice-juric-varela-contenti-tornqvist-robinson-pessina-rigori/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301111304-6286264a233d-e1794400299144.jpeg",
-   "date": "2026-11-24T10:15:46+00:00"
-  },
-  {
-   "title": "Inter, attesa per gli esami di Calhanoglu: i tempi minimi di recupero! E il rientro di Zielinski...",
-   "summary": "Emergenza in regia in casa Inter: Hakan Calhanoglu si è fermato a Bergamo e oggi farà gli esami, i tempi minimi di recupero e le ultime su Piotr Zielinski.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/infortunati-inter-tempi-recupero-calhanoglu-zielinski-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/09/Calhanoglu-0d88f3747854-e1789576815321.jpg",
-   "date": "2026-11-24T10:00:30+00:00"
-  },
-  {
-   "title": "Adzic, oggi il giorno della verità: altri esami, ecco l'ipotesi che si fa sempre più concreta",
-   "summary": "Il caso Adzic si avvicina al momento della verità: il centrocampista anche oggi il montenegrino verrà sottoposto a nuovi consulti al J Medical.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/adzic-altri-esami-ipotesi/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301764708-beff0741e554-e1794758997904.jpeg",
-   "date": "2026-11-24T09:30:37+00:00"
-  },
-  {
-   "title": "De Bruyne attacca i giornalisti: \"Pubblicate foto di casa mia, non avete diritto di esprimervi\"",
-   "summary": "Il centrocampista belga si scaglia contro la stampa italiana e le critiche ricevute nell'ultimo periodo.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/video/de-bruyne-attacca-i-giornalisti-pubblicate-foto-di-casa-mia-non-avete-diritto-di-esprimervi/",
-   "image": "https://static.sosfanta.com/2026/11/De-Bruyne-1c887272b447-e1794763017585.jpg",
-   "date": "2026-11-24T09:13:30+00:00"
-  },
-  {
-   "title": "Tegola Carnesecchi, oggi l'intervento al menisco: i tempi minimi di recupero per il portiere dell'Atalanta",
-   "summary": "Tegola Marco Carnesecchi nell'Atalanta: oggi l'intervento al ginocchio, ecco i tempi minimi di recupero per il portiere.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/probabili-formazioni/infortunati/atalanta-infortunio-carnesecchi-menisco-ginocchio-tempi-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/08/Carnesecchi-9ef0de3c1be2-e1787257085735.jpg",
-   "date": "2026-11-24T09:00:38+00:00"
-  },
-  {
-   "title": "Varela: \"Il gol di tacco è puro istinto! Tutto pazzesco, sulle voci di mercato rispondo così...\"",
-   "summary": "Varela ha trascinato ancora il Monza con una doppietta e dopo il match contro la Fiorentina ha parlato ai microfoni di Sky.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/varela-il-gol-di-tacco-e-puro-istinto-tutto-pazzesco-sulle-voci-di-mercato-rispondo-cosi/",
-   "image": "https://static.sosfanta.com/2026/09/GettyImages-2295968458-bdcde6c88e4e-e1789762732371.jpg",
-   "date": "2026-11-24T08:00:35+00:00"
-  },
-  {
-   "title": "Di Canio: \"Il Milan ha un calciatore che in Serie A giocherebbe anche con la benda sugli occhi\"",
-   "summary": "Al Club su Sky Sport, Paolo Di Canio ha elogiato il Milan dopo la vittoria per 5-1 dei rossoneri contro il Frosinone: queste le sue parole.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/dicanio-milan-titolare-benda-occhi/",
-   "image": "https://static.sosfanta.com/2026/11/Di-Canio-909fb81f66f6-e1795389356595.jpg",
-   "date": "2026-11-24T07:00:44+00:00"
-  },
-  {
-   "title": "Vanoli: \"Viery si è fatto male! Serve umiltà, andremo in ritiro e questi ragazzi devono capire una cosa\"",
-   "summary": "Dopo il fischio finale di Monza-Fiorentina, Paolo Vanoli ha analizzato la prestazione della squadra, soffermandosi sui principali aspetti della partita. Di s...",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/vanoli-monza-fiorentina-conferenza-post-partita-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2306545674-e5ef156a72cf-e1795466993553.jpg",
-   "date": "2026-11-23T22:45:38+00:00"
-  },
-  {
-   "title": "Frosinone, si ferma anche Birligea in attacco! L'esito degli esami e i tempi di recupero",
-   "summary": "Si ferma per infortunio Birligea che ha accusato un problema muscolare contro il Milan. Di seguito l'esito degli esami.",
-   "author": "Andrea Ajello",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/frosinone-birligea-esito-esami-tempi-di-recupero-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2292075641-ebe0019f0dbb-e1795471844350.jpg",
-   "date": "2026-11-23T22:15:57+00:00"
-  },
-  {
-   "title": "Gazzetta - Milan, per Camarda ipotesi prestito a gennaio in questo club di A. E spunta Mendy: i dettagli",
-   "summary": "Possibile intreccio di mercato tra i rossoneri e la formazione sarda: sul piatto c'è il futuro dei due giovani attaccanti.",
-   "author": "Michael Di Chiaro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/milan/gazzetta-milan-camarda-prestito-cagliari-futuro-situazione-intreccio-mendy/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303677925-12eacb57adeb-e1794478559912.jpg",
-   "date": "2026-11-23T22:00:23+00:00"
   }
  ],
  "marketDifficulty": {
@@ -49670,14 +49670,6 @@
  "baseNote": "Stime calcolate con la sola storia precedente alla giornata 13 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale.",
  "oddsUpdatedAt": "2026-11-24T19:29:16+00:00",
  "oddsSource": "the-odds-api",
- "propOddsStages": {
-  "early": "2026-11-25T02:37:09+00:00"
- },
- "propOddsCheckedAt": "2026-11-25T02:37:09+00:00",
- "propOddsUsage": {
-  "month": "2026-11",
-  "estimatedCredits": 40
- },
  "propOdds": {
   "version": 1,
   "source": "the-odds-api",
@@ -52857,5 +52849,13 @@
   "errors": []
  },
  "propOddsUpdatedAt": "2026-11-25T02:37:13+00:00",
- "propOddsSource": "the-odds-api"
+ "propOddsSource": "the-odds-api",
+ "propOddsCheckedAt": "2026-11-25T02:37:09+00:00",
+ "propOddsStages": {
+  "early": "2026-11-25T02:37:09+00:00"
+ },
+ "propOddsUsage": {
+  "month": "2026-11",
+  "estimatedCredits": 40
+ }
 }
