@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-11-26T11:07:13+00:00",
+ "scraped_at_utc": "2026-11-26T18:23:55+00:00",
  "giornata": "2026-11-27T19:45:00.000Z",
  "partite": [
   {
@@ -37,7 +37,7 @@
      },
      {
       "giocatore": "Sohm",
-      "titolarita_pct": 60
+      "titolarita_pct": 55
      },
      {
       "giocatore": "Busio",
@@ -58,12 +58,12 @@
     ],
     "panchina": [
      {
-      "giocatore": "Yeboah J.",
-      "titolarita_pct": 49
+      "giocatore": "Basic",
+      "titolarita_pct": 45
      },
      {
-      "giocatore": "Dagasso",
-      "titolarita_pct": 40
+      "giocatore": "Yeboah J.",
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Grandi",
@@ -82,6 +82,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Mazzocchi",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Sagrado",
       "titolarita_pct": 5
      },
@@ -90,7 +94,7 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Duncan",
+      "giocatore": "Dagasso",
       "titolarita_pct": 5
      },
      {
@@ -99,6 +103,10 @@
      },
      {
       "giocatore": "Helgason",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Adorante",
       "titolarita_pct": 5
      },
      {
@@ -115,11 +123,11 @@
       "opzioni": [
        {
         "giocatore": "Sohm",
-        "titolarita_pct": 60
+        "titolarita_pct": 55
        },
        {
-        "giocatore": "Dagasso",
-        "titolarita_pct": 40
+        "giocatore": "Basic",
+        "titolarita_pct": 45
        }
       ]
      },
@@ -140,27 +148,12 @@
      {
       "giocatore": "Sverko",
       "stato": "infortunato",
-      "nota": "Infortunio alle anche, in dubbio per la 13a."
-     },
-     {
-      "giocatore": "Adorante",
-      "stato": "infortunato",
-      "nota": "Operazione per un problema alla schiena, in dubbio per la 13a."
-     },
-     {
-      "giocatore": "Basic",
-      "stato": "infortunato",
-      "nota": "Affaticamento muscolare, in dubbio per la 13a."
-     },
-     {
-      "giocatore": "Mazzocchi",
-      "stato": "infortunato",
-      "nota": "Risentimento muscolare, in dubbio per la 13a."
+      "nota": "Infortunio alle anche, in dubbio per la 14a."
      },
      {
       "giocatore": "Correia T.",
       "stato": "infortunato",
-      "nota": "Risentimento muscolare, in dubbio per la 13a."
+      "nota": "Risentimento muscolare, in dubbio per la 14a."
      },
      {
       "giocatore": "Pozzi",
@@ -170,6 +163,10 @@
       "giocatore": "Franjic",
       "stato": "infortunato",
       "nota": "Intervento chirurgico per una lussazione acromion-claveare, in dubbio per la 15a."
+     },
+     {
+      "giocatore": "Duncan",
+      "stato": "indisponibile"
      }
     ],
     "ufficiale": false
@@ -238,10 +235,6 @@
      },
      {
       "giocatore": "Alhassane",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "De Silvestri",
       "titolarita_pct": 5
      },
      {
@@ -336,6 +329,11 @@
       "giocatore": "Holm",
       "stato": "infortunato",
       "nota": "Intervento chirurgico di sutura del tendine degli hamstring della coscia destra, tempi di recupero previsti di 4-6 mesi dal 1 ottobre."
+     },
+     {
+      "giocatore": "De Silvestri",
+      "stato": "infortunato",
+      "nota": "Affaticamento al polpaccio destro, in dubbio per la 14a."
      }
     ],
     "ufficiale": false
@@ -864,7 +862,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Taylor K.",
+      "giocatore": "Dele-Bashiru",
       "titolarita_pct": 95
      },
      {
@@ -872,25 +870,21 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Pinamonti",
-      "titolarita_pct": 51
-     },
-     {
       "giocatore": "Noslin",
       "titolarita_pct": 95
+     },
+     {
+      "giocatore": "Zaccagni",
+      "titolarita_pct": 60
      }
     ],
     "panchina": [
-     {
-      "giocatore": "Zaccagni",
-      "titolarita_pct": 49
-     },
      {
       "giocatore": "Doekhi",
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Cancellieri",
+      "giocatore": "Pinamonti",
       "titolarita_pct": 40
      },
      {
@@ -910,11 +904,11 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Cataldi",
+      "giocatore": "Cancellieri",
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Dele-Bashiru",
+      "giocatore": "Cataldi",
       "titolarita_pct": 5
      },
      {
@@ -946,12 +940,12 @@
      {
       "opzioni": [
        {
-        "giocatore": "Pinamonti",
-        "titolarita_pct": 51
+        "giocatore": "Zaccagni",
+        "titolarita_pct": 60
        },
        {
-        "giocatore": "Zaccagni",
-        "titolarita_pct": 49
+        "giocatore": "Pinamonti",
+        "titolarita_pct": 40
        }
       ]
      }
@@ -971,6 +965,11 @@
       "giocatore": "Marusic",
       "stato": "infortunato",
       "nota": "Ricaduta, in dubbio per la 13a."
+     },
+     {
+      "giocatore": "Taylor K.",
+      "stato": "infortunato",
+      "nota": "Affaticamento muscolare, in dubbio per la 14a."
      }
     ],
     "ufficiale": false
@@ -1643,7 +1642,7 @@
      {
       "giocatore": "Viery",
       "stato": "infortunato",
-      "nota": "Problema muscolare, in dubbio per la 13a."
+      "nota": "Lesione del capo lungo del bicipite femorale della coscia sinistra, in dubbio per la 15a."
      }
     ],
     "ufficiale": false
@@ -1898,15 +1897,15 @@
       "titolarita_pct": 49
      },
      {
+      "giocatore": "Contini",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Badiashile",
       "titolarita_pct": 5
      },
      {
       "giocatore": "Favasuli",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Contini",
       "titolarita_pct": 5
      },
      {
@@ -2580,7 +2579,7 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Boga",
+      "giocatore": "Alajbegovic",
       "titolarita_pct": 51
      }
     ],
@@ -2594,11 +2593,11 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Alajbegovic",
+      "giocatore": "Conceicao",
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Conceicao",
+      "giocatore": "Boga",
       "titolarita_pct": 49
      },
      {
@@ -2658,11 +2657,11 @@
      {
       "opzioni": [
        {
-        "giocatore": "Boga",
+        "giocatore": "Alajbegovic",
         "titolarita_pct": 51
        },
        {
-        "giocatore": "Alajbegovic",
+        "giocatore": "Conceicao",
         "titolarita_pct": 49
        }
       ]
@@ -2740,7 +2739,7 @@
      },
      {
       "giocatore": "Ngom",
-      "titolarita_pct": 51
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Maleh",
@@ -2770,10 +2769,6 @@
      },
      {
       "giocatore": "Monteiro J.",
-      "titolarita_pct": 49
-     },
-     {
-      "giocatore": "Kaba",
       "titolarita_pct": 49
      },
      {
@@ -2829,18 +2824,6 @@
      {
       "opzioni": [
        {
-        "giocatore": "Ngom",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Kaba",
-        "titolarita_pct": 49
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
         "giocatore": "Geubbels",
         "titolarita_pct": 51
        },
@@ -2881,6 +2864,11 @@
       "giocatore": "Pierotti",
       "stato": "infortunato",
       "nota": "Intervento per frattura composta del malleolo mediale della caviglia destra, in dubbio per la 20a."
+     },
+     {
+      "giocatore": "Kaba",
+      "stato": "infortunato",
+      "nota": "Lesione di primo grado al bicipite femorale della coscia destra, in dubbio per la 16a."
      }
     ],
     "ufficiale": false
@@ -3104,13 +3092,13 @@
      },
      {
       "giocatore": "Nzola",
-      "titolarita_pct": 55
+      "titolarita_pct": 51
      }
     ],
     "panchina": [
      {
-      "giocatore": "Kevin Carlos",
-      "titolarita_pct": 45
+      "giocatore": "Mendy P.",
+      "titolarita_pct": 49
      },
      {
       "giocatore": "Radunovic",
@@ -3129,7 +3117,15 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Mina",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Sugawara",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Adopo",
       "titolarita_pct": 5
      },
      {
@@ -3149,6 +3145,10 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Kevin Carlos",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Trepy",
       "titolarita_pct": 5
      }
@@ -3158,40 +3158,25 @@
       "opzioni": [
        {
         "giocatore": "Nzola",
-        "titolarita_pct": 55
+        "titolarita_pct": 51
        },
        {
-        "giocatore": "Kevin Carlos",
-        "titolarita_pct": 45
+        "giocatore": "Mendy P.",
+        "titolarita_pct": 49
        }
       ]
      }
     ],
     "indisponibili": [
      {
-      "giocatore": "Winks",
-      "stato": "infortunato",
-      "nota": "Problema alla schiena, in dubbio per la 13a."
-     },
-     {
       "giocatore": "Felici",
       "stato": "infortunato",
       "nota": "Rottura del legamento crociato anteriore, in dubbio per 34a."
      },
      {
-      "giocatore": "Mina",
-      "stato": "infortunato",
-      "nota": "Lesione muscolare, in dubbio per la 13a."
-     },
-     {
       "giocatore": "Liteta",
       "stato": "infortunato",
       "nota": "Severa distorsione dell’articolazione, con lesione parziale del legamento collaterale mediale e interessamento del legamento crociato anteriore, tempi da definire."
-     },
-     {
-      "giocatore": "Mendy P.",
-      "stato": "infortunato",
-      "nota": "Problema al ginocchio, in dubbio per la 13a."
      }
     ],
     "ufficiale": false
@@ -3267,11 +3252,11 @@
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Christian Comotto",
+      "giocatore": "Cissè A.",
       "titolarita_pct": 5
      },
      {
-      "giocatore": "Cissè A.",
+      "giocatore": "Comotto",
       "titolarita_pct": 5
      },
      {
