@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T18:23:54+00:00",
+ "generatedAt": "2026-11-26T21:44:08+00:00",
  "season": "2026-27",
  "gameweek": 13,
  "note": "Stime calcolate con la sola storia precedente alla giornata 13 della stagione 2026-27. Ogni giocatore porta due stime indipendenti: una costruita a mano e una imparata dai dati. L'app usa la loro media, e il loro disaccordo abbassa la confidenza del consiglio. Lo storico stagionale FantaPlayer, se presente, rafforza con peso decrescente il prior personale. Titolarita', panchina, ballottaggi e indisponibili aggiornati dalle probabili formazioni del momento.",
@@ -5433,7 +5433,7 @@
    "appearances": 12,
    "gameweeksElapsed": 12,
    "estimatedVote": 6.15,
-   "playProbability": 0.829,
+   "playProbability": 0.445,
    "events": {
     "gf": 0.3922,
     "rf": 0.0075,
@@ -5454,7 +5454,7 @@
     "q90": 10.05
    },
    "learnedVote": 6.34,
-   "learnedPlayProbability": 0.829,
+   "learnedPlayProbability": 0.445,
    "learnedEvents": {
     "gf": 0.4469,
     "rf": 0.0253,
@@ -5494,7 +5494,7 @@
    "quotazione": 27.0,
    "fvm": 237.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -10270,7 +10270,7 @@
    "appearances": 8,
    "gameweeksElapsed": 12,
    "estimatedVote": 6.34,
-   "playProbability": 0.044,
+   "playProbability": 0.429,
    "events": {
     "gf": 0.3393,
     "rf": 0.0067,
@@ -10291,7 +10291,7 @@
     "q90": 6.0
    },
    "learnedVote": 6.74,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.429,
    "learnedEvents": {
     "gf": 0.324,
     "rf": 0.0076,
@@ -10331,7 +10331,7 @@
    "quotazione": 5.0,
    "fvm": 24.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -33939,7 +33939,7 @@
    "appearances": 12,
    "gameweeksElapsed": 12,
    "estimatedVote": 6.03,
-   "playProbability": 0.83,
+   "playProbability": 0.446,
    "events": {
     "gf": 0.0299,
     "rf": 0.0002,
@@ -33960,7 +33960,7 @@
     "q90": 6.58
    },
    "learnedVote": 5.87,
-   "learnedPlayProbability": 0.83,
+   "learnedPlayProbability": 0.446,
    "learnedEvents": {
     "gf": 0.038,
     "rf": 0.0015,
@@ -34000,7 +34000,7 @@
    "quotazione": 11.0,
    "fvm": 41.0,
    "lineupSlot": "titolare",
-   "startingProbability": 95.0,
+   "startingProbability": 51.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -34023,7 +34023,7 @@
    "appearances": 4,
    "gameweeksElapsed": 12,
    "estimatedVote": 5.95,
-   "playProbability": 0.044,
+   "playProbability": 0.428,
    "events": {
     "gf": 0.0158,
     "rf": 0.0002,
@@ -34044,7 +34044,7 @@
     "q90": 6.0
    },
    "learnedVote": 5.76,
-   "learnedPlayProbability": 0.044,
+   "learnedPlayProbability": 0.428,
    "learnedEvents": {
     "gf": 0.0261,
     "rf": 0.0015,
@@ -34084,7 +34084,7 @@
    "quotazione": 2.0,
    "fvm": 5.0,
    "lineupSlot": "panchina",
-   "startingProbability": 5.0,
+   "startingProbability": 49.0,
    "status": null,
    "penaltyRank": null,
    "setPieceRank": null,
@@ -48564,6 +48564,22 @@
     {
      "opzioni": [
       {
+       "player_id": "5750",
+       "giocatore": "Ostigard",
+       "titolarita_pct": 51,
+       "ruolo": "D"
+      },
+      {
+       "player_id": "6977",
+       "giocatore": "Otoa",
+       "titolarita_pct": 49,
+       "ruolo": "D"
+      }
+     ]
+    },
+    {
+     "opzioni": [
+      {
        "player_id": "4970",
        "giocatore": "Messias",
        "titolarita_pct": 51,
@@ -49268,11 +49284,126 @@
        "ruolo": "D"
       }
      ]
+    },
+    {
+     "opzioni": [
+      {
+       "player_id": "6397",
+       "giocatore": "Ramos G.",
+       "titolarita_pct": 51,
+       "ruolo": "A"
+      },
+      {
+       "player_id": "6618",
+       "giocatore": "Cissè A.",
+       "titolarita_pct": 49,
+       "ruolo": "C"
+      }
+     ]
     }
    ]
   }
  ],
  "news": [
+  {
+   "title": "Raimondo, ci siamo quasi per il rientro dall'infortunio: ecco la gara che ha messo nel mirino",
+   "summary": "Antonio Raimondo è sempre più vicino al rientro: aggiornamenti importanti sulle condizioni dell'attaccante del Frosinone arrivano da TMW.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/raimondo-frosinone-infortunio-tempi-di-recupero-fantacalcio-quando-torna/",
+   "image": "https://static.sosfanta.com/2026/11/Raimondo-472beee942e8-e1793703279277.jpg",
+   "date": "2026-11-26T21:00:52+00:00"
+  },
+  {
+   "title": "Amorim: “Ramos è uscito perché aveva dolore! Hutchinson non è una sorpresa, su Moreira, De Winter e Tomori...\"",
+   "summary": "Ruben Amorim ha parlato al termine del match di Europa League che ha visto il Milan impegnato in casa dell'Olympiacos. Di seguito ecco le sue dichiarazioni.",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/milan/amorim-milan-conferenza-olympiacos-intervista-ramos-aveva-dolore-hutchinson-dewinter-tomori-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2306366287-c533aac26763-e1795700213977.jpg",
+   "date": "2026-11-26T20:45:28+00:00"
+  },
+  {
+   "title": "Chi schierare in attacco alla tredicesima giornata al fantacalcio: la divisione fascia per fascia",
+   "summary": "Nuova giornata di Serie A e fantacalcio, non possono mancare le indicazioni per gli attaccanti: ecco le nostre fasce e chi schierare, ma anche chi evitare.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/chi-schierare-fantacalcio-attaccanti-tredicesima-giornata-seriea-consigli/",
+   "image": "https://static.sosfanta.com/2026/11/Krstovic-2842a6f9fe47-e1795702419686.jpg",
+   "date": "2026-11-26T20:45:25+00:00"
+  },
+  {
+   "title": "Varela: “Ho seguito la Juve su Instagram dai tempi di Ronaldo. Quando ho visto queste notizie…”",
+   "summary": "Gustavo Varela ha fatto chiarezza sulle voci circolate negli ultimi giorni in merito al suo legame con la Juventus sui social: le sue parole.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/varela-ho-seguito-la-juve-su-instagram-dai-tempi-di-ronaldo-quando-ho-visto-queste-notizie/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2306553723-3b8e867ee686-e1795468677517.jpg",
+   "date": "2026-11-26T20:15:41+00:00"
+  },
+  {
+   "title": "Udinese, le ultime su Davis. Finalmente Alaba: cosa filtra sul suo utilizzo e il ruolo con la Fiorentina",
+   "summary": "David Alaba è recuperato e secondo Il Messaggero Veneto può scendere in campo dal 1’ contro la Fiorentina. Sensazioni positive e tentazione difesa a 4.",
+   "author": "Daniele Najjar",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news/davis-infortunio-udinese-fantacalcio-tempi-di-recupero-alaba-fiorentina/",
+   "image": "https://static.sosfanta.com/2026/10/Davis-3fe5e790a5cb-e1792140788543.jpg",
+   "date": "2026-11-26T20:00:59+00:00"
+  },
+  {
+   "title": "DAI CAMPI - Davis, Miranda, Mina, Raimondo, Alaba, Orsolini, Ostigard, Mendy e l'esito degli esami di Viery",
+   "summary": "È già vigilia della nuova giornata di Serie A e fantacalcio: ecco le ultimissime dai campi, in attesa delle partite europee di stasera.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-davis-miranda-mina-raimondo-alaba-orsolini-ostigard-mendy-esito-degli-esami-viery-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302419478-957ea3949837-e1795715777206.jpg",
+   "date": "2026-11-26T19:45:26+00:00"
+  },
+  {
+   "title": "Giuntoli: “Scamacca ce lo teniamo stretto! Non pensiamo al mercato, sulla rimonta con l'Inter...\"",
+   "summary": "Cristiano Giuntoli ha parlato prima della sfida di Conference League contro il Borac: le dichiarazioni su Scamacca, gli infortunati e il mercato.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/atalanta/giuntoli-scamacca-ce-lo-teniamo-stretto-non-pensiamo-al-mercato-sulla-rimonta-con-linter/",
+   "image": "https://static.sosfanta.com/202605/26b0d51d377b8a1e66220e1e2b5d19e2-scaled-e1778324943956.jpg",
+   "date": "2026-11-26T19:30:45+00:00"
+  },
+  {
+   "title": "Juve e Atalanta, le formazioni ufficiali in Europa: la scelta su Kessié, Conceicao, Rowe, Bremer, Scamacca e McKennie",
+   "summary": "Juventus e Atalanta scendono in campo in Europa e in Conference League: le squadre di Luciano Spalletti e Maurizio Sarri sfidano Omonia Nicosia e Borac. Ecco...",
+   "author": "Michael Di Chiaro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/juventus/juve-atalanta-formazioni-ufficiali-europa-scelta-kessie-conceicao-bremer-scamacca-mckennie-rowe-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2300471074-216bbd18f4a8-e1795703083577.jpg",
+   "date": "2026-11-26T19:15:28+00:00"
+  },
+  {
+   "title": "UFFICIALE - Inter, annunciato il rinnovo del contratto di Carlos Augusto: la nuova durata",
+   "summary": "L'Inter ha ufficializzato il rinnovo di contratto di Carlos Augusto, che dopo un grade inizio di stagione ora festeggia il nuovo accordo con i nerazzurri.",
+   "author": "Tommaso Lerro",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/inter/ufficiale-inter-annunciato-il-rinnovo-del-contratto-di-carlos-augusto-la-nuova-durata/",
+   "image": "https://static.sosfanta.com/2026/10/Carlos-Augusto-633b1b86a18b-e1793434865151.jpg",
+   "date": "2026-11-26T19:00:59+00:00"
+  },
+  {
+   "title": "BREAKING - Lazio, la decisione su Taylor contro il Torino! Così cambia la formazione, per Zaccagni e Noslin...",
+   "summary": "Taylor salta la sfida contro il Torino per infortunio: le novità di Sky Sport sulle condizioni del centrocampista della Lazio e sul suo recupero.",
+   "author": "Francesco Mangiagli",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/squadra/lazio/breaking-lazio-decisione-taylor-contro-torino-cosi-cambia-la-formazione-per-zaccagni-noslin-infortunati-fantacalcio/",
+   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294026117-04233044c7e4-e1792851344899.jpeg",
+   "date": "2026-11-26T18:45:36+00:00"
+  },
+  {
+   "title": "La preview della tredicesima giornata al fantacalcio: partita per partita, chi mettere e chi no",
+   "summary": "Partita per partita, ecco chi schierare alla tredicesima giornata al fantacalcio 2026-2027 con la nostra preview con tutti i giocatori.",
+   "author": "Alessandro Cosattini",
+   "source": "SOS Fanta",
+   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/preview-13a-giornata-seriea-campionato-fantacalcio-tutti-consigli-chi-schierare/",
+   "image": "https://static.sosfanta.com/2026/11/Dybala-b2c6455cb5db-e1795694779834.jpg",
+   "date": "2026-11-26T18:15:51+00:00"
+  },
   {
    "title": "Romano - Napoli, da S. Esposito a Zirkzee: le idee per gennaio e l’intreccio con il Como, per De Bruyne...",
    "summary": "Il Napoli valuta Esposito e Zirkzee per l’attacco in vista di gennaio: gli aggiornamenti di Fabrizio Romano e l’interesse del Como per l’olandese.",
@@ -49283,22 +49414,13 @@
    "date": "2026-11-26T18:00:13+00:00"
   },
   {
-   "title": "DAI CAMPI - Davis, Miranda, Mina, Raimondo, Alaba, Orsolini, Ostigard, Mendy e l'esito degli esami di Viery",
-   "summary": "È già vigilia della nuova giornata di Serie A e fantacalcio: ecco le ultimissime dai campi, in attesa delle partite europee di stasera.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news-formazioni/dai-campi-davis-miranda-mina-raimondo-alaba-orsolini-ostigard-mendy-esito-degli-esami-viery-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2302419478-957ea3949837-e1795715777206.jpg",
-   "date": "2026-11-26T17:55:26+00:00"
-  },
-  {
-   "title": "BREAKING - Lazio, la decisione su Taylor contro il Torino! Così cambia la formazione, per Zaccagni e Noslin...",
-   "summary": "Taylor salta la sfida contro il Torino per infortunio: le novità di Sky Sport sulle condizioni del centrocampista della Lazio e sul suo recupero.",
+   "title": "Potete schierarli! 3 scommesse e 3 certezze al fantacalcio per la 13a giornata di Serie A, non solo Maldini",
+   "summary": "Si avvicina il prossimo turno di Serie A e del fantacalcio. Via libera per queste 3 scommesse e queste 3 certezze per la 13a giornata: potete schierarli.",
    "author": "Francesco Mangiagli",
    "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/lazio/breaking-lazio-decisione-taylor-contro-torino-cosi-cambia-la-formazione-per-zaccagni-noslin-infortunati-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2294026117-04233044c7e4-e1792851344899.jpeg",
-   "date": "2026-11-26T17:45:36+00:00"
+   "url": "https://www.sosfanta.com/consigli-fantacalcio/potete-schierarli-3-scommesse-3-certezze-fantacalcio-13a-giornata-seriea-maldini/",
+   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301108915-ba46fd439f29-e1795610240446.jpg",
+   "date": "2026-11-26T17:15:13+00:00"
   },
   {
    "title": "Como, chi spera di tornare fra Diao e Addai contro la Juve e le ultime sulle condizioni di Caqueret",
@@ -49328,15 +49450,6 @@
    "date": "2026-11-26T16:30:08+00:00"
   },
   {
-   "title": "La preview della tredicesima giornata al fantacalcio: partita per partita, chi mettere e chi no",
-   "summary": "Partita per partita, ecco chi schierare alla tredicesima giornata al fantacalcio 2026-2027 con la nostra preview con tutti i giocatori.",
-   "author": "Alessandro Cosattini",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/chi-schierare-fantacalcio/preview-13a-giornata-seriea-campionato-fantacalcio-tutti-consigli-chi-schierare/",
-   "image": "https://static.sosfanta.com/2026/11/Dybala-b2c6455cb5db-e1795694779834.jpg",
-   "date": "2026-11-26T16:15:51+00:00"
-  },
-  {
    "title": "Dybala e Malen in panchina in Champions: il motivo e il piano per il Monza. Cristante, Lulli e Ghilardi...",
    "summary": "Ieri sono partiti a sorpresa dalla panchina, ma domenica saranno al loro posto: non ha dubbi La Gazzetta dello Sport su Malen e Dybala.",
    "author": "Daniele Najjar",
@@ -49344,15 +49457,6 @@
    "url": "https://www.sosfanta.com/news/dybala-malen-roma-monza-cristante-lulli-ghilardi-fantacalcio/",
    "image": "https://static.sosfanta.com/2026/10/Malen-6188cd450ef3-e1791829224106.jpeg",
    "date": "2026-11-26T16:00:39+00:00"
-  },
-  {
-   "title": "Potete schierarli! 3 scommesse e 3 certezze al fantacalcio per la 13a giornata di Serie A, non solo Maldini",
-   "summary": "Si avvicina il prossimo turno di Serie A e del fantacalcio. Via libera per queste 3 scommesse e queste 3 certezze per la 13a giornata: potete schierarli.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/consigli-fantacalcio/potete-schierarli-3-scommesse-3-certezze-fantacalcio-13a-giornata-seriea-maldini/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2301108915-ba46fd439f29-e1795610240446.jpg",
-   "date": "2026-11-26T15:45:13+00:00"
   },
   {
    "title": "Fiorentina, l'esito degli esami di Viery: c'è lesione! Il comunicato del club viola e i tempi di recupero",
@@ -49560,78 +49664,6 @@
    "url": "https://www.sosfanta.com/squadra/milan/amorim-milan-olympiacos-europa-league/",
    "image": "https://static.sosfanta.com/2026/11/GettyImages-2306477095-e1af3fc4a488-e1795601569557.jpeg",
    "date": "2026-11-25T21:30:55+00:00"
-  },
-  {
-   "title": "Marotta: \"Varela ci piace, ma non solo a noi: è una bella sorpresa! E rispondo sui rinnovi\"",
-   "summary": "Il presidente dell'Inter Beppe Marotta, intervenuto ai microfoni di Sky prima della sfida contro lo Stoccarda. Ecco le sue parole su Varela.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/marotta-varela-ci-piace-rinnovi/",
-   "image": "https://static.sosfanta.com/202606/2ad14bc22810ec21c8bcb7749b3a5216-e1780681663199.jpg",
-   "date": "2026-11-25T21:15:18+00:00"
-  },
-  {
-   "title": "Il messaggio di Mastantuono: \"Chiediamo scusa ai tifosi, siamo più uniti che mai. Questa squadra...\"",
-   "summary": "Franco Mastantuono ha postato un messaggio su Instagram rivolto ai tifosi della Fiorentina dopo la pesante sconfitta contro il Monza per 3-0.",
-   "author": "Tommaso Lerro",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/fiorentina/il-messaggio-di-mastantuno-chiediamo-scusa-ai-tifosi-siamo-piu-uniti-che-mai-questa-squadra/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303186376-d2b4593eacf7-e1795178074468.jpg",
-   "date": "2026-11-25T21:00:22+00:00"
-  },
-  {
-   "title": "Bologna, Miranda ancora a parte: cosa filtra sulla sua gestione a Venezia. Enem ed El Azzouzi...",
-   "summary": "Miranda lavora per tornare a disposizione del Bologna: gli aggiornamenti sulle sue condizioni e sulla possibile gestione contro il Venezia.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/bologna/bologna-miranda-verso-recupero-cosa-filtra-sulla-gestione-venezia-possibilita-dal-primo-minuto-infortunati-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/Miranda-778f565cb106-e1793868274758.jpg",
-   "date": "2026-11-25T20:00:49+00:00"
-  },
-  {
-   "title": "Chivu: \"Vi spiego come sta Thuram e perché ieri si è fermato! Lautaro sta recuperando ed è pronto a...\"",
-   "summary": "Cristian Chivu, tecnico dell'Inter, intervistato da Sky prima della gara contro lo Stoccarda: le sue dichiarazioni sulle condizioni dei suoi attaccanti.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/chivu-come-sta-thuram-lautaro/",
-   "image": "https://static.sosfanta.com/2026/11/Thuram-836aed8ceb46-e1795626802385.jpeg",
-   "date": "2026-11-25T19:45:52+00:00"
-  },
-  {
-   "title": "Cagliari, le novità su Mina, Adopo, Mendy e Winks dopo l'allenamento di oggi verso il Milan",
-   "summary": "Il Cagliari di Fabio Pisacane è sceso oggi in campo al CRAI Sport Center per iniziare a preparare il prossimo impegno di campionato contro il Milan.",
-   "author": "Marco Astori",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/cagliari-novita-mina-adopo-mendy-winks/",
-   "image": "https://static.sosfanta.com/202603/2b2a9d052f66cbba563c4ea3a1a83fe6.png",
-   "date": "2026-11-25T19:30:21+00:00"
-  },
-  {
-   "title": "Inter e Roma, le formazioni ufficiali in Champions: fuori Dimarco e Malen! Le scelte su Thuram, Lautaro e Dybala",
-   "summary": "Le formazioni ufficiali di Inter-Stoccarda e PSG-Roma: ecco le scelte di Chivu e Gasperini per le due sfide di questa sera in Champions League.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/inter/inter-e-roma-le-formazioni-ufficiali-in-champions-fuori-dimarco-e-malen-le-scelte-su-thuram-lautaro-e-dybala/",
-   "image": "https://static.sosfanta.com/2026/10/GettyImages-2290632263-a6445e3265b0-e1791719604579.jpg",
-   "date": "2026-11-25T19:15:12+00:00"
-  },
-  {
-   "title": "Como, le parole di Fabregas sulla gestione dei portieri e Chalobah! E per Diao e Caqueret con la Juve...",
-   "summary": "Dai portieri al rientro di Chalobah, fino al rigore sbagliato da Da Cunha: tutte le spiegazioni di Fabregas dopo la sfida di Champions contro l’AEK.",
-   "author": "Francesco Mangiagli",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/squadra/como/fabregas-sanchez-butez-decido-io-chalobah-non-aveva-90-minuti-dacunha-non-doveva-giocare-sabato-fantacalcio/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2304403011-211a03b7f862-e1795170418598.jpg",
-   "date": "2026-11-25T19:00:56+00:00"
-  },
-  {
-   "title": "Sarri: \"Rispondo su CDK punta! Krstovic, Kolasinac, aspettiamo il vero Rowe e perché Samardzic non gioca\"",
-   "summary": "Il tecnico nerazzurro, Maurizio Sarri, ha parlato in conferenza stampa in vista del match. Ecco di seguito le sue dichiarazioni.",
-   "author": "Daniele Najjar",
-   "source": "SOS Fanta",
-   "url": "https://www.sosfanta.com/news/sarri-atalanta-conference/",
-   "image": "https://static.sosfanta.com/2026/11/GettyImages-2303687349-cc26317b796f-e1795601593129.jpeg",
-   "date": "2026-11-25T18:45:24+00:00"
   }
  ],
  "marketDifficulty": {
