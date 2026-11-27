@@ -1,7 +1,7 @@
 {
  "fonte": "sosfanta.com — probabili formazioni serie a",
  "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
- "scraped_at_utc": "2026-11-27T14:01:10+00:00",
+ "scraped_at_utc": "2026-11-27T18:09:42+00:00",
  "giornata": "2026-11-27T19:45:00.000Z",
  "partite": [
   {
@@ -413,6 +413,10 @@
       "titolarita_pct": 40
      },
      {
+      "giocatore": "Grillitsch",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Desplanches",
       "titolarita_pct": 5
      },
@@ -455,6 +459,10 @@
      {
       "giocatore": "Zerbin",
       "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Raimondo",
+      "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
@@ -487,16 +495,6 @@
      {
       "giocatore": "Kone B.",
       "stato": "indisponibile"
-     },
-     {
-      "giocatore": "Grillitsch",
-      "stato": "infortunato",
-      "nota": "Intervento chirurgico per il trattamento di Sports Hernia destra, in dubbio per la 13a."
-     },
-     {
-      "giocatore": "Raimondo",
-      "stato": "infortunato",
-      "nota": "Lesione multilegamentosa contusivo-distorsiva della caviglia sinistra, in dubbio per la 14a."
      },
      {
       "giocatore": "Gelli F.",
@@ -672,7 +670,7 @@
      {
       "giocatore": "Drobnic",
       "stato": "infortunato",
-      "nota": "Fascite plantare al piede sinistro, in dubbio per la 13a."
+      "nota": "Fascite plantare al piede sinistro, in dubbio per la 14a."
      }
     ],
     "ufficiale": false
@@ -824,7 +822,7 @@
      {
       "giocatore": "Belghali",
       "stato": "infortunato",
-      "nota": "Infiammazione al ginocchio, in dubbio per la 13a."
+      "nota": "Infiammazione al ginocchio, in dubbio per la 14a."
      }
     ],
     "ufficiale": false
@@ -1169,7 +1167,7 @@
      {
       "giocatore": "Bastoni",
       "stato": "infortunato",
-      "nota": "Indolenzimento al quadricipite della coscia sinistra, in dubbio almeno per la 14a."
+      "nota": "Risentimento al quadricipite della coscia sinistra, in dubbio per la 16a."
      }
     ],
     "ufficiale": false
@@ -1320,7 +1318,8 @@
      },
      {
       "giocatore": "Ostigard",
-      "stato": "infortunato"
+      "stato": "infortunato",
+      "nota": "Forte attacco febbrile, in dubbio per la 14a."
      }
     ],
     "ufficiale": false
@@ -1396,22 +1395,6 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Zanoli",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Unai Gomez",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Chakvetadze",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Zarraga",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Mrozek",
       "titolarita_pct": 5
      },
@@ -1424,7 +1407,23 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Zanoli",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Chakvetadze",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Jovanovic",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Unai Gomez",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Zarraga",
       "titolarita_pct": 5
      }
     ],
@@ -1497,7 +1496,7 @@
      {
       "giocatore": "Davis K.",
       "stato": "infortunato",
-      "nota": "Problema muscolare, in dubbio per la 13a."
+      "nota": "Problema muscolare, in dubbio per la 14a."
      }
     ],
     "ufficiale": false
@@ -1531,8 +1530,8 @@
       "titolarita_pct": 95
      },
      {
-      "giocatore": "Oulai",
-      "titolarita_pct": 51
+      "giocatore": "Fagioli",
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Mastantuono",
@@ -1561,24 +1560,8 @@
       "titolarita_pct": 40
      },
      {
-      "giocatore": "Fagioli",
-      "titolarita_pct": 49
-     },
-     {
       "giocatore": "Brescianini",
       "titolarita_pct": 49
-     },
-     {
-      "giocatore": "Valdepenas",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Dodò",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Atta",
-      "titolarita_pct": 5
      },
      {
       "giocatore": "Christensen O.",
@@ -1587,21 +1570,25 @@
      {
       "giocatore": "Lezzerini",
       "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Dodò",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Valdepenas",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Atta",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Oulai",
+      "titolarita_pct": 5
      }
     ],
     "ballottaggi": [
-     {
-      "opzioni": [
-       {
-        "giocatore": "Oulai",
-        "titolarita_pct": 51
-       },
-       {
-        "giocatore": "Fagioli",
-        "titolarita_pct": 49
-       }
-      ]
-     },
      {
       "opzioni": [
        {
@@ -1818,7 +1805,7 @@
      {
       "giocatore": "Adzic",
       "stato": "infortunato",
-      "nota": "Problema al ginocchio, in dubbio per la 14a."
+      "nota": "Operato per piccolo distacco osteo-condrale, stagione finita."
      },
      {
       "giocatore": "Bakola",
@@ -1838,7 +1825,7 @@
      },
      {
       "giocatore": "Spinazzola",
-      "titolarita_pct": 60
+      "titolarita_pct": 95
      },
      {
       "giocatore": "Beukema",
@@ -1879,19 +1866,11 @@
     ],
     "panchina": [
      {
-      "giocatore": "Di Lorenzo",
-      "titolarita_pct": 40
-     },
-     {
       "giocatore": "Marin R.",
       "titolarita_pct": 45
      },
      {
       "giocatore": "Contini",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Badiashile",
       "titolarita_pct": 5
      },
      {
@@ -1919,18 +1898,6 @@
      {
       "opzioni": [
        {
-        "giocatore": "Spinazzola",
-        "titolarita_pct": 60
-       },
-       {
-        "giocatore": "Di Lorenzo",
-        "titolarita_pct": 40
-       }
-      ]
-     },
-     {
-      "opzioni": [
-       {
         "giocatore": "Beukema",
         "titolarita_pct": 55
        },
@@ -1942,6 +1909,15 @@
      }
     ],
     "indisponibili": [
+     {
+      "giocatore": "De Bruyne",
+      "stato": "infortunato"
+     },
+     {
+      "giocatore": "Badiashile",
+      "stato": "infortunato",
+      "nota": "Lesione distrattiva di medio grado, in dubbio per la 14a."
+     },
      {
       "giocatore": "Meret",
       "stato": "infortunato",
@@ -1968,8 +1944,9 @@
       "nota": "Lesione di alto grado del bicipite femorale della coscia sinistra, in dubbio per la 24a."
      },
      {
-      "giocatore": "De Bruyne",
-      "stato": "infortunato"
+      "giocatore": "Di Lorenzo",
+      "stato": "infortunato",
+      "nota": "Lesione distrattiva del muscolo adduttore lungo della coscia sinistra, in dubbio per la 14a."
      }
     ],
     "ufficiale": false
@@ -2429,11 +2406,23 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Addai",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Caqueret",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Lahdo",
       "titolarita_pct": 5
      },
      {
       "giocatore": "Ricci S.",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Diao",
       "titolarita_pct": 5
      }
     ],
@@ -2497,11 +2486,6 @@
       "giocatore": "Kean",
       "stato": "infortunato",
       "nota": "Trattamento finalizzato al pieno recupero del recente fastidio alla tibia, in dubbio per la 20a."
-     },
-     {
-      "giocatore": "Caqueret",
-      "stato": "infortunato",
-      "nota": "Problema muscolare, in dubbio per la 13a."
      }
     ],
     "ufficiale": false
@@ -2750,18 +2734,6 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Gorter",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Gandelman",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Esteban",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Bleve",
       "titolarita_pct": 5
      },
@@ -2783,6 +2755,18 @@
      },
      {
       "giocatore": "Fofana Sa.",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Gandelman",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Gorter",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Esteban",
       "titolarita_pct": 5
      }
     ],
@@ -2910,31 +2894,11 @@
       "titolarita_pct": 49
      },
      {
-      "giocatore": "Bernasconi",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Gaetano",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Samardzic",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Pasalic",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Raspadori",
-      "titolarita_pct": 5
-     },
-     {
-      "giocatore": "Sulemana K.",
-      "titolarita_pct": 5
-     },
-     {
       "giocatore": "Sonzogni",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Bernasconi",
       "titolarita_pct": 5
      },
      {
@@ -2942,7 +2906,27 @@
       "titolarita_pct": 5
      },
      {
+      "giocatore": "Gaetano",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Pasalic",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Samardzic",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Raspadori",
+      "titolarita_pct": 5
+     },
+     {
       "giocatore": "Scamacca",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Sulemana K.",
       "titolarita_pct": 5
      }
     ],
@@ -2998,12 +2982,12 @@
      {
       "giocatore": "Hien",
       "stato": "infortunato",
-      "nota": "Fuori per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in dubbio per la 13a."
+      "nota": "Fuori per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in dubbio per la 14a."
      },
      {
       "giocatore": "Kossounou",
       "stato": "infortunato",
-      "nota": "Lesione di medio-alto grado del bicipite femorale della coscia sinistra, in dubbio per la 13a."
+      "nota": "Lesione di medio-alto grado del bicipite femorale della coscia sinistra, in dubbio per la 14a."
      }
     ],
     "ufficiale": false
@@ -3108,6 +3092,10 @@
      },
      {
       "giocatore": "Massolin",
+      "titolarita_pct": 5
+     },
+     {
+      "giocatore": "Winks",
       "titolarita_pct": 5
      },
      {
